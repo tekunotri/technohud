@@ -5,9 +5,9 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudPlayerHealth"
-		"xpos"			"0"		[$WIN32]
+		"xpos"			"c-225"		[$WIN32]
 		"xpos_minmode"	"-5"		[$WIN32]
-		"ypos"			"r120"	[$WIN32]
+		"ypos"			"c75"	[$WIN32]
 		"ypos_minmode"	"r88"	[$WIN32]
 		"xpos"			"32"	[$X360]
 		"ypos"			"r144"	[$X360]
@@ -30,8 +30,8 @@
 		"zpos"			"4"
 		"wide"			"51"
 		"tall"			"51"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"scaleImage"	"1"
 	}
 	"PlayerStatusHealthImageBG"
@@ -42,9 +42,9 @@
 		"xpos_minmode"	"58"
 		"ypos"			"33"
 		"zpos"			"3"
-		"wide"			"55"
-		"tall"			"55"
-		"visible"		"1"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/health_bg"
 		"scaleImage"	"1"
@@ -53,19 +53,11 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"73"	[$WIN32]
-		"xpos_minmode"	"65"	[$WIN32]
-		"xpos"			"83"	[$X360]
-		"ypos"			"33"	[$WIN32]
-		"ypos_minmode"	"40"	[$WIN32]
-		"ypos"			"43"	[$X360]
+		"xpos"			"85"	[$WIN32]
+		"ypos"			"38"	[$WIN32]
 		"zpos"			"2"
 		"wide"			"55"	[$WIN32]
-		"wide_minmode"	"40"	[$WIN32]
-		"wide"			"35"	[$X360]
 		"tall"			"55"	[$WIN32]
-		"tall_minmode"	"40"	[$WIN32]
-		"tall"			"35"	[$X360]
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/health_over_bg"
@@ -75,28 +67,42 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue"
-		"xpos"			"cs-0.5-120"
-		"xpos_minmode"	"61"
-		"ypos"			"52"	[$WIN32]
+		"xpos"			"66"
+		"ypos"			"45"	[$WIN32]
 		"ypos"			"55"	[$X360]
 		"zpos"			"5"
-		"wide"			"50"
-		"tall"			"18"
+		"wide"			"100"
+		"tall"			"36"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"
-		"font"			"HudFontMediumBold"
+		"font"			"HudFontGiantBold"
 		"fgcolor"		"FullWhite"
+	}
+	"PlayerStatusHealthValue_Shadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"PlayerStatusHealthValue_Shadow"
+		"xpos"			"-1"
+		"ypos"			"-1"	[$WIN32]
+		"zpos"			"5"
+		"wide"			"100"
+		"tall"			"36"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%Health%"
+		"textAlignment"	"center"
+		"font"			"HudFontGiantBold"
+		"fgcolor"		"FullBlack"
+		"pin_to_sibling" "PlayerStatusHealthValue"
 	}
 	"PlayerStatusMaxHealthValue"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusMaxHealthValue"
-		"xpos"			"76"
-		"xpos_minmode"	"61"
-		"ypos"			"20"	[$WIN32]
-		"ypos"			"55"	[$X360]
+		"xpos"			"-55"
+		"ypos"			"12"
 		"zpos"			"6"
 		"wide"			"50"
 		"tall"			"18"
@@ -104,21 +110,27 @@
 		"enabled"		"1"
 		"labelText"		"%MaxHealth%"
 		"textAlignment"	"center"
-		"font"			"DefaultSmall"
-		"fgcolor"		"Gray"
+		"font"			"HudFontSmall"
+		"fgcolor"		"FullWhite"
+		"pin_to_sibling" "PlayerStatusHealthValue"
 	}
-	"StatusEffectAnchor"
+	"PlayerStatusMaxHealthValue_Shadow"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"	"StatusEffectAnchor"
-		"xpos"	"100"
-		"ypos"	"c125"
-		"wide"	"0"
-		"tall"	"0"
-		"visible"	"1"
-		"enabled"	"1"
+		"ControlName"	"CExLabel"
+		"fieldName"		"PlayerStatusMaxHealthValue_Shadow"
+		"xpos"			"-1"
+		"ypos"			"-1"
+		"zpos"			"6"
+		"wide"			"50"
+		"tall"			"18"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%MaxHealth%"
+		"textAlignment"	"center"
+		"font"			"HudFontSmall"
+		"fgcolor"		"FullBlack"
+		"pin_to_sibling" "PlayerStatusMaxHealthValue"
 	}
-
 	"PlayerStatusBleedImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -134,7 +146,6 @@
 		"scaleImage"	"1"
 		"image"			"../vgui/bleed_drop"
 		"fgcolor"		"TanDark"
-		"pin_to_sibling"	"StatusEffectAnchor"
 	}
 	"PlayerStatusHookBleedImage"
 	{
@@ -151,8 +162,6 @@
 		"scaleImage"	"1"
 		"image"			"../vgui/bleed_drop_grapple"
 		"fgcolor"		"TanDark"
-		"pin_to_sibling"	"StatusEffectAnchor"
-
 	}
 	"PlayerStatusMilkImage"
 	{
@@ -169,7 +178,6 @@
 		"scaleImage"	"1"
 		"image"			"../vgui/bleed_drop"
 		"fgcolor"		"TanDark"
-		"pin_to_sibling"	"StatusEffectAnchor"
 	}
 	"PlayerStatusGasImage"
 	{
@@ -186,7 +194,6 @@
 		"scaleImage"	"1"
 		"image"			"../vgui/covered_in_gas"
 		"fgcolor"		"TanDark"
-		"pin_to_sibling"	"StatusEffectAnchor"
 	}
 	"PlayerStatusMarkedForDeathImage"
 	{
@@ -203,7 +210,6 @@
 		"scaleImage"	"1"
 		"image"			"../vgui/marked_for_death"
 		"fgcolor"		"TanDark"
-		"pin_to_sibling"	"StatusEffectAnchor"
 	}
 	"PlayerStatusMarkedForDeathSilentImage"
 	{
@@ -220,7 +226,6 @@
 		"scaleImage"	"1"
 		"image"			"../vgui/marked_for_death"
 		"fgcolor"		"TanDark"
-		"pin_to_sibling"	"StatusEffectAnchor"
 	}
 	"PlayerStatus_MedicUberBulletResistImage"
 	{
@@ -237,7 +242,6 @@
 		"scaleImage"	"1"
 		"image"			"../HUD/defense_buff_bullet_blue"
 		"fgcolor"		"TanDark"
-		"pin_to_sibling"	"StatusEffectAnchor"
 	}
 	"PlayerStatus_MedicUberBlastResistImage"
 	{
@@ -254,7 +258,6 @@
 		"scaleImage"	"1"
 		"image"			"../HUD/defense_buff_explosion_blue"
 		"fgcolor"		"TanDark"
-		"pin_to_sibling"	"StatusEffectAnchor"
 	}
 	"PlayerStatus_MedicUberFireResistImage"
 	{
@@ -271,7 +274,6 @@
 		"scaleImage"	"1"
 		"image"			"../HUD/defense_buff_fire_blue"
 		"fgcolor"		"TanDark"
-		"pin_to_sibling"	"StatusEffectAnchor"
 	}
 
 	"PlayerStatus_MedicSmallBulletResistImage"
@@ -289,7 +291,6 @@
 		"scaleImage"	"1"
 		"image"			"../HUD/defense_buff_bullet_blue"
 		"fgcolor"		"TanDark"
-		"pin_to_sibling"	"StatusEffectAnchor"
 	}
 	"PlayerStatus_MedicSmallBlastResistImage"
 	{
@@ -306,7 +307,6 @@
 		"scaleImage"	"1"
 		"image"			"../HUD/defense_buff_explosion_blue"
 		"fgcolor"		"TanDark"
-		"pin_to_sibling"	"StatusEffectAnchor"
 	}
 	"PlayerStatus_MedicSmallFireResistImage"
 	{
@@ -323,7 +323,6 @@
 		"scaleImage"	"1"
 		"image"			"../HUD/defense_buff_fire_blue"
 		"fgcolor"		"TanDark"
-		"pin_to_sibling"	"StatusEffectAnchor"
 	}
 
 
@@ -343,7 +342,6 @@
 		"scaleImage"	"1"
 		"image"			"../signs/death_wheel_whammy"
 		"fgcolor"		"TanDark"
-		"pin_to_sibling"	"StatusEffectAnchor"
 	}
 
 	"PlayerStatus_SoldierOffenseBuff"
@@ -361,7 +359,6 @@
 		"scaleImage"	"1"
 		"image"			"../HUD/defense_buff_bullet_blue"
 		"fgcolor"		"TanDark"
-		"pin_to_sibling"	"StatusEffectAnchor"
 	}
 
 	"PlayerStatus_SoldierDefenseBuff"
@@ -379,7 +376,6 @@
 		"scaleImage"	"1"
 		"image"			"../HUD/defense_buff_bullet_blue"
 		"fgcolor"		"TanDark"
-		"pin_to_sibling"	"StatusEffectAnchor"
 	}
 
 	"PlayerStatus_SoldierHealOnHitBuff"
@@ -397,7 +393,6 @@
 		"scaleImage"	"1"
 		"image"			"../HUD/defense_buff_bullet_blue"
 		"fgcolor"		"TanDark"
-		"pin_to_sibling"	"StatusEffectAnchor"
 	}
 	"PlayerStatus_SpyMarked"
 	{
@@ -414,7 +409,6 @@
 		"scaleImage"	"1"
 		"image"			""
 		"fgcolor"		"TanDark"
-		"pin_to_sibling"	"StatusEffectAnchor"
 	}
 	"PlayerStatus_Parachute"
 	{
@@ -431,7 +425,6 @@
 		"scaleImage"	"1"
 		"image"			""
 		"fgcolor"		"TanDark"
-		"pin_to_sibling"	"StatusEffectAnchor"
 	}
 	"PlayerStatus_RuneStrength"
 	{
@@ -448,7 +441,6 @@
 		"scaleImage"	"1"
 		"image"			"../Effects/powerup_strength_hud"
 		"fgcolor"		"TanDark"
-		"pin_to_sibling"	"StatusEffectAnchor"
 	}
 	"PlayerStatus_RuneHaste"
 	{
@@ -465,7 +457,6 @@
 		"scaleImage"	"1"
 		"image"			"../Effects/powerup_haste_hud"
 		"fgcolor"		"TanDark"
-		"pin_to_sibling"	"StatusEffectAnchor"
 	}
 	"PlayerStatus_RuneRegen"
 	{
@@ -482,7 +473,6 @@
 		"scaleImage"	"1"
 		"image"			"../Effects/powerup_regen_hud"
 		"fgcolor"		"TanDark"
-		"pin_to_sibling"	"StatusEffectAnchor"
 	}
 	"PlayerStatus_RuneResist"
 	{
@@ -499,7 +489,6 @@
 		"scaleImage"	"1"
 		"image"			"../Effects/powerup_resist_hud"
 		"fgcolor"		"TanDark"
-		"pin_to_sibling"	"StatusEffectAnchor"
 	}
 	"PlayerStatus_RuneVampire"
 	{
@@ -516,7 +505,6 @@
 		"scaleImage"	"1"
 		"image"			"../Effects/powerup_vampire_hud"
 		"fgcolor"		"TanDark"
-		"pin_to_sibling"	"StatusEffectAnchor"
 	}
 	"PlayerStatus_RuneReflect"
 	{
@@ -533,7 +521,6 @@
 		"scaleImage"	"1"
 		"image"			"../Effects/powerup_reflect_hud"
 		"fgcolor"		"TanDark"
-		"pin_to_sibling"	"StatusEffectAnchor"
 	}
 	"PlayerStatus_RunePrecision"
 	{
@@ -550,7 +537,6 @@
 		"scaleImage"	"1"
 		"image"			"../Effects/powerup_precision_hud"
 		"fgcolor"		"TanDark"
-		"pin_to_sibling"	"StatusEffectAnchor"
 	}
 	"PlayerStatus_RuneAgility"
 	{
@@ -567,7 +553,6 @@
 		"scaleImage"	"1"
 		"image"			"../Effects/powerup_agility_hud"
 		"fgcolor"		"TanDark"
-		"pin_to_sibling"	"StatusEffectAnchor"
 	}
 	"PlayerStatus_RuneKnockout"
 	{
@@ -584,7 +569,6 @@
 		"scaleImage"	"1"
 		"image"			"../Effects/powerup_knockout_hud"
 		"fgcolor"		"TanDark"
-		"pin_to_sibling"	"StatusEffectAnchor"
 	}
 	"PlayerStatus_RuneKing"
 	{
@@ -601,7 +585,6 @@
 		"scaleImage"	"1"
 		"image"			"../Effects/powerup_king_hud"
 		"fgcolor"		"TanDark"
-		"pin_to_sibling"	"StatusEffectAnchor"
 	}
 	"PlayerStatus_RunePlague"
 	{
@@ -618,7 +601,6 @@
 		"scaleImage"	"1"
 		"image"			"../Effects/powerup_plague_hud"
 		"fgcolor"		"TanDark"
-		"pin_to_sibling"	"StatusEffectAnchor"
 	}
 	"PlayerStatus_RuneSupernova"
 	{
@@ -635,7 +617,6 @@
 		"scaleImage"	"1"
 		"image"			"../Effects/powerup_supernova_hud"
 		"fgcolor"		"TanDark"
-		"pin_to_sibling"	"StatusEffectAnchor"
 	}
 	"PlayerStatusSlowed"
 	{
@@ -652,6 +633,5 @@
 		"scaleImage"	"1"
 		"image"			"../vgui/slowed"
 		"fgcolor"		"TanDark"
-		"pin_to_sibling"	"StatusEffectAnchor"
 	}
 }

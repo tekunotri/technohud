@@ -1,17 +1,137 @@
-"lang"
+"Lang"
 {
-"Language" "English"
-"Tokens"
-{
-"chat_filterbutton"	"Filters"
-"filter_joinleave"	"Joins/Leaves"
-"filter_namechange"	"Name Changes"
-"filter_publicchat"	"Public Chat"
-"filter_servermsg"	"Server Messages"
-"filter_teamchange"	"Team Changes"
-"filter_achievement" "Achievement Announce"
-"chat_say"				"Say :"
-"chat_say_team"			"Say (TEAM) :"
-"chat_say_party"		"Say (PARTY) :"
-}
+	"Language" "English"
+
+	"Tokens"
+	{
+		//=========================================================================================
+		// DEFAULTS
+		//=========================================================================================
+		"chat_filterbutton"									"Filters"
+		"filter_joinleave"									"Joins/Leaves"
+		"filter_namechange"									"Name Changes"
+		"filter_publicchat"									"Public Chat"
+		"filter_servermsg"									"Server Messages"
+		"filter_teamchange"									"Team Changes"
+		"filter_achievement"								"Achievement Announce"
+		"chat_say"											"Say :"
+		"chat_say_team"										"Say (TEAM) :"
+		"chat_say_party"									"Say (PARTY) :"
+
+		//=========================================================================================
+		// REMOVES THE SCOREBOARD TIMELEFT TEXT TO ONLY LEAVE THE NUMBERS
+		//=========================================================================================
+		// "Scoreboard_TimeLeft"							"%s1:%s2:%s3"
+		// "Scoreboard_TimeLeftNoHours"						"%s1:%s2"
+		// "Scoreboard_NoTimeLimit"							""
+		// "Scoreboard_TimeLeftLabel"						""
+		// "Scoreboard_TimeLeftNew"							"%s1:%s2:%s3"
+		// "Scoreboard_TimeLeftNoHoursNew"					"%s1:%s2"
+		// "Scoreboard_NoTimeLimitNew"						""
+		// "Scoreboard_ChangeOnRoundEndNew"					""
+
+		//=========================================================================================
+		// SHORTER MEDIGUN NAME
+		//=========================================================================================
+		"TF_playerid_mediccharge"							"%s1%"
+		"TF_playerid_mediccharge_wpn"						"%s1% (%s2)"
+		"TF_playerid_object_upgrading"						"%s1"
+		"TF_playerid_object_upgrading_level"				"(Level %s1) %s2"
+
+		//=========================================================================================
+		// REMOVES "HEALER" LABEL
+		//=========================================================================================
+		//"TF_playerid_healer"								""
+
+		//=========================================================================================
+		// REMOVES "HEALING" LABEL
+		//=========================================================================================
+		"TF_playerid_healtarget"							""
+
+		//=========================================================================================
+		// SHORTER RESPAWN LABEL
+		//=========================================================================================
+		"game_respawntime_now"								"Respawning"
+		"game_respawntime_in_sec"							"Respawn: 1"
+		"game_respawntime_in_secs"							"Respawn: %s1"
+		"game_respawntime_stalemate"						"No Respawn"
+		"game_respawntime_next_round"						""
+		"TF_Arena_NoRespawning"								"No Respawn"
+
+		//=========================================================================================
+		// SPELL ACTION KEY LABEL
+		//=========================================================================================
+		"TF_Spell_Action"									"[%use_action_slot_item%]"
+
+		//=========================================================================================
+		// DISGUISE TEAM TOGGLE LABEL
+		//=========================================================================================
+		"Hud_Menu_Spy_Minus_Toggle"							"Hit '%disguiseteam%' to Toggle Team"
+
+		//=========================================================================================
+		// TAUNT LABEL
+		//=========================================================================================
+		"Hud_Menu_Taunt_Weapon"								"Hit '%taunt%' to Taunt"
+
+		//=========================================================================================
+		// MEDIGUN NAMES
+		//=========================================================================================
+
+		"TF_Weapon_Medigun"									"⁠Medi Gun"
+		"TF_Weapon_Medigun_Resist"							" Vaccinator"
+		"TF_Unique_MediGun_Resist"							" Vaccinator"
+		"TF_Unique_Achievement_Medigun1"					" Kritzkrieg"
+		"TF_Unique_MediGun_QuickFix"						" Quick-Fix"
+
+		"TF_Weapon_Medigun_Festive2011"						"⁠Festive Medi Gun"
+		"TF_Weapon_Medigun_IntermediateMVMLoot"				"⁠Rust Botkiller Medi Gun Mk.I"
+		"TF_Weapon_Medigun_IntermediateMvMRareLoot"			"⁠Blood Botkiller Medi Gun Mk.I"
+		"TF_Weapon_Medigun_AdvancedMVMLoot"					"⁠Silver Botkiller Medi Gun Mk.I"
+		"TF_Weapon_Medigun_AdvancedMVMRareLoot"				"⁠Gold Botkiller Medi Gun Mk.I"
+		"TF_Weapon_Medigun_ExpertMVMLoot"					"⁠Carbonado Botkiller Medi Gun Mk.I"
+		"TF_Weapon_Medigun_ExpertMVMRareLoot"				"⁠Diamond Botkiller Medi Gun Mk.I"
+		"TF_Weapon_Medigun_AdvancedMVMLoot_Engineer"		"⁠Silver Botkiller Medi Gun Mk.II"
+		"TF_Weapon_Medigun_AdvancedMVMRareLoot_Engineer"	"⁠Gold Botkiller Medi Gun Mk.II"
+				"TF_Weapon_Medigun_AdvancedMVMRareLoot_Engineer"	"⁠Gold Botkiller Medi Gun Mk.II"
+
+		//=========================================================================================
+		// TEAM/CHAT STUFF
+		//=========================================================================================
+
+		"game_player_joined_game"	"+ %s1"
+		"game_player_left_game"		"- %s1 (%s2)"
+		"game_player_joined_team"	"%s1 >> %s2"
+		"game_player_joined_team_party_leader"	"%s1 >> %s2"
+		"game_player_joined_autoteam" "%s1 >> %s2"
+		"game_player_joined_autoteam_party_leader" "%s1 >> %s2"
+		"TF_Chat_Team_Loc"		"[Team] %s1 @ %s3 :  %s2"
+		"TF_Chat_Team"			"[Team] %s1 :  %s2"
+		"TF_Chat_Team_Dead"		"[Dead/Team] %s1 :  %s2"
+		"TF_Chat_Spec"			"[Spec] %s1 :  %s2"
+		"TF_Chat_All"			"%s1 :  %s2"
+		"TF_Chat_AllDead"		"[Dead] %s1 :  %s2"
+		"TF_Chat_AllSpec"		"[Spec] %s1 :  %s2"
+		"TF_Chat_Coach"			"[Coach] %s1 :  %s2"
+		"TF_Name_Change"		"* %s1 changed name to %s2"
+		"TF_Class_Change"		"* %s1 changed class to %s2"
+
+
+		//=========================================================================================
+		// OBITUARY FEED SETTINGS (from bothud)
+		//=========================================================================================
+		"DeathMsg_Suicide"		"died"				//"bid farewell, cruel world!"
+		"DeathMsg_AssistedSuicide"	"ended"
+		"DeathMsg_AssistedSuicide_Multiple"	"ended"
+		"DeathMsg_Fall"			"found the ground"			//"fell to a clumsy, painful death"
+		"Msg_Captured"			"capped"			//"captured"
+		"Msg_Captured_Multiple"	"capped"			//"captured"
+		"Msg_Defended"			"blocked"			//"defended"
+
+		//=========================================================================================
+		// MISC
+		//=========================================================================================
+
+		"TF_Competitive_LevelTier1"					"L: %s1 - T: 1"
+		"TF_Competitive_Level"						"L: %s1 - T: %s2"
+	}
 }
