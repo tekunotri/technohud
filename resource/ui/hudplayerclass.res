@@ -110,10 +110,10 @@
 		"xpos"			"41"	[$X360]
 		"ypos"			"r82"	[$X360]
 		"zpos"			"1"
-		"wide"			"109"
-		"tall"			"50"
-		"visible"		"1"
-		"enabled"		"1"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"0"
 		"scaleImage"	"1"
 		"image"				"../hud/character_red_bg_clipped"
 		"teambg_2"			"../hud/character_red_bg_clipped"
@@ -129,8 +129,7 @@
 
 		"xpos"			"0"	[$WIN32]
 		"xpos_minmode"	"0"	[$WIN32]
-		"ypos"			"r214"	[$WIN32]
-		"ypos_minmode"	"r88"	[$WIN32]
+		"ypos"			"r184"	[$WIN32]
 		"zpos"			"2"
 		"wide"			"100"
 		"wide_minmode"	"52"
