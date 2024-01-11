@@ -5,7 +5,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudPlayerHealth"
-		"xpos"			"c-225"		[$WIN32]
+		"xpos"			"c-255"		[$WIN32]
 		"xpos_minmode"	"-5"		[$WIN32]
 		"ypos"			"c75"	[$WIN32]
 		"ypos_minmode"	"r88"	[$WIN32]

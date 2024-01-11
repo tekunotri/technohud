@@ -638,6 +638,19 @@ Scheme{
 				"antialias" "1"
 			}
 		}
+
+		"TargetData"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"9"
+				"weight"	"0"
+				"additive"	"0"
+				"antialias" "1"
+				"dropshadow" "1"
+			}
+		}
 		"FontStorePriceSmall"
 		{
 			"1"
