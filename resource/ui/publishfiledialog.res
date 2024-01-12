@@ -65,7 +65,7 @@
 		"bgcolor_override"	"57 52 49 255"
 	}
 
-	"Title"	
+	"Title"
 	{
 		"ControlName"		"Label"
 		"fieldName"		"Title"
@@ -86,7 +86,7 @@
 		"font"		"HudFontMediumBold"
 	}
 
-	"LabelPreview"	
+	"LabelPreview"
 	{
 		"ControlName"		"Label"
 		"fieldName"		"LabelPreview"
@@ -221,9 +221,9 @@
 		"fgcolor_override"	"0 0 0 255"
 		"bgcolor_override"	"235 226 202 255"
 		"paintbackgroundtype" "2"
-		"font"		"HudFontSmall"
+		"font"		"HudFont14"
 	}
-		
+
 	"LabelDesc"
 	{
 		"ControlName"		"Label"
@@ -265,7 +265,7 @@
 		"fgcolor_override"	"0 0 0 255"
 		"bgcolor_override"	"235 226 202 255"
 		"paintbackgroundtype" "2"
-		"font"		"HudFontSmall"
+		"font"		"HudFont14"
 	}
 
 	"LabelSourceFile"
@@ -288,7 +288,7 @@
 		"wrap"		"0"
 		"font"		"HudFontSmallBold"
 	}
-	
+
 	"SourceFile"
 	{
 		"ControlName"		"Label"
@@ -308,7 +308,7 @@
 		"maxchars"		"256"
 		"NumericInputOnly"		"0"
 		"unicode"		"0"
-		"font"		"HudFontSmall"
+		"font"		"HudFont14"
 	}
 
 	"ButtonSourceCosmetics"
@@ -344,7 +344,7 @@
 			"tall"			"25"
 			"scaleImage"	"1"
 			"image"			"importtool_goldstar"
-		}	
+		}
 	}
 
 	"ButtonSourceOther"
@@ -648,7 +648,7 @@
 			"brighttext"	"0"
 			"smallcheckimage" "1"
 			"disabledfgcolor2_override"	"117 107 94 255"
-		}	
+		}
 
 		"TagCheckbox_Headgear"
 		{
@@ -775,7 +775,7 @@
 			"brighttext"	"0"
 			"smallcheckimage" "1"
 			"disabledfgcolor2_override"	"117 107 94 255"
-		}		
+		}
 		"TagCheckbox_Taunt"
 		{
 			"ControlName"	"CheckButton"
@@ -838,7 +838,7 @@
 			"brighttext"	"0"
 			"smallcheckimage" "1"
 			"disabledfgcolor2_override"	"117 107 94 255"
-		}		
+		}
 		"TagCheckbox_Jungle"
 		{
 			"ControlName"	"CheckButton"

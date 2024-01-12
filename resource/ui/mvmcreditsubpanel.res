@@ -1,5 +1,5 @@
 "Resource/UI/MvMCreditSubPanel.res"
-{	
+{
 	"HeaderLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -13,7 +13,7 @@
 		"tall"			"15"
 		"fgcolor"		"tanlight"
 	}
-		
+
 	"TableBackground"
 	{
 		"ControlName"	"EditablePanel"
@@ -26,12 +26,12 @@
 		"visible"		"1"
 		"bgcolor_override"		"20 20 20 50"
 	}
-	
+
 	"CreditCollectedTextLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CreditCollectedTextLabel"
-		"font"			"HudFontSmall"
+		"font"			"HudFont14"
 		"labelText"		"#TF_PVE_Collected"
 		"textAlignment" "north-west"
 		"xpos"			"10"
@@ -40,12 +40,12 @@
 		"tall"			"20"
 		"fgcolor"		"tanlight"
 	}
-	
+
 	"CreditCollectedCountLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CreditCollectedCountLabel"
-		"font"			"HudFontSmall"
+		"font"			"HudFont14"
 		"labelText"		"%creditscollected%"
 		"textAlignment" "north-east"
 		"xpos"			"100"
@@ -54,12 +54,12 @@
 		"tall"			"20"
 		"fgcolor"		"CreditsGreen"
 	}
-	
+
 	"CreditMissedTextLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CreditMissedTextLabel"
-		"font"			"HudFontSmall"
+		"font"			"HudFont14"
 		"labelText"		"#TF_PVE_Missed"
 		"textAlignment" "north-west"
 		"xpos"			"10"
@@ -68,12 +68,12 @@
 		"tall"			"20"
 		"fgcolor"		"tanlight"
 	}
-	
+
 	"CreditMissedCountLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CreditMissedCountLabel"
-		"font"			"HudFontSmall"
+		"font"			"HudFont14"
 		"labelText"		"%creditsmissed%"
 		"textAlignment" "north-east"
 		"xpos"			"100"
@@ -82,12 +82,12 @@
 		"tall"			"20"
 		"fgcolor"		"RedSolid"
 	}
-	
+
 	"CreditBonusTextLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CreditBonusTextLabel"
-		"font"			"HudFontSmall"
+		"font"			"HudFont14"
 		"labelText"		"#TF_PVE_Bonus"
 		"textAlignment" "north-west"
 		"xpos"			"10"
@@ -96,12 +96,12 @@
 		"tall"			"20"
 		"fgcolor"		"tanlight"
 	}
-	
+
 	"CreditBonusCountLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CreditBonusCountLabel"
-		"font"			"HudFontSmall"
+		"font"			"HudFont14"
 		"labelText"		"%creditbonus%"
 		"textAlignment" "north-east"
 		"xpos"			"100"
@@ -110,7 +110,7 @@
 		"tall"			"20"
 		"fgcolor"		"CreditsGreen"
 	}
-		
+
 	"CreditRatingLabelShadow"
 	{
 		"ControlName"	"CExLabel"
@@ -124,7 +124,7 @@
 		"tall"			"20"
 		"fgcolor"		"Black"
 	}
-	
+
 	"CreditRatingLabel"
 	{
 		"ControlName"	"CExLabel"

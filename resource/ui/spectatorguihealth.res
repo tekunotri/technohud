@@ -49,7 +49,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"6"
+		"xpos"			"10"
 		"ypos"			"4"
 		"zpos"			"3"
 		"wide"			"24"
@@ -75,6 +75,8 @@
 		"textAlignment"	"center"
 		"font"			"HudFontSmallBold"
 		"fgcolor"		"FullWhite"
+		"HealthDeathWarningColor"	"HUDDeathWarning"
+
 	}
 	"PlayerStatusHealthValue_Shadow"
 	{

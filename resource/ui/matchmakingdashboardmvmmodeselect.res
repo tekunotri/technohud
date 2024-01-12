@@ -135,7 +135,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"PlayForBraggingRightsExplanation"
-			"font"			"HudFontSmall"
+			"font"			"HudFont14"
 			"fgcolor_override"	"TanLight"
 			"labelText"		"#TF_MvM_BraggingRightsExplaination"
 			"textAlignment"	"north-west"
@@ -256,7 +256,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"PlayOnCommunityServerExplanation"
-			"font"			"HudFontSmall"
+			"font"			"HudFont14"
 			"fgcolor_override"	"TanLight"
 			"labelText"		"#TF_MvM_PracticeExplaination"
 			"textAlignment"	"north-west"

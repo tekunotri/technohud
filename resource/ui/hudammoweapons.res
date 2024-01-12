@@ -42,7 +42,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInClip"
-		"font"			"HudFontGiantBold"
+		"font"			"HudFont44Bold"
 		"fgcolor"		"FullWhite"
 		"xpos"			"c100"
 		"xpos_minmode"	"8"
@@ -63,7 +63,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInClipShadow"
-		"font"			"HudFontGiantBold"
+		"font"			"HudFont44Bold"
 		"fgcolor"		"FullBlack"
 		"xpos"			"-1"
 		"ypos"			"-1"
@@ -82,9 +82,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInReserve"
-		"font"			"HudFontMediumSmall"
-		"font_lodef"	"HudFontMedium"
-		"font_minmode"	"HudFontSmall"
+		"font"			"HudFont18"
 		"fgcolor"		"FullWhite"
 		"xpos"			"c155"
 		"ypos"			"r120"
@@ -101,9 +99,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInReserveShadow"
-		"font"			"HudFontMediumSmall"
-		"font_lodef"	"HudFontMedium"
-		"font_minmode"	"HudFontSmall"
+		"font"			"HudFont18"
 		"fgcolor"		"FullBlack"
 		"xpos"			"-1"
 		"ypos"			"-1"
@@ -121,7 +117,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoNoClip"
-		"font"			"HudFontGiantBold"
+		"font"			"HudFont44Bold"
 		"fgcolor"		"FullWhite"
 		"xpos"			"c100"
 		"ypos"			"r125"
@@ -141,7 +137,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoNoClipShadow"
-		"font"			"HudFontGiantBold"
+		"font"			"HudFont44Bold"
 		"fgcolor"		"FullBlack"
 		"xpos"			"-1"
 		"ypos"			"-1"

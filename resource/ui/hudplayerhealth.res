@@ -77,7 +77,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"
-		"font"			"HudFontGiantBold"
+		"font"			"HudFont44Bold"
 		"fgcolor"		"FullWhite"
 	}
 	"PlayerStatusHealthValue_Shadow"
@@ -93,7 +93,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"
-		"font"			"HudFontGiantBold"
+		"font"			"HudFont44Bold"
 		"fgcolor"		"FullBlack"
 		"pin_to_sibling" "PlayerStatusHealthValue"
 	}
@@ -110,7 +110,7 @@
 		"enabled"		"1"
 		"labelText"		"%MaxHealth%"
 		"textAlignment"	"center"
-		"font"			"HudFontSmall"
+		"font"			"HudFont14"
 		"fgcolor"		"FullWhite"
 		"pin_to_sibling" "PlayerStatusHealthValue"
 	}
@@ -127,7 +127,7 @@
 		"enabled"		"1"
 		"labelText"		"%MaxHealth%"
 		"textAlignment"	"center"
-		"font"			"HudFontSmall"
+		"font"			"HudFont14"
 		"fgcolor"		"FullBlack"
 		"pin_to_sibling" "PlayerStatusMaxHealthValue"
 	}

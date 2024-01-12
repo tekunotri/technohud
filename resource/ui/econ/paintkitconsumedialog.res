@@ -33,7 +33,7 @@
 	{
 		"ControlName"	"Label"
 		"fieldName"		"DescText"
-		"font"			"HudFontSmall"
+		"font"			"HudFont14"
 		"labelText"		"#TF_UsePaintkit_Panel_Desc"
 		"textAlignment"	"north"
 		"xpos"			"cs-0.5"
@@ -258,7 +258,7 @@
 		"armedFgColor_override"		"Econ.Button.ArmedFgColor"
 		"depressedBgColor_override"	"Econ.Button.DepressedBgColor"
 		"depressedFgColor_override"	"Econ.Button.DepressedFgColor"
-	}		
+	}
 
 	"ConfirmButton"
 	{
@@ -291,5 +291,5 @@
 		"armedFgColor_override"		"Econ.Button.ArmedFgColor"
 		"depressedBgColor_override"	"Econ.Button.DepressedBgColor"
 		"depressedFgColor_override"	"Econ.Button.DepressedFgColor"
-	}			
+	}
 }

@@ -57,7 +57,7 @@
 		"enabled"		"1"
 		"labelText"		""
 		"textAlignment"		"center"
-		"font"			"HudFontSmall"
+		"font"			"HudFont14"
 		"wrap"			"1"
 		"centerwrap"	"1"
 	}
@@ -65,7 +65,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"MapLabel"
-		"font"			"HudFontSmall"
+		"font"			"HudFont14"
 		"font_hidef"		"HudFontMedium"
 		"xpos"			"r260"	[$WIN32]
 		"ypos"			"16"	[$WIN32]
@@ -142,7 +142,7 @@
 		"textAlignment_lodef"		"north-west"
 		"font"			"SpectatorKeyHints"
 		"font_hidef"	"HudFontSmallest"
-		"font_lodef"	"HudFontSmall"
+		"font_lodef"	"HudFont14"
 		"wrap_lodef"			"1"
 	}
 	"SwitchCamModeKeyLabel"
@@ -297,7 +297,7 @@
 		"textAlignment"		"center"	[$WIN32]
 		"textAlignment"		"north-west"	[$X360]
 		"font"			"SpectatorKeyHints"
-		"font_hidef"	"HudFontSmall"
+		"font_hidef"	"HudFont14"
 		"font_lodef"	"DefaultVerySmall"
 		"wrap"			"1"
 	}

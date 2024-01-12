@@ -1,10 +1,10 @@
 "Resource/UI/build_menu/base.res"
 {
 	"ItemNameLabel"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ItemNameLabel"
-		"font"			"HudFontSmall"
+		"font"			"HudFont14"
 		"xpos"			"6"
 		"ypos"			"0"
 		"zpos"			"1"
@@ -31,12 +31,12 @@
 		"tall"			"105"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"icon"			"hud_menu_item_bg"
 		"iconColor"		"ProgressOffWhite"
 	}
-	
-	"BuildingIcon"	
+
+	"BuildingIcon"
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"BuildingIcon"
@@ -47,12 +47,12 @@
 		"tall"			"56"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"icon"			"hud_menu_sentry_build"
 		"iconColor"		"255 255 255 255"
 	}
-	
-	"MetalIcon"	
+
+	"MetalIcon"
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"MetalIcon"
@@ -63,13 +63,13 @@
 		"tall"			"10"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"icon"			"ico_metal"
 		"iconColor"		"TanDarker"
 	}
-	
+
 	"CostLabel"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CostLabel"
 		"font"			"HudFontMediumSmallSecondary"
@@ -84,6 +84,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%metal%"
-		"textAlignment"	"Left"	
+		"textAlignment"	"Left"
 	}
 }

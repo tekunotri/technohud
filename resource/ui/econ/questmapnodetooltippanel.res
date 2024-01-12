@@ -42,10 +42,10 @@
 				"wide"			"f0"
 				"tall"			"f0"
 				"zpos"			"1"
-				"font"			"HudFontSmall"
+				"font"			"HudFont14"
 				"TextAlignment"		"north"
 				"proportionaltoparent" "1"
-			}	
+			}
 
 			"QuestNameLabel"
 			{
@@ -57,7 +57,7 @@
 				"wide"			"f0"
 				"tall"			"f0"
 				"zpos"			"1"
-				"font"			"HudFontSmall"
+				"font"			"HudFont14"
 				"TextAlignment"		"north"
 				"proportionaltoparent" "1"
 			}

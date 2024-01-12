@@ -1,5 +1,5 @@
 "Resource/UI/HudObjectiveFlagPanel.res"
-{	
+{
 	"ObjectiveStatusRobotDestruction"
 	{
 		"ControlName"		"EditablePanel"
@@ -18,7 +18,7 @@
 		"robot_y_offset"		"47"
 		"robot_x_step"			"23"
 		"robot_y_step"			"0"
-		
+
 
 		"color_blue"			"84 111 127 255"
 		"color_red"				"171 59 59 255"
@@ -42,8 +42,8 @@
 			"AutoResize" "0"
 			"skip_autoresize" "1"
 		}
-	}	
-	
+	}
+
 	"PlayingTo"
 	{
 		"ControlName"	"CExLabel"
@@ -62,25 +62,25 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"HudFontSmall"
+		"font"			"HudFont14"
 		"fgcolor"		"TanLight"
-		
+
 		"if_hybrid"
 		{
 			"visible"	"0"
 		}
-		
+
 		"if_mvm"
 		{
 			"visible"	"0"
 		}
-		
+
 		"if_specialdelivery"
 		{
 			"visible"	"0"
 		}
-	}	
-			
+	}
+
 	"PlayingToBG"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -98,18 +98,18 @@
 		"enabled"		"1"
 		"image"			"../hud/objectives_flagpanel_bg_playingto"
 		"image_hidef"	"../hud/objectives_flagpanel_bg_playingto_hidef"
-		"scaleImage"	"1"	
-		
+		"scaleImage"	"1"
+
 		"if_hybrid"
 		{
 			"visible"	"0"
 		}
-		
+
 		"if_mvm"
 		{
 			"visible"	"0"
 		}
-		
+
 		"if_specialdelivery"
 		{
 			"visible"	"0"
@@ -128,7 +128,7 @@
 		"visible"			"0"
 		"enabled"			"1"
 		"bgcolor_override"		"0 0 0 0"
-	
+
 		"CarriedImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -143,7 +143,7 @@
 			"image"			"../hud/obj_rd_powersupply_outline"
 			"scaleImage"	"1"
 			"proportionalToParent"	"1"
-		}	
+		}
 
 		"CarriedProgressBar"
 		{
@@ -181,14 +181,14 @@
 			"tall_lodef"	"75"
 			"visible"		"1"
 			"enabled"		"1"
-			"textAlignment"	"center"	
+			"textAlignment"	"center"
 			"labelText"		"%flagvalue%"
 			"font"			"HudFontMediumBold"
 			"font_hidef"	"HudFontGiant"
 			"font_lodef"	"HudFontGiant"
-			"fgcolor"		"TanLight"	
-			"proportionalToParent"	"1"	
-		}	
+			"fgcolor"		"TanLight"
+			"proportionalToParent"	"1"
+		}
 
 		"FlagValueShadow"
 		{
@@ -203,13 +203,13 @@
 			"tall_lodef"	"75"
 			"visible"		"1"
 			"enabled"		"1"
-			"textAlignment"	"center"	
+			"textAlignment"	"center"
 			"labelText"		"%flagvalue%"
 			"font"			"HudFontMediumBold"
 			"font_hidef"	"HudFontGiant"
 			"font_lodef"	"HudFontGiant"
-			"fgcolor"		"Black"	
-			"proportionalToParent"	"1"	
+			"fgcolor"		"Black"
+			"proportionalToParent"	"1"
 		}
 	}
 
@@ -238,7 +238,7 @@
 			"visible"				"1"
 			"enabled"				"1"
 			"proportionalToParent"	"1"
-		
+
 			"ScoreOutline"
 			{
 				"fieldName"				"ScoreOutline"
@@ -279,10 +279,10 @@
 					"tall"			"35"
 					"visible"		"1"
 					"enabled"		"1"
-					"textAlignment"	"west"	
+					"textAlignment"	"west"
 					"labelText"		"#TF_RD_BlueFinale"
 					"font"			"HudFontSmallBold"
-					"fgcolor"		"TanLight"		
+					"fgcolor"		"TanLight"
 					"proportionalToParent"	"1"
 				}
 
@@ -297,10 +297,10 @@
 					"tall"			"35"
 					"visible"		"1"
 					"enabled"		"1"
-					"textAlignment"	"west"	
+					"textAlignment"	"west"
 					"labelText"		"#TF_RD_BlueFinale"
 					"font"			"HudFontSmallBold"
-					"fgcolor"		"Black"		
+					"fgcolor"		"Black"
 					"proportionalToParent"	"1"
 				}
 
@@ -315,15 +315,15 @@
 					"tall"			"35"
 					"visible"		"1"
 					"enabled"		"1"
-					"textAlignment"	"west"	
+					"textAlignment"	"west"
 					"labelText"		"%victorytime%"
 					"font"			"HudFontSmallBold"
-					"fgcolor"		"TanLight"		
+					"fgcolor"		"TanLight"
 					"proportionalToParent"	"1"
 
 					"pin_to_sibling"               "VictoryLabel"
-					"pin_corner_to_sibling"        "7"          
-					"pin_to_sibling_corner"        "5"  
+					"pin_corner_to_sibling"        "7"
+					"pin_to_sibling_corner"        "5"
 				}
 
 				"VictoryLabelTimeShadow"
@@ -337,15 +337,15 @@
 					"tall"			"35"
 					"visible"		"1"
 					"enabled"		"1"
-					"textAlignment"	"west"	
+					"textAlignment"	"west"
 					"labelText"		"%victorytime%"
 					"font"			"HudFontSmallBold"
-					"fgcolor"		"Black"		
+					"fgcolor"		"Black"
 					"proportionalToParent"	"1"
 
 					"pin_to_sibling"               "VictoryLabel"
-					"pin_corner_to_sibling"        "7"          
-					"pin_to_sibling_corner"        "5"  
+					"pin_corner_to_sibling"        "7"
+					"pin_to_sibling_corner"        "5"
 				}
 			}
 
@@ -423,10 +423,10 @@
 					"tall"			"35"
 					"visible"		"1"
 					"enabled"		"1"
-					"textAlignment"	"west"	
+					"textAlignment"	"west"
 					"labelText"		"#TF_RD_RedFinale"
 					"font"			"HudFontSmallBold"
-					"fgcolor"		"TanLight"		
+					"fgcolor"		"TanLight"
 					"proportionalToParent"	"1"
 				}
 
@@ -441,10 +441,10 @@
 					"tall"			"35"
 					"visible"		"1"
 					"enabled"		"1"
-					"textAlignment"	"west"	
+					"textAlignment"	"west"
 					"labelText"		"#TF_RD_RedFinale"
 					"font"			"HudFontSmallBold"
-					"fgcolor"		"Black"		
+					"fgcolor"		"Black"
 					"proportionalToParent"	"1"
 				}
 
@@ -459,15 +459,15 @@
 					"tall"			"35"
 					"visible"		"1"
 					"enabled"		"1"
-					"textAlignment"	"west"	
+					"textAlignment"	"west"
 					"labelText"		"%victorytime%"
 					"font"			"HudFontSmallBold"
-					"fgcolor"		"TanLight"		
+					"fgcolor"		"TanLight"
 					"proportionalToParent"	"1"
 
 					"pin_to_sibling"               "VictoryLabel"
-					"pin_corner_to_sibling"        "7"          
-					"pin_to_sibling_corner"        "5"  
+					"pin_corner_to_sibling"        "7"
+					"pin_to_sibling_corner"        "5"
 				}
 
 				"VictoryLabelTimeShadow"
@@ -481,15 +481,15 @@
 					"tall"			"35"
 					"visible"		"1"
 					"enabled"		"1"
-					"textAlignment"	"west"	
+					"textAlignment"	"west"
 					"labelText"		"%victorytime%"
 					"font"			"HudFontSmallBold"
-					"fgcolor"		"Black"		
+					"fgcolor"		"Black"
 					"proportionalToParent"	"1"
 
 					"pin_to_sibling"               "VictoryLabel"
-					"pin_corner_to_sibling"        "7"          
-					"pin_to_sibling_corner"        "5"  
+					"pin_corner_to_sibling"        "7"
+					"pin_to_sibling_corner"        "5"
 				}
 			}
 
@@ -569,15 +569,15 @@
 				"tall"			"35"
 				"visible"		"1"
 				"enabled"		"1"
-				"textAlignment"	"west"	
+				"textAlignment"	"west"
 				"labelText"		"%score%"
 				"font"			"HudFontMediumBold"
 				"font_hidef"	"HudFontGiant"
 				"font_lodef"	"HudFontGiant"
-				"fgcolor"		"TanLight"		
+				"fgcolor"		"TanLight"
 				"proportionalToParent"	"1"
-			}	
-		
+			}
+
 			"ScoreShadow"
 			{
 				"ControlName"	"CExLabel"
@@ -589,12 +589,12 @@
 				"tall"			"35"
 				"visible"		"1"
 				"enabled"		"1"
-				"textAlignment"	"west"	
+				"textAlignment"	"west"
 				"labelText"		"%score%"
 				"font"			"HudFontMediumBold"
 				"font_hidef"	"HudFontGiant"
 				"font_lodef"	"HudFontGiant"
-				"fgcolor"		"Black"		
+				"fgcolor"		"Black"
 				"proportionalToParent"	"1"
 			}
 		}
@@ -624,15 +624,15 @@
 				"tall"			"35"
 				"visible"		"1"
 				"enabled"		"1"
-				"textAlignment"	"east"	
+				"textAlignment"	"east"
 				"labelText"		"%score%"
 				"font"			"HudFontMediumBold"
 				"font_hidef"	"HudFontGiant"
 				"font_lodef"	"HudFontGiant"
-				"fgcolor"		"TanLight"	
-				"proportionalToParent"	"1"	
-			}	
-		
+				"fgcolor"		"TanLight"
+				"proportionalToParent"	"1"
+			}
+
 			"ScoreShadow"
 			{
 				"ControlName"	"CExLabel"
@@ -644,12 +644,12 @@
 				"tall"			"35"
 				"visible"		"1"
 				"enabled"		"1"
-				"textAlignment"	"east"	
+				"textAlignment"	"east"
 				"labelText"		"%score%"
 				"font"			"HudFontMediumBold"
 				"font_hidef"	"HudFontGiant"
 				"font_lodef"	"HudFontGiant"
-				"fgcolor"		"Black"		
+				"fgcolor"		"Black"
 				"proportionalToParent"	"1"
 			}
 		}
@@ -682,7 +682,7 @@
 				"image"			"../HUD/obj_thief_red"
 				"scaleImage"	"1"
 				"proportionalToParent"	"1"
-			}	
+			}
 
 			"DroppedIntelContainer"
 			{
@@ -696,7 +696,7 @@
 				"visible"			"1"
 				"enabled"			"1"
 				"bgcolor_override"		"0 0 0 0"
-				
+
 				"proportionalToParent"	"1"
 
 				"DroppedIntelImage"
@@ -727,10 +727,10 @@
 				"tall"			"20"
 				"visible"		"1"
 				"enabled"		"1"
-				"textAlignment"	"center"	
+				"textAlignment"	"center"
 				"labelText"		"%intelvalue%"
 				"font"			"HudFontSmallishBold"
-				"fgcolor"		"TanLight"		
+				"fgcolor"		"TanLight"
 				"bgcolor_override"		"0 0 0 0"
 				"proportionalToParent"	"1"
 			}
@@ -746,9 +746,9 @@
 				"tall"			"20"
 				"visible"		"1"
 				"enabled"		"1"
-				"textAlignment"	"center"	
+				"textAlignment"	"center"
 				"labelText"		"%intelvalue%"
-				"font"			"HudFontSmallishBold"	
+				"font"			"HudFontSmallishBold"
 				"fgcolor"		"Black"
 				"proportionalToParent"	"1"
 			}
@@ -782,7 +782,7 @@
 				"image"			"../HUD/obj_thief_blue"
 				"scaleImage"	"1"
 				"proportionalToParent"	"1"
-			}	
+			}
 
 			"DroppedIntelContainer"
 			{
@@ -796,7 +796,7 @@
 				"visible"			"1"
 				"enabled"			"1"
 				"bgcolor_override"		"0 0 0 0"
-				
+
 				"proportionalToParent"	"1"
 
 				"DroppedIntelImage"
@@ -827,10 +827,10 @@
 				"tall"			"20"
 				"visible"		"1"
 				"enabled"		"1"
-				"textAlignment"	"center"	
+				"textAlignment"	"center"
 				"labelText"		"%intelvalue%"
 				"font"			"HudFontSmallishBold"
-				"fgcolor"		"TanLight"		
+				"fgcolor"		"TanLight"
 				"bgcolor_override"		"0 0 0 0"
 				"proportionalToParent"	"1"
 			}
@@ -846,10 +846,10 @@
 				"tall"			"20"
 				"visible"		"1"
 				"enabled"		"1"
-				"textAlignment"	"center"	
+				"textAlignment"	"center"
 				"labelText"		"%intelvalue%"
-				"font"			"HudFontSmallishBold"	
-				"fgcolor"		"Black"	
+				"font"			"HudFontSmallishBold"
+				"fgcolor"		"Black"
 				"proportionalToParent"	"1"
 			}
 		}

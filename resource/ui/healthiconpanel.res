@@ -11,8 +11,8 @@
 		"wide"			"32"
 		"tall"			"32"
 		"visible"		"1"
-		"enabled"		"1"	
-		"TFFont"		"HudFontSmall"
+		"enabled"		"1"
+		"TFFont"		"HudFont14"
 		"TextColor"		"HudOffWhite"
 		"autoResize"	"1"
 	}
@@ -27,9 +27,9 @@
 		"wide"			"128"
 		"tall"			"128"
 		"visible"		"1"
-		"enabled"		"1"	
-		"TFFont"		"HudFontSmall"
+		"enabled"		"1"
+		"TFFont"		"HudFont14"
 		"TextColor"		"HudOffWhite"
 		"autoResize"	"1"
-	}	
+	}
 }

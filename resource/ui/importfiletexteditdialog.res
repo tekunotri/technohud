@@ -36,7 +36,7 @@
 		"zpos"		"-1"
 		"wide"		"540"
 		"tall"		"280"
-		"font"		"HudFontSmall"
+		"font"		"HudFont14"
 		"textAlignment"	"north-west"
 		"labelText"		""
 		"bgcolor_override"		"0 0 0 255"

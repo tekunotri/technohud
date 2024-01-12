@@ -432,7 +432,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TipSubLabel"
-			"font"			"HudFontSmall"
+			"font"			"HudFont14"
 			"labelText"		"%tipsubtext%"
 			"textAlignment"	"center"
 			"xpos"			"20"
@@ -946,7 +946,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"MOTD_Label"
-			"font"			"HudFontSmall"
+			"font"			"HudFont14"
 			"labelText"		"%motddate%"
 			"textAlignment"	"north-west"
 			"xpos"			"10"
@@ -1030,7 +1030,7 @@
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"MOTD_TextLabel"
-					"font"			"HudFontSmall"
+					"font"			"HudFont14"
 					"labelText"		"%motdtext%"
 					"textAlignment"	"north-west"
 					"xpos"			"0"

@@ -1,6 +1,6 @@
 "Resource/UI/build_menu/base_selectable.res"
 {
-	"MainBackground"	
+	"MainBackground"
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"MainBackground"
@@ -11,13 +11,13 @@
 		"tall"			"135"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"icon"			"hud_menu_item_bg"
 		"iconColor"		"128 128 128 255"
 	}
-	
+
 	"ItemNameLabel"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ItemNameLabel"
 		"font"			"Default"
@@ -49,12 +49,12 @@
 		"tall"			"135"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"icon"			"hud_menu_item_bg"
 		"iconColor"		"ProgressOffWhite"
 	}
-	
-	"BuildingIcon"	
+
+	"BuildingIcon"
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"BuildingIcon"
@@ -65,12 +65,12 @@
 		"tall"			"56"
 		"visible"		"0"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"icon"			"hud_menu_sentry_build"
 		"iconColor"		"255 255 255 255"
 	}
-	
-	"MetalIcon"	
+
+	"MetalIcon"
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"MetalIcon"
@@ -81,16 +81,16 @@
 		"tall"			"10"
 		"visible"		"0"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"icon"			"ico_metal"
 		"iconColor"		"TanDarker"
 	}
-	
+
 	"CostLabel"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CostLabel"
-		"font"			"HudFontSmall"
+		"font"			"HudFont14"
 		"fgcolor"		"TanDarker"
 		"xpos"			"23"
 		"ypos"			"78"
@@ -102,6 +102,6 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"%metal%"
-		"textAlignment"	"Left"	
+		"textAlignment"	"Left"
 	}
 }

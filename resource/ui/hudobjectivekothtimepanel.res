@@ -1,5 +1,5 @@
 "Resource/UI/HudObjectiveKothTimePanel.res"
-{	
+{
 	"HudKothTimeStatus"
 	{
 		if_match
@@ -44,13 +44,13 @@
 			"delta_lifetime"		"1.5"
 			"delta_item_font"		"HudFontMediumSmall"
 		}
-		
+
 		"TimePanelValue"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
 			"font"			"HudFontMediumSmall"
-			"font_minmode"	"HudFontSmall"
+			"font_minmode"	"HudFont14"
 			"font_lodef"	"HudFontMedium"
 			"fgcolor"		"TanLight"
 			"xpos"			"23"
@@ -82,12 +82,12 @@
 				"tall"			"10"
 				"wide"			"35"
 				"wide_minmode"	"35"
-				"font"			"HudFontSmall"
-				"font_minmode"	"HudFontSmall"
-				"font_lodef"	"HudFontSmall"
-			
+				"font"			"HudFont14"
+				"font_minmode"	"HudFont14"
+				"font_lodef"	"HudFont14"
+
 			}
-		}	
+		}
 	}
 
 	"RedTimer"
@@ -126,13 +126,13 @@
 			"delta_lifetime"		"1.5"
 			"delta_item_font"		"HudFontMediumSmall"
 		}
-		
+
 		"TimePanelValue"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
 			"font"			"HudFontMediumSmall"
-			"font_minmode"	"HudFontSmall"
+			"font_minmode"	"HudFont14"
 			"font_lodef"	"HudFontMedium"
 			"fgcolor"		"TanLight"
 			"xpos"			"23"
@@ -164,14 +164,14 @@
 				"wide"			"35"
 				"wide_minmode"	"35"
 				"tall"			"10"
-				"font"			"HudFontSmall"
-				"font_minmode"	"HudFontSmall"
-				"font_lodef"	"HudFontSmall"
-			
+				"font"			"HudFont14"
+				"font_minmode"	"HudFont14"
+				"font_lodef"	"HudFont14"
+
 			}
-		}	
+		}
 	}
-	
+
 	"ActiveTimerBG"
 	{
 		"ControlName"		"ImagePanel"
@@ -186,7 +186,7 @@
 		"tall_minmode"		"21"
 		"visible"			"0"
 		"enabled"			"1"
-		"image"				"../hud/objectives_timepanel_active_bg"	
-		"scaleImage"		"1"	
+		"image"				"../hud/objectives_timepanel_active_bg"
+		"scaleImage"		"1"
 	}
 }

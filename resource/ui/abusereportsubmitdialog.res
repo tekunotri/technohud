@@ -38,7 +38,7 @@
 		"wide"		"170"
 		"tall"		"20"
 		"editable"		"0"
-		"font"			"HudFontSmall"
+		"font"			"HudFont14"
 	}
 
 	"PlayerRadio"
@@ -52,7 +52,7 @@
 		"wide"		"170"
 		"tall"		"20"
 		"editable"		"0"
-		"font"			"HudFontSmall"
+		"font"			"HudFont14"
 	}
 
 	"PlayerLabel"
@@ -66,7 +66,7 @@
 		"wide"		"170"
 		"tall"		"15"
 		"editable"		"0"
-		"font"			"HudFontSmall"
+		"font"			"HudFont14"
 	}
 
 	"PlayerComboBox"
@@ -79,7 +79,7 @@
 		"wide"		"170"
 		"tall"		"15"
 		"editable"		"0"
-		"font"			"HudFontSmall"
+		"font"			"HudFont14"
 
 		//"fgcolor_override"	"235 226 202 255"
 		"bgcolor_override"	"0 0 0 255"
@@ -101,7 +101,7 @@
 		"wide"		"170"
 		"tall"		"15"
 		"editable"		"0"
-		"font"			"HudFontSmall"
+		"font"			"HudFont14"
 	}
 
 	"AbuseContentComboBox"
@@ -114,7 +114,7 @@
 		"wide"		"170"
 		"tall"		"15"
 		"editable"		"0"
-		"font"			"HudFontSmall"
+		"font"			"HudFont14"
 
 		//"fgcolor_override"	"235 226 202 255"
 		"bgcolor_override"	"0 0 0 255"
@@ -136,7 +136,7 @@
 		"wide"		"170"
 		"tall"		"15"
 		"editable"		"0"
-		"font"			"HudFontSmall"
+		"font"			"HudFont14"
 	}
 
 	"AbuseTypeComboBox"
@@ -149,7 +149,7 @@
 		"wide"		"170"
 		"tall"		"15"
 		"editable"		"0"
-		"font"			"HudFontSmall"
+		"font"			"HudFont14"
 
 		//"fgcolor_override"	"235 226 202 255"
 		"bgcolor_override"	"0 0 0 255"
@@ -182,7 +182,7 @@
 		"wide"			"360"
 		"tall"			"18"
 		"labelText"		"Screenshot shows abuse; upload it with report."
-		"font"			"HudFontSmall"
+		"font"			"HudFont14"
 		"textAlignment"	"west"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -212,7 +212,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#AbuseReport_NoAvatar"
-		"font"			"HudFontSmall"
+		"font"			"HudFont14"
 		"centerwrap"	"1"
 	}
 
@@ -251,8 +251,8 @@
 		"Command"		"prevcustomtexture"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-	}	
-	
+	}
+
 	"CustomTextureNextButton"
 	{
 		"ControlName"	"CExButton"
@@ -276,8 +276,8 @@
 		"Command"		"nextcustomtexture"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-	}	
-	
+	}
+
 	"NoCustomTexturesLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -289,7 +289,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#AbuseReport_NoCustomTextures"
-		"font"			"HudFontSmall"
+		"font"			"HudFont14"
 		"centerwrap"	"1"
 	}
 
@@ -304,7 +304,7 @@
 		"wide"		"140"
 		"tall"		"15"
 		"editable"		"0"
-		"font"		"HudFontSmall"
+		"font"		"HudFont14"
 	}
 
 	"DescriptionTextEntry"
@@ -316,7 +316,7 @@
 		"zpos"		"-1"
 		"wide"		"540"
 		"tall"		"90"
-		"font"		"HudFontSmall"
+		"font"		"HudFont14"
 		//"bgcolor_override"		"117 107 95 255"
 		"bgcolor_override"		"0 0 0 255"
 		"fgcolor_override"		"202 190 164 255"

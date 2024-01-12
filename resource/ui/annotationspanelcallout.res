@@ -8,11 +8,11 @@
 			"right"		"../hud/freezecam_callout_arrow_right"
 			"down"		"../hud/freezecam_callout_arrow"
 		}
-		
+
 //		"bgcolor_override"	"255 0 0 255"
 //		"PaintBackgroundType"	"1"
 	}
-	
+
 	"CalloutBG"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -25,21 +25,21 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/color_panel_brown"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"teambg_2"		"../hud/color_panel_red"	// Reversed, due to showing killer's name
 		"teambg_3"		"../hud/color_panel_blu"	// Reversed, due to showing killer's name
-		
+
 		"src_corner_height"		"23"				// pixels inside the image
 		"src_corner_width"		"23"
-			
+
 		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"		
+		"draw_corner_height" 	"5"
 	}
 	"CalloutLabel"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CalloutLabel"
-		"font"			"HudFontSmall"
+		"font"			"HudFont14"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"2"
@@ -64,10 +64,10 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/freezecam_callout_arrow"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 	}
 	"DistanceLabel"
-	{	
+	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"DistanceLabel"
 		"font"			"HudFontSmallest"

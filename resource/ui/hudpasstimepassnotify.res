@@ -1,4 +1,4 @@
-// enum PinCorner_e 
+// enum PinCorner_e
 // {
 // 	PIN_TOPLEFT = 0,
 // 	PIN_TOPRIGHT,
@@ -99,7 +99,7 @@ Resource/UI/HudPasstimePassNotify.res
 		{
 			ControlName 			CExLabel
 			fieldName 				TextPlayerName
-			font 					HudFontSmall
+			font 					HudFont14
 			xpos 					0
 			ypos 					40
 			zpos 					3
@@ -110,7 +110,7 @@ Resource/UI/HudPasstimePassNotify.res
 			textAlignment 			center
 			labelText 				"WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW"
 			fgcolor_override 		"224 217 197 180"
-		}	
+		}
 	}
 
 	PassLockIndicator

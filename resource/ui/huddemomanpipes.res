@@ -114,7 +114,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"font"			"HudFontMedium"
-			"font_minmode"	"HudFontSmall"
+			"font_minmode"	"HudFont14"
 			"fgcolor"		"FullWhite"
 			"font_lodef"	"HudFontMediumBig"
 		}
@@ -138,7 +138,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"font"			"HudFontMedium"
-			"font_minmode"	"HudFontSmall"
+			"font_minmode"	"HudFont14"
 			"font_lodef"	"HudFontMediumBig"
 			"fgcolor"		"FullBlack"
 			"pin_to_sibling" "NumPipesLabel"
@@ -197,7 +197,7 @@
 			"dulltext"		"1"
 			"brighttext"	"0"
 			"font"			"HudFontMedium"
-			"font_minmode"	"HudFontSmall"
+			"font_minmode"	"HudFont14"
 			"font_lodef"	"HudFontMediumBig"
 			"fgcolor"		"FullWhite"
 
@@ -224,7 +224,7 @@
 			"dulltext"		"1"
 			"brighttext"	"0"
 			"font"			"HudFontMedium"
-			"font_minmode"	"HudFontSmall"
+			"font_minmode"	"HudFont14"
 			"font_lodef"	"HudFontMediumBig"
 			"fgcolor"		"FullBlack"
 		}

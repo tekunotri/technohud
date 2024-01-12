@@ -12,7 +12,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/objectives_flagpanel_bg_left"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 	}
 
 	"RightSideBG"
@@ -27,9 +27,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/objectives_flagpanel_bg_right"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 	}
-		
+
 	"OutlineBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -42,9 +42,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/objectives_flagpanel_bg_outline"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 	}
-	
+
 	"BlueScore"
 	{
 		"ControlName"	"CExLabel"
@@ -56,12 +56,12 @@
 		"tall"			"35"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"west"	
+		"textAlignment"	"west"
 		"labelText"		"%bluescore%"
 		"font"			"HudFontBig"
 		"fgcolor"		"TanLight"
-	}	
-		
+	}
+
 	"BlueScoreShadow"
 	{
 		"ControlName"	"CExLabel"
@@ -73,12 +73,12 @@
 		"tall"			"35"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"west"	
+		"textAlignment"	"west"
 		"labelText"		"%bluescore%"
 		"font"			"HudFontBig"
 		"fgcolor"		"Black"
-	}	
-							
+	}
+
 	"RedScore"
 	{
 		"ControlName"	"CExLabel"
@@ -90,12 +90,12 @@
 		"tall"			"35"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"east"	
+		"textAlignment"	"east"
 		"labelText"		"%redscore%"
 		"font"			"HudFontBig"
-		"fgcolor"		"TanLight"		
-	}	
-		
+		"fgcolor"		"TanLight"
+	}
+
 	"RedScoreShadow"
 	{
 		"ControlName"	"CExLabel"
@@ -107,12 +107,12 @@
 		"tall"			"35"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"east"	
+		"textAlignment"	"east"
 		"labelText"		"%redscore%"
 		"font"			"HudFontBig"
-		"fgcolor"		"Black"		
-	}	
-															
+		"fgcolor"		"Black"
+	}
+
 	"PlayingTo"
 	{
 		"ControlName"	"CExLabel"
@@ -128,10 +128,10 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"HudFontSmall"
+		"font"			"HudFont14"
 		"fgcolor"		"TanLight"
-	}	
-			
+	}
+
 	"PlayingToBG"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -144,7 +144,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/objectives_flagpanel_bg_playingto"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 	}
 
 	"GameImage"
@@ -159,6 +159,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			""
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 	}
 }

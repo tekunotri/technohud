@@ -1,7 +1,7 @@
 "Resource/UI/build_menu/base_cant_afford.res"
 {
 	"ItemNameLabel"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ItemNameLabel"
 		"font"			"Default"
@@ -20,8 +20,8 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}
-	
-	"ItemBackground"	
+
+	"ItemBackground"
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"ItemBackground"
@@ -32,13 +32,13 @@
 		"tall"			"105"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"icon"			"hud_menu_item_bg_outline"
 		"iconColor"		"ProgressOffWhiteTransparent"
 	}
-	
+
 	"CantBuildReason"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CantBuildReason"
 		"font"			"Default"
@@ -55,8 +55,8 @@
 		"labelText"		"#Hud_Menu_Build_Cant_Afford"
 		"textAlignment"	"Center"
 	}
-	
-	"MetalIcon"	
+
+	"MetalIcon"
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"MetalIcon"
@@ -67,16 +67,16 @@
 		"tall"			"10"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"icon"			"ico_metal"
 		"iconColor"		"RedSolid"
 	}
-	
+
 	"CostLabel"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CostLabel"
-		"font"			"HudFontSmall"
+		"font"			"HudFont14"
 		"fgcolor"		"RedSolid"
 		"xpos"			"23"
 		"ypos"			"17"
@@ -90,9 +90,9 @@
 		"labelText"		"%metal%"
 		"textAlignment"	"Left"
 	}
-	
+
 	"ModeLabel"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ModeLabel"
 		"font"			"DefaultSmall"
@@ -107,10 +107,10 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		""
-		"textAlignment"	"East"	
+		"textAlignment"	"East"
 	}
-	
-	"NumberBg"	
+
+	"NumberBg"
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"NumberBg"
@@ -121,13 +121,13 @@
 		"tall"			"18"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"icon"			"ico_key_blank"
 		"iconColor"		"255 255 255 255"
 	}
-	
+
 	"NumberLabel"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
 		"font"			"HudMenuNumberFont"

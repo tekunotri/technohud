@@ -18,7 +18,7 @@
 		"bgcolor_override"				"46 43 42 0"
 		"infocus_bgcolor_override"		"46 43 42 0"
 		"outoffocus_bgcolor_override"	"46 43 42 0"
-		
+
 		"title"			"#StoreTitle"
 		"title_font"	"HudFontMediumBold"
 		"titletextinsetX"	"40"
@@ -26,11 +26,11 @@
 		"titlebarfgcolor_override"				"200 187 161 255"
 		"titlebardisabledfgcolor_override"		"200 187 161 255"
 		"titlebarbgcolor_override"				"46 43 42 255"
-		
+
 		"clientinsetx_override"			"0"
 		"sheetinset_bottom"				"40"
 	}
-	
+
 	"BackgroundHeader"
 	{
 		"ControlName"	"ImagePanel"
@@ -44,7 +44,7 @@
 		"enabled"		"1"
 		"image"			"loadout_header"
 		"tileImage"		"1"
-	}				
+	}
 	"BackgroundFooter"
 	{
 		"ControlName"	"ImagePanel"
@@ -58,7 +58,7 @@
 		"enabled"		"1"
 		"image"			"loadout_bottom_gradient"
 		"tileImage"		"1"
-	}				
+	}
 	"FooterLine"
 	{
 		"ControlName"	"ImagePanel"
@@ -72,8 +72,8 @@
 		"enabled"		"1"
 		"image"			"loadout_solid_line"
 		"scaleImage"	"1"
-	}				
-	
+	}
+
 	"Sheet"
 	{
 		"ControlName"	"EditablePanel"
@@ -84,7 +84,7 @@
 		"tabheight"		"20"
 		"yoffset"		"14"
 		"transition_time" "0"
-		
+
 		"HeaderLine"
 		{
 			"ControlName"	"ImagePanel"
@@ -98,22 +98,22 @@
 			"enabled"		"1"
 			"image"			"loadout_solid_line"
 			"scaleImage"	"1"
-		}				
-		
+		}
+
 		"tabskv"
 		{
 			"textinsetx"		"6"
 			"textAlignment"		"center"
 			"font"				"HudFontSmallBold"
 			"selectedcolor"		"200 187 161 255"
-			"unselectedcolor"	"130 120 104 255"	
+			"unselectedcolor"	"130 120 104 255"
 			"defaultBgColor_override"	"46 43 42 255"
 			"paintbackground"	"0"
 			"activeborder_override"	"OutlinedGreyBox"
 			"normalborder_override" "OutlinedDullGreyBox"
 		}
 	}
-	
+
 	"CloseButton"
 	{
 		"ControlName"	"CExButton"
@@ -137,8 +137,8 @@
 		"Command"		"close"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-	}		
-	
+	}
+
 	"armory_panel"
 	{
 		"ControlName"		"CArmoryPanel"
@@ -173,7 +173,7 @@
 		"zpos"			"5"
 		"wide"			"25"
 		"tall"			"25"
-		"font"			"HudFontSmall"
+		"font"			"HudFont14"
 		"labelText"		""
 		"visible"		"0"
 	}
@@ -193,7 +193,7 @@
 		"labelText"			"#Store_ConfirmStampDonationAddTitle"
 		"visible"			"0"
 	}
-	
+
 	"CheckoutButton"
 	{
 		"ControlName"	"CExButton"
@@ -217,6 +217,6 @@
 		"Command"		"checkout"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-	}	
-	
+	}
+
 }

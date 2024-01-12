@@ -19,7 +19,7 @@
 		"teambg_3"		"../hud/death_panel_blue_bg"
 	}
 	"SwitchLabel"
-	{	
+	{
 		"ControlName"		"Label"
 		"fieldName"		"SwitchLabel"
 		"font"			"HudFontSmallBold"
@@ -38,10 +38,10 @@
 		"textAlignment"		"North"
 	}
 	"GoalLabel"
-	{	
+	{
 		"ControlName"		"Label"
 		"fieldName"		"GoalLabel"
-		"font"			"HudFontSmall"
+		"font"			"HudFont14"
 		"xpos"			"80"
 		"ypos"			"35"
 		"zpos"			"1"

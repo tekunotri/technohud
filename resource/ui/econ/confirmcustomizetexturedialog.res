@@ -43,13 +43,13 @@
 			"noitem_textcolor"		"117 107 94 255"
 			"PaintBackgroundType"	"2"
 			"paintborder"	"1"
-			
+
 			"text_ypos"			"20"
 			"text_center"		"1"
 			"model_hide"		"1"
 			"resize_to_text"	"1"
 			"padding_height"	"15"
-			
+
 			"attriblabel"
 			{
 				"font"			"ItemFontAttribLarge"
@@ -95,9 +95,9 @@
 			"tileImage"		"0"
 			"tileVertically" "0"
 			"drawcolor"		"112 176 74 255"
-		}				
+		}
 		"tool_modelpanel"
-		{		
+		{
 			"ControlName"	"CItemModelPanel"
 			"fieldName"		"tool_modelpanel"
 			"xpos"			"10"
@@ -123,7 +123,7 @@
 				"use_item_rendertarget" "0"
 				"allow_rot"				"0"
 			}
-		}	
+		}
 		"TitleLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -169,10 +169,10 @@
 			"tileImage"		"0"
 			"tileVertically" "0"
 			"drawcolor"		"71 98 145 255"
-		}	
+		}
 
 		"subject_modelpanel"
-		{		
+		{
 			"ControlName"	"CItemModelPanel"
 			"fieldName"		"subject_modelpanel"
 			"xpos"			"465"
@@ -197,7 +197,7 @@
 				"use_item_rendertarget" "0"
 				"allow_rot"				"0"
 			}
-		}	
+		}
 
 		// Dynamically sized and moded based on the current page
 		"paint_model"
@@ -271,7 +271,7 @@
 				"UseAvatarRadio"
 				{
 					"ControlName"		"RadioButton"
-					"fieldName"			"UseAvatarRadio"	
+					"fieldName"			"UseAvatarRadio"
 					"xpos"				"10"
 					"ypos"				"10"
 					"wide"				"330"
@@ -314,7 +314,7 @@
 				{
 					"ControlName"		"CExLabel"
 					"fieldName"		"ForBestResultsLabel"
-					"font"			"HudFontSmall"
+					"font"			"HudFont14"
 					"xpos"		"40"
 					"ypos"		"140"
 					"wide"		"300"
@@ -358,7 +358,7 @@
 					"wide"		"140"
 					"tall"		"15"
 					"editable"		"0"
-					"font"			"HudFontSmall"
+					"font"			"HudFont14"
 
 					//"fgcolor_override"	"235 226 202 255"
 					"bgcolor_override"	"0 0 0 255"
@@ -387,7 +387,7 @@
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
 			}
-			
+
 			"NextButton"
 			{
 				"ControlName"	"CExButton"
@@ -468,7 +468,7 @@
 					"wide"		"140"
 					"tall"		"15"
 					"editable"		"0"
-					"font"			"HudFontSmall"
+					"font"			"HudFont14"
 					"visible"	"0"
 
 					//"fgcolor_override"	"235 226 202 255"
@@ -500,7 +500,7 @@
 						"tall"		"80"
 						"labelText"		"#ToolCustomizeTexturePainterlyDescription"
 						"textAlignment"	"north-west"
-						"font"			"HudFontSmall"
+						"font"			"HudFont14"
 						"wrap"			"1"
 					}
 				}
@@ -525,7 +525,7 @@
 						"tall"		"60"
 						"labelText"		"#ToolCustomizeTextureStencilDescription"
 						"textAlignment"	"north-west"
-						"font"			"HudFontSmall"
+						"font"			"HudFont14"
 						"wrap"			"1"
 						"visible"	"0"
 					}
@@ -598,7 +598,7 @@
 						"wide"		"140"
 						"tall"		"15"
 						"editable"		"0"
-						"font"			"HudFontSmall"
+						"font"			"HudFont14"
 
 						//"fgcolor_override"	"235 226 202 255"
 						"bgcolor_override"	"0 0 0 255"
@@ -667,7 +667,7 @@
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"DragToRotateLabel"
-					"font"			"HudFontSmall"
+					"font"			"HudFont14"
 					"labelText"		"#ToolCustomizeTextureDragToRotate"
 					"textAlignment"	"center"
 					"xpos"			"10"
@@ -771,7 +771,7 @@
 				{
 					"ControlName"		"CExLabel"
 					"fieldName"		"WarningText"
-					"font"			"HudFontSmall"
+					"font"			"HudFont14"
 					"xpos"		"10"
 					"ypos"		"10"
 					"wide"		"330"
@@ -815,7 +815,7 @@
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"DragToRotateLabel"
-					"font"			"HudFontSmall"
+					"font"			"HudFont14"
 					"labelText"		"#ToolCustomizeTextureDragToRotate"
 					"textAlignment"	"center"
 					"xpos"			"10"
@@ -939,7 +939,7 @@
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"DragToRotateLabel"
-					"font"			"HudFontSmall"
+					"font"			"HudFont14"
 					"labelText"		"#ToolCustomizeTextureDragToRotate"
 					"textAlignment"	"center"
 					"xpos"			"10"

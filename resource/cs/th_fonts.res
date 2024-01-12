@@ -20,7 +20,7 @@ Scheme{
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Luxi Mono Regular"
 				"tall"		"44"
 				"tall_lodef" "52"
 				"weight"	"500"
@@ -33,7 +33,7 @@ Scheme{
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Luxi Mono Regular"
 				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
@@ -43,11 +43,67 @@ Scheme{
 		}
 
 
-		// Other Fonts
-		Icons
+		"HudFont14"
 		{
+			"1"
+			{
+			"name"		"Luxi Mono Regular"
+			"tall"		"14"
+			"additive"	"0"
+			"antialias" "1"
+			}
+		}
+
+		"HudFont18"
+		{
+			"1"
+			{
+			"name"		"Luxi Mono Regular"
+			"tall"		"18"
+			"additive"	"0"
+			"antialias" "1"
+			}
+		}
+
+		"HudFont44Bold"
+		{
+			"1"
+			{
+			"name"		"Luxi Mono Regular"
+			"tall"		"44"
+			"weight"	"500"
+			"additive"	"0"
+			"antialias" "1"
+			}
+		}
+
+		// Other Fonts/icon fonts/whatever
+		"Icons16"
+		{
+			"1"
+			{
+			"name"	"TF2 Icons"
+			"tall"	"16"
+			"antialias" "1"
+			}
+		}
+		"Icons18"
+		{
+			"1"
+			{
 			"name"	"TF2 Icons"
 			"tall"	"18"
+			"antialias" "1"
+			}
+		}
+		"Icons20"
+		{
+			"1"
+			{
+			"name"	"TF2 Icons"
+			"tall"	"20"
+			"antialias" "1"
+			}
 		}
 		// default font declarations
 		"Default"
@@ -1852,7 +1908,7 @@ Scheme{
 		{
 			"1"
 			{
-				"name"		"NasalizationRg-Regular"
+				"name"		"Luxi Mono Regular"
 				"tall"		"8"
 				"weight"	"500"
 				"additive"	"0"
@@ -1863,7 +1919,7 @@ Scheme{
 		{
 			"1"
 			{
-				"name"		"NasalizationRg-Regular"
+				"name"		"Luxi Mono Regular"
 				"tall"		"10"
 				"weight"	"500"
 				"additive"	"0"
@@ -1874,7 +1930,7 @@ Scheme{
 		{
 			"1"
 			{
-				"name"		"NasalizationRg-Regular"
+				"name"		"Luxi Mono Regular"
 				"tall"		"12"
 				"weight"	"500"
 				"additive"	"0"
@@ -1885,7 +1941,7 @@ Scheme{
 		{
 			"1"
 			{
-				"name"		"NasalizationRg-Regular"
+				"name"		"Luxi Mono Regular"
 				"tall"		"18"
 				"weight"	"500"
 				"additive"	"0"
@@ -1896,7 +1952,7 @@ Scheme{
 		{
 			"1"
 			{
-				"name"		"NasalizationRg-Regular"
+				"name"		"Luxi Mono Regular"
 				"tall"		"7"
 				"weight"	"500"
 				"additive"	"0"
@@ -1907,7 +1963,7 @@ Scheme{
 		{
 			"1"
 			{
-				"name"		"VerdanaNasalizationRg-Regular"
+				"name"		"Luxi Mono Regular"
 				"tall"		"8"
 				"antialias" "1"
 				"weight"	"500"
@@ -1917,7 +1973,7 @@ Scheme{
 		{
 			"1"
 			{
-				"name"		"NasalizationRg-Regular"
+				"name"		"Luxi Mono Regular"
 				"tall"		"8"
 				"weight"	"500"
 				"additive"	"0"
@@ -1928,7 +1984,7 @@ Scheme{
 		{
 			"1"
 			{
-				"name"		"NasalizationRg-Regular"
+				"name"		"Luxi Mono Regular"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -1939,7 +1995,7 @@ Scheme{
 		{
 			"1"
 			{
-				"name"		"NasalizationRg-Regular"
+				"name"		"Luxi Mono Regular"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -2747,8 +2803,8 @@ Scheme{
 		}
 		"8"
 		{
-			"font" "resource/fonts/nasalization-rg.otf"
-			"name" "NasalizationRg-Regular"
+			"font" "resource/fonts/Luxi.ttf"
+			"name" "Luxi Mono Regular"
 		}
 		"9"
 		{

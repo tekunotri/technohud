@@ -1,7 +1,7 @@
 "Resource/UI/build_menu/base_already_built.res"
 {
 	"ItemNameLabel"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ItemNameLabel"
 		"font"			"Default"
@@ -21,8 +21,8 @@
 		"brighttext"	"0"
 		"fgcolor"		"0 255 0 255"
 	}
-	
-	"ItemBackground"	
+
+	"ItemBackground"
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"ItemBackground"
@@ -33,13 +33,13 @@
 		"tall"			"105"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"icon"			"hud_menu_item_bg_outline"
 		"iconColor"		"0 0 0 255"
 	}
-	
+
 	"CantBuildReason"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CantBuildReason"
 		"font"			"Default"
@@ -58,8 +58,8 @@
 		"brighttext"	"0"
 		"fgcolor"		"0 255 0 255"
 	}
-	
-	"MetalIcon"	
+
+	"MetalIcon"
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"MetalIcon"
@@ -70,16 +70,16 @@
 		"tall"			"10"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"icon"			"ico_metal"
 		"iconColor"		"0 255 0 255"
 	}
-	
+
 	"CostLabel"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CostLabel"
-		"font"			"HudFontSmall"
+		"font"			"HudFont14"
 		"xpos"			"23"
 		"ypos"			"17"
 		"zpos"			"1"
@@ -90,12 +90,12 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%metal%"
-		"textAlignment"	"Left"	
+		"textAlignment"	"Left"
 		"fgcolor"		"0 255 0 255"
 	}
-	
+
 	"ModeLabel"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ModeLabel"
 		"font"			"DefaultSmall"
@@ -110,11 +110,11 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		""
-		"textAlignment"	"East"	
+		"textAlignment"	"East"
 		"fgcolor"		"0 255 0 255"
 	}
-		
-	"NumberBg"	
+
+	"NumberBg"
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"NumberBg"
@@ -125,13 +125,13 @@
 		"tall"			"18"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"icon"			"ico_key_blank"
 		"iconColor"		"0 255 0 255"
 	}
-	
+
 	"NumberLabel"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
 		"font"			"HudMenuNumberFont"

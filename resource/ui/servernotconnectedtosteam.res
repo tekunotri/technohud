@@ -14,7 +14,7 @@
 	}
 
 	"TitleLabel"
-	{	
+	{
 		"ControlName"		"Label"
 		"fieldName"		"TitleLabel"
 		"font"			"HudFontSmallBold"
@@ -33,10 +33,10 @@
 		"fgcolor_override" "200 80 60 255"
 	}
 	"ExplanationLabel"
-	{	
+	{
 		"ControlName"		"Label"
 		"fieldName"		"ExplanationLabel"
-		"font"			"HudFontSmall"
+		"font"			"HudFont14"
 		"xpos"			"20"
 		"ypos"			"35"
 		"zpos"			"1"

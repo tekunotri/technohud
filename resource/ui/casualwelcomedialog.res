@@ -102,7 +102,7 @@
 		"fgcolor_override" "TanDark"
 	}
 
-	
+
 	"SectionThreeTitleLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -220,7 +220,7 @@
 		"zpos"		"-1"
 		"wide"		"200"
 		"tall"		"20"
-		"font"		"HudFontSmall"
+		"font"		"HudFont14"
 		"labelText"	"#TF_Competitive_Welcome_DontShow"
 		"proportionalToParent"  "1"
 	}

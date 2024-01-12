@@ -4,7 +4,8 @@ Scheme {
 		// custom colors
 		"FullWhite"			"236 236 236 236"
 		"FullBlack"			"0 0 0 255"
-
+		"THOverheal"	"99 232 167 255"
+		"THLow"	"232 99 99 255"
 
 		// base colors
 		"Orange"			"178 82 22 255"

@@ -70,7 +70,7 @@
 			"fgcolor_override"	"TanLight"
 			"proportionaltoparent" "1"
 		}
-		
+
 		"Line"
 		{
 			"ControlName"		"EditablePanel"
@@ -91,7 +91,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Title"
-			"font"			"HudFontSmall"
+			"font"			"HudFont14"
 			"labelText"		"%description%"
 			"textAlignment"	"north"
 			"xpos"			"p0.05"
@@ -161,7 +161,7 @@
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
 		"border"		"MainMenuBGBorder"
-		
+
 		"TipLabel"
 		{
 			"ControlName"	"CExLabel"

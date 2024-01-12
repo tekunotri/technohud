@@ -14,7 +14,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ConfirmLabel"
-		"font"			"HudFontSmall"
+		"font"			"HudFont14"
 		"labelText"		"#ToolStrangifierConfirm"
 		"textAlignment"	"center"
 		"xpos"			"20"
@@ -34,7 +34,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PreviewLabel"
-		"font"			"HudFontSmall"
+		"font"			"HudFont14"
 		"labelText"		"#ToolPaintKitPreview"
 		"textAlignment"	"north"
 		"xpos"			"20"
@@ -88,7 +88,7 @@
 			"frame_origin_y"	"0"
 			"frame_origin_z"	"0"
 			"spotlight" "1"
-		
+
 			"modelname"		""
 		}
 
@@ -128,7 +128,7 @@
 		"ypos"			"r30"
 		"proportionaltoparent"	"1"
 	}
-	
+
 	"OkButton"
 	{
 		"ypos"			"r30"

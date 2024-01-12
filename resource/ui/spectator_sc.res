@@ -21,7 +21,7 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"tall"			"84"
-		"tall_minmode"	"20"	
+		"tall_minmode"	"20"
 		"wide"			"f0"
 		"autoResize"		"0"
 		"pinCorner"		"0"
@@ -34,10 +34,10 @@
 		"ControlName"	"Frame"
 		"fieldName"		"BottomBar"
 		"xpos"			"0"
-		"ypos"			"r70"		
+		"ypos"			"r70"
 		"ypos_minmode"	"r20"
 		"tall"			"70"
-		"tall_minmode"	"0"				
+		"tall_minmode"	"0"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -49,10 +49,10 @@
 		"ControlName"		"Panel"
 		"fieldName"		"bottombarblank"
 		"xpos"			"0"
-		"ypos"			"r70"	
+		"ypos"			"r70"
 		"ypos_minmode"	"r0"
 		"tall"			"70"		// this needs to match the size of BottomBar
-		"tall_minmode"	"0"			
+		"tall_minmode"	"0"
 		"wide"			"f0"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -97,7 +97,7 @@
 		"enabled"		"1"
 		"labelText"		""
 		"textAlignment"		"center"
-		"font"			"HudFontSmall"
+		"font"			"HudFont14"
 		"wrap"			"1"
 		"centerwrap"	"1"
 	}
@@ -105,7 +105,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"MapLabel"
-		"font"			"HudFontSmall"
+		"font"			"HudFont14"
 		"font_hidef"		"HudFontMedium"
 		"xpos"			"r260"	[$WIN32]
 		"ypos"			"16"	[$WIN32]
@@ -198,8 +198,8 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"CycleTargetFwdLabel"
 		"xpos"			"80"
-		"ypos"			"5"		
-		"wide"			"125"	
+		"ypos"			"5"
+		"wide"			"125"
 		"tall"			"20"
 		"autoResize"		"0"
 		"pinCorner"		"0"
@@ -216,7 +216,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"CycleTargetRevLabel"
 		"xpos"			"80"
-		"ypos"			"25"	
+		"ypos"			"25"
 		"wide"			"125"
 		"tall"			"20"
 		"autoResize"	"0"
@@ -253,7 +253,7 @@
 		"textAlignment"		"center"	[$WIN32]
 		"textAlignment"		"north-west"	[$X360]
 		"font"			"SpectatorKeyHints"
-		"font_hidef"	"HudFontSmall"
+		"font_hidef"	"HudFont14"
 		"font_lodef"	"DefaultVerySmall"
 		"wrap"			"1"
 	}
@@ -269,31 +269,31 @@
 		"visible"		"0"
 		"bgcolor_override"		"255 255 255 0"
 		"PaintBackgroundType"	"0"
-		
+
 		"model_ypos"		"10"
 		"model_center_x"	"1"
 		"model_wide"		"90"
 		"model_tall"		"60"
-		
+
 		"text_xpos"		"10"
 		"text_ypos"		"10"
 		"text_wide"		"170"
 		"text_center"	"1"
-		
+
 		"max_text_height"	"100"
 		"padding_height"	"10"
 		"resize_to_text"	"1"
 		"text_forcesize"	"2"
-		
+
 		"itemmodelpanel"
 		{
 			"fieldName"		"itemmodelpanel"
 			"use_item_rendertarget" "0"
 			"useparentbg"		"1"
 		}
-		
+
 		"ItemLabel"
-		{	
+		{
 			"ControlName"	"Label"
 			"fieldName"		"ItemLabel"
 			"font"			"DefaultSmall"
@@ -311,7 +311,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 		}
-	}	
+	}
 	"spectator_extras"
 	{
 		"ControlName"	"EditablePanel"
@@ -324,5 +324,5 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-	}		
+	}
 }

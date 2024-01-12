@@ -1,5 +1,5 @@
 "Resource/UI/MvMCreditSpendPanel.res"
-{	
+{
 	"HeaderLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -13,7 +13,7 @@
 		"tall"			"15"
 		"fgcolor"		"tanlight"
 	}
-		
+
 	"TableBackground"
 	{
 		"ControlName"	"EditablePanel"
@@ -26,12 +26,12 @@
 		"visible"		"1"
 		"bgcolor_override"		"20 20 20 50"
 	}
-	
+
 	"UpgradesLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"UpgradesLabel"
-		"font"			"HudFontSmall"
+		"font"			"HudFont14"
 		"labelText"		"#TF_PVE_Upgrades"
 		"textAlignment" "north-west"
 		"xpos"			"10"
@@ -40,12 +40,12 @@
 		"tall"			"20"
 		"fgcolor"		"tanlight"
 	}
-	
+
 	"UpgradesCountLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"UpgradesCountLabel"
-		"font"			"HudFontSmall"
+		"font"			"HudFont14"
 		"labelText"		"%upgrades%"
 		"textAlignment" "north-east"
 		"xpos"			"100"
@@ -54,12 +54,12 @@
 		"tall"			"20"
 		"fgcolor"		"tanlight"
 	}
-	
+
 	"BuyBackLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BuyBackLabel"
-		"font"			"HudFontSmall"
+		"font"			"HudFont14"
 		"labelText"		"#TF_PVE_Buybacks"
 		"textAlignment" "north-west"
 		"xpos"			"10"
@@ -68,12 +68,12 @@
 		"tall"			"20"
 		"fgcolor"		"tanlight"
 	}
-	
+
 	"BuyBackCountLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BuyBackCountLabel"
-		"font"			"HudFontSmall"
+		"font"			"HudFont14"
 		"labelText"		"%buybacks%"
 		"textAlignment" "north-east"
 		"xpos"			"100"
@@ -82,12 +82,12 @@
 		"tall"			"20"
 		"fgcolor"		"tanlight"
 	}
-	
+
 	"BottleLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BottleLabel"
-		"font"			"HudFontSmall"
+		"font"			"HudFont14"
 		"labelText"		"#TF_PVE_Bottles"
 		"textAlignment" "north-west"
 		"xpos"			"10"
@@ -96,12 +96,12 @@
 		"tall"			"20"
 		"fgcolor"		"tanlight"
 	}
-	
+
 	"BottleCountLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BottleCountLabel"
-		"font"			"HudFontSmall"
+		"font"			"HudFont14"
 		"labelText"		"%bottles%"
 		"textAlignment" "north-east"
 		"xpos"			"100"

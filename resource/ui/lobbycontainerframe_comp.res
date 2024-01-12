@@ -64,12 +64,12 @@
 			"proportionaltoparent"	"1"
 			"fgcolor_override" "46 43 42 255"
 		}
-		
+
 		"TextLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TextLabel"
-			"font"			"HudFontSmall"
+			"font"			"HudFont14"
 			"labelText"		"#TF_Competitive_Explanation_Intro_Body"
 			"textAlignment"	"north-west"
 			"xpos"			"cs-0.5"
@@ -84,7 +84,7 @@
 			"proportionaltoparent"	"1"
 			"fgcolor_override" "46 43 42 255"
 		}
-		
+
 		"CloseButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -109,13 +109,13 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"		"close"
 			"proportionaltoparent"	"1"
-			
+
 			"paintbackground"	"0"
-			
+
 			"defaultFgColor_override" "46 43 42 255"
 			"armedFgColor_override" "200 80 60 255"
 			"depressedFgColor_override" "46 43 42 255"
-			
+
 			"image_drawcolor"	"117 107 94 255"
 			"image_armedcolor"	"200 80 60 255"
 			"SubImage"
@@ -131,8 +131,8 @@
 				"enabled"		"1"
 				"image"			"close_button"
 				"scaleImage"	"1"
-			}				
-		}		
+			}
+		}
 		"NextButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -157,13 +157,13 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"		"nextexplanation"
 			"proportionaltoparent"	"1"
-			
+
 			"paintbackground"	"0"
-			
+
 			"defaultFgColor_override" "46 43 42 255"
 			"armedFgColor_override" "200 80 60 255"
 			"depressedFgColor_override" "46 43 42 255"
-			
+
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"255 255 255 255"
 			"SubImage"
@@ -179,8 +179,8 @@
 				"enabled"		"1"
 				"image"			"blog_forward"
 				"scaleImage"	"1"
-			}				
-		}		
+			}
+		}
 		"PositionLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -199,8 +199,8 @@
 			"enabled"		"1"
 			"fgcolor_override" "200 80 60 255"
 			"proportionaltoparent"	"1"
-		}		
-	}	
+		}
+	}
 
 	"ModesExplanation"
 	{
@@ -218,7 +218,7 @@
 		"paintbackground" "0"
 		"border"		"MainMenuHighlightBorder"
 		"next_explanation"		"RankExplanation"
-		
+
 		"force_close"	"1"
 		"end_x"			"c-30"
 		"end_y"			"140"
@@ -246,12 +246,12 @@
 			"proportionaltoparent"	"1"
 			"fgcolor_override" "46 43 42 255"
 		}
-		
+
 		"TextLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TextLabel"
-			"font"			"HudFontSmall"
+			"font"			"HudFont14"
 			"labelText"		"#TF_Competitive_Explanation_History_Body"
 			"textAlignment"	"north-west"
 			"xpos"			"cs-0.5"
@@ -266,7 +266,7 @@
 			"proportionaltoparent"	"1"
 			"fgcolor_override" "46 43 42 255"
 		}
-		
+
 		"CloseButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -291,13 +291,13 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"		"close"
 			"proportionaltoparent"	"1"
-			
+
 			"paintbackground"	"0"
-			
+
 			"defaultFgColor_override" "46 43 42 255"
 			"armedFgColor_override" "200 80 60 255"
 			"depressedFgColor_override" "46 43 42 255"
-			
+
 			"image_drawcolor"	"117 107 94 255"
 			"image_armedcolor"	"200 80 60 255"
 			"SubImage"
@@ -313,8 +313,8 @@
 				"enabled"		"1"
 				"image"			"close_button"
 				"scaleImage"	"1"
-			}				
-		}		
+			}
+		}
 		"PrevButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -339,13 +339,13 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"		"prevexplanation"
 			"proportionaltoparent"	"1"
-			
+
 			"paintbackground"	"0"
-			
+
 			"defaultFgColor_override" "46 43 42 255"
 			"armedFgColor_override" "200 80 60 255"
 			"depressedFgColor_override" "46 43 42 255"
-			
+
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"255 255 255 255"
 			"SubImage"
@@ -361,7 +361,7 @@
 				"enabled"		"1"
 				"image"			"blog_back"
 				"scaleImage"	"1"
-			}				
+			}
 		}
 		"NextButton"
 		{
@@ -387,13 +387,13 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"		"nextexplanation"
 			"proportionaltoparent"	"1"
-			
+
 			"paintbackground"	"0"
-			
+
 			"defaultFgColor_override" "46 43 42 255"
 			"armedFgColor_override" "200 80 60 255"
 			"depressedFgColor_override" "46 43 42 255"
-			
+
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"255 255 255 255"
 			"SubImage"
@@ -409,8 +409,8 @@
 				"enabled"		"1"
 				"image"			"blog_forward"
 				"scaleImage"	"1"
-			}				
-		}	
+			}
+		}
 		"PositionLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -429,8 +429,8 @@
 			"enabled"		"1"
 			"fgcolor_override" "200 80 60 255"
 			"proportionaltoparent"	"1"
-		}		
-	}	
+		}
+	}
 
 	"RankExplanation"
 	{
@@ -472,12 +472,12 @@
 			"proportionaltoparent"	"1"
 			"fgcolor_override" "46 43 42 255"
 		}
-		
+
 		"TextLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TextLabel"
-			"font"			"HudFontSmall"
+			"font"			"HudFont14"
 			"labelText"		"#TF_Competitive_Explanation_Rank_Body"
 			"textAlignment"	"north-west"
 			"xpos"			"cs-0.5"
@@ -492,7 +492,7 @@
 			"proportionaltoparent"	"1"
 			"fgcolor_override" "46 43 42 255"
 		}
-		
+
 		"CloseButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -517,13 +517,13 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"		"close"
 			"proportionaltoparent"	"1"
-			
+
 			"paintbackground"	"0"
-			
+
 			"defaultFgColor_override" "46 43 42 255"
 			"armedFgColor_override" "200 80 60 255"
 			"depressedFgColor_override" "46 43 42 255"
-			
+
 			"image_drawcolor"	"117 107 94 255"
 			"image_armedcolor"	"200 80 60 255"
 			"SubImage"
@@ -539,8 +539,8 @@
 				"enabled"		"1"
 				"image"			"close_button"
 				"scaleImage"	"1"
-			}				
-		}		
+			}
+		}
 		"NextButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -565,13 +565,13 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"		"nextexplanation"
 			"proportionaltoparent"	"1"
-			
+
 			"paintbackground"	"0"
-			
+
 			"defaultFgColor_override" "46 43 42 255"
 			"armedFgColor_override" "200 80 60 255"
 			"depressedFgColor_override" "46 43 42 255"
-			
+
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"255 255 255 255"
 			"SubImage"
@@ -587,8 +587,8 @@
 				"enabled"		"1"
 				"image"			"blog_forward"
 				"scaleImage"	"1"
-			}				
-		}		
+			}
+		}
 		"PrevButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -613,13 +613,13 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"		"prevexplanation"
 			"proportionaltoparent"	"1"
-			
+
 			"paintbackground"	"0"
-			
+
 			"defaultFgColor_override" "46 43 42 255"
 			"armedFgColor_override" "200 80 60 255"
 			"depressedFgColor_override" "46 43 42 255"
-			
+
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"255 255 255 255"
 			"SubImage"
@@ -635,7 +635,7 @@
 				"enabled"		"1"
 				"image"			"blog_back"
 				"scaleImage"	"1"
-			}				
+			}
 		}
 		"PositionLabel"
 		{
@@ -655,7 +655,7 @@
 			"enabled"		"1"
 			"fgcolor_override" "200 80 60 255"
 			"proportionaltoparent"	"1"
-		}		
+		}
 	}
 
 	"PartyExplanation"
@@ -697,12 +697,12 @@
 			"proportionaltoparent"	"1"
 			"fgcolor_override" "46 43 42 255"
 		}
-		
+
 		"TextLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TextLabel"
-			"font"			"HudFontSmall"
+			"font"			"HudFont14"
 			"labelText"		"#TF_Competitive_Explanation_Party_Body"
 			"textAlignment"	"north-west"
 			"xpos"			"cs-0.5"
@@ -717,7 +717,7 @@
 			"proportionaltoparent"	"1"
 			"fgcolor_override" "46 43 42 255"
 		}
-		
+
 		"CloseButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -742,13 +742,13 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"		"close"
 			"proportionaltoparent"	"1"
-			
+
 			"paintbackground"	"0"
-			
+
 			"defaultFgColor_override" "46 43 42 255"
 			"armedFgColor_override" "200 80 60 255"
 			"depressedFgColor_override" "46 43 42 255"
-			
+
 			"image_drawcolor"	"117 107 94 255"
 			"image_armedcolor"	"200 80 60 255"
 			"SubImage"
@@ -764,8 +764,8 @@
 				"enabled"		"1"
 				"image"			"close_button"
 				"scaleImage"	"1"
-			}				
-		}	
+			}
+		}
 		"PrevButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -790,13 +790,13 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"		"prevexplanation"
 			"proportionaltoparent"	"1"
-			
+
 			"paintbackground"	"0"
-			
+
 			"defaultFgColor_override" "46 43 42 255"
 			"armedFgColor_override" "200 80 60 255"
 			"depressedFgColor_override" "46 43 42 255"
-			
+
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"255 255 255 255"
 			"SubImage"
@@ -812,7 +812,7 @@
 				"enabled"		"1"
 				"image"			"blog_back"
 				"scaleImage"	"1"
-			}				
+			}
 		}
 		"PositionLabel"
 		{
@@ -832,7 +832,7 @@
 			"enabled"		"1"
 			"fgcolor_override" "200 80 60 255"
 			"proportionaltoparent"	"1"
-		}		
+		}
 	}
 
 	"PlayWithFriendsExplanation"
@@ -884,7 +884,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"PlayWithFriendsExplanationLabel"
-			"font"			"HudFontSmall"
+			"font"			"HudFont14"
 			"labelText"		"#TF_Comp_PlayWithFriendsExplanation"
 			"textAlignment"	"north-west"
 			"xpos"			"cs-0.5"
@@ -910,7 +910,7 @@
 		"PaintBackgroundType"	"2"
 		"paintbackground" "0"
 		"border"		"MainMenuHighlightBorder"
-		
+
 		"force_close"	"1"
 		"end_x"			"c+10"
 		"end_y"			"60"
@@ -919,7 +919,7 @@
 		"callout_inparents_x"	"c-35"
 		"callout_inparents_y"	"230"
 		"next_explanation"		""
-		
+
 		"TitleLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -938,12 +938,12 @@
 			"wrap"			"1"
 			"fgcolor_override" "46 43 42 255"
 		}
-		
+
 		"TextLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TextLabel"
-			"font"			"HudFontSmall"
+			"font"			"HudFont14"
 			"labelText"		"#TF_Competitive_MedalsHelp_Text"
 			"textAlignment"	"north-west"
 			"xpos"			"20"
@@ -957,7 +957,7 @@
 			"wrap"			"1"
 			"fgcolor_override" "46 43 42 255"
 		}
-		
+
 		"CloseButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -981,13 +981,13 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"		"close"
-			
+
 			"paintbackground"	"0"
-			
+
 			"defaultFgColor_override" "46 43 42 255"
 			"armedFgColor_override" "200 80 60 255"
 			"depressedFgColor_override" "46 43 42 255"
-			
+
 			"image_drawcolor"	"117 107 94 255"
 			"image_armedcolor"	"200 80 60 255"
 			"SubImage"
@@ -1003,8 +1003,8 @@
 				"enabled"		"1"
 				"image"			"close_button"
 				"scaleImage"	"1"
-			}				
-		}			
+			}
+		}
 		"PositionLabel"
 		{
 			"ControlName"	"CExLabel"

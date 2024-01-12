@@ -67,9 +67,9 @@
 			"enabled"		"1"
 			"paintbackground" "0"
 			"border"		"BackpackItemBorder_SelfMade"
-		}				
+		}
 		"SourceItem"
-		{		
+		{
 			"ControlName"	"CItemModelPanel"
 			"fieldName"		"SourceItem"
 			"xpos"			"10"
@@ -96,7 +96,7 @@
 				"use_item_rendertarget" "0"
 				"allow_rot"				"0"
 			}
-		}	
+		}
 		"SubjectBG"
 		{
 			"ControlName"	"CExLabel"
@@ -115,9 +115,9 @@
 			"enabled"		"1"
 			"paintbackground" "0"
 			"border"		"BackpackItemBorder_Vintage"
-		}	
+		}
 		"TargetItem"
-		{		
+		{
 			"ControlName"	"CItemModelPanel"
 			"fieldName"		"TargetItem"
 			"xpos"			"300"
@@ -143,13 +143,13 @@
 				"use_item_rendertarget" "0"
 				"allow_rot"				"0"
 			}
-		}	
-	
+		}
+
 		"ConfirmLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"ConfirmLabel"
-			"font"			"HudFontSmall"
+			"font"			"HudFont14"
 			"labelText"		"#TF_StrangeCount_TransferExplain"
 			"textAlignment"	"center"
 			"xpos"			"20"
@@ -164,7 +164,7 @@
 			"wrap"			"1"
 			"fgcolor_override" "200 80 60 255"
 		}
-	
+
 		"CancelButton"
 		{
 			"ControlName"	"CExButton"
@@ -190,7 +190,7 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"actionsignallevel"	"2"
 		}
-	
+
 		"OkButton"
 		{
 			"ControlName"	"CExButton"

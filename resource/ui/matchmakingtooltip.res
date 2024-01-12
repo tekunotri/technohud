@@ -13,7 +13,7 @@
 		"PaintBackgroundType"	"2"
 		"border"		"MainMenuBGBorder"
 		"mouseinputenabled"	"0"
-		
+
 		"TipLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -27,7 +27,7 @@
 
 			if_medium
 			{
-				"font"	"HudFontSmall"
+				"font"	"HudFont14"
 			}
 
 			if_large
@@ -51,5 +51,5 @@
 			"auto_tall_tocontents"	"1"
 			"wrap"	"1"
 		}
-	}	
+	}
 }

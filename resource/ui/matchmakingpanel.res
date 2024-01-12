@@ -134,7 +134,7 @@
 				"NumericInputOnly"	"0"
 				"unicode"			"0"
 				"default"			"0"
-		
+
 				"fgcolor_override"	"235 226 202 255"
 				"bgcolor_override"	"0 0 0 0"
 				"disabledFgColor_override" "235 226 202 255"
@@ -230,7 +230,7 @@
 			{
 				"ControlName"		"CExLabel"
 				"fieldName"		"NearbyColumnHead"
-				"font"			"HudFontSmall"
+				"font"			"HudFont14"
 				"labelText"		"#TF_Matchmaking_Nearby"
 				"xpos"		"190"
 				"ypos"		"50"
@@ -246,7 +246,7 @@
 			{
 				"ControlName"		"CExLabel"
 				"fieldName"		"WorldwideColumnHead"
-				"font"			"HudFontSmall"
+				"font"			"HudFont14"
 				"labelText"		"#TF_Matchmaking_Worldwide"
 				"xpos"		"280"
 				"ypos"		"50"
@@ -278,7 +278,7 @@
 			{
 				"ControlName"		"CExLabel"
 				"fieldName"		"PlayersInGameTotalLabel"
-				"font"			"HudFontSmall"
+				"font"			"HudFont14"
 				"labelText"		"#TF_Matchmaking_Total"
 				"xpos"		"60"
 				"ypos"		"90"
@@ -294,7 +294,7 @@
 				{
 					"ControlName"		"CExLabel"
 					"fieldName"		"PlayersInGameTotalNearbyValue"
-					"font"			"HudFontSmall"
+					"font"			"HudFont14"
 					"xpos"		"190"
 					"ypos"		"90"
 					"zpos"			"2"
@@ -310,7 +310,7 @@
 				{
 					"ControlName"		"CExLabel"
 					"fieldName"		"PlayersInGameTotalWorldwideValue"
-					"font"			"HudFontSmall"
+					"font"			"HudFont14"
 					"xpos"		"180"
 					"ypos"		"90"
 					"zpos"			"2"
@@ -326,7 +326,7 @@
 			{
 				"ControlName"		"CExLabel"
 				"fieldName"		"PlayersInGameMatchingLabel"
-				"font"			"HudFontSmall"
+				"font"			"HudFont14"
 				"labelText"		"#TF_Matchmaking_Compatible"
 				"xpos"		"60"
 				"ypos"		"110"
@@ -342,7 +342,7 @@
 				{
 					"ControlName"		"CExLabel"
 					"fieldName"		"PlayersInGameMatchingNearbyValue"
-					"font"			"HudFontSmall"
+					"font"			"HudFont14"
 					"xpos"		"190"
 					"ypos"		"110"
 					"zpos"			"2"
@@ -358,7 +358,7 @@
 				{
 					"ControlName"		"CExLabel"
 					"fieldName"		"PlayersInGameMatchingWorldwideValue"
-					"font"			"HudFontSmall"
+					"font"			"HudFont14"
 					"xpos"		"180"
 					"ypos"		"110"
 					"zpos"			"2"
@@ -390,7 +390,7 @@
 			{
 				"ControlName"		"CExLabel"
 				"fieldName"		"PlayersSearchingTotalLabel"
-				"font"			"HudFontSmall"
+				"font"			"HudFont14"
 				"labelText"		"#TF_Matchmaking_Total"
 				"xpos"		"60"
 				"ypos"		"160"
@@ -406,7 +406,7 @@
 				{
 					"ControlName"		"CExLabel"
 					"fieldName"		"PlayersSearchingTotalNearbyValue"
-					"font"			"HudFontSmall"
+					"font"			"HudFont14"
 					"xpos"		"190"
 					"ypos"		"160"
 					"zpos"			"2"
@@ -422,7 +422,7 @@
 				{
 					"ControlName"		"CExLabel"
 					"fieldName"		"PlayersSearchingTotalWorldwideValue"
-					"font"			"HudFontSmall"
+					"font"			"HudFont14"
 					"xpos"		"180"
 					"ypos"		"160"
 					"zpos"			"2"
@@ -438,7 +438,7 @@
 			{
 				"ControlName"		"CExLabel"
 				"fieldName"		"PlayersSearchingMatchingLabel"
-				"font"			"HudFontSmall"
+				"font"			"HudFont14"
 				"labelText"		"#TF_Matchmaking_Compatible"
 				"xpos"		"60"
 				"ypos"		"180"
@@ -454,7 +454,7 @@
 				{
 					"ControlName"		"CExLabel"
 					"fieldName"		"PlayersSearchingMatchingNearbyValue"
-					"font"			"HudFontSmall"
+					"font"			"HudFont14"
 					"xpos"		"190"
 					"ypos"		"180"
 					"zpos"			"2"
@@ -470,7 +470,7 @@
 				{
 					"ControlName"		"CExLabel"
 					"fieldName"		"PlayersSearchingMatchingWorldwideValue"
-					"font"			"HudFontSmall"
+					"font"			"HudFont14"
 					"xpos"		"180"
 					"ypos"		"180"
 					"zpos"			"2"
@@ -502,7 +502,7 @@
 				{
 					"ControlName"		"CExLabel"
 					"fieldName"		"EmptyGameserversMatchingNearbyValue"
-					"font"			"HudFontSmall"
+					"font"			"HudFont14"
 					"xpos"		"190"
 					"ypos"		"210"
 					"zpos"			"2"
@@ -518,7 +518,7 @@
 				{
 					"ControlName"		"CExLabel"
 					"fieldName"		"EmptyGameserversMatchingWorldwideValue"
-					"font"			"HudFontSmall"
+					"font"			"HudFont14"
 					"xpos"		"180"
 					"ypos"		"210"
 					"zpos"			"2"
@@ -562,7 +562,7 @@
 				{
 					"ControlName"		"CExLabel"
 					"fieldName"		"PartyHasLeaverLabel"
-					"font"			"HudFontSmall"
+					"font"			"HudFont14"
 					"labelText"		"#TF_Matchmaking_PartyPenalty"
 					"xpos"		"60"
 					"ypos"		"0"

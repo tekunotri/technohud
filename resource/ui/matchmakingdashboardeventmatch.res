@@ -28,7 +28,7 @@
 		"textAlignment"	"west"
 		"font"			"HudFontMediumBigBold"
 		"fgcolor_override"	"TanDark"
-		
+
 		"mouseinputenabled"	"0"
 	}
 
@@ -46,7 +46,7 @@
 		"textAlignment"	"west"
 		"font"			"HudFontMediumSmallBold"
 		"fgcolor_override"	"Orange"
-		
+
 		"mouseinputenabled"	"0"
 	}
 
@@ -66,7 +66,7 @@
 
 		"matchgroup"	"MatchGroup_Casual_12v12"
 	}
-	
+
 	"RankPanel"
 	{
 		"ControlName"	"CPvPRankPanel"
@@ -159,14 +159,14 @@
 			{
 				"fgcolor_override"	"TanDark"
 			}
-		
+
 			"UpButton"
 			{
 				"ControlName"	"Button"
 				"FieldName"		"UpButton"
 				"visible"		"0"
 			}
-		
+
 			"DownButton"
 			{
 				"ControlName"	"Button"
@@ -179,7 +179,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ModeDesc"
-			"font"			"HudFontSmall"
+			"font"			"HudFont14"
 			"fgcolor_override"	"TanLight"
 			"labelText"		"%desc%"
 			"textAlignment"	"north-west"
@@ -207,7 +207,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"mouseinputenabled"	"1"
-		"eatmouseinput"	"0"	
+		"eatmouseinput"	"0"
 		"showtooltipswhenmousedisabled"	"1"
 		"proportionaltoparent" "1"
 	}

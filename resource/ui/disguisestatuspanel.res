@@ -4,10 +4,10 @@
 	{
 		"ControlName"		"CEmbeddedItemModelPanel"
 		"fieldName"		"itemmodelpanel"
-	
+
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"1"		
+		"zpos"			"1"
 		"wide"			"100"
 		"tall"			"100"
 		"autoResize"		"0"
@@ -52,16 +52,16 @@
 		"teambg_2_lodef"	"../hud/color_panel_red"
 		"teambg_3"		"../hud/color_panel_blu"
 		"teambg_3_lodef"	"../hud/color_panel_blu"
-		
+
 		"src_corner_height"		"23"				// pixels inside the image
 		"src_corner_width"		"23"
-			
+
 		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"	
+		"draw_corner_height" 	"5"
 	}
 
 	"DisguiseNameLabel"
-	{	
+	{
 		"ControlName"	"Label"
 		"fieldName"		"DisguiseNameLabel"
 		"font"			"HudFontMediumSmallSecondary"
@@ -82,12 +82,12 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 	}
-	
+
 	"WeaponNameLabel"
-	{	
+	{
 		"ControlName"	"Label"
 		"fieldName"		"WeaponNameLabel"
-		"font"			"HUDFontSmall"
+		"font"			"HudFont14"
 		"font_minmode"	"TFFontMedium"
 		"xpos"			"52"
 		"xpos_minmode"	"34"
@@ -105,7 +105,7 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 	}
-	
+
 	"SpectatorGUIHealth"
 	{
 		"ControlName"		"EditablePanel"
@@ -117,12 +117,12 @@
 		"wide"			"32"
 		"tall"			"32"
 		"visible"		"1"
-		"enabled"		"1"	
+		"enabled"		"1"
 		"HealthBonusPosAdj"	"10"
 		"HealthDeathWarning"	"0.49"
-		"TFFont"		"HudFontSmall"
+		"TFFont"		"HudFont14"
 		"HealthDeathWarningColor"	"HUDDeathWarning"
 		"TextColor"		"HudOffWhite"
-	}	
-	
+	}
+
 }

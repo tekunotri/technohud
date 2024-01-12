@@ -76,7 +76,7 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"		"TargetNameLabel"
-		"font"			"HudFontSmall"
+		"font"			"HudFont14"
 		"font_minmode"	"TFFontLarge"
 		"xpos"			"8"
 		"xpos_minmode"	"30"
@@ -99,7 +99,7 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"		"TargetNameLabel_Shadow"
-		"font"			"HudFontSmall"
+		"font"			"HudFont14"
 		"font_minmode"	"TFFontLarge"
 		"xpos"			"-1"
 		"ypos"			"-1"
@@ -149,10 +149,8 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"		"SpectatorGUIHealth"
-		"xpos"			"3"
-		"xpos_minmode"	"0"
-		"ypos"			"2"
-		"ypos_minmode"	"0"
+		"xpos"			"0"
+		"ypos"			"-3"
 		"wide"			"32"
 		"tall"			"32"
 		"visible"		"0"

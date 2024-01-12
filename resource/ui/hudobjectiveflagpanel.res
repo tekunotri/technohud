@@ -1,5 +1,5 @@
 "Resource/UI/HudObjectiveFlagPanel.res"
-{	
+{
 	"ObjectiveStatusFlagPanel"
 	{
 		"ControlName"		"EditablePanel"
@@ -11,13 +11,13 @@
 		"tall"				"480"
 		"visible"			"1"
 		"enabled"			"1"
-		
+
 		"if_hybrid"
 		{
 			"zpos"			"-1"
 		}
 	}
-	
+
 	"LeftSideBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -31,24 +31,24 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/objectives_flagpanel_bg_left"
-		"scaleImage"	"1"	
-		
+		"scaleImage"	"1"
+
 		"if_hybrid"
 		{
 			"visible"	"0"
 		}
-		
+
 		"if_mvm"
 		{
 			"visible"	"0"
 		}
-		
+
 		"if_specialdelivery"
 		{
 			"visible"	"0"
 		}
 	}
-		
+
 	"RightSideBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -62,24 +62,24 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/objectives_flagpanel_bg_right"
-		"scaleImage"	"1"	
-		
+		"scaleImage"	"1"
+
 		"if_hybrid"
 		{
 			"visible"	"0"
 		}
-		
+
 		"if_mvm"
 		{
 			"visible"	"0"
 		}
-		
+
 		"if_specialdelivery"
 		{
 			"visible"	"0"
 		}
 	}
-		
+
 	"OutlineBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -93,24 +93,24 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/objectives_flagpanel_bg_outline"
-		"scaleImage"	"1"	
-		
+		"scaleImage"	"1"
+
 		"if_hybrid"
 		{
 			"visible"	"0"
 		}
-		
+
 		"if_mvm"
 		{
 			"visible"	"0"
 		}
-		
+
 		"if_specialdelivery"
 		{
 			"visible"	"0"
 		}
 	}
-	
+
 	"BlueScore"
 	{
 		"ControlName"	"CExLabel"
@@ -126,29 +126,29 @@
 		"tall_lodef"	"75"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"west"	
+		"textAlignment"	"west"
 		"labelText"		"%bluescore%"
 		"font"			"HudFontBig"
 		"font_hidef"	"HudFontGiant"
 		"font_lodef"	"HudFontGiant"
 		"fgcolor"		"TanLight"
-		
+
 		"if_hybrid"
 		{
 			"visible"	"0"
 		}
-		
+
 		"if_mvm"
 		{
 			"visible"	"0"
 		}
-		
+
 		"if_specialdelivery"
 		{
 			"visible"	"0"
 		}
-	}	
-		
+	}
+
 	"BlueScoreShadow"
 	{
 		"ControlName"	"CExLabel"
@@ -164,29 +164,29 @@
 		"tall_lodef"	"75"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"west"	
+		"textAlignment"	"west"
 		"labelText"		"%bluescore%"
 		"font"			"HudFontBig"
 		"font_hidef"	"HudFontGiant"
 		"font_lodef"	"HudFontGiant"
 		"fgcolor"		"Black"
-		
+
 		"if_hybrid"
 		{
 			"visible"	"0"
 		}
-		
+
 		"if_mvm"
 		{
 			"visible"	"0"
 		}
-		
+
 		"if_specialdelivery"
 		{
 			"visible"	"0"
 		}
-	}	
-							
+	}
+
 	"RedScore"
 	{
 		"ControlName"	"CExLabel"
@@ -202,29 +202,29 @@
 		"tall_lodef"	"75"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"east"	
+		"textAlignment"	"east"
 		"labelText"		"%redscore%"
 		"font"			"HudFontBig"
 		"font_hidef"	"HudFontGiant"
 		"font_lodef"	"HudFontGiant"
-		"fgcolor"		"TanLight"		
-		
+		"fgcolor"		"TanLight"
+
 		"if_hybrid"
 		{
 			"visible"	"0"
 		}
-		
+
 		"if_mvm"
 		{
 			"visible"	"0"
 		}
-		
+
 		"if_specialdelivery"
 		{
 			"visible"	"0"
 		}
-	}	
-		
+	}
+
 	"RedScoreShadow"
 	{
 		"ControlName"	"CExLabel"
@@ -240,29 +240,29 @@
 		"tall_lodef"	"75"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"east"	
+		"textAlignment"	"east"
 		"labelText"		"%redscore%"
 		"font"			"HudFontBig"
 		"font_hidef"	"HudFontGiant"
 		"font_lodef"	"HudFontGiant"
-		"fgcolor"		"Black"		
-		
+		"fgcolor"		"Black"
+
 		"if_hybrid"
 		{
 			"visible"	"0"
 		}
-		
+
 		"if_mvm"
 		{
 			"visible"	"0"
 		}
-		
+
 		"if_specialdelivery"
 		{
 			"visible"	"0"
 		}
-	}	
-															
+	}
+
 	"OutlineImage"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -276,9 +276,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/objectives_flagpanel_carried_outline"
-		"scaleImage"	"1"	
-	}		
-	
+		"scaleImage"	"1"
+	}
+
 	"CarriedImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -293,18 +293,18 @@
 		"enabled"		"1"
 		"image"			"../hud/objectives_flagpanel_carried_red"
 		"scaleImage"	"1"
-		
+
 		"if_hybrid"
 		{
 			"ypos"		"r142"
 		}
-		
+
 		"if_specialdelivery"
 		{
 			"visible"	"r142"
 		}
-	}		
-	
+	}
+
 	"PlayingTo"
 	{
 		"ControlName"	"CExLabel"
@@ -323,25 +323,25 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"HudFontSmall"
+		"font"			"HudFont14"
 		"fgcolor"		"TanLight"
-		
+
 		"if_hybrid"
 		{
 			"visible"	"0"
 		}
-		
+
 		"if_mvm"
 		{
 			"visible"	"0"
 		}
-		
+
 		"if_specialdelivery"
 		{
 			"visible"	"0"
 		}
-	}	
-			
+	}
+
 	"PlayingToBG"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -359,24 +359,24 @@
 		"enabled"		"1"
 		"image"			"../hud/objectives_flagpanel_bg_playingto"
 		"image_hidef"	"../hud/objectives_flagpanel_bg_playingto_hidef"
-		"scaleImage"	"1"	
-		
+		"scaleImage"	"1"
+
 		"if_hybrid"
 		{
 			"visible"	"0"
 		}
-		
+
 		"if_mvm"
 		{
 			"visible"	"0"
 		}
-		
+
 		"if_specialdelivery"
 		{
 			"visible"	"0"
 		}
-	}	
-		
+	}
+
 	"BlueFlag"
 	{
 		"ControlName"	"CTFFlagStatus"
@@ -389,18 +389,18 @@
 		"tall"			"90"
 		"visible"		"1"
 		"enabled"		"1"
-		
+
 		"if_hybrid"
 		{
 			"visible"	"0"
 			"ypos"		"r100"
 		}
-		
+
 		"if_hybrid_single"
 		{
 			"xpos"		"c-80"
 		}
-		
+
 		"if_hybrid_double"
 		{
 			"xpos"		"c-115"
@@ -410,13 +410,13 @@
 		{
 			"ypos"		"r100"
 		}
-		
+
 		"if_no_flags"
 		{
 			"visible"	"0"
 		}
 	}
-			
+
 	"RedFlag"
 	{
 		"ControlName"	"CTFFlagStatus"
@@ -429,18 +429,18 @@
 		"tall"			"90"
 		"visible"		"1"
 		"enabled"		"1"
-				
+
 		"if_hybrid"
 		{
 			"visible"	"0"
 			"ypos"		"r100"
 		}
-		
+
 		"if_hybrid_single"
 		{
 			"xpos"		"c-80"
 		}
-		
+
 		"if_hybrid_double"
 		{
 			"xpos"		"c-45"
@@ -450,13 +450,13 @@
 		{
 			"ypos"		"r100"
 		}
-		
+
 		"if_no_flags"
 		{
 			"visible"	"0"
 		}
-	}	
-			
+	}
+
 	"CaptureFlag"
 	{
 		"ControlName"	"CTFArrowPanel"
@@ -469,12 +469,12 @@
 		"tall"			"80"
 		"visible"		"0"
 		"enabled"		"1"
-		
+
 		"if_hybrid"
 		{
 			"ypos"		"r100"
 		}
-		
+
 		"if_specialdelivery"
 		{
 			"ypos"		"r100"
@@ -507,12 +507,12 @@
 		"tall"			"20"
 		"visible"		"0"
 		"enabled"		"1"
-		"textAlignment"	"center"	
+		"textAlignment"	"center"
 		"labelText"		"%redscore%"
 		"font"			"HudFontMediumBold"
 		"fgcolor"		"TanLight"
 	}
-	
+
 	"SpecCarriedImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -527,5 +527,5 @@
 		"enabled"		"1"
 		"image"			"../hud/objectives_flagpanel_carried_red"
 		"scaleImage"	"1"
-	}			
+	}
 }

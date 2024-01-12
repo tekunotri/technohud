@@ -280,7 +280,7 @@
 		"enabled"		"1"
 		"labelText"		"#game_respawntime_in_secs"
 		"textAlignment"		"center"
-		"font"			"HudFontSmall"
+		"font"			"HudFont14"
 
 		if_mvm
 		{
@@ -304,7 +304,7 @@
 		"enabled"		"1"
 		"labelText"		"#TF_PVE_Buyback"
 		"textAlignment"	"center"
-		"font"			"HudFontSmall"
+		"font"			"HudFont14"
 		"wrap"			"1"
 		"centerwrap"	"1"
 

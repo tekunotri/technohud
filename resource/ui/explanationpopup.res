@@ -20,12 +20,12 @@
 		"fgcolor_override" "46 43 42 255"
 		"auto_tall_tocontents"	"1"
 	}
-		
+
 	"TextLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TextLabel"
-		"font"			"HudFontSmall"
+		"font"			"HudFont14"
 		"labelText"		"%body%"
 		"textAlignment"	"north-west"
 		"xpos"			"cs-0.5"
@@ -41,7 +41,7 @@
 		"fgcolor_override" "46 43 42 255"
 		"auto_tall_tocontents"	"1"
 	}
-		
+
 	"CloseButton"
 	{
 		"ControlName"	"CExImageButton"
@@ -66,13 +66,13 @@
 		"Command"		"close"
 		"proportionaltoparent"	"1"
 		"autoresize"		"0"
-			
+
 		"paintbackground"	"0"
-			
+
 		"defaultFgColor_override" "46 43 42 255"
 		"armedFgColor_override" "200 80 60 255"
 		"depressedFgColor_override" "46 43 42 255"
-			
+
 		"image_drawcolor"	"117 107 94 255"
 		"image_armedcolor"	"200 80 60 255"
 		"SubImage"
@@ -89,9 +89,9 @@
 			"image"			"close_button"
 			"scaleImage"	"1"
 			"proportionaltoparent"	"1"
-		}				
-	}	
-		
+		}
+	}
+
 	"PrevButton"
 	{
 		"ControlName"	"CExImageButton"
@@ -115,13 +115,13 @@
 		"Command"		"prevexplanation"
 		"proportionaltoparent"	"1"
 		"skip_autoresize"	"1"
-			
+
 		"paintbackground"	"0"
-			
+
 		"defaultFgColor_override" "46 43 42 255"
 		"armedFgColor_override" "200 80 60 255"
 		"depressedFgColor_override" "46 43 42 255"
-			
+
 		"image_drawcolor"	"235 226 202 255"
 		"image_armedcolor"	"255 255 255 255"
 		"SubImage"
@@ -137,7 +137,7 @@
 			"enabled"		"1"
 			"image"			"blog_back"
 			"scaleImage"	"1"
-		}				
+		}
 	}
 	"NextButton"
 	{
@@ -163,13 +163,13 @@
 		"Command"		"nextexplanation"
 		"proportionaltoparent"	"1"
 		"skip_autoresize"	"1"
-			
+
 		"paintbackground"	"0"
-			
+
 		"defaultFgColor_override" "46 43 42 255"
 		"armedFgColor_override" "200 80 60 255"
 		"depressedFgColor_override" "46 43 42 255"
-			
+
 		"image_drawcolor"	"235 226 202 255"
 		"image_armedcolor"	"255 255 255 255"
 		"SubImage"
@@ -185,8 +185,8 @@
 			"enabled"		"1"
 			"image"			"blog_forward"
 			"scaleImage"	"1"
-		}				
-	}	
+		}
+	}
 	"PositionLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -204,5 +204,5 @@
 		"fgcolor_override" "200 80 60 255"
 		"proportionaltoparent"	"1"
 		"skip_autoresize"	"1"
-	}		
+	}
 }

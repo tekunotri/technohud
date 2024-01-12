@@ -45,7 +45,7 @@
 				"proportionaltoparent"	"1"
 				"auto_wide_tocontents"	"1"
 				"mouseinputenabled"		"0"
-			}	
+			}
 
 			"Score"
 			{
@@ -70,7 +70,7 @@
 				"pin_to_sibling"	"Score1Label"
 				"pin_corner_to_sibling"	"0"
 				"pin_to_sibling_corner"	"1"
-			}	
+			}
 		}
 
 		"Background"
@@ -105,7 +105,7 @@
 				"scaleImage"	"1"
 				"proportionaltoparent"	"1"
 				"fillcolor"	"255 255 255 0"
-			}	
+			}
 
 			"SecondaryStatsContainer"
 			{
@@ -144,7 +144,7 @@
 					"fgcolor_override"	"TanLight"
 					"proportionaltoparent" "1"
 				}
-		
+
 				"Line"
 				{
 					"ControlName"		"EditablePanel"
@@ -165,7 +165,7 @@
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"Title"
-					"font"			"HudFontSmall"
+					"font"			"HudFont14"
 					"labelText"		"#TF_Duck_Stats_Desc"
 					"textAlignment"	"north"
 					"xpos"			"p0.05"
@@ -243,13 +243,13 @@
 				"Command"		"close"
 				"proportionaltoparent" "1"
 				"actionsignallevel" "2"
-			
+
 				"paintbackground"	"0"
-			
+
 				"defaultFgColor_override" "46 43 42 255"
 				"armedFgColor_override" "200 80 60 255"
 				"depressedFgColor_override" "46 43 42 255"
-			
+
 				"image_drawcolor"	"117 107 94 255"
 				"image_armedcolor"	"200 80 60 255"
 				"SubImage"
@@ -265,7 +265,7 @@
 					"enabled"		"1"
 					"image"			"close_button"
 					"scaleImage"	"1"
-				}				
+				}
 			}
 
 			"NextButton"
@@ -293,13 +293,13 @@
 				"Command"		"nextpage"
 				"proportionaltoparent" "1"
 				"actionsignallevel" "2"
-			
+
 				"paintbackground"	"0"
-			
+
 				"defaultFgColor_override" "46 43 42 255"
 				"armedFgColor_override" "200 80 60 255"
 				"depressedFgColor_override" "46 43 42 255"
-			
+
 				"image_drawcolor"	"235 226 202 255"
 				"image_armedcolor"	"255 255 255 255"
 				"SubImage"
@@ -316,9 +316,9 @@
 					"image"			"blog_forward_solid"
 					"scaleImage"	"1"
 					"proportionaltoparent" "1"
-				}				
+				}
 			}
-			
+
 			"PrevButton"
 			{
 				"ControlName"	"CExImageButton"
@@ -344,13 +344,13 @@
 				"Command"		"prevpage"
 				"proportionaltoparent" "1"
 				"actionsignallevel" "2"
-			
+
 				"paintbackground"	"0"
-			
+
 				"defaultFgColor_override" "46 43 42 255"
 				"armedFgColor_override" "200 80 60 255"
 				"depressedFgColor_override" "46 43 42 255"
-			
+
 				"image_drawcolor"	"235 226 202 255"
 				"image_armedcolor"	"255 255 255 255"
 				"SubImage"
@@ -367,7 +367,7 @@
 					"image"			"blog_back_solid"
 					"scaleImage"	"1"
 					"proportionaltoparent" "1"
-				}				
+				}
 			}
 		}
 	}
@@ -384,7 +384,7 @@
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
 		"border"		"MainMenuBGBorder"
-		
+
 		"TipLabel"
 		{
 			"ControlName"	"CExLabel"
