@@ -9,12 +9,12 @@
 		"wide"			"300"
 		"tall"			"22"
 		"visible"		"1"
-			
+
 		"HeaderLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"HeaderLabel"
-			"font"			"HudFontSmallBold"
+			"font"			"HudFont14Bold"
 			"textAlignment"	"center"
 			"labelText"		"#MMenu_Stream_LiveStream"
 			"xpos"			"0"
@@ -30,7 +30,7 @@
 			"bgcolor_override"	"184 108 55 255"
 		}
 	}
-		
+
 	"CloseButton"
 	{
 		"ControlName"	"CExImageButton"
@@ -46,7 +46,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labeltext"		""
-		"font"			"HudFontSmallBold"
+		"font"			"HudFont14Bold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -58,15 +58,15 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"Command"		"hide_streams"
-			
+
 		"paintbackground"	"0"
-			
+
 		//"defaultFgColor_override" "235 226 202 255"
 		//"armedFgColor_override" "46 43 42 255"
 		"defaultFgColor_override" "46 43 42 255"
 		"armedFgColor_override" "235 226 202 255"
 		"depressedFgColor_override" "46 43 42 255"
-			
+
 		"image_drawcolor"	"235 226 202 255"
 		"image_armedcolor"	"200 80 60 255"
 		"SubImage"
@@ -82,14 +82,14 @@
 			"enabled"		"1"
 			"image"			"close_button"
 			"scaleImage"	"1"
-		}				
+		}
 	}
 
 	"TitleLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"HudFontSmallBold"
+		"font"			"HudFont14Bold"
 		"labelText"		"#MMenu_Stream_Title"
 		"textAlignment"	"west"
 		"xpos"			"5"
@@ -203,10 +203,10 @@
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-			
+
 		"defaultFgColor_override" "235 226 202 255"
 		"defaultBgColor_override" "46 43 42 255"
 		"armedFgColor_override" "235 226 202 255"
 		"depressedFgColor_override" "235 226 202 255"
-	}	
+	}
 }

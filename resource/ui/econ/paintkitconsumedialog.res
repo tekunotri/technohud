@@ -108,7 +108,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"WorkingText"
-			"font"			"HudFontSmallBold"
+			"font"			"HudFont14Bold"
 			"labelText"		"#TF_UsePaintkit_Working"
 			"textAlignment"	"north"
 			"xpos"			"cs-0.5"
@@ -202,7 +202,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"FailureText"
-			"font"			"HudFontSmallBold"
+			"font"			"HudFont14Bold"
 			"labelText"		"#TF_UsePaintkit_Failed"
 			"textAlignment"	"north"
 			"xpos"			"cs-0.5"

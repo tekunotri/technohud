@@ -19,7 +19,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"HudFontSmallBold"
+			"font"			"HudFont14Bold"
 			"labelText"		"#MMenu_CompetitiveAccess"
 			"textAlignment"	"center"
 			"xpos"			"5"
@@ -122,7 +122,7 @@
 				"border"		"InnerShadowBorder"
 				"mouseinputenabled"	"0"
 			}
-			
+
 			"Background"
 			{
 				"ControlName"	"EditablePanel"
@@ -161,7 +161,7 @@
 
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
-			
+
 				"paintbackground"	"1"
 
 				"defaultBgColor_override" "0 0 0 64"
@@ -244,7 +244,7 @@
 
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
-			
+
 				"paintbackground"	"1"
 
 				"defaultBgColor_override" "0 0 0 64"
@@ -343,15 +343,15 @@
 				"command"		"open_casual"
 				"proportionaltoparent"	"1"
 				"actionsignallevel"	"3"
-			
+
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
-			
+
 				"paintbackground"	"1"
-			
+
 				"defaultBgColor_override" "0 0 0 64"
 				"armedBgColor_override" "0 0 0 0"
-			
+
 				"image_drawcolor"	"200 200 200 255"
 				"image_armedcolor"	"255 255 255 255"
 			}

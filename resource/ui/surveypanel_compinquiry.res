@@ -5,7 +5,7 @@
 	"Survey"
 	{
 		"tall"			"250"
-	
+
 		"QuestionContainer"
 		{
 			"TextLabel"
@@ -59,7 +59,7 @@
 					"mouseinputenabled"	"0"
 				}
 
-				"Answer0" 
+				"Answer0"
 				{
 					"ControlName"	"RadioButton"
 					"fieldName"		"Radio0"
@@ -73,7 +73,7 @@
 
 					"sound_depressed"	"UI/buttonclick.wav"
 					"sound_released"	"UI/buttonclickrelease.wav"
-					
+
 					"labelText"		""
 					"Command"		"option0"
 				}
@@ -89,7 +89,7 @@
 					"tall"			"20"
 					"visible"		"1"
 					"proportionaltoparent"	"1"
-					
+
 					"labelText"		"#TF_SurveyQuestion_CompInquiry_Answer0"
 					"font"			"HudFontSmallest"
 					"textAlignment"	"left"
@@ -127,13 +127,13 @@
 					"tall"			"20"
 					"visible"		"1"
 					"proportionaltoparent"	"1"
-					
+
 					"labelText"		"#TF_SurveyQuestion_CompInquiry_Answer1"
 					"font"			"HudFontSmallest"
 					"textAlignment"	"left"
 				}
 
-				"Answer2" 
+				"Answer2"
 				{
 					"ControlName"	"RadioButton"
 					"fieldName"		"Radio2"
@@ -163,7 +163,7 @@
 					"tall"			"20"
 					"visible"		"1"
 					"proportionaltoparent"	"1"
-					
+
 					"labelText"		"#TF_SurveyQuestion_CompInquiry_Answer2"
 					"font"			"HudFontSmallest"
 					"textAlignment"	"left"
@@ -184,7 +184,7 @@
 
 					"sound_depressed"	"UI/buttonclick.wav"
 					"sound_released"	"UI/buttonclickrelease.wav"
-					
+
 					"labelText"		""
 					"Command"		"option3"
 				}
@@ -200,7 +200,7 @@
 					"tall"			"20"
 					"visible"		"1"
 					"proportionaltoparent"	"1"
-					
+
 					"labelText"		"#TF_SurveyQuestion_CompInquiry_Answer3"
 					"font"			"HudFontSmallest"
 					"textAlignment"	"left"
@@ -220,7 +220,7 @@
 
 					"sound_depressed"	"UI/buttonclick.wav"
 					"sound_released"	"UI/buttonclickrelease.wav"
-					
+
 					"labelText"		""
 					"Command"		"option4"
 				}
@@ -236,7 +236,7 @@
 					"tall"			"20"
 					"visible"		"1"
 					"proportionaltoparent"	"1"
-					
+
 					"labelText"		"#TF_SurveyQuestion_CompInquiry_Answer4"
 					"font"			"HudFontSmallest"
 					"textAlignment"	"left"
@@ -256,7 +256,7 @@
 
 					"sound_depressed"	"UI/buttonclick.wav"
 					"sound_released"	"UI/buttonclickrelease.wav"
-					
+
 					"labelText"		""
 					"Command"		"option4"
 				}
@@ -272,7 +272,7 @@
 					"tall"			"20"
 					"visible"		"1"
 					"proportionaltoparent"	"1"
-					
+
 					"labelText"		"#TF_SurveyQuestion_CompInquiry_Answer5"
 					"font"			"HudFontSmallest"
 					"textAlignment"	"left"
@@ -289,7 +289,7 @@
 				"wide"			"130"
 				"tall"			"25"
 				"labelText"		"#AbuseReport_Submit"
-				"font"			"HudFontSmallBold"
+				"font"			"HudFont14Bold"
 				"textAlignment"	"center"
 				"Command"		"submit"
 				"sound_depressed"	"UI/buttonclick.wav"
@@ -298,5 +298,5 @@
 				"actionsignallevel"	"2"
 			}
 		}
-	}	
+	}
 }

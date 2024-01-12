@@ -23,7 +23,7 @@
 
 		"QuestLogTitle"
 		{
-			"font"			"HudFontSmallBold"
+			"font"			"HudFont14Bold"
 			"labelText"		"#QuestLog_Title_Halloween"
 			"fgcolor"		"TanLight"
 		}
@@ -43,7 +43,7 @@
 			"bgcolor_override"	"0 0 0 0"
 
 			"ContractsCompletedProgressMeter"
-			{	
+			{
 				"visible"		"0"
 			}
 		}

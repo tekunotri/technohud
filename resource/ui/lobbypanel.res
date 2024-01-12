@@ -252,7 +252,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"PlayersInGameLabel"
-			"font"			"HudFontSmallBold"
+			"font"			"HudFont14Bold"
 			"labelText"		"#TF_Matchmaking_ActivePlayers"
 			"xpos"		"30"
 			"ypos"		"70"
@@ -364,7 +364,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"PlayersSearchingLabel"
-			"font"			"HudFontSmallBold"
+			"font"			"HudFont14Bold"
 			"labelText"		"#TF_Matchmaking_SearchingPlayers"
 			"xpos"		"30"
 			"ypos"		"140"
@@ -476,7 +476,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"EmptyGameserversLabel"
-			"font"			"HudFontSmallBold"
+			"font"			"HudFont14Bold"
 			"labelText"		"#TF_Matchmaking_EmptyGameservers"
 			"xpos"		"30"
 			"ypos"		"210"
@@ -644,7 +644,7 @@
 				"enabled"		"1"
 				"tabPosition"	"0"
 				"labelText"		"#TF_Matchmaking_Invite"
-				"font"			"HudFontSmallBold"
+				"font"			"HudFont14Bold"
 				"textAlignment"	"center"
 				"dulltext"		"0"
 				"brighttext"	"0"

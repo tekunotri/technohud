@@ -104,7 +104,7 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"		"0"
-		"font"		"HudFontSmallBold"
+		"font"		"HudFont14Bold"
 	}
 
 	"PreviewImageBorder"
@@ -176,7 +176,7 @@
 		"wrap"		"0"
 		"Command"		"PreviewBrowse"
 		"Default"		"1"
-		"font"		"HudFontSmallBold"
+		"font"		"HudFont14Bold"
 	}
 
 	"LabelTitle"
@@ -197,7 +197,7 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"		"0"
-		"font"		"HudFontSmallBold"
+		"font"		"HudFont14Bold"
 	}
 
 	"FileTitle"
@@ -242,7 +242,7 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"		"0"
-		"font"		"HudFontSmallBold"
+		"font"		"HudFont14Bold"
 	}
 	"FileDesc"
 	{
@@ -286,7 +286,7 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"		"0"
-		"font"		"HudFontSmallBold"
+		"font"		"HudFont14Bold"
 	}
 
 	"SourceFile"
@@ -331,7 +331,7 @@
 		"wrap"		"0"
 		"Command"		"MainFileCosmetics"
 		"Default"		"1"
-		"font"		"HudFontSmallBold"
+		"font"		"HudFont14Bold"
 
 		"SubImage"
 		{
@@ -367,7 +367,7 @@
 		"wrap"		"0"
 		"Command"		"MainFileOther"
 		"Default"		"1"
-		"font"		"HudFontSmallBold"
+		"font"		"HudFont14Bold"
 	}
 
 	"ButtonSourceMaps"
@@ -390,7 +390,7 @@
 		"wrap"		"0"
 		"Command"		"MainFileMaps"
 		"Default"		"1"
-		"font"		"HudFontSmallBold"
+		"font"		"HudFont14Bold"
 
 		//"SubImage"
 		//{
@@ -446,7 +446,7 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"		"0"
-		"font"		"HudFontSmallBold"
+		"font"		"HudFont14Bold"
 	}
 
 	"ClassUsagePanel"
@@ -1345,7 +1345,7 @@
 		"wrap"		"0"
 		"Command"		"Close"
 		"Default"		"0"
-		"font"		"HudFontSmallBold"
+		"font"		"HudFont14Bold"
 	}
 
 	"ButtonPublish"
@@ -1368,6 +1368,6 @@
 		"wrap"		"0"
 		"Command"		"Publish"
 		"Default"		"1"
-		"font"		"HudFontSmallBold"
+		"font"		"HudFont14Bold"
 	}
 }

@@ -59,7 +59,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"HudFontSmallBold"
+		"font"			"HudFont14Bold"
 		"labelText"		"dynamic"
 		"textAlignment"	"center"
 		"xpos"			"100"
@@ -78,7 +78,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ToolBG"
-		"font"			"HudFontSmallBold"
+		"font"			"HudFont14Bold"
 		"labelText"		""
 		"textAlignment"	"east"
 		"xpos"			"10"
@@ -143,7 +143,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SubjectBG"
-		"font"			"HudFontSmallBold"
+		"font"			"HudFont14Bold"
 		"labelText"		""
 		"textAlignment"	"east"
 		"xpos"			"300"
@@ -208,7 +208,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"OldItemNameBG"
-		"font"			"HudFontSmallBold"
+		"font"			"HudFont14Bold"
 		"labelText"		""
 		"textAlignment"	"east"
 		"xpos"			"10"
@@ -227,7 +227,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"OldItemNameDescLabel"
-		"font"			"HudFontSmallBold"
+		"font"			"HudFont14Bold"
 		"labelText"		"#ToolItemRenameOldItemName"
 		"textAlignment"	"east"
 		"xpos"			"10"
@@ -246,7 +246,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"OldItemNameLabel"
-		"font"			"HudFontSmallBold"
+		"font"			"HudFont14Bold"
 		"labelText"		"%oldname%"
 		"textAlignment"	"west"
 		"xpos"			"200"
@@ -265,7 +265,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"NewItemNameBG"
-		"font"			"HudFontSmallBold"
+		"font"			"HudFont14Bold"
 		"labelText"		""
 		"textAlignment"	"east"
 		"xpos"			"10"
@@ -284,7 +284,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"NewItemNameDescLabel"
-		"font"			"HudFontSmallBold"
+		"font"			"HudFont14Bold"
 		"labelText"		"#ToolItemRenameNewItemName"
 		"textAlignment"	"east"
 		"xpos"			"10"
@@ -360,7 +360,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#Cancel"
-		"font"			"HudFontSmallBold"
+		"font"			"HudFont14Bold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -385,7 +385,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#CraftNameOk"
-		"font"			"HudFontSmallBold"
+		"font"			"HudFont14Bold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"

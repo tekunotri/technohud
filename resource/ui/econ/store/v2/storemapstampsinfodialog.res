@@ -15,7 +15,7 @@
 		"enabled"		"1"
 		"tabPosition"		"0"
 	}
-	
+
 	// Fullscreen background panel
 	"BgPanel"
 	{
@@ -32,7 +32,7 @@
 		"PaintBackgroundType"	"0"
 		"bgcolor_override" "0 0 0 128"
 	}
-	
+
 	// Rounded dialog border
 	"DialogFrame"
 	{
@@ -48,7 +48,7 @@
 		"paintbackground"	"0"
 		"border"		"TFFatLineBorderOpaque"
 		"PaintBorder"	"1"
-		
+
 		// Background for the player model & item preview panels
 		"PreviewViewportBg"
 		{
@@ -64,8 +64,8 @@
 			"paintborder"	"1"
 			"border"		"StoreInnerShadowBorder"
 		}
-	
-	
+
+
 		// 90-degree corners on the top part of the footer
 		"FooterTopPanel"
 		{
@@ -83,7 +83,7 @@
 			"paintbackground"	"1"
 			"bgcolor_override" "50 46 41 255"
 		}
-		
+
 		// Rounded corners on the bottom of the footer
 		"FootBottomPanel"
 		{
@@ -101,7 +101,7 @@
 			"paintbackground"	"1"
 			"bgcolor_override" "50 46 41 255"
 		}
-		
+
 		"MapsDescLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -119,8 +119,8 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-		}	
-		
+		}
+
 		"PromotionImage_Hat"
 		{
 			"ControlName"	"ImagePanel"
@@ -136,7 +136,7 @@
 			"scaleImage"	"1"
 		}
 	}
-	
+
 	"CloseButton"
 	{
 		"ControlName"	"CExImageButton"
@@ -152,7 +152,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labeltext"		""
-		"font"			"HudFontSmallBold"
+		"font"			"HudFont14Bold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -160,12 +160,12 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"Command"		"close"
-		
+
 		"paintbackground"	"0"
-		
+
 		"image_drawcolor"	"118 107 94 255"
 		"image_armedcolor"	"246 247 213 255"
-		
+
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -179,9 +179,9 @@
 			"enabled"		"1"
 			"image"			"close_button"
 			"scaleImage"	"1"
-		}				
-	}		
-	
+		}
+	}
+
 	"BackButton"
 	{
 		"ControlName"	"CExButton"
@@ -196,7 +196,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#TF_BackCarat"
-		"font"			"HudFontSmallBold"
+		"font"			"HudFont14Bold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -205,5 +205,5 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"fgcolor"		"White"
-	}		
+	}
 }

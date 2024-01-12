@@ -149,15 +149,15 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"		"SpectatorGUIHealth"
-		"xpos"			"0"
-		"ypos"			"-3"
+		"xpos"			"10"
+		"ypos"			"-4"
 		"wide"			"32"
 		"tall"			"32"
 		"visible"		"0"
 		"enabled"		"0"
 		"HealthBonusPosAdj"	"10"
 		"HealthDeathWarning"	"0.49"
-		"TFFont"		"HudFontSmallBold"
+		"TFFont"		"HudFont14Bold"
 		"HealthDeathWarningColor"	"HUDDeathWarning"
 		"TextColor"		"FullWhite"
 	}

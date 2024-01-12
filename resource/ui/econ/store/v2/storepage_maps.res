@@ -10,24 +10,24 @@
 			"model_ypos"	"-3"
 			"model_wide"	"100"
 			"model_tall"	"70"
-			
+
 			"itemmodelpanel"
 			{
 				"force_square_image"	"1"
 			}
 		}
 	}
-	
+
 	"ClassFilterLabel"
 	{
 		"visible"		"0"
 	}
-	
+
 	"ClassFilterNavPanel"
 	{
 		"visible"			"0"
 	}
-	
+
 	"ClassFilterLabel"
 	{
 		"visible"		"0"
@@ -42,22 +42,22 @@
 	{
 		"visible"		"0"
 	}
-	
+
 	"SortFilterLabel"
 	{
 		"visible"		"0"
 	}
-	
+
 	"SortFilterComboBox"
 	{
 		"visible"			"0"
 	}
-	
+
 	"TitleLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"HudFontSmallBold"
+		"font"			"HudFont14Bold"
 		"labelText"		"#Store_Maps_Title"
 		"textAlignment"	"north-west"
 		"xpos"			"c-292"
@@ -70,7 +70,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 	}
-	
+
 	"SubTitleLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -89,7 +89,7 @@
 		"enabled"		"1"
 		"fgcolor"		"96 90 85 255"
 	}
-	
+
 	"LearnMoreButton"
 	{
 		"ControlName"	"CExButton"
@@ -105,12 +105,12 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#Store_LearnMore"
-		"font"			"HudFontSmallBold"
+		"font"			"HudFont14Bold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"Command"		"maps_learnmore"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-	}	
+	}
 }

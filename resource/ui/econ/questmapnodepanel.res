@@ -31,7 +31,7 @@
 			"autoResize"	"0"
 			"drawcolor"	"255 255 255 255"
 		}
-		
+
 		"StarCostImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -109,7 +109,7 @@
 			"mouseinputenabled"	"0"
 			"autoResize"	"3"
 			"drawcolor"	"QuestMap_ActiveOrange"
-		}	
+		}
 
 		"NodeNameLabel"
 		{
@@ -145,9 +145,9 @@
 			"tabPosition"	"0"
 			"proportionaltoparent"	"1"
 			"autoResize"	"3"
-			"paintbackground" "0"		
-			"eatmouseinput"	"0"		
-		}	
+			"paintbackground" "0"
+			"eatmouseinput"	"0"
+		}
 
 		"SelectButton"
 		{
@@ -163,7 +163,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labeltext"		""
-			"font"			"HudFontSmallBold"
+			"font"			"HudFont14Bold"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -177,10 +177,10 @@
 			"autoResize"	"3"
 			"paintbackground" "0"
 			"button_activation_type"	"1" // pressed
-			
+
 			"defaultFgColor_override" "46 43 42 255"
 			"armedFgColor_override" "235 226 202 255"
-			"depressedFgColor_override" "46 43 42 255"			
-		}	
+			"depressedFgColor_override" "46 43 42 255"
+		}
 	}
 }

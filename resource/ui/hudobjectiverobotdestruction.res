@@ -281,7 +281,7 @@
 					"enabled"		"1"
 					"textAlignment"	"west"
 					"labelText"		"#TF_RD_BlueFinale"
-					"font"			"HudFontSmallBold"
+					"font"			"HudFont14Bold"
 					"fgcolor"		"TanLight"
 					"proportionalToParent"	"1"
 				}
@@ -299,7 +299,7 @@
 					"enabled"		"1"
 					"textAlignment"	"west"
 					"labelText"		"#TF_RD_BlueFinale"
-					"font"			"HudFontSmallBold"
+					"font"			"HudFont14Bold"
 					"fgcolor"		"Black"
 					"proportionalToParent"	"1"
 				}
@@ -317,7 +317,7 @@
 					"enabled"		"1"
 					"textAlignment"	"west"
 					"labelText"		"%victorytime%"
-					"font"			"HudFontSmallBold"
+					"font"			"HudFont14Bold"
 					"fgcolor"		"TanLight"
 					"proportionalToParent"	"1"
 
@@ -339,7 +339,7 @@
 					"enabled"		"1"
 					"textAlignment"	"west"
 					"labelText"		"%victorytime%"
-					"font"			"HudFontSmallBold"
+					"font"			"HudFont14Bold"
 					"fgcolor"		"Black"
 					"proportionalToParent"	"1"
 
@@ -425,7 +425,7 @@
 					"enabled"		"1"
 					"textAlignment"	"west"
 					"labelText"		"#TF_RD_RedFinale"
-					"font"			"HudFontSmallBold"
+					"font"			"HudFont14Bold"
 					"fgcolor"		"TanLight"
 					"proportionalToParent"	"1"
 				}
@@ -443,7 +443,7 @@
 					"enabled"		"1"
 					"textAlignment"	"west"
 					"labelText"		"#TF_RD_RedFinale"
-					"font"			"HudFontSmallBold"
+					"font"			"HudFont14Bold"
 					"fgcolor"		"Black"
 					"proportionalToParent"	"1"
 				}
@@ -461,7 +461,7 @@
 					"enabled"		"1"
 					"textAlignment"	"west"
 					"labelText"		"%victorytime%"
-					"font"			"HudFontSmallBold"
+					"font"			"HudFont14Bold"
 					"fgcolor"		"TanLight"
 					"proportionalToParent"	"1"
 
@@ -483,7 +483,7 @@
 					"enabled"		"1"
 					"textAlignment"	"west"
 					"labelText"		"%victorytime%"
-					"font"			"HudFontSmallBold"
+					"font"			"HudFont14Bold"
 					"fgcolor"		"Black"
 					"proportionalToParent"	"1"
 

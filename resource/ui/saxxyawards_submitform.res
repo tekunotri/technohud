@@ -16,12 +16,12 @@
 		"PaintBackgroundType"	"2"
 		"bgcolor_override"	"59 54 48 255"
 	}
-	
+
 	"DirectionsLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"DirectionsLabel"
-		"font"			"HudFontSmallBold"
+		"font"			"HudFont14Bold"
 		"labelText"		"#Replay_Contest_SubmitFormDirections"
 		"textAlignment"	"center"
 		"xpos"			"0"
@@ -35,7 +35,7 @@
 		"enabled"		"1"
 		"wrap"			"0"
 	}
-	
+
 	"URLInput"
 	{
 		"ControlName"	"TextEntry"
@@ -58,10 +58,10 @@
 		"fgcolor_override"		"0 0 0 255"
 		"bgcolor_override"		"202 190 164 255"
 		"Font"			"HudFontSmallestBold"
-		
+
 		"selectallonfirstfocus"	"1"
 	}
-	
+
 	"CategoryCombo"
 	{
 		"ControlName"	"ComboBox"
@@ -85,7 +85,7 @@
 		"bgcolor_override"		"202 190 164 255"
 		"Font"			"HudFontSmallestBold"
 	}
-	
+
 	"CancelButton"
 	{
 		"ControlName"	"CExButton"
@@ -101,7 +101,7 @@
 		"enabled"		"1"
 		"tabPosition"	"2"
 		"labelText"		"#Replay_Cancel"
-		"font"			"HudFontSmallBold"
+		"font"			"HudFont14Bold"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
 		"dulltext"		"0"
@@ -109,7 +109,7 @@
 		"Command"		"cancel"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-	}		
+	}
 
 	"RulesButton"
 	{
@@ -126,7 +126,7 @@
 		"enabled"		"1"
 		"tabPosition"	"2"
 		"labelText"		"#Replay_Contest_Rules"
-		"font"			"HudFontSmallBold"
+		"font"			"HudFont14Bold"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
 		"dulltext"		"0"
@@ -134,8 +134,8 @@
 		"Command"		"rules"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-	}		
-	
+	}
+
 	"SubmitButton"
 	{
 		"ControlName"	"CExButton"
@@ -151,7 +151,7 @@
 		"enabled"		"1"
 		"tabPosition"	"2"
 		"labelText"		"#Replay_Contest_Submit"
-		"font"			"HudFontSmallBold"
+		"font"			"HudFont14Bold"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
 		"dulltext"		"0"
@@ -159,5 +159,5 @@
 		"Command"		"submit"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-	}		
+	}
 }

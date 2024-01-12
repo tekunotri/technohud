@@ -43,7 +43,7 @@
 
 	"EmptyLabel"
 	{
-		"font"			"HudFontSmallBold"
+		"font"			"HudFont14Bold"
 		"fgcolor"		"HalloweenThemeColor2015_Light"
 	}
 }

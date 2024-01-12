@@ -171,7 +171,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"TourLootTitle"
-			"font"			"HudFontSmallBold"
+			"font"			"HudFont14Bold"
 			"labelText"		"#TF_MvM_TourLootTitle"
 			"textAlignment"	"west"
 			"xpos"			"10"
@@ -218,7 +218,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"InventoryTitleLabel"
-			"font"			"HudFontSmallBold"
+			"font"			"HudFont14Bold"
 			"labelText"		"#TF_MvM_InventoryTitle"
 			"textAlignment"	"north-west"
 			"xpos"			"8"
@@ -496,7 +496,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"NoMannUpTitleLabel"
-			"font"			"HudFontSmallBold"
+			"font"			"HudFont14Bold"
 			"labelText"		"#TF_MvM_NoMannUpTitle"
 			"textAlignment"	"west"
 			"xpos"			"10"
@@ -536,7 +536,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"#TF_MvM_MannUpNow"
-			"font"			"HudFontSmallBold"
+			"font"			"HudFont14Bold"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -578,7 +578,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"CompleteLabel"
-			"font"			"HudFontSmallBold"
+			"font"			"HudFont14Bold"
 			"labelText"		"%complete_heading%"
 			"textAlignment"	"south-west"
 			"xpos"			"264"

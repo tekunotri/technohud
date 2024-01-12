@@ -268,7 +268,7 @@
 			"visible"								"0"
 			"enabled"								"1"
 			"labeltext"								""
-			"font"									"HudFontSmallBold"
+			"font"									"HudFont14Bold"
 			"textAlignment"							"center"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"Command"								"debug_menu"

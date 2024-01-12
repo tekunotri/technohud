@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "console/serenity_widescreen"
+	"$ignorez" "1" //required for fire to work
+	"%keywords" "tf"
+}

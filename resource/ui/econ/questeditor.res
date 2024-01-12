@@ -39,7 +39,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			//"labelText"		"#GameUI_GameMenu_Options"
-			"font"			"HudFontSmallBold"
+			"font"			"HudFont14Bold"
 			"textAlignment"	"west"
 			"textinsetx"	"35"
 			"use_proportional_insets" "1"
@@ -51,7 +51,7 @@
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-		
+
 			"image_drawcolor"	"235 226 202 255"
 			"SubImage"
 			{
@@ -67,7 +67,7 @@
 				"scaleImage"	"1"
 				"image"			"glyph_options"
 				"proportionaltoparent"	"1"
-			}			
+			}
 		}
 
 		"NewQuestButton"
@@ -110,7 +110,7 @@
 			"autoresize"		"2"
 
 			"bgcolor_override"	"0 0 0 255"
-			
+
 			"ScrollBar"
 			{
 				"ControlName"	"ScrollBar"
@@ -129,14 +129,14 @@
 				{
 					"PaintBackgroundType"	"0"
 				}
-		
+
 				"UpButton"
 				{
 					"ControlName"	"Button"
 					"FieldName"		"UpButton"
 					"visible"		"0"
 				}
-		
+
 				"DownButton"
 				{
 					"ControlName"	"Button"
@@ -186,7 +186,7 @@
 			"autoresize"		"2"
 
 			"bgcolor_override"	"0 0 0 255"
-			
+
 			"ScrollBar"
 			{
 				"ControlName"	"ScrollBar"
@@ -205,14 +205,14 @@
 				{
 					"PaintBackgroundType"	"0"
 				}
-		
+
 				"UpButton"
 				{
 					"ControlName"	"Button"
 					"FieldName"		"UpButton"
 					"visible"		"0"
 				}
-		
+
 				"DownButton"
 				{
 					"ControlName"	"Button"
@@ -251,12 +251,12 @@
 				"proportionaltoparent"	"1"
 				"autoresize"		"2"
 				"pincorner"			"3"
-				
+
 				"Slider"
 				{
 					"PaintBackgroundType"	"0"
 				}
-				
+
 				"nobuttons"		"1"
 				"UpButton"
 				{
@@ -266,7 +266,7 @@
 					"tall"			"0"
 					"wide"			"0"
 				}
-				
+
 				"DownButton"
 				{
 					"ControlName"	"Button"
@@ -277,5 +277,5 @@
 				}
 			}
 		}
-	}	
+	}
 }

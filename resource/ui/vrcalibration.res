@@ -12,7 +12,7 @@
 		"visible"		"1"
 		"bgcolor_override"		"20 20 20 255"
 	}
-	
+
 	"MainLabelDropShadow"
 	{
 		"ControlName"	"CExLabel"
@@ -26,7 +26,7 @@
 		"tall"			"35"
 		"fgcolor"		"0 0 0 255"
 	}
-	
+
 	"MainLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -52,7 +52,7 @@
 		"tall"			"30"
 		"visible"		"1"
 		"bgcolor_override"		"0 0 0 0"
-		
+
 		"IsActive"
 		{
 			"ControlName"	"EditablePanel"
@@ -65,7 +65,7 @@
 			"visible"		"0"
 			"bgcolor_override"		"100 0 0 255"
 		}
-		
+
 		"Label"
 		{
 			"ControlName"	"CExLabel"
@@ -92,7 +92,7 @@
 		"tall"			"30"
 		"visible"		"1"
 		"bgcolor_override"		"0 0 0 0"
-		
+
 		"IsActive"
 		{
 			"ControlName"	"EditablePanel"
@@ -105,7 +105,7 @@
 			"visible"		"0"
 			"bgcolor_override"		"100 0 0 255"
 		}
-		
+
 		"Label"
 		{
 			"ControlName"	"CExLabel"
@@ -132,7 +132,7 @@
 		"tall"			"35"
 		"visible"		"1"
 		"bgcolor_override"		"0 0 0 0"
-		
+
 		"IsActive"
 		{
 			"ControlName"	"EditablePanel"
@@ -145,7 +145,7 @@
 			"visible"		"0"
 			"bgcolor_override"		"100 0 0 255"
 		}
-		
+
 		"Label"
 		{
 			"ControlName"	"CExLabel"
@@ -161,7 +161,7 @@
 			"fgcolor"		"tanlight"
 		}
 	}
-	
+
 	"LeftReliefSquare"
 	{
 		"ControlName"	"EditablePanel"
@@ -172,7 +172,7 @@
 		"tall"			"35"
 		"visible"		"0"				// Hidden for now, since we don't do anything with it!
 		"bgcolor_override"		"0 0 0 0"
-		
+
 		"IsActive"
 		{
 			"ControlName"	"EditablePanel"
@@ -185,47 +185,7 @@
 			"visible"		"0"
 			"bgcolor_override"		"100 0 0 255"
 		}
-		
-		"Label"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"Label"
-			"font"			"ScoreboardMedium"
-			"labelText"		"%eyerelief%"
-			"textAlignment" "center"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"400"
-			"tall"			"35"
-			"visible"		"1"
-			"fgcolor"		"tanlight"
-		}
-	}
-	
-	"RightReliefSquare"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"RightReliefSquare"
-		"xpos"			"c-200"
-		"ypos"			"200"
-		"wide"			"400"
-		"tall"			"35"
-		"visible"		"0"				// Hidden for now, since we don't do anything with it!
-		"bgcolor_override"		"0 0 0 0"
-		
-		"IsActive"
-		{
-			"ControlName"	"EditablePanel"
-			"fieldName"		"IsActive"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"-1"
-			"wide"			"f0"
-			"tall"			"f0"
-			"visible"		"0"
-			"bgcolor_override"		"100 0 0 255"
-		}
-		
+
 		"Label"
 		{
 			"ControlName"	"CExLabel"
@@ -242,7 +202,47 @@
 		}
 	}
 
-	
+	"RightReliefSquare"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"RightReliefSquare"
+		"xpos"			"c-200"
+		"ypos"			"200"
+		"wide"			"400"
+		"tall"			"35"
+		"visible"		"0"				// Hidden for now, since we don't do anything with it!
+		"bgcolor_override"		"0 0 0 0"
+
+		"IsActive"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldName"		"IsActive"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"-1"
+			"wide"			"f0"
+			"tall"			"f0"
+			"visible"		"0"
+			"bgcolor_override"		"100 0 0 255"
+		}
+
+		"Label"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"Label"
+			"font"			"ScoreboardMedium"
+			"labelText"		"%eyerelief%"
+			"textAlignment" "center"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"400"
+			"tall"			"35"
+			"visible"		"1"
+			"fgcolor"		"tanlight"
+		}
+	}
+
+
 	// Line of instructions
 	"MainLineInstruction"
 	{
@@ -274,8 +274,8 @@
 		"tall"			"70"
 		"fgcolor"		"tanlight"
 	}
-	
-	
+
+
 	"LessLotsButton"
 	{
 		"ControlName"	"CExImageButton"
@@ -290,14 +290,14 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#TF_VR_LessLots"
-		"font"			"HudFontSmallBold"
+		"font"			"HudFont14Bold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"default"		"1"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		
+
 		"image_drawcolor"	"235 226 202 255"
 		"Command"		"adjust_less_lots"
 	}
@@ -316,18 +316,18 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#TF_VR_Less"
-		"font"			"HudFontSmallBold"
+		"font"			"HudFont14Bold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"default"		"1"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		
+
 		"image_drawcolor"	"235 226 202 255"
 		"Command"		"adjust_less"
 	}
-	
+
 	"MoreButton"
 	{
 		"ControlName"	"CExImageButton"
@@ -342,14 +342,14 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#TF_VR_More"
-		"font"			"HudFontSmallBold"
+		"font"			"HudFont14Bold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"default"		"1"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		
+
 		"image_drawcolor"	"235 226 202 255"
 		"Command"		"adjust_more"
 	}
@@ -368,14 +368,14 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#TF_VR_MoreLots"
-		"font"			"HudFontSmallBold"
+		"font"			"HudFont14Bold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"default"		"1"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		
+
 		"image_drawcolor"	"235 226 202 255"
 		"Command"		"adjust_more_lots"
 	}
@@ -394,14 +394,14 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#TF_VR_NextAdjust"
-		"font"			"HudFontSmallBold"
+		"font"			"HudFont14Bold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"default"		"1"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		
+
 		"image_drawcolor"	"235 226 202 255"
 		"Command"		"adjust_next"
 	}
@@ -420,14 +420,14 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#TF_VR_Close"
-		"font"			"HudFontSmallBold"
+		"font"			"HudFont14Bold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"default"		"1"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		
+
 		"image_drawcolor"	"235 226 202 255"
 		"Command"		"close"
 	}

@@ -143,7 +143,7 @@
 			{
 				"image"			"trade_ups/trade_ups_bg_base"
 			}
-			
+
 			"HeaderTitle"
 			{
 				"ControlName"	"CExLabel"
@@ -155,7 +155,7 @@
 				"zpos"			"1"
 				"wide"			"300"
 				"tall"			"300"
-				"pinCorner"		"0"	
+				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
 				"wrap"			"1"
@@ -166,7 +166,7 @@
 				"paintborder"		"0"
 				"fgcolor"		"210 210 210 255"
 			}
-			
+
 			"SaxtonQuote"
 			{
 				"ControlName"	"CExLabel"
@@ -178,7 +178,7 @@
 				"zpos"			"1"
 				"wide"			"150"
 				"tall"			"50"
-				"pinCorner"		"0"	
+				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
 				"labelText"		"#TF_TradeUp_CommonStatClock_desc"
@@ -201,7 +201,7 @@
 				"zpos"			"1"
 				"wide"			"200"
 				"tall"			"300"
-				"pinCorner"		"0"	
+				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
 				"labelText"		"#TF_TradeUp_CommonStatClock_output"
@@ -223,7 +223,7 @@
 				"zpos"			"1"
 				"wide"			"p0.56"
 				"tall"			"300"
-				"pinCorner"		"0"	
+				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
 				"labelText"		"#TF_TradeUp_CommonStatClock_input"
@@ -234,7 +234,7 @@
 				"fgcolor"		"RedSolid"
 				"wrap"			"1"
 			}
-	
+
 			"OkButton"
 			{
 				"ControlName"	"CExButton"
@@ -250,7 +250,7 @@
 				"enabled"		"1"
 				"tabPosition"	"0"
 				"labelText"		"#TF_CollectionCrafting_Submit"
-				"font"			"HudFontSmallBold"
+				"font"			"HudFont14Bold"
 				"textAlignment"	"center"
 				"dulltext"		"0"
 				"brighttext"	"0"

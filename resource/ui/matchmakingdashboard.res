@@ -238,7 +238,7 @@
 				"visible"							"1"
 				"enabled"							"1"
 				"labeltext"							""
-				"font"								"HudFontSmallBold"
+				"font"								"HudFont14Bold"
 				"textAlignment"						"center"
 				"Command"							"queue_logo_clicked"
 				"proportionaltoparent"				"1"

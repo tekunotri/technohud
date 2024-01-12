@@ -66,7 +66,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"QuestLogTitle"
-			"font"			"HudFontSmallBold"
+			"font"			"HudFont14Bold"
 			"labelText"		"#TF_Matchmaking_Title"
 			"textAlignment"	"north-west"
 			"xpos"			"105"
@@ -158,7 +158,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"tabPosition"	"0"
-				"font"			"HudFontSmallBold"
+				"font"			"HudFont14Bold"
 				"textAlignment"	"center"
 				"labelText"		"#TF_Matchmaking_StartSearch"
 				"dulltext"		"0"
@@ -182,7 +182,7 @@
 				"visible"		"0"
 				"enabled"		"1"
 				"tabPosition"	"0"
-				"font"			"HudFontSmallBold"
+				"font"			"HudFont14Bold"
 				"textAlignment"	"center"
 				"labelText"		"#TF_Matchmaking_CancelSearch"
 				"dulltext"		"0"
@@ -262,7 +262,7 @@
 			{
 				"ControlName"		"CExLabel"
 				"fieldName"		"PlayersInGameLabel"
-				"font"			"HudFontSmallBold"
+				"font"			"HudFont14Bold"
 				"labelText"		"#TF_Matchmaking_ActivePlayers"
 				"xpos"		"30"
 				"ypos"		"70"
@@ -374,7 +374,7 @@
 			{
 				"ControlName"		"CExLabel"
 				"fieldName"		"PlayersSearchingLabel"
-				"font"			"HudFontSmallBold"
+				"font"			"HudFont14Bold"
 				"labelText"		"#TF_Matchmaking_SearchingPlayers"
 				"xpos"		"30"
 				"ypos"		"140"
@@ -486,7 +486,7 @@
 			{
 				"ControlName"		"CExLabel"
 				"fieldName"		"EmptyGameserversLabel"
-				"font"			"HudFontSmallBold"
+				"font"			"HudFont14Bold"
 				"labelText"		"#TF_Matchmaking_EmptyGameservers"
 				"xpos"		"30"
 				"ypos"		"210"

@@ -14,12 +14,12 @@
 		"settitlebarvisible"	"0"
 		"border"				"GrayDialogBorder"
 	}
-	
+
 	"TitleLabel"
-	{	
+	{
 		"ControlName"	"Label"
 		"fieldName"		"TitleLabel"
-		"font"			"HudFontSmallBold"
+		"font"			"HudFont14Bold"
 		"xpos"			"0"
 		"ypos"			"8"
 		"zpos"			"0"
@@ -38,10 +38,10 @@
 	}
 
 	"EllipsesLabel"
-	{	
+	{
 		"ControlName"	"Label"
 		"fieldName"		"EllipsesLabel"
-		"font"			"HudFontSmallBold"
+		"font"			"HudFont14Bold"
 		"xpos"			"0"
 		"ypos"			"42"
 		"zpos"			"0"
@@ -58,10 +58,10 @@
 	}
 
 	"DurationLabel"
-	{	
+	{
 		"ControlName"	"Label"
 		"fieldName"		"DurationLabel"
-		"font"			"HudFontSmallBold"
+		"font"			"HudFont14Bold"
 		"xpos"			"0"
 		"ypos"			"52"
 		"zpos"			"0"
@@ -76,7 +76,7 @@
 		"fgcolor_override" "200 80 60 255"
 		"bgcolor_override" "0 0 0 0"
 	}
-	
+
 	"CloseButton"
 	{
 		"ControlName"	"CExImageButton"
@@ -92,7 +92,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#Cancel"
-		"font"			"HudFontSmallBold"
+		"font"			"HudFont14Bold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"

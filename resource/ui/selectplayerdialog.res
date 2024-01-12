@@ -13,14 +13,14 @@
 		"paintbackgroundtype"	"2"
 		"settitlebarvisible"	""
 		"border"				"GrayDialogBorder"
-		
+
 		"button_kv"
 		{
 			"xpos"			"10"
 			"ypos"			"0"
 			"wide"			"350"
 			"tall"			"30"
-				
+
 			"button"
 			{
 				"xpos"			"0"
@@ -33,7 +33,7 @@
 				"enabled"		"1"
 				"tabPosition"	"0"
 				"labelText"		""
-				"font"			"HudFontSmallBold"
+				"font"			"HudFont14Bold"
 				"textAlignment"	"west"
 				"textinsetx"	"34"
 				"use_proportional_insets" "1"
@@ -43,7 +43,7 @@
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
 			}
-			
+
 			"avatar"
 			{
 				"ControlName"	"CAvatarImagePanel"
@@ -56,12 +56,12 @@
 				"image"			""
 				"visible"		"1"
 				"enabled"		"1"
-				"scaleImage"	"1"	
+				"scaleImage"	"1"
 				"color_outline"	"52 48 45 255"
 			}
 		}
 	}
-	
+
 	"TitleLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -80,7 +80,7 @@
 		"enabled"		"1"
 		"fgcolor_override" "200 80 60 255"
 	}
-	
+
 	"PlayerListScroller"
 	{
 		"ControlName"	"ScrollableEditablePanel"
@@ -92,7 +92,7 @@
 		"PaintBackgroundType"	"2"
 		"fgcolor_override"	"117 107 94 255"
 		"bgcolor_override"	"0 0 0 64"
-		
+
 		"PlayerList"
 		{
 			"ControlName"	"EditablePanel"
@@ -116,12 +116,12 @@
 		"wide"	 				"400"
 		"tall"	 				"180"
 		"PaintBackgroundType"	"2"
-	
+
 		"QueryLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"QueryLabel"
-			"font"			"HudFontSmallBold"
+			"font"			"HudFont14Bold"
 			"labelText"		"#TF_SelectPlayer_Select"
 			"textAlignment"	"north"
 			"xpos"			"0"
@@ -134,7 +134,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor_override" "200 187 161 255"
-		}	
+		}
 
 		"subbutton0"
 		{
@@ -151,7 +151,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"#TF_SelectPlayer_SelectFriends"
-			"font"			"HudFontSmallBold"
+			"font"			"HudFont14Bold"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -175,7 +175,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"#TF_SelectPlayer_SelectServer"
-			"font"			"HudFontSmallBold"
+			"font"			"HudFont14Bold"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -196,12 +196,12 @@
 		"wide"	 				"400"
 		"tall"	 				"180"
 		"PaintBackgroundType"	"2"
-	
+
 		"QueryLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"QueryLabel"
-			"font"			"HudFontSmallBold"
+			"font"			"HudFont14Bold"
 			"labelText"		"#TF_SelectPlayer_Friends"
 			"textAlignment"	"north"
 			"xpos"			"0"
@@ -213,13 +213,13 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor_override" "200 187 161 255"
-		}	
-		
+		}
+
 		"EmptyPlayerListLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"EmptyPlayerListLabel"
-			"font"			"HudFontSmallBold"
+			"font"			"HudFont14Bold"
 			"labelText"		"#TF_SelectPlayer_FriendsNone"
 			"textAlignment"	"north"
 			"xpos"			"0"
@@ -234,7 +234,7 @@
 			"wrap"			"1"
 			"centerwrap"	"1"
 			"fgcolor_override" "200 187 161 255"
-		}	
+		}
 	}
 	"StatePanel2"
 	{
@@ -247,12 +247,12 @@
 		"wide"	 				"400"
 		"tall"	 				"180"
 		"PaintBackgroundType"	"2"
-	
+
 		"QueryLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"QueryLabel"
-			"font"			"HudFontSmallBold"
+			"font"			"HudFont14Bold"
 			"labelText"		"#TF_SelectPlayer_Server"
 			"textAlignment"	"north"
 			"xpos"			"0"
@@ -265,13 +265,13 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor_override" "200 187 161 255"
-		}	
-		
+		}
+
 		"EmptyPlayerListLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"EmptyPlayerListLabel"
-			"font"			"HudFontSmallBold"
+			"font"			"HudFont14Bold"
 			"labelText"		"#TF_SelectPlayer_ServerNone"
 			"textAlignment"	"north"
 			"xpos"			"0"
@@ -286,9 +286,9 @@
 			"wrap"			"1"
 			"centerwrap"	"1"
 			"fgcolor_override" "200 187 161 255"
-		}	
+		}
 	}
-	
+
 	"CancelButton"
 	{
 		"ControlName"	"CExButton"
@@ -304,7 +304,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#Cancel"
-		"font"			"HudFontSmallBold"
+		"font"			"HudFont14Bold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"

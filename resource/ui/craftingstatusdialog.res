@@ -14,12 +14,12 @@
 		"settitlebarvisible"	"0"
 		"border"				"GrayDialogBorder"
 	}
-	
+
 	"CenterPositioner"
-	{	
+	{
 		"ControlName"		"Label"
 		"fieldName"		"CenterPositioner"
-		"font"			"HudFontSmallBold"
+		"font"			"HudFont14Bold"
 		"xpos"			"0"
 		"ypos"			"10"
 		"zpos"			"0"
@@ -35,7 +35,7 @@
 		"textAlignment"		"center"
 		"bgcolor_override" "0 0 0 0"
 	}
-	
+
 	"RecipeItemModelPanel"
 	{
 		"ControlName"	"CItemModelPanel"
@@ -44,10 +44,10 @@
 	}
 
 	"TitleLabel"
-	{	
+	{
 		"ControlName"		"Label"
 		"fieldName"		"TitleLabel"
-		"font"			"HudFontSmallBold"
+		"font"			"HudFont14Bold"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"0"
@@ -64,16 +64,16 @@
 		"fgcolor_override" "200 80 60 255"
 		"bgcolor_override" "0 0 0 0"
 		"auto_wide_tocontents" "1"
-		
+
 		"pin_to_sibling"               "CenterPositioner"
-        "pin_corner_to_sibling"        "4"          
-        "pin_to_sibling_corner"        "4"          	
+        "pin_corner_to_sibling"        "4"
+        "pin_to_sibling_corner"        "4"
 	}
 	"EllipsesLabel"
-	{	
+	{
 		"ControlName"		"Label"
 		"fieldName"		"EllipsesLabel"
-		"font"			"HudFontSmallBold"
+		"font"			"HudFont14Bold"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"0"
@@ -87,12 +87,12 @@
 		"textAlignment"		"west"
 		"fgcolor_override" "200 80 60 255"
 		"bgcolor_override" "0 0 0 0"
-		
+
 		"pin_to_sibling"               "TitleLabel"
-        "pin_corner_to_sibling"        "0"          
-        "pin_to_sibling_corner"        "1"          	
+        "pin_corner_to_sibling"        "0"
+        "pin_to_sibling_corner"        "1"
 	}
-	
+
 	"CloseButton"
 	{
 		"ControlName"	"CExButton"
@@ -108,7 +108,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#GameUI_Ok"
-		"font"			"HudFontSmallBold"
+		"font"			"HudFont14Bold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"

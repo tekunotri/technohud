@@ -14,7 +14,7 @@
 		"paintbackground"	"1"
 		"PaintBackgroundType"	"0"
 		"bgcolor_override" "0 0 0 255"
-		
+
 		"fullscreen_fade_to_black_duration"	"0.32"
 		"fullscreen_modelpanel_origin_x"	"221"
 		"fullscreen_modelpanel_origin_y"	"0"
@@ -22,7 +22,7 @@
 		"ui_fadeout_time"					"3.0"
 		"ui_fadeout_duration"				"2.0"
 	}
-	
+
 	// This control fades in if the mouse cursor isn't moving around
 	"OverlayPanel"
 	{
@@ -39,7 +39,7 @@
 		"PaintBackgroundType"	"0"
 		"bgcolor_override" "0 0 0 255"
 	}
-		
+
 	"RotateLeftButton"
 	{
 		"ControlName"	"CExButton"
@@ -65,8 +65,8 @@
 		"defaultFgColor_override"	"118 107 94 255"
 		"armedFgColor_override"		"128 117 104 255"
 		"depressedFgColor_override"	"236 227 203 255"
-	}		
-	
+	}
+
 	"RotateRightButton"
 	{
 		"ControlName"	"CExButton"
@@ -92,8 +92,8 @@
 		"defaultFgColor_override"	"118 107 94 255"
 		"armedFgColor_override"		"128 117 104 255"
 		"depressedFgColor_override"	"236 227 203 255"
-	}	
-				
+	}
+
 	"NextWeaponButton"
 	{
 		"ControlName"	"CExButton"
@@ -113,7 +113,7 @@
 		"Command"		"next_weapon"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-	}					
+	}
 
 	"ZoomButton"
 	{
@@ -130,7 +130,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labeltext"		""
-		"font"			"HudFontSmallBold"
+		"font"			"HudFont14Bold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -138,12 +138,12 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"Command"		"zoom_toggle"
-		
+
 		"paintbackground"	"0"
-		
+
 		"image_drawcolor"	"118 107 94 200"
 		"image_armedcolor"	"246 247 213 255"
-		
+
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -157,9 +157,9 @@
 			"enabled"		"1"
 			"image"			"store/store_zoom"
 			"scaleImage"	"1"
-		}				
+		}
 	}
-	
+
 	"TeamNavPanel"
 	{
 		"ControlName"		"CNavigationPanel"
@@ -173,14 +173,14 @@
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		
+
 		"auto_scale"		"1"
 		"auto_layout"		"1"
 		"selected_button_default"	"0"
 		"auto_layout_vertical_buffer"	"-4"
 		"display_vertically"	"1"
 		"align"				"west"
-		
+
 		"ButtonSettings"
 		{
 			"wide"				"38"
@@ -193,29 +193,29 @@
 			"labelText"			""
 			"textAlignment"		"south-west"
 			"scaleImage"		"1"
-			
+
 			"fgcolor"			"TanDark"
 			"defaultFgColor_override" "TanDark"
 			"armedFgColor_override" "TanDark"
 			"depressedFgColor_override" "TanDark"
-			
+
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"sound_armed"		"UI/buttonrollover.wav"
-			
+
 			"paintbackground"	"0"
 			"paintbackgroundtype"	"0"
 			"defaultBgColor_Override"	"0 0 0 255"
-			
+
 			"paintborder"		"0"
-			
+
 			"image_drawcolor"		"255 255 255 77"
 			"image_armedcolor"		"255 255 255 128"
 			"image_selectedcolor"	"255 255 255 255"
-			
+
 			"stayselectedonclick"	"1"
 			"keyboardinputenabled"	"0"
-			
+
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -228,9 +228,9 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"scaleImage"	"1"
-			}				
+			}
 		}
-		
+
 		"Buttons"
 		{
 			"all"
@@ -239,11 +239,11 @@
 				"image_default"		"store/store_redteam"
 				"image_armed"		"store/store_redteam"
 				"image_selected"	"store/store_redteam"
-				
+
 				"SubImage"
 				{
 					"image"			"store/store_redteam"
-				}				
+				}
 			}
 			"scout"
 			{
@@ -251,15 +251,15 @@
 				"image_default"		"store/store_blueteam"
 				"image_armed"		"store/store_blueteam"
 				"image_selected"	"store/store_blueteam"
-				
+
 				"SubImage"
 				{
 					"image"			"store/store_blueteam"
-				}				
+				}
 			}
 		}
 	}
-	
+
 	"CloseButton"
 	{
 		"ControlName"	"CExImageButton"
@@ -275,7 +275,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labeltext"		""
-		"font"			"HudFontSmallBold"
+		"font"			"HudFont14Bold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -283,12 +283,12 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"Command"		"close"	// Intentionally using "closex" instead of "close" for stats
-		
+
 		"paintbackground"	"0"
-		
+
 		"image_drawcolor"	"118 107 94 200"
 		"image_armedcolor"	"246 247 213 255"
-		
+
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -302,9 +302,9 @@
 			"enabled"		"1"
 			"image"			"store/store_fullscreen_exit"
 			"scaleImage"	"1"
-		}				
-	}		
-	
+		}
+	}
+
 	"TryItOutButton"
 	{
 		"ControlName"	"CExButton"
@@ -319,7 +319,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#Store_TryItOut"
-		"font"			"HudFontSmallBold"
+		"font"			"HudFont14Bold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -328,8 +328,8 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"fgcolor"		"White"
-	}	
-	
+	}
+
 	"AddToCartButton"
 	{
 		"ControlName"	"CExButton"
@@ -356,5 +356,5 @@
 		"defaultBgColor_override"	"76 107 34 255"
 		"ArmedBgColor_override"	"86 117 44 255"
 		"depressedBgColor_override" "66 97 24 255"
-	}		
+	}
 }

@@ -13,9 +13,9 @@
 		"enabled"									"1"
 		"settitlebarvisible"						"0"
 		"PaintBackgroundType"						"0"
-		"bgcolor_override"							"TanDarker"
-		"infocus_bgcolor_override"					"TanDarker"
-		"outoffocus_bgcolor_override"				"TanDarker"
+		"bgcolor_override"							"DarkGray"
+		"infocus_bgcolor_override"					"DarkGray"
+		"outoffocus_bgcolor_override"				"DarkGray"
 
 		"item_xpos_offcenter_a"						"-310"
 		"item_xpos_offcenter_b"						"165"
@@ -75,7 +75,7 @@
 			"visible"								"0"
 			"enabled"								"1"
 			"labelText"								"+"
-			"font"									"HudFontSmallBold"
+			"font"									"HudFont14Bold"
 			"textAlignment"							"center"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
@@ -208,7 +208,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TitleLabel"
-			"font"									"HudFontSmallBold"
+			"font"									"HudFont14Bold"
 			"labelText"								"#ItemPresetsExplanation_Title"
 			"textAlignment"							"north"
 			"xpos"									"20"
@@ -218,7 +218,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"wrap"									"1"
-			"fgcolor"								"TanDarker"
+			"fgcolor"								"DarkGray"
 		}
 		"TextLabel"
 		{
@@ -234,7 +234,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"wrap"									"1"
-			"fgcolor"								"TanDarker"
+			"fgcolor"								"DarkGray"
 		}
 		"CloseButton"
 		{
@@ -248,7 +248,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"labeltext"								""
-			"font"									"HudFontSmallBold"
+			"font"									"HudFont14Bold"
 			"textAlignment"							"center"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
@@ -256,9 +256,9 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override"				"TanDarker"
+			"defaultFgColor_override"				"DarkGray"
 			"armedFgColor_override"					"235 226 202 255"
-			"depressedFgColor_override"				"TanDarker"
+			"depressedFgColor_override"				"DarkGray"
 
 			"image_drawcolor"						"117 107 94 255"
 			"image_armedcolor"						"200 80 60 255"
@@ -412,7 +412,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TitleLabel"
-			"font"									"HudFontSmallBold"
+			"font"									"HudFont14Bold"
 			"labelText"								"#TauntsExplanation_Title"
 			"textAlignment"							"north"
 			"xpos"									"20"
@@ -422,7 +422,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"wrap"									"1"
-			"fgcolor"								"TanDarker"
+			"fgcolor"								"DarkGray"
 		}
 		"TextLabel"
 		{
@@ -438,7 +438,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"wrap"									"1"
-			"fgcolor"								"TanDarker"
+			"fgcolor"								"DarkGray"
 		}
 		"CloseButton"
 		{
@@ -452,7 +452,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"labeltext"								""
-			"font"									"HudFontSmallBold"
+			"font"									"HudFont14Bold"
 			"textAlignment"							"center"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
@@ -460,9 +460,9 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override"				"TanDarker"
+			"defaultFgColor_override"				"DarkGray"
 			"armedFgColor_override"					"235 226 202 255"
-			"depressedFgColor_override"				"TanDarker"
+			"depressedFgColor_override"				"DarkGray"
 
 			"image_drawcolor"						"117 107 94 255"
 			"image_armedcolor"						"200 80 60 255"

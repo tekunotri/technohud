@@ -22,7 +22,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ComptTitleLabel"
-		"font"			"HudFontSmallBold"
+		"font"			"HudFont14Bold"
 		"labelText"		"#TF_Competitive_Welcome_Title"
 		"textAlignment"	"north"
 		"proportionalToParent"  "1"

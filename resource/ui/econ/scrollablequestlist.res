@@ -83,7 +83,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"EmptyLabel"
-		"font"			"HudFontSmallBold"
+		"font"			"HudFont14Bold"
 		"labelText"		"%noquests%"
 		"xpos"			"cs-0.5"
 		"ypos"			"p0.5"

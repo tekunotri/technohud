@@ -269,7 +269,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#Store_StartShopping"
-		"font"			"HudFontSmallBold"
+		"font"			"HudFont14Bold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -344,7 +344,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"FreeTrialSubTitle"
-			"font"			"HudFontSmallBold"
+			"font"			"HudFont14Bold"
 			"labelText"		"#Store_FreeTrial_Desc"
 			"textAlignment"	"north-west"
 			"xpos"			"10"

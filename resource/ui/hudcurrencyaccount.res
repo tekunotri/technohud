@@ -4,7 +4,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"Currency"
-		"font"			"HudFontSmallBold"
+		"font"			"HudFont14Bold"
 		"fgcolor"		"TanLight"
 		"xpos"			"11"
 		"ypos"			"57"
@@ -13,15 +13,15 @@
 		"tall"			"45"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"center"	
+		"textAlignment"	"center"
 		"labelText"		"%currency%"
-	}	
-	
+	}
+
 	"CurrencyShadow"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CurrencyShadow"
-		"font"			"HudFontSmallBold"
+		"font"			"HudFont14Bold"
 		"fgcolor"		"Black"
 		"xpos"			"12"
 		"ypos"			"58"
@@ -30,10 +30,10 @@
 		"tall"			"45"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"center"	
+		"textAlignment"	"center"
 		"labelText"		"%currency%"
-	}	
-	
+	}
+
 	"WhiteBG"
 	{
 		"ControlName"	"EditablePanel"
@@ -47,8 +47,8 @@
 		"enabled"		"1"
 		"PaintBackgroundType"	"0"
 		"bgcolor_override"	"TanLight"
-	}	
-	
+	}
+
 	"GreenBG"
 	{
 		"ControlName"	"EditablePanel"

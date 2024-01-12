@@ -987,7 +987,7 @@
 		"labelText"		"#TF_ClassMenu_Cancel_NoKey"
 		"textAlignment"	"center"
 		"Command"		"vguicancel"
-		"font"			"HudFontSmallBold"
+		"font"			"HudFont14Bold"
 		"fgcolor_override" "200 80 60 255"
 	}
 
@@ -1028,7 +1028,7 @@
 		"labelText"		"#EditLoadout"
 		"textAlignment"	"center"
 		"Command"		"openloadout"
-		"font"			"HudFontSmallBold"
+		"font"			"HudFont14Bold"
 	}
 
 	"EditLoadoutHintIcon"
@@ -1068,7 +1068,7 @@
 		"labelText"		"#TF_ClassMenu_Reset"
 		"textAlignment"	"center"
 		"Command"		"resetclass"
-		"font"			"HudFontSmallBold"
+		"font"			"HudFont14Bold"
 	}
 
 	"ClassMenuSelect"
@@ -1787,7 +1787,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"HudFontSmallBold"
+			"font"			"HudFont14Bold"
 			"labelText"		"#TF_MvM_UpgradeExplanation_Title"
 			"textAlignment"	"north"
 			"xpos"			"20"
@@ -1836,7 +1836,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labeltext"		""
-			"font"			"HudFontSmallBold"
+			"font"			"HudFont14Bold"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -1959,7 +1959,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"HudFontSmallBold"
+			"font"			"HudFont14Bold"
 			"labelText"		"#CMenu_ClassHighlightPanel_Title"
 			"textAlignment"	"north-west"
 			"xpos"			"10"
@@ -2008,7 +2008,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labeltext"		""
-			"font"			"HudFontSmallBold"
+			"font"			"HudFont14Bold"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"

@@ -64,7 +64,7 @@
 				"tall"			"20"
 				"visible"		"1"
 				"enabled"		"1"
-				"font"			"HudFontSmallBold"
+				"font"			"HudFont14Bold"
 				"fgcolor_override"	"TanLight"
 				"textAlignment"	"center"
 				"labelText"		"%match_type%"
@@ -144,7 +144,7 @@
 					"xpos"			"cs-0.5"
 					"wide"			"150"
 				}
-				
+
 				"autoResize"	"0"
 				"pinCorner"		"3"
 				"visible"		"1"
@@ -177,7 +177,7 @@
 				"wide"			"150"
 				"zpos"			"100"
 				"tall"			"15"
-				
+
 				"autoResize"	"0"
 				"pinCorner"		"3"
 				"visible"		"1"

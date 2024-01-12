@@ -1,6 +1,6 @@
 "Resource/UI/WarStandintPanel.res"
 {
-	
+
 	"Team0Container"
 	{
 		"ControlName"	"EditablePanel"
@@ -15,7 +15,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Team0Name"
-			"font"			"HudFontSmallBold"
+			"font"			"HudFont14Bold"
 			"labelText"		"%team0name%"
 			"textAlignment"	"east"
 			"xpos"			"rp0.7+s-1-40"
@@ -69,7 +69,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Team0Score"
-			"font"			"HudFontSmallBold"
+			"font"			"HudFont14Bold"
 			"labelText"		"%team0score%"
 			"textAlignment"	"west"
 			"xpos"			"rs1"
@@ -101,7 +101,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Team1Name"
-			"font"			"HudFontSmallBold"
+			"font"			"HudFont14Bold"
 			"labelText"		"%team1name%"
 			"textAlignment"	"east"
 			"xpos"			"rp0.7+s-1-40"
@@ -155,7 +155,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Team1Score"
-			"font"			"HudFontSmallBold"
+			"font"			"HudFont14Bold"
 			"labelText"		"%team1score%"
 			"textAlignment"	"west"
 			"xpos"			"rs1"

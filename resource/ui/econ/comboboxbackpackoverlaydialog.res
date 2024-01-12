@@ -14,12 +14,12 @@
 		"settitlebarvisible"	"1"
 		"border"				"GrayDialogBorder"
 	}
-	
+
 	"TitleLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"HudFontSmallBold"
+		"font"			"HudFont14Bold"
 		"labelText"		"#TF_Item_SelectStyle"
 		"textAlignment"	"center"
 		"xpos"			"0"
@@ -35,7 +35,7 @@
 	}
 
 	"preview_model"
-	{		
+	{
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"preview_model"
 		"xpos"			"60"
@@ -85,7 +85,7 @@
 		"maxchars"			"-1"
 		"NumericInputOnly"	"0"
 		"unicode"			"0"
-		
+
 		"fgcolor_override"	"117 107 94 255"
 		"bgcolor_override"	"251 235 202 0"
 		"disabledFgColor_override" "117 107 94 0"
@@ -94,7 +94,7 @@
 		"selectionTextColor_override" "117 107 94 255"
 		"defaultSelectionBG2Color_override" "251 235 202 255"
 	}
-		
+
 	"CancelButton"
 	{
 		"ControlName"	"CExButton"
@@ -110,7 +110,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#Cancel"
-		"font"			"HudFontSmallBold"
+		"font"			"HudFont14Bold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -119,7 +119,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
-	
+
 	"OkButton"
 	{
 		"ControlName"	"CExButton"
@@ -135,7 +135,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#TF_OK"
-		"font"			"HudFontSmallBold"
+		"font"			"HudFont14Bold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"

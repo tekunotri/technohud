@@ -15,7 +15,7 @@
 		"paintborder"			"0"
 		"paintbackground"		"1"
 	}
-	
+
 	"TitleLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -33,7 +33,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 	}
-	
+
 	"BotAnimationTitle"
 	{
 		"ControlName"	"CExLabel"
@@ -71,7 +71,7 @@
 		"maxchars"			"-1"
 		"NumericInputOnly"	"0"
 		"unicode"			"0"
-		
+
 		"fgcolor_override"	"235 226 202 255"
 		"bgcolor_override"	"251 235 202 0"
 		"disabledFgColor_override" "117 107 94 0"
@@ -80,7 +80,7 @@
 		"selectionTextColor_override" "235 226 202 255"
 		"defaultSelectionBG2Color_override" "251 235 202 255"
 	}
-	
+
 	"BotForceFireCheckBox"
 	{
 		"ControlName"	"CheckButton"
@@ -100,7 +100,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"disabledfgcolor2_override"	"117 107 94 255"
-	}	
+	}
 	"BotTurntableCheckBox"
 	{
 		"ControlName"	"CheckButton"
@@ -120,7 +120,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"disabledfgcolor2_override"	"117 107 94 255"
-	}	
+	}
 	"BotViewScanCheckBox"
 	{
 		"ControlName"	"CheckButton"
@@ -140,8 +140,8 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"disabledfgcolor2_override"	"117 107 94 255"
-	}	
-	
+	}
+
 	"BotAnimationAnimTitle"
 	{
 		"ControlName"	"CExLabel"
@@ -189,7 +189,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#Cancel"
-		"font"			"HudFontSmallBold"
+		"font"			"HudFont14Bold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -213,7 +213,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#IT_Apply"
-		"font"			"HudFontSmallBold"
+		"font"			"HudFont14Bold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -222,7 +222,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
-	
+
 	"ReloadSchemeButton"
 	{
 		"ControlName"	"CExButton"

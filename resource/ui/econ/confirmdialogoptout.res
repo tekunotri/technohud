@@ -16,7 +16,7 @@
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
 	}
-	
+
 	"TitleLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -34,12 +34,12 @@
 		"visible"		"1"
 		"enabled"		"1"
 	}
-	
+
 	"ExplanationLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ExplanationLabel"
-		"font"			"HudFontSmallBold"
+		"font"			"HudFont14Bold"
 		"labelText"		"%text%"
 		"textAlignment"	"center"
 		"xpos"			"40"
@@ -54,7 +54,7 @@
 		"centerwrap"	"1"
 		"fgcolor_override" "200 80 60 255"
 	}
-		
+
 	"CancelButton"
 	{
 		"ControlName"	"CExButton"
@@ -70,7 +70,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#Cancel"
-		"font"			"HudFontSmallBold"
+		"font"			"HudFont14Bold"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
 		"dulltext"		"0"
@@ -78,7 +78,7 @@
 		"Command"		"cancel"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-	}		
+	}
 
 	"ConfirmButton"
 	{
@@ -96,7 +96,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#ConfirmButtonText"
-		"font"			"HudFontSmallBold"
+		"font"			"HudFont14Bold"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
 		"dulltext"		"0"
@@ -104,8 +104,8 @@
 		"Command"		"confirm"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-	}			
-	
+	}
+
 	"OptOutCheckbox"
 	{
 		"ControlName"	"CheckButton"

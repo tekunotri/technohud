@@ -35,10 +35,10 @@
 		"proportionaltoparent"	"1"
 		"labeltext"		""
 		"smallcheckimage"	"1"
-		"fgcolor"	"TanLight"	
-		"font"		"HudFontSmallBold"
+		"fgcolor"	"TanLight"
+		"font"		"HudFont14Bold"
 
-		"sound_depressed"	"UI/buttonclickrelease.wav"	
+		"sound_depressed"	"UI/buttonclickrelease.wav"
 		"button_activation_type"	"1"
-	}	
+	}
 }

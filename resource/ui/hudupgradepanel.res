@@ -154,7 +154,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"PLAYER"
-			"font"			"HudFontSmallBold"
+			"font"			"HudFont14Bold"
 			"textAlignment"	"center"
 			"textinsetx"	"50"
 			"dulltext"		"0"

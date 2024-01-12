@@ -54,7 +54,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"HudFontSmallBold"
+			"font"			"HudFont14Bold"
 			"textAlignment"	"center"
 			"xpos"			"0"
 			"ypos"			"15"
@@ -114,7 +114,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"#Cancel"
-			"font"			"HudFontSmallBold"
+			"font"			"HudFont14Bold"
 			"textAlignment"	"center"
 			"textinsetx"	"50"
 			"dulltext"		"0"
@@ -122,8 +122,8 @@
 			"Command"		"user_close"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-		}			
-		
+		}
+
 	}
 
 	"ResultsContainer"
@@ -206,7 +206,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"#TF_Quickplay_Connect"
-			"font"			"HudFontSmallBold"
+			"font"			"HudFont14Bold"
 			"textAlignment"	"center"
 			"textinsetx"	"50"
 			"dulltext"		"0"
@@ -231,7 +231,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"#Cancel"
-			"font"			"HudFontSmallBold"
+			"font"			"HudFont14Bold"
 			"textAlignment"	"center"
 			"textinsetx"	"50"
 			"dulltext"		"0"
@@ -239,7 +239,7 @@
 			"Command"		"user_close"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-		}			
-		
+		}
+
 	}
 }

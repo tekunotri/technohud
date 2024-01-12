@@ -16,7 +16,7 @@
 		"paintbackgroundtype"	"2"
 		"paintbackground"	"1"
 	}
-	
+
 	"GameModeImageBgPanel"
 	{
 		"ControlName"	"ImagePanel"
@@ -30,7 +30,7 @@
 		"scaleImage"	"1"
 		"image"			"illustrations/bg"
 	}
-	
+
 	"PrevButton"
 	{
 		"ControlName"	"CExButton"
@@ -46,7 +46,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#TF_LessThan"
-		"font"			"HudFontSmallBold"
+		"font"			"HudFont14Bold"
 		"textAlignment"	"center"
 		"textinsetx"	"0"
 		"dulltext"		"0"
@@ -54,8 +54,8 @@
 		"Command"		"goprev"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-	}	
-	
+	}
+
 	"NextButton"
 	{
 		"ControlName"	"CExButton"
@@ -71,7 +71,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#TF_GreaterThan"
-		"font"			"HudFontSmallBold"
+		"font"			"HudFont14Bold"
 		"textAlignment"	"center"
 		"textinsetx"	"0"
 		"dulltext"		"0"
@@ -79,8 +79,8 @@
 		"Command"		"gonext"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-	}	
-	
+	}
+
 	"GameModeLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -99,12 +99,12 @@
 		"wrap"			"0"
 		"fgcolor_override"	"83 75 66 255"
 	}
-	
+
 	"CurPageLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CurPageLabel"
-		"font"			"HudFontSmallBold"
+		"font"			"HudFont14Bold"
 		"labelText"		"%curpage%"
 		"textAlignment"	"north"
 		"xpos"			"70"
@@ -119,7 +119,7 @@
 		"wrap"			"1"
 		"fgcolor_override"	"83 75 66 255"
 	}
-	
+
 	"DescLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -138,7 +138,7 @@
 		"wrap"			"0"
 		"fgcolor_override"	"83 75 66 255"
 	}
-	
+
 	"SelectCurrentGameModeButton"
 	{
 		"ControlName"		"CExButton"
@@ -153,7 +153,7 @@
 		"enabled"			"1"
 		"tabPosition"		"0"
 		"labelText"			"#TF_Select"
-		"font"				"HudFontSmallBold"
+		"font"				"HudFont14Bold"
 		"textAlignment"		"center"
 		"textinsetx"		"50"
 		"dulltext"			"0"
@@ -165,10 +165,10 @@
 		"border_default"	"MainMenuButtonDefault"
 		"border_armed"		"MainMenuButtonArmed"
 		"paintbackground"	"0"
-		
+
 		"defaultFgColor_override" "46 43 42 255"
 		"armedFgColor_override" "235 226 202 255"
 		"depressedFgColor_override" "46 43 42 255"
 	}
-	
+
 }

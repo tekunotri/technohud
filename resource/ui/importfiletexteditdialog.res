@@ -63,7 +63,7 @@
 		"wrap"		"0"
 		"Command"		"Close"
 		"Default"		"0"
-		"font"		"HudFontSmallBold"
+		"font"		"HudFont14Bold"
 	}
 
 	"ButtonDone"
@@ -86,6 +86,6 @@
 		"wrap"		"0"
 		"Command"		"Done"
 		"Default"		"0"
-		"font"		"HudFontSmallBold"
+		"font"		"HudFont14Bold"
 	}
 }

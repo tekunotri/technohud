@@ -20,7 +20,7 @@
 	}
 
 	"WarningLabel"
-	{	
+	{
 		"ControlName"		"Label"
 		"fieldName"		"WarningLabel"
 		"font"			"ScoreboardTeamScore"
@@ -41,10 +41,10 @@
 		"textAlignment"		"north"
 	}
 	"BalanceLabel"
-	{	
+	{
 		"ControlName"		"Label"
 		"fieldName"		"BalanceLabel"
-		"font"			"HudFontSmallBold"
+		"font"			"HudFont14Bold"
 		"xpos"			"75"
 		"ypos"			"30"
 		"ypos_hidef"	"23"
@@ -63,7 +63,7 @@
 	}
 
 	"BalanceLabelTip"
-	{	
+	{
 		"ControlName"		"Label"
 		"fieldName"		"BalanceLabelTip"
 		"font"			"HudFontSmallest"

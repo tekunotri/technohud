@@ -35,7 +35,7 @@
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"HudFontGiantBoldShadow"
+		"font"			"HudFont44Bold"
 		"fgcolor"		"FullWhite"
 	}
 
@@ -57,7 +57,7 @@
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"HudFontGiantBoldShadow"
+		"font"			"HudFont44Bold"
 		"fgcolor"		"FullWhite"
 
 	}

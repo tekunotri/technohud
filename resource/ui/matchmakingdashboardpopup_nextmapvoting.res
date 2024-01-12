@@ -67,7 +67,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"tabPosition"	"0"
-				"font"			"HudFontSmallBold"
+				"font"			"HudFont14Bold"
 				"textAlignment"	"center"
 				"dulltext"		"0"
 				"brighttext"	"0"
@@ -78,10 +78,10 @@
 				"Command"		"toggle_hide"
 				"proportionaltoparent" "1"
 				"actionsignallevel"	"2"
-			
+
 				"paintbackground"	"0"
 
-				"image_default"		"glyph_collapse"						
+				"image_default"		"glyph_collapse"
 
 				"image_drawcolor"	"235 226 202 255"
 				"image_armedcolor"	"200 80 60 255"
@@ -100,7 +100,7 @@
 					"image"			"glyph_store"
 					"scaleImage"	"1"
 					"proportionaltoparent" "1"
-				}				
+				}
 			} // HideButton
 
 			"ShowButton"
@@ -117,7 +117,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"tabPosition"	"0"
-				"font"			"HudFontSmallBold"
+				"font"			"HudFont14Bold"
 				"textAlignment"	"center"
 				"dulltext"		"0"
 				"brighttext"	"0"
@@ -128,10 +128,10 @@
 				"Command"		"toggle_hide"
 				"proportionaltoparent" "1"
 				"actionsignallevel"	"2"
-			
+
 				"paintbackground"	"0"
 
-				"image_default"		"glyph_expand"						
+				"image_default"		"glyph_expand"
 
 				"image_drawcolor"	"235 226 202 255"
 				"image_armedcolor"	"200 80 60 255"
@@ -150,7 +150,7 @@
 					"image"			"glyph_store"
 					"scaleImage"	"1"
 					"proportionaltoparent" "1"
-				}				
+				}
 			} // HideButton
 
 
@@ -165,7 +165,7 @@
 				"tall"			"20"
 				"visible"		"1"
 				"enabled"		"1"
-				"font"			"HudFontSmallBold"
+				"font"			"HudFont14Bold"
 				"fgcolor_override"	"TanLight"
 				"textAlignment"	"center"
 				"labelText"		"#TF_Matchmaking_RollingQueue_MatchOver"

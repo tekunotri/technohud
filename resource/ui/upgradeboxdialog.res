@@ -16,7 +16,7 @@
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
 	}
-	
+
 	"TitleLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -34,12 +34,12 @@
 		"visible"		"1"
 		"enabled"		"1"
 	}
-	
+
 	"ExplanationLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ExplanationLabel"
-		"font"			"HudFontSmallBold"
+		"font"			"HudFont14Bold"
 		"labelText"		"%text%"
 		"textAlignment"	"north"
 		"xpos"			"40"
@@ -70,7 +70,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#TF_Trial_Upgrade"
-		"font"			"HudFontSmallBold"
+		"font"			"HudFont14Bold"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
 		"dulltext"		"0"
@@ -82,7 +82,7 @@
 		"armedBgColor_override"		"143 167 57 255"
 		"depressedBgColor_override"	"143 167 57 255"
 		"selectedBgColor_override"	"143 167 57 255"
-	}			
+	}
 
 	"ConfirmButton"
 	{
@@ -99,7 +99,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#ConfirmButtonText"
-		"font"			"HudFontSmallBold"
+		"font"			"HudFont14Bold"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
 		"dulltext"		"0"
@@ -107,5 +107,5 @@
 		"Command"		"confirm"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-	}			
+	}
 }

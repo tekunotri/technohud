@@ -15,12 +15,12 @@
 		"settitlebarvisible"	"0"
 		"border"				"GrayDialogBorder"
 	}
-	
+
 	"TitleLabel"
-	{	
+	{
 		"ControlName"		"Label"
 		"fieldName"		"TitleLabel"
-		"font"			"HudFontSmallBold"
+		"font"			"HudFont14Bold"
 		"xpos"			"10"
 		"ypos"			"10"
 		"zpos"			"0"
@@ -37,7 +37,7 @@
 		"fgcolor_override" "200 80 60 255"
 		"bgcolor_override" "0 0 0 0"
 	}
-	
+
 	"CloseButton"
 	{
 		"ControlName"	"CExButton"
@@ -53,7 +53,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#GameUI_Ok"
-		"font"			"HudFontSmallBold"
+		"font"			"HudFont14Bold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"

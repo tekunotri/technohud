@@ -1,10 +1,10 @@
 "Resource/UI/LayeredMapPanel.res"
-{		
+{
 	"LayeredMapPanel"
 	{
-		"item_count"		"2"	// Must match number of MapItems below (MapItem0 to MapItemCount)	
+		"item_count"		"2"	// Must match number of MapItems below (MapItem0 to MapItemCount)
 	}
-	
+
 	"Background"
 	{
 		"ControlName"	"EditablePanel"
@@ -17,7 +17,7 @@
 		"visible"		"1"
 		"bgcolor_override"		"50 50 50 200"
 	}
-	
+
 	"MapBackgroundContainer"
 	{
 		"ControlName"	"EditablePanel"
@@ -26,7 +26,7 @@
 		"zpos"			"-1"
 		"wide"			"480"
 		"tall"			"344"
-			
+
 		"BaseMapImage"
 		{
 			"ControlName"	"ScalableImagePanel"
@@ -41,7 +41,7 @@
 			"image"			"mvm/campaign_1_map"
 		}
 	}
-	
+
 	"TourLabelContainer"
 	{
 		"ControlName"	"EditablePanel"
@@ -51,7 +51,7 @@
 		"wide"			"300"
 		"tall"			"30"
 		"visible"		"1"
-			
+
 		"TourLabelBackground"
 		{
 			"ControlName"		"ScalableImagePanel"
@@ -68,11 +68,11 @@
 
 			"src_corner_height"	"22"				// pixels inside the image
 			"src_corner_width"	"22"
-		
+
 			"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"5"	
+			"draw_corner_height" 	"5"
 		}
-		
+
 		"TourLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -87,7 +87,7 @@
 			"fgcolor"		"tanlight"
 		}
 	}
-	
+
 	"ToolTipPanel"
 	{
 		"ControlName"	"EditablePanel"
@@ -97,7 +97,7 @@
 		"wide"			"180"
 		"tall"			"180"
 		"visible"		"0"
-		
+
 		"Background"
 		{
 			"ControlName"		"ScalableImagePanel"
@@ -115,16 +115,16 @@
 
 			"src_corner_height"	"22"				// pixels inside the image
 			"src_corner_width"	"22"
-		
+
 			"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"5"	
+			"draw_corner_height" 	"5"
 		}
-		
+
 		"DescriptionLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"DescriptionLabel"
-			"font"			"HudFontSmallBold"
+			"font"			"HudFont14Bold"
 			"labelText"		"%tooltipdescription%"
 			"textAlignment" "center"
 			"xpos"			"0"
@@ -134,12 +134,12 @@
 			"fgcolor"		"tanlight"
 		}
 	}
-	
+
 	//"layeredmappanel_kv"
 	//{
 	//	"item_count"		"2"	// Must match number of MapItems below (MapItem0 to MapItemCount)
 	//}
-	
+
 	// Item
 	"MapItem0"
 	{
@@ -151,14 +151,14 @@
 		"tall"			"60"
 		"visible"		"1"
 		"enabled"		"1"
-		
+
 		"mapitem_kv"
 		{
 			"name"		  "pop1"
 			"description" "pop1 description"
 		}
 	}
-	
+
 	"MapItem1"
 	{
 		"ControlName"	"CTFLayeredMapItemPanel"
@@ -169,7 +169,7 @@
 		"tall"			"60"
 		"visible"		"1"
 		"enabled"		"1"
-		
+
 		"mapitem_kv"
 		{
 			"name"		  "pop2"

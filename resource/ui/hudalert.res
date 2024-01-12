@@ -19,10 +19,10 @@
 		"teambg_3"		"../hud/death_panel_blue_bg"
 	}
 	"AlertLabel"
-	{	
+	{
 		"ControlName"		"Label"
 		"fieldName"		"AlertLabel"
-		"font"			"HudFontSmallBold"
+		"font"			"HudFont14Bold"
 		"xpos"			"80"
 		"ypos"			"70"
 		//"ypos_hidef"	"23"

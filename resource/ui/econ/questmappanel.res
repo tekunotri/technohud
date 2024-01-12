@@ -55,12 +55,12 @@
 			"PaintBackgroundType"	"2"
 			"paintborder"	"1"
 			"border"		"MainMenuBGBorder"
-		
+
 			"text_center"		"1"
 			"model_hide"		"1"
 			"resize_to_text"	"1"
 			"padding_height"	"15"
-		
+
 			"attriblabel"
 			{
 				"font"			"ItemFontAttribLarge"
@@ -92,7 +92,7 @@
 			"visible"		"0"
 			"PaintBackgroundType"	"2"
 			"border"		"MainMenuBGBorder"
-		
+
 			"TipLabel"
 			{
 				"ControlName"	"CExLabel"
@@ -119,7 +119,7 @@
 				"wide"		"200"
 				"zpos"		"1002"
 			}
-		}	
+		}
 
 		"Dimmer"
 		{
@@ -189,7 +189,7 @@
 				"enabled"		"1"
 				"tabPosition"	"0"
 				"labeltext"		""
-				"font"			"HudFontSmallBold"
+				"font"			"HudFont14Bold"
 				"textAlignment"	"center"
 				"dulltext"		"0"
 				"brighttext"	"0"
@@ -199,13 +199,13 @@
 				"Command"		"close"
 				"proportionaltoparent" "1"
 				"actionsignallevel"	"2"
-			
+
 				"paintbackground"	"0"
-			
+
 				"defaultFgColor_override" "46 43 42 255"
 				"armedFgColor_override" "200 80 60 255"
 				"depressedFgColor_override" "46 43 42 255"
-			
+
 				"image_drawcolor"	"200 80 60 255"
 				"image_armedcolor"	"255 80 60 255"
 				"SubImage"
@@ -221,7 +221,7 @@
 					"enabled"		"1"
 					"image"			"close_button"
 					"scaleImage"	"1"
-				}				
+				}
 			} // Close button
 
 			"PowerSwitchButton"
@@ -238,7 +238,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"tabPosition"	"0"
-				"font"			"HudFontSmallBold"
+				"font"			"HudFont14Bold"
 				"textAlignment"	"center"
 				"dulltext"		"0"
 				"brighttext"	"0"
@@ -253,10 +253,10 @@
 
 				"paintbackground"	"0"
 
-				"image_default"		"cyoa/cyoa_pda_switch_on"				
-				"image_selected"		"cyoa/cyoa_pda_switch_off"				
-				"image_armed"		"cyoa/cyoa_pda_switch_on"	
-							
+				"image_default"		"cyoa/cyoa_pda_switch_on"
+				"image_selected"		"cyoa/cyoa_pda_switch_off"
+				"image_armed"		"cyoa/cyoa_pda_switch_on"
+
 				"SubImage"
 				{
 					"ControlName"	"ImagePanel"
@@ -271,7 +271,7 @@
 					"image"			"glyph_store"
 					"scaleImage"	"1"
 					"proportionaltoparent" "1"
-				}				
+				}
 			} // PowerSwitchButton
 
 			"PowerLabel"
@@ -322,7 +322,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"tabPosition"	"0"
-				"font"			"HudFontSmallBold"
+				"font"			"HudFont14Bold"
 				"textAlignment"	"center"
 				"dulltext"		"0"
 				"brighttext"	"0"
@@ -333,12 +333,12 @@
 				"Command"		"view_map"
 				"proportionaltoparent" "1"
 				"actionsignallevel"	"2"
-			
+
 				"paintbackground"	"0"
 
-				"image_default"		"cyoa/cyoa_pda_button_off_map"				
-				"image_selected"		"cyoa/cyoa_pda_button_on_map"				
-				"image_armed"		"cyoa/cyoa_pda_button_over_map"				
+				"image_default"		"cyoa/cyoa_pda_button_off_map"
+				"image_selected"		"cyoa/cyoa_pda_button_on_map"
+				"image_armed"		"cyoa/cyoa_pda_button_over_map"
 				"SubImage"
 				{
 					"ControlName"	"ImagePanel"
@@ -353,7 +353,7 @@
 					"image"			"glyph_store"
 					"scaleImage"	"1"
 					"proportionaltoparent" "1"
-				}				
+				}
 			} // MapButton
 
 			"RewardsStoreLabel"
@@ -387,7 +387,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"tabPosition"	"0"
-				"font"			"HudFontSmallBold"
+				"font"			"HudFont14Bold"
 				"textAlignment"	"center"
 				"dulltext"		"0"
 				"brighttext"	"0"
@@ -398,12 +398,12 @@
 				"Command"		"rewards_store"
 				"proportionaltoparent" "1"
 				"actionsignallevel"	"2"
-			
+
 				"paintbackground"	"0"
 
-				"image_default"		"cyoa/cyoa_pda_button_off_store"				
-				"image_selected"		"cyoa/cyoa_pda_button_on_store"				
-				"image_armed"		"cyoa/cyoa_pda_button_over_store"				
+				"image_default"		"cyoa/cyoa_pda_button_off_store"
+				"image_selected"		"cyoa/cyoa_pda_button_on_store"
+				"image_armed"		"cyoa/cyoa_pda_button_over_store"
 				"SubImage"
 				{
 					"ControlName"	"ImagePanel"
@@ -418,7 +418,7 @@
 					"image"			"glyph_store"
 					"scaleImage"	"1"
 					"proportionaltoparent" "1"
-				}				
+				}
 			} // RewardsStoreButton
 
 			"DebugButton"
@@ -436,7 +436,7 @@
 				"enabled"		"1"
 				"tabPosition"	"0"
 				"labeltext"		""
-				"font"			"HudFontSmallBold"
+				"font"			"HudFont14Bold"
 				"textAlignment"	"center"
 				"dulltext"		"0"
 				"brighttext"	"0"
@@ -446,13 +446,13 @@
 				"Command"		"debug_menu"
 				"proportionaltoparent" "1"
 				"actionsignallevel"	"2"
-			
+
 				"paintbackground"	"0"
-			
+
 				"defaultFgColor_override" "46 43 42 255"
 				"armedFgColor_override" "200 80 60 255"
 				"depressedFgColor_override" "46 43 42 255"
-			
+
 				"image_drawcolor"	"117 107 94 255"
 				"image_armedcolor"	"200 80 60 255"
 				"SubImage"
@@ -468,7 +468,7 @@
 					"enabled"		"1"
 					"image"			"glyph_workshop_edit"
 					"scaleImage"	"1"
-				}				
+				}
 			} // Debug button
 
 			"ScreenBorder"
@@ -609,7 +609,7 @@
 						"tall"			"35"
 						"RoundedCorners"	"0"
 						"labelText"		"#TF_QuestMap_Intro_Step1Button"
-						"font"			"HudFontSmallBold"
+						"font"			"HudFont14Bold"
 						"textAlignment"	"center"
 						"stay_armed_on_click"	"1"
 
@@ -632,7 +632,7 @@
 							"scaleImage"	"1"
 							"image"			"info"
 							"proportionaltoparent"	"1"
-						}				
+						}
 					}
 
 					"HoverButtonStage2"
@@ -645,7 +645,7 @@
 						"tall"			"35"
 						"RoundedCorners"	"0"
 						"labelText"		"#TF_QuestMap_Intro_Step2Button"
-						"font"			"HudFontSmallBold"
+						"font"			"HudFont14Bold"
 						"textAlignment"	"center"
 						"stay_armed_on_click"	"1"
 
@@ -668,7 +668,7 @@
 							"scaleImage"	"1"
 							"image"			"info"
 							"proportionaltoparent"	"1"
-						}				
+						}
 					}
 
 					"HoverButtonStage3"
@@ -681,7 +681,7 @@
 						"tall"			"35"
 						"RoundedCorners"	"0"
 						"labelText"		"#TF_QuestMap_Intro_Step3Button"
-						"font"			"HudFontSmallBold"
+						"font"			"HudFont14Bold"
 						"textAlignment"	"center"
 						"stay_armed_on_click"	"1"
 
@@ -704,7 +704,7 @@
 							"scaleImage"	"1"
 							"image"			"info"
 							"proportionaltoparent"	"1"
-						}				
+						}
 					}
 
 					"IntroStage0"
@@ -732,11 +732,11 @@
 							"tall"			"20"
 							"visible"		"1"
 							"enabled"		"1"
-							"textAlignment"	"center"	
+							"textAlignment"	"center"
 							"labelText"		"#TF_QuestMap_Intro_OK"
 							"textinsetx"	"4"
 							"use_proportional_insets" "1"
-							"font"			"HudFontSmallBold"
+							"font"			"HudFont14Bold"
 							"textAlignment"	"west"
 							"dulltext"		"0"
 							"brighttext"	"0"
@@ -757,7 +757,7 @@
 							"defaultBgColor_override"	"StoreGreen"
 							"armedBgColor_override"		"CreditsGreen"
 							"depressedBgColor_override" "CreditsGreen"
-						}	
+						}
 					}
 
 					"IntroStage1"
@@ -1167,9 +1167,9 @@
 					"ItemTrackerPanel"
 					{
 						"fieldName"		"ItemTrackerPanel"
-						"xpos"			"0"	
+						"xpos"			"0"
 						"ypos"			"25"
-						"wide"			"f0"	
+						"wide"			"f0"
 						"tall"			"200"
 						"progress_bar_standard_loc_token"	"#QuestPoints_Standard"
 						"progress_bar_advanced_loc_token"	"#QuestPoints_Bonus"
@@ -1332,7 +1332,7 @@
 						"mouseinputenabled"		"0"
 						"keyboardinputenabled"	"0"
 						"alpha"			"100"
-					
+
 						"bgcolor_override" "0 0 0 255"
 					}
 
@@ -1432,14 +1432,14 @@
 							{
 								"fgcolor_override"	"TanDark"
 							}
-		
+
 							"UpButton"
 							{
 								"ControlName"	"Button"
 								"FieldName"		"UpButton"
 								"visible"		"0"
 							}
-		
+
 							"DownButton"
 							{
 								"ControlName"	"Button"
@@ -1448,7 +1448,7 @@
 							}
 						}
 
-						
+
 					} // ItemsScroller
 				} // RewardsShop
 
@@ -1525,7 +1525,7 @@
 					"rotation"	"3"
 				}
 
-				
+
 				"StaticBar2"
 				{
 					"ControlName"	"EditablePanel"
@@ -1558,7 +1558,7 @@
 					"proportionaltoparent"	"1"
 					"mouseinputenabled"		"0"
 					"keyboardinputenabled"	"0"
-					
+
 					"bgcolor_override" "0 0 0 255"
 				}
 
@@ -1582,7 +1582,7 @@
 					"tileImage"	"1"
 				}
 
-				
+
 
 			} // MapAreaPanel
 

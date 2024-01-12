@@ -47,7 +47,7 @@
 				"tall"			"25"
 				"visible"		"1"
 				"enabled"		"1"
-				"font"			"HudFontSmallBold"
+				"font"			"HudFont14Bold"
 				"fgcolor_override"	"TanLight"
 				"textAlignment"	"center"
 				"labelText"		"#TF_SurveyQuestion_Submitting"
@@ -66,7 +66,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"image"			"animated/tf2_logo_hourglass"
-		
+
 				"proportionaltoparent"	"1"
 			}
 		}
@@ -93,7 +93,7 @@
 				"tall"			"25"
 				"visible"		"1"
 				"enabled"		"1"
-				"font"			"HudFontSmallBold"
+				"font"			"HudFont14Bold"
 				"fgcolor_override"	"Orange"
 				"textAlignment"	"center"
 				"labelText"		"#TF_SurveyQuestion_ThankYouTitle"
@@ -111,7 +111,7 @@
 				"tall"			"50"
 				"visible"		"1"
 				"enabled"		"1"
-				"font"			"HudFontSmallBold"
+				"font"			"HudFont14Bold"
 				"fgcolor_override"	"TanLight"
 				"textAlignment"	"center"
 				"wrap"			"0"
@@ -136,7 +136,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labeltext"		""
-			"font"			"HudFontSmallBold"
+			"font"			"HudFont14Bold"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -146,13 +146,13 @@
 			"Command"		"close"
 			"proportionaltoparent" "1"
 			"actionsignallevel"	"1"
-			
+
 			"paintbackground"	"0"
-			
+
 			"defaultFgColor_override" "46 43 42 255"
 			"armedFgColor_override" "200 80 60 255"
 			"depressedFgColor_override" "46 43 42 255"
-			
+
 			"image_drawcolor"	"117 107 94 255"
 			"image_armedcolor"	"200 80 60 255"
 			"SubImage"
@@ -168,7 +168,7 @@
 				"enabled"		"1"
 				"image"			"close_button"
 				"scaleImage"	"1"
-			}				
+			}
 		} // Close button
-	}	
+	}
 }

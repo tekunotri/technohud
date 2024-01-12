@@ -28,7 +28,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labeltext"		""
-		"font"			"HudFontSmallBold"
+		"font"			"HudFont14Bold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -36,17 +36,17 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"Command"		"addtocart"
-		
+
 		"paintbackground"	"1"
-		
+
 		"defaultBgColor_override"	"76 107 34 255"
 		"ArmedBgColor_override"	"86 117 44 255"
 		"depressedBgColor_override" "66 97 24 255"
-		
+
 		"image_drawcolor"	"117 107 94 255"
 		"image_armedcolor"	"200 80 60 255"
 		"image_depressedcolor"	"255 80 60 255"
-		
+
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -60,6 +60,6 @@
 			"enabled"		"1"
 			"image"			"store_cart"
 			"scaleImage"	"1"
-		}				
-	}		
+		}
+	}
 }

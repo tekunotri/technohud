@@ -35,7 +35,7 @@
 
 		"image"		"gradient_pure_black"
 	}
-	
+
 	"InnerGradient"
 	{
 		"ControlName"		"ImagePanel"
@@ -114,7 +114,7 @@
 		"command"		"nav_close"
 
 		"textAlignment"	"east"
-		"font"			"HudFontSmallBold"
+		"font"			"HudFont14Bold"
 
 		"armedBgColor_override"	"0 0 0 0"
 		"defaultBgColor_override"	"0 0 0 0"
@@ -145,14 +145,14 @@
 		"labelText"		"<"
 
 		"textAlignment"	"west"
-		"font"			"HudFontSmallBold"
+		"font"			"HudFont14Bold"
 
 		"armedBgColor_override"	"0 0 0 0"
 		"defaultBgColor_override"	"0 0 0 0"
 
 		"armedFgColor_override"	"Orange"
 	}
-	
+
 	"BGPanel"
 	{
 		"ControlName"	"EditablePanel"

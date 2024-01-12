@@ -46,7 +46,7 @@
 			"Default"		"0"
 			"Command"		"particle_use_head_clicked"
 		}
-	
+
 		"HatParticleSlider"
 		{
 			"ControlName"		"CCvarSlider"
@@ -77,7 +77,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"#TF_Item_SelectStyle"
-			"font"			"HudFontSmallBold"
+			"font"			"HudFont14Bold"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"

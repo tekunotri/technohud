@@ -28,7 +28,7 @@
 		"textAlignment"	"west"
 		"font"			"HudFontMediumBigBold"
 		"fgcolor_override"	"TanDark"
-		
+
 		"mouseinputenabled"	"0"
 	}
 
@@ -47,7 +47,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"?"
-		"font"			"HudFontSmallBold"
+		"font"			"HudFont14Bold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -72,7 +72,7 @@
 		"proportionaltoparent"	"1"
 		"mouseinputenabled"	"1"
 		"image"			"info"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"alpha"			"75"
 	}
 
@@ -100,7 +100,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"mouseinputenabled"	"1"
-		"eatmouseinput"	"0"	
+		"eatmouseinput"	"0"
 		"showtooltipswhenmousedisabled"	"1"
 		"proportionaltoparent" "1"
 	}

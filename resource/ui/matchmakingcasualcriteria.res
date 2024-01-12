@@ -32,7 +32,7 @@
 
 			"matchgroup"	"MatchGroup_Casual_12v12"
 		}
-	
+
 		"RankPanel"
 		{
 			"ControlName"	"CPvPRankPanel"
@@ -67,7 +67,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		""
-			"font"			"HudFontSmallBold"
+			"font"			"HudFont14Bold"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -110,7 +110,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		""
-			"font"			"HudFontSmallBold"
+			"font"			"HudFont14Bold"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -153,7 +153,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"?"
-			"font"			"HudFontSmallBold"
+			"font"			"HudFont14Bold"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -178,7 +178,7 @@
 			"labeltext"		"#TF_Casual_MapSelection"
 			"textAlignment"	"north-west"
 			"font"			"HudFontMediumSmallBold"
-		
+
 			"mouseinputenabled"	"0"
 		}
 
@@ -196,7 +196,7 @@
 			"textAlignment"	"west"
 			"font"			"HudFontSmallest"
 			"fgcolor_override"	"TanDark"
-		
+
 			"mouseinputenabled"	"1"
 		}
 
@@ -216,7 +216,7 @@
 			"fgcolor_override"	"TanLight"
 			"textinsetx"	"5"
 			"visible"	"0"
-		
+
 			"mouseinputenabled"	"0"
 		}
 
@@ -266,14 +266,14 @@
 				{
 					"fgcolor_override"	"TanDark"
 				}
-		
+
 				"UpButton"
 				{
 					"ControlName"	"Button"
 					"FieldName"		"UpButton"
 					"visible"		"0"
 				}
-		
+
 				"DownButton"
 				{
 					"ControlName"	"Button"

@@ -10,7 +10,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"TextLabel"
-				"font"			"HudFontSmallBold"
+				"font"			"HudFont14Bold"
 				"labelText"		"#TF_SurveyQuestion_MapQuality"
 				"textAlignment"	"north"
 				"xpos"			"cs-0.5"
@@ -31,7 +31,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"MapLabel"
-				"font"			"HudFontSmallBold"
+				"font"			"HudFont14Bold"
 				"labelText"		"%mapname%"
 				"textAlignment"	"north"
 				"xpos"			"cs-0.5"
@@ -92,7 +92,7 @@
 
 					"sound_depressed"	"UI/buttonclick.wav"
 					"sound_released"	"UI/buttonclickrelease.wav"
-					
+
 					"labelText"		""
 					"Command"		"option0"
 				}
@@ -108,7 +108,7 @@
 					"tall"			"20"
 					"visible"		"1"
 					"proportionaltoparent"	"1"
-					
+
 					"labelText"		"#TF_SurveyQuestion_Rating0"
 					"font"			"HudFontSmallest"
 					"textAlignment"	"center"
@@ -146,7 +146,7 @@
 					"tall"			"20"
 					"visible"		"1"
 					"proportionaltoparent"	"1"
-					
+
 					"labelText"		"#TF_SurveyQuestion_Rating1"
 					"font"			"HudFontSmallest"
 					"textAlignment"	"center"
@@ -182,7 +182,7 @@
 					"tall"			"20"
 					"visible"		"1"
 					"proportionaltoparent"	"1"
-					
+
 					"labelText"		"#TF_SurveyQuestion_Rating2"
 					"font"			"HudFontSmallest"
 					"textAlignment"	"center"
@@ -203,7 +203,7 @@
 
 					"sound_depressed"	"UI/buttonclick.wav"
 					"sound_released"	"UI/buttonclickrelease.wav"
-					
+
 					"labelText"		""
 					"Command"		"option3"
 				}
@@ -219,7 +219,7 @@
 					"tall"			"20"
 					"visible"		"1"
 					"proportionaltoparent"	"1"
-					
+
 					"labelText"		"#TF_SurveyQuestion_Rating3"
 					"font"			"HudFontSmallest"
 					"textAlignment"	"center"
@@ -239,7 +239,7 @@
 
 					"sound_depressed"	"UI/buttonclick.wav"
 					"sound_released"	"UI/buttonclickrelease.wav"
-					
+
 					"labelText"		""
 					"Command"		"option4"
 				}
@@ -255,7 +255,7 @@
 					"tall"			"20"
 					"visible"		"1"
 					"proportionaltoparent"	"1"
-					
+
 					"labelText"		"#TF_SurveyQuestion_Rating4"
 					"font"			"HudFontSmallest"
 					"textAlignment"	"center"
@@ -272,7 +272,7 @@
 				"wide"			"130"
 				"tall"			"25"
 				"labelText"		"#AbuseReport_Submit"
-				"font"			"HudFontSmallBold"
+				"font"			"HudFont14Bold"
 				"textAlignment"	"center"
 				"Command"		"submit"
 				"sound_depressed"	"UI/buttonclick.wav"
@@ -281,5 +281,5 @@
 				"actionsignallevel"	"2"
 			}
 		}
-	}	
+	}
 }
