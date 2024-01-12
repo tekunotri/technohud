@@ -43,7 +43,12 @@ Scheme{
 		}
 
 
-
+		// Other Fonts
+		Icons
+		{
+			"name"	"TF2 Icons"
+			"tall"	"18"
+		}
 		// default font declarations
 		"Default"
 		{
@@ -2744,6 +2749,11 @@ Scheme{
 		{
 			"font" "resource/fonts/nasalization-rg.otf"
 			"name" "NasalizationRg-Regular"
+		}
+		"9"
+		{
+			"font"	"resource/fonts/TF2 Icons.ttf"
+			"name"	"TF2 Icons"
 		}
 	}
 }
