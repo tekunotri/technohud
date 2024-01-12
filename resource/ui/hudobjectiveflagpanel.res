@@ -399,6 +399,7 @@
 		"if_hybrid_single"
 		{
 			"xpos"		"c-80"
+			"ypos"		"c125"
 		}
 
 		"if_hybrid_double"
