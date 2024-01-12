@@ -77,13 +77,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c100"	[$WIN32]
-		"xpos_minmode"	"r100"	[$WIN32]
 		"ypos"			"r125"	[$WIN32]
-		"ypos_minmode"	"r34"	[$WIN32]
-		"xpos"			"r174"	[$X360]
-		"ypos"			"r90"	[$X360]
-		"wide"			"200"
-		"tall"			"100"
+		"wide"			"f0"
+		"tall"			"640"
 	}
 
 	HudDemomanCharge
@@ -92,12 +88,23 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"cs-0.5"	[$WIN32]
-		"ypos"			"r100"	[$WIN32]
+		"ypos"			"r105"	[$WIN32]
 		"zpos"			"1"			// draw in front of ammo
 		"wide"			"120"
 		"tall"			"8"
 		"MeterFG"		"FullWhite"
 		"MeterBG"		"Gray"
+	}
+
+	HudDemomanPipes
+	{
+		"fieldName"		"HudDemomanPipes"
+		"visible"		"1"
+		"enabled"		"1"
+		"xpos"			"cs-0.5"	[$WIN32]
+		"ypos"			"r105"	[$WIN32]
+		"wide"			"100"
+		"tall"			"50"
 	}
 
 	HudBowCharge
@@ -1035,19 +1042,6 @@
 		"tall"			"200"	[$WIN32]
 		"tall"			"180"	[$X360]
 		"PaintBackgroundType"	"0"
-	}
-
-	HudDemomanPipes
-	{
-		"fieldName"		"HudDemomanPipes"
-		"visible"		"1"
-		"enabled"		"1"
-		"xpos"			"cs-0.5"	[$WIN32]
-		"ypos"			"r140"	[$WIN32]
-		"xpos"			"r194"	[$X360]
-		"ypos"			"r74"	[$X360]
-		"wide"			"100"
-		"tall"			"50"
 	}
 
 	HudTeamGoal

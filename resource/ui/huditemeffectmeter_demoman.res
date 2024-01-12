@@ -2,75 +2,57 @@
 {
 	HudItemEffectMeter
 	{
-		"fieldName"		"HudItemEffectMeter"
-		"visible"		"1"
-		"enabled"		"1"
-		"xpos"			"r162"	[$WIN32]
-		"ypos"			"r92"	[$WIN32]
-		"xpos_minmode"	"r70"	[$WIN32]
-		"ypos_minmode"	"r74"	[$WIN32]
-		"xpos"			"r194"	[$X360]
-		"ypos"			"r74"	[$X360]
-		"wide"			"100"
-		"tall"			"50"
-		"MeterFG"		"White"
-		"MeterBG"		"Gray"
+		"fieldName"				"HudItemEffectMeter"
+		"visible"				"1"
+		"enabled"				"1"
+		"xpos"					"-25"
+		"ypos"					"340"
+		"wide"					"f0"
+		"tall"					"260"
+		"MeterFG"				"White"
+		"MeterBG"				"Gray"
 	}
-	
+
 	"ItemEffectMeterBG"
 	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"ItemEffectMeterBG"
-		"xpos"			"12"
-		"ypos"			"0"
-		"zpos"			"0"
-		"wide"			"76"
-		"tall"			"44"
-		"visible"		"1"
-		"visible_minmode"	"0"
-		"enabled"		"1"
-		"image"			"../hud/misc_ammo_area_blue"
-		"scaleImage"	"1"	
-		"teambg_2"		"../hud/misc_ammo_area_red"
-		"teambg_2_lodef"	"../hud/misc_ammo_area_red_lodef"
-		"teambg_3"		"../hud/misc_ammo_area_blue"
-		"teambg_3_lodef"	"../hud/misc_ammo_area_blue_lodef"				
+		"ControlName"			"CTFImagePanel"
+		"fieldName"				"ItemEffectMeterBG"
+		"xpos"					"9999"
 	}
-	
+
 	"ItemEffectMeterLabel"
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
-		"xpos"					"25"
-		"ypos"					"22"
+		"xpos"					"c165"
+		"ypos"					"122"
 		"zpos"					"2"
-		"wide"					"41"
-		"tall"					"15"
+		"wide"					"50"
+		"tall"					"50"
 		"autoResize"			"1"
 		"pinCorner"				"2"
 		"visible"				"1"
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"labelText"				"#TF_Ball"
-		"textAlignment"			"center"
+		"textAlignment"			"north"
+		"centerwrap"			"1"
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"TFFontSmall"
+		"fgcolor_override"		"255 255 255 100"
 	}
 
 	"ItemEffectMeter"
-	{	
+	{
 		"ControlName"			"ContinuousProgressBar"
 		"fieldName"				"ItemEffectMeter"
 		"font"					"Default"
-		"xpos"					"25"
-		"ypos"					"23"
-		"ypos_minmode"			"0"
-		"xpos_minmode"			"0"
+		"xpos"					"0"
+		"ypos"					"0"
 		"zpos"					"2"
-		"wide"					"40"
-		"wide_minmode"			"50"
-		"tall"					"6"				
+		"wide"					"70"
+		"tall"					"6"
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"0"
@@ -78,25 +60,48 @@
 		"textAlignment"			"Left"
 		"dulltext"				"0"
 		"brighttext"			"0"
-	}					
-	
+		"fgcolor_override"		"255 255 255 255"
+	}
+
 	"ItemEffectMeterCount"
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
-		"xpos"					"25"
-		"ypos"					"5"
+		"xpos"					"c165"
+		"ypos"					"90"
 		"zpos"					"2"
-		"wide"					"40"
-		"tall"					"20"	
+		"wide"					"50"
+		"tall"					"40"
 		"pinCorner"				"2"
 		"visible"				"1"
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"labelText"				"%progresscount%"
-		"textAlignment"			"north"
+		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"HudFontMedium"
+		"font"					"HudFontMediumBold"
+		"fgcolor" 				"255 255 255 255"
+	}
+
+	"ItemEffectMeterCountShadow"
+	{
+		"ControlName"			"CExLabel"
+		"fieldName"				"ItemEffectMeterCountShadow"
+		"xpos"					"c165"
+		"ypos"					"90"
+		"zpos"					"2"
+		"wide"					"51"
+		"tall"					"41"
+		"pinCorner"				"2"
+		"visible"				"1"
+		"enabled"				"1"
+		"tabPosition"			"0"
+		"labelText"				"%progresscount%"
+		"textAlignment"			"center"
+		"dulltext"				"0"
+		"brighttext"			"0"
+		"font"					"HudFontMediumBold"
+		"fgcolor" 				"0 0 0 255"
 	}
 }

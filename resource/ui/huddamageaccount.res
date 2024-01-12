@@ -9,8 +9,7 @@
 		"PositiveColor"			"0 255 0 255"
 		"NegativeColor"			"255 0 0 255"
 		"delta_lifetime"		"1.5"
-		"delta_item_font"		"HudFontMediumBold"
-		"delta_item_font_big"	"HudFontMediumBold"
+		"delta_item_font"		"DamageNumber"
 	}
 	"DamageAccountValue"
 	{
@@ -28,7 +27,6 @@
 		"textAlignment"								"center"
 		"fgcolor"									"0 255 0 255"
 		"font"										"HudFontMediumBold"
-		"font_minmode"								"HudFontSmallBold"
 	}
 	"DamageAccountValueShadow"
 	{
@@ -49,9 +47,6 @@
 		"textAlignment"								"center"
 		"fgcolor"									"Black"
 		"font"										"HudFontMediumBold"
-		"font_minmode"								"HudFontSmallBold"
-
-
 		"pin_to_sibling"							"DamageAccountValue"
 	}
 }

@@ -35,7 +35,7 @@
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"HudFontGiantBold"
+		"font"			"HudFontGiantBoldShadow"
 		"fgcolor"		"FullWhite"
 	}
 
@@ -55,12 +55,11 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"#TF_IndividualUbercharges"
-		"labelText_minmode"		"#TF_IndividualUberchargesMinHUD"
+		"labelText"		"#TF_IndividualUberchargesMinHUD"
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"HudFontSmallest"
+		"font"			"HudFontGiantBoldShadow"
 	}
 
 	"ChargeMeter"
@@ -182,20 +181,32 @@
 		"image"			"../hud/ico_health_cluster"
 		"scaleImage"	"1"
 	}
-
+	"ResistIconAnchor"
+	{
+    "ControlName"            "EditablePanel"
+    "fieldName"              "ResistIconAnchor"
+    "xpos"                   "0"
+    "ypos"                   "10"
+    "wide"                   "1"
+    "tall"                   "1"
+    "visible"                "1"
+    "enabled"                "1"
+    "proportionaltoparent"   "1"
+	}
 	"ResistIcon"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"ResistIcon"
 		"xpos"			"0"
-		"ypos"			"-25"
-		"wide"			"36"
-		"tall"			"36"
+		"ypos"			"0"
+		"wide"			"32"
+		"tall"			"32"
 		"visible"		"1"
 		"visible_minmode"		"0"
 		"enabled"		"1"
 		"image"			"../HUD/defense_buff_bullet_blue"
 		"scaleImage"	"1"
+		"pin_to_sibling" "ResistIconAnchor"
 	}
 
 }

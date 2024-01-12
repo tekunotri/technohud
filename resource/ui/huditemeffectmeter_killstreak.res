@@ -6,11 +6,11 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"0"	[$WIN32]
-		"ypos"			"c210"	[$WIN32]
+		"ypos"			"c150"	[$WIN32]
 		"xpos_minmode"	"68"	[$WIN32]
 		"ypos_minmode"	"r40"	[$WIN32]
 		"wide"			"f0"
-		"tall"			"640"
+		"tall"			"480"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}
@@ -67,7 +67,6 @@
 		"xpos_minmode"			"0"
 		"zpos"					"2"
 		"wide"					"40"
-		"wide_minmode"			"50"
 		"tall"					"6"
 		"autoResize"			"0"
 		"pinCorner"				"0"
@@ -82,7 +81,7 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
-		"xpos"					"0"
+		"xpos"					"c-120"
 		"ypos"					"0"
 		"zpos"					"2"
 		"wide"					"40"
@@ -95,7 +94,7 @@
 		"textAlignment"			"north"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"HudFontMediumBold"
+		"font"					"HudFontSmallBold"
 		"fgcolor_override"		"FullWhite"
 	}
 
@@ -116,7 +115,7 @@
 		"textAlignment"			"north"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"HudFontMediumBold"
+		"font"					"HudFontSmallBold"
 		"fgcolor_override"		"FullBlack"
 		"pin_to_sibling"	"ItemEffectMeterCount"
 	}

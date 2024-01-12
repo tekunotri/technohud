@@ -128,13 +128,10 @@
 		"fieldName"		"classmodelpanel"
 
 		"xpos"			"0"	[$WIN32]
-		"xpos_minmode"	"0"	[$WIN32]
 		"ypos"			"r194"	[$WIN32]
 		"zpos"			"2"
 		"wide"			"100"
-		"wide_minmode"	"52"
 		"tall"			"200"
-		"tall_minmode"	"102"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -150,7 +147,7 @@
 		{
 			"force_pos"	"1"
 
-			"angles_x" "0"
+			"angles_x" "-3"
 			"angles_y" "172"
 			"angles_z" "0"
 			"origin_x" "200"
@@ -173,8 +170,7 @@
 			{
 				"fov"			"25"
 				"angles_x"		"-17"
-				"angles_x_minmode"	"-10"
-				"angles_y"		"145"
+				"angles_y"		"205"
 				"angles_z"		"0"
 				"origin_x"		"105"
 				"origin_y"		"4"

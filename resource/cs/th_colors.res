@@ -1,6 +1,13 @@
 // color shit
 Scheme {
     Colors {
+		// custom colors
+		"FullWhite"			"236 236 236 236"
+		"FullBlack"			"0 0 0 255"
+
+
+
+
 		// base colors
 		"Orange"			"178 82 22 255"
 		"OrangeDim"			"178 82 22 120"
@@ -28,7 +35,6 @@ Scheme {
 		"PartyMember6"	"255 133 255 255"
 		"White"				"235 235 235 255"
 
-		"FullWhite"			"255 255 255 255"
 		"Red"				"192 28 0 140"
 		"RedSolid"			"192 28 0 255"
 		"Blue"				"0 28 162 140"
@@ -44,7 +50,6 @@ Scheme {
 
 		"TransparentLightBlack"	"0 0 0 90"
 
-		"FullBlack"	"0 0 0 255"
 
 		"TransparentLightBlack"	"0 0 0 90"
 		"FooterBGBlack"		"52 48 55 255"

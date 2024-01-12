@@ -16,6 +16,35 @@ Scheme{
 		// fonts are used in order that they are listed
 		// fonts listed later in the order will only be used if they fulfill a range not already filled
 		// if a font fails to load then the subsequent fonts will replace
+		"HudFontGiantBoldShadow"
+		{
+			"1"
+			{
+				"name"		"TF2 Build"
+				"tall"		"44"
+				"tall_lodef" "52"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+				"dropshadow" "1"
+			}
+		}
+		"DamageNumber"
+		{
+			"1"
+			{
+				"name"		"TF2 Build"
+				"tall"		"24"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+				"dropshadow" "1"
+			}
+		}
+
+
+
+		// default font declarations
 		"Default"
 		{
 			"1"
