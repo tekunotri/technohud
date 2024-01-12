@@ -13,8 +13,8 @@
 
 //		"bgcolor_override"	"0 0 0 240"
 
-		"update_url"	"https://store.steampowered.com/news/?filter=updates&appids=440"
-		"blog_url"		"https://www.teamfortress.com/"
+		"update_url"	"http://store.steampowered.com/news/?filter=updates&appids=440"
+		"blog_url"		"http://www.teamfortress.com/"
 
 		"button_x_offset"	"-285"
 		"button_y"			"120"
@@ -218,7 +218,7 @@
 		}
 		if_christmas
 		{
-			"image"		"../console/background_xmas2020_widescreen"
+			"image"		"../console/background_xmas2011_widescreen"
 		}
 	}
 
@@ -245,8 +245,8 @@
 		"xpos"			"c-250"
 		"ypos"			"-80"
 		"zpos"			"-99"
-		"wide"			"600"
-		"tall"			"600"
+		"wide"			"0"
+		"tall"			"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
@@ -643,6 +643,24 @@
 				"keyboardinputenabled" "0"
 			}
 		}
+	}
+
+	"StreamListPanel"
+	{
+		"ControlName"	"CTFStreamListPanel"
+		"fieldName"		"StreamListPanel"
+		"xpos"			"c5"
+		"ypos"			"65"
+		"zpos"			"1"
+		"wide"			"300"
+		"tall"			"350"
+		"visible"		"0"
+		"PaintBackgroundType"	"2"
+		"paintbackground"	"0"
+		"border"		"MainMenuHighlightBorder"
+
+		"navDown"		"SettingsButton"		// when a sub element can't nav down it will pass through this
+		"navLeft"		"WatchStreamButton"	// when a sub element can't nav left it will pass through this
 	}
 
 	"QuestLogButton"
@@ -1377,7 +1395,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"FriendsContainer"
 		"xpos"			"c-290"
-		"ypos"			"260"
+		"ypos"			"160"
 		"zpos"			"5"
 		"wide"			"260"
 		"tall"			"150"
@@ -1497,410 +1515,6 @@
 			"bgcolor_override"	"0 0 0 100"
 		}
 	}
-
-	"EventPromo"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldname"		"EventPromo"
-		"xpos"			"c-290"
-		"ypos"			"160"
-		"zpos"			"-50"
-		"wide"			"270"
-		"tall"			"96"
-		"visible"		"1"
-
-		"Background"
-		{
-			"ControlName"	"EditablePanel"
-			"fieldname"		"Background"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"0"
-			"wide"			"260"
-//			"tall"			"120"
-			"tall"			"96"
-			"visible"		"1"
-			"PaintBackgroundType"	"0"
-			"proportionaltoparent"	"1"
-
-			"paintborder"	"1"
-			"border"		"MainMenuBGBorder"
-
-			"TitleLabel"
-			{
-				"ControlName"	"CExLabel"
-				"fieldName"		"TitleLabel"
-				"font"			"HudFontSmallBold"
-				"labelText"		"#MMenu_Update"
-				"textAlignment"	"west"
-				"xpos"			"12"
-				"ypos"			"0"
-				"wide"			"f0"
-				"tall"			"30"
-				"autoResize"	"0"
-				"pinCorner"		"0"
-				"visible"		"1"
-				"enabled"		"1"
-				"textinsetx"	"0"
-				"fgcolor_override"	"235 227 203 255"
-			}
-
-//			"ViewDetailsGlow"
-//			{
-//				"ControlName"	"Panel"
-//				"fieldName"		"ViewDetailsGlow"
-//				"xpos"			"p0.02"
-//				"ypos"			"27"
-//				"zpos"			"10"
-//				"wide"			"p0.48"
-//				"tall"			"26"
-//				"visible"		"0"
-//				"proportionaltoparent"	"1"
-//
-//				"paintborder"	"0"
-//				"border"	"MainMenuButtonGlow"
-//				"paintbackground"		"3"
-//				"bgcolor_override"	"238 103 17 255"
-//			}
-//
-//			"ViewDetailsButton"
-//			{
-//				"ControlName"	"EditablePanel"
-//				"fieldname"		"ViewDetailsButton"
-//				"xpos"			"p0.02"
-//				"ypos"			"27"
-//				"zpos"			"11"
-//				"wide"			"p0.48"
-//				"tall"			"26"
-//				"visible"		"1"
-//				"PaintBackgroundType"	"0"
-//				"proportionaltoparent"	"1"
-//
-//				"SubButton"
-//				{
-//					"ControlName"	"CExImageButton"
-//					"fieldName"		"SubButton"
-//					"xpos"			"cs-0.5"
-//					"ypos"			"0"
-//					"wide"			"f0"
-//					"tall"			"f0"
-//					"autoResize"	"0"
-//					"pinCorner"		"3"
-//					"visible"		"1"
-//					"enabled"		"1"
-//					"tabPosition"	"0"
-//					"use_proportional_insets" "1"
-//					"font"			"HudFontSmallBold"
-//					"textAlignment"	"center"
-//					"dulltext"		"0"
-//					"brighttext"	"0"
-//					"default"		"1"
-//					"sound_depressed"	"UI/buttonclick.wav"
-//					"sound_released"	"UI/buttonclickrelease.wav"
-//					"labeltext"		"#MMenu_ViewUpdateDetails"
-//					"proportionaltoparent"	"1"
-//					"command"		"view_update_page"
-//					"actionsignallevel"	"4"
-//
-//					"border_default"	"MainMenuButtonDefault"
-//					"border_armed"		"MainMenuButtonArmed"
-//					"paintbackground"	"0"
-//
-//					"defaultFgColor_override" "46 43 42 255"
-//					"armedFgColor_override" "235 226 202 255"
-//					"depressedFgColor_override" "46 43 42 255"
-//
-//					"image_drawcolor"	"117 107 94 255"
-//					"image_armedcolor"	"235 226 202 255"
-//				}
-//			}
-//
-//			"ViewWarButtonGlow"
-//			{
-//				"ControlName"	"Panel"
-//				"fieldName"		"ViewWarButtonGlow"
-//				"xpos"			"p0.5"
-//				"ypos"			"27"
-//				"zpos"			"10"
-//				"wide"			"124"
-//				"tall"			"26"
-//				"visible"		"0"
-//				"proportionaltoparent"	"1"
-//
-//				"paintborder"	"0"
-//				"border"	"MainMenuButtonGlow"
-//				"paintbackground"		"3"
-//				"bgcolor_override"	"238 103 17 255"
-//			}
-//
-//			"ViewWarButton"
-//			{
-//				"ControlName"	"EditablePanel"
-//				"fieldname"		"ViewWarButton"
-//				"xpos"			"p0.5"
-//				"ypos"			"27"
-//				"zpos"			"11"
-//				"wide"			"p0.48"
-//				"tall"			"26"
-//				"visible"		"1"
-//				"PaintBackgroundType"	"0"
-//				"proportionaltoparent"	"1"
-//
-//				"SubButton"
-//				{
-//					"ControlName"	"CExImageButton"
-//					"fieldName"		"SubButton"
-//					"xpos"			"cs-0.5"
-//					"ypos"			"0"
-//					"wide"			"f0"
-//					"tall"			"f0"
-//					"autoResize"	"0"
-//					"pinCorner"		"3"
-//					"visible"		"1"
-//					"enabled"		"1"
-//					"tabPosition"	"0"
-//					"use_proportional_insets" "1"
-//					"font"			"HudFontSmallBold"
-//					"textAlignment"	"center"
-//					"dulltext"		"0"
-//					"brighttext"	"0"
-//					"default"		"1"
-//					"sound_depressed"	"UI/buttonclick.wav"
-//					"sound_released"	"UI/buttonclickrelease.wav"
-//					"labeltext"		"#MMenu_ViewWar"
-//					"proportionaltoparent"	"1"
-//					"command"		"view_war"
-//					"actionsignallevel"	"4"
-//
-//					"border_default"	"MainMenuButtonDefault"
-//					"border_armed"		"MainMenuButtonArmed"
-//					"paintbackground"	"0"
-//
-//					"defaultFgColor_override" "46 43 42 255"
-//					"armedFgColor_override" "235 226 202 255"
-//					"depressedFgColor_override" "46 43 42 255"
-//
-//					"image_drawcolor"	"117 107 94 255"
-//					"image_armedcolor"	"235 226 202 255"
-//				}
-//			}
-
-			"CyclingAd"
-			{
-				"ControlName"			"CCyclingAdContainerPanel"
-				"fieldName"				"CyclingAd"
-				"xpos"					"5"
-//				"ypos"					"p0.47"
-				"ypos"					"27"
-				"zpos"					"100"
-				"wide"					"f10"
-//				"tall"					"p0.5"
-				"tall"					"60"
-				"visible"				"1"
-				"enabled"				"1"
-				"scaleImage"			"1"
-				"proportionaltoparent"	"1"
-
-				"bgcolor_override"		"0 0 0 255"
-
-				"items"
-				{
-					"0"
-					{
-						"item"		"Summer 2023 Cosmetic Key"
-						"show_market"	"0"
-					}
-					"1"
-					{
-						"item"		"Summer 2023 Cosmetic Case"
-						"show_market"	"1"
-					}
-					"2"
-					{
-						"item"		"Summer 2023 War Paint Key"
-						"show_market"	"0"
-					}
-					"3"
-					{
-						"item"		"Summer 2023 War Paint Case"
-						"show_market"	"1"
-					}
-					"4"
-					{
-						"item"		"Taunt: Star-Spangled Strategy"
-						"show_market"	"0"
-					}
-					"5"
-					{
-						"item"		"Taunt: Killer Joke"
-						"show_market"	"0"
-					}
-					"6"
-					{
-						"item"		"Taunt: The Head Doctor"
-						"show_market"	"0"
-					}
-					"7"
-					{
-						"item"		"Taunt: Tuefort Tango"
-						"show_market"	"0"
-					}
-					"8"
-					{
-						"item"		"Taunt: The Road Rager"
-						"show_market"	"0"
-					}
-					"9"
-					{
-						"item"		"Taunt: The Killer Signature"
-						"show_market"	"0"
-					}
-					"10"
-					{
-						"item"		"Map Token Sharkbay"
-						"show_market"	"0"
-					}
-					"11"
-					{
-						"item"		"Map Token Rotunda"
-						"show_market"	"0"
-					}
-					"12"
-					{
-						"item"		"Map Token Phoenix"
-						"show_market"	"0"
-					}
-					"13"
-					{
-						"item"		"Map Token Cashworks"
-						"show_market"	"0"
-					}
-					"14"
-					{
-						"item"		"Map Token Venice"
-						"show_market"	"0"
-					}
-					"15"
-					{
-						"item"		"Map Token Reckoner"
-						"show_market"	"0"
-					}
-					"16"
-					{
-						"item"		"Map Token Sulfur"
-						"show_market"	"0"
-					}
-					"17"
-					{
-						"item"		"Map Token Hardwood"
-						"show_market"	"0"
-					}
-					"18"
-					{
-						"item"		"Map Token Pelican Peak"
-						"show_market"	"0"
-					}
-					"19"
-					{
-						"item"		"Map Token Selbyen"
-						"show_market"	"0"
-					}
-					"20"
-					{
-						"item"		"Map Token VSH Tiny Rock"
-						"show_market"	"0"
-					}
-					"21"
-					{
-						"item"		"Map Token VSH Distillery"
-						"show_market"	"0"
-					}
-					"22"
-					{
-						"item"		"Map Token VSH Skirmish"
-						"show_market"	"0"
-					}
-					"23"
-					{
-						"item"		"Map Token VSH Nucleus"
-						"show_market"	"0"
-					}
-					"24"
-					{
-						"item"		"Strange Filter: Sharkbay (Community)"
-						"show_market"	"0"
-					}
-					"25"
-					{
-						"item"		"Strange Filter: Rotunda (Community)"
-						"show_market"	"0"
-					}
-					"26"
-					{
-						"item"		"Strange Filter: Phoenix (Community)"
-						"show_market"	"0"
-					}
-					"27"
-					{
-						"item"		"Strange Filter: Cashworks (Community)"
-						"show_market"	"0"
-					}
-					"28"
-					{
-						"item"		"Strange Filter: Venice (Community)"
-						"show_market"	"0"
-					}
-					"29"
-					{
-						"item"		"Strange Filter: Reckoner (Community)"
-						"show_market"	"0"
-					}
-					"30"
-					{
-						"item"		"Strange Filter: Sulfur (Community)"
-						"show_market"	"0"
-					}
-					"31"
-					{
-						"item"		"Strange Filter: Hardwood (Community)"
-						"show_market"	"0"
-					}
-					"32"
-					{
-						"item"		"Strange Filter: Pelican Peak (Community)"
-						"show_market"	"0"
-					}
-					"33"
-					{
-						"item"		"Strange Filter: Selbyen (Community)"
-						"show_market"	"0"
-					}
-					"34"
-					{
-						"item"		"Strange Filter: VSH Tiny Rock (Community)"
-						"show_market"	"0"
-					}
-					"35"
-					{
-						"item"		"Strange Filter: VSH Distillery (Community)"
-						"show_market"	"0"
-					}
-					"36"
-					{
-						"item"		"Strange Filter: VSH Skirmish (Community)"
-						"show_market"	"0"
-					}
-					"37"
-					{
-						"item"		"Strange Filter: VSH Nucleus (Community)"
-						"show_market"	"0"
-					}
-				}
-			}
-
-		} // Background
-
-	} // EventPromo
 
 	"SafeMode"
 	{
@@ -2551,7 +2165,6 @@
 			"image" "glyph_tv"
 		}
 	}
-
 
 	"SettingsButton"
 	{

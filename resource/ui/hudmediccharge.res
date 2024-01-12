@@ -44,12 +44,10 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"IndividualChargesLabel"
 		"xpos"			"30"
-		"xpos_minmode"			"40"
-		"ypos"			"24"
-		"ypos_minmode"			"11"
+		"ypos"			"0"
 		"zpos"			"2"
 		"wide"			"90"
-		"tall"			"15"
+		"tall"			"45"
 		"autoResize"	"1"
 		"pinCorner"		"2"
 		"visible"		"1"
@@ -60,6 +58,8 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"HudFontGiantBoldShadow"
+		"fgcolor"		"FullWhite"
+
 	}
 
 	"ChargeMeter"
