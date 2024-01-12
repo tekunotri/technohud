@@ -6,8 +6,6 @@ Scheme {
 		"FullBlack"			"0 0 0 255"
 
 
-
-
 		// base colors
 		"Orange"			"178 82 22 255"
 		"OrangeDim"			"178 82 22 120"
@@ -54,8 +52,10 @@ Scheme {
 		"TransparentLightBlack"	"0 0 0 90"
 		"FooterBGBlack"		"52 48 55 255"
 
-		"HUDBlueTeam"		"104 124 155 127"
-		"HUDRedTeam"		"180 92 77 127"
+		"HUDBlueTeam"		"90 122 143 255"
+
+		"HUDRedTeam"		"189 59 61 255"
+
 		"HUDSpectator"		"124 124 124 127"
 		"HUDBlueTeamSolid"	"104 124 155 255"
 		"HUDRedTeamSolid"	"180 92 77 255"

@@ -511,8 +511,8 @@
 
 		"TextFont"		"Default"
 
-		"TeamBlue"		"HUDBlueTeamSolid"
-		"TeamRed"		"HUDRedTeamSolid"
+		"TeamBlue"		"HUDBlueTeam"
+		"TeamRed"		"HUDRedTeam"
 		"IconColor"		"HudWhite"
 		"LocalPlayerColor"	"FullBlack"
 
