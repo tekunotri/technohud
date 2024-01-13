@@ -40,7 +40,7 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"TFFontSmall"
-		"fgcolor_override"		"255 255 255 100"
+		"fgcolor_override"		"FullWhite"
 	}
 
 	"ItemEffectMeter"
@@ -60,7 +60,7 @@
 		"textAlignment"			"Left"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"fgcolor_override"		"255 255 255 255"
+		"fgcolor_override"		"FullWhite"
 	}
 
 	"ItemEffectMeterCount"
@@ -80,8 +80,8 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"HudFontMediumBold"
-		"fgcolor" 				"255 255 255 255"
+		"font"					"HudFont24Bold"
+		"fgcolor" 				"FullWhite"
 	}
 
 	"ItemEffectMeterCountShadow"
@@ -101,7 +101,7 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"HudFontMediumBold"
+		"font"					"HudFont24Bold"
 		"fgcolor" 				"0 0 0 255"
 	}
 }

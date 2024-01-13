@@ -4,6 +4,11 @@
 {
 	"HudItemEffectMeter"
 	{
-		"xpos"				"20"
+		"xpos"				"c-815"
+		"ypos"				"c117"
+	}
+	"ItemEffectMeterLabel"
+	{
+		"visible"			"0"
 	}
 }
