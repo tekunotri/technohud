@@ -50,6 +50,18 @@ Scheme{
 			}
 		}
 
+		"HudFont16Bold"
+		{
+			"1"
+			{
+			"name"		"Luxi Mono Regular"
+			"tall"		"16"
+			"additive"	"0"
+			"weight"	"500"
+			"antialias" "1"
+			}
+		}
+
 
 		"HudFont18"
 		{

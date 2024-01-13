@@ -73,7 +73,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"
-		"font"			"HudFont18Bold"
+		"font"			"HudFont16Bold"
 		"fgcolor"		"FullWhite"
 		"HealthDeathWarningColor"	"HUDDeathWarning"
 
@@ -92,7 +92,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"
-		"font"			"HudFont18Bold"
+		"font"			"HudFont16Bold"
 		"fgcolor"		"FullBlack"
 		"pin_to_sibling" "PlayerStatusHealthValue"
 	}
