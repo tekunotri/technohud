@@ -27,6 +27,17 @@ Scheme{
 			"antialias" "1"
 			}
 		}
+		"HudFont14Shadow"
+		{
+			"1"
+			{
+			"name"		"Luxi Mono Regular"
+			"tall"		"14"
+			"additive"	"0"
+			"antialias" "1"
+			"dropshadow" "1"
+			}
+		}
 		"HudFont14Bold"
 		{
 			"1"
@@ -361,8 +372,7 @@ Scheme{
 			// note that this scales with the screen resolution
 			"1"
 			{
-				"name"		"Trebuchet MS" [!$OSX]
-				"name"		"Helvetica" [$OSX]
+				"name"		"Luxi Mono Regular" [!$OSX]
 				"tall"		"18"
 				"weight"	"900"
 				"antialias" "1"

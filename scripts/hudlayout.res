@@ -73,7 +73,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c100"	[$WIN32]
-		"ypos"			"r125"	[$WIN32]
+		"ypos"			"r130"	[$WIN32]
 		"wide"			"f0"
 		"tall"			"640"
 	}
