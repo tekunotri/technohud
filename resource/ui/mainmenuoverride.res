@@ -2124,8 +2124,8 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"ConsoleButton"
-		"xpos"			"c-45"
-		"ypos"			"rs1-18"
+		"xpos"			"c-288"
+		"ypos"			"rs1-68"
 		"wide"			"100"
 		"tall"			"26"
 		"autoResize"	"0"
