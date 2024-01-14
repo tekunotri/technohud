@@ -122,7 +122,7 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"		"TargetDataLabel"
-		"font"			"HudFont11Shadow"
+		"font"			"HudFont10Shadow"
 		"font_minmode"	"DefaultVerySmall"
 		"xpos"			"8"
 		"xpos_minmode"	"30"
