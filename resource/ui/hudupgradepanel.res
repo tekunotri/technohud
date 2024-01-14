@@ -560,7 +560,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CreditsLabel"
-			"font"			"HudFontMediumSmall"
+			"font"			"HudFont18"
 			"labelText"		"%credits%"
 			"textAlignment"	"east"
 			"xpos"			"0"

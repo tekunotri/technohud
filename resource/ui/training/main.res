@@ -90,7 +90,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"SubTitleLabel"
-			"font"			"HudFontMediumSmall"
+			"font"			"HudFont18"
 			"labelText"		"%subtitle%"
 			"textAlignment"	"center"
 			"xpos"			"0"

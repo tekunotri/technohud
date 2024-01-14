@@ -101,7 +101,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"MapNameLabel"
-		"font"			"HudFontMedium"
+		"font"			"HudFont24"
 		"labelText"		"%mapname%"
 		"textAlignment"	"center"
 		"xpos"			"60"

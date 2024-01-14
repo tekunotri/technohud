@@ -47,7 +47,7 @@
 
 	"TFTextMessage"
 	{
-		"ControlName"	"CExRichText"
+		"ControlName"	"CTFRichText"
 		"fieldName"		"TFTextMessage"
 		"font"			"ChalkboardText"
 		"xpos"			"c-184"
@@ -95,7 +95,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"		"0"
-		"labelText"		"&E - Continue"
+		"labelText"		"CONTINUE (&E)"
 		"textAlignment"		"center"
 		"dulltext"		"0"
 		"brighttext"		"0"
@@ -147,8 +147,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"image"			"loadout_bottom_gradient"
-		"tileImage"		"1"
+		"fillcolor"		"0 0 0 180"
 		"PaintBackgroundType"	"0"
 	}
 

@@ -16,7 +16,7 @@
 		"tall"			"33"
 		"tall_minmode"	"23"
 		"tall_lodef"	"38"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/objectives_timepanel_blue_bg"
 		"scaleImage"		"1"
@@ -82,8 +82,8 @@
 		"brighttext"		"0"
 		"wrap"			"0"
 		"font"			"ClockSubTextTiny"
-		"font_hidef"	"HudFont14"
-		"font_lodef"	"HudFont14"
+		"font_hidef"	"HudFont14Shadow"
+		"font_lodef"	"HudFont14Shadow"
 
 		if_match
 		{
@@ -92,9 +92,9 @@
 			"ypos"					"21"
 			"ypos_minmode"			"21"
 			"wide"					"p1"
-			"font"					"HudFontSmallestBold"
-			"font_hidef"			"HudFontSmallestBold"
-			"font_lodef"			"HudFontSmallestBold"
+			"font"					"HudFont11Bold"
+			"font_hidef"			"HudFont11Bold"
+			"font_lodef"			"HudFont11Bold"
 		}
 	}
 	"WaitingForPlayersBG"
@@ -146,8 +146,8 @@
 		"brighttext"		"0"
 		"wrap"			"0"
 		"font"			"ClockSubText"
-		"font_hidef"	"HudFont14"
-		"font_lodef"	"HudFont14"
+		"font_hidef"	"HudFont14Shadow"
+		"font_lodef"	"HudFont14Shadow"
 
 		if_match
 		{
@@ -156,9 +156,9 @@
 			"ypos"					"21"
 			"ypos_minmode"			"21"
 			"wide"					"p1"
-			"font"					"HudFontSmallestBold"
-			"font_hidef"			"HudFontSmallestBold"
-			"font_lodef"			"HudFontSmallestBold"
+			"font"					"HudFont11Bold"
+			"font_hidef"			"HudFont11Bold"
+			"font_lodef"			"HudFont11Bold"
 		}
 	}
 	"OvertimeBG"
@@ -210,8 +210,8 @@
 		"brighttext"		"0"
 		"wrap"			"0"
 		"font"			"ClockSubTextSuddenDeath"
-		"font_hidef"	"HudFont14"
-		"font_lodef"	"HudFont14"
+		"font_hidef"	"HudFont14Shadow"
+		"font_lodef"	"HudFont14Shadow"
 
 		if_match
 		{
@@ -220,9 +220,9 @@
 			"ypos"					"21"
 			"ypos_minmode"			"21"
 			"wide"					"p1"
-			"font"					"HudFontSmallestBold"
-			"font_hidef"			"HudFontSmallestBold"
-			"font_lodef"			"HudFontSmallestBold"
+			"font"					"HudFont11Bold"
+			"font_hidef"			"HudFont11Bold"
+			"font_lodef"			"HudFont11Bold"
 		}
 	}
 	"SuddenDeathBG"
@@ -275,8 +275,8 @@
 		"wrap"			"0"
 		"font"			"ClockSubText"
 		"font_minmode"	"ClockSubTextSuddenDeath"
-		"font_hidef"	"HudFont14"
-		"font_lodef"	"HudFont14"
+		"font_hidef"	"HudFont14Shadow"
+		"font_lodef"	"HudFont14Shadow"
 
 		if_match
 		{
@@ -285,9 +285,9 @@
 			"ypos"					"21"
 			"ypos_minmode"			"21"
 			"wide"					"p1"
-			"font"					"HudFontSmallestBold"
-			"font_hidef"			"HudFontSmallestBold"
-			"font_lodef"			"HudFontSmallestBold"
+			"font"					"HudFont11Bold"
+			"font_hidef"			"HudFont11Bold"
+			"font_lodef"			"HudFont11Bold"
 		}
 	}
 	"SetupBG"
@@ -340,8 +340,8 @@
 		"wrap"			"0"
 		"font"			"ClockSubText"
 		"font_minmode"	"ClockSubTextSuddenDeath"
-		"font_hidef"	"HudFont14"
-		"font_lodef"	"HudFont14"
+		"font_hidef"	"HudFont14Shadow"
+		"font_lodef"	"HudFont14Shadow"
 
 		if_match
 		{
@@ -350,9 +350,9 @@
 			"ypos"					"21"
 			"ypos_minmode"			"21"
 			"wide"					"p1"
-			"font"					"HudFontSmallestBold"
-			"font_hidef"			"HudFontSmallestBold"
-			"font_lodef"			"HudFontSmallestBold"
+			"font"					"HudFont11Bold"
+			"font_hidef"			"HudFont11Bold"
+			"font_lodef"			"HudFont11Bold"
 		}
 	}
 	"ServerTimeLimitLabelBG"

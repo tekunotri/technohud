@@ -129,8 +129,8 @@
 		"textAlignment"	"west"
 		"labelText"		"%bluescore%"
 		"font"			"HudFontBig"
-		"font_hidef"	"HudFontGiant"
-		"font_lodef"	"HudFontGiant"
+		"font_hidef"	"HudFont24"
+		"font_lodef"	"HudFont24"
 		"fgcolor"		"TanLight"
 
 		"if_hybrid"
@@ -167,8 +167,8 @@
 		"textAlignment"	"west"
 		"labelText"		"%bluescore%"
 		"font"			"HudFontBig"
-		"font_hidef"	"HudFontGiant"
-		"font_lodef"	"HudFontGiant"
+		"font_hidef"	"HudFont24"
+		"font_lodef"	"HudFont24"
 		"fgcolor"		"Black"
 
 		"if_hybrid"
@@ -205,8 +205,8 @@
 		"textAlignment"	"east"
 		"labelText"		"%redscore%"
 		"font"			"HudFontBig"
-		"font_hidef"	"HudFontGiant"
-		"font_lodef"	"HudFontGiant"
+		"font_hidef"	"HudFont24"
+		"font_lodef"	"HudFont24"
 		"fgcolor"		"TanLight"
 
 		"if_hybrid"
@@ -243,8 +243,8 @@
 		"textAlignment"	"east"
 		"labelText"		"%redscore%"
 		"font"			"HudFontBig"
-		"font_hidef"	"HudFontGiant"
-		"font_lodef"	"HudFontGiant"
+		"font_hidef"	"HudFont24"
+		"font_lodef"	"HudFont24"
 		"fgcolor"		"Black"
 
 		"if_hybrid"

@@ -1,6 +1,6 @@
 "UnlitGeneric"
 {
-	"$basetexture"	"vgui/loadout_solid_line"
+	"$basetexture"	"vgui/replay/thumbnails/loadout_header"
 	"$translucent" "1"
 	"$ignorez" "1"
 	"$vertexcolor" "1"

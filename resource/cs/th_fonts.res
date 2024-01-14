@@ -13,101 +13,366 @@ Scheme{
 	// describes all the fonts
 	Fonts
 	{
-		// fonts are used in order that they are listed
-		// fonts listed later in the order will only be used if they fulfill a range not already filled
-		// if a font fails to load then the subsequent fonts will replace
+		// Naming Scheme: HudFont(Size)(Bold/Shadow)
+		//
+		//
 
+
+		"HudFont10"
+		{
+			"1"
+			{
+			"name"			"Luxi Mono Regular"
+			"tall"			"10"
+			"additive"		"0"
+			"antialias" 	"1"
+			}
+		}
+		"HudFont10Shadow"
+		{
+			"1"
+			{
+			"name"			"Luxi Mono Regular"
+			"tall"			"10"
+			"additive"		"0"
+			"antialias" 	"1"
+			"dropshadow"	"1"
+			}
+		}
+		"HudFont10Bold"
+		{
+			"1"
+			{
+			"name"			"Luxi Mono Regular"
+			"tall"			"10"
+			"additive"		"0"
+			"antialias" 	"1"
+			"weight"		"500"
+			}
+		}
+
+		"HudFont11"
+		{
+			"1"
+			{
+			"name"			"Luxi Mono Regular"
+			"tall"			"11"
+			"additive"		"0"
+			"antialias" 	"1"
+			}
+		}
+		"HudFont11Shadow"
+		{
+			"1"
+			{
+			"name"			"Luxi Mono Regular"
+			"tall"			"11"
+			"additive"		"0"
+			"antialias" 	"1"
+			"dropshadow"	"1"
+			}
+		}
+		"HudFont11Bold"
+		{
+			"1"
+			{
+			"name"			"Luxi Mono Regular"
+			"tall"			"11"
+			"additive"		"0"
+			"antialias" 	"1"
+			"weight"		"500"
+			}
+		}
+
+		"HudFont12"
+		{
+			"1"
+			{
+			"name"			"Luxi Mono Regular"
+			"tall"			"12"
+			"additive"		"0"
+			"antialias" 	"1"
+			}
+		}
+		"HudFont12Shadow"
+		{
+			"1"
+			{
+			"name"			"Luxi Mono Regular"
+			"tall"			"12"
+			"additive"		"0"
+			"antialias" 	"1"
+			"dropshadow"	"1"
+			}
+		}
+		"HudFont12Bold"
+		{
+			"1"
+			{
+			"name"			"Luxi Mono Regular"
+			"tall"			"12"
+			"additive"		"0"
+			"antialias" 	"1"
+			"weight"		"500"
+			}
+		}
 		"HudFont14"
 		{
 			"1"
 			{
-			"name"		"Luxi Mono Regular"
-			"tall"		"14"
-			"additive"	"0"
-			"antialias" "1"
+			"name"			"Luxi Mono Regular"
+			"tall"			"14"
+			"additive"		"0"
+			"antialias" 	"1"
 			}
 		}
 		"HudFont14Shadow"
 		{
 			"1"
 			{
-			"name"		"Luxi Mono Regular"
-			"tall"		"14"
-			"additive"	"0"
-			"antialias" "1"
-			"dropshadow" "1"
+			"name"			"Luxi Mono Regular"
+			"tall"			"14"
+			"additive"		"0"
+			"antialias" 	"1"
+			"dropshadow"	"1"
 			}
 		}
 		"HudFont14Bold"
 		{
 			"1"
 			{
-			"name"		"Luxi Mono Regular"
-			"tall"		"14"
-			"additive"	"0"
-			"weight"	"500"
-			"antialias" "1"
+			"name"			"Luxi Mono Regular"
+			"tall"			"14"
+			"additive"		"0"
+			"weight"		"500"
+			"antialias" 	"1"
 			}
 		}
-
+		"HudFont16"
+		{
+			"1"
+			{
+			"name"			"Luxi Mono Regular"
+			"tall"			"16"
+			"additive"		"0"
+			"antialias" 	"1"
+			}
+		}
 		"HudFont16Bold"
 		{
 			"1"
 			{
-			"name"		"Luxi Mono Regular"
-			"tall"		"16"
-			"additive"	"0"
-			"weight"	"500"
-			"antialias" "1"
+			"name"			"Luxi Mono Regular"
+			"tall"			"16"
+			"additive"		"0"
+			"weight"		"500"
+			"antialias" 	"1"
 			}
 		}
-
-
+		"HudFont16Shadow"
+		{
+			"1"
+			{
+			"name"		 	"Luxi Mono Regular"
+			"tall"		 	"16"
+			"additive"	 	"0"
+			"dropshadow" 	"1"
+			"antialias"  	"1"
+			}
+		}
 		"HudFont18"
 		{
 			"1"
 			{
-			"name"		"Luxi Mono Regular"
-			"tall"		"18"
-			"additive"	"0"
-			"antialias" "1"
+			"name"			"Luxi Mono Regular"
+			"tall"			"18"
+			"additive"		"0"
+			"antialias" 	"1"
 			}
 		}
-
 		"HudFont18Bold"
 		{
 			"1"
 			{
-			"name"		"Luxi Mono Regular"
-			"tall"		"18"
-			"weight"	"500"
-			"additive"	"0"
-			"antialias" "1"
+			"name"			"Luxi Mono Regular"
+			"tall"			"18"
+			"weight"		"500"
+			"additive"		"0"
+			"antialias" 	"1"
+			}
+		}
+		"HudFont18Shadow"
+		{
+			"1"
+			{
+			"name"			"Luxi Mono Regular"
+			"tall"			"18"
+			"dropshadow"	"1"
+			"additive"		"0"
+			"antialias" 	"1"
+			}
+		}
+		"HudFont20"
+		{
+			"1"
+			{
+			"name"			"Luxi Mono Regular"
+			"tall"			"20"
+			"additive"		"0"
+			"antialias" 	"1"
+			}
+		}
+		"HudFont20Bold"
+		{
+			"1"
+			{
+			"name"			"Luxi Mono Regular"
+			"tall"			"20"
+			"weight"		"500"
+			"additive"		"0"
+			"antialias" 	"1"
+			}
+		}
+		"HudFont20Shadow"
+		{
+			"1"
+			{
+			"name"			"Luxi Mono Regular"
+			"tall"			"20"
+			"dropshadow"	"1"
+			"additive"		"0"
+			"antialias" 	"1"
+			}
+		}
+
+		"HudFont24"
+		{
+			"1"
+			{
+			"name"			"Luxi Mono Regular"
+			"tall"			"24"
+			"additive"		"0"
+			"antialias" 	"1"
 			}
 		}
 		"HudFont24Bold"
 		{
 			"1"
 			{
-			"name"		"Luxi Mono Regular"
-			"tall"		"24"
-			"weight"	"500"
-			"additive"	"0"
-			"antialias" "1"
+			"name"			"Luxi Mono Regular"
+			"tall"			"24"
+			"weight"		"500"
+			"additive"		"0"
+			"antialias" 	"1"
+			}
+		}
+		"HudFont24Shadow"
+		{
+			"1"
+			{
+			"name"		 	"Luxi Mono Regular"
+			"tall"		 	"24"
+			"dropshadow" 	"1"
+			"additive"	 	"0"
+			"antialias"  	"1"
+			}
+		}
+		"HudFont32"
+		{
+			"1"
+			{
+			"name"			"Luxi Mono Regular"
+			"tall"			"32"
+			"additive"		"0"
+			"antialias" 	"1"
+			}
+		}
+		"HudFont32Bold"
+		{
+			"1"
+			{
+			"name"			"Luxi Mono Regular"
+			"tall"			"32"
+			"weight"		"500"
+			"additive"		"0"
+			"antialias" 	"1"
+			}
+		}
+		"HudFont32Shadow"
+		{
+			"1"
+			{
+			"name"		 	"Luxi Mono Regular"
+			"tall"		 	"32"
+			"dropshadow" 	"1"
+			"additive"	 	"0"
+			"antialias"  	"1"
+			}
+		}
+		"HudFont36"
+		{
+			"1"
+			{
+			"name"			"Luxi Mono Regular"
+			"tall"			"36"
+			"additive"		"0"
+			"antialias" 	"1"
+			}
+		}
+		"HudFont36Bold"
+		{
+			"1"
+			{
+			"name"			"Luxi Mono Regular"
+			"tall"			"36"
+			"weight"		"500"
+			"additive"		"0"
+			"antialias" 	"1"
+			}
+		}
+		"HudFont36Shadow"
+		{
+			"1"
+			{
+			"name"		 	"Luxi Mono Regular"
+			"tall"		 	"36"
+			"dropshadow" 	"1"
+			"additive"	 	"0"
+			"antialias"  	"1"
+			}
+		}
+		"HudFont44"
+		{
+			"1"
+			{
+			"name"			"Luxi Mono Regular"
+			"tall"			"44"
+			"additive"		"0"
+			"antialias" 	"1"
 			}
 		}
 		"HudFont44Bold"
 		{
 			"1"
 			{
-			"name"		"Luxi Mono Regular"
-			"tall"		"44"
-			"weight"	"500"
-			"additive"	"0"
-			"antialias" "1"
+			"name"			"Luxi Mono Regular"
+			"tall"			"44"
+			"weight"		"500"
+			"additive"		"0"
+			"antialias" 	"1"
 			}
 		}
-
+		"HudFont44Shadow"
+		{
+			"1"
+			{
+			"name"			"Luxi Mono Regular"
+			"tall"			"44"
+			"dropshadow"	"1"
+			"additive"		"0"
+			"antialias" 	"1"
+			}
+		}
 		// Other Fonts/icon fonts/whatever
 		"Icons16"
 		{
@@ -136,7 +401,7 @@ Scheme{
 			"antialias" "1"
 			}
 		}
-		// default font declarations
+		// default font declarations, temporary for now while i slowly replace all font declarations with my own.
 		"Default"
 		{
 			"1"
@@ -381,10 +646,10 @@ Scheme{
 		}
 		CenterPrintText
 		{
-			// note that this scales with the screen resolution
+			// note that this scales with the screen resolution, also this is for MGE/Skial adverts/whatever else -techno
 			"1"
 			{
-				"name"		"Luxi Mono Regular" [!$OSX]
+				"name"		"Luxi Mono Regular"
 				"tall"		"18"
 				"weight"	"900"
 				"antialias" "1"
@@ -442,7 +707,7 @@ Scheme{
 				"yres"	"1200 10000"
 			}
 		}
-		"HudFontGiant"
+		"TF2HudFontGiant"
 		{
 			"1"
 			{
@@ -597,7 +862,7 @@ Scheme{
 				"antialias" "1"
 			}
 		}
-		"HudFontMediumSmall"
+		"HudFont18"
 		{
 			"1"
 			{
@@ -1024,7 +1289,7 @@ Scheme{
 			}
 		}
 
-		Icons
+		TFIcons
 		{
 			"1"
 			 {
@@ -1364,9 +1629,8 @@ Scheme{
 				"additive"	"0"
 			}
 		}
-
 		"ScoreboardTeamScoreNew"
- 		{
+		{
 			"1"
 			{
 				"name"		"TF2"

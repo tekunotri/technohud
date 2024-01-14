@@ -26,13 +26,13 @@
 		"tall"			"12"
 		"textinsetx"	"8"
 		"autoResize"	"1"
-		"pinCorner"		"0"	
+		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%price%"
 		"paintbackground"	"0"
 	}
-	
+
 	"OG_Price"
 	{
 		"ControlName"	"CExLabel"
@@ -46,7 +46,7 @@
 		"tall"			"12"
 		"textinsetx"	"4"
 		"autoResize"	"1"
-		"pinCorner"		"0"	
+		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%og_price%"
@@ -64,7 +64,7 @@
 		"tall"			"5"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"loadout_solid_line"
+		"image"			"replay/thumbnails/loadout_solid_line"
 		"scaleImage"	"1"
 	}
 
@@ -81,7 +81,7 @@
 		"tall"			"12"
 		"textinsetx"	"8"
 		"autoResize"	"1"
-		"pinCorner"		"0"	
+		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%discount%"
@@ -102,7 +102,7 @@
 		"tall"			"12"
 		"textinsetx"	"8"
 		"autoResize"	"1"
-		"pinCorner"		"0"	
+		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#Store_Price_New"

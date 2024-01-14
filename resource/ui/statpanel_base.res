@@ -89,7 +89,7 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"		"StatLabelLarge"
-		"font"			"HudFontMedium"
+		"font"			"HudFont24"
 		"xpos"			"82"
 		"xpos_lodef"	"110"
 		"ypos"			"78"

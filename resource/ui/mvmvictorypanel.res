@@ -129,7 +129,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"RatingTextShadow"
-				"font"			"HudFontGiantBold"
+				"font"			"HudFont24Bold"
 				"labelText"		"%ratingscore%"
 				"textAlignment" "center"
 				"xpos"			"1"
@@ -143,7 +143,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"RatingText"
-				"font"			"HudFontGiantBold"
+				"font"			"HudFont24Bold"
 				"labelText"		"%ratingscore%"
 				"textAlignment" "center"
 				"xpos"			"0"

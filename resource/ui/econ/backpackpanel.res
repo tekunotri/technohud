@@ -13,9 +13,9 @@
 		"enabled"									"1"
 		"settitlebarvisible"						"0"
 		"PaintBackgroundType"						"0"
-		"bgcolor_override"							"TanDarker"
-		"infocus_bgcolor_override"					"TanDarker"
-		"outoffocus_bgcolor_override"				"TanDarker"
+		"bgcolor_override"							"DarkGray"
+		"infocus_bgcolor_override"					"DarkGray"
+		"outoffocus_bgcolor_override"				"DarkGray"
 
 		"item_xpos_offcenter_a"						"-310"
 		"item_xpos_offcenter_b"						"165"
@@ -172,7 +172,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"<"
-		"font"										"Icons16"
+		"font"										"Symbols16"
 		"textAlignment"								"center"
 		"Command"									"prevpage"
 		"sound_depressed"							"UI/buttonclick.wav"
@@ -190,7 +190,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									">"
-		"font"										"Icons16"
+		"font"										"Symbols16"
 		"textAlignment"								"center"
 		"Command"									"nextpage"
 		"sound_depressed"							"UI/buttonclick.wav"
@@ -229,8 +229,8 @@
 		"use_proportional_insets"					"1"
 		"textAlignment"								"west"
 		"textinsetx"								"2"
-		"labeltext"									"q"
-		"font"										"Icons16"
+		"labeltext"									"S"
+		"font"										"Symbols16"
 		"fgcolor"									"White"
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"2"
@@ -501,7 +501,7 @@
 		"visible"									"0"
 		"enabled"									"1"
 		"labelText"									"#Cancel"
-		"font"										"HudFont14Bold"
+		"font"										"HudFontSmallBold"
 		"textAlignment"								"center"
 		"Command"									"canceltool"
 		"sound_depressed"							"UI/buttonclick.wav"
@@ -519,7 +519,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"?"
-		"font"										"HudFont14Bold"
+		"font"										"HudFontSmallBold"
 		"textAlignment"								"center"
 		"Command"									"show_explanations"
 		"sound_depressed"							"UI/buttonclick.wav"
@@ -552,7 +552,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TitleLabel"
-			"font"									"HudFont14Bold"
+			"font"									"HudFontSmallBold"
 			"labelText"								"#BackpackItemsExplanation_Title"
 			"textAlignment"							"north"
 			"xpos"									"20"
@@ -562,7 +562,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"wrap"									"1"
-			"fgcolor"								"TanDarker"
+			"fgcolor"								"DarkGray"
 		}
 		"TextLabel"
 		{
@@ -578,7 +578,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"wrap"									"1"
-			"fgcolor"								"TanDarker"
+			"fgcolor"								"DarkGray"
 		}
 		"CloseButton"
 		{
@@ -592,7 +592,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"labeltext"								""
-			"font"									"HudFont14Bold"
+			"font"									"HudFontSmallBold"
 			"textAlignment"							"center"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
@@ -600,9 +600,9 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override"				"TanDarker"
+			"defaultFgColor_override"				"DarkGray"
 			"armedFgColor_override"					"200 80 60 255"
-			"depressedFgColor_override"				"TanDarker"
+			"depressedFgColor_override"				"DarkGray"
 
 			"image_drawcolor"						"117 107 94 255"
 			"image_armedcolor"						"200 80 60 255"
@@ -626,7 +626,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"PositionLabel"
-			"font"									"HudFont14Bold"
+			"font"									"HudFontSmallBold"
 			"labelText"								"%explanationnumber%"
 			"textAlignment"							"center"
 			"xpos"									"0"
@@ -650,7 +650,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"labeltext"								""
-			"font"									"HudFont14Bold"
+			"font"									"HudFontSmallBold"
 			"textAlignment"							"center"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
@@ -658,9 +658,9 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override"				"TanDarker"
+			"defaultFgColor_override"				"DarkGray"
 			"armedFgColor_override"					"200 80 60 255"
-			"depressedFgColor_override"				"TanDarker"
+			"depressedFgColor_override"				"DarkGray"
 
 			"image_drawcolor"						"White"
 			"image_armedcolor"						"255 255 255 255"
@@ -708,7 +708,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TitleLabel"
-			"font"									"HudFont14Bold"
+			"font"									"HudFontSmallBold"
 			"labelText"								"#BackpackPagesExplanation_Title"
 			"textAlignment"							"north"
 			"xpos"									"20"
@@ -718,7 +718,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"wrap"									"1"
-			"fgcolor"								"TanDarker"
+			"fgcolor"								"DarkGray"
 		}
 		"TextLabel"
 		{
@@ -734,7 +734,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"wrap"									"1"
-			"fgcolor"								"TanDarker"
+			"fgcolor"								"DarkGray"
 		}
 		"CloseButton"
 		{
@@ -748,7 +748,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"labeltext"								""
-			"font"									"HudFont14Bold"
+			"font"									"HudFontSmallBold"
 			"textAlignment"							"center"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
@@ -756,9 +756,9 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override"				"TanDarker"
+			"defaultFgColor_override"				"DarkGray"
 			"armedFgColor_override"					"200 80 60 255"
-			"depressedFgColor_override"				"TanDarker"
+			"depressedFgColor_override"				"DarkGray"
 
 			"image_drawcolor"						"117 107 94 255"
 			"image_armedcolor"						"200 80 60 255"
@@ -790,7 +790,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"labeltext"								""
-			"font"									"HudFont14Bold"
+			"font"									"HudFontSmallBold"
 			"textAlignment"							"center"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
@@ -798,9 +798,9 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override"				"TanDarker"
+			"defaultFgColor_override"				"DarkGray"
 			"armedFgColor_override"					"200 80 60 255"
-			"depressedFgColor_override"				"TanDarker"
+			"depressedFgColor_override"				"DarkGray"
 
 			"image_drawcolor"						"White"
 			"image_armedcolor"						"255 255 255 255"
@@ -824,7 +824,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"PositionLabel"
-			"font"									"HudFont14Bold"
+			"font"									"HudFontSmallBold"
 			"labelText"								"%explanationnumber%"
 			"textAlignment"							"center"
 			"xpos"									"0"
@@ -848,7 +848,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"labeltext"								""
-			"font"									"HudFont14Bold"
+			"font"									"HudFontSmallBold"
 			"textAlignment"							"center"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
@@ -856,9 +856,9 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override"				"TanDarker"
+			"defaultFgColor_override"				"DarkGray"
 			"armedFgColor_override"					"200 80 60 255"
-			"depressedFgColor_override"				"TanDarker"
+			"depressedFgColor_override"				"DarkGray"
 
 			"image_drawcolor"						"White"
 			"image_armedcolor"						"255 255 255 255"
@@ -906,7 +906,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TitleLabel"
-			"font"									"HudFont14Bold"
+			"font"									"HudFontSmallBold"
 			"labelText"								"#BackpackContextExplanation_Title"
 			"textAlignment"							"north"
 			"xpos"									"20"
@@ -916,7 +916,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"wrap"									"1"
-			"fgcolor"								"TanDarker"
+			"fgcolor"								"DarkGray"
 		}
 		"TextLabel"
 		{
@@ -932,7 +932,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"wrap"									"1"
-			"fgcolor"								"TanDarker"
+			"fgcolor"								"DarkGray"
 		}
 		"CloseButton"
 		{
@@ -946,7 +946,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"labeltext"								""
-			"font"									"HudFont14Bold"
+			"font"									"HudFontSmallBold"
 			"textAlignment"							"center"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
@@ -954,9 +954,9 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override"				"TanDarker"
+			"defaultFgColor_override"				"DarkGray"
 			"armedFgColor_override"					"200 80 60 255"
-			"depressedFgColor_override"				"TanDarker"
+			"depressedFgColor_override"				"DarkGray"
 
 			"image_drawcolor"						"117 107 94 255"
 			"image_armedcolor"						"200 80 60 255"
@@ -988,7 +988,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"labeltext"								""
-			"font"									"HudFont14Bold"
+			"font"									"HudFontSmallBold"
 			"textAlignment"							"center"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
@@ -996,9 +996,9 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override"				"TanDarker"
+			"defaultFgColor_override"				"DarkGray"
 			"armedFgColor_override"					"200 80 60 255"
-			"depressedFgColor_override"				"TanDarker"
+			"depressedFgColor_override"				"DarkGray"
 
 			"image_drawcolor"						"White"
 			"image_armedcolor"						"255 255 255 255"
@@ -1030,7 +1030,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"labeltext"								""
-			"font"									"HudFont14Bold"
+			"font"									"HudFontSmallBold"
 			"textAlignment"							"center"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
@@ -1038,9 +1038,9 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override"				"TanDarker"
+			"defaultFgColor_override"				"DarkGray"
 			"armedFgColor_override"					"200 80 60 255"
-			"depressedFgColor_override"				"TanDarker"
+			"depressedFgColor_override"				"DarkGray"
 
 			"image_drawcolor"						"White"
 			"image_armedcolor"						"255 255 255 255"
@@ -1064,7 +1064,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"PositionLabel"
-			"font"									"HudFont14Bold"
+			"font"									"HudFontSmallBold"
 			"labelText"								"%explanationnumber%"
 			"textAlignment"							"center"
 			"xpos"									"0"
@@ -1104,7 +1104,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TitleLabel"
-			"font"									"HudFont14Bold"
+			"font"									"HudFontSmallBold"
 			"labelText"								"#BackpackStockExplanation_Title"
 			"textAlignment"							"north"
 			"xpos"									"20"
@@ -1114,7 +1114,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"wrap"									"1"
-			"fgcolor"								"TanDarker"
+			"fgcolor"								"DarkGray"
 		}
 		"TextLabel"
 		{
@@ -1130,7 +1130,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"wrap"									"1"
-			"fgcolor"								"TanDarker"
+			"fgcolor"								"DarkGray"
 		}
 		"CloseButton"
 		{
@@ -1144,7 +1144,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"labeltext"								""
-			"font"									"HudFont14Bold"
+			"font"									"HudFontSmallBold"
 			"textAlignment"							"center"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
@@ -1152,9 +1152,9 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override"				"TanDarker"
+			"defaultFgColor_override"				"DarkGray"
 			"armedFgColor_override"					"200 80 60 255"
-			"depressedFgColor_override"				"TanDarker"
+			"depressedFgColor_override"				"DarkGray"
 
 			"image_drawcolor"						"117 107 94 255"
 			"image_armedcolor"						"200 80 60 255"
@@ -1186,7 +1186,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"labeltext"								""
-			"font"									"HudFont14Bold"
+			"font"									"HudFontSmallBold"
 			"textAlignment"							"center"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
@@ -1194,9 +1194,9 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override"				"TanDarker"
+			"defaultFgColor_override"				"DarkGray"
 			"armedFgColor_override"					"200 80 60 255"
-			"depressedFgColor_override"				"TanDarker"
+			"depressedFgColor_override"				"DarkGray"
 
 			"image_drawcolor"						"White"
 			"image_armedcolor"						"255 255 255 255"
@@ -1228,7 +1228,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"labeltext"								""
-			"font"									"HudFont14Bold"
+			"font"									"HudFontSmallBold"
 			"textAlignment"							"center"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
@@ -1236,9 +1236,9 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override"				"TanDarker"
+			"defaultFgColor_override"				"DarkGray"
 			"armedFgColor_override"					"200 80 60 255"
-			"depressedFgColor_override"				"TanDarker"
+			"depressedFgColor_override"				"DarkGray"
 
 			"image_drawcolor"						"White"
 			"image_armedcolor"						"255 255 255 255"
@@ -1262,7 +1262,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"PositionLabel"
-			"font"									"HudFont14Bold"
+			"font"									"HudFontSmallBold"
 			"labelText"								"%explanationnumber%"
 			"textAlignment"							"center"
 			"xpos"									"0"
@@ -1301,7 +1301,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TitleLabel"
-			"font"									"HudFont14Bold"
+			"font"									"HudFontSmallBold"
 			"labelText"								"#BackpackSortExplanation_Title"
 			"textAlignment"							"north"
 			"xpos"									"20"
@@ -1311,7 +1311,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"wrap"									"1"
-			"fgcolor"								"TanDarker"
+			"fgcolor"								"DarkGray"
 		}
 		"TextLabel"
 		{
@@ -1327,7 +1327,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"wrap"									"1"
-			"fgcolor"								"TanDarker"
+			"fgcolor"								"DarkGray"
 		}
 		"CloseButton"
 		{
@@ -1341,7 +1341,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"labeltext"								""
-			"font"									"HudFont14Bold"
+			"font"									"HudFontSmallBold"
 			"textAlignment"							"center"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
@@ -1349,9 +1349,9 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override"				"TanDarker"
+			"defaultFgColor_override"				"DarkGray"
 			"armedFgColor_override"					"200 80 60 255"
-			"depressedFgColor_override"				"TanDarker"
+			"depressedFgColor_override"				"DarkGray"
 
 			"image_drawcolor"						"117 107 94 255"
 			"image_armedcolor"						"200 80 60 255"
@@ -1383,7 +1383,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"labeltext"								""
-			"font"									"HudFont14Bold"
+			"font"									"HudFontSmallBold"
 			"textAlignment"							"center"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
@@ -1391,9 +1391,9 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override"				"TanDarker"
+			"defaultFgColor_override"				"DarkGray"
 			"armedFgColor_override"					"200 80 60 255"
-			"depressedFgColor_override"				"TanDarker"
+			"depressedFgColor_override"				"DarkGray"
 
 			"image_drawcolor"						"White"
 			"image_armedcolor"						"255 255 255 255"
@@ -1417,7 +1417,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"PositionLabel"
-			"font"									"HudFont14Bold"
+			"font"									"HudFontSmallBold"
 			"labelText"								"%explanationnumber%"
 			"textAlignment"							"center"
 			"xpos"									"0"

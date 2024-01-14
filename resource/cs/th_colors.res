@@ -7,7 +7,10 @@ Scheme {
 		"THOverheal"		"99 232 167 255"
 		"THLow"				"232 99 99 255"
 		"DarkGray"			"44 44 44 255"
+		"DarkerGray"		"33 33 33 255"
+		"TransparentDarkerGray"		"33 33 33 200"
 		"Menu_Accent"		"44 44 44 255"
+
 
 		// base colors
 		"Orange"			"178 82 22 255"
@@ -88,7 +91,7 @@ Scheme {
 		"HudProgressBarActiveLow"	"240 30 30 255"
 		"HudProgressBarInActiveLow"	"240 30 30 99"
 
-		"HudTimerProgressActive"	"251 235 202 255"
+		"HudTimerProgressActive"	"236 236 236 236"
 		"HudTimerProgressInActive"	"52 48 45 255"
 		"HudTimerProgressWarning"	"240 30 30 255"
 

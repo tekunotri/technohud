@@ -91,7 +91,7 @@
 		"tall"			"50"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"loadout_header"
+		"image"			"replay/thumbnails/loadout_header"
 		"tileImage"		"1"
 	}
 	"HeaderLine"
@@ -105,7 +105,7 @@
 		"tall"			"10"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"loadout_solid_line"
+		"image"			"replay/thumbnails/loadout_solid_line"
 		"scaleImage"	"1"
 	}
 

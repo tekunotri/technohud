@@ -108,7 +108,7 @@
 		"textAlignment_minmode"			"west"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"HudFontMediumSmall"
+		"font"					"HudFont18"
 		"font_minmode"					"TFFontSmall"
 	}
 }

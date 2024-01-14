@@ -16,9 +16,9 @@
 		"tabPosition"		"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"46 43 42 255"
-		"infocus_bgcolor_override" "46 43 42 255"
-		"outoffocus_bgcolor_override" "46 43 42 255"
+		"bgcolor_override"	"DarkerGray"
+		"infocus_bgcolor_override" "DarkerGray"
+		"outoffocus_bgcolor_override" "DarkerGray"
 
 		"modelpanels_spacing"		"40"
 		"modelpanels_width"			"500"
@@ -343,7 +343,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor_override" "200 80 60 255"
-		"bgcolor_override"	"46 43 42 255"
+		"bgcolor_override"	"DarkerGray"
 	}
 
 	"ScoreEntry"

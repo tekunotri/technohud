@@ -1,6 +1,6 @@
 "Resource/UI/build_menu/HudMenuEngyDestroy.res"
 {
-	"MainBackground"	
+	"MainBackground"
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"MainBackground"
@@ -11,7 +11,7 @@
 		"tall"			"170"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"icon"			"hud_menu_bg"
 		"iconColor"		"255 255 255 255"
 	}
@@ -27,8 +27,8 @@
 		"tall"			"2"
 		"fillcolor"		"255 222 208 255"
 	}
-	
-	"DestroyIcon"	
+
+	"DestroyIcon"
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"DestroyIcon"
@@ -39,16 +39,16 @@
 		"tall"			"64"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"icon"			"ico_demolish"
 		"iconColor"		"255 255 255 255"
 	}
-	
+
 	"TitleLabelDropshadow"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabelDropshadow"
-		"font"			"HudFontGiantBold"
+		"font"			"HudFont24Bold"
 		"fgcolor"		"Black"
 		"xpos"			"32"			// align me to the left edge of the first selection
 		"ypos"			"7"
@@ -64,12 +64,12 @@
 		"dulltext"		"1"
 		"brighttext"	"0"
 	}
-	
+
 	"TitleLabel"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"HudFontGiantBold"
+		"font"			"HudFont24Bold"
 		"xpos"			"31"			// align me to the left edge of the first selection
 		"ypos"			"4"
 		"zpos"			"3"
@@ -84,9 +84,9 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}
-	
+
 	"CancelLabel"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CancelLabel"
 		"font"			"SpectatorKeyHints"
@@ -104,7 +104,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}
-	
+
 	"active_item_1"
 	{
 		"ControlName"	"CEngyDestroyMenuItem"
@@ -115,8 +115,8 @@
 		"wide"			"100"
 		"tall"			"124"
 		"visible"		"0"
-	}	
-	
+	}
+
 	"active_item_2"
 	{
 		"ControlName"	"CEngyDestroyMenuItem"
@@ -127,8 +127,8 @@
 		"wide"			"100"
 		"tall"			"124"
 		"visible"		"0"
-	}	
-	
+	}
+
 	"active_item_3"
 	{
 		"ControlName"	"CEngyDestroyMenuItem"
@@ -139,8 +139,8 @@
 		"wide"			"100"
 		"tall"			"124"
 		"visible"		"0"
-	}	
-	
+	}
+
 	"active_item_4"
 	{
 		"ControlName"	"CEngyDestroyMenuItem"
@@ -152,7 +152,7 @@
 		"tall"			"124"
 		"visible"		"0"
 	}
-	
+
 	"inactive_item_1"
 	{
 		"ControlName"	"CEngyDestroyMenuItem"
@@ -163,8 +163,8 @@
 		"wide"			"100"
 		"tall"			"124"
 		"visible"		"1"
-	}	
-	
+	}
+
 	"inactive_item_2"
 	{
 		"ControlName"	"CEngyDestroyMenuItem"
@@ -175,8 +175,8 @@
 		"wide"			"100"
 		"tall"			"124"
 		"visible"		"1"
-	}	
-	
+	}
+
 	"inactive_item_3"
 	{
 		"ControlName"	"CEngyDestroyMenuItem"
@@ -187,8 +187,8 @@
 		"wide"			"100"
 		"tall"			"124"
 		"visible"		"1"
-	}	
-	
+	}
+
 	"inactive_item_4"
 	{
 		"ControlName"	"CEngyDestroyMenuItem"
@@ -199,7 +199,7 @@
 		"wide"			"100"
 		"tall"			"124"
 		"visible"		"1"
-	}	
+	}
 
 	"unavailable_item_1"
 	{
@@ -211,8 +211,8 @@
 		"wide"			"100"
 		"tall"			"124"
 		"visible"		"1"
-	}	
-	
+	}
+
 	"unavailable_item_2"
 	{
 		"ControlName"	"CEngyDestroyMenuItem"
@@ -223,8 +223,8 @@
 		"wide"			"100"
 		"tall"			"124"
 		"visible"		"1"
-	}	
-	
+	}
+
 	"unavailable_item_3"
 	{
 		"ControlName"	"CEngyDestroyMenuItem"
@@ -235,8 +235,8 @@
 		"wide"			"100"
 		"tall"			"124"
 		"visible"		"1"
-	}	
-	
+	}
+
 	"unavailable_item_4"
 	{
 		"ControlName"	"CEngyDestroyMenuItem"

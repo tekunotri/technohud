@@ -100,7 +100,7 @@
 				"tall"			"5"
 				"visible"		"1"
 				"enabled"		"1"
-				"image"			"loadout_solid_line"
+				"image"			"replay/thumbnails/loadout_solid_line"
 				"tileImage"		"1"
 			}
 
@@ -161,7 +161,7 @@
 		"tall"			"55"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"loadout_header"
+		"image"			"replay/thumbnails/loadout_header"
 		"tileImage"		"1"
 	}
 	"BackgroundFooter"
@@ -175,7 +175,7 @@
 		"tall"			"60"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"loadout_bottom_gradient"
+		"image"			"replay/thumbnails/loadout_bottom_gradient"
 		"tileImage"		"1"
 	}
 	"FooterLine"
@@ -189,7 +189,7 @@
 		"tall"			"10"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"loadout_solid_line"
+		"image"			"replay/thumbnails/loadout_solid_line"
 		"scaleImage"	"1"
 	}
 
@@ -214,7 +214,7 @@
 			"tall"			"10"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"loadout_solid_line"
+			"image"			"replay/thumbnails/loadout_solid_line"
 			"scaleImage"	"1"
 		}
 
@@ -247,7 +247,7 @@
 			"tall"			"5"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"loadout_solid_line"
+			"image"			"replay/thumbnails/loadout_solid_line"
 			"tileImage"		"1"
 		}
 

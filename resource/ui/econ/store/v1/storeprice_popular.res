@@ -26,13 +26,13 @@
 		"tall"			"32"
 		"textinsetx"	"8"
 		"autoResize"	"1"
-		"pinCorner"		"0"	
+		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"%rank1%"
 		"paintbackground"	"0"
 	}
-	
+
 	"Rank2"
 	{
 		"ControlName"	"CExLabel"
@@ -46,13 +46,13 @@
 		"tall"			"18"
 		"textinsetx"	"8"
 		"autoResize"	"1"
-		"pinCorner"		"0"	
+		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"%rank2%"
 		"paintbackground"	"0"
 	}
-	
+
 	"Price"
 	{
 		"ControlName"	"CExLabel"
@@ -66,13 +66,13 @@
 		"tall"			"12"
 		"textinsetx"	"8"
 		"autoResize"	"1"
-		"pinCorner"		"0"	
+		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%price%"
 		"paintbackground"	"0"
 	}
-	
+
 	"OG_Price"
 	{
 		"ControlName"	"CExLabel"
@@ -86,13 +86,13 @@
 		"tall"			"12"
 		"textinsetx"	"4"
 		"autoResize"	"1"
-		"pinCorner"		"0"	
+		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%og_price%"
 		"fgcolor"		"117 107 94 255"
 	}
-	
+
 	"OG_Price_CrossOut"
 	{
 		"ControlName"	"ImagePanel"
@@ -104,10 +104,10 @@
 		"tall"			"5"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"loadout_solid_line"
+		"image"			"replay/thumbnails/loadout_solid_line"
 		"scaleImage"	"1"
 	}
-	
+
 	"Discount"
 	{
 		"ControlName"	"CExLabel"
@@ -121,7 +121,7 @@
 		"tall"			"12"
 		"textinsetx"	"8"
 		"autoResize"	"1"
-		"pinCorner"		"0"	
+		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		""
@@ -142,7 +142,7 @@
 		"tall"			"12"
 		"textinsetx"	"8"
 		"autoResize"	"1"
-		"pinCorner"		"0"	
+		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#Store_Price_New"

@@ -704,8 +704,8 @@
 				"textAlignment"	"west"
 				"labelText"		"%score%"
 				"font"			"HudFontMediumBold"
-				"font_hidef"	"HudFontGiant"
-				"font_lodef"	"HudFontGiant"
+				"font_hidef"	"HudFont24"
+				"font_lodef"	"HudFont24"
 				"fgcolor"		"TanLight"
 				"proportionalToParent"	"1"
 			}
@@ -724,8 +724,8 @@
 				"textAlignment"	"west"
 				"labelText"		"%score%"
 				"font"			"HudFontMediumBold"
-				"font_hidef"	"HudFontGiant"
-				"font_lodef"	"HudFontGiant"
+				"font_hidef"	"HudFont24"
+				"font_lodef"	"HudFont24"
 				"fgcolor"		"Black"
 				"proportionalToParent"	"1"
 			}
@@ -759,8 +759,8 @@
 				"textAlignment"	"east"
 				"labelText"		"%score%"
 				"font"			"HudFontMediumBold"
-				"font_hidef"	"HudFontGiant"
-				"font_lodef"	"HudFontGiant"
+				"font_hidef"	"HudFont24"
+				"font_lodef"	"HudFont24"
 				"fgcolor"		"TanLight"
 				"proportionalToParent"	"1"
 			}
@@ -779,8 +779,8 @@
 				"textAlignment"	"east"
 				"labelText"		"%score%"
 				"font"			"HudFontMediumBold"
-				"font_hidef"	"HudFontGiant"
-				"font_lodef"	"HudFontGiant"
+				"font_hidef"	"HudFont24"
+				"font_lodef"	"HudFont24"
 				"fgcolor"		"Black"
 				"proportionalToParent"	"1"
 			}

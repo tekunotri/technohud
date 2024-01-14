@@ -1,6 +1,6 @@
 "Resource/UI/build_menu/HudMenuEngyBuild.res"
 {
-	"MainBackground"	
+	"MainBackground"
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"MainBackground"
@@ -11,12 +11,12 @@
 		"tall"			"185"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"icon"			"hud_menu_bg"
 		"iconColor"		"255 255 255 255"
 	}
-	
-	"BuildIcon"	
+
+	"BuildIcon"
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"BuildIcon"
@@ -27,12 +27,12 @@
 		"tall"			"48"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"icon"			"ico_build"
 		"iconColor"		"255 255 255 255"
 	}
-	
-	"BuildIconShadow"	
+
+	"BuildIconShadow"
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"BuildIconShadow"
@@ -43,16 +43,16 @@
 		"tall"			"48"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"icon"			"ico_build"
 		"iconColor"		"0 0 0 255"
 	}
-	
+
 	"TitleLabel"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"HudFontGiantBold"
+		"font"			"HudFont24Bold"
 		"xpos"			"68"			// align me to the left edge of the first selection
 		"ypos"			"3"
 		"zpos"			"2"
@@ -67,12 +67,12 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}
-	
+
 	"TitleLabelDropshadow"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabelDropshadow"
-		"font"			"HudFontGiantBold"
+		"font"			"HudFont24Bold"
 		"fgcolor"		"Black"
 		"xpos"			"69"			// align me to the left edge of the first selection
 		"ypos"			"4"
@@ -88,7 +88,7 @@
 		"dulltext"		"1"
 		"brighttext"	"0"
 	}
-		
+
 	"active_item_1"
 	{
 		"ControlName"	"EditablePanel"
@@ -99,8 +99,8 @@
 		"wide"			"100"
 		"tall"			"124"
 		"visible"		"1"
-	}	
-	
+	}
+
 	"active_item_2"
 	{
 		"ControlName"	"EditablePanel"
@@ -111,8 +111,8 @@
 		"wide"			"100"
 		"tall"			"124"
 		"visible"		"1"
-	}	
-	
+	}
+
 	"active_item_3"
 	{
 		"ControlName"	"EditablePanel"
@@ -123,8 +123,8 @@
 		"wide"			"100"
 		"tall"			"124"
 		"visible"		"1"
-	}	
-	
+	}
+
 	"active_item_4"
 	{
 		"ControlName"	"EditablePanel"
@@ -136,7 +136,7 @@
 		"tall"			"124"
 		"visible"		"1"
 	}
-	
+
 	"already_built_item_1"
 	{
 		"ControlName"	"EditablePanel"
@@ -147,8 +147,8 @@
 		"wide"			"100"
 		"tall"			"124"
 		"visible"		"0"
-	}	
-	
+	}
+
 	"already_built_item_2"
 	{
 		"ControlName"	"EditablePanel"
@@ -159,8 +159,8 @@
 		"wide"			"100"
 		"tall"			"124"
 		"visible"		"0"
-	}	
-	
+	}
+
 	"already_built_item_3"
 	{
 		"ControlName"	"EditablePanel"
@@ -171,8 +171,8 @@
 		"wide"			"100"
 		"tall"			"124"
 		"visible"		"0"
-	}	
-	
+	}
+
 	"already_built_item_4"
 	{
 		"ControlName"	"EditablePanel"
@@ -184,7 +184,7 @@
 		"tall"			"124"
 		"visible"		"0"
 	}
-	
+
 	"cant_afford_item_1"
 	{
 		"ControlName"	"EditablePanel"
@@ -195,8 +195,8 @@
 		"wide"			"100"
 		"tall"			"124"
 		"visible"		"0"
-	}	
-	
+	}
+
 	"cant_afford_item_2"
 	{
 		"ControlName"	"EditablePanel"
@@ -207,8 +207,8 @@
 		"wide"			"100"
 		"tall"			"124"
 		"visible"		"0"
-	}	
-	
+	}
+
 	"cant_afford_item_3"
 	{
 		"ControlName"	"EditablePanel"
@@ -219,8 +219,8 @@
 		"wide"			"100"
 		"tall"			"124"
 		"visible"		"0"
-	}	
-	
+	}
+
 	"cant_afford_item_4"
 	{
 		"ControlName"	"EditablePanel"
@@ -231,8 +231,8 @@
 		"wide"			"100"
 		"tall"			"124"
 		"visible"		"0"
-	}	
-	
+	}
+
 	"active_selection_bg"
 	{
 		"ControlName"	"CIconPanel"
@@ -244,11 +244,11 @@
 		"tall"			"138"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"icon"			"hud_menu_item_bg_outline"
 		"iconColor"		"TanLight"
 	}
-	
+
 	"BuildHintIcon"
 	{
 		"ControlName"	"CExLabel"
@@ -268,7 +268,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}
-	
+
 	"BuildHintLabel_Bright"
 	{
 		"ControlName"	"CExLabel"
@@ -288,7 +288,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}
-	
+
 	"BuildHintLabel_Dim"
 	{
 		"ControlName"	"CExLabel"
@@ -309,7 +309,7 @@
 		"dulltext"		"1"
 		"brighttext"	"0"
 	}
-	
+
 	"DestroyHintIcon"
 	{
 		"ControlName"	"CExLabel"
@@ -329,7 +329,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}
-	
+
 	"DestroyHintLabel_Bright"
 	{
 		"ControlName"	"CExLabel"
@@ -349,7 +349,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}
-	
+
 	"DestroyHintLabel_Dim"
 	{
 		"ControlName"	"CExLabel"
@@ -370,7 +370,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}
-	
+
 	"CancelHintIcon"
 	{
 		"ControlName"	"CExLabel"
@@ -390,7 +390,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}
-	
+
 	"CancelHintLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -423,7 +423,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"	
+		"tabPosition"	"0"
 		"fillcolor"		"0 0 0 190"
 		"PaintBackgroundType"	"0"
 	}

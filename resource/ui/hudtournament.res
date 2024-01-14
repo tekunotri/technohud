@@ -993,7 +993,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"CountdownLabel"
-		"font"			"HudFontGiant"
+		"font"			"HudFont24"
 		"xpos"			"230"
 		"ypos"			"r55"
 		"wide"			"40"
@@ -1013,7 +1013,7 @@
 			"xpos"			"cs-0.5"
 			"ypos"			"cs-0.1"
 			"fgcolor"		"TanLight"
-			"font"			"HudFontGiant"
+			"font"			"HudFont24"
 		}
 
 		if_readymode
@@ -1027,7 +1027,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"CountdownLabelShadow"
-		"font"			"HudFontGiant"
+		"font"			"HudFont24"
 		"xpos"			"231"
 		"ypos"			"r54"
 		"wide"			"40"
@@ -1047,7 +1047,7 @@
 		{
 			"xpos"			"cs-0.48"
 			"ypos"			"cs-0.08"
-			"font"			"HudFontGiant"
+			"font"			"HudFont24"
 		}
 
 		if_readymode

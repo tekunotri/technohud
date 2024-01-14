@@ -12,13 +12,13 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/misc_ammo_area_blue"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"teambg_2"		"../hud/misc_ammo_area_red"
 		"teambg_2_lodef"	"../hud/misc_ammo_area_red_lodef"
 		"teambg_3"		"../hud/misc_ammo_area_blue"
-		"teambg_3_lodef"	"../hud/misc_ammo_area_blue_lodef"				
+		"teambg_3_lodef"	"../hud/misc_ammo_area_blue_lodef"
 	}
-	
+
 	"SoldierImage"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -31,7 +31,7 @@
 		"enabled"		"1"
 		"image"			"war_soldier_kills"
 		"scaleImage"	"1"
-	}	
+	}
 	"DemomanImage"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -44,8 +44,8 @@
 		"enabled"		"1"
 		"image"			"war_demo_kills"
 		"scaleImage"	"1"
-	}	
-	
+	}
+
 	"TitleLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -66,7 +66,7 @@
 		"brighttext"	"0"
 		"font"			"HudFontSmallestBold"
 	}
-	
+
 	"NumPipesLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -86,7 +86,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"HudFontMedium"
+		"font"			"HudFont24"
 		"font_lodef"	"HudFontMediumBig"
 	}
 	"NumPipesLabelDropshadow"
@@ -108,8 +108,8 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"HudFontMedium"
+		"font"			"HudFont24"
 		"font_lodef"	"HudFontMediumBig"
 		"fgcolor"		"black"
-	}		
+	}
 }

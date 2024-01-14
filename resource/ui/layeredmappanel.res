@@ -77,7 +77,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TourLabel"
-			"font"			"HudFontMediumSmall"
+			"font"			"HudFont18"
 			"labelText"		"Tour of Duty 1"
 			"textAlignment" "center"
 			"xpos"			"0"

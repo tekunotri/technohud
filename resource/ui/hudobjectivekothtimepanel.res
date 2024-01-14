@@ -27,7 +27,7 @@
 		"PositiveColor"			"0 255 0 255"
 		"NegativeColor"			"255 0 0 255"
 		"delta_lifetime"		"1.5"
-		"delta_item_font"		"HudFontMedium"
+		"delta_item_font"		"HudFont24Shadow"
 
 		if_match
 		{
@@ -42,16 +42,14 @@
 			"PositiveColor"			"0 255 0 255"
 			"NegativeColor"			"255 0 0 255"
 			"delta_lifetime"		"1.5"
-			"delta_item_font"		"HudFontMediumSmall"
+			"delta_item_font"		"HudFont18Shadow"
 		}
 
 		"TimePanelValue"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"HudFontMediumSmall"
-			"font_minmode"	"HudFont14"
-			"font_lodef"	"HudFontMedium"
+			"font"			"HudFont18Shadow"
 			"fgcolor"		"TanLight"
 			"xpos"			"23"
 			"xpos_minmode"	"39"
@@ -82,9 +80,9 @@
 				"tall"			"10"
 				"wide"			"35"
 				"wide_minmode"	"35"
-				"font"			"HudFont14"
-				"font_minmode"	"HudFont14"
-				"font_lodef"	"HudFont14"
+				"font"			"HudFont14Shadow"
+				"font_minmode"	"HudFont14Shadow"
+				"font_lodef"	"HudFont14Shadow"
 
 			}
 		}
@@ -109,7 +107,7 @@
 		"PositiveColor"			"0 255 0 255"
 		"NegativeColor"			"255 0 0 255"
 		"delta_lifetime"		"1.5"
-		"delta_item_font"		"HudFontMedium"
+		"delta_item_font"		"HudFont24Shadow"
 
 		if_match
 		{
@@ -124,16 +122,16 @@
 			"PositiveColor"			"0 255 0 255"
 			"NegativeColor"			"255 0 0 255"
 			"delta_lifetime"		"1.5"
-			"delta_item_font"		"HudFontMediumSmall"
+			"delta_item_font"		"HudFont18Shadow"
 		}
 
 		"TimePanelValue"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"HudFontMediumSmall"
-			"font_minmode"	"HudFont14"
-			"font_lodef"	"HudFontMedium"
+			"font"			"HudFont18Shadow"
+			"font_minmode"	"HudFont14Shadow"
+			"font_lodef"	"HudFont24Shadow"
 			"fgcolor"		"TanLight"
 			"xpos"			"23"
 			"xpos_minmode"	"39"
@@ -164,9 +162,9 @@
 				"wide"			"35"
 				"wide_minmode"	"35"
 				"tall"			"10"
-				"font"			"HudFont14"
-				"font_minmode"	"HudFont14"
-				"font_lodef"	"HudFont14"
+				"font"			"HudFont14Shadow"
+				"font_minmode"	"HudFont14Shadow"
+				"font_lodef"	"HudFont14Shadow"
 
 			}
 		}

@@ -1,6 +1,6 @@
 "Resource/UI/build_menu/HudMenuEurekaEffect.res"
 {
-	"MainBackground"	
+	"MainBackground"
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"MainBackground"
@@ -11,12 +11,12 @@
 		"tall"			"170"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"icon"			"hud_menu_bg"
 		"iconColor"		"255 255 255 255"
 	}
-	
-	"BuildIcon"	
+
+	"BuildIcon"
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"BuildIcon"
@@ -27,12 +27,12 @@
 		"tall"			"48"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"icon"			"ico_build"
 		"iconColor"		"255 255 255 255"
 	}
-	
-	"BuildIconShadow"	
+
+	"BuildIconShadow"
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"BuildIconShadow"
@@ -43,16 +43,16 @@
 		"tall"			"48"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"icon"			"ico_build"
 		"iconColor"		"0 0 0 255"
 	}
-	
+
 	"TitleLabel"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"HudFontGiant"
+		"font"			"HudFont24"
 		"xpos"			"68"			// align me to the left edge of the first selection
 		"ypos"			"8"
 		"zpos"			"2"
@@ -67,12 +67,12 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}
-	
+
 	"TitleLabelDropshadow"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabelDropshadow"
-		"font"			"HudFontGiant"
+		"font"			"HudFont24"
 		"fgcolor"		"Black"
 		"xpos"			"70"			// align me to the left edge of the first selection
 		"ypos"			"10"
@@ -88,9 +88,9 @@
 		"dulltext"		"1"
 		"brighttext"	"0"
 	}
-	
+
 	"CancelLabel"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CancelLabel"
 		"font"			"SpectatorKeyHints"
@@ -108,7 +108,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}
-	
+
 	"available_target_1"
 	{
 		"ControlName"	"EditablePanel"
@@ -119,8 +119,8 @@
 		"wide"			"100"
 		"tall"			"124"
 		"visible"		"1"
-	}	
-	
+	}
+
 	"available_target_2"
 	{
 		"ControlName"	"EditablePanel"
@@ -131,7 +131,7 @@
 		"wide"			"100"
 		"tall"			"124"
 		"visible"		"1"
-	}	
+	}
 
 	"unavailable_target_1"
 	{
@@ -143,8 +143,8 @@
 		"wide"			"100"
 		"tall"			"124"
 		"visible"		"0"
-	}	
-	
+	}
+
 	"unavailable_target_2"
 	{
 		"ControlName"	"EditablePanel"
@@ -155,5 +155,5 @@
 		"wide"			"100"
 		"tall"			"124"
 		"visible"		"0"
-	}	
+	}
 }

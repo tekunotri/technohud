@@ -14,7 +14,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 	}
-	
+
 	"Overlay"
 	{
 		"ControlName"	"RoundInfoOverlay"
@@ -27,9 +27,9 @@
 		"autoResize"	"1"
 		"pinCorner"		"0"
 		"visible"		"1"
-		"enabled"		"1"	
+		"enabled"		"1"
 	}
-	
+
 	"Title"
 	{
 		"ControlName"	"CExLabel"
@@ -50,7 +50,7 @@
 		"font"			"ChalkboardTitle"
 		"fgcolor"		"white"
 	}
-	
+
 	"Mapname"
 	{
 		"ControlName"	"CExLabel"
@@ -71,7 +71,7 @@
 		"font"			"ChalkboardTitle"
 		"fgcolor"		"white"
 	}
-	
+
 	"RoundContinue" [$WIN32]
 	{
 		"ControlName"	"CExButton"
@@ -98,7 +98,7 @@
 		"font"			"MenuSmallFont"
 		"fgcolor"		"Black"
 	}
-	
+
 	"MapImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -110,16 +110,16 @@
 		"tall"			"280"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
-	}	
-	
+		"scaleImage"	"1"
+	}
+
 	"MenuBG"
 	{
 		"ControlName"	"CModelPanel"
 		"fieldName"		"MenuBG"
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"0"		
+		"zpos"			"0"
 		"wide"			"f0"
 		"tall"			"480"
 		"autoResize"	"0"
@@ -127,7 +127,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fov"			"20"
-		
+
 		"model"
 		{
 			"modelname"	"models/vgui/UI_welcome01_screen.mdl"
@@ -141,7 +141,7 @@
 			"origin_y" "0"
 			"origin_z" "-39"
 		}
-	}					
+	}
 
 	"ShadedBar"
 	{
@@ -160,12 +160,12 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"	
-		"image"			"loadout_bottom_gradient"
+		"tabPosition"	"0"
+		"image"			"replay/thumbnails/loadout_bottom_gradient"
 		"tileImage"		"1"
 		"PaintBackgroundType"	"0"
-	}	
-	
+	}
+
 	"Footer" [$X360]
 	{
 		"ControlName"		"CTFFooter"
@@ -181,13 +181,13 @@
 		"buttonoffsety_lodef"		"18"
 		"fonttext"			"MatchmakingDialogMenuLarge"
 		"fonttext_lodef"			"MatchmakingDialogMenuSmall"
-		"fgcolor"			"HudOffWhite" 	
-		
+		"fgcolor"			"HudOffWhite"
+
 		"button"
 		{
 			"name"		"continue"
 			"text"		"#TF_Continue_360"
-			"icon"		"#GameUI_Icons_A_BUTTON"	
+			"icon"		"#GameUI_Icons_A_BUTTON"
 		}
-	}		
+	}
 }
