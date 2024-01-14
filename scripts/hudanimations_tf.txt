@@ -227,7 +227,9 @@ event HudHealthBonusPulse
 {
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.2
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.2 0.4
-	Animate PlayerStatusHealthValue	 		FgColor 	"THOverheal" Linear 0.0 0.0
+
+	Animate PlayerStatusHealthValue		FgColor		"THOverheal"	Linear 0.0	0.075
+	Animate PlayerStatusHealthValue		FgColor		"THOverheal2"	Linear 0.125	0.075
 
 	RunEvent HudHealthBonusPulseLoop	0.4
 }
@@ -256,7 +258,9 @@ event HudHealthDyingPulse
 {
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.075
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.125 0.075
-	Animate PlayerStatusHealthValue	 		FgColor 	"THLow" Linear 0.0 0.0
+
+	Animate PlayerStatusHealthValue		FgColor		"THLow"			Linear 0.0	0.075
+	Animate PlayerStatusHealthValue		FgColor		"THLow2"		Linear 0.125	0.075
 
 	RunEvent HudHealthDyingPulseLoop	0.25
 }
