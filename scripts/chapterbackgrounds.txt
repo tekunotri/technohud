@@ -1,12 +1,8 @@
 "chapters"
 {
-	1	"background_upward"
-	2	"background_gravelpit"
-	3	"serenity"
+	1	"grat"
 }
 "BackgroundMaps"
 {
-	1	"background_upward"
-	2	"background_gravelpit"
-	3	"serenity"
+	1	"grat"
 }
