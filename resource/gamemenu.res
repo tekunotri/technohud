@@ -3,8 +3,8 @@
 
 	"Version"
 	{
-		"label"										"technohud 0.3101"
-		"command"									"engine showconsole; clear; echo technohud (NNF) v0.3101; echo by techno, using some bits by various people.; echo github.com/TechnoSL/technohud"
+		"label"										"technohud 0.3102"
+		"command"									"engine showconsole; clear; echo technohud (NNF) v0.3102; echo by techno, using some bits by various people.; echo github.com/TechnoSL/technohud"
 		"OnlyAtMenu"								"0"
 	}
 	"Servers"

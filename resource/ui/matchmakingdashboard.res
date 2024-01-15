@@ -224,7 +224,7 @@
 				"tall"								"f-1"
 				"visible"							"1"
 				"proportionaltoparent"				"1"
-				"border"							"ReplayDefaultBorder"
+				"border"							"LoadoutItemPopupBorder"
 			}
 			"QueueLogoButton"
 			{
@@ -365,7 +365,7 @@
 				"tall"								"f-1"
 				"visible"							"1"
 				"proportionaltoparent"				"1"
-				"border"							"ReplayDefaultBorder"
+				"border"							"LoadoutItemPopupBorder"
 			}
 			"PromptText"
 			{

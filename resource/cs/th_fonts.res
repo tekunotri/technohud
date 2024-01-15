@@ -1470,56 +1470,7 @@ Scheme{
 				"antialias" "1"
 			}
 		}
-		"ScoreboardTeamScore"
-		{
-			"1"
-			{
-				"name"		"TF2"
-				"tall"		"52"
-				"tall_lodef"		"80"
-				"range" 	"0x0000 0x00FF"
-				"weight"	"400"
-				"yres"		"1 599"
-				"antialias" "1"
-			}
-			"2"
-			{
-				"name"		"TF2"
-				"tall"		"72"
-				"tall_hidef"	"120"
-				"range" 	"0x0000 0x00FF"
-				"weight"	"400"
-				"yres"		"600 767"
-				"antialias" "1"
-			}
-			"3"
-			{
-				"name"		"TF2"
-				"tall"		"100"
-				"range" 	"0x0000 0x00FF"
-				"weight"	"400"
-				"yres"		"768 1023"
-				"antialias" "1"
-			}
-			"4"
-			{
-				"name"		"TF2"
-				"tall"		"140"
-				"range" 	"0x0000 0x00FF"
-				"weight"	"400"
-				"yres"		"1024 1199"
-				"antialias" "1"
-			}
-			"5"
-			{
-				"name"		"TF2"
-				"tall"		"180"
-				"range" 	"0x0000 0x00FF"
-				"weight"	"400"
-				"yres"		"1200 10000"
-				"antialias" "1"
-			}
-		}
+
 
 		"ChatFont"
 		{

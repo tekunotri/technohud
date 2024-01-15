@@ -200,7 +200,7 @@
 		"xpos"					"cs-0.8"	[$WIN32]
 		"ypos"					"r150"	[$WIN32]
 		"wide"					"116"
-		"tall"  				"180"
+		"tall"  				"f0"
 		"visible" 				"1"
 		"enabled" 				"1"
 		"PaintBackgroundType"	"2"
@@ -870,8 +870,8 @@
 		"fieldName"				"WinPanel"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c-150"
-		"ypos"					"215"
+		"xpos"					"cs-0.5"
+		"ypos"					"275"
 		"wide"					"300"
 		"tall"					"300"
 		"zpos"					"4"

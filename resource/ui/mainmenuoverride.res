@@ -584,8 +584,8 @@
 		"textinsety"	"10"
 
 		"font"			"HudFont11Bold"
-		"fgcolor_override"	"TanLight"
-		"labelText"		"#TF_MM_NoGC_Rank"
+		"fgcolor_override"	"FullWhite"
+		"labelText"		"No Connection To Steam"
 		"textAlignment"	"north-west"
 		"use_proportional_insets"	"1"
 	}

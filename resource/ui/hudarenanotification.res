@@ -23,7 +23,7 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"		"WarningLabel"
-		"font"			"ScoreboardTeamScore"
+		"font"			"HudFont52Bold"
 		"xpos"			"40"
 		"ypos"			"40"
 		"zpos"			"1"
