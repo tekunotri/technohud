@@ -75,6 +75,7 @@
 				}
 			}
 		}
+// menu buttons
 	"MainMenuAnchor"
 	{
 		"ControlName"								"EditablePanel"
@@ -93,7 +94,7 @@
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"15"
-		"wide"										"150"
+		"wide"										"200"
 		"tall"										"14"
 		"visible"									"0"
 

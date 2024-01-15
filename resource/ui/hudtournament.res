@@ -916,7 +916,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TournamentReadyHintIcon"
-		"font"			"GameUIButtonsSteamControllerSmallest"
+		"font"			"SteamControllerSmallest"
 		"xpos"			"0"
 		"ypos"			"54"
 		"zpos"			"3"

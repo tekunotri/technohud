@@ -294,6 +294,40 @@ Scheme{
 				"dropshadow"	"1"
 			}
 		}
+		"HudFont15"
+		{
+			"1"
+			{
+			"name"			"Luxi Mono Regular"
+			"tall"			"15"
+			"additive"		"0"
+			"antialias" 	"1"
+			}
+		}
+		"HudFont15Bold"
+		{
+			"1"
+			{
+			"name"			"Luxi Mono Regular"
+			"tall"			"15"
+			"additive"		"0"
+			"weight"		"500"
+			"antialias" 	"1"
+			}
+		}
+		"HudFont15Shadow"
+		{
+			"1"
+			{
+			"name"		 	"Luxi Mono Regular"
+			"tall"		 	"15"
+			"additive"	 	"0"
+			"dropshadow" 	"1"
+			"antialias"  	"1"
+			}
+		}
+
+
 		"HudFont16"
 		{
 			"1"
@@ -390,7 +424,6 @@ Scheme{
 			"antialias" 	"1"
 			}
 		}
-
 		"HudFont24"
 		{
 			"1"
@@ -410,6 +443,38 @@ Scheme{
 			"weight"		"500"
 			"additive"		"0"
 			"antialias" 	"1"
+			}
+		}
+		"HudFont28"
+		{
+			"1"
+			{
+			"name"			"Luxi Mono Regular"
+			"tall"			"28"
+			"additive"		"0"
+			"antialias" 	"1"
+			}
+		}
+		"HudFont28Bold"
+		{
+			"1"
+			{
+			"name"			"Luxi Mono Regular"
+			"tall"			"28"
+			"weight"		"500"
+			"additive"		"0"
+			"antialias" 	"1"
+			}
+		}
+		"HudFont28Shadow"
+		{
+			"1"
+			{
+			"name"		 	"Luxi Mono Regular"
+			"tall"		 	"28"
+			"dropshadow" 	"1"
+			"additive"	 	"0"
+			"antialias"  	"1"
 			}
 		}
 		"HudFont24Shadow"
@@ -877,7 +942,6 @@ Scheme{
 				"additive"	"1"
 			}
 		}
-
 		"PlayerPanelPlayerName"
 		{
 			"1"
@@ -889,135 +953,6 @@ Scheme{
 				"antialias" "1"
 			}
 		}
-		HudHintText
-		{
-			"1"
-			{
-				"name"		"Verdana"
-				"tall"		"12"
-				"weight"	"700"
-				"yres"	"480 599"
-			}
-			"2"
-			{
-				"name"		"Verdana"
-				"tall"		"13"	[$WIN32]
-				"tall"		"23"	[$X360]
-				"weight"	"700"
-				"yres"	"600 767"
-			}
-			"3"
-			{
-				"name"		"Verdana"
-				"tall"		"14"
-				"weight"	"700"
-				"yres"	"768 1023"
-			}
-			"4"
-			{
-				"name"		"Verdana"
-				"tall"		"20"
-				"weight"	"700"
-				"yres"	"1024 1199"
-			}
-			"5"
-			{
-				"name"		"Verdana"
-				"tall"		"24"
-				"weight"	"700"
-				"yres"	"1200 10000"
-			}
-		}
-		"FontStorePriceSmall"
-		{
-			"1"
-			{
-				"name"		"TF2 Build"
-				"tall"		"6"
-				"weight"	"0"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		"FontStorePromotion"
-		{
-			"1"
-			{
-				"name"		"TF2 Secondary"
-				"tall"		"12"
-				"tall_hidef"	"14"
-				"tall_lodef"	"16"
-				"weight"	"400"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		"TextTooltipFont"
-		{
-			"1"
-			{
-				"name"		"TF2 Secondary"
-				"tall"		"11"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		GameUIButtons
-		{
-			"1"	//[$X360]
-			{
-				"bitmap"	"1"
-				"name"		"Buttons"
-				"scalex"	"0.5"
-				"scalex_lodef"		"0.75"
-				"scaley"	"0.5"
-				"scaley_lodef"		"0.75"
-			}
-		}
-		GameUIButtonsSmall
-		{
-			"1"	[$X360]
-			{
-				"bitmap"	"1"
-				"name"		"Buttons"
-				"scalex"	"0.5"
-				"scaley"	"0.5"
-			}
-		}
-		GameUIButtonsSmallest
-		{
-			"1"	[$X360]
-			{
-				"bitmap"	"1"
-				"name"		"Buttons"
-				"scalex"	"0.4"
-				"scaley"	"0.4"
-			}
-		}
-		GameUIButtonsSteamController
-		{
-			"1"
-			{
-				"bitmap"	"1"
-				"name"		"ButtonsSC"
-				"scalex"	"0.5"
-				"scalex_lodef"		"0.75"
-				"scaley"	"0.5"
-				"scaley_lodef"		"0.75"
-			}
-		}
-		GameUIButtonsSteamControllerSmall
-		{
-			"1"
-			{
-				"bitmap"	"1"
-				"name"		"ButtonsSC"
-				"scalex"	"0.25"
-				"scaley"	"0.25"
-			}
-		}
-
 		"SpectatorKeyHints"
 		{
 			"1"
@@ -1029,111 +964,7 @@ Scheme{
 				"antialias" "1"
 			}
 		}
-		"ClockSubText"
-		{
-			"1"
-			{
-				"name"		"Verdana"
-				"tall"		"9"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		"ClockSubTextSuddenDeath"
-		{
-			"1"
-			{
-				"name"		"Verdana"
-				"tall"		"8"
-				"tall_hidef"	"9"
-				"tall_lodef"	"10"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		"ClockSubTextTiny"
-		{
-			"1"
-			{
-				"name"		"Verdana"
-				"tall"		"8"
-				"tall_hidef"	"7"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		"HudSelectionText"
-		{
-			"1"
-			{
-				"name"		"TF2"
-				"tall"		"15"
-				"weight"	"700"
-				"antialias" 	"1"
-				"yres"		"1 599"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"additive"	"1"
-			}
-			"2"
-			{
-				"name"		"TF2"
-				"tall"		"15"	[$WIN32]
-				"tall"		"21"	[$X360]
-				"weight"	"700"
-				"antialias" 	"1"
-				"yres"		"600 767"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"additive"	"1"
-			}
-			"3"
-			{
-				"name"		"TF2"
-				"tall"		"18"
-				"weight"	"900"
-				"antialias" 	"1"
-				"yres"		"768 1023"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-			}
-			"4"
-			{
-				"name"		"TF2"
-				"tall"		"21"
-				"weight"	"900"
-				"antialias" 	"1"
-				"yres"		"1024 1199"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-			}
-			"5"
-			{
-				"name"		"TF2"
-				"tall"		"24"
-				"weight"	"1000"
-				"antialias" 	"1"
-				"yres"		"1200 10000"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-			}
-		}
-		DebugOverlay
-		{
-			"1"	[$WIN32]
-			{
-				"name"		"Courier New"
-				"tall"		"14"
-				"weight"	"400"
-				"outline"	"1"
-				"range"		"0x0000 0x017F" // Basic Latin, Latin-1 Supplement, Latin Extended-A
-			}
-			"1"	[$X360]
-			{
-				"name"		"Tahoma"
-				"tall"		"18"
-				"weight"	"200"
-				"outline"	"1"
-			}
-		}
+
 		TFTypeDeath
 		{
 			"1"
@@ -1143,50 +974,6 @@ Scheme{
 				"weight" 	"0"
 				"additive" 	"0"
 				"antialias" 	"1"
-			}
-		}
-
-		TFIcons
-		{
-			"1"
-			{
-				"name"  	"Team Fortress" // tf.ttf
-				"tall"  	"28"
-				"weight" 	"0"
-				"additive" 	"1"
-				"antialias" 	"1"
-			}
-		}
-		"BetaFont"
-		{
-			"1"
-			{
-				"name"		"Courier New"
-				"tall"		"90"
-				"weight"	"900"
-				"range"		"0x0000 0x007F"	//	Basic Latin
-				"antialias" "1"
-				"additive"	"0"
-			}
-		}
-
-		HudNumbers
-		{
-			"1"
-			{
-				"name"  "Team Fortress" // tf.ttf
-				"tall"  "28"
-				"weight" "0"
-				"additive" "1"
-				"antialias" "1"
-			}
-			"2"
-			{
-				"name"  "Verdana"
-				"tall"  "28"
-				"weight" "0"
-				"additive" "1"
-				"antialias" "1"
 			}
 		}
 		"CloseCaption_Normal"
@@ -1571,45 +1358,6 @@ Scheme{
 				"antialias"		"1"
 			}
 		}
-
-		MenuSmallFont
-		{
-			"1"
-			{
-				"name"		"TF2"
-				"tall"		"14"
-				"tall_lodef"	"18"
-				"range" 		"0x0000 0x00FF"
-				"weight"		"300"
-				"weight_lodef"	"600"
-				"antialias"		"1"
-			}
-		}
-		CapPlayerFont
-		{
-			"1"
-			{
-				"name"		"TF2"
-				"tall"		"12"
-				"weight"	"500"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"TextColor"	"Black"
-				"antialias" 	"1"
-			}
-		}
-		CapPlayerFontSmall
-		{
-			"1"
-			{
-				"name"		"TF2"
-				"tall"		"8"
-				"weight"	"500"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"TextColor"	"Black"
-				"antialias" 	"1"
-			}
-		}
-
 		TFFontSmall
 		{
 			"1"
@@ -1636,7 +1384,6 @@ Scheme{
 				"antialias" 	"1"
 			}
 		}
-
 		InstructionalText
 		{
 			"1"
@@ -1647,18 +1394,6 @@ Scheme{
 				"weight"	"800"
 				"additive"	"0"
 				"antialias" 	"1"
-			}
-		}
-
-		"TeamMenuBold"
-		{
-			"1"
-			{
-				"name"		"TF2 Build"
-				"tall"		"36"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
 			}
 		}
 		"TeamMenu"
@@ -1683,16 +1418,6 @@ Scheme{
 				"antialias" 	"1"
 			}
 		}
-		"AchievementNotification"
-		{
-			"1"
-			{
-				"name"		"Trebuchet MS"
-				"tall"		"14"
-				"weight"	"900"
-				"antialias" "1"
-			}
-		}
 		"ImportToolSmallestBold"
 		{
 			"1"
@@ -1713,17 +1438,6 @@ Scheme{
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" 	"1"
-			}
-		}
-		"SpectatorVerySmall"
-		{
-			"1"
-			{
-				"name"		"Verdana"
-				"tall"		"7"
-				"weight"	"400"
-				"additive"	"0"
-				"antialias" "1"
 			}
 		}
 		// Used by scoreboard and spectator UI for names which don't map in the normal fashion
@@ -1757,7 +1471,7 @@ Scheme{
 				"antialias"	"1"
 			}
 		}
-
+// loadout item names and stuff like that.
 		"ItemFontNameSmallest"
 		{
 			"1"

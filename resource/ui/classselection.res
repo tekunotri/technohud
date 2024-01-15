@@ -53,7 +53,7 @@
         "tabPosition"	"0"
 		"labelText"		"Class Select"
 		"textAlignment"	"center"
-		"font"			"HudFont10Shadow"
+		"font"			"HudFont11Shadow"
 		"fgcolor"		"FullWhite"
 
 	}
@@ -419,7 +419,7 @@
 		"labelText"		"Edit Loadout (&E)"
 		"textAlignment"	"center"
 		"Command"		"openloadout"
-		"font"			"HudFont10Shadow"
+		"font"			"HudFont8Shadow"
 
 		"keyboardinputenabled"	"0"
 		"Default"			"0"
@@ -441,7 +441,7 @@
 		"labelText"		"#TF_Cancel"
 		"textAlignment"	"center"
 		"command"		"vguicancel"
-		"font"			"HudFont10Shadow"
+		"font"			"HudFont8Shadow"
 
 		"keyboardinputenabled"	"0"
 		"Default"			"0"
@@ -465,7 +465,7 @@
 		"labelText"		"#TF_ClassMenu_Reset"
 		"textAlignment"	"center"
 		"Command"		"resetclass"
-		"font"			"MenuSmallFont"
+		"font"			"HudFont12Shadow"
 
 		"keyboardinputenabled"	"0"
 		"Default"			"0"
@@ -879,8 +879,8 @@
 		"labelText"		"%hint%"
 		"textAlignment"	"left"
 		"wrap"			"1"
-		"font"			"HudFont18"
-		"font_lodef"	"HudFont18"
+		"font"			"HudFont12"
+		"font_lodef"	"HudFont12"
 		"fgcolor"		"HudTrainingHint"
 		"fgcolor_lodef"	"HudTrainingHint"
 	}

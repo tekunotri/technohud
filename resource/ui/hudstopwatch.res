@@ -195,7 +195,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"StopWatchDescriptionLabel"
-		"font"			"ClockSubTextTiny"
+		"font"			"HudFont9Shadow"
 		"labelText"		"%descriptionlabel%"
 		"textAlignment"		"center"
 		"xpos"			"0"

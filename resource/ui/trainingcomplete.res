@@ -36,7 +36,7 @@
 			"brighttext"		"0"
 			"wrap"		"0"
 			"command"		"next"
-			"font"			"MenuSmallFont"
+			"font"			"HudFont14Shadow"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 		}
@@ -65,7 +65,7 @@
 			"brighttext"		"0"
 			"wrap"		"0"
 			"command"		"quit"
-			"font"			"MenuSmallFont"
+			"font"			"HudFont14Shadow"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 		}
@@ -91,7 +91,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"command"		"replay"
-			"font"			"MenuSmallFont"
+			"font"			"HudFont14Shadow"
 			"fgcolor"		"Black"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"

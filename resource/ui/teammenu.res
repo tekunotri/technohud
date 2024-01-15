@@ -407,7 +407,7 @@
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"CapPlayerFont"
+		"font"			"HudFont12"
 		"fgcolor"		"HudOffWhite"
 		"centerwrap"	"1"
 	}
@@ -429,7 +429,7 @@
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"CapPlayerFont"
+		"font"			"HudFont12"
 		"fgcolor"		"black"
 		"centerwrap"	"1"
 	}
@@ -452,7 +452,7 @@
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"CapPlayerFont"
+		"font"			"HudFont12"
 		"fgcolor"		"HudOffWhite"
 		"centerwrap"	"1"
 	}
@@ -474,7 +474,7 @@
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"CapPlayerFont"
+		"font"			"HudFont12"
 		"fgcolor"		"black"
 		"centerwrap"	"1"
 	}

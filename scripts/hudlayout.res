@@ -191,7 +191,7 @@
 		"BoxColor" "0 0 0 220"
 		"SelectedBoxClor" "0 0 0 220"
 		"SelectionNumberFg"	"200 187 161 255"
-		"NumberFont" "HudSelectionText"
+		"NumberFont" "HudFont15"
 	}
 
 	CHudAccountPanel

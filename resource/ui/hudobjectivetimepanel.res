@@ -206,7 +206,7 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"ClockSubTextSuddenDeath"
+		"font"			"HudFont14Shadow"
 		"font_hidef"	"HudFont14Shadow"
 		"font_lodef"	"HudFont14Shadow"
 

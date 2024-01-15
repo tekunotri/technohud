@@ -47,7 +47,7 @@
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"ChalkboardTitle"
+		"font"			"HudFont28"
 		"fgcolor"		"white"
 	}
 
@@ -68,7 +68,7 @@
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"ChalkboardTitle"
+		"font"			"HudFont28"
 		"fgcolor"		"white"
 	}
 
@@ -95,7 +95,7 @@
 		"brighttext"	"0"
 		"command"		"continue"
 		"default"		"1"
-		"font"			"MenuSmallFont"
+		"font"			"HudFont14Shadow"
 		"fgcolor"		"Black"
 	}
 

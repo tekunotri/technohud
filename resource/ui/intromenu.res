@@ -55,7 +55,7 @@
 		"brighttext"		"0"
 		"wrap"		"0"
 		"command"		"skip"
-		"font"			"MenuSmallFont"
+		"font"			"HudFont14Shadow"
 	}
 
 	"Continue" [$WIN32]
@@ -82,7 +82,7 @@
 		"brighttext"		"0"
 		"wrap"		"0"
 		"command"		"skip"
-		"font"			"MenuSmallFont"
+		"font"			"HudFont14Shadow"
 	}
 
 	"Back" [$WIN32]
@@ -106,7 +106,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"command"		"back"
-		"font"			"MenuSmallFont"
+		"font"			"HudFont14Shadow"
 		"fgcolor"		"Black"
 	}
 
@@ -131,7 +131,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"command"		"replayVideo"
-		"font"			"MenuSmallFont"
+		"font"			"HudFont14Shadow"
 		"fgcolor"		"Black"
 	}
 
