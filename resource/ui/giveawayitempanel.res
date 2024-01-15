@@ -33,7 +33,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"name_label"
-				"font"			"HudFontSmallest"
+				"font"			"HudFont11Bold"
 				"labelText"		"%playername%"
 				"textAlignment"	"west"
 				"xpos"			"10"
@@ -50,7 +50,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"score_label"
-				"font"			"HudFontSmallest"
+				"font"			"HudFont11Bold"
 				"labelText"		"%playerscore%"
 				"textAlignment"	"west"
 				"xpos"			"220"
@@ -69,7 +69,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"CaratLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"HudFont11Bold"
 		"labelText"		">>"
 		"textAlignment"	"west"
 		"xpos"			"c-300"
@@ -88,7 +88,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ClassLabel"
-		"font"			"HudFontMediumBold"
+		"font"			"HudFont24Bold"
 		"labelText"		"REWARD GIVEAWAY"
 		"textAlignment"	"west"
 		"xpos"			"c-280"

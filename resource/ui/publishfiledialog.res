@@ -83,7 +83,7 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"		"0"
-		"font"		"HudFontMediumBold"
+		"font"		"HudFont24Bold"
 	}
 
 	"LabelPreview"
@@ -141,7 +141,7 @@
 			"dulltext"		"0"
 			"brighttext"		"0"
 			"wrap"		"1"
-			"font"		"HudFontSmallest"
+			"font"		"HudFont11Bold"
 		}
 	}
 
@@ -424,7 +424,7 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"		"1"
-		"font"		"HudFontSmallest"
+		"font"		"HudFont11Bold"
 		"fgcolor_override"	"TanDark"
 	}
 

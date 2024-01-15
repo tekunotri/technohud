@@ -66,7 +66,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"HudFontMediumBold"
+		"font"			"HudFont24Bold"
 		"labelText"		"%title%"
 		"textAlignment"	"north"
 		"xpos"			"0"

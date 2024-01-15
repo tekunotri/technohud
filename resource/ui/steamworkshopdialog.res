@@ -101,7 +101,7 @@
 			{
 				"ControlName"		"CExLabel"
 				"fieldName"		"TitleLabel"
-				"font"			"HudFontMediumBold"
+				"font"			"HudFont24Bold"
 				"labelText"		"#TF_SteamWorkshop_Title"
 				"textAlignment"	"center"
 				"xpos"			"0"
@@ -181,7 +181,7 @@
 			{
 				"ControlName"		"CExLabel"
 				"fieldName"		"TitleLabel"
-				"font"			"HudFontMediumBold"
+				"font"			"HudFont24Bold"
 				"labelText"		"#TF_SteamWorkshop_YourItems"
 				"textAlignment"	"west"
 				"xpos"			"15"
@@ -583,7 +583,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"#TF_SteamWorkshop_BrowseTheWorkshop"
-			"font"			"HudFontSmallestBold"
+			"font"			"HudFont11Bold"
 			"textAlignment"	"center"
 			"Command"		"browse"
 			"sound_depressed"	"UI/buttonclick.wav"

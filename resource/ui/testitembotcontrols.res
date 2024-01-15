@@ -20,7 +20,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"HudFont11Bold"
 		"labelText"		"#IT_BotControl_Title"
 		"textAlignment"	"west"
 		"xpos"			"5"
@@ -38,7 +38,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BotAnimationTitle"
-		"font"			"HudFontSmallest"
+		"font"			"HudFont11Bold"
 		"labelText"		"#IT_BotAnim_Title"
 		"textAlignment"	"east"
 		"xpos"			"0"
@@ -55,7 +55,7 @@
 	{
 		"ControlName"		"ComboBox"
 		"fieldName"			"BotAnimationComboBox"
-		"Font"				"HudFontSmallest"
+		"Font"				"HudFont11Bold"
 		"xpos"				"95"
 		"ypos"				"20"
 		"zpos"				"1"
@@ -146,7 +146,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BotAnimationAnimTitle"
-		"font"			"HudFontSmallest"
+		"font"			"HudFont11Bold"
 		"labelText"		"#IT_BotAnimSpeed_Title"
 		"textAlignment"	"east"
 		"xpos"			"0"
@@ -238,7 +238,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"R"
-		"font"			"HudFontSmallestBold"
+		"font"			"HudFont11Bold"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
 		"dulltext"		"0"

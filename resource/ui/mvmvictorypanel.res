@@ -49,7 +49,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"HeaderShadow"
-				"font"			"HudFontMediumBold"
+				"font"			"HudFont24Bold"
 				"labelText"		"%headershadow%"
 				"textAlignment" "center"
 				"xpos"			"1"
@@ -63,7 +63,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"HeaderLabel"
-				"font"			"HudFontMediumBold"
+				"font"			"HudFont24Bold"
 				"labelText"		"%header%"
 				"textAlignment" "center"
 				"xpos"			"0"
@@ -78,7 +78,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CreditLabel"
-			"font"			"HudFontMediumBold"
+			"font"			"HudFont24Bold"
 			"labelText"		"#TF_PVE_Currency"
 			"textAlignment" "north-west"
 			"xpos"			"80"
@@ -115,7 +115,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"RatingLabel"
-				"font"			"HudFontMediumBold"
+				"font"			"HudFont24Bold"
 				"labelText"		"%ratinglabel%"
 				"textAlignment" "center"
 				"xpos"			"0"

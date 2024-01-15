@@ -1,23 +1,115 @@
 Scheme{
     BitmapFontFiles
-	    {
-		    // UI buttons, custom font, (256x64)
-		    "Buttons"		"materials/vgui/fonts/buttons_32.vbf"
-	    	"ButtonsSC"		"materials/vgui/fonts/buttons_sc.vbf"
-	    }
+		{
+		// UI buttons, custom font, (256x64), from default scheme
+		"Buttons"		"materials/vgui/fonts/buttons_32.vbf"
+		"ButtonsSC"		"materials/vgui/fonts/buttons_sc.vbf"
+		}
 
-
-	//
-	//////////////////////// FONTS /////////////////////////////
-	//
-	// describes all the fonts
 	Fonts
 	{
+		////////////////////////////////////////////////////////////////////////////////////////////////
 		// Naming Scheme: HudFont(Size)(Bold/Shadow)
-		//
-		//
+		////////////////////////////////////////////////////////////////////////////////////////////////
 
-
+		"HudFont6"
+		{
+			"1"
+			{
+			"name"		"Luxi Mono Regular"
+			"tall"		"6"
+			"weight"	"0"
+			"additive"	"0"
+			"antialias" "1"
+			}
+		}
+		"HudFont6Bold"
+		{
+			"1"
+			{
+			"name"		"Luxi Mono Regular"
+			"tall"		"6"
+			"weight"	"0"
+			"additive"	"0"
+			"antialias" "1"
+			"weight"	"500"
+			}
+		}
+		"HudFont6Shadow"
+		{
+			"1"
+			{
+			"name"		"Luxi Mono Regular"
+			"tall"		"6"
+			"weight"	"0"
+			"additive"	"0"
+			"antialias" "1"
+			}
+		}
+		"HudFont8"
+		{
+			"1"
+			{
+			"name"			"Luxi Mono Regular"
+			"tall"			"8"
+			"additive"		"0"
+			"antialias" 	"1"
+			}
+		}
+		"HudFont8Shadow"
+		{
+			"1"
+			{
+			"name"			"Luxi Mono Regular"
+			"tall"			"8"
+			"additive"		"0"
+			"antialias" 	"1"
+			"dropshadow"	"1"
+			}
+		}
+		"HudFont8Bold"
+		{
+			"1"
+			{
+			"name"			"Luxi Mono Regular"
+			"tall"			"8"
+			"additive"		"0"
+			"antialias" 	"1"
+			"weight"		"500"
+			}
+		}
+		"HudFont9"
+		{
+			"1"
+			{
+			"name"			"Luxi Mono Regular"
+			"tall"			"9"
+			"additive"		"0"
+			"antialias" 	"1"
+			}
+		}
+		"HudFont9Shadow"
+		{
+			"1"
+			{
+			"name"			"Luxi Mono Regular"
+			"tall"			"9"
+			"additive"		"0"
+			"antialias" 	"1"
+			"dropshadow"	"1"
+			}
+		}
+		"HudFont9Bold"
+		{
+			"1"
+			{
+			"name"			"Luxi Mono Regular"
+			"tall"			"9"
+			"additive"		"0"
+			"antialias" 	"1"
+			"weight"		"500"
+			}
+		}
 		"HudFont10"
 		{
 			"1"
@@ -50,7 +142,6 @@ Scheme{
 			"weight"		"500"
 			}
 		}
-
 		"HudFont11"
 		{
 			"1"
@@ -83,7 +174,18 @@ Scheme{
 			"weight"		"500"
 			}
 		}
-
+		"HudFont11BoldShadow" // like 1 thing uses this why is it so specific
+		{
+			"1"
+			{
+			"name"			"Luxi Mono Regular"
+			"tall"			"11"
+			"weight"		"500"
+			"additive"		"0"
+			"antialias" 	"1"
+			"dropshadow"	"1"
+			}
+		}
 		"HudFont12"
 		{
 			"1"
@@ -111,6 +213,38 @@ Scheme{
 			{
 			"name"			"Luxi Mono Regular"
 			"tall"			"12"
+			"additive"		"0"
+			"antialias" 	"1"
+			"weight"		"500"
+			}
+		}
+		"HudFont13"
+		{
+			"1"
+			{
+			"name"			"Luxi Mono Regular"
+			"tall"			"13"
+			"additive"		"0"
+			"antialias" 	"1"
+			}
+		}
+		"HudFont13Shadow"
+		{
+			"1"
+			{
+			"name"			"Luxi Mono Regular"
+			"tall"			"13"
+			"additive"		"0"
+			"antialias" 	"1"
+			"dropshadow"	"1"
+			}
+		}
+		"HudFont13Bold"
+		{
+			"1"
+			{
+			"name"			"Luxi Mono Regular"
+			"tall"			"13"
 			"additive"		"0"
 			"antialias" 	"1"
 			"weight"		"500"
@@ -146,6 +280,18 @@ Scheme{
 			"additive"		"0"
 			"weight"		"500"
 			"antialias" 	"1"
+			}
+		}
+		"HudFont14BoldShadow" // 1 more to the list of font declarations used in 1 single thing
+		{
+			"1"
+			{
+				"name"		"Luxi Mono Regular"
+				"tall"		"14"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+				"dropshadow"	"1"
 			}
 		}
 		"HudFont16"
@@ -277,6 +423,38 @@ Scheme{
 			"antialias"  	"1"
 			}
 		}
+		"HudFont30"
+		{
+			"1"
+			{
+			"name"			"Luxi Mono Regular"
+			"tall"			"30"
+			"additive"		"0"
+			"antialias" 	"1"
+			}
+		}
+		"HudFont30Bold"
+		{
+			"1"
+			{
+			"name"			"Luxi Mono Regular"
+			"tall"			"30"
+			"weight"		"500"
+			"additive"		"0"
+			"antialias" 	"1"
+			}
+		}
+		"HudFont30Shadow"
+		{
+			"1"
+			{
+			"name"		 	"Luxi Mono Regular"
+			"tall"		 	"30"
+			"dropshadow" 	"1"
+			"additive"	 	"0"
+			"antialias"  	"1"
+			}
+		}
 		"HudFont32"
 		{
 			"1"
@@ -373,7 +551,41 @@ Scheme{
 			"antialias" 	"1"
 			}
 		}
+		"HudFont52"
+		{
+			"1"
+			{
+			"name"			"Luxi Mono Regular"
+			"tall"			"52"
+			"additive"		"0"
+			"antialias" 	"1"
+			}
+		}
+		"HudFont52Bold"
+		{
+			"1"
+			{
+			"name"			"Luxi Mono Regular"
+			"tall"			"52"
+			"weight"		"500"
+			"additive"		"0"
+			"antialias" 	"1"
+			}
+		}
+		"HudFont52Shadow"
+		{
+			"1"
+			{
+			"name"			"Luxi Mono Regular"
+			"tall"			"52"
+			"dropshadow"	"1"
+			"additive"		"0"
+			"antialias" 	"1"
+			}
+		}
+		////////////////////////////////////////////////////////////////////////////////////////////////
 		// Other Fonts/icon fonts/whatever
+		////////////////////////////////////////////////////////////////////////////////////////////////
 		"Icons16"
 		{
 			"1"
@@ -401,7 +613,20 @@ Scheme{
 			"antialias" "1"
 			}
 		}
-		// default font declarations, temporary for now while i slowly replace all font declarations with my own.
+		"HudFontSmallestBold" // this is apparently hardcoded by the backpack 'sort-by' dropdown for some dumbass reason thank you valve
+		{
+			"1"
+			{
+				"name"		"Luxi Mono Regular"
+				"tall"		"11"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		////////////////////////////////////////////////////////////////////////////////////////////////
+		// default font declarations, temporary for now while i slowly replace all font declarations with my own. (mostly the tf2 fonts, verdana can stay)
+		////////////////////////////////////////////////////////////////////////////////////////////////
 		"Default"
 		{
 			"1"
@@ -462,8 +687,6 @@ Scheme{
 				"range" 		"0x0000 0x00FF"
 				"weight"		"800"
 			}
-
-
 		}
 		"DefaultUnderline"
 		{
@@ -536,8 +759,6 @@ Scheme{
 				"weight"		"0"
 			}
 		}
-
-
 		"DefaultVerySmall"
 		{
 			"1"
@@ -707,335 +928,6 @@ Scheme{
 				"yres"	"1200 10000"
 			}
 		}
-		"TF2HudFontGiant"
-		{
-			"1"
-			{
-				"name"		"TF2"
-				"tall"		"24"
-				"tall_lodef"	"80"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
-				"yres"		"480 599"
-			}
-			"2"
-			{
-				"name"		"TF2"
-				"tall"		"32"
-				"tall_hidef"	"120"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
-				"yres"		"600 767"
-			}
-			"3"
-			{
-				"name"		"TF2"
-				"tall"		"44"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
-				"yres"		"768 1023"
-			}
-			"4"
-			{
-				"name"		"TF2"
-				"tall"		"48"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
-				"yres"		"1024 1199"
-			}
-			"5"
-			{
-				"name"		"TF2"
-				"tall"		"52"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
-				"yres"		"1200 10000"
-			}
-		}
-		"HudFontGiantBold"
-		{
-			"1"
-			{
-				"name"		"TF2 Build"
-				"tall"		"44"
-				"tall_lodef"	"52"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-
-		"HudFontBiggerBold"
-		{
-			"1"
-			{
-				"name"		"TF2 Build"
-				"tall"		"35"
-				"tall_lodef"	"40"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-
-		"HudFontBig"
-		{
-			"1"
-			{
-				"name"		"TF2"
-				"tall"		"36"
-				"tall_hidef"	"48"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		"HudFontMediumBig"
-		{
-			"1"
-			{
-				"name"		"TF2"
-				"tall"		"30"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		"HudFontMediumBigBold"
-		{
-			"1"
-			{
-				"name"		"TF2 Build"
-				"tall"		"30"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		"HudFontMedium"
-		{
-			"1"
-			{
-				"name"		"TF2"
-				"tall"		"24"
-				"tall_lodef"		"28"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		"HudFontMediumSecondary"
-		{
-			"1"
-			{
-				"name"		"TF2 Secondary"
-				"tall"		"24"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		"HudFontMediumBold"
-		{
-			"1"
-			{
-				"name"		"TF2 Build"
-				"tall"		"24"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		"HudFontMediumSmallBold"
-		{
-			"1"
-			{
-				"name"		"TF2 Build"
-				"tall"		"18"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		"HudFont18"
-		{
-			"1"
-			{
-				"name"		"TF2"
-				"tall"		"18"
-				"tall_hidef"	"24"
-				"tall_lodef"	"18"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		"HudFontMediumSmallSecondary"
-		{
-			"1"
-			{
-				"name"		"TF2 Secondary"
-				"tall"		"18"
-				"tall_hidef"	"24"
-				"tall_lodef"	"20"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		"HudFontSmall"
-		{
-			"1"
-			{
-				"name"		"TF2 Secondary"
-				"tall"		"14"
-				"tall_lodef"	"16"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" 	"1"
-			}
-		}
-		"HudFontSmallishBold"
-		{
-			"1"
-			{
-				"name"		"TF2 Build"
-				"tall"		"16"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		"HudFontSmallBold"
-		{
-			"1"
-			{
-				"name"		"TF2 Build"
-				"tall"		"14"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		"HudFontSmallBoldShadow"
-		{
-			"1"
-			{
-				"name"		"TF2 Build"
-				"tall"		"14"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
-				"dropshadow"	"1"
-			}
-		}
-		"HudFontSmallest"
-		{
-			"1"
-			{
-				"name"		"TF2 Secondary"
-				"tall"		"11"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" 	"1"
-			}
-		}
-		"HudFontSmallestShadow"
-		{
-			"1"
-			{
-				"name"		"TF2 Secondary"
-				"tall"		"11"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" 	"1"
-				"dropshadow"	"1"
-			}
-		}
-		"HudFontSmallestBold"
-		{
-			"1"
-			{
-				"name"		"TF2 Build"
-				"tall"		"11"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		"PerformanceModeSmall"
-		{
-			"1"
-			{
-				"name"		"TF2 Build"
-				"tall"		"4"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		"StorePromotionsTitle"
-		{
-			"1"
-			{
-				"name"		"TF2 Build"
-				"tall"		"10"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		"FontCartPrice"
-		{
-			"1"
-			{
-				"name"		"TF2 Build"
-				"tall"		"16"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		"FontStorePrice"
-		{
-			"1"
-			{
-				"name"		"TF2 Build"
-				"tall"		"9"
-				"weight"	"0"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		"FontStoreOriginalPrice"
-		{
-			"1"
-			{
-				"name"		"TF2 Secondary"
-				"tall"		"9"
-				"weight"	"0"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-
-		"TargetData"
-		{
-			"1"
-			{
-				"name"		"TF2 Secondary"
-				"tall"		"9"
-				"weight"	"0"
-				"additive"	"0"
-				"antialias" "1"
-				"dropshadow" "1"
-			}
-		}
 		"FontStorePriceSmall"
 		{
 			"1"
@@ -1125,42 +1017,7 @@ Scheme{
 				"scaley"	"0.25"
 			}
 		}
-		GameUIButtonsSteamControllerSmallest
-		{
-			"1"
-			{
-				"bitmap"	"1"
-				"name"		"ButtonsSC"
-				"scalex"	"0.15"
-				"scaley"	"0.15"
-			}
-		}
-		"GameUIButtonText"
-		{
-			"1"
-			{
-				"name"		"TF2 Secondary"
-				"tall"		"18"
-				"tall_hidef"	"24"
-				"tall_lodef"	"18"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		"HudClassHealth"
-		{
-			"1"
-			{
-				"name"		"TF2"
-				"tall"		"16"
-				"tall_hidef"	"22"
-				"tall_lodef"	"22"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
+
 		"SpectatorKeyHints"
 		{
 			"1"
@@ -1292,7 +1149,7 @@ Scheme{
 		TFIcons
 		{
 			"1"
-			 {
+			{
 				"name"  	"Team Fortress" // tf.ttf
 				"tall"  	"28"
 				"weight" 	"0"
@@ -1472,34 +1329,6 @@ Scheme{
 				"weight"		"500"
 				"weight_lodef"	"800"
 				"weight_hidef"	"1000"
-			}
-		}
-		"ChalkboardTitleBig"
-		{
-			"1"
-			{
-				"name"			"TF2 Professor"
-				"tall"			"40"
-				"tall_lodef"	"48"
-				"tall_hidef"	"48"
-				"antialias"		"1"
-				"custom"		"1" [$OSX]
-				"weight"		"500"
-				"weight_lodef"	"800"
-				"weight_hidef"	"1000"
-			}
-		}
-		"ChalkboardTitleMedium"
-		{
-			"1"
-			{
-				"name"		"TF2 Professor"
-				"tall"		"24"
-				"tall_lodef"	"36"
-				"tall_hidef"	"36"
-				"antialias" "1"
-				"custom"		"1" [$OSX]
-				"weight"	"500"
 			}
 		}
 		"ChalkboardText"
@@ -1691,131 +1520,7 @@ Scheme{
 				"antialias" "1"
 			}
 		}
-		"MatchSummaryTeamScores"
-		{
-			"1"
-			{
-				"name"		"TF2"
-				"tall"		"36"
-				"weight"	"500"
-				"range"		"0x0000 0x007F"	//	Basic Latin
-				"antialias" "1"
-				"additive"	"0"
-			}
-		}
-		"MatchSummaryStatsAndMedals"
-		{
-			"1"
-			{
-				"name"		"TF2 Secondary"
-				"tall"		"14"
-				"weight"	"400"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		"MatchSummaryWinner"
-		{
-			"1"
-			{
-				"name"		"TF2 Secondary"
-				"tall"		"20"
-				"weight"	"400"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		"CompMatchStartTeamNames"
-		{
-			"1"
-			{
-				"name"		"TF2 Secondary"
-				"tall"		"14"
-				"weight"	"400"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		"ControlPointTimer"
-		{
-			"1"
-			{
-				"name"		"TF2 Secondary"
-				"tall"		"10"
-				"weight"	"400"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		"ControlPointTimerSmaller"
-		{
-			"1"
-			{
-				"name"		"TF2 Secondary"
-				"tall"		"7"
-				"weight"	"400"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
 
-		"Link"
-		{
-			"1"
-			{
-				"name"		"TF2 Secondary"
-				"tall"		"10"
-				"tall_hidef"	"12"
-				"tall_lodef"	"14"
-				"weight"	"400"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-
-		"TargetID"
-		{
-			"1"
-			{
-				"name"		"Verdana"
-				"tall"		"12"
-				"weight"	"700"
-				"yres"		"480 599"
-				"dropshadow"	"0"
-			}
-			"2"
-			{
-				"name"		"Verdana"
-				"tall"		"13"
-				"weight"	"700"
-				"yres"		"600 767"
-				"dropshadow"	"0"
-			}
-			"3"
-			{
-				"name"		"Verdana"
-				"tall"		"14"
-				"weight"	"700"
-				"yres"		"768 1023"
-				"dropshadow"	"0"
-			}
-			"4"
-			{
-				"name"		"Verdana"
-				"tall"		"20"
-				"weight"	"700"
-				"yres"		"1024 1199"
-				"dropshadow"	"0"
-			}
-			"5"
-			{
-				"name"		"Verdana"
-				"tall"		"24"
-				"weight"	"700"
-				"yres"		"1200 10000"
-				"dropshadow"	"0"
-			}
-		}
 		"ChatFont"
 		{
 			"1"
@@ -1991,102 +1696,6 @@ Scheme{
 				"weight"	"800"
 				"additive"	"0"
 				"antialias" 	"1"
-			}
-		}
-
-		MatchmakingDialogTitle
-		{
-			"1"
-			{
-				"name"		"TF2 Build"
-				"tall"		"36"
-				"tall_lodef"		"28"
-				"weight"	"500"
-			}
-		}
-		MatchmakingDialogSessionOptionsTitle
-		{
-			"1"
-			{
-				"name"		"TF2 Build"
-				"tall"		"30"
-				"tall_lodef"		"22"
-				"weight"	"500"
-			}
-		}
-		MatchmakingDialogMenuLarge
-		{
-			"1"
-			{
-				"name"		"TF2 Secondary"
-				"tall"		"28"
-				"tall_lodef"	"24"
-				"weight"	"500"
-			}
-		}
-		MatchmakingDialogMenuBrowserHostname
-		{
-			"1"			// brower item hostname
-			{
-				"name"		"Trebuchet MS"
-				"tall"		"22"
-				"weight"	"900"
-			}
-		}
-		MatchmakingDialogMenuBrowserDetails
-		{
-			"1"			// browser item players and map name
-			{
-				"name"		"Trebuchet MS"
-				"tall"		"18"
-				"weight"	"900"
-			}
-		}
-		MatchmakingDialogMenuMedium
-		{
-			"1"
-			{
-				"name"		"TF2 Secondary"
-				"tall"		"22"
-				"weight"	"500"
-			}
-		}
-		MatchmakingDialogMenuMediumSmall
-		{
-			"1"
-			{
-				"name"		"TF2 Secondary"
-				"tall"		"18"
-				"weight"	"500"
-			}
-		}
-		MatchmakingDialogMenuSmall
-		{
-			"1"
-			{
-				"name"		"Verdana"
-				"tall"		"22"
-				"tall_lodef"		"18"
-				"weight"	"900"
-			}
-		}
-		MatchmakingDialogMenuSmallest
-		{
-			"1"
-			{
-				"name"		"Verdana"
-				"tall"		"18"
-				"tall_lodef"		"18"
-				"weight"	"900"
-			}
-		}
-		RankingDialogHeaders
-		{
-			"1"
-			{
-				"name"		"Verdana"
-				"tall"		"15"
-				"weight"	"900"
 			}
 		}
 
@@ -2646,183 +2255,9 @@ Scheme{
 				"italic"	"1"
 			}
 		}
-
-		//
-		//////////////////// REPLAY FONTS //////////////////////////////
-		//
-		"ReplayVerySmall"
-		{
-			"1"
-			{
-				"name"		"Verdana"
-				"tall"		"12"
-				"weight"	"0"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"480 599"
-			}
-			"2"
-			{
-				"name"		"Verdana"
-				"tall"		"12"
-				"weight"	"0"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"600 767"
-			}
-			"3"
-			{
-				"name"		"Verdana"
-				"tall"		"12"
-				"weight"	"0"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"768 1023"
-				"antialias"	"1"
-			}
-			"4"
-			{
-				"name"		"Verdana"
-				"tall"		"14"
-				"weight"	"0"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"1024 1199"
-				"antialias"	"1"
-			}
-			"5"
-			{
-				"name"		"Verdana"
-				"tall"		"16"
-				"weight"	"0"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"1200 6000"
-				"antialias"	"1"
-			}
-		}
-		"ReplayBrowserSmallest"
-		{
-			"1"
-			{
-				"name"		"TF2 Secondary"
-				"tall"		"11"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" 	"1"
-			}
-		}
-		"ReplaySmaller"
-		{
-			"1"
-			{
-				"name"		"Verdana"
-				"tall"		"12"
-				"weight"	"0"
-				"range"		"0x0000 0x017F"
-				"yres"	"480 599"
-			}
-			"2"
-			{
-				"name"		"Verdana"
-				"tall"		"13"
-				"weight"	"0"
-				"range"		"0x0000 0x017F"
-				"yres"	"600 767"
-			}
-			"3"
-			{
-				"name"		"Verdana"
-				"tall"		"14"
-				"weight"	"0"
-				"range"		"0x0000 0x017F"
-				"yres"	"768 1023"
-				"antialias"	"1"
-			}
-			"4"
-			{
-				"name"		"Verdana"
-				"tall"		"20"
-				"weight"	"0"
-				"range"		"0x0000 0x017F"
-				"yres"	"1024 1199"
-				"antialias"	"1"
-			}
-			"5"
-			{
-				"name"		"Verdana"
-				"tall"		"22"
-				"weight"	"0"
-				"range"		"0x0000 0x017F"
-				"yres"	"1200 6000"
-				"antialias"	"1"
-			}
-			"6"
-			{
-				"name"		"Arial"
-				"tall"		"12"
-				"range" 		"0x0000 0x00FF"
-				"weight"		"0"
-			}
-		}
-		"ReplayMediumSmall"
-		{
-			"1"
-			{
-				"name"		"TF2 Build"
-				"tall"		"11"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		"ReplayMedium"
-		{
-			"1"
-			{
-				"name"		"TF2 Build"
-				"tall"		"14"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		"ReplayMediumBig"
-		{
-			"1"
-			{
-				"name"		"TF2"
-				"tall"		"18"
-				"tall_hidef"	"24"
-				"tall_lodef"	"18"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		"ReplayBrowserTab"
-		{
-			"1"
-			{
-				"name"		"TF2 Build"
-				"tall"		"24"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		"ReplayLarger"
-		{
-			"1"
-			{
-				"name"		"TF2 Secondary"
-				"tall"		"18"
-				"tall_hidef"	"24"
-				"tall_lodef"	"20"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-
-		//
+		//////////////////////////////////////////////////////////////
 		//////////////////// ECON FONTS //////////////////////////////
-		//
+		//////////////////////////////////////////////////////////////
 		"EconFontSmall"
 		{
 			"1"

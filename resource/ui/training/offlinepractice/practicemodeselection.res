@@ -85,7 +85,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"GameModeLabel"
-		"font"			"HudFontMediumSmallBold"
+		"font"			"HudFont18Bold"
 		"labelText"		"%gamemode%"
 		"textAlignment"	"center"
 		"xpos"			"60"
@@ -124,7 +124,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"DescLabel"
-		"font"			"HudFontSmallest"
+		"font"			"HudFont11Bold"
 		"labelText"		"%description%"
 		"textAlignment"	"center"
 		"xpos"			"60"

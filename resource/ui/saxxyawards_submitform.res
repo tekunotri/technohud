@@ -57,7 +57,7 @@
 		"tabPosition"	"0"
 		"fgcolor_override"		"0 0 0 255"
 		"bgcolor_override"		"202 190 164 255"
-		"Font"			"HudFontSmallestBold"
+		"Font"			"HudFont11Bold"
 
 		"selectallonfirstfocus"	"1"
 	}
@@ -83,7 +83,7 @@
 		"editable"		"0"
 		"fgcolor_override"		"0 0 0 255"
 		"bgcolor_override"		"202 190 164 255"
-		"Font"			"HudFontSmallestBold"
+		"Font"			"HudFont11Bold"
 	}
 
 	"CancelButton"

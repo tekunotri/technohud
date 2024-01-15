@@ -252,7 +252,7 @@
 				"enabled"			"1"
 				"HealthBonusPosAdj"	"10"
 				"HealthDeathWarning"		"0.49"
-				"TFFont"					"HudFontSmallest"
+				"TFFont"					"HudFont11Bold"
 				"HealthDeathWarningColor"	"HUDDeathWarning"
 				"TextColor"					"HudOffWhite"
 
@@ -552,7 +552,7 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"		"TournamentBLUELabel"
-		"font"			"HudFontSmallest"
+		"font"			"HudFont11Bold"
 		"xpos"			"12"
 		"ypos"			"24"
 		"zpos"			"1"
@@ -588,7 +588,7 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"		"TournamentBLUEStateLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"HudFont11Bold"
 		"xpos"			"56"
 		"ypos"			"24"
 		"zpos"			"1"
@@ -664,7 +664,7 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"		"TournamentREDLabel"
-		"font"			"HudFontSmallest"
+		"font"			"HudFont11Bold"
 		"xpos"			"175"
 		"ypos"			"24"
 		"zpos"			"1"
@@ -699,7 +699,7 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"		"TournamentREDStateLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"HudFont11Bold"
 		"xpos"			"130"
 		"ypos"			"24"
 		"zpos"			"1"
@@ -830,7 +830,7 @@
 
 		if_mvm
 		{
-			"font"			"HudFontSmallishBold"
+			"font"			"HudFont16Bold"
 			"xpos"			"155"
 			"ypos"			"105"
 			"wide"			"190"
@@ -840,7 +840,7 @@
 
 		if_competitive
 		{
-			"font"			"HudFontSmallishBold"
+			"font"			"HudFont16Bold"
 			"xpos"			"cs-0.5"
 			"ypos"			"110"
 			"wide"			"190"
@@ -850,7 +850,7 @@
 
 		if_readymode
 		{
-			"font"			"HudFontSmallishBold"
+			"font"			"HudFont16Bold"
 			"xpos"			"225"
 			"ypos"			"110"
 			"wide"			"190"
@@ -880,7 +880,7 @@
 
 		if_mvm
 		{
-			"font"			"HudFontSmallishBold"
+			"font"			"HudFont16Bold"
 			"xpos"			"156"
 			"ypos"			"106"
 			"wide"			"190"
@@ -891,7 +891,7 @@
 
 		if_competitive
 		{
-			"font"			"HudFontSmallishBold"
+			"font"			"HudFont16Bold"
 			"xpos"			"cs-0.5"
 			"ypos"			"111"
 			"wide"			"190"
@@ -902,7 +902,7 @@
 
 		if_readymode
 		{
-			"font"			"HudFontSmallishBold"
+			"font"			"HudFont16Bold"
 			"xpos"			"226"
 			"ypos"			"111"
 			"wide"			"190"

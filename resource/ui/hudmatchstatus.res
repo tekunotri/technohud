@@ -231,7 +231,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"RankUpLabel"
-		"font"			"HudFontMediumSmallBold"
+		"font"			"HudFont18Bold"
 		"xpos"			"cs-0.5"
 		"ypos"			"80"
 		"wide"			"600"
@@ -254,7 +254,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"RankUpShadowLabel"
-		"font"			"HudFontMediumSmallBold"
+		"font"			"HudFont18Bold"
 		"xpos"			"cs-0.5+2"
 		"ypos"			"80+2"
 		"wide"			"600"
@@ -495,7 +495,7 @@
 				"enabled"			"1"
 				"HealthBonusPosAdj"	"10"
 				"HealthDeathWarning"		"0.49"
-				"TFFont"					"HudFontSmallest"
+				"TFFont"					"HudFont11Bold"
 				"HealthDeathWarningColor"	"HUDDeathWarning"
 				"TextColor"					"HudOffWhite"
 			}
@@ -668,7 +668,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"BlueTeamLabel"
-			"font"			"CompMatchStartTeamNames"
+			"font"			"HudFont14Bold"
 			"labelText"		"%blueteamname%"
 			"textAlignment"		"center"
 			"xpos"			"48"
@@ -806,7 +806,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"RedTeamLabel"
-			"font"			"CompMatchStartTeamNames"
+			"font"			"HudFont14Bold"
 			"labelText"		"%redteamname%"
 			"textAlignment"		"center"
 			"xpos"			"5"

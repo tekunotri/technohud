@@ -35,7 +35,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Team0YourSide"
-			"font"			"HudFontSmallest"
+			"font"			"HudFont11Bold"
 			"labelText"		"#TF_War_YourSide"
 			"textAlignment"	"east"
 			"xpos"			"rp0.7+s-1-40"
@@ -121,7 +121,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Team1YourSide"
-			"font"			"HudFontSmallest"
+			"font"			"HudFont11Bold"
 			"labelText"		"#TF_War_YourSide"
 			"textAlignment"	"east"
 			"xpos"			"rp0.7+s-1-40"

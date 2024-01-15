@@ -20,7 +20,7 @@
 		"outoffocus_bgcolor_override"	"46 43 42 0"
 
 		"title"			"#StoreTitle"
-		"title_font"	"HudFontMediumBold"
+		"title_font"	"HudFont24Bold"
 		"titletextinsetX"	"40"
 		"titletextinsetY"	"0"
 		"titlebarfgcolor_override"				"200 187 161 255"
@@ -76,7 +76,7 @@
 			{
 				"ControlName"	"Label"
 				"fieldname"		"quantitylabel"
-				"font"			"HudFontSmallestBold"
+				"font"			"HudFont11Bold"
 				"textAlignment"	"north-east"
 				"xpos"			"70"
 				"ypos"			"45"
@@ -134,7 +134,7 @@
 			{
 				"ControlName"	"Label"
 				"fieldname"		"PriceLabel"
-				"font"			"FontCartPrice"
+				"font"			"HudFont16Bold"
 				"textAlignment"	"east"
 				"xpos"			"475"
 				"ypos"			"0"
@@ -153,7 +153,7 @@
 			{
 				"ControlName"	"Label"
 				"fieldname"		"PreviewItemLabel"
-				"font"			"HudFontSmallest"
+				"font"			"HudFont11Bold"
 				"textAlignment"	"center"
 				"xpos"			"110"
 				"ypos"			"36"
@@ -242,7 +242,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CartItemsLabel"
-			"font"			"HudFontMediumBold"
+			"font"			"HudFont24Bold"
 			"labelText"		"%storecart%"
 			"textAlignment"	"west"
 			"xpos"			"c-300"
@@ -391,7 +391,7 @@
 					{
 						"ControlName"	"CExLabel"
 						"fieldName"		"WashingtonStateSalesTaxLabel"
-						"font"			"HudFontSmallest"
+						"font"			"HudFont11Bold"
 						"labelText"		"#Store_WAStateSalesTax"
 						"textAlignment"	"north-east"
 						"xpos"			"0"
@@ -409,7 +409,7 @@
 					{
 						"ControlName"	"CExLabel"
 						"fieldName"		"TotalSubtextLabelB"
-						"font"			"HudFontSmallest"
+						"font"			"HudFont11Bold"
 						"labelText"		"#Store_TotalSubtextB"
 						"textAlignment"	"north-east"
 						"xpos"			"0"
@@ -428,7 +428,7 @@
 					{
 						"ControlName"	"Label"
 						"fieldname"		"TotalPriceLabel"
-						"font"			"FontCartPrice"
+						"font"			"HudFont16Bold"
 						"textAlignment"	"east"
 						"xpos"			"475"
 						"ypos"			"0"

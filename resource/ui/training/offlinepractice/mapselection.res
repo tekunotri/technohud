@@ -121,7 +121,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CurPageLabel"
-		"font"			"HudFontMediumSmallBold"
+		"font"			"HudFont18Bold"
 		"labelText"		"%curpage%"
 		"textAlignment"	"north"
 		"center"		"1"
@@ -176,7 +176,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"DifficultyLabel"
-		"font"			"HudFontSmallest"
+		"font"			"HudFont11Bold"
 		"labelText"		"#TF_Bot_Difficulty"
 		"textAlignment"	"east"
 		"xpos"			"0"
@@ -195,7 +195,7 @@
 	{
 		"ControlName"		"ComboBox"
 		"fieldName"			"DifficultyComboBox"
-		"Font"				"HudFontSmallestBold"
+		"Font"				"HudFont11Bold"
 		"xpos"				"200"
 		"ypos"				"200"
 		"zpos"				"1"
@@ -227,7 +227,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayersLabel"
-		"font"			"HudFontSmallest"
+		"font"			"HudFont11Bold"
 		"labelText"		"#IT_BotAddition_Title"
 		"textAlignment"	"east"
 		"xpos"			"0"
@@ -246,7 +246,7 @@
 	{
 		"ControlName"	"TextEntry"
 		"fieldName"		"NumPlayersTextEntry"
-		"font"			"HudFontSmallest"
+		"font"			"HudFont11Bold"
 		"textHidden"	"0"
 		"textAlignment"	"west"
 		"unicode"		"1"
@@ -273,7 +273,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SuggestedPlayerCountLabel"
-		"font"			"HudFontSmallest"
+		"font"			"HudFont11Bold"
 		"labelText"		""
 		"textAlignment"	"west"
 		"xpos"			"230"

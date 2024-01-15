@@ -70,7 +70,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"DistanceLabel"
-		"font"			"HudFontSmallest"
+		"font"			"HudFont11Bold"
 		"xpos"			"0"
 		"ypos"			"28"
 		"zpos"			"2"

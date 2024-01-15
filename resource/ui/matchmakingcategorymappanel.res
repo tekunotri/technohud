@@ -24,10 +24,10 @@
 		"proportionaltoparent"	"1"
 		"labeltext"		""
 		"textAlignment"	"west"
-		"font"			"HudFontSmallest"
+		"font"			"HudFont11Bold"
 		"smallcheckimage"	"1"
 
-		"sound_depressed"	"UI/buttonclickrelease.wav"	
+		"sound_depressed"	"UI/buttonclickrelease.wav"
 		"button_activation_type"	"1"
 	}
 
@@ -43,10 +43,10 @@
 		"proportionaltoparent"	"1"
 		"labeltext"		"%title_token%"
 		"textAlignment"	"west"
-		"font"			"HudFontSmallest"
+		"font"			"HudFont11Bold"
 		"textinsetx"	"20"
 		"use_proportional_insets"	"1"
-		
+
 		"mouseinputenabled"	"0"
 	}
 

@@ -31,7 +31,7 @@
 	{
 		"ControlName"	"CAutoFittingLabel"
 		"fieldName"		"Text"
-		
+
 
 		if_incoming
 		{
@@ -94,7 +94,7 @@
 			"visible"		"0"
 		}
 
-		
+
 		"proportionaltoparent"	"1"
 		"mouseinputenabled"	"0"
 		"alpha"			"200"
@@ -113,12 +113,12 @@
 		"wide"			"80"
 		"zpos"			"100"
 		"tall"			"15"
-				
+
 		"visible"		"1"
 
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"font"			"HudFontSmallestBold"
+		"font"			"HudFont11Bold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -140,7 +140,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"DeclineButton"
-		
+
 		if_incoming
 		{
 			"xpos"			"rs1-5"
@@ -152,12 +152,12 @@
 		"wide"			"60"
 		"zpos"			"100"
 		"tall"			"15"
-				
+
 		"visible"		"1"
 
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"font"			"HudFontSmallestBold"
+		"font"			"HudFont11Bold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"

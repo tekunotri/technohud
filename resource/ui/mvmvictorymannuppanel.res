@@ -289,7 +289,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"NoItemServer"
-				"font"			"HudFontMediumSmallBold"
+				"font"			"HudFont18Bold"
 				"labelText"		"#TF_PVE_Server_GCDownHeader"
 				"textAlignment" "center"
 				"xpos"			"0"

@@ -44,7 +44,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SubtitleLabel"
-		"font"			"Link"
+		"font"			"HudFont10Bold"
 		"labelText"		"#TF_Casual_Welcome_Subtitle"
 		"textAlignment"	"north"
 		"proportionalToParent"  "1"
@@ -64,7 +64,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SectionOneTitleLabel"
-		"font"			"HudFontSmallest"
+		"font"			"HudFont11Bold"
 		"labelText"		"#TF_Casual_Welcome_Section_One_Title"
 		"textAlignment"	"north"
 		"proportionalToParent"  "1"
@@ -85,7 +85,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SectionOneTextLabel"
-		"font"			"HudFontSmallest"
+		"font"			"HudFont11Bold"
 		"labelText"		"#TF_Casual_Welcome_Section_One_Text"
 		"textAlignment"	"north"
 		"proportionalToParent"  "1"
@@ -107,7 +107,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SectionThreeTitleLabel"
-		"font"			"HudFontSmallest"
+		"font"			"HudFont11Bold"
 		"labelText"		"#TF_Casual_Welcome_Section_Three_Title"
 		"textAlignment"	"north"
 		"proportionalToParent"  "1"
@@ -128,7 +128,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SectionThreeTextLabel"
-		"font"			"HudFontSmallest"
+		"font"			"HudFont11Bold"
 		"labelText"		"#TF_Casual_Welcome_Section_Three_Text"
 		"textAlignment"	"north"
 		"proportionalToParent"  "1"

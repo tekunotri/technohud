@@ -69,7 +69,7 @@
 	{
 		"ControlName"		"ComboBox"
 		"fieldName"			"ComboBox"
-		"Font"				"HudFontSmallest"
+		"Font"				"HudFont11Bold"
 		"xpos"				"30"
 		"ypos"				"170"
 		"zpos"				"1"

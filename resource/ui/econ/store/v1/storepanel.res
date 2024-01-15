@@ -20,7 +20,7 @@
 		"outoffocus_bgcolor_override"	"46 43 42 0"
 
 		"title"			"#StoreTitle"
-		"title_font"	"HudFontMediumBold"
+		"title_font"	"HudFont24Bold"
 		"titletextinsetX"	"40"
 		"titletextinsetY"	"0"
 		"titlebarfgcolor_override"				"200 187 161 255"

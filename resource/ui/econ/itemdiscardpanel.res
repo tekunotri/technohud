@@ -21,7 +21,7 @@
 		"outoffocus_bgcolor_override"	"46 43 42 255"
 
 		"title"			"#CharInfoAndSetup"
-		"title_font"	"HudFontMediumBold"
+		"title_font"	"HudFont24Bold"
 		"titletextinsetX"	"40"
 		"titletextinsetY"	"0"
 		"titlebarfgcolor_override"				"200 187 161 255"
@@ -99,7 +99,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CaratLabel2"
-		"font"			"HudFontSmallestBold"
+		"font"			"HudFont11Bold"
 		"labelText"		">>"
 		"textAlignment"	"west"
 		"xpos"			"c-105"
@@ -118,7 +118,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ExplanationLabel"
-		"font"			"HudFontSmallest"
+		"font"			"HudFont11Bold"
 		"labelText"		"#DiscardExplanation"
 		"textAlignment"	"north"
 		"xpos"			"c-280"
@@ -137,7 +137,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ExplanationLabel2"
-		"font"			"HudFontSmallest"
+		"font"			"HudFont11Bold"
 		"labelText"		"#DiscardExplanation2"
 		"textAlignment"	"north"
 		"xpos"			"c90"
@@ -174,7 +174,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"DiscardedLabel"
-		"font"			"HudFontMediumBold"
+		"font"			"HudFont24Bold"
 		"labelText"		"#Discarded"
 		"textAlignment"	"west"
 		"xpos"			"c115"

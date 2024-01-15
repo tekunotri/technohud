@@ -21,7 +21,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"HudFontMediumBold"
+		"font"			"HudFont24Bold"
 		"labelText"		"#ConfirmTitle"
 		"textAlignment"	"north"
 		"xpos"			"0"
@@ -125,7 +125,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"wrap"			"0"
-		"font"			"HudFontSmallest"
+		"font"			"HudFont11Bold"
 		"selected_fgcolor_override" "255 0 0 255"
 	}
 }

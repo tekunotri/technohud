@@ -107,7 +107,7 @@
 				"tall"			"20"
 				"visible"		"1"
 				"enabled"		"1"
-				"font"			"HudFontSmallestBold"
+				"font"			"HudFont11Bold"
 				//"fgcolor_override"	"89 81 71 255"
 				"textAlignment"	"west"
 				"labelText"		"MODE:"
@@ -118,7 +118,7 @@
 			{
 				"ControlName"		"ComboBox"
 				"fieldName"			"ModeComboBox"
-				"Font"				"HudFontSmallestBold"
+				"Font"				"HudFont11Bold"
 				"xpos"				"62"
 				"ypos"				"36"
 				"zpos"				"2"
@@ -213,7 +213,7 @@
 			{
 				"ControlName"		"CExLabel"
 				"fieldName"		"SearchActiveTitle"
-				"font"			"HudFontMediumBold"
+				"font"			"HudFont24Bold"
 				"labelText"		"#TF_Matchmaking_Searching"
 				"xpos"		"30"
 				"ypos"		"20"

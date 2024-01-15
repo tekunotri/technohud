@@ -24,7 +24,7 @@
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 		"RoundedCorners"	"0"
-		"font"			"HudFontSmallest"
+		"font"			"HudFont11Bold"
 		"keyboardinputenabled"	"0"
 		"mouseinputenabled"		"0"
 		"skip_autoresize"	"1"
@@ -32,7 +32,7 @@
 		"bgcolor_override"	"0 0 0 250"
 
 		"paintbackground"	"1"
-	
+
 		"ScrollBar"
 		{
 			"FieldName"		"ScrollBar"
@@ -48,14 +48,14 @@
 			{
 				"fgcolor_override"	"TanLight"
 			}
-		
+
 			"UpButton"
 			{
 				"ControlName"	"Button"
 				"FieldName"		"UpButton"
 				"visible"		"0"
 			}
-		
+
 			"DownButton"
 			{
 				"ControlName"	"Button"

@@ -1134,7 +1134,7 @@
 				"wrap"			"0"
 				"labelText"		"%playername%"
 				"textAlignment"	"east"
-				"font"			"HudFontSmallest"
+				"font"			"HudFont11Bold"
 			}
 			"Score"
 			{
@@ -1213,7 +1213,7 @@
 				"wrap"			"0"
 				"labelText"		"%playername%"
 				"textAlignment"	"west"
-				"font"			"HudFontSmallest"
+				"font"			"HudFont11Bold"
 			}
 			"Score"
 			{
@@ -1275,7 +1275,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"KDcolon"
-			"font"			"HudFontMediumBold"
+			"font"			"HudFont24Bold"
 			"labelText"		":"
 			"textAlignment"		"west"
 			"xpos"			"158"
@@ -1292,7 +1292,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"KDcolonShadow"
-			"font"			"HudFontMediumBold"
+			"font"			"HudFont24Bold"
 			"labelText"		":"
 			"fgcolor"	"black"
 			"textAlignment"		"west"
@@ -1378,7 +1378,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"KillsWhite"
-			"font"			"HudFontMediumBold"
+			"font"			"HudFont24Bold"
 			"labelText"		"%kills%"
 			"fgcolor" 	"white"
 			"textAlignment"		"east"
@@ -1396,7 +1396,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"KillsShadow"
-			"font"			"HudFontMediumBold"
+			"font"			"HudFont24Bold"
 			"labelText"		"%kills%"
 			"fgcolor" 	"black"
 			"textAlignment"		"east"
@@ -1414,7 +1414,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Deaths"
-			"font"			"HudFontMediumBold"
+			"font"			"HudFont24Bold"
 			"labelText"		"%deaths%"
 			"textAlignment"		"west"
 			"xpos"			"175"
@@ -1431,7 +1431,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"DeathsWhite"
-			"font"			"HudFontMediumBold"
+			"font"			"HudFont24Bold"
 			"labelText"		"%deaths%"
 			"textAlignment"		"west"
 			"fgcolor"	"white"
@@ -1449,7 +1449,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"DeathsShadow"
-			"font"			"HudFontMediumBold"
+			"font"			"HudFont24Bold"
 			"labelText"		"%deaths%"
 			"textAlignment"		"west"
 			"fgcolor"	"black"
@@ -1502,7 +1502,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"AssistsWhite"
-			"font"			"HudFontMediumBold"
+			"font"			"HudFont24Bold"
 			"labelText"		"%assists%"
 			"textAlignment"		"west"
 			"fgcolor"	"white"
@@ -1520,7 +1520,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"AssistsShadow"
-			"font"			"HudFontMediumBold"
+			"font"			"HudFont24Bold"
 			"labelText"		"%assists%"
 			"textAlignment"		"west"
 			"fgcolor"	"black"

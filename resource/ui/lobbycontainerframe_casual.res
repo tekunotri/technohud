@@ -1043,7 +1043,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TipLabel"
-			"font"			"HudFontSmallestBold"
+			"font"			"HudFont11Bold"
 			"labelText"		"%tiptext%"
 			"textAlignment"	"west"
 			"xpos"			"20"

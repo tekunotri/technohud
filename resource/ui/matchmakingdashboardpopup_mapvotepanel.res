@@ -9,7 +9,7 @@
 		"wide"			"40"
 		"tall"			"o0.75"
 		"zpos"			"1"
-		"proportionaltoparent"	"1"	
+		"proportionaltoparent"	"1"
 		"mouseinputenabled"	"0"
 
 		"MapImage"
@@ -22,7 +22,7 @@
 			"tall"			"o1"
 			"zpos"			"0"
 			"image"			"..\vgui\maps\menu_thumb_pl_goldrush"
-			"proportionaltoparent"	"1"	
+			"proportionaltoparent"	"1"
 			"mouseinputenabled"	"0"
 		}
 	}
@@ -41,7 +41,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"font"			"HudFontSmallestBold"
+		"font"			"HudFont11Bold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"

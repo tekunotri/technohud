@@ -32,7 +32,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"WaveFailHeaderShadow"
-		"font"			"HudFontMediumBold"
+		"font"			"HudFont24Bold"
 		"labelText"		"%waveheader%"
 		"textAlignment" "center"
 		"xpos"			"c-274"
@@ -46,7 +46,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"HeaderLabel"
-		"font"			"HudFontMediumBold"
+		"font"			"HudFont24Bold"
 		"labelText"		"%waveheader%"
 		"textAlignment" "center"
 		"xpos"			"c-275"
@@ -72,7 +72,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SummaryHeader"
-		"font"			"HudFontMediumSmallBold"
+		"font"			"HudFont18Bold"
 		"labelText"		"%summaryheader%"
 		"textAlignment" "west"
 		"xpos"			"c-250"
@@ -109,7 +109,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CollectedLabel"
-			"font"			"HudFontSmallest"
+			"font"			"HudFont11Bold"
 			"labelText"		"#TF_PVE_Collected"
 			"textAlignment" "west"
 			"xpos"			"0"
@@ -122,7 +122,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CollectedCount"
-			"font"			"HudFontSmallestBold"
+			"font"			"HudFont11Bold"
 			"labelText"		"%creditscollected%"
 			"textAlignment" "east"
 			"xpos"			"120"
@@ -135,7 +135,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"MissedLabel"
-			"font"			"HudFontSmallest"
+			"font"			"HudFont11Bold"
 			"labelText"		"#TF_PVE_Missed"
 			"textAlignment" "west"
 			"xpos"			"0"
@@ -148,7 +148,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"MissedCount"
-			"font"			"HudFontSmallestBold"
+			"font"			"HudFont11Bold"
 			"labelText"		"%creditsmissed%"
 			"textAlignment" "east"
 			"xpos"			"120"
@@ -161,7 +161,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"BonusLabel"
-			"font"			"HudFontSmallest"
+			"font"			"HudFont11Bold"
 			"labelText"		"#TF_PVE_Bonus"
 			"textAlignment" "west"
 			"xpos"			"0"
@@ -174,7 +174,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"BonusCount"
-			"font"			"HudFontSmallestBold"
+			"font"			"HudFont11Bold"
 			"labelText"		"%creditbonus%"
 			"textAlignment" "east"
 			"xpos"			"120"
@@ -237,7 +237,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"BuybackLabel"
-			"font"			"HudFontSmallest"
+			"font"			"HudFont11Bold"
 			"labelText"		"#TF_PVE_Buybacks"
 			"textAlignment" "west"
 			"xpos"			"0"
@@ -250,7 +250,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"BuybackCountYou"
-			"font"			"HudFontSmallestBold"
+			"font"			"HudFont11Bold"
 			"labelText"		"%buybacksyou%"
 			"textAlignment" "east"
 			"xpos"			"120"
@@ -263,7 +263,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"BuybackCountTeam"
-			"font"			"HudFontSmallestBold"
+			"font"			"HudFont11Bold"
 			"labelText"		"%buybacksteam%"
 			"textAlignment" "east"
 			"xpos"			"175"
@@ -276,7 +276,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"BottleLabel"
-			"font"			"HudFontSmallest"
+			"font"			"HudFont11Bold"
 			"labelText"		"#TF_PVE_Bottles"
 			"textAlignment" "west"
 			"xpos"			"0"
@@ -289,7 +289,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"BottleCountYou"
-			"font"			"HudFontSmallestBold"
+			"font"			"HudFont11Bold"
 			"labelText"		"%bottlesyou%"
 			"textAlignment" "east"
 			"xpos"			"120"
@@ -302,7 +302,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"BottleCountTeam"
-			"font"			"HudFontSmallestBold"
+			"font"			"HudFont11Bold"
 			"labelText"		"%bottlesteam%"
 			"textAlignment" "east"
 			"xpos"			"175"
@@ -315,7 +315,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"InactiveLabel"
-			"font"			"HudFontSmallest"
+			"font"			"HudFont11Bold"
 			"labelText"		"#TF_PVE_Inactive_Upgrades"
 			"textAlignment" "west"
 			"xpos"			"0"
@@ -328,7 +328,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"ActiveCountYou"
-			"font"			"HudFontSmallestBold"
+			"font"			"HudFont11Bold"
 			"labelText"		"%inactiveupgradesyou%"
 			"textAlignment" "east"
 			"xpos"			"120"
@@ -341,7 +341,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"ActiveCountTeam"
-			"font"			"HudFontSmallestBold"
+			"font"			"HudFont11Bold"
 			"labelText"		"%inactiveupgradesteam%"
 			"textAlignment" "east"
 			"xpos"			"175"
@@ -458,7 +458,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Hint1"
-			"font"			"HudFontSmallest"
+			"font"			"HudFont11Bold"
 			"labelText"		"%hint1%"
 			"textAlignment" "north-west"
 			"xpos"			"55"
@@ -487,7 +487,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Hint2"
-			"font"			"HudFontSmallest"
+			"font"			"HudFont11Bold"
 			"labelText"		"%hint2%"
 			"textAlignment" "north-west"
 			"xpos"			"305"

@@ -18,7 +18,7 @@
 		"paintbackground"		"1"
 		"paintborder"			"0"
 		"paintbackgroundtype"	"2"
-		
+
 		// Cover up top rounded corners
 		"BodyBgSquare"
 		{
@@ -35,8 +35,8 @@
 			"bgcolor_override"		"34 30 31 255"
 			"paintbackground"		"1"
 			"paintbackgroundtype"	"0"
-		}	
-		
+		}
+
 		// Bottom rounded corners
 		"BodyBg"
 		{
@@ -53,13 +53,13 @@
 			"bgcolor_override"		"34 30 31 255"
 			"paintbackground"		"1"
 			"paintbackgroundtype"	"2"
-		}	
-		
+		}
+
 		"HeaderText"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"HeaderText"
-			"font"			"HudFontSmallestBold"
+			"font"			"HudFont11Bold"
 			"labelText"		"#Store_FreeTrial_UpgradeCalloutHeader"
 			"textAlignment"	"west"
 			"xpos"			"10"
@@ -72,13 +72,13 @@
 			"enabled"		"1"
 			"wrap"			"1"
 		}
-		
+
 		"FreeTrialPoint1Dot"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"FreeTrialPoint1Dot"
 			"labelText"		">"
-			"font"			"HudFontSmallest"
+			"font"			"HudFont11Bold"
 			"xpos"			"15"
 			"ypos"			"45"
 			"zpos"			"2"
@@ -87,12 +87,12 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor"		"178 82 22 255"
-		}				
+		}
 		"FreeTrialPoint1"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"FreeTrialPoint1"
-			"font"			"HudFontSmallest"
+			"font"			"HudFont11Bold"
 			"labelText"		"#Store_FreeTrial_Point1"
 			"textAlignment"	"west"
 			"xpos"			"24"
@@ -111,7 +111,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"labelText"		">"
-			"font"			"HudFontSmallest"
+			"font"			"HudFont11Bold"
 			"fieldName"		"FreeTrialPoint2Dot"
 			"xpos"			"15"
 			"ypos"			"61"
@@ -121,12 +121,12 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor"		"178 82 22 255"
-		}				
+		}
 		"FreeTrialPoint2"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"FreeTrialPoint2"
-			"font"			"HudFontSmallest"
+			"font"			"HudFont11Bold"
 			"labelText"		"#Store_FreeTrial_Point2"
 			"textAlignment"	"west"
 			"xpos"			"24"
@@ -145,7 +145,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"labelText"		">"
-			"font"			"HudFontSmallest"
+			"font"			"HudFont11Bold"
 			"fieldName"		"FreeTrialPoint3Dot"
 			"xpos"			"15"
 			"ypos"			"77"
@@ -155,12 +155,12 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor"		"178 82 22 255"
-		}				
+		}
 		"FreeTrialPoint3"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"FreeTrialPoint3"
-			"font"			"HudFontSmallest"
+			"font"			"HudFont11Bold"
 			"labelText"		"#Store_FreeTrial_Point4"
 			"textAlignment"	"west"
 			"xpos"			"24"
@@ -179,7 +179,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"labelText"		">"
-			"font"			"HudFontSmallest"
+			"font"			"HudFont11Bold"
 			"fieldName"		"FreeTrialPoint4Dot"
 			"xpos"			"15"
 			"ypos"			"93"
@@ -189,12 +189,12 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor"		"178 82 22 255"
-		}				
+		}
 		"FreeTrialPoint4"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"FreeTrialPoint4"
-			"font"			"HudFontSmallest"
+			"font"			"HudFont11Bold"
 			"labelText"		"#Store_FreeTrial_Point3"
 			"textAlignment"	"north-west"
 			"xpos"			"24"
@@ -209,12 +209,12 @@
 			"wrap"			"1"
 			"fgcolor"		"180 168 145 255"
 		}
-	
+
 		"PlusLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"PlusLabel"
-			"font"			"HudFontSmallest"
+			"font"			"HudFont11Bold"
 			"labelText"		"#Store_FreeTrial_Plus"
 			"textAlignment"	"north-west"
 			"xpos"			"55"
@@ -228,12 +228,12 @@
 			"enabled"		"1"
 			"fgcolor"		"178 82 22 255"
 		}
-		
+
 		"Plus2Label"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Plus2Label"
-			"font"			"HudFontSmallest"
+			"font"			"HudFont11Bold"
 			"labelText"		"#Store_Promotion_FirstPurchaseGift2"
 			"textAlignment"	"north-west"
 			"xpos"			"55"
@@ -249,7 +249,7 @@
 			"fgcolor"		"180 168 145 255"
 		}
 	}
-		
+
 	"FeaturedItemSymbol"
 	{
 		"ControlName"	"ImagePanel"
@@ -264,7 +264,7 @@
 		"image"			"store/store_starburst"
 		"scaleImage"	"1"
 	}
-	
+
 	"PromotionImage_Hat"
 	{
 		"ControlName"	"ImagePanel"

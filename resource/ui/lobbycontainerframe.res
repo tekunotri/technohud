@@ -20,7 +20,7 @@
 		"outoffocus_bgcolor_override"	"46 43 42 0"
 
 		"title"			"#CharInfoAndSetup"
-		"title_font"	"HudFontMediumBold"
+		"title_font"	"HudFont24Bold"
 		"titletextinsetX"	"40"
 		"titletextinsetY"	"0"
 		"titlebarfgcolor_override"				"200 187 161 255"
@@ -104,7 +104,7 @@
 		"tabskv"
 		{
 			"textinsetx"		"40"
-			"font"				"HudFontMediumBold"
+			"font"				"HudFont24Bold"
 			"selectedcolor"		"200 187 161 255"
 			"unselectedcolor"	"130 120 104 255"
 			"defaultBgColor_override"	"46 43 42 255"
@@ -215,7 +215,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"MatchmakingBanDurationLabel"
-			"font"			"HudFontSmallest"
+			"font"			"HudFont11Bold"
 			"fgcolor_override"	"RedSolid"
 			"labelText"		"#TF_Matchmaking_Ban_Duration_Remaining"
 			"textalignment"	"center"

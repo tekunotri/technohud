@@ -241,6 +241,47 @@
 			"depressedFgColor_override"				"DarkGray"
 		}
 	}
+	"Disconnect"
+	{
+		"ControlName"								"EditablePanel"
+		"fieldname"									"Disconnect"
+		"xpos"										"0"
+		"ypos"										"3"
+		"zpos"										"15"
+		"wide"										"150"
+		"tall"										"17"
+		"visible"									"0"
+
+		"pin_to_sibling"							"Store"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
+
+		"SubButton"
+		{
+			"ControlName"							"CExImageButton"
+			"fieldName"								"SubButton"
+			"xpos"									"0"
+			"ypos"									"0"
+			"wide"									"f0"
+			"tall"									"f0"
+			"visible"								"1"
+			"enabled"								"1"
+			"proportionaltoparent"					"1"
+			"font"									"HudFont16Shadow"
+			"AllCaps"								"1"
+			"textAlignment"							"west"
+			"sound_depressed"						"UI/buttonclick.wav"
+			"sound_released"						"UI/buttonclickrelease.wav"
+
+			"paintbackground"						"0"
+			"paintborder"							"0"
+
+			"defaultFgColor_override"				"White"
+			"armedFgColor_override"					"THOverheal"
+			"depressedFgColor_override"				"DarkGray"
+		}
+	}
+//////////////////////////////////////////////////
 		"SaxxySettings"
 		{
 			"xpos"			"0"
@@ -467,8 +508,8 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"paintbackground"	"1"
 		"paintborder"		"0"
-		"image_drawcolor"	"235 226 202 255"
-		"image_armedcolor"	"255 255 255 255"
+		"image_drawcolor"	"DarkGray"
+		"image_armedcolor"	"FullWhite"
 
 		"SubImage"
 		{
@@ -542,7 +583,7 @@
 		"textinsetx"	"40"
 		"textinsety"	"10"
 
-		"font"			"HudFontSmallestBold"
+		"font"			"HudFont11Bold"
 		"fgcolor_override"	"TanLight"
 		"labelText"		"#TF_MM_NoGC_Rank"
 		"textAlignment"	"north-west"
@@ -674,7 +715,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Notifications_CountLabel"
-			"font"			"HudFontSmallestBold"
+			"font"			"HudFont11Bold"
 			"labelText"		"%noticount%"
 			"textAlignment"	"center"
 			"xpos"			"16"
@@ -704,7 +745,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		""
-			"font"			"HudFontSmallestBold"
+			"font"			"HudFont11Bold"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -936,7 +977,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		""
-			"font"			"HudFontSmallestBold"
+			"font"			"HudFont11Bold"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -1228,7 +1269,7 @@
 			"labelText"		"#MMenu_MOTD_URL"
 			"textinsetx"	"20"
 			"use_proportional_insets" "1"
-			"font"			"HudFontSmallestBold"
+			"font"			"HudFont11Bold"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -1807,7 +1848,7 @@
 				"wrap"					"1"
 				"labelText"				"#MMenu_SafeMode_Explanation"
 				"proportionaltoparent"	"1"
-				"font"					"HudFontSmallest"
+				"font"					"HudFont11Bold"
 			}
 
 		} // Background
@@ -1846,7 +1887,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"font"			"HudFontSmallestBold"
+		"font"			"HudFont11Bold"
 		"labelText"		"#MMenu_ShowPromoCodes"
 		"textAlignment"	"center"
 		"dulltext"		"0"

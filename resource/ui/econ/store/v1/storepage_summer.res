@@ -71,7 +71,7 @@
 
 		"modelpanel_labels_kv"
 		{
-			"font"			"HudFontSmallestBold"
+			"font"			"HudFont11Bold"
 			"textAlignment"	"north-east"
 			"xpos"			"c-61"
 			"ypos"			"32"
@@ -121,7 +121,7 @@
 
 		"cart_labels_kv"
 		{
-			"font"			"HudFontSmallestBold"
+			"font"			"HudFont11Bold"
 			"textAlignment"	"north-east"
 			"xpos"			"c-61"
 			"ypos"			"32"
@@ -155,7 +155,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SummerSaleLabel"
-		"font"			"HudFontSmallest"
+		"font"			"HudFont11Bold"
 		"labelText"		"#Store_SummerSale"
 		"textAlignment"	"west"
 		"xpos"			"c-300"
@@ -307,7 +307,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"#Store_PreviewItem"
-			"font"			"HudFontSmallestBold"
+			"font"			"HudFont11Bold"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -351,7 +351,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"#Store_DetailsItem"
-			"font"			"HudFontSmallestBold"
+			"font"			"HudFont11Bold"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -442,7 +442,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"#Store_AddToCart"
-			"font"			"HudFontSmallestBold"
+			"font"			"HudFont11Bold"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -460,7 +460,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"FiltersLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"HudFont11Bold"
 		"labelText"		"#Store_FilterLabel"
 		"textAlignment"	"west"
 		"xpos"			"c-300"
@@ -477,7 +477,7 @@
 	{
 		"ControlName"		"ComboBox"
 		"fieldName"			"ClassFilterComboBox"
-		"Font"				"HudFontSmallestBold"
+		"Font"				"HudFont11Bold"
 		"xpos"				"c-240"
 		"ypos"				"12"
 		"zpos"				"1"
@@ -507,7 +507,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BackpackSpaceLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"HudFont11Bold"
 		"labelText"		"%freebackpackspace%"
 		"textAlignment"	"west"
 		"xpos"			"c-300"
@@ -614,7 +614,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"RELOADSCHEME"
-		"font"			"HudFontSmallestBold"
+		"font"			"HudFont11Bold"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
 		"dulltext"		"0"

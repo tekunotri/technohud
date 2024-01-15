@@ -27,7 +27,7 @@
 			"enabled"		"1"
 			"scaleimage"	"1"
 		}
-				
+
 		"TipLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -39,7 +39,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"font"			"ChalkboardText"
+			"font"			"HudFont14Bold"
 			"autoResize"	"3"
 			"pinCorner"		"1"
 			"textAlignment"	"north-west"

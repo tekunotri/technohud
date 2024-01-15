@@ -97,7 +97,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"StopWatchScoreToBeat"
-		"font"			"HudFontMediumBold"
+		"font"			"HudFont24Bold"
 		"labelText"		"%scoretobeat%"
 		"textAlignment"		"east"
 		"xpos"			"0"
@@ -119,7 +119,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"StopWatchPointsLabel"
-		"font"			"HudFontSmallest"
+		"font"			"HudFont11Bold"
 		"labelText"		"%pointslabel%"
 		"textAlignment"		"east"
 		"xpos"			"0"
@@ -143,7 +143,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"StopWatchLabel"
-		"font"			"HudFontSmallest"
+		"font"			"HudFont11Bold"
 		"labelText"		"%stopwatchlabel%"
 		"textAlignment"		"west"
 		"xpos"			"25"

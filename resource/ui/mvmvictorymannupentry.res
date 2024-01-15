@@ -302,7 +302,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"LevelLabel"
-			"font"			"HudFontSmallestBold"
+			"font"			"HudFont11Bold"
 			"labelText"		"%level%"
 			"textAlignment" "center"
 			"xpos"			"-1"
@@ -318,7 +318,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"LevelLabelDropShadow"
-			"font"			"HudFontSmallestBold"
+			"font"			"HudFont11Bold"
 			"labelText"		"%level%"
 			"textAlignment" "center"
 			"xpos"			"0"
@@ -334,7 +334,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TourProgressLabel"
-			"font"			"HudFontSmallest"
+			"font"			"HudFont11Bold"
 			"labelText"		"#TF_MVM_Victory_TourProgress"
 			"textAlignment" "south-west"
 			"xpos"			"0"
@@ -394,7 +394,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"MissingVoucher"
-		"font"			"HudFontSmallest"
+		"font"			"HudFont11Bold"
 		"labelText"		"#TF_PVE_Server_SquadVoucherMissing"
 		"textAlignment" "center"
 		"xpos"			"320"
@@ -426,7 +426,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"MannUpLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"HudFont11Bold"
 		"labelText"		"#TF_MVM_Victory_MannUpLoot"
 		"textAlignment" "south-west"
 		"xpos"			"-2"
@@ -447,7 +447,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SquadSurplusLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"HudFont11Bold"
 		"labelText"		"#TF_MVM_Victory_SquadSurplus"
 		"textAlignment" "south-west"
 		"xpos"			"10"
@@ -468,7 +468,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TourOfDutyLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"HudFont11Bold"
 		"labelText"		"#TF_MvM_TourLootTitle"
 		"textAlignment" "south-west"
 		"xpos"			"18"
@@ -489,7 +489,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"VeteranBonusLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"HudFont11Bold"
 		"labelText"		"#TF_MVM_Victory_VeteranBonus"
 		"textAlignment" "south-west"
 		"xpos"			"0"

@@ -35,7 +35,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"DescLabel"
-			"font"			"HudFontSmallest"
+			"font"			"HudFont11Bold"
 			"labelText"		"%description%"
 			"textAlignment"	"north"
 			"xpos"			"0"

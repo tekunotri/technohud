@@ -14,9 +14,6 @@
 		"filter_servermsg"									"Server Messages"
 		"filter_teamchange"									"Team Changes"
 		"filter_achievement"								"Achievement Announce"
-		"chat_say"											"Say :"
-		"chat_say_team"										"Say (TEAM) :"
-		"chat_say_party"									"Say (PARTY) :"
 
 		//=========================================================================================
 		// REMOVES THE SCOREBOARD TIMELEFT TEXT TO ONLY LEAVE THE NUMBERS
@@ -74,7 +71,7 @@
 		"Hud_Menu_Taunt_Weapon"								"Hit '%taunt%' to Taunt"
 
 		//=========================================================================================
-		// MEDIGUN NAMES
+		// MEDIGUN NAMES (for later uber icons customization)
 		//=========================================================================================
 
 		"TF_Weapon_Medigun"									"⁠Medi Gun"
@@ -92,7 +89,7 @@
 		"TF_Weapon_Medigun_ExpertMVMRareLoot"				"⁠Diamond Botkiller Medi Gun Mk.I"
 		"TF_Weapon_Medigun_AdvancedMVMLoot_Engineer"		"⁠Silver Botkiller Medi Gun Mk.II"
 		"TF_Weapon_Medigun_AdvancedMVMRareLoot_Engineer"	"⁠Gold Botkiller Medi Gun Mk.II"
-				"TF_Weapon_Medigun_AdvancedMVMRareLoot_Engineer"	"⁠Gold Botkiller Medi Gun Mk.II"
+		"TF_Weapon_Medigun_AdvancedMVMRareLoot_Engineer"	"⁠Gold Botkiller Medi Gun Mk.II"
 
 		//=========================================================================================
 		// TEAM/CHAT STUFF
@@ -114,6 +111,9 @@
 		"TF_Chat_Coach"			"[Coach] %s1 :  %s2"
 		"TF_Name_Change"		"* %s1 changed name to %s2"
 		"TF_Class_Change"		"* %s1 changed class to %s2"
+		"chat_say"              ">"
+		"chat_say_team"         "T >"
+		"chat_say_party"        "P >"
 
 
 		//=========================================================================================

@@ -1,11 +1,11 @@
 "Resource/UI/StaticBadgePanel.res"
 {
-	"BadgePanel"	
+	"BadgePanel"
 	{
 		"fieldName"		"BadgePanel"
 		"xpos"			"cs-0.5"
 		"ypos"			"0"
-		"zpos"			"0"		
+		"zpos"			"0"
 		"wide"			"o1"
 		"tall"			"f0"
 		"autoResize"	"0"
@@ -16,7 +16,7 @@
 		"start_framed"	"0"
 		"proportionaltoparent"	"1"
 		"render_texture"	"0"
-		
+
 		"model"
 		{
 			"force_pos"		"1"
@@ -29,7 +29,7 @@
 			"origin_y"		"0"
 			"origin_z"		"2"
 			"spotlight"	"1"
-			
+
 			"animation"
 			{
 				"sequence"	"idle"
@@ -61,7 +61,7 @@
 		"proportionaltoparent"	"1"
 		"mouseinputenabled"	"1"
 		"image"			"gradient_radial_pure_black"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"alpha"			"200"
 	}
 
@@ -81,7 +81,7 @@
 		"textinsetx"	"0"
 		"textinsety"	"0"
 
-		"font"			"HudFontSmallest"
+		"font"			"HudFont11Bold"
 		"fgcolor_override"	"HUDBlueTeamSolid"
 		"labelText"		"%rank%"
 		"textAlignment"	"south"
@@ -104,7 +104,7 @@
 		"textinsetx"	"0"
 		"textinsety"	"0"
 
-		"font"			"FontStorePrice"
+		"font"			"HudFont9"
 		"fgcolor_override"	"TanLight"
 		"labelText"		"%name%"
 		"textAlignment"	"south"

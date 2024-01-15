@@ -396,7 +396,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CapNumPlayers"
-			"font"			"HudFontSmallest"
+			"font"			"HudFont11Bold"
 			"font"		"ItemFontAttribSmall"
 			"xpos"		"25"
 			"ypos"		"53"

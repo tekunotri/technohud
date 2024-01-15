@@ -4,7 +4,7 @@
 	{
 		"ControlName"	"CLoadoutPresetPanel"
 		"fieldName"		"loadout_preset_panel"
-		
+
 		"presetbutton_kv"
 		{
 			"zpos"			"20"
@@ -15,7 +15,7 @@
 			"visible"		"0"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"font"			"HudFontMediumSmallBold"
+			"font"			"HudFont18Bold"
 			"textAlignment"	"center"
 			"textinsetx"	"0"
 			"dulltext"		"0"
@@ -24,6 +24,6 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"centerwrap"	"1"
-		}			
+		}
 	}
 }

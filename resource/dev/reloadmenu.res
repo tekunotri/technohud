@@ -18,7 +18,7 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"labelText"									"RM"
-		"font"										"HudFontSmallestBold"
+		"font"										"HudFont11Bold"
 		"textAlignment"								"center"
 		"Command"									"engine toggle mat_aaquality"
 	}

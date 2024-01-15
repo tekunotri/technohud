@@ -90,7 +90,7 @@
 
 		"modelpanel_labels_kv"
 		{
-			"font"			"HudFontSmallestBold"
+			"font"			"HudFont11Bold"
 			"textAlignment"	"north-east"
 			"xpos"			"c-61"
 			"ypos"			"32"
@@ -140,7 +140,7 @@
 
 		"cart_labels_kv"
 		{
-			"font"			"HudFontSmallestBold"
+			"font"			"HudFont11Bold"
 			"textAlignment"	"north-east"
 			"xpos"			"c-61"
 			"ypos"			"32"
@@ -181,7 +181,7 @@
 	{
 		"ControlName"		"ComboBox"
 		"fieldName"			"SubcategoryFilterComboBox"
-		"Font"				"HudFontSmallestBold"
+		"Font"				"HudFont11Bold"
 		"xpos"				"c30"
 		"ypos"				"30"
 		"zpos"				"1"
@@ -222,7 +222,7 @@
 	{
 		"ControlName"		"ComboBox"
 		"fieldName"			"SortFilterComboBox"
-		"Font"				"HudFontSmallestBold"
+		"Font"				"HudFont11Bold"
 		"xpos"				"c152"
 		"ypos"				"30"
 		"zpos"				"1"
@@ -414,7 +414,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"NameFilterLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"HudFont11Bold"
 		"labelText"		"#Store_NameFilterLabel"
 		"textAlignment"	"west"
 		"xpos"			"c-70"
@@ -433,7 +433,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SubcategoryFiltersLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"HudFont11Bold"
 		"labelText"		"#Store_ItemTypeFilterLabel"
 		"textAlignment"	"west"
 		"xpos"			"c30"
@@ -452,7 +452,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SortFilterLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"HudFont11Bold"
 		"labelText"		"#Store_SortByLabel"
 		"textAlignment"	"west"
 		"xpos"			"c152"
@@ -471,7 +471,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ClassFilterLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"HudFont11Bold"
 		"labelText"		"#Store_ClassFilterLabel"
 		"textAlignment"	"west"
 		"xpos"			"c-300"
@@ -693,7 +693,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BackpackSpaceLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"HudFont11Bold"
 		"labelText"		"%freebackpackspace%"
 		"textAlignment"	"west"
 		"xpos"			"c-300"
@@ -775,7 +775,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"RELOADSCHEME"
-		"font"			"HudFontSmallestBold"
+		"font"			"HudFont11Bold"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
 		"dulltext"		"0"

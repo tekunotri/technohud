@@ -22,7 +22,7 @@
 			"wide"			"16"
 			"tall"			"16"
 			"textAlignment"	"center"
-			"font"			"HudFontSmallest"
+			"font"			"HudFont11Bold"
 			"image"			"pve/upgrade_unowned"
 			"scaleImage"	"1"
 
@@ -132,7 +132,7 @@
 
 		"labelText"		""
 		"textAlignment"	"center-west"
-		"font"			"HudFontSmallest"
+		"font"			"HudFont11Bold"
 	}
 
 	"BuySellBG"

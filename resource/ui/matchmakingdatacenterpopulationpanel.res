@@ -24,9 +24,9 @@
 		"proportionaltoparent"	"1"
 		"labeltext"		"%datacenter_name%"
 		"textAlignment"	"west"
-		"font"			"HudFontSmallest"
+		"font"			"HudFont11Bold"
 		"textinsetx"	"10"
-		
+
 		"mouseinputenabled"	"0"
 	}
 

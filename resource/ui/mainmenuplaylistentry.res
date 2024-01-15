@@ -11,7 +11,7 @@
 		"tall"			"p1.17"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"proportionaltoparent"	"1"
 		"image"			""
 	}
@@ -43,12 +43,12 @@
 		"tall"			"f0"
 		"visible"		"1"
 		"enabled"		"1"
-		
+
 		"proportionaltoparent"	"1"
 		"bgcolor_override"	"0 0 0 255"
 	}
 
-	
+
 	"ToolTipHack"
 	{
 		"ControlName"	"EditablePanel"
@@ -61,7 +61,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"mouseinputenabled"	"1"
-		"eatmouseinput"	"0"	
+		"eatmouseinput"	"0"
 		"showtooltipswhenmousedisabled"	"1"
 	}
 
@@ -77,7 +77,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"mouseinputenabled"	"1"
-		"eatmouseinput"	"0"	
+		"eatmouseinput"	"0"
 		"showtooltipswhenmousedisabled"	"1"
 		"proportionaltoparent" "1"
 	}
@@ -96,7 +96,7 @@
 		"labelText"		"%button_token%"
 		"textinsetx"	"4"
 		"use_proportional_insets" "1"
-		"font"			"HudFontSmallestBold"
+		"font"			"HudFont11Bold"
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -115,7 +115,7 @@
 		"defaultFgColor_override"	"TanLight"
 		"armedFgColor_override"		"TanLight"
 		"depressedFgColor_override" "TanLight"
-	}	
+	}
 
 	"MatchmakingBanPanel"
 	{
@@ -198,7 +198,7 @@
 		"proportionaltoparent" "1"
 		"mouseinputenabled"	"0"
 	}
-	
+
 	"DisabledIcon"
 	{
 		"ControlName"	"CExImageButton"
@@ -213,19 +213,19 @@
 		"actionsignallevel"	"1"
 		"command"			"comp_access_info"
 		"labeltext"			""
-		"eatmouseinput"	"0"	
+		"eatmouseinput"	"0"
 		"button_activation_type"	"1"
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-				
+
 		"defaultFgColor_override" "46 43 42 255"
 		"armedFgColor_override" "235 226 202 255"
 		"depressedFgColor_override" "46 43 42 255"
 		"defaultBgColor_override" "0 0 0 0"
 		"armedBgColor_override" "0 0 0 0"
 		"depressedBgColor_override" "0 0 0 0"
-				
+
 		"image_drawcolor"	"235 226 202 255"
 		"image_armedcolor"	"235 140 140 255"
 		"SubImage"
@@ -242,6 +242,6 @@
 			"image"			"locked_icon"
 			"scaleImage"	"1"
 			"proportionaltoparent" "1"
-		}	
+		}
 	}
 }

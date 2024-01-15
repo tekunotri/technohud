@@ -43,7 +43,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SectionOneTextLabel"
-		"font"			"HudFontSmallest"
+		"font"			"HudFont11Bold"
 		"labelText"		"%text%" // Filled with the CS message
 		"textAlignment"	"north"
 		"proportionalToParent"  "1"

@@ -15,7 +15,7 @@
 	{
 		"ControlName"	"Label"
 		"fieldName"		"Title"
-		"font"			"HudFontMediumBold"
+		"font"			"HudFont24Bold"
 		"labelText"		"#TF_UsePaintkit_Panel_Title"
 		"textAlignment"	"north"
 		"xpos"			"cs-0.5"
@@ -155,7 +155,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"SuccessText"
-			"font"			"HudFontMediumBold"
+			"font"			"HudFont24Bold"
 			"labelText"		"#AbuseReport_SucceededTitle"
 			"textAlignment"	"north"
 			"xpos"			"cs-0.5"

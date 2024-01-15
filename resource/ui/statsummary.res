@@ -209,7 +209,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"MapLabel"
-		"font"			"HudFontMediumBigBold"
+		"font"			"HudFont30Bold"
 		"labelText"		"%maplabel%"
 		"textAlignment"		"center"
 		"xpos"			"c-25"

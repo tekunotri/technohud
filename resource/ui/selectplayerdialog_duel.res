@@ -66,7 +66,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"HudFontMediumBold"
+		"font"			"HudFont24Bold"
 		"labelText"		"%title%"
 		"textAlignment"	"north"
 		"xpos"			"0"
@@ -311,7 +311,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ClassUsageMouseoverLabel"
-		"font"			"HudFontSmallest"
+		"font"			"HudFont11Bold"
 		"textAlignment"	"center"
 		"xpos"			"100"
 		"ypos"			"100"

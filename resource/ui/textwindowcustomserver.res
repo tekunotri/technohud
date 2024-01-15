@@ -49,7 +49,7 @@
 	{
 		"ControlName"	"CTFRichText"
 		"fieldName"		"TFTextMessage"
-		"font"			"ChalkboardText"
+		"font"			"HudFont14Bold"
 		"xpos"			"c-184"
 		"ypos"			"125"
 		"zpos"			"1"

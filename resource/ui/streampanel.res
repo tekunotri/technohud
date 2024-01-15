@@ -49,7 +49,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"DescriptionLabel"
-			"font"			"HudFontSmallestBold"
+			"font"			"HudFont11Bold"
 			"labelText"		"#MMenu_Stream_Loading"
 			"textAlignment"	"west"
 			"xpos"			"90"
@@ -85,7 +85,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"DisplayNameLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"HudFont11Bold"
 		"labelText"		"%display_name%"
 		"textAlignment"	"west"
 		"xpos"			"90"
@@ -103,7 +103,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TextDescriptionLabel"
-		"font"			"HudFontSmallest"
+		"font"			"HudFont11Bold"
 		"labelText"		"%text_description%"
 		"textAlignment"	"north-west"
 		"xpos"			"90"
@@ -121,7 +121,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ViewerCountLabel"
-		"font"			"HudFontSmallest"
+		"font"			"HudFont11Bold"
 		"labelText"		"%viewer_count%"
 		"textAlignment"	"west"
 		"xpos"			"90"
@@ -157,7 +157,7 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 
 		"border_armed"		"TeamMenuBorder"
-			
+
 		"defaultFgColor_override" "0 0 0 0"
 		"defaultBgColor_override" "0 0 0 0"
 		"armedFgColor_override" "0 0 0 0"

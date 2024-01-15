@@ -1,8 +1,8 @@
 "Resource/UI/Quests/CYOA/QuestMapRegionLink.res"
 {
-	"Link"
+	"HudFont10Bold"
 	{
-		"fieldName"		"Link"
+		"fieldName"		"HudFont10Bold"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"99"
@@ -29,7 +29,7 @@
 			"mouseinputenabled"	"0"
 			"autoResize"	"3"
 			"drawcolor"	"QuestMap_ActiveOrange"
-		}	
+		}
 
 		"LinkRegionNameButton"
 		{

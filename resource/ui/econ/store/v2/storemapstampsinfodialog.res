@@ -106,7 +106,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"MapsDescLabel"
-			"font"			"HudFontSmallest"
+			"font"			"HudFont11Bold"
 			"labelText"		"#Store_MapsDesc"
 			"textAlignment"	"north"
 			"xpos"			"20"

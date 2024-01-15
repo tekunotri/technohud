@@ -131,7 +131,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"HudFontMediumBold"
+		"font"			"HudFont24Bold"
 		"labelText"		"#TF_TradeWindow_Title"
 		"textAlignment"	"west"
 		"xpos"			"c-280"
@@ -473,7 +473,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"Label4Title"
-		"font"			"HudFontSmallestBold"
+		"font"			"HudFont11Bold"
 		"labelText"		"#TF_TradeWindow_Step4"
 		"textAlignment"	"north-west"
 		"xpos"			"c50"
@@ -802,7 +802,7 @@
 		"enabled"		"0"
 		"tabPosition"	"0"
 		"labelText"		"#TF_TradeWindow_WaitingForTrade"
-		"font"			"HudFontSmallestBold"
+		"font"			"HudFont11Bold"
 		"textAlignment"	"center"
 		"textinsetx"	"0"
 		"dulltext"		"0"

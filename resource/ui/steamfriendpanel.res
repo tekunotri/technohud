@@ -1,5 +1,5 @@
 "Resource/UI/SteamFriendPanel.res"
-{	
+{
 	"avatar"
 	{
 		"fieldName"	"avatar"
@@ -51,7 +51,7 @@
 		"wrap"					"0"
 		"labelText"				"%name%"
 		"proportionaltoparent"	"1"
-		"font"					"ControlPointTimer"
+		"font"					"HudFont8Bold"
 		"mouseinputenabled"		"0"
 	}
 

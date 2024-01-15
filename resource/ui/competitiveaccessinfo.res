@@ -38,7 +38,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TextLabel"
-			"font"			"HudFontSmallest"
+			"font"			"HudFont11Bold"
 			"labelText"		"#MMenu_CompetitiveAccess_Desc"
 			"textAlignment"	"north-west"
 			"xpos"			"20"
@@ -58,7 +58,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Option1Label"
-			"font"			"HudFontSmallestBold"
+			"font"			"HudFont11Bold"
 			"labelText"		"#MMenu_CompetitiveAccessOption1"
 			"textAlignment"	"center"
 			"xpos"			"10"
@@ -77,7 +77,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Option1DescLabel"
-			"font"			"HudFontSmallest"
+			"font"			"HudFont11Bold"
 			"labelText"		"#MMenu_CompetitiveAccessOption1_Desc"
 			"textAlignment"	"north-west"
 			"xpos"			"20"
@@ -208,7 +208,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"AndLabel1"
-				"font"			"HudFontMediumBigBold"
+				"font"			"HudFont30Bold"
 				"labelText"		"+"
 				"textAlignment"	"center"
 				"xpos"			"p0.3"
@@ -291,7 +291,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"AndLabel2"
-				"font"			"HudFontMediumBigBold"
+				"font"			"HudFont30Bold"
 				"labelText"		"+"
 				"textAlignment"	"center"
 				"xpos"			"p0.65"
@@ -378,7 +378,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Option2Label"
-			"font"			"HudFontSmallestBold"
+			"font"			"HudFont11Bold"
 			"labelText"		"#MMenu_CompetitiveAccessOption2"
 			"textAlignment"	"center"
 			"xpos"			"10"
@@ -397,7 +397,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Option2DescLabel"
-			"font"			"HudFontSmallest"
+			"font"			"HudFont11Bold"
 			"labelText"		"#MMenu_CompetitiveAccessOption2_Desc"
 			"textAlignment"	"north-west"
 			"xpos"			"20"

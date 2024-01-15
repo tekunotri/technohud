@@ -14,14 +14,14 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
-		
+
 		"PaintBackgroundType"	"2"
 		"bgcolor_override"	"46 43 42 255"
-		
+
 		"itempanel_xpos"	"0"
 		"itempanel_ydelta"	"0"
-		
-		"itemskv"	
+
+		"itemskv"
 		{
 			"wide"			"220"
 			"tall"			"40"
@@ -29,26 +29,26 @@
 			"PaintBackgroundType"	"2"
 			"paintborder"	"0"
 			"text_forcesize" "2"
-			
+
 			"model_xpos"	"25"
 			"model_ypos"	"3"
-			"model_wide"	"58"		
+			"model_wide"	"58"
 			"model_tall"	"34"
-			
+
 			"text_center"	"1"
 			"text_xpos"		"60"
 			"text_wide"		"190"
 			"name_only"		"1"
-			
+
 			"noitem_textcolor"		"117 107 94 255"
 		}
 	}
-	
+
 	"CaratLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"CaratLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"HudFont11Bold"
 		"labelText"		">>"
 		"textAlignment"	"west"
 		"xpos"			"5"
@@ -66,7 +66,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ClassLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"HudFont11Bold"
 		"labelText"		"#ClassBeingEquipped"
 		"textAlignment"	"west"
 		"xpos"			"20"
@@ -84,7 +84,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ItemSlotLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"HudFont11Bold"
 		"labelText"		"#PrimaryWeapon"
 		"textAlignment"	"west"
 		"xpos"			"80"
@@ -97,7 +97,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 	}
-	
+
 	"TopLine"
 	{
 		"ControlName"	"ImagePanel"
@@ -112,8 +112,8 @@
 		"image"			"loadout_dotted_line"
 		"tileImage"		"1"
 		"tileVertically" "0"
-	}				
-		
+	}
+
 	"itemcontainerscroller"
 	{
 		"ControlName"	"EditablePanel"
@@ -127,7 +127,7 @@
 		"bgcolor_override"	"200 187 161 0"
 		"autohide_buttons" "1"
 	}
-		
+
 	"itemcontainer"
 	{
 		"ControlName"	"EditablePanel"
@@ -138,7 +138,7 @@
 		"tall"			"125"
 		"PaintBackgroundType"	"2"
 		"bgcolor_override"	"200 187 161 0"
-		
+
 		"CurrentlyEquippedBackground"
 		{
 			"ControlName"	"CExLabel"
@@ -157,7 +157,7 @@
 			"bgcolor_override"	"0 0 0 0"
 		}
 	}
-	
+
 	"NoItemsLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -176,7 +176,7 @@
 		"enabled"		"1"
 		"fgcolor_override" "200 80 60 255"
 	}
-	
+
 	"loadout_preset_panel"
 	{
 		"ControlName"	"CLoadoutPresetPanel"

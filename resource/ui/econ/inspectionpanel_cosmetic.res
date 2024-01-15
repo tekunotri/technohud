@@ -65,7 +65,7 @@
 				"enabled"		"1"
 				"tabPosition"	"0"
 				"labelText"		"<"
-				"font"			"HudFontBiggerBold"
+				"font"			"HudFont36Bold"
 				"textAlignment"	"center"
 				"dulltext"		"0"
 				"brighttext"	"0"
@@ -92,7 +92,7 @@
 				"enabled"		"1"
 				"tabPosition"	"0"
 				"labelText"		">"
-				"font"			"HudFontBiggerBold"
+				"font"			"HudFont36Bold"
 				"textAlignment"	"center"
 				"dulltext"		"0"
 				"brighttext"	"0"
@@ -293,7 +293,7 @@
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"ItemLevelInfoLabel"
-					"font"			"FontStoreOriginalPrice"
+					"font"			"HudFont9"
 					"labelText"		"%item_level_info%"
 					"textAlignment"	"north-west"
 					"wide"			"228"
@@ -310,7 +310,7 @@
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"RestrictionsLabel"
-					"font"			"FontStoreOriginalPrice"
+					"font"			"HudFont9"
 					"labelText"		"#Store_ItemDesc_Restrictions"
 					"textAlignment"	"north-west"
 					"wide"			"228"
@@ -327,7 +327,7 @@
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"RestrictionsTextLabel"
-					"font"			"FontStoreOriginalPrice"
+					"font"			"HudFont9"
 					"labelText"		"#Store_HolidayRestrictionText"
 					"textAlignment"	"north-west"
 					"wide"			"228"
@@ -344,7 +344,7 @@
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"UsedByLabel"
-					"font"			"FontStoreOriginalPrice"
+					"font"			"HudFont9"
 					"labelText"		"#Store_ItemDesc_UsedBy"
 					"textAlignment"	"north-west"
 					"wide"			"228"
@@ -361,7 +361,7 @@
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"UsedByTextLabel"
-					"font"			"FontStoreOriginalPrice"
+					"font"			"HudFont9"
 					"labelText"		"%used_by_classes%"
 					"textAlignment"	"north-west"
 					"wide"			"228"
@@ -377,7 +377,7 @@
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"SlotLabel"
-					"font"			"FontStoreOriginalPrice"
+					"font"			"HudFont9"
 					"labelText"		"#Store_ItemDesc_Slot"
 					"textAlignment"	"north-west"
 					"wide"			"228"
@@ -394,7 +394,7 @@
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"SlotTextLabel"
-					"font"			"FontStoreOriginalPrice"
+					"font"			"HudFont9"
 					"labelText"		"%slot%"
 					"textAlignment"	"north-west"
 					"wide"			"228"
@@ -410,7 +410,7 @@
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"ArmoryTextLabel"
-					"font"			"FontStoreOriginalPrice"
+					"font"			"HudFont9"
 					"textAlignment"	"north-west"
 					"wide"			"228"
 					"tall"			"10"
@@ -426,7 +426,7 @@
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"AttributesLabel"
-					"font"			"FontStoreOriginalPrice"
+					"font"			"HudFont9"
 					"textAlignment"	"north-west"
 					"zpos"			"2"
 					"wide"			"228"
@@ -465,7 +465,7 @@
 					"enabled"		"1"
 					"tabPosition"	"0"
 					"labelText"		"#Store_ItemDesc_ItemWikiPage"
-					"font"			"HudFontSmallestBold"
+					"font"			"HudFont11Bold"
 					"textAlignment"	"center"
 					"dulltext"		"0"
 					"brighttext"	"0"
@@ -763,7 +763,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ClassUsageMouseoverLabel"
-		"font"			"HudFontSmallest"
+		"font"			"HudFont11Bold"
 		"textAlignment"	"center"
 		"xpos"			"c-265"
 		"ypos"			"c125"
@@ -976,7 +976,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CycleTextLabel"
-		"font"			"FontStorePrice"
+		"font"			"HudFont9"
 		"labelText"		""
 		"textAlignment"	"left"
 		"xpos"			"c-186"
@@ -998,7 +998,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PaintNameLabel"
-		"font"			"FontStorePrice"
+		"font"			"HudFont9"
 		"labelText"		"#Store_NoPaint"
 		"textAlignment"	"left"
 		"xpos"			"c-186"
@@ -1017,7 +1017,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"StyleNameLabel"
-		"font"			"FontStorePrice"
+		"font"			"HudFont9"
 		"labelText"		"None"
 		"textAlignment"	"left"
 		"xpos"			"132"

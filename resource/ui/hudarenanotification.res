@@ -66,7 +66,7 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"		"BalanceLabelTip"
-		"font"			"HudFontSmallest"
+		"font"			"HudFont11Bold"
 		"xpos"			"75"
 		"ypos"			"75"
 		"ypos_hidef"	"23"

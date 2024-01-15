@@ -187,7 +187,7 @@
 			{
 				"ControlName"		"CExLabel"
 				"fieldName"		"StatsAndMedals"
-				"font"			"MatchSummaryStatsAndMedals"
+				"font"			"HudFont14Bold"
 				"labelText"		"#TF_StatsAndMedals"
 				"textAlignment"		"center"
 				"xpos"			"0"
@@ -205,7 +205,7 @@
 			{
 				"ControlName"		"CExLabel"
 				"fieldName"		"StatsAndMedalsShadow"
-				"font"			"MatchSummaryStatsAndMedals"
+				"font"			"HudFont14Bold"
 				"labelText"		"#TF_StatsAndMedals"
 				"fgcolor"		"Black"
 				"textAlignment"		"center"
@@ -269,7 +269,7 @@
 				{
 					"ControlName"		"CExLabel"
 					"fieldName"		"BlueTeamScore"
-					"font"			"MatchSummaryTeamScores"
+					"font"			"HudFont36Bold"
 					"labelText"		"%blueteamscore%"
 					"textAlignment"		"east"
 					"xpos"			"5"
@@ -292,7 +292,7 @@
 				{
 					"ControlName"		"CExLabel"
 					"fieldName"		"BlueTeamScoreDropshadow"
-					"font"			"MatchSummaryTeamScores"
+					"font"			"HudFont36Bold"
 					"fgcolor"		"Black"
 					"labelText"		"%blueteamscore%"
 					"textAlignment"		"east"
@@ -315,7 +315,7 @@
 				{
 					"ControlName"		"CExLabel"
 					"fieldName"		"BlueTeamWinner"
-					"font"			"MatchSummaryWinner"
+					"font"			"HudFont20Bold"
 					"labelText"		"%blueteamwinner%"
 					"textAlignment"		"east"
 					"xpos"			"5"
@@ -337,7 +337,7 @@
 				{
 					"ControlName"		"CExLabel"
 					"fieldName"		"BlueTeamWinnerDropshadow"
-					"font"			"MatchSummaryWinner"
+					"font"			"HudFont20Bold"
 					"fgcolor"		"Black"
 					"labelText"		"%blueteamwinner%"
 					"textAlignment"		"east"
@@ -379,7 +379,7 @@
 				{
 					"ControlName"		"CExLabel"
 					"fieldName"		"BlueTeamLabel"
-					"font"			"CompMatchStartTeamNames"
+					"font"			"HudFont14Bold"
 					"labelText"		"%blueteamname%"
 					"textAlignment"		"west"
 					"xpos"			"60"
@@ -404,7 +404,7 @@
 					"visible"		"0"
 					"enabled"		"1"
 					"image"			""
-					"scaleImage"	"1"	
+					"scaleImage"	"1"
 					"color_outline"	"52 48 45 255"
 
 					if_large
@@ -534,12 +534,12 @@
 					{
 						"ypos"			"39"
 					}
-				}						
+				}
 				"RedTeamScore"
 				{
 					"ControlName"		"CExLabel"
 					"fieldName"		"RedTeamScore"
-					"font"			"MatchSummaryTeamScores"
+					"font"			"HudFont36Bold"
 					"labelText"		"%redteamscore%"
 					"textAlignment"		"west"
 					"xpos"			"r5-p.19"
@@ -561,7 +561,7 @@
 				{
 					"ControlName"		"CExLabel"
 					"fieldName"		"RedTeamScoreDropshadow"
-					"font"			"MatchSummaryTeamScores"
+					"font"			"HudFont36Bold"
 					"fgcolor"		"Black"
 					"labelText"		"%redteamscore%"
 					"textAlignment"		"west"
@@ -584,7 +584,7 @@
 				{
 					"ControlName"		"CExLabel"
 					"fieldName"		"RedTeamWinner"
-					"font"			"MatchSummaryWinner"
+					"font"			"HudFont20Bold"
 					"labelText"		"%redteamwinner%"
 					"textAlignment"		"west"
 					"xpos"			"r5-p.19"
@@ -606,7 +606,7 @@
 				{
 					"ControlName"		"CExLabel"
 					"fieldName"		"RedTeamWinnerDropshadow"
-					"font"			"MatchSummaryWinner"
+					"font"			"HudFont20Bold"
 					"fgcolor"		"Black"
 					"labelText"		"%redteamwinner%"
 					"textAlignment"		"west"
@@ -648,7 +648,7 @@
 				{
 					"ControlName"		"CExLabel"
 					"fieldName"		"RedTeamLabel"
-					"font"			"CompMatchStartTeamNames"
+					"font"			"HudFont14Bold"
 					"labelText"		"%redteamname%"
 					"textAlignment"		"east"
 					"xpos"			"r255"
@@ -673,7 +673,7 @@
 					"visible"		"0"
 					"enabled"		"1"
 					"image"			""
-					"scaleImage"	"1"	
+					"scaleImage"	"1"
 					"color_outline"	"52 48 45 255"
 
 					if_large
@@ -716,7 +716,7 @@
 						"ypos"			"77"
 						"tall"			"340"
 					}
-			
+
 					"RedPlayerList"
 					{
 						"ControlName"	"TFSectionedListPanel"
@@ -807,7 +807,7 @@
 				{
 					"ControlName"		"CExLabel"
 					"fieldName"		"BlueGoldMedalValue"
-					"font"			"MatchSummaryStatsAndMedals"
+					"font"			"HudFont14Bold"
 					"labelText"		"%blueteammedals_gold%"
 					"textAlignment"		"center"
 					"xpos"			"15"
@@ -838,7 +838,7 @@
 				{
 					"ControlName"		"CExLabel"
 					"fieldName"		"BlueSilverMedalValue"
-					"font"			"MatchSummaryStatsAndMedals"
+					"font"			"HudFont14Bold"
 					"labelText"		"%blueteammedals_silver%"
 					"textAlignment"		"center"
 					"xpos"			"70"
@@ -869,7 +869,7 @@
 				{
 					"ControlName"		"CExLabel"
 					"fieldName"		"BlueBronzeMedalValue"
-					"font"			"MatchSummaryStatsAndMedals"
+					"font"			"HudFont14Bold"
 					"labelText"		"%blueteammedals_bronze%"
 					"textAlignment"		"center"
 					"xpos"			"125"
@@ -918,7 +918,7 @@
 				{
 					"ControlName"		"CExLabel"
 					"fieldName"		"RedGoldMedalValue"
-					"font"			"MatchSummaryStatsAndMedals"
+					"font"			"HudFont14Bold"
 					"labelText"		"%redteammedals_gold%"
 					"textAlignment"		"center"
 					"xpos"			"15"
@@ -949,7 +949,7 @@
 				{
 					"ControlName"		"CExLabel"
 					"fieldName"		"RedSilverMedalValue"
-					"font"			"MatchSummaryStatsAndMedals"
+					"font"			"HudFont14Bold"
 					"labelText"		"%redteammedals_silver%"
 					"textAlignment"		"center"
 					"xpos"			"70"
@@ -980,7 +980,7 @@
 				{
 					"ControlName"		"CExLabel"
 					"fieldName"		"RedBronzeMedalValue"
-					"font"			"MatchSummaryStatsAndMedals"
+					"font"			"HudFont14Bold"
 					"labelText"		"%redteammedals_bronze%"
 					"textAlignment"		"center"
 					"xpos"			"125"

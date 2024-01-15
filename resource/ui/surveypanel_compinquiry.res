@@ -12,7 +12,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"TextLabel"
-				"font"			"HudFontSmallestBold"
+				"font"			"HudFont11Bold"
 				"labelText"		"#TF_SurveyQuestion_CompInquiry"
 				"textAlignment"	"north"
 				"xpos"			"cs-0.5"
@@ -91,7 +91,7 @@
 					"proportionaltoparent"	"1"
 
 					"labelText"		"#TF_SurveyQuestion_CompInquiry_Answer0"
-					"font"			"HudFontSmallest"
+					"font"			"HudFont11Bold"
 					"textAlignment"	"left"
 
 					"associate"		"Radio0"
@@ -129,7 +129,7 @@
 					"proportionaltoparent"	"1"
 
 					"labelText"		"#TF_SurveyQuestion_CompInquiry_Answer1"
-					"font"			"HudFontSmallest"
+					"font"			"HudFont11Bold"
 					"textAlignment"	"left"
 				}
 
@@ -165,7 +165,7 @@
 					"proportionaltoparent"	"1"
 
 					"labelText"		"#TF_SurveyQuestion_CompInquiry_Answer2"
-					"font"			"HudFontSmallest"
+					"font"			"HudFont11Bold"
 					"textAlignment"	"left"
 					"default"		"1"
 				}
@@ -202,7 +202,7 @@
 					"proportionaltoparent"	"1"
 
 					"labelText"		"#TF_SurveyQuestion_CompInquiry_Answer3"
-					"font"			"HudFontSmallest"
+					"font"			"HudFont11Bold"
 					"textAlignment"	"left"
 				}
 
@@ -238,7 +238,7 @@
 					"proportionaltoparent"	"1"
 
 					"labelText"		"#TF_SurveyQuestion_CompInquiry_Answer4"
-					"font"			"HudFontSmallest"
+					"font"			"HudFont11Bold"
 					"textAlignment"	"left"
 				}
 
@@ -274,7 +274,7 @@
 					"proportionaltoparent"	"1"
 
 					"labelText"		"#TF_SurveyQuestion_CompInquiry_Answer5"
-					"font"			"HudFontSmallest"
+					"font"			"HudFont11Bold"
 					"textAlignment"	"left"
 				}
 			}

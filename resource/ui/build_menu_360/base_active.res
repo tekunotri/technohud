@@ -72,7 +72,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CostLabel"
-		"font"			"HudFontMediumSmallSecondary"
+		"font"			"HudFont18"
 		"fgcolor"		"TanDarker"
 		"xpos"			"23"
 		"ypos"			"17"

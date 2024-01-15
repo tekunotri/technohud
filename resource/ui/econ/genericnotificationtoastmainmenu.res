@@ -62,7 +62,7 @@
 		"wrap"			"1"
 		"labelText"		"%avatartext%"
 		"textAlignment"	"West"
-		"font"			"HudFontSmallest"
+		"font"			"HudFont11Bold"
 	}
 
 	"TextLabel"
@@ -75,7 +75,7 @@
 		{
 			"fgcolor"			"BrightYellow"
 			"fgcolor_override"	"BrightYellow"
-			"font"				"StorePromotionsTitle"
+			"font"				"HudFont10Bold"
 		}
 		"xpos"			"7"
 		"ypos"			"7"
@@ -89,6 +89,6 @@
 		"wrap"			"1"
 		"labelText"		"%text%"
 		"textAlignment"	"West"
-		"font"			"HudFontSmallest"
+		"font"			"HudFont11Bold"
 	}
 }

@@ -39,7 +39,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TipLabel"
-			"font"			"HudFontSmallestBold"
+			"font"			"HudFont11Bold"
 			"labelText"		"%tiptext%"
 			"textAlignment"	"west"
 			"xpos"			"20"
@@ -74,7 +74,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"NoGCTitle"
-			"font"			"HudFontMediumBold"
+			"font"			"HudFont24Bold"
 			"labelText"		"#TF_Matchmaking_PleaseWait"
 			"xpos"		"cs-0.5"
 			"ypos"		"120"
@@ -139,7 +139,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"MatchInProgressTitle"
-			"font"			"HudFontMediumBold"
+			"font"			"HudFont24Bold"
 			"labelText"		"#TF_Matchmaking_MatchInProgress"
 			"xpos"		"cs-0.5"
 			"ypos"		"120"
@@ -204,7 +204,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"SearchActiveTitle"
-			"font"			"HudFontMediumBold"
+			"font"			"HudFont24Bold"
 			"labelText"		"#TF_Matchmaking_Searching"
 			"xpos"		"30"
 			"ypos"		"20"
@@ -619,7 +619,7 @@
 			{
 				"ControlName"	"Label"
 				"fieldName"		"PartyLabel"
-				"font"			"HudFontMediumBold"
+				"font"			"HudFont24Bold"
 				"labelText"		"#TF_Matchmaking_Party"
 				"textAlignment"	"west"
 				"xpos"			"5"

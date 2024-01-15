@@ -73,9 +73,9 @@
 
 				"fonts"
 				{
-					"0"		"HudFontSmallestBold"
-					"1"		"StorePromotionsTitle"
-					"2"		"FontStorePrice"
+					"0"		"HudFont11Bold"
+					"1"		"HudFont10Bold"
+					"2"		"HudFont9"
 				}
 			}
 
@@ -90,7 +90,7 @@
 				"tall"			"20"
 				"visible"		"1"
 				"enabled"		"1"
-				"font"			"HudFontSmallest"
+				"font"			"HudFont11Bold"
 				"fgcolor_override"	"TanLight"
 				"textAlignment"	"center"
 				"labelText"		"%auto_join%"
@@ -113,7 +113,7 @@
 
 				"enabled"		"1"
 				"tabPosition"	"0"
-				"font"			"HudFontSmallestBold"
+				"font"			"HudFont11Bold"
 				"textAlignment"	"center"
 				"dulltext"		"0"
 				"brighttext"	"0"
@@ -150,7 +150,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"tabPosition"	"0"
-				"font"			"HudFontSmallestBold"
+				"font"			"HudFont11Bold"
 				"textAlignment"	"center"
 				"dulltext"		"0"
 				"brighttext"	"0"
@@ -183,7 +183,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"tabPosition"	"0"
-				"font"			"HudFontSmallestBold"
+				"font"			"HudFont11Bold"
 				"textAlignment"	"center"
 				"dulltext"		"0"
 				"brighttext"	"0"
@@ -212,7 +212,7 @@
 				"tall"			"20"
 				"visible"		"1"
 				"enabled"		"1"
-				"font"			"HudFontSmallest"
+				"font"			"HudFont11Bold"
 				"fgcolor_override"	"TanLight"
 				"textAlignment"	"east"
 				"labelText"		"#TF_Matchmaking_RollingQueue_MatchReadyJoining"

@@ -320,7 +320,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"CarryingLabel"
-			"font"				"ReplayBrowserSmallest"
+			"font"				"HudFont11Bold"
 			"font_minmode"		"TFFontMedium"
 			"xpos"				"5"
 			"xpos_minmode"		"5"
@@ -347,7 +347,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"CarryingLabelDropShadow"
-			"font"				"ReplayBrowserSmallest"
+			"font"				"HudFont11Bold"
 			"font_minmode"		"TFFontMedium"
 			"xpos"				"p0.011"
 			"xpos_minmode"		"6"
@@ -375,7 +375,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"			"OwnerLabel"
-			"font"				"FontStoreOriginalPrice"
+			"font"				"HudFont9"
 			"font_minmode"		"TFFontSmall"
 			"xpos"				"5"
 			"xpos_minmode"		"5"

@@ -42,7 +42,7 @@
 		"mouseinputenabled" "0"
 	}
 
-	"LabelTitle"	
+	"LabelTitle"
 	{
 		"ControlName"		"Label"
 		"fieldName"		"LabelTitle"
@@ -60,7 +60,7 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"		"0"
-		"font"		"HudFontSmallest"
+		"font"		"HudFont11Bold"
 		"fgcolor_override" "86 78 68 255"
 		"mouseinputenabled" "0"
 	}

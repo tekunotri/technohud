@@ -66,7 +66,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"HudFontMediumBold"
+		"font"			"HudFont24Bold"
 		"labelText"		"#TF_Trial_SelectMostHelpfulFriend_Title"
 		"textAlignment"	"north"
 		"xpos"			"0"

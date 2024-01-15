@@ -17,7 +17,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"MainLabelDropShadow"
-		"font"			"HudFontBiggerBold"
+		"font"			"HudFont36Bold"
 		"labelText"		"#TF_VR_Calibration"
 		"textAlignment" "center"
 		"xpos"			"2"
@@ -31,7 +31,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"MainLabel"
-		"font"			"HudFontBiggerBold"
+		"font"			"HudFont36Bold"
 		"labelText"		"#TF_VR_Calibration"
 		"textAlignment" "center"
 		"xpos"			"0"

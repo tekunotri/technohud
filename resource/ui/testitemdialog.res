@@ -20,7 +20,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"HudFontMediumBold"
+		"font"			"HudFont24Bold"
 		"labelText"		"%testtitle%"
 		"textAlignment"	"north"
 		"xpos"			"0"
@@ -39,7 +39,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SelectModelLabel"
-		"font"			"HudFontSmallest"
+		"font"			"HudFont11Bold"
 		"labelText"		"#IT_YourModel"
 		"textAlignment"	"west"
 		"xpos"			"10"
@@ -85,7 +85,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#IT_SelectModel"
-		"font"			"HudFontSmallestBold"
+		"font"			"HudFont11Bold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -110,7 +110,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"ItemReplacedLabel"
-			"font"			"HudFontSmallest"
+			"font"			"HudFont11Bold"
 			"labelText"		"#IT_ExistingItem"
 			"textAlignment"	"west"
 			"xpos"			"0"
@@ -128,7 +128,7 @@
 		{
 			"ControlName"		"ComboBox"
 			"fieldName"			"ExistingItemComboBox"
-			"Font"				"HudFontSmallest"
+			"Font"				"HudFont11Bold"
 			"xpos"				"95"
 			"ypos"				"0"
 			"zpos"				"1"
@@ -171,7 +171,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"ItemReplacedLabel"
-			"font"			"HudFontSmallest"
+			"font"			"HudFont11Bold"
 			"labelText"		"#IT_ItemReplaces"
 			"textAlignment"	"west"
 			"xpos"			"0"
@@ -188,7 +188,7 @@
 		{
 			"ControlName"		"ComboBox"
 			"fieldName"			"ItemReplacedComboBox"
-			"Font"				"HudFontSmallest"
+			"Font"				"HudFont11Bold"
 			"xpos"				"95"
 			"ypos"				"0"
 			"zpos"				"1"
@@ -217,7 +217,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"NoItemsToReplaceLabel"
-			"font"			"HudFontSmallest"
+			"font"			"HudFont11Bold"
 			"labelText"		"#IT_ItemReplaced_Invalid"
 			"textAlignment"	"west"
 			"xpos"			"95"
@@ -249,7 +249,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"HideBodygroupLabel"
-			"font"			"HudFontSmallest"
+			"font"			"HudFont11Bold"
 			"labelText"		"#IT_Bodygroups"
 			"textAlignment"	"west"
 			"xpos"			"0"
@@ -458,7 +458,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"PaintColorLabel"
-			"font"			"HudFontSmallest"
+			"font"			"HudFont11Bold"
 			"labelText"		"#IT_PaintTitle"
 			"textAlignment"	"west"
 			"xpos"			"0"
@@ -505,7 +505,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"UnusualEffectLabel"
-			"font"			"HudFontSmallest"
+			"font"			"HudFont11Bold"
 			"labelText"		"#IT_UnusualTitle"
 			"textAlignment"	"west"
 			"xpos"			"0"
@@ -613,7 +613,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"R"
-		"font"			"HudFontSmallestBold"
+		"font"			"HudFont11Bold"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
 		"dulltext"		"0"

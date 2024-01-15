@@ -43,7 +43,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"DifficultyLabel"
-			"font"			"HudFontSmallest"
+			"font"			"HudFont11Bold"
 			"labelText"		"#TF_MvM_Difficulty"
 			"textAlignment"	"center"
 			"xpos"			"0"

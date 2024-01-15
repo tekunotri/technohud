@@ -93,7 +93,7 @@
 
 		"recipebuttons_kv"
 		{
-			"font"			"HudFontSmallestBold"
+			"font"			"HudFont11Bold"
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"1"
@@ -263,7 +263,7 @@
 			"enabled"		"0"
 			"tabPosition"	"0"
 			"labelText"		"#CraftConfirm"
-			"font"			"HudFontMediumBold"
+			"font"			"HudFont24Bold"
 			"textAlignment"	"center"
 			"textinsetx"	"50"
 			"dulltext"		"0"
@@ -277,7 +277,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"FreeAccountLabel"
-			"font"			"HudFontSmallestBold"
+			"font"			"HudFont11Bold"
 			"labelText"		"#Craft_PremiumRecipe"
 			"textAlignment"	"west"
 			"xpos"			"0"
@@ -436,7 +436,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TipLabel"
-			"font"			"HudFontSmallest"
+			"font"			"HudFont11Bold"
 			"labelText"		"%tiptext%"
 			"textAlignment"	"center"
 			"xpos"			"20"

@@ -61,11 +61,11 @@
 			"visible"		"1"
 			"proportionaltoparent"	"1"
 
-				
+
 			"actionsignallevel"		"2"
 			"command"		"show_leaderboards"
 			"labeltext"		"#TF_Competitive_ViewLeaderboards"
-			"font"			"HudFontSmallestBold"
+			"font"			"HudFont11Bold"
 			"fgcolor_override"	"TanLight"
 			"textAlignment"	"center"
 
@@ -88,7 +88,7 @@
 			"actionsignallevel"		"2"
 			"command"		"show_match_history"
 			"labeltext"		"#TF_Competitive_ViewMatches"
-			"font"			"HudFontSmallestBold"
+			"font"			"HudFont11Bold"
 			"fgcolor_override"	"TanLight"
 			"textAlignment"	"center"
 
@@ -168,7 +168,7 @@
 					"visible"		"1"
 					"paintbackground"	"0"
 					"mouseinputenabled"	"0"
-			
+
 					"labeltext"			"6"
 					"font"				"MarlettSmall"
 					"textAlignment"		"west"
@@ -189,10 +189,10 @@
 					"proportionaltoparent"	"1"
 					"visible"		"1"
 					"paintbackground"	"0"
-					"border_default"		"SortCategoryBorder"	
-			
+					"border_default"		"SortCategoryBorder"
+
 					"labeltext"			"#TF_Competitive_Result"
-					"font"				"HudFontSmallest"
+					"font"				"HudFont11Bold"
 					"fgcolor_override"	"141 63 63 255"
 					"textAlignment"		"west"
 					"textinsetx"		"15"
@@ -222,11 +222,11 @@
 					"tall"			"18"
 					"proportionaltoparent"	"1"
 					"visible"		"1"
-					"paintbackground"	"0"	
+					"paintbackground"	"0"
 					"border_default"		"SortCategoryBorder"
-			
+
 					"labeltext"			"#TF_Competitive_Date"
-					"font"				"HudFontSmallest"
+					"font"				"HudFont11Bold"
 					"fgcolor_override"	"TanLight"
 					"textAlignment"		"west"
 					"textinsetx"		"15"
@@ -240,7 +240,7 @@
 					"image_drawcolor"		"0 0 0 0"
 
 					"command"	"sort1"
-					"actionsignallevel"	"4"	
+					"actionsignallevel"	"4"
 
 					"sound_depressed"	"UI/buttonclick.wav"
 					"sound_released"	"UI/buttonclickrelease.wav"
@@ -258,9 +258,9 @@
 					"visible"		"1"
 					"paintbackground"	"0"
 					"border_default"		"SortCategoryBorder"
-			
+
 					"labeltext"			"#TF_Competitive_Map"
-					"font"				"HudFontSmallest"
+					"font"				"HudFont11Bold"
 					"fgcolor_override"	"TanLight"
 					"textAlignment"		"west"
 					"textinsetx"		"15"
@@ -291,9 +291,9 @@
 					"proportionaltoparent"	"1"
 					"visible"		"1"
 					"paintbackground"	"0"
-			
+
 					"labeltext"			"#TF_Competitive_KDR"
-					"font"				"HudFontSmallest"
+					"font"				"HudFont11Bold"
 					"fgcolor_override"	"TanLight"
 					"textAlignment"		"west"
 
@@ -342,14 +342,14 @@
 					{
 						"fgcolor_override"	"TanDark"
 					}
-		
+
 					"UpButton"
 					{
 						"ControlName"	"Button"
 						"FieldName"		"UpButton"
 						"visible"		"0"
 					}
-		
+
 					"DownButton"
 					{
 						"ControlName"	"Button"
@@ -422,34 +422,34 @@
 
 		"NearbyColumnHead"
 		{
-			"font"			"HudFontSmallest"
+			"font"			"HudFont11Bold"
 			"xpos"		"rs1-90"
 			"proportionaltoparent"	"1"
 		}
 
 		"WorldwideColumnHead"
 		{
-			"font"			"HudFontSmallest"
+			"font"			"HudFont11Bold"
 			"xpos"		"rs1-10"
 			"proportionaltoparent"	"1"
 		}
 
 		"PlayersInGameLabel"
 		{
-			"font"			"HudFontSmallestBold"
+			"font"			"HudFont11Bold"
 			"xpos"		"10"
 		}
 
 		"PlayersInGameTotalLabel"
 		{
-			"font"			"HudFontSmallest"
+			"font"			"HudFont11Bold"
 			"xpos"		"20"
 			"ypos"		"85"
 		}
 
 			"PlayersInGameTotalNearbyValue"
 			{
-				"font"			"HudFontSmallest"
+				"font"			"HudFont11Bold"
 				"xpos"		"rs1-90"
 				"ypos"		"85"
 				"proportionaltoparent"	"1"
@@ -457,7 +457,7 @@
 
 			"PlayersInGameTotalWorldwideValue"
 			{
-				"font"			"HudFontSmallest"
+				"font"			"HudFont11Bold"
 				"xpos"		"rs1-10"
 				"ypos"		"85"
 				"proportionaltoparent"	"1"
@@ -465,14 +465,14 @@
 
 		"PlayersInGameMatchingLabel"
 		{
-			"font"			"HudFontSmallest"
+			"font"			"HudFont11Bold"
 			"xpos"		"20"
 			"ypos"		"97"
 		}
 
 			"PlayersInGameMatchingNearbyValue"
 			{
-				"font"			"HudFontSmallest"
+				"font"			"HudFont11Bold"
 				"xpos"		"rs1-90"
 				"ypos"		"97"
 				"proportionaltoparent"	"1"
@@ -480,7 +480,7 @@
 
 			"PlayersInGameMatchingWorldwideValue"
 			{
-				"font"			"HudFontSmallest"
+				"font"			"HudFont11Bold"
 				"xpos"		"rs1-10"
 				"ypos"		"97"
 				"proportionaltoparent"	"1"
@@ -488,21 +488,21 @@
 
 		"PlayersSearchingLabel"
 		{
-			"font"			"HudFontSmallestBold"
+			"font"			"HudFont11Bold"
 			"xpos"		"10"
 			"ypos"		"120"
 		}
 
 		"PlayersSearchingTotalLabel"
 		{
-			"font"			"HudFontSmallest"
+			"font"			"HudFont11Bold"
 			"xpos"		"20"
 			"ypos"		"135"
 		}
 
 			"PlayersSearchingTotalNearbyValue"
 			{
-				"font"			"HudFontSmallest"
+				"font"			"HudFont11Bold"
 				"xpos"		"rs1-90"
 				"ypos"		"135"
 				"proportionaltoparent"	"1"
@@ -510,7 +510,7 @@
 
 			"PlayersSearchingTotalWorldwideValue"
 			{
-				"font"			"HudFontSmallest"
+				"font"			"HudFont11Bold"
 				"xpos"		"rs1-10"
 				"ypos"		"135"
 				"proportionaltoparent"	"1"
@@ -518,14 +518,14 @@
 
 		"PlayersSearchingMatchingLabel"
 		{
-			"font"			"HudFontSmallest"
+			"font"			"HudFont11Bold"
 			"xpos"		"20"
 			"ypos"		"147"
 		}
 
 			"PlayersSearchingMatchingNearbyValue"
 			{
-				"font"			"HudFontSmallest"
+				"font"			"HudFont11Bold"
 				"xpos"		"rs1-90"
 				"ypos"		"147"
 				"proportionaltoparent"	"1"
@@ -533,7 +533,7 @@
 
 			"PlayersSearchingMatchingWorldwideValue"
 			{
-				"font"			"HudFontSmallest"
+				"font"			"HudFont11Bold"
 				"xpos"		"rs1-10"
 				"ypos"		"147"
 				"proportionaltoparent"	"1"
@@ -541,14 +541,14 @@
 
 		"EmptyGameserversLabel"
 		{
-			"font"			"HudFontSmallestBold"
+			"font"			"HudFont11Bold"
 			"xpos"		"10"
 			"ypos"		"170"
 		}
 
 			"EmptyGameserversMatchingNearbyValue"
 			{
-				"font"			"HudFontSmallest"
+				"font"			"HudFont11Bold"
 				"xpos"		"rs1-90"
 				"ypos"		"170"
 				"proportionaltoparent"	"1"
@@ -556,7 +556,7 @@
 
 			"EmptyGameserversMatchingWorldwideValue"
 			{
-				"font"			"HudFontSmallest"
+				"font"			"HudFont11Bold"
 				"xpos"		"rs1-10"
 				"ypos"		"170"
 				"proportionaltoparent"	"1"
@@ -581,7 +581,7 @@
 
 			"PartyHasLowPriorityLabel"
 			{
-				"font"		"HudFontSmallest"
+				"font"		"HudFont11Bold"
 				"xpos"		"60"
 				"ypos"		"0"
 				"zpos"		"2"
@@ -593,7 +593,7 @@
 
 			"PartyLowPriorityPenaltyTimer"
 			{
-				"font"		"HudFontSmallest"
+				"font"		"HudFont11Bold"
 				"xpos"		"60"
 				"ypos"		"rs1"
 				"wide"		"f0"

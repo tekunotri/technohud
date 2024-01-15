@@ -76,7 +76,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"QuestDetailsTitle"
-		"font"			"HudFontMediumBold"
+		"font"			"HudFont24Bold"
 		"labelText"		"#QuestDetails_Title"
 		"textAlignment"	"center"
 		"xpos"			"0"

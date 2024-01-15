@@ -52,7 +52,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"ClassNameLabel"
-			"font"			"HudFontMediumBold"
+			"font"			"HudFont24Bold"
 			"labelText"		"%classname%"
 			"textAlignment"	"left"
 			"xpos"			"10"
@@ -70,7 +70,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"DescLabel"
-			"font"			"HudFontSmallest"
+			"font"			"HudFont11Bold"
 			"labelText"		"%description%"
 			"textAlignment"	"left"
 			"xpos"			"10"
@@ -88,7 +88,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"WeaponSetLabel"
-			"font"			"HudFontSmallest"
+			"font"			"HudFont11Bold"
 			"labelText"		"#TR_StandardWeaponSet"
 			"textAlignment"	"center"
 			"xpos"			"10"
@@ -145,7 +145,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"PrimaryLabel"
-			"font"			"HudFontSmallest"
+			"font"			"HudFont11Bold"
 			"labelText"		"#TR_Primary"
 			"textAlignment"	"center"
 			"xpos"			"15"
@@ -162,7 +162,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"SecondaryLabel"
-			"font"			"HudFontSmallest"
+			"font"			"HudFont11Bold"
 			"labelText"		"#TR_Secondary"
 			"textAlignment"	"center"
 			"xpos"			"115"
@@ -179,7 +179,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"MeleeLabel"
-			"font"			"HudFontSmallest"
+			"font"			"HudFont11Bold"
 			"labelText"		"#TR_Melee"
 			"textAlignment"	"center"
 			"xpos"			"215"

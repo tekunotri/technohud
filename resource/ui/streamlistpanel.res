@@ -194,7 +194,7 @@
 		"labelText"		"#MMenu_Stream_ViewMore"
 		"textinsetx"	"20"
 		"use_proportional_insets" "1"
-		"font"			"HudFontSmallestBold"
+		"font"			"HudFont11Bold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"

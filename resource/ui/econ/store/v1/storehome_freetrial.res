@@ -59,7 +59,7 @@
 
 		"modelpanel_labels_kv"
 		{
-			"font"			"HudFontSmallestBold"
+			"font"			"HudFont11Bold"
 			"textAlignment"	"north-east"
 			"xpos"			"c-61"
 			"ypos"			"32"
@@ -191,7 +191,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"FeaturedItemLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"HudFont11Bold"
 		"labelText"		"#Store_FeaturedItem"
 		"textAlignment"	"north"
 		"xpos"			"c-215"
@@ -208,7 +208,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"FeaturedItemPrice"
-		"font"			"HudFontSmallestBold"
+		"font"			"HudFont11Bold"
 		"labelText"		"%featured_item_price%"
 		"textAlignment"	"center"
 		"xpos"			"c-97"
@@ -240,7 +240,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BackpackSpaceLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"HudFont11Bold"
 		"labelText"		"%freebackpackspace%"
 		"textAlignment"	"east"
 		"xpos"			"c-330"
@@ -308,7 +308,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"FreeTrialTitle"
-			"font"			"HudFontMediumBold"
+			"font"			"HudFont24Bold"
 			"labelText"		"#Store_FreeTrial_Title"
 			"textAlignment"	"west"
 			"xpos"			"10"
@@ -325,7 +325,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"FreeTrialTitleShadow"
-			"font"			"HudFontMediumBold"
+			"font"			"HudFont24Bold"
 			"labelText"		"#Store_FreeTrial_Title"
 			"textAlignment"	"west"
 			"xpos"			"12"
@@ -500,7 +500,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"BonusLabel"
-			"font"			"HudFontMediumSmallBold"
+			"font"			"HudFont18Bold"
 			"labelText"		"#Store_FreeTrial_Bonus"
 			"textAlignment"	"north-west"
 			"xpos"			"100"
@@ -519,7 +519,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"BonusTextLabel"
-			"font"			"HudFontSmallest"
+			"font"			"HudFont11Bold"
 			"labelText"		"#Store_FreeTrial_BonusText"
 			"textAlignment"	"north-west"
 			"xpos"			"100"
@@ -565,7 +565,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"RELOADSCHEME"
-		"font"			"HudFontSmallestBold"
+		"font"			"HudFont11Bold"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
 		"dulltext"		"0"

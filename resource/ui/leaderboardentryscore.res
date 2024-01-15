@@ -10,7 +10,7 @@
 		"wide"			"275"
 		"tall"			"22"
 		"visible"		"1"
-	
+
 		"Background"
 		{
 			"ControlName"	"EditablePanel"
@@ -36,14 +36,14 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			""
-			"scaleImage"	"1"	
+			"scaleImage"	"1"
 			"color_outline"	"52 48 45 255"
 		}
 		"UserName"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"UserName"
-			"font"			"HudFontSmallestBold"
+			"font"			"HudFont11Bold"
 			"labelText"		"%username%"
 			"textAlignment"	"west"
 			"xpos"			"25"
@@ -61,7 +61,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Score"
-			"font"			"HudFontSmallestBold"
+			"font"			"HudFont11Bold"
 			"labelText"		"%score%"
 			"textAlignment"	"west"
 			"xpos"			"200"
@@ -74,6 +74,6 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"0"
-		}	
-	}	
+		}
+	}
 }

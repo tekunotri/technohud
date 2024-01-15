@@ -560,7 +560,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"HudFontMediumBold"
+			"font"			"HudFont24Bold"
 			"labelText"		"#TF_Vote_Title"
 			"textAlignment"	"north"
 			"xpos"			"0"
@@ -613,7 +613,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"ComboLabel"
-			"font"			"HudFontSmallestBold"
+			"font"			"HudFont11Bold"
 			"labelText"		"%combo_label%"
 			"textAlignment"	"east"
 			"xpos"			"5"
@@ -630,7 +630,7 @@
 		{
 			"ControlName"		"ComboBox"
 			"fieldName"			"ComboBox"
-			"Font"				"HudFontSmallestBold"
+			"Font"				"HudFont11Bold"
 			"xpos"				"85"
 			"ypos"				"245"
 			"zpos"				"1"

@@ -22,7 +22,7 @@
 
 			if_small
 			{
-				"font"	"FontStoreOriginalPrice"
+				"font"	"HudFont9"
 			}
 
 			if_medium

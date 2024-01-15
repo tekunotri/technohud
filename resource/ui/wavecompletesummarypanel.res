@@ -36,7 +36,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"WaveCompleteLabelShadow"
-			"font"			"HudFontMediumSmallBold"
+			"font"			"HudFont18Bold"
 			"textAlignment"	"center"
 			"labelText"		"%titletext%"
 			"xpos"			"3"
@@ -57,7 +57,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"WaveCompleteLabel"
-			"font"			"HudFontMediumSmallBold"
+			"font"			"HudFont18Bold"
 			"textAlignment"	"center"
 			"labelText"		"%titletext%"
 			"xpos"			"2"
@@ -85,7 +85,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CreditCollectedTextLabel"
-			"font"			"HudFontSmallest"
+			"font"			"HudFont11Bold"
 			"labelText"		"#TF_PVE_CurrencyCollected"
 			"textAlignment" "north-east"
 			"xpos"			"0"
@@ -99,7 +99,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CreditCollectedCountLabel"
-			"font"			"HudFontSmallest"
+			"font"			"HudFont11Bold"
 			"labelText"		"%creditscollected%"
 			"textAlignment" "north-east"
 			"xpos"			"115"
@@ -113,7 +113,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CreditMissedTextLabel"
-			"font"			"HudFontSmallest"
+			"font"			"HudFont11Bold"
 			"labelText"		"#TF_PVE_Missed"
 			"textAlignment" "north-east"
 			"xpos"			"0"
@@ -127,7 +127,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CreditMissedCountLabel"
-			"font"			"HudFontSmallest"
+			"font"			"HudFont11Bold"
 			"labelText"		"%creditsmissed%"
 			"textAlignment" "north-east"
 			"xpos"			"115"
@@ -141,7 +141,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CreditBonusTextLabel"
-			"font"			"HudFontSmallest"
+			"font"			"HudFont11Bold"
 			"labelText"		"#TF_PVE_Bonus"
 			"textAlignment" "north-east"
 			"xpos"			"0"
@@ -155,7 +155,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CreditBonusCountLabel"
-			"font"			"HudFontSmallest"
+			"font"			"HudFont11Bold"
 			"labelText"		"%creditbonus%"
 			"textAlignment" "north-east"
 			"xpos"			"115"
@@ -195,7 +195,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"RatingTextShadow"
-			"font"			"HudFontMediumBold"
+			"font"			"HudFont24Bold"
 			"labelText"		"%ratingscore%"
 			"textAlignment" "center"
 			"xpos"			"1"
@@ -209,7 +209,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"RatingText"
-			"font"			"HudFontMediumBold"
+			"font"			"HudFont24Bold"
 			"labelText"		"%ratingscore%"
 			"textAlignment" "center"
 			"xpos"			"0"

@@ -78,7 +78,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"ItemNameLabel"
-			"font"			"HudFontSmallestBold"
+			"font"			"HudFont11Bold"
 			"labelText"		"%itemname%"
 			"textAlignment"	"west"
 			"xpos"			"360"
@@ -115,7 +115,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"UsedByLabel"
-				"font"			"FontStoreOriginalPrice"
+				"font"			"HudFont9"
 				"labelText"		"#Store_ItemDesc_UsedBy"
 				"textAlignment"	"north-west"
 				"wide"			"228"
@@ -132,7 +132,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"UsedByTextLabel"
-				"font"			"FontStoreOriginalPrice"
+				"font"			"HudFont9"
 				"labelText"		"%used_by_classes%"
 				"textAlignment"	"north-west"
 				"wide"			"228"
@@ -148,7 +148,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"SlotLabel"
-				"font"			"FontStoreOriginalPrice"
+				"font"			"HudFont9"
 				"labelText"		"#Store_ItemDesc_Slot"
 				"textAlignment"	"north-west"
 				"wide"			"228"
@@ -165,7 +165,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"SlotTextLabel"
-				"font"			"FontStoreOriginalPrice"
+				"font"			"HudFont9"
 				"labelText"		"%slot%"
 				"textAlignment"	"north-west"
 				"wide"			"228"
@@ -181,7 +181,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"AttributesLabel"
-				"font"			"FontStoreOriginalPrice"
+				"font"			"HudFont9"
 				"textAlignment"	"north-west"
 				"wide"			"228"
 				"tall"			"300"
@@ -272,7 +272,7 @@
 	{
 		"ControlName"		"ComboBox"
 		"fieldName"			"LODComboBox"
-		"Font"				"HudFontSmallestBold"
+		"Font"				"HudFont11Bold"
 		"xpos"				"c-18"
 		"ypos"				"c102"
 		"zpos"				"5"
@@ -594,7 +594,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"LoadoutLabel"
-			"font"			"HudFontSmallestBold"
+			"font"			"HudFont11Bold"
 			"labelText"		"#TF_ImportPreview_LoadoutLabel"
 			"textAlignment"	"west"
 			"xpos"			"0"
@@ -613,7 +613,7 @@
 		{
 			"ControlName"		"ComboBox"
 			"fieldName"			"LoadoutComboBox"
-			"Font"				"HudFontSmallestBold"
+			"Font"				"HudFont11Bold"
 			"xpos"				"0"
 			"ypos"				"15"
 			"wide"				"200"
@@ -627,7 +627,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"PoseLabel"
-			"font"			"HudFontSmallestBold"
+			"font"			"HudFont11Bold"
 			"labelText"		"#TF_ImportPreview_PoseLabel"
 			"textAlignment"	"west"
 			"xpos"			"0"
@@ -646,7 +646,7 @@
 		{
 			"ControlName"		"ComboBox"
 			"fieldName"			"PoseComboBox"
-			"Font"				"HudFontSmallestBold"
+			"Font"				"HudFont11Bold"
 			"xpos"				"0"
 			"ypos"				"60"
 			"wide"				"95"
@@ -675,14 +675,14 @@
 			"wrap"			"1"
 			"Command"		"Action"
 			"Default"		"0"
-			"font"			"HudFontSmallestBold"
+			"font"			"HudFont11Bold"
 		}
 
 		"ActionComboBox"
 		{
 			"ControlName"		"ComboBox"
 			"fieldName"			"ActionComboBox"
-			"Font"				"HudFontSmallestBold"
+			"Font"				"HudFont11Bold"
 			"xpos"				"100"
 			"ypos"				"60"
 			"wide"				"100"
@@ -696,7 +696,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"EffectLabel"
-			"font"			"HudFontSmallestBold"
+			"font"			"HudFont11Bold"
 			"labelText"		"#TF_ImportPreview_EffectLabel"
 			"textAlignment"	"west"
 			"xpos"			"0"
@@ -715,7 +715,7 @@
 		{
 			"ControlName"		"ComboBox"
 			"fieldName"			"EffectComboBox"
-			"Font"				"HudFontSmallestBold"
+			"Font"				"HudFont11Bold"
 			"xpos"				"0"
 			"ypos"				"105"
 			"wide"				"200"
@@ -746,14 +746,14 @@
 		"wrap"		"0"
 		"Command"		"EditQCI"
 		"Default"		"0"
-		"font"		"HudFontSmallestBold"
+		"font"		"HudFont11Bold"
 	}
 
 	"AdvancedLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AdvancedLabel"
-		"font"		"HudFontSmallestBold"
+		"font"		"HudFont11Bold"
 		"textAlignment"	"north-west"
 		"xpos"			"c60"
 		"ypos"			"c40"
@@ -801,7 +801,7 @@
 			"wrap"		"0"
 			"Command"		"EditQC"
 			"Default"		"0"
-			"font"		"HudFontSmallestBold"
+			"font"		"HudFont11Bold"
 		}
 
 		"ButtonEditMaterial0"
@@ -824,7 +824,7 @@
 			"wrap"		"0"
 			"Command"		"EditMaterial0"
 			"Default"		"0"
-			"font"		"HudFontSmallestBold"
+			"font"		"HudFont11Bold"
 		}
 
 		"ButtonEditMaterial1"
@@ -847,7 +847,7 @@
 			"wrap"		"0"
 			"Command"		"EditMaterial1"
 			"Default"		"0"
-			"font"		"HudFontSmallestBold"
+			"font"		"HudFont11Bold"
 		}
 
 		"ButtonEditMaterial2"
@@ -870,7 +870,7 @@
 			"wrap"		"0"
 			"Command"		"EditMaterial2"
 			"Default"		"0"
-			"font"		"HudFontSmallestBold"
+			"font"		"HudFont11Bold"
 		}
 
 		"ButtonEditMaterial3"
@@ -893,7 +893,7 @@
 			"wrap"		"0"
 			"Command"		"EditMaterial3"
 			"Default"		"0"
-			"font"		"HudFontSmallestBold"
+			"font"		"HudFont11Bold"
 		}
 	}
 
@@ -911,7 +911,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"?"
-		"font"			"HudFontSmallestBold"
+		"font"			"HudFont11Bold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -946,7 +946,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"HudFontSmallestBold"
+			"font"			"HudFont11Bold"
 			"labelText"		"#TF_ImportFile_PreviewExplanation_Title"
 			"textAlignment"	"north"
 			"xpos"			"20"
@@ -965,7 +965,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TextLabel"
-			"font"			"HudFontSmallest"
+			"font"			"HudFont11Bold"
 			"labelText"		"#TF_ImportFile_PreviewExplanation_Text"
 			"textAlignment"	"north-west"
 			"xpos"			"20"
@@ -995,7 +995,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labeltext"		""
-			"font"			"HudFontSmallestBold"
+			"font"			"HudFont11Bold"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -1031,7 +1031,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"PositionLabel"
-			"font"			"HudFontSmallestBold"
+			"font"			"HudFont11Bold"
 			"labelText"		"%explanationnumber%"
 			"textAlignment"	"center"
 			"xpos"			"0"
@@ -1060,7 +1060,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labeltext"		""
-			"font"			"HudFontSmallestBold"
+			"font"			"HudFont11Bold"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -1121,7 +1121,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"HudFontSmallestBold"
+			"font"			"HudFont11Bold"
 			"labelText"		"#TF_ImportFile_OptionsExplanation_Title"
 			"textAlignment"	"north"
 			"xpos"			"20"
@@ -1140,7 +1140,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TextLabel"
-			"font"			"HudFontSmallest"
+			"font"			"HudFont11Bold"
 			"labelText"		"#TF_ImportFile_OptionsExplanation_Text"
 			"textAlignment"	"north-west"
 			"xpos"			"20"
@@ -1170,7 +1170,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labeltext"		""
-			"font"			"HudFontSmallestBold"
+			"font"			"HudFont11Bold"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -1217,7 +1217,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labeltext"		""
-			"font"			"HudFontSmallestBold"
+			"font"			"HudFont11Bold"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -1253,7 +1253,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"PositionLabel"
-			"font"			"HudFontSmallestBold"
+			"font"			"HudFont11Bold"
 			"labelText"		"%explanationnumber%"
 			"textAlignment"	"center"
 			"xpos"			"0"
@@ -1282,7 +1282,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labeltext"		""
-			"font"			"HudFontSmallestBold"
+			"font"			"HudFont11Bold"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -1343,7 +1343,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"HudFontSmallestBold"
+			"font"			"HudFont11Bold"
 			"labelText"		"#TF_ImportFile_AdvancedExplanation_Title"
 			"textAlignment"	"north"
 			"xpos"			"20"
@@ -1362,7 +1362,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TextLabel"
-			"font"			"HudFontSmallest"
+			"font"			"HudFont11Bold"
 			"labelText"		"#TF_ImportFile_AdvancedExplanation_Text"
 			"textAlignment"	"north-west"
 			"xpos"			"20"
@@ -1392,7 +1392,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labeltext"		""
-			"font"			"HudFontSmallestBold"
+			"font"			"HudFont11Bold"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -1439,7 +1439,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labeltext"		""
-			"font"			"HudFontSmallestBold"
+			"font"			"HudFont11Bold"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -1475,7 +1475,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"PositionLabel"
-			"font"			"HudFontSmallestBold"
+			"font"			"HudFont11Bold"
 			"labelText"		"%explanationnumber%"
 			"textAlignment"	"center"
 			"xpos"			"0"
@@ -1504,7 +1504,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labeltext"		""
-			"font"			"HudFontSmallestBold"
+			"font"			"HudFont11Bold"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -1564,7 +1564,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"HudFontSmallestBold"
+			"font"			"HudFont11Bold"
 			"labelText"		"#ExplanationExplanation_Title"
 			"textAlignment"	"north"
 			"xpos"			"20"
@@ -1583,7 +1583,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TextLabel"
-			"font"			"HudFontSmallest"
+			"font"			"HudFont11Bold"
 			"labelText"		"#ExplanationExplanation_Text"
 			"textAlignment"	"north-west"
 			"xpos"			"20"
@@ -1613,7 +1613,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labeltext"		""
-			"font"			"HudFontSmallestBold"
+			"font"			"HudFont11Bold"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -1660,7 +1660,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labeltext"		""
-			"font"			"HudFontSmallestBold"
+			"font"			"HudFont11Bold"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -1696,7 +1696,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"PositionLabel"
-			"font"			"HudFontSmallestBold"
+			"font"			"HudFont11Bold"
 			"labelText"		"%explanationnumber%"
 			"textAlignment"	"center"
 			"xpos"			"0"
@@ -1732,7 +1732,7 @@
 		"wrap"		"0"
 		"Command"		"BuildPreview"
 		"Default"		"0"
-		"font"		"HudFontSmallestBold"
+		"font"		"HudFont11Bold"
 	}
 
 	"ButtonClose"
@@ -1755,6 +1755,6 @@
 		"wrap"		"0"
 		"Command"		"Close"
 		"Default"		"1"
-		"font"		"HudFontSmallestBold"
+		"font"		"HudFont11Bold"
 	}
 }

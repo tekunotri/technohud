@@ -57,7 +57,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"HudFontMediumBold"
+			"font"			"HudFont24Bold"
 			"labelText"		"#TF_Quickplay_Title"
 			"textAlignment"	"center"
 			"xpos"			"40"
@@ -159,7 +159,7 @@
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"Label_GameType"
-					"font"			"HudFontMediumSmallBold"
+					"font"			"HudFont18Bold"
 					"labelText"		"%gametype%"
 					"textAlignment"	"center"
 					"xpos"			"0"
@@ -179,7 +179,7 @@
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"DescLabel"
-					"font"			"HudFontSmallest"
+					"font"			"HudFont11Bold"
 					"labelText"		"%description%"
 					"textAlignment"	"south"
 					"xpos"			"5"
@@ -202,7 +202,7 @@
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"ComplexityLabel"
-					"font"			"HudFontSmallest"
+					"font"			"HudFont11Bold"
 					"labelText"		"%complexity%"
 					"textAlignment"	"south"
 					"xpos"			"5"
@@ -259,7 +259,7 @@
 					{
 						"ControlName"		"CExLabel"
 						"fieldName"		"MoreInfoLabel"
-						"font"			"HudFontSmallest"
+						"font"			"HudFont11Bold"
 						"labelText"		"%more_info%"
 						"textAlignment"	"center"
 						"xpos"			"10"
@@ -388,7 +388,7 @@
 				{
 					"ControlName"		"ComboBox"
 					"fieldName"			"OptionCombo"
-					"Font"				"HudFontSmallest"
+					"Font"				"HudFont11Bold"
 					"xpos"				"190"
 					"ypos"				"0"
 					"zpos"				"1"
@@ -426,7 +426,7 @@
 				{
 					"ControlName"		"RadioButton"
 					"fieldName"			"RadioButton0"
-					"Font"				"HudFontSmallest"
+					"Font"				"HudFont11Bold"
 					"xpos"				"20"
 					"ypos"				"15"
 					"zpos"				"1"
@@ -438,7 +438,7 @@
 				{
 					"ControlName"		"RadioButton"
 					"fieldName"			"RadioButton1"
-					"Font"				"HudFontSmallest"
+					"Font"				"HudFont11Bold"
 					"xpos"				"20"
 					"ypos"				"30"
 					"zpos"				"1"
@@ -450,7 +450,7 @@
 				{
 					"ControlName"		"RadioButton"
 					"fieldName"			"RadioButton2"
-					"Font"				"HudFontSmallest"
+					"Font"				"HudFont11Bold"
 					"xpos"				"20"
 					"ypos"				"45"
 					"zpos"				"1"
@@ -487,7 +487,7 @@
 				{
 					"ControlName"		"RadioButton"
 					"fieldName"			"RadioButton0"
-					"Font"				"HudFontSmallest"
+					"Font"				"HudFont11Bold"
 					"xpos"				"20"
 					"ypos"				"15"
 					"zpos"				"1"
@@ -499,7 +499,7 @@
 				{
 					"ControlName"		"RadioButton"
 					"fieldName"			"RadioButton1"
-					"Font"				"HudFontSmallest"
+					"Font"				"HudFont11Bold"
 					"xpos"				"20"
 					"ypos"				"30"
 					"zpos"				"1"
@@ -511,7 +511,7 @@
 				{
 					"ControlName"		"RadioButton"
 					"fieldName"			"RadioButton2"
-					"Font"				"HudFontSmallest"
+					"Font"				"HudFont11Bold"
 					"xpos"				"20"
 					"ypos"				"45"
 					"zpos"				"1"
@@ -548,7 +548,7 @@
 				{
 					"ControlName"		"RadioButton"
 					"fieldName"			"RadioButton0"
-					"Font"				"HudFontSmallest"
+					"Font"				"HudFont11Bold"
 					"xpos"				"20"
 					"ypos"				"15"
 					"zpos"				"1"
@@ -560,7 +560,7 @@
 				{
 					"ControlName"		"RadioButton"
 					"fieldName"			"RadioButton1"
-					"Font"				"HudFontSmallest"
+					"Font"				"HudFont11Bold"
 					"xpos"				"20"
 					"ypos"				"30"
 					"zpos"				"1"
@@ -572,7 +572,7 @@
 				{
 					"ControlName"		"RadioButton"
 					"fieldName"			"RadioButton2"
-					"Font"				"HudFontSmallest"
+					"Font"				"HudFont11Bold"
 					"xpos"				"20"
 					"ypos"				"45"
 					"zpos"				"1"
@@ -609,7 +609,7 @@
 				{
 					"ControlName"		"RadioButton"
 					"fieldName"			"RadioButton0"
-					"Font"				"HudFontSmallest"
+					"Font"				"HudFont11Bold"
 					"xpos"				"20"
 					"ypos"				"15"
 					"zpos"				"1"
@@ -621,7 +621,7 @@
 				{
 					"ControlName"		"RadioButton"
 					"fieldName"			"RadioButton1"
-					"Font"				"HudFontSmallest"
+					"Font"				"HudFont11Bold"
 					"xpos"				"20"
 					"ypos"				"30"
 					"zpos"				"1"
@@ -633,7 +633,7 @@
 				{
 					"ControlName"		"RadioButton"
 					"fieldName"			"RadioButton2"
-					"Font"				"HudFontSmallest"
+					"Font"				"HudFont11Bold"
 					"xpos"				"20"
 					"ypos"				"45"
 					"zpos"				"1"
@@ -670,7 +670,7 @@
 				{
 					"ControlName"		"RadioButton"
 					"fieldName"			"RadioButton0"
-					"Font"				"HudFontSmallest"
+					"Font"				"HudFont11Bold"
 					"xpos"				"20"
 					"ypos"				"15"
 					"zpos"				"1"
@@ -682,7 +682,7 @@
 				{
 					"ControlName"		"RadioButton"
 					"fieldName"			"RadioButton1"
-					"Font"				"HudFontSmallest"
+					"Font"				"HudFont11Bold"
 					"xpos"				"20"
 					"ypos"				"30"
 					"zpos"				"1"
@@ -694,7 +694,7 @@
 				{
 					"ControlName"		"RadioButton"
 					"fieldName"			"RadioButton2"
-					"Font"				"HudFontSmallest"
+					"Font"				"HudFont11Bold"
 					"xpos"				"20"
 					"ypos"				"45"
 					"zpos"				"1"
@@ -819,7 +819,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"OptionsSummaryLabel"
-			"font"			"HudFontSmallest"
+			"font"			"HudFont11Bold"
 			"textAlignment"	"left"
 			"wrap"			"1"
 			"proportionalToParent"	"1"
@@ -869,7 +869,7 @@
 			"ControlName"			"CheckButton"
 			"fieldName"				"BetaCheckButton"
 			"labelText"				"#TF_Quickplay_BetaMaps"
-			"Font"					"HudFontSmallestBold"
+			"Font"					"HudFont11Bold"
 			"textAlignment"			"west"
 			"Command"				"beta_toggle"
 			"xpos"					"10"

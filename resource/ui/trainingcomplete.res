@@ -173,7 +173,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ResultsLabel"
-		  	"font"			"HudFontMediumSmallBold"
+		  	"font"			"HudFont18Bold"
 			"labelText"		"%wintext%"
 			"textAlignment"		"center"
 			"xpos"			"0"

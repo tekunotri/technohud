@@ -64,7 +64,7 @@
 		"textAlignment"	"north"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"HudFontSmallestBold"
+		"font"			"HudFont11Bold"
 	}
 
 	"NumPipesLabel"

@@ -15,10 +15,10 @@
 		"enabled"		"1"
 		"image"			"../hud/color_panel_blu"
 		"image_lodef"	"../hud/color_panel_blu"
-		
+
 		"src_corner_height"		"23"			// pixels inside the image
 		"src_corner_width"		"23"
-			
+
 		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"5"
 	}
@@ -37,10 +37,10 @@
 		"enabled"		"1"
 		"image"			"../hud/color_panel_red"
 		"image_lodef"	"../hud/color_panel_red"
-		
+
 		"src_corner_height"		"23"			// pixels inside the image
 		"src_corner_width"		"23"
-			
+
 		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"5"
 	}
@@ -70,15 +70,15 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			""
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"color_outline"	"52 48 45 255"
 	}
-	
+
 	"CoachNameLabel"
-	{	
+	{
 		"ControlName"	"Label"
 		"fieldName"		"CoachNameLabel"
-		"font"			"HudFontMediumSmallSecondary"
+		"font"			"HudFont18"
 		"font_minmode"	"TFFontLarge"
 		"xpos"			"42"
 		"ypos"			"0"
@@ -96,7 +96,7 @@
 	}
 
 	"KickCoachLabel"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"KickCoachLabel"
 		"fgcolor"		"TanLight"
@@ -116,7 +116,7 @@
 	}
 
 	"LikeCoachLabel"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"LikeCoachLabel"
 		"fgcolor"		"TanLight"

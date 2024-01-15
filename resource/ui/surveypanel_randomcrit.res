@@ -89,7 +89,7 @@
 					"proportionaltoparent"	"1"
 
 					"labelText"		"#TF_SurveyQuestion_Rating0"
-					"font"			"HudFontSmallest"
+					"font"			"HudFont11Bold"
 					"textAlignment"	"center"
 
 					"associate"		"Radio0"
@@ -127,7 +127,7 @@
 					"proportionaltoparent"	"1"
 
 					"labelText"		"#TF_SurveyQuestion_Rating1"
-					"font"			"HudFontSmallest"
+					"font"			"HudFont11Bold"
 					"textAlignment"	"center"
 				}
 
@@ -163,7 +163,7 @@
 					"proportionaltoparent"	"1"
 
 					"labelText"		"#TF_SurveyQuestion_Rating2"
-					"font"			"HudFontSmallest"
+					"font"			"HudFont11Bold"
 					"textAlignment"	"center"
 					"default"		"1"
 				}
@@ -200,7 +200,7 @@
 					"proportionaltoparent"	"1"
 
 					"labelText"		"#TF_SurveyQuestion_Rating3"
-					"font"			"HudFontSmallest"
+					"font"			"HudFont11Bold"
 					"textAlignment"	"center"
 				}
 
@@ -236,7 +236,7 @@
 					"proportionaltoparent"	"1"
 
 					"labelText"		"#TF_SurveyQuestion_Rating4"
-					"font"			"HudFontSmallest"
+					"font"			"HudFont11Bold"
 					"textAlignment"	"center"
 				}
 			}

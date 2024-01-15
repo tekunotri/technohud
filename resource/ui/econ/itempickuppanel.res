@@ -84,7 +84,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ItemsFoundLabel"
-		"font"			"HudFontMediumBigBold"
+		"font"			"HudFont30Bold"
 		"labelText"		"#NewItemsAcquired"
 		"textAlignment"	"center"
 		"xpos"			"0"
@@ -102,7 +102,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SelectedItemFoundMethodLabel"
-		"font"			"HudFontMediumSmallBold"
+		"font"			"HudFont18Bold"
 		"labelText"		""
 		"textAlignment"	"center"
 		"xpos"			"0"
@@ -120,7 +120,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ItemCountLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"HudFont11Bold"
 		"labelText"		"#Item"
 		"textAlignment"	"north-west"
 		"xpos"			"c-245"
@@ -137,7 +137,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"SelectedItemNumberLabel"
-		"font"			"HudFontMediumBigBold"
+		"font"			"HudFont30Bold"
 		"labelText"		"#SelectedItemNumber"
 		"textAlignment"	"north-west"
 		"xpos"			"c-245"
@@ -166,7 +166,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#NextItem"
-		"font"			"HudFontSmallestBold"
+		"font"			"HudFont11Bold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -189,7 +189,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#PreviousItem"
-		"font"			"HudFontSmallestBold"
+		"font"			"HudFont11Bold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -310,7 +310,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TipLabel"
-			"font"			"HudFontSmallestBold"
+			"font"			"HudFont11Bold"
 			"labelText"		"#DiscardItem"
 			"textAlignment"	"center"
 			"xpos"			"12"
@@ -330,7 +330,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"DiscardedLabel"
-		"font"			"HudFontMediumBold"
+		"font"			"HudFont24Bold"
 		"labelText"		"#Discarded"
 		"textAlignment"	"center"
 		"xpos"			"c-215"

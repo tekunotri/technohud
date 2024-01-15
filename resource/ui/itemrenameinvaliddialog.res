@@ -183,7 +183,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"GivenName"
-		"font"			"HudFontMediumSecondary"
+		"font"			"HudFont24"
 		"labelText"		"%name%"
 		"textAlignment"	"center"
 		"xpos"			"20"

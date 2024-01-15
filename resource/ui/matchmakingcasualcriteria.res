@@ -177,7 +177,7 @@
 			"proportionaltoparent"	"1"
 			"labeltext"		"#TF_Casual_MapSelection"
 			"textAlignment"	"north-west"
-			"font"			"HudFontMediumSmallBold"
+			"font"			"HudFont18Bold"
 
 			"mouseinputenabled"	"0"
 		}
@@ -194,7 +194,7 @@
 			"proportionaltoparent"	"1"
 			"labeltext"		"%selected_maps_count%"
 			"textAlignment"	"west"
-			"font"			"HudFontSmallest"
+			"font"			"HudFont11Bold"
 			"fgcolor_override"	"TanDark"
 
 			"mouseinputenabled"	"1"
@@ -212,7 +212,7 @@
 			"proportionaltoparent"	"1"
 			"labeltext"		"#TF_Casual_QueueEstimation"
 			"textAlignment"	"east"
-			"font"			"HudFontSmallest"
+			"font"			"HudFont11Bold"
 			"fgcolor_override"	"TanLight"
 			"textinsetx"	"5"
 			"visible"	"0"

@@ -276,7 +276,7 @@
 				"tall"								"f0"
 				"visible"							"1"
 				"enabled"							"1"
-				"font"								"HudFontSmallestBold"
+				"font"								"HudFont11Bold"
 				"fgcolor_override"					"White"
 				"textAlignment"						"west"
 				"labelText"							"%queue_state%"
@@ -287,15 +287,15 @@
 				{
 					"0"
 					{
-						"font"						"HudFontSmallestBold"
+						"font"						"HudFont11Bold"
 					}
 					"1"
 					{
-						"font"						"StorePromotionsTitle"
+						"font"						"HudFont10Bold"
 					}
 					"2"
 					{
-						"font"						"FontStorePrice"
+						"font"						"HudFont9"
 					}
 				}
 			}
@@ -378,7 +378,7 @@
 				"tall"								"f0"
 				"visible"							"1"
 				"enabled"							"1"
-				"font"								"HudFontSmallestBold"
+				"font"								"HudFont11Bold"
 				"fgcolor_override"					"White"
 				"textAlignment"						"west"
 				"labelText"							"#TF_MM_JoinPartyLobby_Prompt"
@@ -403,7 +403,7 @@
 
 				"visible"							"1"
 				"enabled"							"1"
-				"font"								"HudFontSmallestBold"
+				"font"								"HudFont11Bold"
 				"textAlignment"						"center"
 				"Command"							"join_party_match"
 				"proportionaltoparent"				"1"

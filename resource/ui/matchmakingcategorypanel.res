@@ -11,7 +11,7 @@
 
 		"collapsed_height"	"57"
 		"resize_time"	"0.2"
-	
+
 	}
 
 	"TopContainer"
@@ -39,7 +39,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"mouseinputenabled"	"0"
-		
+
 			"proportionaltoparent"	"1"
 			"bgcolor_override"	"0 0 0 255"
 		}
@@ -55,7 +55,7 @@
 			"tall"			"f0"
 			"visible"		"1"
 			"enabled"		"1"
-			"scaleImage"	"1"	
+			"scaleImage"	"1"
 			"proportionaltoparent"	"1"
 		}
 
@@ -108,7 +108,7 @@
 				"scaleImage"	"1"
 
 				"proportionaltoparent"	"1"
-			}	
+			}
 		}
 
 		"Shade"
@@ -139,7 +139,7 @@
 			"labeltext"		""
 			"smallcheckimage"	"1"
 
-			"sound_depressed"	"UI/buttonclickrelease.wav"	
+			"sound_depressed"	"UI/buttonclickrelease.wav"
 			"button_activation_type"	"1"
 		}
 
@@ -157,7 +157,7 @@
 			"labelText"		"%title_token%"
 			"textinsetx"	"5"
 			"use_proportional_insets" "1"
-			"font"			"HudFontSmallestBold"
+			"font"			"HudFont11Bold"
 			"textAlignment"	"east"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -166,7 +166,7 @@
 			"mouseinputenabled"	"0"
 
 			"fgcolor"		"TanLight"
-		}	
+		}
 
 		"TitleShadow"
 		{
@@ -182,7 +182,7 @@
 			"labelText"		"%title_token%"
 			"textinsetx"	"5"
 			"use_proportional_insets" "1"
-			"font"			"HudFontSmallestBold"
+			"font"			"HudFont11Bold"
 			"textAlignment"	"east"
 			"dulltext"		"0"
 			"brighttext"	"0"

@@ -24,7 +24,7 @@
 
 		"recipeskv"
 		{
-			"font"			"HudFontSmallestBold"
+			"font"			"HudFont11Bold"
 			"textAlignment"	"center"
 			"xpos"			"0"
 			"ypos"			"0"
@@ -67,7 +67,7 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"		"TitleLabel"
-		"font"			"HudFontMediumBold"
+		"font"			"HudFont24Bold"
 		"xpos"			"0"
 		"ypos"			"10"
 		"zpos"			"0"

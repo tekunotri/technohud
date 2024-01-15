@@ -85,7 +85,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"NumServers"
-			"font"			"HudFontSmallestBold"
+			"font"			"HudFont11Bold"
 			"labelText"		"%numservers%"
 			"textAlignment"	"center"
 			"xpos"			"0"
@@ -164,7 +164,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"HudFontMediumBold"
+			"font"			"HudFont24Bold"
 			"labelText"		"#TF_MM_ResultsDialog_Title"
 			"textAlignment"	"center"
 			"xpos"			"0"

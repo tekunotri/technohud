@@ -19,7 +19,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ChallengeLabel"
-			"font"			"HudFontMediumSmallBold"
+			"font"			"HudFont18Bold"
 			"labelText"		"#TF_MvM_TourOfDuty"
 			"textAlignment"	"south-west"
 			"xpos"			"0"
@@ -260,7 +260,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"MannUpTicketCountLabel"
-			"font"			"HudFontMediumBold"
+			"font"			"HudFont24Bold"
 			"labelText"		"%ticket_count%"
 			"textAlignment"	"north-west"
 			"fgcolor_override"	"201 79 57 255"
@@ -303,7 +303,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"SquadSurplusCountLabel"
-			"font"			"HudFontMediumBold"
+			"font"			"HudFont24Bold"
 			"labelText"		"%voucher_count%"
 			"textAlignment"	"north-west"
 			"fgcolor_override"	"201 79 57 255"
@@ -332,7 +332,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"SquadSurplusCheckLabel"
-			"font"			"HudFontSmallestBold"
+			"font"			"HudFont11Bold"
 			"labelText"		"#TF_MvM_ActivateSquadSurplus"
 			"textAlignment"	"north-west"
 			"wrap"			"1"
@@ -443,7 +443,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"MissingTicketsLabel"
-			"font"			"HudFontSmallestBold"
+			"font"			"HudFont11Bold"
 			"fgcolor_override"	"TanDark"
 			"labelText"		"#TF_Matchmaking_CantQueue_NoTicket"
 			"textAlignment"	"south-west"
@@ -563,7 +563,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ChallengeLabel"
-			"font"			"HudFontMediumSmallBold"
+			"font"			"HudFont18Bold"
 			"labelText"		"%tour_name%"
 			"textAlignment"	"south-west"
 			"xpos"			"0"
@@ -609,7 +609,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"TourLevelLabel"
-			"font"			"HudFontMediumSmallBold"
+			"font"			"HudFont18Bold"
 			"labelText"		"%tour_level%"
 			"textAlignment"	"south"
 			"xpos"			"357"

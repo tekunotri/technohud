@@ -129,7 +129,7 @@
 		"textAlignment"		"center"
 		"textAlignment_lodef"		"north-west"
 		"font"			"SpectatorKeyHints"
-		"font_hidef"	"HudFontSmallest"
+		"font_hidef"	"HudFont11Bold"
 		"font_lodef"	"HudFont14"
 		"wrap_lodef"			"1"
 	}

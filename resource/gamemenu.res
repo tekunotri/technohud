@@ -3,9 +3,9 @@
 
 	"Version"
 	{
-		"label"										"technohud 0.304"
-		"command"									"engine showconsole; clear; echo technohud (NNF) v0.304; echo by techno, using some bits by various people."
-		"OnlyAtMenu"								"1"
+		"label"										"technohud 0.31"
+		"command"									"engine showconsole; clear; echo technohud (NNF) v0.31; echo by techno, using some bits by various people.; echo github.com/TechnoSL/technohud"
+		"OnlyAtMenu"								"0"
 	}
 	"Servers"
 	{
@@ -22,6 +22,7 @@
 		"label"										"Store (Scam)"
 		"command"									"engine open_store"
 	}
+
 	"VRModeButton"
 	{
 		"label" "#MMenu_VRMode_Activate"
@@ -63,5 +64,11 @@
 		"OnlyInGame"	"1"
 		"subimage"		"glyph_alert"
 		"tooltip"		"#MMenu_ReportPlayer"
+	}
+	"Disconnect"
+	{
+		"label"			"Disconnect"
+		"command"		"engine disconnect"
+		"OnlyInGame"	"1"
 	}
 }

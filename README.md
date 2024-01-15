@@ -6,7 +6,7 @@ only tested/played on 4:3 1280x960, no guarantees things won't be fucked in othe
 
 ## credits / things used
 
-Hypnotize - m0rehud // preloader/method to move buffs/status effects on Player Health, Main Menu (some parts), ItemPanel Methods & 5CP Settings.
+Hypnotize - m0rehud & SunsetHud // preloader/method to move buffs/status effects on Player Health, Main Menu, Inventory, Loading Icon (SunsetHud), ItemPanel Methods & 5CP Settings.
 
 amp-t - PaoloDefault // Class Selection, MOTD & Map Info Menu.
 

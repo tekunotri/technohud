@@ -17,16 +17,16 @@
 
 		"src_corner_height"	"22"				// pixels inside the image
 		"src_corner_width"	"22"
-	
+
 		"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"	
+		"draw_corner_height" 	"5"
 	}
-	
+
 	"WaveCountLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"WaveCountLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"HudFont11Bold"
 		"fgcolor"		"TanLight"
 		"xpos"			"200"
 		"ypos"			"6"
@@ -41,7 +41,7 @@
 		"textAlignment_minmode"		"west"
 		"labelText"					"%wave_count%"
 	}
-	
+
 	"SeparatorBar"
 	{
 		"ControlName"	"Panel"
@@ -56,18 +56,18 @@
 		"scaleImage"	"1"
 		"PaintBackgroundType" "2"
 		"bgcolor_override"	"TanLight"
-		
+
 		if_verbose
 		{
 			"visible"		"1"
 		}
 	}
-	
+
 	"SupportLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SupportLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"HudFont11Bold"
 		"fgcolor"		"TanLight"
 		"xpos"			"55"
 		"ypos"			"6"
@@ -78,13 +78,13 @@
 		"enabled"		"1"
 		"textAlignment"				"west"
 		"labelText"					"#TF_MVM_Support"
-		
+
 		if_verbose
 		{
 			"visible"		"1"
-		}		
+		}
 	}
-	
+
 	"ProgressBar"
 	{
 		"ControlName"	"ScalableImagePanel"
@@ -100,14 +100,14 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../HUD/tournament_panel_blu"
-		
+
 		"src_corner_height"	"22"				// pixels inside the image
 		"src_corner_width"	"22"
-	
+
 		"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"	
+		"draw_corner_height" 	"5"
 	}
-	
+
 	"ProgressBarBG"
 	{
 		"ControlName"	"ScalableImagePanel"
@@ -123,11 +123,11 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../HUD/tournament_panel_tan"
-		
+
 		"src_corner_height"	"22"				// pixels inside the image
 		"src_corner_width"	"22"
-	
+
 		"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"	
+		"draw_corner_height" 	"5"
 	}
 }

@@ -224,7 +224,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TextLabel"
-			"font"									"HudFontSmall"
+			"font"									"HudFont14"
 			"labelText"								"#ClassLoadoutItemPresetsExplanation_Text"
 			"textAlignment"							"north-west"
 			"xpos"									"20"
@@ -428,7 +428,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TextLabel"
-			"font"									"HudFontSmall"
+			"font"									"HudFont14"
 			"labelText"								"#ClassLoadoutTauntsExplanation_Text"
 			"textAlignment"							"north-west"
 			"xpos"									"20"

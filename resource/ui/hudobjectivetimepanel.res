@@ -334,8 +334,8 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"ClockSubText"
-		"font_minmode"	"ClockSubTextSuddenDeath"
+		"font"			"HudFont10Shadow"
+		"font_minmode"	"HudFont10Shadow"
 		"font_hidef"	"HudFont14Shadow"
 		"font_lodef"	"HudFont14Shadow"
 
@@ -361,7 +361,7 @@
 		"ypos_hidef"	"-100"	//off-screen
 		"ypos_lodef"	"-100"	//off-screen
 		"zpos"			"1"
-		"wide"			"78"
+		"wide"			"0"
 		"tall"			"20"
 		"tall_minmode"	"0"
 		"visible"		"0"

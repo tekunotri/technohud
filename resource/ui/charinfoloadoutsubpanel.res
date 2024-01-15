@@ -375,7 +375,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ShowBackpackLabel"
-		"font"										"HudFontSmallestBold"
+		"font"										"HudFont11Bold"
 		"labelText"									"#BackpackTitle"
 		"textAlignment"								"north"
 		"xpos"										"0"
@@ -419,7 +419,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ShowCraftingLabel"
-		"font"										"HudFontSmallestBold"
+		"font"										"HudFont11Bold"
 		"labelText"									"#CraftingExplanation_Title"
 		"textAlignment"								"north"
 		"xpos"										"0"
@@ -463,7 +463,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ShowArmoryLabel"
-		"font"										"HudFontSmallestBold"
+		"font"										"HudFont11Bold"
 		"labelText"									"#Armory"
 		"textAlignment"								"north"
 		"xpos"										"0"
@@ -507,7 +507,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ShowTradeLabel"
-		"font"										"HudFontSmallestBold"
+		"font"										"HudFont11Bold"
 		"labelText"									"#TradingExplanation_Title"
 		"textAlignment"								"north"
 		"xpos"										"0"
@@ -552,7 +552,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ShowPaintkitsLabel"
-		"font"										"HudFontSmallestBold"
+		"font"										"HudFont11Bold"
 		"labelText"									"#PaintkitTitle"
 		"textAlignment"								"north"
 		"xpos"										"0"
@@ -588,7 +588,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ItemsLabel"
-		"font"										"HudFontSmall"
+		"font"										"HudFont14"
 		"labelText"									"classname"
 		"textAlignment"								"north"
 		"xpos"										"0"
@@ -748,7 +748,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TextLabel"
-			"font"									"HudFontSmall"
+			"font"									"HudFont14"
 			"labelText"								"#LoadoutExplanation_Text"
 			"textAlignment"							"north-west"
 			"xpos"									"20"
@@ -904,7 +904,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TextLabel"
-			"font"									"HudFontSmall"
+			"font"									"HudFont14"
 			"labelText"								"#BackpackExplanation_Text"
 			"textAlignment"							"north-west"
 			"xpos"									"20"
@@ -1101,7 +1101,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TextLabel"
-			"font"									"HudFontSmall"
+			"font"									"HudFont14"
 			"labelText"								"#CraftingExplanation_Text"
 			"textAlignment"							"north-west"
 			"xpos"									"20"
@@ -1299,7 +1299,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TextLabel"
-			"font"									"HudFontSmall"
+			"font"									"HudFont14"
 			"labelText"								"#ArmoryExplanation_Text"
 			"textAlignment"							"north-west"
 			"xpos"									"20"
@@ -1497,7 +1497,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TextLabel"
-			"font"									"HudFontSmall"
+			"font"									"HudFont14"
 			"labelText"								"#TradingExplanation_Text"
 			"textAlignment"							"north-west"
 			"xpos"									"20"
@@ -1695,7 +1695,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TextLabel"
-			"font"									"HudFontSmall"
+			"font"									"HudFont14"
 			"labelText"								"#WeaponPatternsExplanation_Text"
 			"textAlignment"							"north-west"
 			"xpos"									"20"
@@ -1892,7 +1892,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TextLabel"
-			"font"									"HudFontSmall"
+			"font"									"HudFont14"
 			"labelText"								"#ExplanationExplanation_Text"
 			"textAlignment"							"north-west"
 			"xpos"									"20"

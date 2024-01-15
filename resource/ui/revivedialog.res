@@ -35,12 +35,12 @@
 			"visible"		"1"
 			"enabled"		"1"
 		}
-	
+
 		"ExplanationLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"ExplanationLabel"
-			"font"			"ReplayBrowserSmallest"
+			"font"			"HudFont11Bold"
 			"labelText"		"%text%"
 			"textAlignment"	"north"
 			"xpos"			"10"
@@ -71,7 +71,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"#ConfirmButtonText"
-			"font"			"ReplayBrowserSmallest"
+			"font"			"HudFont11Bold"
 			"textAlignment"	"center"
 			"textinsetx"	"50"
 			"dulltext"		"0"
@@ -97,10 +97,10 @@
 			"wide"				"48"
 			"tall"				"48"
 			"visible"			"1"
-			"enabled"			"1"	
+			"enabled"			"1"
 			"HealthBonusPosAdj"	"10"
 			"HealthDeathWarning"		"0.49"
-			"TFFont"					"HudFontSmallest"
+			"TFFont"					"HudFont11Bold"
 			"HealthDeathWarningColor"	"HUDDeathWarning"
 			"TextColor"					"HudOffWhite"
 			"autoResize"	"1"

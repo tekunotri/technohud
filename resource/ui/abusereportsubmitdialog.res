@@ -16,7 +16,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"HudFontMediumBold"
+		"font"			"HudFont24Bold"
 		"labelText"		"#AbuseReport_DialogTitle"
 		"textAlignment"	"north-west"
 		"xpos"			"10"

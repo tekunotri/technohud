@@ -57,7 +57,7 @@
 
 		"modelpanel_labels_kv"
 		{
-			"font"			"HudFontSmallestBold"
+			"font"			"HudFont11Bold"
 			"textAlignment"	"north-east"
 			"xpos"			"c-61"
 			"ypos"			"32"
@@ -189,7 +189,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"FeaturedItemLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"HudFont11Bold"
 		"labelText"		"#Store_FeaturedItem"
 		"textAlignment"	"north"
 		"xpos"			"c-215"
@@ -206,7 +206,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"FeaturedItemPrice"
-		"font"			"HudFontSmallestBold"
+		"font"			"HudFont11Bold"
 		"labelText"		"%featured_item_price%"
 		"textAlignment"	"center"
 		"xpos"			"c-97"
@@ -238,7 +238,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BackpackSpaceLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"HudFont11Bold"
 		"labelText"		"%freebackpackspace%"
 		"textAlignment"	"east"
 		"xpos"			"c-330"
@@ -327,7 +327,7 @@
 		{
 			"ControlName"	"CRichTextWithScrollbarBorders"
 			"fieldName"		"IntroRichText"
-			"font"			"HudFontSmallest"
+			"font"			"HudFont11Bold"
 			"textAlignment"	"north-west"
 			"xpos"			"10"
 			"ypos"			"30"
@@ -368,7 +368,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"SaxtonSignatureLabel"
-			"font"			"HudFontSmallest"
+			"font"			"HudFont11Bold"
 			"labelText"		"#Store_CEOMannCo"
 			"textAlignment"	"north-west"
 			"xpos"			"12"
@@ -418,7 +418,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"PromotionLabel_BonusItem"
-			"font"			"StorePromotionsTitle"
+			"font"			"HudFont10Bold"
 			"labelText"		"#Store_Promotion_SpendForGift"
 			"textAlignment"	"north"
 			"xpos"			"185"
@@ -452,7 +452,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"PromotionSubLabel_BonusItem"
-			"font"			"HudFontSmallest"
+			"font"			"HudFont11Bold"
 			"labelText"		"#Store_Promotion_SpendForGift_Sub"
 			"textAlignment"	"center"
 			"xpos"			"185"
@@ -486,7 +486,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"PromotionLabel_Hat"
-			"font"			"StorePromotionsTitle"
+			"font"			"HudFont10Bold"
 			"labelText"		"#Store_Promotion_FirstPurchaseGift"
 			"textAlignment"	"north"
 			"xpos"			"18"
@@ -520,7 +520,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"PromotionSubLabel_Hat"
-			"font"			"HudFontSmallest"
+			"font"			"HudFont11Bold"
 			"labelText"		"#Store_Promotion_FirstPurchaseGift_Sub"
 			"textAlignment"	"center"
 			"xpos"			"18"
@@ -553,7 +553,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"RELOADSCHEME"
-		"font"			"HudFontSmallestBold"
+		"font"			"HudFont11Bold"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
 		"dulltext"		"0"
