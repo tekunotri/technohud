@@ -81,10 +81,7 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"ClockSubTextTiny"
-		"font_hidef"	"HudFont14Shadow"
-		"font_lodef"	"HudFont14Shadow"
-
+		"font"			"HudFont10Shadow"
 		if_match
 		{
 			"proportionaltoparent"	"1"
@@ -92,9 +89,9 @@
 			"ypos"					"21"
 			"ypos_minmode"			"21"
 			"wide"					"p1"
-			"font"					"HudFont11Bold"
-			"font_hidef"			"HudFont11Bold"
-			"font_lodef"			"HudFont11Bold"
+			"font"					"HudFont10Bold"
+			"font_hidef"			"HudFont10Bold"
+			"font_lodef"			"HudFont10Bold"
 		}
 	}
 	"WaitingForPlayersBG"
@@ -107,8 +104,8 @@
 		"ypos_hidef"	"-100"	//off-screen
 		"ypos_lodef"	"-100"	//off-screen
 		"zpos"			"1"
-		"wide"			"78"
-		"tall"			"20"
+		"wide"			"0"
+		"tall"			"0"
 		"tall_minmode"	"0"
 		"visible"		"0"
 		"enabled"		"1"

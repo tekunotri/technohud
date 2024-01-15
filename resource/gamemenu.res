@@ -1,5 +1,27 @@
 "GameMenu" [$WIN32]
 {
+
+	"Version"
+	{
+		"label"										"technohud 0.303"
+		"command"									"engine showconsole; clear; echo technohud (NNF) v0.303; echo by techno, using some bits by various people."
+		"OnlyAtMenu"								"1"
+	}
+	"Servers"
+	{
+		"label"										"Servers"
+		"command"									"OpenServerBrowser"
+	}
+	"Items"
+	{
+		"label"										"Items"
+		"command"									"engine open_charinfo"
+	}
+	"Store"
+	{
+		"label"										"Store (Scam)"
+		"command"									"engine open_store"
+	}
 	"VRModeButton"
 	{
 		"label" "#MMenu_VRMode_Activate"
