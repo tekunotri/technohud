@@ -936,8 +936,8 @@ Scheme{
 			"1"
 			{
 				"name"		"Luxi Mono Regular"
-				"tall"		"18"
-				"weight"	"900"
+				"tall"		"14"
+				"weight"	"500"
 				"antialias" "1"
 				"additive"	"1"
 			}
@@ -1471,7 +1471,7 @@ Scheme{
 				"antialias"	"1"
 			}
 		}
-// loadout item names and stuff like that.
+		// loadout item names and stuff like that.
 		"ItemFontNameSmallest"
 		{
 			"1"

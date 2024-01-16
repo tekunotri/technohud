@@ -10,7 +10,9 @@ Scheme {
 		"THLow2"				"194 69 69 255"
 		"DarkGray"			"44 44 44 255"
 		"DarkerGray"		"33 33 33 255"
+		"TransparentDarkGray"		"44 44 44 200"
 		"TransparentDarkerGray"		"33 33 33 200"
+
 		"Menu_Accent"		"44 44 44 255"
 
 
@@ -101,7 +103,8 @@ Scheme {
 		"HudTrainingHint"			"212 160 23 255"
 
 		"TanDark"				"117 107 94 255"
-		"TanLight"				"235 226 202 255"
+		// overwrite later i cba for now, default: 235 226 202 255
+		"TanLight"				"236 236 236 236"
 		"TanDarker"				"46 43 42 255"
 
 		"StoreDarkTan"			"131 121 104 255"
@@ -131,7 +134,7 @@ Scheme {
 
 		"HTMLBackground"						"95 92 101 255"
 
-		"ItemAttribLevel"						"117 107 94 255"
+		"ItemAttribLevel"						"236 236 236 255"
 		"ItemAttribNeutral"						"235 226 202 255"
 		"ItemAttribPositive"					"153 204 255 255"
 		"ItemAttribNegative"					"255 64 64 255"

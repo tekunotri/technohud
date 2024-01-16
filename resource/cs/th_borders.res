@@ -541,7 +541,7 @@ Scheme
 			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"5"
 		}
-		LoadoutItemPopupBorder
+		LoadoutItemPopupBorder // reused a couple of times for convenience.
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"0"
