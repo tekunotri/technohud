@@ -1905,12 +1905,12 @@ event XPSourceShow_Positive
 
 	Animate SourceLabel		Alpha		255				Linear 0.1 0.3
 	Animate SourceLabel FgColor		"100 255 100 255"	Linear	0.1 0
-	Animate SourceLabel FgColor		CreditsGreen		Linear	0.5 1
+	Animate SourceLabel FgColor		THLow				Linear	0.5 1
 	Animate SourceLabel Alpha		0					Linear 2.9 0.3
 
 	Animate SourceLabelGlow Alpha		255					Linear	0.0 0.1
 	Animate SourceLabelGlow FgColor		"100 255 100 255"	Linear	0.1 0
-	Animate SourceLabelGlow FgColor		CreditsGreen		Linear	0.5 1
+	Animate SourceLabelGlow FgColor		THLow				Linear	0.5 1
 	Animate SourceLabelGlow Alpha		200					Linear	0.5 1
 	Animate SourceLabelGlow Alpha		0					Linear 2.9 0.3
 }
