@@ -31,14 +31,9 @@
 		// SHORTER MEDIGUN NAME
 		//=========================================================================================
 		"TF_playerid_mediccharge"							"%s1%"
-		"TF_playerid_mediccharge_wpn"						"%s1% (%s2)"
+		"TF_playerid_mediccharge_wpn"						"%s1% / %s2"
 		"TF_playerid_object_upgrading"						"%s1"
 		"TF_playerid_object_upgrading_level"				"(Level %s1) %s2"
-
-		//=========================================================================================
-		// REMOVES "HEALER" LABEL
-		//=========================================================================================
-		//"TF_playerid_healer"								""
 
 		//=========================================================================================
 		// REMOVES "HEALING" LABEL
@@ -126,7 +121,11 @@
 		"Msg_Captured"			"capped"			//"captured"
 		"Msg_Captured_Multiple"	"capped"			//"captured"
 		"Msg_Defended"			"blocked"			//"defended"
-
+		"Msg_Dominating"		"rolled"
+		"Msg_Revenge"			"got revenge on"
+		
+		
+		
 		//=========================================================================================
 		// MISC
 		//=========================================================================================

@@ -495,27 +495,24 @@
 		"fieldName" "HudDeathNotice"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	 "r640"	[$WIN32]
-		"ypos"	 "18"	[$WIN32]
-		"xpos"	 "r672"	[$X360]
-		"ypos"	 "35"	[$X360]
+		"xpos"	 "r640"
+		"ypos"	 "18"
 		"wide"	 "628"
 		"tall"	 "468"
 
-		"MaxDeathNotices" "6"
+		"MaxDeathNotices" "10"
 		"IconScale"	  "0.35"
 		"LineHeight"	  "12"
-		"LineSpacing"	  "1"
+		"LineSpacing"	  "0"
 		"CornerRadius"	  "0"
 		"RightJustify"	  "1"	// If 1, draw notices from the right
 
-		"TextFont"		"Default"
+		"TextFont"		"HudFont10"
 
-		"TeamBlue"		"HUDBlueTeam"
-		"TeamRed"		"HUDRedTeam"
-		"IconColor"		"HudWhite"
-		"LocalPlayerColor"	"FullBlack"
-
+		"TeamBlue"		"50 150 201 255"
+		"TeamRed"		"235 58 58 255"
+		"IconColor"		"0 0 0 255"
+		"LocalPlayerColor"	"65 65 65 255"
 		"BaseBackgroundColor"	"FullBlack"		[$WIN32]
 		"LocalBackgroundColor"	"255 255 255 255"	[$WIN32]
 			}

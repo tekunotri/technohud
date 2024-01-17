@@ -4,12 +4,18 @@
 
 an attempt at a hud made from scratch
 
-only tested/played on 4:3 1280x960, no guarantees things won't be fucked in other resolutions.
+should work fine in both 16:9 (tested in 1920x1080) and 4:3 (i play 1280x960 fulltime), other aspect ratios might be a bit wonkier as they are untested.
 
 ## credits / things used
 
-Hypnotize - m0rehud & SunsetHud // preloader/method to move buffs/status effects on Player Health, Main Menu, Inventory, Payload Bars, Loading Icon (SunsetHud), ItemPanel Methods & 5CP Settings.
+### Hypnotize - m0rehud & SunsetHud
 
-amp-t - PaoloDefault // Class Selection, MOTD & Map Info Menu. (modified by me)
+preloader/method to move buffs/status effects on Player Health, Main Menu, Inventory, Payload Bars, Loading Icon (SunsetHud), ItemPanel Methods, Killstreak & 5CP Settings.
 
-playmoo - BotHud // Source Scheme, tf_english chat modifications
+### amp-t - PaoloDefault & PZKPFW
+
+Class Selection, MOTD, Map Info Menu. (modified by me) and PZKPFW Killfeed Settings
+
+### playmoo - BotHud
+
+Source Scheme, tf_english chat modifications
