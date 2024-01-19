@@ -30,7 +30,7 @@
 	{
 		"ControlName"			"CTFProgressBar"
 		"fieldName"			"TimePanelProgressBar"
-		"xpos"				"67"
+		"xpos"				"75"
 		"xpos_hidef"		"159"
 		"xpos_lodef"		"165"
 		"ypos"				"16"
@@ -321,7 +321,7 @@
 		"ypos_hidef"	"41"
 		"ypos_lodef"	"41"
 		"zpos"			"5"
-		"wide"			"78"
+		"wide"			"100"
 		"wide_hidef"	"300"
 		"wide_lodef"	"300"
 		"tall"			"19"
