@@ -1,10 +1,10 @@
 //colors
 #base "cs/th_colors.res"
 
-// font declarations (comment wich font you want)
+// font declarations
 #base "cs/th_fontpaths.res"
 
-// font (only 1 at a time please.)
+// font (only have 1 uncommented at all times)
 #base "cs/th_fonts.res"
 //#base "cs/th_grisaia.res"
 

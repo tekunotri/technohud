@@ -134,7 +134,7 @@
         "10"
         {
             "font"  "resource/fonts/grisaia.ttf"
-            "name"	"Grisaia Custom SP Medium"
+            "name"	"GrisaiaEdit"
         }
 	}
 }

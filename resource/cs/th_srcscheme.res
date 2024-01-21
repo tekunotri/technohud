@@ -12,8 +12,7 @@ Scheme
 		"EllLightGrey"		  "120 120 120 255"
 		"EllLighterGrey"	  "236 236 236 255"
 		"EllTransparentGrey"  "40 40 40 160"
-
-	    "Blank"				"0 0 0 0"
+		"Blank"				"0 0 0 0"
 	}
 
 	BaseSettings
