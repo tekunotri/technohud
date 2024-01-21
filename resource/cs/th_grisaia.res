@@ -7,12 +7,14 @@ Scheme{
 		}
 	Fonts
 	{
-
+		////////////////////////////////////////////////////////////////////////////////////////////////
+		// Naming Scheme: HudFont(Size)(Bold/Shadow)
+		////////////////////////////////////////////////////////////////////////////////////////////////
 		"HudFont6"
 		{
 			"1"
 			{
-			"name"		"Luxi Mono Regular"
+			"name"		"GrisaiaEdit"
 			"tall"		"6"
 			"weight"	"0"
 			"additive"	"0"
@@ -23,7 +25,7 @@ Scheme{
 		{
 			"1"
 			{
-			"name"		"Luxi Mono Regular"
+			"name"		"GrisaiaEdit"
 			"tall"		"6"
 			"weight"	"0"
 			"additive"	"0"
@@ -35,7 +37,7 @@ Scheme{
 		{
 			"1"
 			{
-			"name"		"Luxi Mono Regular"
+			"name"		"GrisaiaEdit"
 			"tall"		"6"
 			"weight"	"0"
 			"additive"	"0"
@@ -46,7 +48,7 @@ Scheme{
 		{
 			"1"
 			{
-			"name"			"Luxi Mono Regular"
+			"name"			"GrisaiaEdit"
 			"tall"			"8"
 			"additive"		"0"
 			"antialias" 	"1"
@@ -56,7 +58,7 @@ Scheme{
 		{
 			"1"
 			{
-			"name"			"Luxi Mono Regular"
+			"name"			"GrisaiaEdit"
 			"tall"			"8"
 			"additive"		"0"
 			"antialias" 	"1"
@@ -67,7 +69,7 @@ Scheme{
 		{
 			"1"
 			{
-			"name"			"Luxi Mono Regular"
+			"name"			"GrisaiaEdit"
 			"tall"			"8"
 			"additive"		"0"
 			"antialias" 	"1"
@@ -78,7 +80,7 @@ Scheme{
 		{
 			"1"
 			{
-			"name"			"Luxi Mono Regular"
+			"name"			"GrisaiaEdit"
 			"tall"			"9"
 			"additive"		"0"
 			"antialias" 	"1"
@@ -88,7 +90,7 @@ Scheme{
 		{
 			"1"
 			{
-			"name"			"Luxi Mono Regular"
+			"name"			"GrisaiaEdit"
 			"tall"			"9"
 			"additive"		"0"
 			"antialias" 	"1"
@@ -99,7 +101,7 @@ Scheme{
 		{
 			"1"
 			{
-			"name"			"Luxi Mono Regular"
+			"name"			"GrisaiaEdit"
 			"tall"			"9"
 			"additive"		"0"
 			"antialias" 	"1"
@@ -110,7 +112,7 @@ Scheme{
 		{
 			"1"
 			{
-			"name"			"Luxi Mono Regular"
+			"name"			"GrisaiaEdit"
 			"tall"			"10"
 			"additive"		"0"
 			"antialias" 	"1"
@@ -120,7 +122,7 @@ Scheme{
 		{
 			"1"
 			{
-			"name"			"Luxi Mono Regular"
+			"name"			"GrisaiaEdit"
 			"tall"			"10"
 			"additive"		"0"
 			"antialias" 	"1"
@@ -131,7 +133,7 @@ Scheme{
 		{
 			"1"
 			{
-			"name"			"Luxi Mono Regular"
+			"name"			"GrisaiaEdit"
 			"tall"			"10"
 			"additive"		"0"
 			"antialias" 	"1"
@@ -142,7 +144,7 @@ Scheme{
 		{
 			"1"
 			{
-			"name"			"Luxi Mono Regular"
+			"name"			"GrisaiaEdit"
 			"tall"			"11"
 			"additive"		"0"
 			"antialias" 	"1"
@@ -152,7 +154,7 @@ Scheme{
 		{
 			"1"
 			{
-			"name"			"Luxi Mono Regular"
+			"name"			"GrisaiaEdit"
 			"tall"			"11"
 			"additive"		"0"
 			"antialias" 	"1"
@@ -163,7 +165,7 @@ Scheme{
 		{
 			"1"
 			{
-			"name"			"Luxi Mono Regular"
+			"name"			"GrisaiaEdit"
 			"tall"			"11"
 			"additive"		"0"
 			"antialias" 	"1"
@@ -174,7 +176,7 @@ Scheme{
 		{
 			"1"
 			{
-			"name"			"Luxi Mono Regular"
+			"name"			"GrisaiaEdit"
 			"tall"			"11"
 			"weight"		"500"
 			"additive"		"0"
@@ -186,7 +188,7 @@ Scheme{
 		{
 			"1"
 			{
-			"name"			"Luxi Mono Regular"
+			"name"			"GrisaiaEdit"
 			"tall"			"12"
 			"additive"		"0"
 			"antialias" 	"1"
@@ -196,7 +198,7 @@ Scheme{
 		{
 			"1"
 			{
-			"name"			"Luxi Mono Regular"
+			"name"			"GrisaiaEdit"
 			"tall"			"12"
 			"additive"		"0"
 			"antialias" 	"1"
@@ -207,7 +209,7 @@ Scheme{
 		{
 			"1"
 			{
-			"name"			"Luxi Mono Regular"
+			"name"			"GrisaiaEdit"
 			"tall"			"12"
 			"additive"		"0"
 			"antialias" 	"1"
@@ -218,7 +220,7 @@ Scheme{
 		{
 			"1"
 			{
-			"name"			"Luxi Mono Regular"
+			"name"			"GrisaiaEdit"
 			"tall"			"13"
 			"additive"		"0"
 			"antialias" 	"1"
@@ -228,7 +230,7 @@ Scheme{
 		{
 			"1"
 			{
-			"name"			"Luxi Mono Regular"
+			"name"			"GrisaiaEdit"
 			"tall"			"13"
 			"additive"		"0"
 			"antialias" 	"1"
@@ -239,7 +241,7 @@ Scheme{
 		{
 			"1"
 			{
-			"name"			"Luxi Mono Regular"
+			"name"			"GrisaiaEdit"
 			"tall"			"13"
 			"additive"		"0"
 			"antialias" 	"1"
@@ -250,7 +252,7 @@ Scheme{
 		{
 			"1"
 			{
-			"name"			"Luxi Mono Regular"
+			"name"			"GrisaiaEdit"
 			"tall"			"14"
 			"additive"		"0"
 			"antialias" 	"1"
@@ -260,7 +262,7 @@ Scheme{
 		{
 			"1"
 			{
-			"name"			"Luxi Mono Regular"
+			"name"			"GrisaiaEdit"
 			"tall"			"14"
 			"additive"		"0"
 			"antialias" 	"1"
@@ -271,7 +273,7 @@ Scheme{
 		{
 			"1"
 			{
-			"name"			"Luxi Mono Regular"
+			"name"			"GrisaiaEdit"
 			"tall"			"14"
 			"additive"		"0"
 			"weight"		"500"
@@ -282,7 +284,7 @@ Scheme{
 		{
 			"1"
 			{
-				"name"		"Luxi Mono Regular"
+				"name"		"GrisaiaEdit"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -294,7 +296,7 @@ Scheme{
 		{
 			"1"
 			{
-			"name"			"Luxi Mono Regular"
+			"name"			"GrisaiaEdit"
 			"tall"			"15"
 			"additive"		"0"
 			"antialias" 	"1"
@@ -304,7 +306,7 @@ Scheme{
 		{
 			"1"
 			{
-			"name"			"Luxi Mono Regular"
+			"name"			"GrisaiaEdit"
 			"tall"			"15"
 			"additive"		"0"
 			"weight"		"500"
@@ -315,7 +317,7 @@ Scheme{
 		{
 			"1"
 			{
-			"name"		 	"Luxi Mono Regular"
+			"name"		 	"GrisaiaEdit"
 			"tall"		 	"15"
 			"additive"	 	"0"
 			"dropshadow" 	"1"
@@ -328,7 +330,7 @@ Scheme{
 		{
 			"1"
 			{
-			"name"			"Luxi Mono Regular"
+			"name"			"GrisaiaEdit"
 			"tall"			"16"
 			"additive"		"0"
 			"antialias" 	"1"
@@ -338,7 +340,7 @@ Scheme{
 		{
 			"1"
 			{
-			"name"			"Luxi Mono Regular"
+			"name"			"GrisaiaEdit"
 			"tall"			"16"
 			"additive"		"0"
 			"weight"		"500"
@@ -349,7 +351,7 @@ Scheme{
 		{
 			"1"
 			{
-			"name"		 	"Luxi Mono Regular"
+			"name"		 	"GrisaiaEdit"
 			"tall"		 	"16"
 			"additive"	 	"0"
 			"dropshadow" 	"1"
@@ -360,7 +362,7 @@ Scheme{
 		{
 			"1"
 			{
-			"name"			"Luxi Mono Regular"
+			"name"			"GrisaiaEdit"
 			"tall"			"18"
 			"additive"		"0"
 			"antialias" 	"1"
@@ -370,7 +372,7 @@ Scheme{
 		{
 			"1"
 			{
-			"name"			"Luxi Mono Regular"
+			"name"			"GrisaiaEdit"
 			"tall"			"18"
 			"weight"		"500"
 			"additive"		"0"
@@ -381,7 +383,7 @@ Scheme{
 		{
 			"1"
 			{
-			"name"			"Luxi Mono Regular"
+			"name"			"GrisaiaEdit"
 			"tall"			"18"
 			"dropshadow"	"1"
 			"additive"		"0"
@@ -392,7 +394,7 @@ Scheme{
 		{
 			"1"
 			{
-			"name"			"Luxi Mono Regular"
+			"name"			"GrisaiaEdit"
 			"tall"			"20"
 			"additive"		"0"
 			"antialias" 	"1"
@@ -402,7 +404,7 @@ Scheme{
 		{
 			"1"
 			{
-			"name"			"Luxi Mono Regular"
+			"name"			"GrisaiaEdit"
 			"tall"			"20"
 			"weight"		"500"
 			"additive"		"0"
@@ -413,7 +415,7 @@ Scheme{
 		{
 			"1"
 			{
-			"name"			"Luxi Mono Regular"
+			"name"			"GrisaiaEdit"
 			"tall"			"20"
 			"dropshadow"	"1"
 			"additive"		"0"
@@ -424,7 +426,7 @@ Scheme{
 		{
 			"1"
 			{
-			"name"			"Luxi Mono Regular"
+			"name"			"GrisaiaEdit"
 			"tall"			"24"
 			"additive"		"0"
 			"antialias" 	"1"
@@ -434,7 +436,7 @@ Scheme{
 		{
 			"1"
 			{
-			"name"			"Luxi Mono Regular"
+			"name"			"GrisaiaEdit"
 			"tall"			"24"
 			"weight"		"500"
 			"additive"		"0"
@@ -445,7 +447,7 @@ Scheme{
 		{
 			"1"
 			{
-			"name"			"Luxi Mono Regular"
+			"name"			"GrisaiaEdit"
 			"tall"			"28"
 			"additive"		"0"
 			"antialias" 	"1"
@@ -455,7 +457,7 @@ Scheme{
 		{
 			"1"
 			{
-			"name"			"Luxi Mono Regular"
+			"name"			"GrisaiaEdit"
 			"tall"			"28"
 			"weight"		"500"
 			"additive"		"0"
@@ -466,7 +468,7 @@ Scheme{
 		{
 			"1"
 			{
-			"name"		 	"Luxi Mono Regular"
+			"name"		 	"GrisaiaEdit"
 			"tall"		 	"28"
 			"dropshadow" 	"1"
 			"additive"	 	"0"
@@ -477,7 +479,7 @@ Scheme{
 		{
 			"1"
 			{
-			"name"		 	"Luxi Mono Regular"
+			"name"		 	"GrisaiaEdit"
 			"tall"		 	"24"
 			"dropshadow" 	"1"
 			"additive"	 	"0"
@@ -488,7 +490,7 @@ Scheme{
 		{
 			"1"
 			{
-			"name"			"Luxi Mono Regular"
+			"name"			"GrisaiaEdit"
 			"tall"			"30"
 			"additive"		"0"
 			"antialias" 	"1"
@@ -498,7 +500,7 @@ Scheme{
 		{
 			"1"
 			{
-			"name"			"Luxi Mono Regular"
+			"name"			"GrisaiaEdit"
 			"tall"			"30"
 			"weight"		"500"
 			"additive"		"0"
@@ -509,7 +511,7 @@ Scheme{
 		{
 			"1"
 			{
-			"name"		 	"Luxi Mono Regular"
+			"name"		 	"GrisaiaEdit"
 			"tall"		 	"30"
 			"dropshadow" 	"1"
 			"additive"	 	"0"
@@ -520,7 +522,7 @@ Scheme{
 		{
 			"1"
 			{
-			"name"			"Luxi Mono Regular"
+			"name"			"GrisaiaEdit"
 			"tall"			"32"
 			"additive"		"0"
 			"antialias" 	"1"
@@ -530,7 +532,7 @@ Scheme{
 		{
 			"1"
 			{
-			"name"			"Luxi Mono Regular"
+			"name"			"GrisaiaEdit"
 			"tall"			"32"
 			"weight"		"500"
 			"additive"		"0"
@@ -541,7 +543,7 @@ Scheme{
 		{
 			"1"
 			{
-			"name"		 	"Luxi Mono Regular"
+			"name"		 	"GrisaiaEdit"
 			"tall"		 	"32"
 			"dropshadow" 	"1"
 			"additive"	 	"0"
@@ -552,7 +554,7 @@ Scheme{
 		{
 			"1"
 			{
-			"name"			"Luxi Mono Regular"
+			"name"			"GrisaiaEdit"
 			"tall"			"36"
 			"additive"		"0"
 			"antialias" 	"1"
@@ -562,7 +564,7 @@ Scheme{
 		{
 			"1"
 			{
-			"name"			"Luxi Mono Regular"
+			"name"			"GrisaiaEdit"
 			"tall"			"36"
 			"weight"		"500"
 			"additive"		"0"
@@ -573,7 +575,7 @@ Scheme{
 		{
 			"1"
 			{
-			"name"		 	"Luxi Mono Regular"
+			"name"		 	"GrisaiaEdit"
 			"tall"		 	"36"
 			"dropshadow" 	"1"
 			"additive"	 	"0"
@@ -584,7 +586,7 @@ Scheme{
 		{
 			"1"
 			{
-			"name"			"Luxi Mono Regular"
+			"name"			"GrisaiaEdit"
 			"tall"			"44"
 			"additive"		"0"
 			"antialias" 	"1"
@@ -594,7 +596,7 @@ Scheme{
 		{
 			"1"
 			{
-			"name"			"Luxi Mono Regular"
+			"name"			"GrisaiaEdit"
 			"tall"			"44"
 			"weight"		"500"
 			"additive"		"0"
@@ -605,7 +607,7 @@ Scheme{
 		{
 			"1"
 			{
-			"name"			"Luxi Mono Regular"
+			"name"			"GrisaiaEdit"
 			"tall"			"44"
 			"dropshadow"	"1"
 			"additive"		"0"
@@ -616,7 +618,7 @@ Scheme{
 		{
 			"1"
 			{
-			"name"			"Luxi Mono Regular"
+			"name"			"GrisaiaEdit"
 			"tall"			"52"
 			"additive"		"0"
 			"antialias" 	"1"
@@ -626,7 +628,7 @@ Scheme{
 		{
 			"1"
 			{
-			"name"			"Luxi Mono Regular"
+			"name"			"GrisaiaEdit"
 			"tall"			"52"
 			"weight"		"500"
 			"additive"		"0"
@@ -637,7 +639,7 @@ Scheme{
 		{
 			"1"
 			{
-			"name"			"Luxi Mono Regular"
+			"name"			"GrisaiaEdit"
 			"tall"			"52"
 			"dropshadow"	"1"
 			"additive"		"0"
@@ -678,7 +680,7 @@ Scheme{
 		{
 			"1"
 			{
-				"name"		"Luxi Mono Regular"
+				"name"		"GrisaiaEdit"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -931,7 +933,7 @@ Scheme{
 			// note that this scales with the screen resolution, also this is for MGE/Skial adverts/whatever else -techno
 			"1"
 			{
-				"name"		"Luxi Mono Regular"
+				"name"		"GrisaiaEdit"
 				"tall"		"14"
 				"weight"	"500"
 				"antialias" "1"
@@ -1472,7 +1474,7 @@ Scheme{
 		{
 			"1"
 			{
-				"name"		"Luxi Mono Regular"
+				"name"		"GrisaiaEdit"
 				"tall"		"8"
 				"weight"	"500"
 				"additive"	"0"
@@ -1483,7 +1485,7 @@ Scheme{
 		{
 			"1"
 			{
-				"name"		"Luxi Mono Regular"
+				"name"		"GrisaiaEdit"
 				"tall"		"10"
 				"weight"	"500"
 				"additive"	"0"
@@ -1494,7 +1496,7 @@ Scheme{
 		{
 			"1"
 			{
-				"name"		"Luxi Mono Regular"
+				"name"		"GrisaiaEdit"
 				"tall"		"12"
 				"weight"	"500"
 				"additive"	"0"
@@ -1505,7 +1507,7 @@ Scheme{
 		{
 			"1"
 			{
-				"name"		"Luxi Mono Regular"
+				"name"		"GrisaiaEdit"
 				"tall"		"18"
 				"weight"	"500"
 				"additive"	"0"
@@ -1516,7 +1518,7 @@ Scheme{
 		{
 			"1"
 			{
-				"name"		"Luxi Mono Regular"
+				"name"		"GrisaiaEdit"
 				"tall"		"7"
 				"weight"	"500"
 				"additive"	"0"
@@ -1527,7 +1529,7 @@ Scheme{
 		{
 			"1"
 			{
-				"name"		"Luxi Mono Regular"
+				"name"		"GrisaiaEdit"
 				"tall"		"8"
 				"antialias" "1"
 				"weight"	"500"
@@ -1537,7 +1539,7 @@ Scheme{
 		{
 			"1"
 			{
-				"name"		"Luxi Mono Regular"
+				"name"		"GrisaiaEdit"
 				"tall"		"8"
 				"weight"	"500"
 				"additive"	"0"
@@ -1548,7 +1550,7 @@ Scheme{
 		{
 			"1"
 			{
-				"name"		"Luxi Mono Regular"
+				"name"		"GrisaiaEdit"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -1559,7 +1561,7 @@ Scheme{
 		{
 			"1"
 			{
-				"name"		"Luxi Mono Regular"
+				"name"		"GrisaiaEdit"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
