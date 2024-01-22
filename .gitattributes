@@ -19,3 +19,4 @@ resource/*.txt text working-tree-encoding=UTF-16LE-BOM
 # Ingore these files when downloading as zip (mostly for when making new releases)
 .gitattributes export-ignore
 .gitignore export-ignore
+README.md export-ignore
