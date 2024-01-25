@@ -1813,7 +1813,7 @@
 		{
 			"file"		"hud/leaderboard_streak"
 			"negfile"	"HUD/dneg_leaderboard_streak"
-			"x"		"0"
+			"x"		"-17"
 			"y"		"0"
 			"width"		"64"
 			"height"	"64"

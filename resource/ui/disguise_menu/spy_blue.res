@@ -1,10 +1,10 @@
 "Resource/UI/disguise_menu/spy_blue.res"
 {
 	"ItemNameLabel"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ItemName"
-		"font"			"Default"
+		"font"			"HudFont12"
 		"xpos"			"0"
 		"ypos"			"10"
 		"zpos"			"1"
@@ -20,45 +20,45 @@
 		"brighttext"	"0"
 	}
 
-	"ClassIcon"	
+	"ClassIcon"
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"ClassIcon"
-		"xpos"			"0"
-		"ypos"			"0"
+		"xpos"			"8"
+		"ypos"			"18"
 		"zpos"			"1"
-		"wide"			"45"
-		"tall"			"90"
+		"wide"			"24"
+		"tall"			"48"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"icon"			"hud_menu_spy_blu"
 	}
-		
-	"NumberBg"	
+
+	"NumberBg"
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"NumberBg"
-		"xpos"			"15"
-		"ypos"			"90"
+		"xpos"			"12"
+		"ypos"			"83"
 		"zpos"			"0"
-		"wide"			"15"
+		"wide"			"0"
 		"tall"			"15"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"icon"			"ico_key_blank"
 		"iconColor"		"255 255 255 255"
 	}
-	
+
 	"NewNumberLabel"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
-		"font"			"Default"
-		"fgcolor"		"Black"
-		"xpos"			"15"
-		"ypos"			"90"
+		"font"			"HudFont12"
+		"fgcolor"		"255 255 255 255"
+		"xpos"			"12"
+		"ypos"			"68"
 		"zpos"			"0"
 		"wide"			"15"
 		"tall"			"15"
@@ -71,15 +71,15 @@
 		"dulltext"		"1"
 		"brighttext"	"0"
 	}
-	
+
 	"NumberLabel"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
-		"font"			"Default"
-		"fgcolor"		"Black"
-		"xpos"			"15"
-		"ypos"			"90"
+		"font"			"HudFont12"
+		"fgcolor"		"255 255 255 255"
+		"xpos"			"12"
+		"ypos"			"68"
 		"zpos"			"0"
 		"wide"			"15"
 		"tall"			"15"

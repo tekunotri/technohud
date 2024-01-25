@@ -110,161 +110,133 @@
 		"teambg_3_lodef"	"../hud/character_blue_bg_lodef_clipped"
 	}
 
-	"classmodelpanel"
+"ClassModelPanel"
 	{
-		"ControlName"	"CTFPlayerModelPanel"
-		"fieldName"		"classmodelpanel"
+		"ControlName"								"CTFPlayerModelPanel"
+		"fieldName"									"ClassModelPanel"
+		"xpos"										"0"
+		"ypos"										"rs1"
+		"zpos"										"2"
+		"wide"										"150"
+		"tall"										"120"
+		"visible"									"1"
+		"enabled"									"1"
 
-		"xpos"			"0"
-		"ypos"			"r194"
-		"zpos"			"2"
-		"wide"			"100"
-		"tall"			"200"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"render_texture"							"0"
+		"fov"										"36"
+		"allow_rot"									"1"
 
-		"render_texture"	"0"
-		"fov"			"12"
-		"allow_rot"		"1"
-
-		"disable_speak_event"	"1"
-
-		"model"
+		"Model"
 		{
-			"force_pos"	"1"
+			"force_pos"								"1"
 
-			"angles_x" "-3"
-			"angles_y" "172"
-			"angles_z" "0"
-			"origin_x" "200"
-			"origin_y" "0"
-			"origin_z" "-60"
-			"frame_origin_x"	"0"
-			"frame_origin_y"	"0"
-			"frame_origin_z"	"0"
-			"spotlight" "1"
+			"angles_x"								"-3"
+			"angles_y"								"200"
+			"angles_z"								"0"
+			"origin_x"								"130"
+			"origin_y"								"6"
+			"origin_z"								"-80"
+			"frame_origin_x"						"0"
+			"frame_origin_y"						"0"
+			"frame_origin_z"						"0"
+			"spotlight"								"1"
 
-			"modelname"		""
+			"modelname"								""
 		}
-
-		"customclassdata"
+		"CustomClassData"
 		{
-			"undefined"
+			"Undefined"
 			{
 			}
 			"Scout"
 			{
-				"fov"			"25"
-				"angles_x"		"-17"
-				"angles_y"		"205"
-				"angles_z"		"0"
-				"origin_x"		"105"
-				"origin_y"		"4"
-				"origin_z"		"-82"
-				"origin_z_minmode"	"-52"
+				"fov"								"37"	// Model Size / Camera Zoom
+				"angles_x"							"-12"	// Forward-Back Rotation
+				"angles_y"							"210"	// Angle at which the model aims
+				"angles_z"							"-5"	// Left-Right Rotation
+				"origin_x"							"130"	// Model distance from the camera
+				"origin_y"							"18"	// Move Left-Right
+				"origin_z"							"-75"	// Move Up-Down
 			}
 			"Sniper"
 			{
-				"fov"			"25"
-				"angles_x"		"-10"
-				"angles_x_minmode"	"0"
-				"angles_y"		"172"
-				"angles_z"		"0"
-				"origin_x"		"130"
-				"origin_y"		"-3"
-				"origin_z"		"-97"
-				"origin_z_minmode"	"-57"
+				"fov"								"40"	// Model Size / Camera Zoom
+				"angles_x"							"-5"	// Forward-Back Rotation
+				"angles_y"							"205"	// Angle at which the model aims
+				"angles_z"							"0"		// Left-Right Rotation
+				"origin_x"							"130"	// Model distance from the camera
+				"origin_y"							"12"	// Move Left-Right
+				"origin_z"							"-82"	// Move Up-Down
 			}
 			"Soldier"
 			{
-				"fov"			"25"
-				"angles_x"		"-10"
-				"angles_x_minmode"	"-3"
-				"angles_y"		"170"
-				"angles_z"		"0"
-				"origin_x"		"145"
-				"origin_y"		"-5"
-				"origin_y_minmode"	"-8"
-				"origin_z"		"-90"
-				"origin_z_minmode"	"-50"
+				"fov"								"46"	// Model Size / Camera Zoom
+				"angles_x"							"-3"	// Forward-Back Rotation
+				"angles_y"							"185"	// Angle at which the model aims
+				"angles_z"							"-3"	// Left-Right Rotation
+				"origin_x"							"130"	// Model distance from the camera
+				"origin_y"							"18"	// Move Left-Right
+				"origin_z"							"-80"	// Move Up-Down
 			}
 			"Demoman"
 			{
-				"fov"			"25"
-				"angles_x"		"-13"
-				"angles_x_minmode"	"-3"
-				"angles_y"		"200"
-				"angles_z"		"0"
-				"origin_x"		"138"
-				"origin_y"		"-4"
-				"origin_z"		"-93"
-				"origin_z_minmode"	"-53"
+				"fov"								"41"	// Model Size / Camera Zoom
+				"angles_x"							"-8"	// Forward-Back Rotation
+				"angles_y"							"200"	// Angle at which the model aims
+				"angles_z"							"-3"	// Left-Right Rotation
+				"origin_x"							"130"	// Model distance from the camera
+				"origin_y"							"14"	// Move Left-Right
+				"origin_z"							"-80"	// Move Up-Down
 			}
 			"Medic"
 			{
-				"fov"			"20"
-				"angles_x"		"-5"
-				"angles_x_minmode"	"3"
-				"angles_y"		"178"
-				"angles_z"		"0"
-				"origin_x"		"150"
-				"origin_y"		"-5"
-				"origin_z"		"-96"
-				"origin_z_minmode"	"-60"
+				"fov"								"40"	// Model Size / Camera Zoom
+				"angles_x"							"-3"	// Forward-Back Rotation
+				"angles_y"							"200"	// Angle at which the model aims
+				"angles_z"							"0"		// Left-Right Rotation
+				"origin_x"							"130"	// Model distance from the camera
+				"origin_y"							"10"	// Move Left-Right
+				"origin_z"							"-84"	// Move Up-Down
 			}
 			"Heavy"
 			{
-				"fov"			"20"
-				"angles_x"		"-5"
-				"angles_x_minmode"	"0"
-				"angles_y"		"200"
-				"angles_y_minmode"	"210"
-				"angles_z"		"0"
-				"origin_x"		"200"
-				"origin_y"		"0"
-				"origin_z"		"-102"
-				"origin_z_minmode"	"-60"
+				"fov"								"50"	// Model Size / Camera Zoom
+				"angles_x"							"-3"	// Forward-Back Rotation
+				"angles_y"							"180"	// Angle at which the model aims
+				"angles_z"							"0"		// Left-Right Rotation
+				"origin_x"							"130"	// Model distance from the camera
+				"origin_y"							"10"	// Move Left-Right
+				"origin_z"							"-86"	// Move Up-Down
 			}
 			"Pyro"
 			{
-				"fov"			"20"
-				"angles_x"		"-5"
-				"angles_x_minmode"	"0"
-				"angles_y"		"172"
-				"angles_z"		"0"
-				"origin_x"		"175"
-				"origin_y"		"-5"
-				"origin_z"		"-90"
-				"origin_z_minmode"	"-50"
+				"fov"								"46"	// Model Size / Camera Zoom
+				"angles_x"							"-3"	// Forward-Back Rotation
+				"angles_y"							"205"	// Angle at which the model aims
+				"angles_z"							"-3"	// Left-Right Rotation
+				"origin_x"							"130"	// Model distance from the camera
+				"origin_y"							"22"	// Move Left-Right
+				"origin_z"							"-80"	// Move Up-Down
 			}
 			"Spy"
 			{
-				"fov"			"20"
-				"angles_x"		"-5"
-				"angles_x_minmode"	"3"
-				"angles_y"		"160"
-				"angles_z"		"0"
-				"origin_x"		"160"
-				"origin_y"		"0"
-				"origin_y_minmode"	"-3"
-				"origin_z"		"-95"
-				"origin_z_minmode"	"-60"
+				"fov"								"40"	// Model Size / Camera Zoom
+				"angles_x"							"-3"	// Forward-Back Rotation
+				"angles_y"							"200"	// Angle at which the model aims
+				"angles_z"							"-3"	// Left-Right Rotation
+				"origin_x"							"130"	// Model distance from the camera
+				"origin_y"							"17"	// Move Left-Right
+				"origin_z"							"-82"	// Move Up-Down
 			}
 			"Engineer"
 			{
-				"fov"			"20"
-				"angles_x"		"-10"
-				"angles_x_minmode"	"0"
-				"angles_y"		"168"
-				"angles_z"		"0"
-				"origin_x"		"140"
-				"origin_x_minmode"	"160"
-				"origin_y"		"-2"
-				"origin_y_minmode"	"-7"
-				"origin_z"		"-82"
-				"origin_z_minmode"	"-52"
+				"fov"								"40"	// Model Size / Camera Zoom
+				"angles_x"							"-12"	// Forward-Back Rotation
+				"angles_y"							"200"	// Angle at which the model aims
+				"angles_z"							"-1"	// Left-Right Rotation
+				"origin_x"							"130"	// Model distance from the camera
+				"origin_y"							"12"	// Move Left-Right
+				"origin_z"							"-78"	// Move Up-Down
 			}
 		}
 	}
