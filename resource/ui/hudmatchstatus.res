@@ -278,7 +278,7 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"			"ObjectiveStatusTimePanel"
 		"xpos"				"cs-0.5"
-		"ypos"				"-15"
+		"ypos"				"-14"
 		"zpos"				"5"
 		"wide"				"110"
 		"tall"				"150"
