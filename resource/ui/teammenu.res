@@ -121,7 +121,7 @@
 
 		"defaultFgColor_override"			"104 124 155 255"
 		"armedFgColor_override"				"235 226 202 255"
-		"depressedFgColor_override"			"255 255 0 255"
+		"depressedFgColor_override"			"DarkGray"
 	}
 
 	"teambutton1"
@@ -145,7 +145,7 @@
 
 		"defaultFgColor_override"			"180 92 77 255"
 		"armedFgColor_override"				"235 226 202 255"
-		"depressedFgColor_override"			"255 255 0 255"
+		"depressedFgColor_override"			"DarkGray"
 	}
 
 	"teambutton2"
@@ -167,8 +167,8 @@
 		"fgcolor"		"192 192 192 255"
 
 		"defaultFgColor_override"			"192 192 192 255"
-		"armedFgColor_override"				"255 255 255 255"
-		"depressedFgColor_override"			"255 255 0 255"
+		"armedFgColor_override"				"255 255 0 255"
+		"depressedFgColor_override"			"DarkGray"
 	}
 
 	"teambutton3"
@@ -190,8 +190,8 @@
 		"fgcolor"		"128 128 128 255"
 
 		"defaultFgColor_override"			"128 128 128 255"
-		"armedFgColor_override"				"255 255 255 255"
-		"depressedFgColor_override"			"255 255 0 255"
+		"armedFgColor_override"				"255 255 0 255"
+		"depressedFgColor_override"			"DarkGray"
 	}
 
 	"CancelButton" [$WIN32]

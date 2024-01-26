@@ -939,4 +939,46 @@
 		"visible"		"0"
 		"enabled"		"0"
     }
+	"TFPlayerModel"
+	{
+		"ControlName"	"CTFPlayerModelPanel"
+		"fieldName"		"TFPlayerModel"
+
+		"xpos"			"c-250"
+		"ypos"			"cs-0.5"
+		"zpos"			"4"
+		"wide"			"300"
+		"tall"			"300"
+
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+
+		"fov"			"25"
+		"allow_rot"		"0"
+
+		"paintbackground" "1"
+		"paintbackgroundenabled" "1"
+		"bgcolor_override" "255 255 255 0"
+
+		"model"
+		{
+			"force_pos"	"1"
+
+			"angles_x" "0"
+			"angles_y" "180"
+			"angles_z" "0"
+			"origin_x" "320"
+			"origin_y" "10"
+			"origin_z" "-49"
+			"frame_origin_x"	"0"
+			"frame_origin_y"	"0"
+			"frame_origin_z"	"0"
+			"spotlight" "1"
+
+			"modelname"		""
+			"vcd"		"class_select.vcd"
+		}
+	}
 }
