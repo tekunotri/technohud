@@ -242,6 +242,33 @@
 			"depressedFgColor_override"				"DarkGray"
 		}
 	}
+	"MainBG"
+	{
+		"ControlName"								"EditablePanel"
+		"fieldName"									"MainBG"
+		"xpos"										"0"
+		"ypos"										"0"
+		"zpos"										"-200"
+		"wide"										"f0"
+		"tall"										"f0"
+		"visible"									"1"
+		"enabled"									"1"
+
+			"BG"  // TODO: make this vanish while paused ingame, broken atm (0.333 - 27/01/24)
+			{
+			"ControlName"								"ImagePanel"
+			"fieldName"									"BG"
+			"xpos"										"0"
+			"ypos"										"0"
+			"zpos"										"-200"
+			"wide"										"f0"
+			"tall"										"f0"
+			"visible"									"1"
+			"enabled"									"1"
+			"scaleImage"								"1"
+			"image"										"../console/grat"
+		}
+	}
 	"Disconnect"
 	{
 		"ControlName"								"EditablePanel"
@@ -420,8 +447,8 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CycleRankTypeButton"
-		"xpos"			"cs-0.5-105"
-		"ypos"			"cs-0.5-134"
+		"xpos"			"cs-0.5-85"
+		"ypos"			"cs-0.5-100"
 		"wide"			"15"
 		"tall"			"15"
 		"autoResize"	"0"

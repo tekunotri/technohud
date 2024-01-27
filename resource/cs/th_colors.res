@@ -13,7 +13,8 @@ Scheme {
 		"TransparentDarkGray"		"44 44 44 200"
 		"TransparentDarkerGray"		"33 33 33 200"
 		"Menu_Accent"		"44 44 44 255"
-
+		"THBlue"			"124 173 255 255"
+		"THRed"				"255 118 108 255"
 		// base colors
 		"Orange"			"178 82 22 255"
 		"OrangeDim"			"178 82 22 120"

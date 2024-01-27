@@ -3,8 +3,8 @@
 
 	"Version"
 	{
-		"label"										"technohud 0.332-2"
-		"command"									"engine showconsole; clear; echo technohud v0.332-2; echo by techno, using some bits of other huds by various people. (check github for credits); echo github.com/TechnoSL/technohud"
+		"label"										"technohud 0.333"
+		"command"									"engine showconsole; clear; echo technohud v0.333; echo by techno, using some bits of other huds by various people. (check github for credits); echo github.com/TechnoSL/technohud"
 		"OnlyAtMenu"								"0"
 	}
 	"Servers"
@@ -21,6 +21,11 @@
 	{
 		"label"										"Store (Scam)"
 		"command"									"engine open_store"
+	}
+	"MainBG" //TODO: fix later, related to mainmenuoverride.res bg
+	{
+		"comand"									"engine"
+		"OnlyAtMenu"								"1"
 	}
 
 	"VRModeButton"
