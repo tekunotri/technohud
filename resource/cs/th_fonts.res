@@ -651,7 +651,7 @@ Scheme{
 		{
 			"1"
 			{
-			"name"	"Luxi Mono Regular Icons"
+			"name"	"TF2 Icons"
 			"tall"	"16"
 			"antialias" "1"
 			}
@@ -660,7 +660,7 @@ Scheme{
 		{
 			"1"
 			{
-			"name"	"Luxi Mono Regular Icons"
+			"name"	"TF2 Icons"
 			"tall"	"18"
 			"antialias" "1"
 			}
@@ -669,7 +669,7 @@ Scheme{
 		{
 			"1"
 			{
-			"name"	"Luxi Mono Regular Icons"
+			"name"	"TF2 Icons"
 			"tall"	"20"
 			"antialias" "1"
 			}
