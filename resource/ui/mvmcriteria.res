@@ -34,7 +34,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"DifficultyLabel"
-			"font"			"HudFont14"
+			"font"			"HudFontSmall"
 			"labelText"		"#TF_MvM_Difficulty"
 			"textAlignment"	"south-west"
 			"xpos"			"189"
@@ -49,7 +49,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"CompleteLabel"
-			"font"			"HudFont14"
+			"font"			"HudFontSmall"
 			"labelText"		"#TF_MvM_TourOfDutyProgress"
 			"textAlignment"	"south-west"
 			"xpos"			"279"
@@ -64,7 +64,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"TourLevelLabel"
-			"font"			"HudFont14"
+			"font"			"HudFontSmall"
 			"labelText"		"#TF_MvM_TourNumber"
 			"textAlignment"	"south-west"
 			"xpos"			"345"
@@ -108,7 +108,7 @@
 			{
 				"ControlName"	"SectionedListPanel"
 				"fieldName"		"TourList"
-				"font"			"HudFont14"
+				"font"			"HudFontSmall"
 				"xpos"			"0"
 				"ypos"			"5"
 				"zpos"			"0"
@@ -122,7 +122,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"TourDifficultyWarning"
-			"font"			"HudFont14"
+			"font"			"HudFontSmall"
 			"labelText"		"#TF_MVM_Tour_ExpertDifficulty_Warning"
 			"xpos"		"30"
 			"ypos"		"100"
@@ -171,7 +171,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"TourLootTitle"
-			"font"			"HudFont14Bold"
+			"font"			"HudFontSmallBold"
 			"labelText"		"#TF_MvM_TourLootTitle"
 			"textAlignment"	"west"
 			"xpos"			"10"
@@ -185,7 +185,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"TourLootDetailLabel"
-			"font"			"HudFont14"
+			"font"			"HudFontSmall"
 			"labelText"		"%tour_loot_detail%"
 			"textAlignment"	"west"
 			"wrap"			"1"
@@ -218,7 +218,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"InventoryTitleLabel"
-			"font"			"HudFont14Bold"
+			"font"			"HudFontSmallBold"
 			"labelText"		"#TF_MvM_InventoryTitle"
 			"textAlignment"	"north-west"
 			"xpos"			"8"
@@ -324,7 +324,7 @@
 			"zpos"		"2"
 			"wide"		"25"
 			"tall"		"25"
-			"font"			"HudFont14"
+			"font"			"HudFontSmall"
 			"labelText"		""
 		}
 
@@ -496,7 +496,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"NoMannUpTitleLabel"
-			"font"			"HudFont14Bold"
+			"font"			"HudFontSmallBold"
 			"labelText"		"#TF_MvM_NoMannUpTitle"
 			"textAlignment"	"west"
 			"xpos"			"10"
@@ -510,7 +510,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"NoMannUpDescriptionLabel"
-			"font"			"HudFont14"
+			"font"			"HudFontSmall"
 			"labelText"		"#TF_MvM_NoMannUpDescription"
 			"textAlignment"	"west"
 			"wrap"			"1"
@@ -536,7 +536,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"#TF_MvM_MannUpNow"
-			"font"			"HudFont14Bold"
+			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -578,7 +578,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"CompleteLabel"
-			"font"			"HudFont14Bold"
+			"font"			"HudFontSmallBold"
 			"labelText"		"%complete_heading%"
 			"textAlignment"	"south-west"
 			"xpos"			"264"
@@ -653,7 +653,7 @@
 			{
 				"ControlName"	"SectionedListPanel"
 				"fieldName"		"ChallengeList"
-				"font"			"HudFont14"
+				"font"			"HudFontSmall"
 				"xpos"			"70"
 				"ypos"			"5"
 				"zpos"			"0"

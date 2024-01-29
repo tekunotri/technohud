@@ -10,7 +10,7 @@ should work fine in both 16:9 (tested in 1920x1080) and 4:3 (i play 1280x960 ful
 
 ### Hypnotize - m0rehud & SunsetHud
 
-preloader/method to move buffs/status effects on Player Health, Main Menu, Inventory, Payload Bars, Loading Icon (SunsetHud), ItemPanel Methods, Killstreak & 5CP Settings.
+Preloader, Method to move buffs/status effects on Player Health, Main Menu, Inventory, Payload, Loading Icon (SunsetHud), ItemPanel Methods, Killfeed/Engineer Textures, Killstreak position & 5CP Settings.
 
 ### amp-t - PaoloDefault & PZKPFW
 

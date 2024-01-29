@@ -57,8 +57,6 @@ Scheme {
 
 		"TransparentLightBlack"	"0 0 0 90"
 
-
-		"TransparentLightBlack"	"0 0 0 90"
 		"FooterBGBlack"		"52 48 55 255"
 
 		"HUDBlueTeam"		"90 122 143 255"
