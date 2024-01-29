@@ -44,7 +44,7 @@
 		"labelText"									"8"
 		"textAlignment"								"center"
 		"font"										"Icons16"
-		"fgcolor"									"Black"
+		"fgcolor"									"FullBlack"
 
 		"pin_to_sibling"							"ItemEffectMeterIcon"
 	}
