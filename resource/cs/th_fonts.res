@@ -1751,7 +1751,7 @@ Scheme{
 			"1"
 			{
 				"name"										"Luxi Mono Regular"
-				"tall"										"10"
+				"tall"										"8"
 				"weight"									"400"
 				"additive"									"0"
 				"antialias"									"1"
@@ -1762,7 +1762,7 @@ Scheme{
 			"1"
 			{
 				"name"										"Luxi Mono Regular"
-				"tall"										"14"
+				"tall"										"10"
 				"weight"									"500"
 				"range"										"0x0000 0x007F"
 				"antialias"									"1"
@@ -1774,7 +1774,7 @@ Scheme{
 			"1"
 			{
 				"name"										"Luxi Mono Regular"
-				"tall"										"20"
+				"tall"										"12"
 				"weight"									"500"
 				"range"										"0x0000 0x007F"
 				"antialias"									"1"
@@ -2407,7 +2407,7 @@ Scheme{
 		{
 			"1"
 			{
-				"name"										"Verdana"
+				"name"										"Luxi Mono Regular"
 				"tall"										"8"
 				"antialias"									"1"
 				"weight"									"500"

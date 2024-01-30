@@ -1256,7 +1256,7 @@
 		{
 			"file"			"vgui/logos/killstreaks/streak_white"
 			"negfile"		"vgui/logos/killstreaks/streak_black"
-			"x"				"0"
+			"x"				"-17"
 			"y"				"0"
 			"width"			"64"
 			"height"		"64"
@@ -1264,7 +1264,7 @@
 		"leaderboard_streak_dneg"
 		{
 			"file"			"vgui/logos/killstreaks/streak_black"
-			"x"				"0"
+			"x"				"-17"
 			"y"				"0"
 			"width"			"64"
 			"height"		"64"
