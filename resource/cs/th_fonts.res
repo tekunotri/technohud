@@ -682,56 +682,9 @@ Scheme{
 			"1"
 			{
 				"name"										"Luxi Mono Regular"
-				"tall"										"14"
+				"tall"										"9"
 				"range"										"0x0000 0x017F"
-				"yres"										"480 599"
 				"antialias"									"1"
-			}
-			"2"
-			{
-				"name"										"Luxi Mono Regular"
-				"tall"										"18"
-				"range"										"0x0000 0x017F"
-				"yres"										"600 767"
-				"antialias"									"1"
-			}
-			"3"
-			{
-				"name"										"Luxi Mono Regular"
-				"tall"										"22"
-				"range"										"0x0000 0x017F"
-				"yres"										"768 1023"
-				"antialias"									"1"
-			}
-			"4"
-			{
-				"name"										"Luxi Mono Regular"
-				"tall"										"24"
-				"range"										"0x0000 0x017F"
-				"yres"										"1024 1199"
-				"antialias"									"1"
-			}
-			"5"
-			{
-				"name"										"Luxi Mono Regular"
-				"tall"										"32"
-				"range"										"0x0000 0x017F"
-				"yres"										"1200 6000"
-				"antialias"									"1"
-			}
-			"6"
-			{
-				"name"										"Verdana"
-				"tall"										"12"
-				"range"										"0x0000 0x00FF"
-				"weight"									"900"
-			}
-			"7"
-			{
-				"name"										"Arial"
-				"tall"										"12"
-				"range"										"0x0000 0x00FF"
-				"weight"									"800"
 			}
 		}
 		"DefaultUnderline"
@@ -762,48 +715,6 @@ Scheme{
 				"range"										"0x0000 0x017F"
 				"yres"										"480 599"
 			}
-			"2"
-			{
-				"name"										"Verdana"
-				"tall"										"13"
-				"weight"									"0"
-				"range"										"0x0000 0x017F"
-				"yres"										"600 767"
-			}
-			"3"
-			{
-				"name"										"Verdana"
-				"tall"										"14"
-				"weight"									"0"
-				"range"										"0x0000 0x017F"
-				"yres"										"768 1023"
-				"antialias"									"1"
-			}
-			"4"
-			{
-				"name"										"Verdana"
-				"tall"										"20"
-				"weight"									"0"
-				"range"										"0x0000 0x017F"
-				"yres"										"1024 1199"
-				"antialias"									"1"
-			}
-			"5"
-			{
-				"name"										"Verdana"
-				"tall"										"22"
-				"weight"									"0"
-				"range"										"0x0000 0x017F"
-				"yres"										"1200 6000"
-				"antialias"									"1"
-			}
-			"6"
-			{
-				"name"										"Arial"
-				"tall"										"12"
-				"range"										"0x0000 0x00FF"
-				"weight"									"0"
-			}
 		}
 		"DefaultVerySmall"
 		{
@@ -814,41 +725,6 @@ Scheme{
 				"weight"									"0"
 				"range"										"0x0000 0x017F"
 				"yres"										"480 599"
-			}
-			"2"
-			{
-				"name"										"Verdana"
-				"tall"										"12"
-				"weight"									"0"
-				"range"										"0x0000 0x017F"
-				"yres"										"600 767"
-			}
-			"3"
-			{
-				"name"										"Verdana"
-				"tall"										"12"
-				"weight"									"0"
-				"range"										"0x0000 0x017F"
-				"yres"										"768 1023"
-				"antialias"									"1"
-			}
-			"4"
-			{
-				"name"										"Verdana"
-				"tall"										"14"
-				"weight"									"0"
-				"range"										"0x0000 0x017F"
-				"yres"										"1024 1199"
-				"antialias"									"1"
-			}
-			"5"
-			{
-				"name"										"Verdana"
-				"tall"										"16"
-				"weight"									"0"
-				"range"										"0x0000 0x017F"
-				"yres"										"1200 6000"
-				"antialias"									"1"
 			}
 		}
 		"DefaultLarge"
@@ -861,63 +737,14 @@ Scheme{
 				"range"										"0x0000 0x017F"
 				"yres"										"480 599"
 			}
-			"2"
-			{
-				"name"										"Verdana"
-				"tall"										"21"
-				"weight"									"900"
-				"range"										"0x0000 0x017F"
-				"yres"										"600 767"
-			}
-			"3"
-			{
-				"name"										"Verdana"
-				"tall"										"22"
-				"weight"									"900"
-				"range"										"0x0000 0x017F"
-				"yres"										"768 1023"
-				"antialias"									"1"
-			}
-			"4"
-			{
-				"name"										"Verdana"
-				"tall"										"28"
-				"weight"									"900"
-				"range"										"0x0000 0x017F"
-				"yres"										"1024 1199"
-				"antialias"									"1"
-			}
-			"5"
-			{
-				"name"										"Verdana"
-				"tall"										"30"
-				"weight"									"900"
-				"range"										"0x0000 0x017F"
-				"yres"										"1200 6000"
-				"antialias"									"1"
-			}
-			"6"
-			{
-				"name"										"Verdana"
-				"tall"										"20"
-				"range"										"0x0000 0x00FF"
-				"weight"									"900"
-			}
-			"7"
-			{
-				"name"										"Arial"
-				"tall"										"20"
-				"range"										"0x0000 0x00FF"
-				"weight"									"800"
-			}
 		}
 		"CenterPrintText"
 		{
 			"1"
 			{
-				"name"										"Trebuchet MS" 	[!$OSX]
+				"name"										"Luxi Mono Regular" [!$OSX]
 				"name"										"Helvetica" 	[$OSX]
-				"tall"										"18"
+				"tall"										"14"
 				"weight"									"900"
 				"antialias"									"1"
 				"additive"									"1"
