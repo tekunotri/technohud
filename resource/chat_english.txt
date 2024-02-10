@@ -18,14 +18,14 @@
 		//=========================================================================================
 		// REMOVES THE SCOREBOARD TIMELEFT TEXT TO ONLY LEAVE THE NUMBERS
 		//=========================================================================================
-		// "Scoreboard_TimeLeft"							"%s1:%s2:%s3"
-		// "Scoreboard_TimeLeftNoHours"						"%s1:%s2"
-		// "Scoreboard_NoTimeLimit"							""
-		// "Scoreboard_TimeLeftLabel"						""
-		// "Scoreboard_TimeLeftNew"							"%s1:%s2:%s3"
-		// "Scoreboard_TimeLeftNoHoursNew"					"%s1:%s2"
-		// "Scoreboard_NoTimeLimitNew"						""
-		// "Scoreboard_ChangeOnRoundEndNew"					""
+		"Scoreboard_TimeLeft"							"%s1:%s2:%s3"
+		"Scoreboard_TimeLeftNoHours"						"%s1:%s2"
+		"Scoreboard_NoTimeLimit"							""
+		"Scoreboard_TimeLeftLabel"						""
+		"Scoreboard_TimeLeftNew"							"%s1:%s2:%s3"
+		"Scoreboard_TimeLeftNoHoursNew"					"%s1:%s2"
+		"Scoreboard_NoTimeLimitNew"						""
+		"Scoreboard_ChangeOnRoundEndNew"					""
 
 		//=========================================================================================
 		// SHORTER MEDIGUN NAME
@@ -66,27 +66,6 @@
 		"Hud_Menu_Taunt_Weapon"								"Hit '%taunt%' to Taunt"
 
 		//=========================================================================================
-		// MEDIGUN NAMES (for later uber icons customization)
-		//=========================================================================================
-
-		"TF_Weapon_Medigun"									"⁠Medi Gun"
-		"TF_Weapon_Medigun_Resist"							" Vaccinator"
-		"TF_Unique_MediGun_Resist"							" Vaccinator"
-		"TF_Unique_Achievement_Medigun1"					" Kritzkrieg"
-		"TF_Unique_MediGun_QuickFix"						" Quick-Fix"
-
-		"TF_Weapon_Medigun_Festive2011"						"⁠Festive Medi Gun"
-		"TF_Weapon_Medigun_IntermediateMVMLoot"				"⁠Rust Botkiller Medi Gun Mk.I"
-		"TF_Weapon_Medigun_IntermediateMvMRareLoot"			"⁠Blood Botkiller Medi Gun Mk.I"
-		"TF_Weapon_Medigun_AdvancedMVMLoot"					"⁠Silver Botkiller Medi Gun Mk.I"
-		"TF_Weapon_Medigun_AdvancedMVMRareLoot"				"⁠Gold Botkiller Medi Gun Mk.I"
-		"TF_Weapon_Medigun_ExpertMVMLoot"					"⁠Carbonado Botkiller Medi Gun Mk.I"
-		"TF_Weapon_Medigun_ExpertMVMRareLoot"				"⁠Diamond Botkiller Medi Gun Mk.I"
-		"TF_Weapon_Medigun_AdvancedMVMLoot_Engineer"		"⁠Silver Botkiller Medi Gun Mk.II"
-		"TF_Weapon_Medigun_AdvancedMVMRareLoot_Engineer"	"⁠Gold Botkiller Medi Gun Mk.II"
-		"TF_Weapon_Medigun_AdvancedMVMRareLoot_Engineer"	"⁠Gold Botkiller Medi Gun Mk.II"
-
-		//=========================================================================================
 		// TEAM/CHAT STUFF
 		//=========================================================================================
 
@@ -107,8 +86,8 @@
 		"TF_Name_Change"		"* %s1 changed name to %s2"
 		"TF_Class_Change"		"* %s1 changed class to %s2"
 		"chat_say"              ">"
-		"chat_say_team"         "T >"
-		"chat_say_party"        "P >"
+		"chat_say_team"         "Team >"
+		"chat_say_party"        "Party >"
 
 
 		//=========================================================================================
@@ -123,9 +102,7 @@
 		"Msg_Defended"			"blocked"			//"defended"
 		"Msg_Dominating"		"rolled"
 		"Msg_Revenge"			"got revenge on"
-		
-		
-		
+
 		//=========================================================================================
 		// MISC
 		//=========================================================================================

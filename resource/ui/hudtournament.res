@@ -29,7 +29,7 @@
 		if_mvm
 		{
 			"xpos"					"c-250"
-			"ypos"					"0"
+			"ypos"					"10"
 			"wide"					"500"
 			"tall"					"480"
 

@@ -253,21 +253,10 @@
 		"tall"										"f0"
 		"visible"									"1"
 		"enabled"									"1"
-
-			"BG"  // TODO: make this vanish while paused ingame, broken atm (0.333 - 27/01/24)
-			{
-			"ControlName"								"ImagePanel"
-			"fieldName"									"BG"
-			"xpos"										"0"
-			"ypos"										"0"
-			"zpos"										"-200"
-			"wide"										"f0"
-			"tall"										"f0"
-			"visible"									"1"
-			"enabled"									"1"
-			"scaleImage"								"1"
-			"image"										"../console/grat"
-		}
+		"proportionaltoparent"						"1"
+		"paintbackground"							"1"
+		"paintbackgroundtype"						"0"
+		"bgcolor_override"							"DarkGray"
 	}
 	"Disconnect"
 	{

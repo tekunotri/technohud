@@ -4,7 +4,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"Currency"
-		"font"			"HudFont14Bold"
+		"font"			"HudFont13Bold"
 		"fgcolor"		"TanLight"
 		"xpos"			"11"
 		"ypos"			"57"
@@ -21,7 +21,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CurrencyShadow"
-		"font"			"HudFont14Bold"
+		"font"			"HudFont13Bold"
 		"fgcolor"		"FullBlack"
 		"xpos"			"12"
 		"ypos"			"58"

@@ -206,7 +206,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"NameLabel"
-			"xpos"			"3"
+			"xpos"			"5"
 			"ypos"			"5"
 			"wide"			"f0"
 			"zpos"			"100"

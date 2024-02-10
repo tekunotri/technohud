@@ -394,12 +394,18 @@
 
 		"if_specialdelivery"
 		{
-			"ypos"		"r100"
+			"xpos"		"c-60"
+			"ypos"		"r45"
 		}
 
 		"if_no_flags"
 		{
 			"visible"	"0"
+		}
+		"if_mvm"
+		{
+			"xpos" 		"c-60"
+			"ypos"		"r50"
 		}
 	}
 
