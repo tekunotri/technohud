@@ -489,7 +489,7 @@
 		"visible" "1"
 		"enabled" "1"
 		"xpos"	 "r640"
-		"ypos"	 "18"
+		"ypos"	 "38"
 		"wide"	 "628"
 		"tall"	 "468"
 
