@@ -4,7 +4,7 @@
 // font declarations
 #base "cs/th_fontpaths.res"
 
-// font (only have 1 uncommented at all times)
+// font (only have 1 uncommented at a time)
 #base "cs/th_fonts.res"
 //#base "cs/th_grisaia.res"
 

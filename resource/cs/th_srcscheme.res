@@ -1,5 +1,7 @@
 #base "SourceSchemeBase.res"
 
+/// original SourceScheme.res by playmoo for BotHud https://github.com/playmoo/bothud
+///
 Scheme
 {
     //////////////////////// COLORS ///////////////////////////
@@ -78,6 +80,7 @@ Scheme
 		MainMenu.TextColor			"EllLighterGrey"			[$WIN32]
 		MainMenu.ArmedTextColor		"EllDarkGrey"	[$WIN32]
 		MainMenu.Inset				"32"
+		"MainMenu.Backdrop" 								"Blank"
 
 		Menu.TextInset					"6"
 		Menu.FgColor			"EllLighterGrey"

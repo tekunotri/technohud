@@ -15,6 +15,9 @@ Scheme {
 		"Menu_Accent"		"44 44 44 255"
 		"THBlue"			"124 173 255 255"
 		"THRed"				"255 118 108 255"
+		//UI
+		"THUnselected"		"118 118 118 236"
+
 		// base colors
 		"Orange"			"178 82 22 255"
 		"OrangeDim"			"178 82 22 120"

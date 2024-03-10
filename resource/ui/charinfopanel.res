@@ -128,13 +128,16 @@
 		"TabsKV"
 		{
 			"textinsetx"							"40"
-			"font"									"HudFont18Bold"
-			"selectedcolor"							"200 187 161 255"
-			"unselectedcolor"						"130 120 104 255"
-			"defaultBgColor_override"				"TanDarker"
-			"paintbackground"						"0"
-			"activeborder_override"					"OutlinedGreyBox"
-			"normalborder_override"					"OutlinedDullGreyBox"
+			"font"									"HudFont16Bold"
+			"selectedcolor"							"FullWhite"
+			"unselectedcolor"						"THUnselected"
+			"defaultBgColor_override"				"DarkGray"
+			"paintbackground"						"1"
+			"activeborder_override"					"LoadoutItemPopupBorder"
+			"normalborder_override"					"LoadoutItemPopupBorder"
+			"armedBgColor_override"					"DarkGray"
+			"selectedBgColor_override"				"DarkGray"
+
 		}
 	}
 	"BackButton"
