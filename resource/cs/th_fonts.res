@@ -1096,7 +1096,7 @@ Scheme{
 			"1"
 			{
 				"name"										"Luxi Mono Regular"
-				"tall"										"9"
+				"tall"										"8"
 				"weight"									"0"
 				"additive"									"0"
 				"antialias"									"1"
@@ -2813,7 +2813,7 @@ Scheme{
 			"1"
 			{
 				"name"										"Luxi Mono Regular"
-				"tall"										"9"
+				"tall"										"8"
 				"weight"									"400"
 				"additive"									"0"
 				"antialias"									"1"
