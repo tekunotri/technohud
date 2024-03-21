@@ -1,4 +1,4 @@
-// sample animation script
+	// sample animation script
 //
 //
 // commands:
@@ -477,11 +477,13 @@ event HudTournamentSetupPanelClose
 
 event HudMedicCharged
 {
-	Animate	ChargeLabel 	FgColor		"FullWhite"		Linear 0.0 0.1
-	Animate	ChargeLabel 	FgColor		"TanDarker"		Linear 0.3 0.4
 
-	Animate	ChargeMeter 	FgColor		"FullWhite"		Linear 0.0 0.1
-	Animate	ChargeMeter 	FgColor		"TanDarker"		Linear 0.3 0.4
+	Animate ChargeLabel								FgColor		"THOverheal2"					Linear	0.0		0.0
+	Animate ChargeLabelBig							FgColor		"THOverheal2"					Linear	0.0		0.0
+
+	Animate ChargeLabelBigShadowExtra				Alpha		"255"								Linear	0.0		0.0
+
+	Animate ChargeMeter								FgColor		"THOverheal2"					Linear	0.0		0.0
 
 	RunEvent HudMedicChargedLoop	0.6
 }
@@ -497,8 +499,13 @@ event HudMedicChargedStop
 	StopEvent HudMedicCharged 0.0
 	StopEvent HudMedicChargedLoop 0.0
 
-	Animate	ChargeLabel 	FgColor		"FullWhite"		Linear 0.0 0.0001
-	Animate	ChargeMeter 	FgColor		"FullWhite"		Linear 0.0 0.0001
+	Animate	ChargeLabel				FgColor		"FullWhite"						Linear	0.0		0.0001
+	Animate	ChargeLabelBig				FgColor		"FullWhite"						Linear	0.0		0.0001
+
+	Animate	ChargeLabelBigShadow		FgColor		"FullBlack"								Linear	0.0		0.0001
+	Animate ChargeLabelBigShadowExtra		Alpha		"0"									Linear	0.0		0.0001
+
+	Animate	ChargeMeter			FgColor		"FullWhite"						Linear	0.0		0.0001
 }
 
 //====================================
