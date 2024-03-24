@@ -860,10 +860,10 @@
 		"fieldName"				"WinPanel"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"cs-0.5"
-		"ypos"					"275"
+		"xpos"					"c-113"
+		"ypos"					"74"
 		"wide"					"300"
-		"tall"					"300"
+		"tall"					"406"
 		"zpos"					"4"
 		"proportionaltoparent"	"1"
 	}
@@ -979,28 +979,28 @@
 		"PaintBackgroundType"	"2"
 	}
 
-	"HudMenuEngyBuild"
+	HudMenuEngyBuild
 	{
-		"fieldName" 	"HudMenuEngyBuild"
-		"visible" 		"1"
-		"enabled" 		"1"
-		"xpos"			"c-225"
-		"ypos"			"c-55"
-		"wide"			"450"
-		"tall"			"195"
-		"PaintBackgroundType"	"0"
+		"fieldName"					"HudMenuEngyBuild"
+		"visible"					"1"
+		"enabled"					"1"
+		"xpos"						"c-125"
+		"ypos"						"c-55"
+		"wide"						"250"
+		"tall"						"195"
+		"PaintBackgroundType"		"0"
 	}
 
-	"HudMenuEngyDestroy"
+	HudMenuEngyDestroy
 	{
-		"fieldName" 	"HudMenuEngyDestroy"
-		"visible" 		"1"
-		"enabled" 		"1"
-		"xpos"			"c-225"
-		"ypos"			"c-59"
-		"wide"			"450"
-		"tall"			"200"
-		"PaintBackgroundType"	"0"
+		"fieldName"					"HudMenuEngyDestroy"
+		"visible"					"1"
+		"enabled"					"1"
+		"xpos"						"c-125"
+		"ypos"						"c-50"
+		"wide"						"250"
+		"tall"						"195"
+		"PaintBackgroundType"		"0"
 	}
 
 	"HudEurekaEffectTeleportMenu"

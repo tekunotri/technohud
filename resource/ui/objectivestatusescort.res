@@ -19,6 +19,14 @@
 			"ypos"									"rs1"
 		}
 	}
+	"EscortHilightSwoop" // removes swoop since it's broken anyways
+	{
+		"ControlName" "CControlPointIconSwoop"
+		"fieldName" "EscortHilightSwoop"
+		"xpos" "9999"
+		"alpha" "0"
+	}
+
 	"Cart_Tracks"
 	{
 		"ControlName"								"ImagePanel"
