@@ -1,4 +1,4 @@
-"Resource/UI/WaveStatusPanel.res"
+"Resource/UI/WaveStatusPanel.res" // controls mvm-specific tidbits, mostly created to disable backgrounds though. -techno
 {
 	"Background"
 	{
@@ -11,8 +11,8 @@
 		"tall"			"35"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"image"			"../HUD/tournament_panel_brown"
 
 		"src_corner_height"	"22"				// pixels inside the image
@@ -26,8 +26,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"WaveCountLabel"
-		"font"			"HudFont11Bold"
-		"fgcolor"		"TanLight"
+		"font"			"HudFontSmallestBold"
+		"fgcolor"		"FullWhite"
 		"xpos"			"200"
 		"ypos"			"6"
 		"zpos"			"3"
@@ -55,7 +55,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"
 		"PaintBackgroundType" "2"
-		"bgcolor_override"	"TanLight"
+		"bgcolor_override"	"FullWhite"
 
 		if_verbose
 		{
@@ -67,8 +67,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SupportLabel"
-		"font"			"HudFont11Bold"
-		"fgcolor"		"TanLight"
+		"font"			"HudFontSmallestBold"
+		"fgcolor"		"FullWhite"
 		"xpos"			"55"
 		"ypos"			"6"
 		"zpos"			"3"

@@ -139,7 +139,7 @@
 		"proportionaltoparent"						"1"
 		"labelText"									"#TF_IndividualUberchargesMinHUD"
 		"textAlignment"								"center"
-		"fgcolor"									"FullWhite"
+		"fgcolor"									"0 255 255 255" // mostly to focus attention on charge number instead of percentage
 		"font"										"HudFont18Shadow"
 
 		"pin_to_sibling"							"ChargeLabel"

@@ -40,7 +40,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"
 		"PaintBackgroundType" "2"
-		"bgcolor_override"	"TanLight"
+		"bgcolor_override"	"FullWhite"
 	}
 
 	"EnemyCountCritImageBG"
@@ -68,7 +68,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"EnemyCount"
 		"font"			"HudFont14"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"FullWhite"
 		"xpos"			"0"
 		"ypos"			"18"
 		"zpos"			"3"
@@ -78,5 +78,22 @@
 		"enabled"		"1"
 		"textAlignment"	"center"
 		"labelText"		"%enemy_count%"
+	}
+	"EnemyCountShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"EnemyCountShadow"
+		"font"			"HudFont14"
+		"fgcolor"		"FullBlack"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"3"
+		"wide"			"21"
+		"tall"			"15"
+		"visible"		"1"
+		"enabled"		"1"
+		"textAlignment"	"center"
+		"labelText"		"%enemy_count%"
+		"pin_to_sibling"	"EnemyCount"
 	}
 }
