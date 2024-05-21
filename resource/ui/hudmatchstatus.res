@@ -296,6 +296,7 @@
 		if_match
 		{
 			"xpos"					"cs-0.5"
+			"ypos"					"0"
 			"wide"					"130"
 			"ypos_minmode"			"0"
 			"delta_item_x"			"35"

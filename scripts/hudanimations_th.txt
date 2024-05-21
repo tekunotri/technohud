@@ -215,3 +215,7 @@ event HudMedicChargedStop
 	Animate	ChargeMeter			FgColor		"FullWhite"						Linear	0.0		0.0001
 }
 //======================================
+
+event CompetitiveGame_LowerChatWindow{}
+event CompetitiveGame_RestoreChatWindow{}
+event HudTournament_MoveChatWindow{}
