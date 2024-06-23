@@ -4,10 +4,12 @@ Scheme {
 		// custom colors
 		"FullWhite"			"236 236 236 236"
 		"FullBlack"			"0 0 0 255"
+		//overheal anim colors
 		"THOverheal"		"99 232 167 255"
 		"THOverheal2"		"0 230 119 255"
+		//low hp/ammo colors
 		"THLow"				"232 99 99 255"
-		"THLow2"				"194 69 69 255"
+		"THLow2"			"194 69 69 255"
 		"DarkGray"			"44 44 44 255"
 		"DarkerGray"		"33 33 33 255"
 		"TransparentDarkGray"		"44 44 44 200"

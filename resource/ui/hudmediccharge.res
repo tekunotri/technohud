@@ -1,3 +1,4 @@
+//TODO: either m0rehud joke minmode or something small and centered kbnhud/m0re minmode inspired?
 "Resource/UI/HudMedicCharge.res" // FILE FROM m0rehud, credits to Hypnotize
 {
 	//==================================================================================================================================================
@@ -57,7 +58,7 @@
 		"proportionaltoparent"						"1"
 		"labelText"									"#TF_UberchargeMinHUD"
 		"textAlignment"								"center"
-		"font"										"HudFont44Bold"
+		"font"										"HudFont52Bold"
 		"fgcolor"									"FullWhite"
 
 		"pin_to_sibling"							"UberAnchor"
@@ -78,7 +79,7 @@
 		"proportionaltoparent"						"1"
 		"labelText"									"#TF_UberchargeMinHUD"
 		"textAlignment"								"center"
-		"font"										"HudFont44Bold"
+		"font"										"HudFont52Bold"
 		"fgcolor"									"FullBlack"
 
 		"pin_to_sibling"							"ChargeLabelBig"
@@ -97,7 +98,7 @@
 		"proportionaltoparent"						"1"
 		"labelText"									"#TF_UberchargeMinHUD"
 		"textAlignment"								"center"
-		"font"										"HudFont44Bold"
+		"font"										"HudFont52Bold"
 		"fgcolor"									"FullBlack"
 		"alpha"										"0"
 

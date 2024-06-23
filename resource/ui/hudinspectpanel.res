@@ -40,7 +40,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"ItemLabel"
-			"font"									"HudFont11"
+			"font"									"HudFont9"
 			"xpos"									"10"
 			"ypos"									"3"
 			"zpos"									"1"

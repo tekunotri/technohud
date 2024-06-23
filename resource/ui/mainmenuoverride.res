@@ -242,22 +242,6 @@
 			"depressedFgColor_override"				"DarkGray"
 		}
 	}
-	"MainBG"
-	{
-		"ControlName"								"EditablePanel"
-		"fieldName"									"MainBG"
-		"xpos"										"0"
-		"ypos"										"0"
-		"zpos"										"-200"
-		"wide"										"f0"
-		"tall"										"f0"
-		"visible"									"1"
-		"enabled"									"1"
-		"proportionaltoparent"						"1"
-		"paintbackground"							"1"
-		"paintbackgroundtype"						"0"
-		"bgcolor_override"							"DarkGray"
-	}
 	"Disconnect"
 	{
 		"ControlName"								"EditablePanel"

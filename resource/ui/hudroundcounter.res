@@ -55,13 +55,13 @@
 		"xpos"			"cs-0.5"
 		"ypos"			"0"
 		"zpos"			"5"
-		"wide"			"o3.833"
+		"wide"			"o3.333"
 		"tall"			"35"
 
 		"backgroundtype"		"2"
 		"proportionaltoparent"	"1"
 			
-		"image"					"../hud/comp_round_timer"
+		"image"					"replay/thumbnails/comp_round_timer"
 		"scaleimage"			"1"
 	}
 }

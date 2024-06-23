@@ -1,3 +1,5 @@
+//TODO: either m0rehud joke minmode or something small and centered kbnhud/m0re minmode inspired?
+//TODO2: clean this file up to be slightly easier to mangle?
 "Resource/UI/HudPlayerHealth.res"
 {
 	// player health data
@@ -27,7 +29,7 @@
 		"tall"			"55"	[$WIN32]
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"../hud/health_over_bg"
+		"image"			"replay/thumbnails/health_over_bg_green"
 		"scaleImage"	"1"
 	}
 	"PlayerStatusHealthValue"
@@ -43,7 +45,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"
-		"font"			"HudFont44Bold"
+		"font"			"HudFont52Bold"
 		"fgcolor"		"FullWhite"
 	}
 	"PlayerStatusHealthValue_Shadow"
@@ -59,7 +61,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"
-		"font"			"HudFont44Bold"
+		"font"			"HudFont52Bold"
 		"fgcolor"		"FullBlack"
 		"pin_to_sibling" "PlayerStatusHealthValue"
 	}
@@ -67,8 +69,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusMaxHealthValue"
-		"xpos"			"-55"
-		"ypos"			"12"
+		"xpos"			"-60"
+		"ypos"			"14"
 		"zpos"			"6"
 		"wide"			"50"
 		"tall"			"18"

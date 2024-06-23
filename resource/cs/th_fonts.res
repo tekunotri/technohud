@@ -644,6 +644,138 @@ Scheme{
 			"antialias" 	"1"
 			}
 		}
+
+		"HudFont60"
+		{
+			"1"
+			{
+			"name"			"Luxi Mono Regular"
+			"tall"			"60"
+			"additive"		"0"
+			"antialias" 	"1"
+			}
+		}
+		"HudFont60Bold"
+		{
+			"1"
+			{
+			"name"			"Luxi Mono Regular"
+			"tall"			"60"
+			"weight"		"500"
+			"additive"		"0"
+			"antialias" 	"1"
+			}
+		}
+		"HudFont60Shadow"
+		{
+			"1"
+			{
+			"name"			"Luxi Mono Regular"
+			"tall"			"60"
+			"dropshadow"	"1"
+			"additive"		"0"
+			"antialias" 	"1"
+			}
+		}
+
+		"HudFont64"
+		{
+			"1"
+			{
+			"name"			"Luxi Mono Regular"
+			"tall"			"64"
+			"additive"		"0"
+			"antialias" 	"1"
+			}
+		}
+		"HudFont64Bold"
+		{
+			"1"
+			{
+			"name"			"Luxi Mono Regular"
+			"tall"			"64"
+			"weight"		"500"
+			"additive"		"0"
+			"antialias" 	"1"
+			}
+		}
+		"HudFont64Shadow"
+		{
+			"1"
+			{
+			"name"			"Luxi Mono Regular"
+			"tall"			"64"
+			"dropshadow"	"1"
+			"additive"		"0"
+			"antialias" 	"1"
+			}
+		}
+
+		"HudFont68"
+		{
+			"1"
+			{
+			"name"			"Luxi Mono Regular"
+			"tall"			"68"
+			"additive"		"0"
+			"antialias" 	"1"
+			}
+		}
+		"HudFont68Bold"
+		{
+			"1"
+			{
+			"name"			"Luxi Mono Regular"
+			"tall"			"68"
+			"weight"		"500"
+			"additive"		"0"
+			"antialias" 	"1"
+			}
+		}
+		"HudFont68Shadow"
+		{
+			"1"
+			{
+			"name"			"Luxi Mono Regular"
+			"tall"			"68"
+			"dropshadow"	"1"
+			"additive"		"0"
+			"antialias" 	"1"
+			}
+		}
+
+		"HudFont72"
+		{
+			"1"
+			{
+			"name"			"Luxi Mono Regular"
+			"tall"			"72"
+			"additive"		"0"
+			"antialias" 	"1"
+			}
+		}
+		"HudFont72Bold"
+		{
+			"1"
+			{
+			"name"			"Luxi Mono Regular"
+			"tall"			"72"
+			"weight"		"500"
+			"additive"		"0"
+			"antialias" 	"1"
+			}
+		}
+		"HudFont72Shadow"
+		{
+			"1"
+			{
+			"name"			"Luxi Mono Regular"
+			"tall"			"72"
+			"dropshadow"	"1"
+			"additive"		"0"
+			"antialias" 	"1"
+			}
+		}
 		////////////////////////////////////////////////////////////////////////////////////////////////
 		// Icon Fonts
 		////////////////////////////////////////////////////////////////////////////////////////////////
