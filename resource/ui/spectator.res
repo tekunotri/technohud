@@ -67,9 +67,9 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"MapLabel"
 		"font"			"HudFont14Shadow"
-		"xpos"			"r260"	[$WIN32]
-		"ypos"			"1"	[$WIN32]
-		"wide"			"240"	[$WIN32]
+		"xpos"			"3"	
+		"ypos"			"rs1"	
+		"wide"			"240"	
 		"tall"			"20"
 		"autoResize"		"0"
 		"pinCorner"		"0"
@@ -77,7 +77,7 @@
 		"enabled"		"1"
 		"fgcolor"		"FullWhite"
 		"labelText"		"map: cp_bridge"
-		"textAlignment"		"east"
+		"textAlignment"		"west"
 	}
 
 		"topbar"

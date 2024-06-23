@@ -337,8 +337,7 @@
 				"proportionaltoparent"	"1"
 
 				"xpos"			"cs-0.5"
-				"ypos"			"12"
-				"ypos_minmode"	"12"
+				"ypos"			"8"
 				"tall"			"10"
 				"font"			"HudFont14"
 				"font_minmode"	"HudFont14"

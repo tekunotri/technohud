@@ -14,36 +14,39 @@
 
 		"starting_width"	"20"
 		"width_per_round"	"24"
-		"indicator_start_offset"	"4"
+		"indicator_start_offset"	"1"
 		"indicator_max_wide"	"30"
 
 		"RoundIndicatorPanel_kv"
 		{
-			"ypos"				"4"
-			"wide"				"6"
-			"tall"				"6"
+			"ypos"				"3"
+			"wide"				"4"
+			"tall"				"3"
 			"zpos"				"7"
-			"image"				"../hud/comp_round_counter_dot_bg"
+			"image"									"white"
+			"drawcolor"								"TransparentBlack"
 			"scaleimage"		"1"
 		}
 
 		"RoundWinPanelRed_kv"
 		{
-			"ypos"				"-2"
-			"wide"				"17"
-			"tall"				"17"
+			"ypos"				"3"
+			"wide"				"4"
+			"tall"				"3"
 			"zpos"				"8"
-			"image"				"../hud/comp_round_counter_light_red"
+			"image"				"white"
+			"drawcolor"			"FullWhite"
 			"scaleimage"		"1"
 		}
 
 		"RoundWinPanelBlue_kv"
 		{
-			"ypos"				"-2"
-			"wide"				"17"
-			"tall"				"17"
+			"ypos"				"3"
+			"wide"				"4"
+			"tall"				"3"
 			"zpos"				"8"
-			"image"				"../hud/comp_round_counter_light_blue"
+			"image"				"white"
+			"drawcolor"			"FullWhite"
 			"scaleimage"		"1"
 		}
 	}	
@@ -56,7 +59,7 @@
 		"ypos"			"0"
 		"zpos"			"5"
 		"wide"			"o3.333"
-		"tall"			"35"
+		"tall"			"28"
 
 		"backgroundtype"		"2"
 		"proportionaltoparent"	"1"

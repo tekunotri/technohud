@@ -343,8 +343,7 @@
 		{
 			"proportionaltoparent"	"1"
 			"xpos"					"0"
-			"ypos"					"21"
-			"ypos_minmode"			"21"
+			"ypos"					"16"
 			"wide"					"p1"
 			"font"					"HudFont11Bold"
 			"font_hidef"			"HudFont11Bold"

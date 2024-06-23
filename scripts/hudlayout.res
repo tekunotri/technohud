@@ -500,14 +500,14 @@
 		"CornerRadius"	  "0"
 		"RightJustify"	  "1"	// If 1, draw notices from the right
 
-		"TextFont"		"HudFont10"
+		"TextFont"		"HudFont9"
 
 		"TeamBlue"		"50 150 201 255"
 		"TeamRed"		"235 58 58 255"
 		"IconColor"		"255 255 255 255"
 		"LocalPlayerColor"	"FullBlack"
-		"BaseBackgroundColor"	"FullBlack"		[$WIN32]
-		"LocalBackgroundColor"	"255 255 255 255"	[$WIN32]
+		"BaseBackgroundColor"	"TransparentBlack"		[$WIN32]
+		"LocalBackgroundColor"	"255 255 255 220"	[$WIN32]
 			}
 
 	HudVehicle
