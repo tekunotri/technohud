@@ -137,7 +137,7 @@ Scheme {
 		"HTMLBackground"						"95 92 101 255"
 
 		"ItemAttribLevel"						"236 236 236 255"
-		"ItemAttribNeutral"						"235 226 202 255"
+		"ItemAttribNeutral"						"236 236 236 255"
 		"ItemAttribPositive"					"170 255 153 255"
 		"ItemAttribNegative"					"255 140 64 255"
 
@@ -148,7 +148,7 @@ Scheme {
 		"ItemBundleItem"						"149 175 12 255"
 		"ItemLimitedUse"						"0 160 0 255"
 		"ItemFlags"								"117 107 94 255"
-		"ItemLimitedQuantity"					"225 209 0 255"
+		"ItemLimitedQuantity"					"239 174 40 255"
 
 		"QualityColorNormal"	            	"194 194 194 255" // Default: 178 178 178 255
 		"QualityColorrarity1"			        "60 163 115 255" // Default: 77 116 85 255
