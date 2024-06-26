@@ -815,7 +815,6 @@ Scheme{
 			{
 				"name"										"GrisaiaEdit"
 				"tall"										"9"
-				"range"										"0x0000 0x017F"
 				"antialias"									"1"
 			}
 		}
@@ -827,13 +826,11 @@ Scheme{
 				"tall"										"12"
 				"weight"									"500"
 				"underline"									"1"
-				"range"										"0x0000 0x017F"
 			}
 			"2"
 			{
 				"name"										"Arial"
 				"tall"										"11"
-				"range"										"0x0000 0x00FF"
 				"weight"									"800"
 			}
 		}
@@ -844,7 +841,6 @@ Scheme{
 				"name"										"Verdana"
 				"tall"										"12"
 				"weight"									"0"
-				"range"										"0x0000 0x017F"
 				"yres"										"480 599"
 			}
 		}
@@ -855,7 +851,6 @@ Scheme{
 				"name"										"Verdana"
 				"tall"										"12"
 				"weight"									"0"
-				"range"										"0x0000 0x017F"
 				"yres"										"480 599"
 			}
 		}
@@ -866,7 +861,6 @@ Scheme{
 				"name"										"Verdana"
 				"tall"										"18"
 				"weight"									"900"
-				"range"										"0x0000 0x017F"
 				"yres"										"480 599"
 			}
 		}
@@ -1413,7 +1407,6 @@ Scheme{
 				"weight"									"700"
 				"antialias"									"1"
 				"yres"										"1 599"
-				"range"										"0x0000 0x017F"
 				"additive"									"1"
 			}
 			"2"
@@ -1423,7 +1416,6 @@ Scheme{
 				"weight"									"700"
 				"antialias"									"1"
 				"yres"										"600 767"
-				"range"										"0x0000 0x017F"
 				"additive"									"1"
 			}
 			"3"
@@ -1433,7 +1425,6 @@ Scheme{
 				"weight"									"900"
 				"antialias"									"1"
 				"yres"										"768 1023"
-				"range"										"0x0000 0x017F"
 			}
 			"4"
 			{
@@ -1442,7 +1433,6 @@ Scheme{
 				"weight"									"900"
 				"antialias"									"1"
 				"yres"										"1024 1199"
-				"range"										"0x0000 0x017F"
 			}
 			"5"
 			{
@@ -1451,7 +1441,6 @@ Scheme{
 				"weight"									"1000"
 				"antialias"									"1"
 				"yres"										"1200 10000"
-				"range"										"0x0000 0x017F"
 			}
 		}
 		"DebugOverlay"
@@ -1462,7 +1451,6 @@ Scheme{
 				"tall"										"14"
 				"weight"									"400"
 				"outline"									"1"
-				"range"										"0x0000 0x017F"
 			}
 		}
 		"TFTypeDeath"
@@ -1494,7 +1482,6 @@ Scheme{
 				"name"										"Courier New"
 				"tall"										"90"
 				"weight"									"900"
-				"range"										"0x0000 0x007F"
 				"antialias"									"1"
 				"additive"									"0"
 			}
@@ -1524,7 +1511,6 @@ Scheme{
 			{
 				"name"										"GrisaiaEdit"
 				"tall"										"24"
-				"range"										"0x0000 0x017F"
 				"antialias"									"1"
 				"dropshadow"								"1"
 			}
@@ -1536,7 +1522,6 @@ Scheme{
 				"name"										"GrisaiaEdit"
 				"tall"										"24"
 				"italic"									"1"
-				"range"										"0x0000 0x017F"
 				"antialias"									"1"
 				"dropshadow"								"1"
 			}
@@ -1547,7 +1532,6 @@ Scheme{
 			{
 				"name"										"GrisaiaEdit"
 				"tall"										"24"
-				"range"										"0x0000 0x017F"
 				"antialias"									"1"
 				"dropshadow"								"1"
 			}
@@ -1559,7 +1543,6 @@ Scheme{
 				"name"										"GrisaiaEdit"
 				"tall"										"24"
 				"italic"									"1"
-				"range"										"0x0000 0x017F"
 				"antialias"									"1"
 				"dropshadow"								"1"
 			}
@@ -1570,7 +1553,6 @@ Scheme{
 			{
 				"name"										"GrisaiaEdit"
 				"tall"										"16"
-				"range"										"0x0000 0x017F"
 				"antialias"									"1"
 				"dropshadow"								"1"
 			}
@@ -1583,7 +1565,6 @@ Scheme{
 				"tall"										"20"
 				"weight"									"0"
 				"symbol"									"1"
-				"range"										"0x0000 0x007F"
 			}
 		}
 		"MarlettSmall"
@@ -1594,7 +1575,6 @@ Scheme{
 				"tall"										"14"
 				"weight"									"0"
 				"symbol"									"1"
-				"range"										"0x0000 0x007F"
 			}
 		}
 		"MenuMainTitle"
@@ -1723,7 +1703,6 @@ Scheme{
 				"name"										"GrisaiaEdit"
 				"tall"										"10"
 				"weight"									"500"
-				"range"										"0x0000 0x007F"
 				"antialias"									"1"
 				"additive"									"0"
 			}
@@ -1735,7 +1714,6 @@ Scheme{
 				"name"										"GrisaiaEdit"
 				"tall"										"12"
 				"weight"									"500"
-				"range"										"0x0000 0x007F"
 				"antialias"									"1"
 				"additive"									"0"
 			}
@@ -1747,7 +1725,6 @@ Scheme{
 				"name"										"GrisaiaEdit"
 				"tall"										"20"
 				"weight"									"500"
-				"range"										"0x0000 0x007F"
 				"antialias"									"1"
 				"additive"									"0"
 			}
@@ -1759,7 +1736,6 @@ Scheme{
 				"name"										"GrisaiaEdit"
 				"tall"										"14"
 				"weight"									"500"
-				"range"										"0x0000 0x007F"
 				"antialias"									"1"
 				"additive"									"0"
 			}
@@ -1771,7 +1747,6 @@ Scheme{
 				"name"										"GrisaiaEdit"
 				"tall"										"20"
 				"weight"									"500"
-				"range"										"0x0000 0x007F"
 				"antialias"									"1"
 				"additive"									"0"
 			}
@@ -1783,7 +1758,6 @@ Scheme{
 				"name"										"GrisaiaEdit"
 				"tall"										"34"
 				"weight"									"500"
-				"range"										"0x0000 0x007F"
 				"antialias"									"1"
 				"additive"									"0"
 			}
@@ -1805,7 +1779,6 @@ Scheme{
 			{
 				"name"										"GrisaiaEdit"
 				"tall"										"52"
-				"range"										"0x0000 0x00FF"
 				"weight"									"400"
 				"yres"										"1 599"
 				"antialias"									"1"
@@ -1814,7 +1787,6 @@ Scheme{
 			{
 				"name"										"GrisaiaEdit"
 				"tall"										"72"
-				"range"										"0x0000 0x00FF"
 				"weight"									"400"
 				"yres"										"600 767"
 				"antialias"									"1"
@@ -1823,7 +1795,6 @@ Scheme{
 			{
 				"name"										"GrisaiaEdit"
 				"tall"										"100"
-				"range"										"0x0000 0x00FF"
 				"weight"									"400"
 				"yres"										"768 1023"
 				"antialias"									"1"
@@ -1832,7 +1803,6 @@ Scheme{
 			{
 				"name"										"GrisaiaEdit"
 				"tall"										"140"
-				"range"										"0x0000 0x00FF"
 				"weight"									"400"
 				"yres"										"1024 1199"
 				"antialias"									"1"
@@ -1841,7 +1811,6 @@ Scheme{
 			{
 				"name"										"GrisaiaEdit"
 				"tall"										"180"
-				"range"										"0x0000 0x00FF"
 				"weight"									"400"
 				"yres"										"1200 10000"
 				"antialias"									"1"
@@ -1854,7 +1823,6 @@ Scheme{
 				"name"										"GrisaiaEdit"
 				"tall"										"36"
 				"weight"									"500"
-				"range"										"0x0000 0x007F"
 				"antialias"									"1"
 				"additive"									"0"
 			}
@@ -2037,7 +2005,6 @@ Scheme{
 			{
 				"name"										"Arial Black"
 				"tall"										"8"
-				"range"										"0x0000 0x00FF"
 				"weight"									"300"
 				"antialias"									"1"
 			}
@@ -2048,7 +2015,6 @@ Scheme{
 			{
 				"name"										"GrisaiaEdit"
 				"tall"										"14"
-				"range"										"0x0000 0x00FF"
 				"weight"									"300"
 				"antialias"									"1"
 			}
@@ -2060,7 +2026,6 @@ Scheme{
 				"name"										"GrisaiaEdit"
 				"tall"										"12"
 				"weight"									"500"
-				"range"										"0x0000 0x017F"
 				"TextColor"									"Black"
 				"antialias"									"1"
 			}
@@ -2072,7 +2037,6 @@ Scheme{
 				"name"										"GrisaiaEdit"
 				"tall"										"8"
 				"weight"									"500"
-				"range"										"0x0000 0x017F"
 				"TextColor"									"Black"
 				"antialias"									"1"
 			}
@@ -2284,7 +2248,6 @@ Scheme{
 				"name"										"Verdana"
 				"tall"										"10"
 				"weight"									"0"
-				"range"										"0x0000 0x017F"
 				"yres"										"480 599"
 				"antialias"									"1"
 			}
@@ -2293,7 +2256,6 @@ Scheme{
 				"name"										"Verdana"
 				"tall"										"12"
 				"weight"									"0"
-				"range"										"0x0000 0x017F"
 				"yres"										"600 1199"
 				"antialias"									"1"
 			}
@@ -2302,7 +2264,6 @@ Scheme{
 				"name"										"Verdana"
 				"tall"										"15"
 				"weight"									"0"
-				"range"										"0x0000 0x017F"
 				"yres"										"1200 6000"
 				"antialias"									"1"
 			}
@@ -2748,7 +2709,6 @@ Scheme{
 				"name"										"Verdana"
 				"tall"										"12"
 				"weight"									"0"
-				"range"										"0x0000 0x017F"
 				"yres"										"480 599"
 			}
 			"2"
@@ -2756,7 +2716,6 @@ Scheme{
 				"name"										"Verdana"
 				"tall"										"12"
 				"weight"									"0"
-				"range"										"0x0000 0x017F"
 				"yres"										"600 767"
 			}
 			"3"
@@ -2764,7 +2723,6 @@ Scheme{
 				"name"										"Verdana"
 				"tall"										"12"
 				"weight"									"0"
-				"range"										"0x0000 0x017F"
 				"yres"										"768 1023"
 				"antialias"									"1"
 			}
@@ -2773,7 +2731,6 @@ Scheme{
 				"name"										"Verdana"
 				"tall"										"14"
 				"weight"									"0"
-				"range"										"0x0000 0x017F"
 				"yres"										"1024 1199"
 				"antialias"									"1"
 			}
@@ -2782,7 +2739,6 @@ Scheme{
 				"name"										"Verdana"
 				"tall"										"16"
 				"weight"									"0"
-				"range"										"0x0000 0x017F"
 				"yres"										"1200 6000"
 				"antialias"									"1"
 			}
@@ -2805,7 +2761,6 @@ Scheme{
 				"name"										"Verdana"
 				"tall"										"12"
 				"weight"									"0"
-				"range"										"0x0000 0x017F"
 				"yres"										"480 599"
 			}
 			"2"
@@ -2813,7 +2768,6 @@ Scheme{
 				"name"										"Verdana"
 				"tall"										"13"
 				"weight"									"0"
-				"range"										"0x0000 0x017F"
 				"yres"										"600 767"
 			}
 			"3"
@@ -2821,7 +2775,6 @@ Scheme{
 				"name"										"Verdana"
 				"tall"										"14"
 				"weight"									"0"
-				"range"										"0x0000 0x017F"
 				"yres"										"768 1023"
 				"antialias"									"1"
 			}
@@ -2830,7 +2783,6 @@ Scheme{
 				"name"										"Verdana"
 				"tall"										"20"
 				"weight"									"0"
-				"range"										"0x0000 0x017F"
 				"yres"										"1024 1199"
 				"antialias"									"1"
 			}
@@ -2839,7 +2791,6 @@ Scheme{
 				"name"										"Verdana"
 				"tall"										"22"
 				"weight"									"0"
-				"range"										"0x0000 0x017F"
 				"yres"										"1200 6000"
 				"antialias"									"1"
 			}
@@ -2847,7 +2798,6 @@ Scheme{
 			{
 				"name"										"Arial"
 				"tall"										"12"
-				"range"										"0x0000 0x00FF"
 				"weight"									"0"
 			}
 		}
@@ -2935,7 +2885,6 @@ Scheme{
 				"name"										"GrisaiaEdit"
 				"tall"										"15"
 				"weight"									"500"
-				"range"										"0x0000 0x007F"
 				"antialias"									"1"
 				"additive"									"0"
 			}
