@@ -10,7 +10,7 @@
 		"wide"					"f0"
 		"tall"					"260"
 		"MeterFG"				"White"
-		"MeterBG"				"Gray"
+		"MeterBG"				"TransparentDarkGray"
 	}
 
 	"ItemEffectMeterBG"

@@ -376,8 +376,8 @@
 						"proportionaltoparent"	"1"
 						"progress"		"1"
 
-						"fgcolor_override"	"20 20 20 180"
-						"bgcolor_override"	"0 0 0 0"
+						"fgcolor_override"	"0 0 0 0"
+						"bgcolor_override"	"Blank"
 					}
 
 					"ContinuousProgressBar"
@@ -391,7 +391,7 @@
 						"proportionaltoparent"	"1"
 						"progress"		"0"
 
-						"fgcolor_override"	"THLow"
+						"fgcolor_override"	"THOverheal2"
 					}
 
 					"Frame"

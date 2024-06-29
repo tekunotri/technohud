@@ -1,4 +1,4 @@
-"Resource/UI/HudItemEffectMeter_Scout.res"
+"Resource/UI/HudItemEffectMeter_Scout.res" //TODO: pretty this up a little bit or fix during SF
 {
 	HudItemEffectMeter
 	{
@@ -6,15 +6,12 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"x_offset"		"0"
-		"xpos"			"10"	[$WIN32]
-		"ypos"			"r107"	[$WIN32]
-		"xpos_minmode"	"r52"	[$WIN32]
-		"ypos_minmode"	"r45"	[$WIN32]
-		"x_offset_minmode"		"0"	[$WIN32]
-		"wide"			"100"
+		"xpos"			"rs1"	
+		"ypos"			"r107"	
+		"wide"			"70"
 		"tall"			"100"
 		"MeterFG"		"White"
-		"MeterBG"		"Gray"
+		"MeterBG"		"TransparentDarkGray"
 	}
 
 	"ItemEffectMeterBG"
@@ -26,7 +23,7 @@
 		"zpos"			"0"
 		"wide"			"150"
 		"tall"			"75"
-		"visible"		"1"
+		"visible"		"0"
 		"visible_minmode"	"0"
 		"enabled"		"1"
 		"image"			"../hud/misc_ammo_area_horiz2_blue"

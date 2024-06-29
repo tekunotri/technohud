@@ -10,6 +10,7 @@ Scheme {
 		//low hp/ammo colors
 		"THLow"				"232 99 99 255"
 		"THLow2"			"194 69 69 255"
+		"ItemMeterBG"		"250 234 201 51"
 		"DarkGray"			"44 44 44 255"
 		"DarkerGray"		"33 33 33 255"
 		"TransparentDarkGray"		"44 44 44 200"
@@ -19,7 +20,6 @@ Scheme {
 		"THRed"				"255 118 108 255"
 		//UI
 		"THUnselected"		"118 118 118 236"
-
 		// base colors
 		"Orange"			"178 82 22 255"
 		"OrangeDim"			"178 82 22 120"
@@ -115,7 +115,10 @@ Scheme {
 		// Building HUD Specific
 		"LowHealthRed"		"255 0 0 255"
 		"ProgressOffWhite"	"236 236 236 236"
-		"ProgressBackground"	"150 150 150 255"
+		//this controls item meter backgrounds so i have to nuke it... thanks valve :thumbsup: 
+		//only downside is this makes the level bar look a lil weird
+		"ProgressBackground"	"0 0 0 0"
+
 		"HealthBgGrey"		"080 080 080 255"
 
 		"ProgressOffWhiteTransparent"	"251 235 202 128"

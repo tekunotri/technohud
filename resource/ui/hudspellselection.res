@@ -2,12 +2,7 @@
 {
 	HudSpellMenu
 	{
-		"xpos"			"130"
-
-		"if_killstreak_visible"
-		{
-			"xpos"			"160"
-		}
+		"xpos"			"c250"
 	}
 
 	"ItemEffectMeterBG"
@@ -16,12 +11,10 @@
 		"fieldName"		"ItemEffectMeterBG"
 		"xpos"			"0"
 		"ypos"			"10"
-		"xpos_minmode"	"0"
-		"ypos_minmode"	"10"
 		"wide"			"80"
 		"tall"			"40"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"visible_minmode"	"0"
 		"image"			"../hud/ammo_blue_bg"
 		"scaleImage"	"1"
@@ -40,7 +33,7 @@
 		"zpos"			"0"
 		"wide"			"64"
 		"tall"			"56"
-		"visible"		"1"
+		"visible"		"0"
 		"visible_minmode"	"0"
 		"enabled"		"1"
 		"image"			"spellbook_book"
@@ -72,8 +65,8 @@
 		"font"			"Default"
 		"labelText"		"%actiontext%"
 		"textAlignment" "west"
-		"xpos"			"18"
-		"ypos"			"48"
+		"xpos"			"22"
+		"ypos"			"40"
 		"wide"			"100"
 		"tall"			"10"
 		"fgcolor"		"tanlight"
@@ -94,23 +87,6 @@
 		"fgcolor"		"tanlight"
 		"visible"		"0"
 	}
-
-	"CountTextShadow"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"CountTextShadow"
-		"font"			"HudFont30Bold"
-		"labelText"		"%counttext%"
-		"textAlignment" "center"
-		"xpos"			"47"
-		"ypos"			"18"
-		"xpos_minmode"	"47"
-		"ypos_minmode"	"38"
-		"wide"			"20"
-		"tall"			"20"
-		"fgcolor"		"0 0 0 255"
-	}
-
 	"CountText"
 	{
 		"ControlName"	"CExLabel"
@@ -120,10 +96,24 @@
 		"textAlignment" "center"
 		"xpos"			"46"
 		"ypos"			"17"
-		"xpos_minmode"	"46"
-		"ypos_minmode"	"37"
 		"wide"			"20"
-		"tall"			"19"
-		"fgcolor"		"tanlight"
+		"tall"			"20"
+		"fgcolor"		"FullBlack"
 	}
+	"CountTextShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"CountTextShadow"
+		"font"			"HudFont30Bold"
+		"labelText"		"%counttext%"
+		"textAlignment" "center"
+		"xpos"			"1"
+		"ypos"			"1"
+		"wide"			"20"
+		"tall"			"20"
+		"fgcolor"		"TanLight"
+		"pin_to_sibling"	"CountText"
+	}
+
+
 }

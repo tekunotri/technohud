@@ -10,7 +10,7 @@
 		"wide"										"50"
 		"tall"										"18"
 		"MeterFG"									"White"
-		"MeterBG"									"Gray"
+		"MeterBG"									"TransparentDarkGray"
 	}
 	"ItemEffectMeterIcon"
 	{

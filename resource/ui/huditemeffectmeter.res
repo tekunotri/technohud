@@ -1,3 +1,8 @@
+//NOTE: this file modifies every meter since they #base off this one, 
+//positions depend on ypos, refer to whatever item meter you're trying to edit: https://github.com/JarateKing/TF2-Hud-Reference/blob/master/2-LISTS/Filelist.md
+//r95: top slot (FIRST)
+//r105: middle slot
+//r115: bottom slot
 "Resource/UI/HudItemEffectMeter.res"
 {
 	HudItemEffectMeter
@@ -8,9 +13,10 @@
 		"xpos"			"c-37"
 		"ypos"			"r115"
 		"wide"			"74"
-		"tall"			"50"
+		"tall"			"6"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
+		"bgcolor_override"	"ItemMeterBG"
 	}
 
 	"ItemEffectMeterBG"
