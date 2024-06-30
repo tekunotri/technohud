@@ -153,11 +153,14 @@ Scheme {
 		"ItemFlags"								"117 107 94 255"
 		"ItemLimitedQuantity"					"239 174 40 255"
 
+		//===============================================================
+		// NORMAL ITEM QUALITY COLORS (used for name)
+		//===============================================================
 		"QualityColorNormal"	            	"194 194 194 255" // Default: 178 178 178 255
-		"QualityColorrarity1"			        "60 163 115 255" // Default: 77 116 85 255
-		"QualityColorrarity2"           		"141 131 75 255"
-		"QualityColorrarity3"	              	"204 204 250 255"
-		"QualityColorrarity4"             		"112 57 203 255" // Default: 134 80 172 255
+		"QualityColorrarity1"			        "60 163 115 255" // Default: 77 116 85 255 // GENUINE
+		"QualityColorrarity2"           		"141 131 75 255" // wtf does this even do??
+		"QualityColorrarity3"	              	"204 204 250 255" // wtf does this even do??
+		"QualityColorrarity4"             		"112 57 203 255" // Default: 134 80 172 255 // UNUSUAL
 		"QualityColorVintage"	                "53 105 155 255" // Default: 71 98 145 255
 		"QualityColorUnique"	               	"239 174 40 255" // Default: 255 215 0 255
 		"QualityColorCommunity"		            "112 176 74 255"
@@ -168,15 +171,15 @@ Scheme {
 		"QualityColorCompleted"	               	"134 80 172 255"
 		"QualityColorHaunted"	              	"42 202 156 255" // Default: 56 243 171 255
 		"QualityColorCollectors"	            "187 63 60 255" // Default: 170 0 0 255
-		"QualityColorPaintkitWeapon"		    "250 250 250 255"
+		"QualityColorPaintkitWeapon"		    "250 250 250 255"	// warpaints
 
-		"ItemRarityDefault"						"131 126 119 255"
-		"ItemRarityCommon"						"176 195 217 255"
-		"ItemRarityUncommon"					"94 152 217 255"
-		"ItemRarityRare"						"75 105 255 255"
-		"ItemRarityMythical"					"136 71 255 255"
-		"ItemRarityLegendary"					"211 44 230 255"
-		"ItemRarityAncient"						"235 75 75 255"
+		"ItemRarityDefault"						"131 126 119 255" 
+		"ItemRarityCommon"						"176 195 217 255" // Civilian
+		"ItemRarityUncommon"					"94 152 217 255"  // Freelance
+		"ItemRarityRare"						"75 105 255 255"  // Mercenary
+		"ItemRarityMythical"					"136 71 255 255"  // Commando
+		"ItemRarityLegendary"					"211 44 230 255"  // Assassin
+		"ItemRarityAncient"						"235 75 75 255"   // Elite
 
 		"ItemRarityDefault_GreyedOut"			"44 42 40 255"
 		"ItemRarityCommon_GreyedOut"			"59 65 72 255"
@@ -230,8 +233,8 @@ Scheme {
 		// vgui_controls color specifications
 		ReplayBrowser.BgColor								"DarkBrown"
 		ReplayBrowser.Details.TitleEdit.Carat.FgColor		"LightRed"
-		ReplayBrowser.Button.ArmedBgColor					"TFOrange"
-		ReplayBrowser.Button.DepressedBgColor				"TFOrange"
+		ReplayBrowser.Button.ArmedBgColor					"THOverheal"
+		ReplayBrowser.Button.DepressedBgColor				"THOverheal"
 		ReplayBrowser.CollectionTitle.FgColor				"LightRed"
 		ReplayBrowser.Warning.FgColor						"White"
 		ReplayBrowser.ScrollBar.SliderButton.FgColor		"TransparentYellow"
@@ -241,33 +244,33 @@ Scheme {
 		Replay.RenderDialog.BgColor							"LighterDarkBrown"
 
 		Econ.Dialog.BgColor									"Blank"
-		Econ.Button.BgColor									"TanDark"
-		Econ.Button.FgColor									"TanLight"
-		Econ.Button.ArmedBgColor							"TFOrange"
-		Econ.Button.ArmedFgColor							"TanLight"
-		Econ.Button.DepressedBgColor						"TFOrange"
+		Econ.Button.BgColor									"THUnselected"
+		Econ.Button.FgColor									"FullWhite"
+		Econ.Button.ArmedBgColor							"THOverheal2"
+		Econ.Button.ArmedFgColor							"FullWhite"
+		Econ.Button.DepressedBgColor						"THOverheal2"
 		Econ.Button.DepressedFgColor						"Black"
 
-		Econ.Button.PresetDefaultColorFg					"TanLight"
-		Econ.Button.PresetArmedColorFg						"TanLight"
-		Econ.Button.PresetDepressedColorFg					"TanLight"
+		Econ.Button.PresetDefaultColorFg					"FullWhite"
+		Econ.Button.PresetArmedColorFg						"FullWhite"
+		Econ.Button.PresetDepressedColorFg					"FullWhite"
 
-		Econ.Button.PresetDefaultColorBg					"LighterRed"
-		Econ.Button.PresetArmedColorBg						"LightRed"
-		Econ.Button.PresetDepressedColorBg					"TFOrange"
+		Econ.Button.PresetDefaultColorBg					"THOverheal2"
+		Econ.Button.PresetArmedColorBg						"THOverheal"
+		Econ.Button.PresetDepressedColorBg					"THOverheal"
 
 		Border.Bright					"Blank"		// the lit side of a control
 		Border.Dark						"Black"		// the dark/unlit side of a control
 		Border.Selection				"Gray"			// the additional border color for displaying the default/selected button
 
 		Button.TextColor				"TanLight"
-		Button.BgColor					"TanDark"
+		Button.BgColor					"THUnselected"
 		Button.ArmedTextColor			"TanLight"
-		Button.ArmedBgColor				"TFOrange"
+		Button.ArmedBgColor				"THOverheal2"
 		Button.SelectedTextColor		"TanLight"
-		Button.SelectedBgColor			"TFOrange"
+		Button.SelectedBgColor			"THOverheal2"
 		Button.DepressedTextColor		"Black"
-		Button.DepressedBgColor			"TFOrange"
+		Button.DepressedBgColor			"CreditsGreen"
 
 		CheckButton.TextColor			"Yellow"
 		CheckButton.SelectedTextColor	"Yellow"
