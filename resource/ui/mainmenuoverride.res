@@ -1,3 +1,6 @@
+#base "../dev/preload.res"
+//dumbass forgets to preload things then wonders why the menu thumb missing error was still happening LOL !!! 
+//the dumbass is me. this file has been around since 0.223 (6 months ago.)
 "Resource/UI/MainMenuOverride.res"
 {
 	MainMenuOverride
@@ -280,6 +283,50 @@
 			"defaultFgColor_override"				"White"
 			"armedFgColor_override"					"THOverheal"
 			"depressedFgColor_override"				"DarkGray"
+		}
+	}
+
+	//==================================================================================================================================================
+	// QUICKPLAY
+	//==================================================================================================================================================
+	"Quickplay"
+	{
+		"ControlName"								"EditablePanel"
+		"fieldname"									"Quickplay"
+		"xpos"										"rs1-48"
+		"ypos"										"0"
+		"zpos"										"10005"
+		"wide"										"24"
+		"tall"										"19"
+
+		"SubButton"
+		{
+			"ControlName"							"CExImageButton"
+			"fieldName"								"SubButton"
+			"xpos"									"0"
+			"ypos"									"0"
+			"wide"									"f0"
+			"tall"									"f0"
+			"visible"								"1"
+			"enabled"								"1"
+			"proportionaltoparent"					"1"
+			"font"									"Icons20"
+			"AllCaps"								"0"
+			"textAlignment"							"center"
+			"sound_depressed"						"UI/buttonclick.wav"
+			"sound_released"						"UI/buttonclickrelease.wav"
+
+			"paintbackground"						"1"
+			"paintborder"							"0"
+			"RoundedCorners"						"0"
+
+			"defaultFgColor_override"				"White"
+			"armedFgColor_override"					"White"
+			"depressedFgColor_override"				"White"
+
+			"defaultBgColor_override"				"0 150 135 255"
+			"armedBgColor_override"					"0 100 90 255"
+			"depressedBgColor_override"				"0 150 135 255"
 		}
 	}
 //////////////////////////////////////////////////
@@ -2479,62 +2526,14 @@
 			"scaleImage"	"1"
 		}
 	}
-
-	"ReplayButton"
-	{
-		"ControlName"	"CExImageButton"
-		"fieldName"		"ReplayButton"
-		"xpos"			"c-34+273"
-		"ypos"			"437"
-		"zpos"			"5"
-		"wide"			"25"
-		"tall"			"25"
-		"autoResize"	"0"
-		"pinCorner"		"3"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		""
-		"font"			"HudFont14Bold"
-		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"default"		"1"
-		"Command"		"engine replay_reloadbrowser"
-
-		"navUp"			"VRModeButton"
-		"navLeft"		"AchievementsButton"
-		"navRight"		"CoachPlayersButton"
-
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-		"border_default"	"MainMenuSubButtonBorder"
-
-		"image_drawcolor"	"235 226 202 255"
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"5"
-			"ypos"			"5"
-			"zpos"			"1"
-			"wide"			"15"
-			"tall"			"15"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"glyph_tv"
-			"scaleImage"	"1"
-		}
-	}
-
 	"ReportBugButton"
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"ReportBugButton"
-		"xpos"			"c-14+273"
+		"xpos"			"c-34+273"
 		"ypos"			"437"
 		"zpos"			"4"
-		"wide"			"30"
+		"wide"			"25"
 		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"3"
@@ -2561,7 +2560,7 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"SubImage"
-			"xpos"			"10"
+			"xpos"			"5"
 			"ypos"			"5"
 			"zpos"			"1"
 			"wide"			"15"

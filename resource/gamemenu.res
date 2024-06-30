@@ -3,8 +3,8 @@
 
 	"Version"
 	{
-		"label"										"technohud 0.39"
-		"command"									"engine showconsole; clear; echo technohud v0.39; echo by techno, using some bits of other huds by various people. (check github for credits); echo github.com/tekunotri/technohud"
+		"label"										"technohud 0.40"
+		"command"									"engine showconsole; clear; echo technohud v0.40; echo by techno, using some bits of other huds by various people. (check github for credits); echo github.com/tekunotri/technohud"
 		"OnlyAtMenu"								"0"
 	}
 	"Servers"
@@ -21,6 +21,11 @@
 	{
 		"label"										"Store (Scam)"
 		"command"									"engine open_store"
+	}
+	"Quickplay"
+	{
+		"label"										"¥"
+		"command"									"engine replay_reloadbrowser"
 	}
 
 	"VRModeButton"
