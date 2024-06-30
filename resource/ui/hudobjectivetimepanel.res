@@ -206,9 +206,9 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"HudFont14Shadow"
-		"font_hidef"	"HudFont14Shadow"
-		"font_lodef"	"HudFont14Shadow"
+		"font"			"HudFont10Shadow"
+		"font_hidef"	"HudFont10Shadow"
+		"font_lodef"	"HudFont10Shadow"
 
 		if_match
 		{
@@ -233,7 +233,7 @@
 		"ypos_lodef"	"-100"	//off-screen
 		"zpos"			"1"
 		"wide"			"78"
-		"tall"			"20"
+		"tall"			"0"
 		"tall_minmode"	"0"
 		"visible"		"0"
 		"enabled"		"1"

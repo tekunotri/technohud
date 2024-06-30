@@ -2,7 +2,7 @@
 Scheme {
     Colors {
 		// custom colors
-		"FullWhite"			"236 236 236 236"
+		"FullWhite"			"236 236 236 255"
 		"FullBlack"			"0 0 0 255"
 		//overheal anim colors
 		"THOverheal"		"99 232 167 255"

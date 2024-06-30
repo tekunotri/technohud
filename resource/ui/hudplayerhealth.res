@@ -36,10 +36,10 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue"
-		"xpos"			"c-188"
+		"xpos"			"c-215"
 		"ypos"			"c115"	[$WIN32]
 		"zpos"			"5"
-		"wide"			"100"
+		"wide"			"150"
 		"tall"			"36"
 		"visible"		"1"
 		"enabled"		"1"
@@ -55,7 +55,7 @@
 		"xpos"			"-1"
 		"ypos"			"-1"	[$WIN32]
 		"zpos"			"5"
-		"wide"			"100"
+		"wide"			"150"
 		"tall"			"36"
 		"visible"		"1"
 		"enabled"		"1"
@@ -69,7 +69,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusMaxHealthValue"
-		"xpos"			"-60"
+		"xpos"			"-90"
 		"ypos"			"14"
 		"zpos"			"6"
 		"wide"			"50"
@@ -107,7 +107,7 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"PlayerStatusAnchor"
-		"xpos"										"-35"
+		"xpos"										"-60"
 		"ypos"										"-30"
 		"wide"										"0"
 		"tall"										"80"
