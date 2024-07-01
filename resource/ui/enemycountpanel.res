@@ -84,7 +84,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"EnemyCountShadow"
 		"font"			"HudFont14"
-		"fgcolor"		"FullBlack"
+		"fgcolor"		"Black"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"3"

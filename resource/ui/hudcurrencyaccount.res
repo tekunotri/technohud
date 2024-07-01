@@ -22,7 +22,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"CurrencyShadow"
 		"font"			"HudFont13Bold"
-		"fgcolor"		"FullBlack"
+		"fgcolor"		"Black"
 		"xpos"			"12"
 		"ypos"			"58"
 		"zpos"			"3"

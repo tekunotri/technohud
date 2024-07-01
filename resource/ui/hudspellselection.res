@@ -98,7 +98,7 @@
 		"ypos"			"17"
 		"wide"			"20"
 		"tall"			"20"
-		"fgcolor"		"FullBlack"
+		"fgcolor"		"Black"
 	}
 	"CountTextShadow"
 	{

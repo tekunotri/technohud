@@ -269,7 +269,8 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"border"		"TFThinLineBorder"
+			"border"		"White"
+			"bgcolor_override"	"TransparentDarkGray"
 		}
 		"AveragesLabel"
 		{
@@ -1654,7 +1655,8 @@
 			"enabled"		"1"
 			"enabled_hidef"		"0"
 			"enabled_lodef"		"0"
-			"border"		"TFThinLineBorder"
+			"border"		"White"
+			"bgcolor_override"	"TransparentDarkGray"
 		}
 		"RecordsLabel1"
 		{

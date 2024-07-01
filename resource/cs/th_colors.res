@@ -1,25 +1,6 @@
 // color shit
 Scheme {
     Colors {
-		// custom colors
-		"FullWhite"			"236 236 236 255"
-		"FullBlack"			"0 0 0 255"
-		//overheal anim colors
-		"THOverheal"		"99 232 167 255"
-		"THOverheal2"		"0 230 119 255"
-		//low hp/ammo colors
-		"THLow"				"232 99 99 255"
-		"THLow2"			"194 69 69 255"
-		"ItemMeterBG"		"250 234 201 51"
-		"DarkGray"			"44 44 44 255"
-		"DarkerGray"		"33 33 33 255"
-		"TransparentDarkGray"		"44 44 44 200"
-		"TransparentDarkerGray"		"33 33 33 200"
-		"Menu_Accent"		"44 44 44 255"
-		"THBlue"			"124 173 255 255"
-		"THRed"				"255 118 108 255"
-		//UI
-		"THUnselected"		"118 118 118 236"
 		// base colors
 		"Orange"			"178 82 22 255"
 		"OrangeDim"			"178 82 22 120"
@@ -56,14 +37,7 @@ Scheme {
 		//"Black"				"0 0 0 255"
 		//Changed black to a NTSC safe color
 		"GreenSolid"		 "76 107 34 255"
-
-		"Black"				"46 43 42 255"
-		"TransparentBlack"	"0 0 0 196"
-
-		"TransparentLightBlack"	"0 0 0 90"
-
 		"FooterBGBlack"		"52 48 55 255"
-
 		"HUDBlueTeam"		"90 122 143 255"
 
 		"HUDRedTeam"		"189 59 61 255"
@@ -72,7 +46,6 @@ Scheme {
 		"HUDBlueTeamSolid"	"104 124 155 255"
 		"HUDRedTeamSolid"	"180 92 77 255"
 		"HUDDeathWarning"	"255 0 0 255"
-		"HudWhite"			"255 255 255 255"
 		"HudOffWhite"		"200 187 161 255"
 		"HudBlack"			"65 65 65 255"
 

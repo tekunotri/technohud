@@ -93,7 +93,7 @@
 		"labelText"		"%Health%"
 		"textAlignment"	"center"
 		"font"			"HudFont16Bold"
-		"fgcolor"		"FullBlack"
+		"fgcolor"		"Black"
 		"pin_to_sibling" "PlayerStatusHealthValue"
 	}
 	"PlayerStatusPlayerLevel"

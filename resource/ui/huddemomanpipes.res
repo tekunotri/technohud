@@ -140,7 +140,7 @@
 			"font"			"HudFont24"
 			"font_minmode"	"HudFont14"
 			"font_lodef"	"HudFontMediumBig"
-			"fgcolor"		"FullBlack"
+			"fgcolor"		"Black"
 			"pin_to_sibling" "NumPipesLabel"
 		}
 	}
@@ -226,7 +226,7 @@
 			"font"			"HudFont24"
 			"font_minmode"	"HudFont14"
 			"font_lodef"	"HudFontMediumBig"
-			"fgcolor"		"FullBlack"
+			"fgcolor"		"Black"
 		}
 	}
 }

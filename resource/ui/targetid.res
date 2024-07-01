@@ -114,7 +114,7 @@
 		"textAlignment"		"North-West"
 		"dulltext"		"0"
 		"brighttext"		"0"
-		"fgcolor_override"	"FullBlack"
+		"fgcolor_override"	"Black"
 		"pin_to_sibling" "TargetNameLabel"
 	}
 

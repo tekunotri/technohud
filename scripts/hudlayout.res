@@ -1,3 +1,5 @@
+#base "../#customizations/crosshairs.res"
+#base "../#customizations/transparent_viewmodels.res"
 "Resource/HudLayout.res"
 {
 	HudPlayerStatus
@@ -488,7 +490,7 @@
 		"TeamBlue"		"50 150 201 255"
 		"TeamRed"		"235 58 58 255"
 		"IconColor"		"255 255 255 255"
-		"LocalPlayerColor"	"FullBlack"
+		"LocalPlayerColor"	"Black"
 		"BaseBackgroundColor"	"TransparentBlack"		
 		"LocalBackgroundColor"	"255 255 255 220"	
 			}
@@ -1349,12 +1351,11 @@
 		"fieldName" 	"HudMenuTauntSelection"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"c-235"
-		"ypos"			"c-52"
-		"ypos_hidef"	"c-42"
-		"ypos_lodef"	"c-42"
-		"wide"			"470"
-		"tall"			"200"
+		"xpos"			"0"
+		"ypos"			"-15"
+		"zpos"			"20"
+		"wide"			"f0"
+		"tall"			"f0"
 		"PaintBackgroundType"	"0"
 	}
 

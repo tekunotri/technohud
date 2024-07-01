@@ -40,7 +40,7 @@
 		"labelText"									"%metal%"
 		"textAlignment"								"center"
 		"font"										"HudFont18"
-		"fgcolor"									"FullBlack"
+		"fgcolor"									"Black"
 
 		"pin_to_sibling"							"AccountValue"
 	}
