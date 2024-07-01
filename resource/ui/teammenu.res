@@ -17,7 +17,7 @@
 
 	"BlueTeamBGBorder"
 	{
-		"ControlName"	"CTFImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"BlueTeamBGBorder"
 		"xpos"			"c-118"
 		"ypos"			"c20"
@@ -26,7 +26,8 @@
 		"tall"			"40"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/color_panel_blu"
+		"image"			"White"
+		"drawcolor"		"HUDBlueTeamSolid"
 		"scaleImage"		"1"
 		"src_corner_height"		"23"
 		"src_corner_width"		"23"
@@ -36,7 +37,7 @@
 
 	"RedTeamBGBorder"
 	{
-		"ControlName"	"CTFImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"RedTeamBGBorder"
 		"xpos"			"c8"
 		"ypos"			"c20"
@@ -45,7 +46,8 @@
 		"tall"			"40"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/color_panel_red"
+		"image"			"White"
+		"drawcolor"		"HUDRedTeamSolid"
 		"scaleImage"		"1"
 		"src_corner_height"		"23"
 		"src_corner_width"		"23"
@@ -97,7 +99,7 @@
 		"labelText"		""
 		"textAlignment"	"center"
 		"font"			"HudFont10Shadow"
-		"fgcolor"		"255 255 255 255"
+		"fgcolor"		"FullWhite"
 	}
 
 	"teambutton0"
@@ -117,10 +119,10 @@
 		"command"		"jointeam blue"
 		"team"			"3"
 		"font"			"HudFont14Shadow"
-		"fgcolor"		"HUDBlueTeamSolid"
+		"fgcolor"		"White"
 
-		"defaultFgColor_override"			"104 124 155 255"
-		"armedFgColor_override"				"235 226 202 255"
+		"defaultFgColor_override"			"White"
+		"armedFgColor_override"				"255 255 0 255"
 		"depressedFgColor_override"			"DarkGray"
 	}
 
@@ -141,10 +143,10 @@
 		"command"		"jointeam red"
 		"team"			"2"
 		"font"			"HudFont14Shadow"
-		"fgcolor"		"HUDRedTeamSolid"
+		"fgcolor"		"White"
 
-		"defaultFgColor_override"			"180 92 77 255"
-		"armedFgColor_override"				"235 226 202 255"
+		"defaultFgColor_override"			"White"
+		"armedFgColor_override"				"255 255 0 255"
 		"depressedFgColor_override"			"DarkGray"
 	}
 
@@ -201,7 +203,7 @@
 		"xpos"			"cs-0.5"
 		"ypos"			"r170"
 		"zpos"			"6"
-		"wide"			"100"
+		"wide"			"50"
 		"tall"			"16"
 		"visible"		"1"
 		"enabled"		"1"
@@ -284,7 +286,7 @@
 		"dulltext"		"0"
 		"brighttext"	"1"
 		"font"			"HudFont10Shadow"
-		"fgcolor"		"255 255 255 128"
+		"fgcolor"		"FullWhite"
 	}
 
 	"BlueCountPlayers"
@@ -305,7 +307,7 @@
 		"dulltext"		"0"
 		"brighttext"	"1"
 		"font"			"HudFont10Shadow"
-		"fgcolor"		"255 255 255 128"
+		"fgcolor"		"FullWhite"
 	}
 
 	"RedCount"
@@ -326,7 +328,7 @@
 		"dulltext"		"0"
 		"brighttext"	"1"
 		"font"			"HudFont10Shadow"
-		"fgcolor"		"255 255 255 128"
+		"fgcolor"		"FullWhite"
 	}
 
 	"RedCountPlayers"
@@ -347,7 +349,7 @@
 		"dulltext"		"0"
 		"brighttext"	"1"
 		"font"			"HudFont10Shadow"
-		"fgcolor"		"255 255 255 128"
+		"fgcolor"		"FullWhite"
 	}
 
 	"bluedoor"

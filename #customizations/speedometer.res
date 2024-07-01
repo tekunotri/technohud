@@ -8,5 +8,5 @@
 // NOTE: speedometers only come in 1 font as to not make the hud too heavy
 //=============================================================================================
 
-#base "../resource/ui/speedometer/speedometer_normal.res"  // NORMAL-STYLE SPEEDOMETER
+//#base "../resource/ui/speedometer/speedometer_normal.res"  // NORMAL-STYLE SPEEDOMETER
 //#base "../resource/ui/speedometer/speedometer_budhud.res" // BUDHUD-STYLE SPEEDOMETER (COLORED)

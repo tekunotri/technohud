@@ -19,7 +19,7 @@
 
 	"BGBorder"
 	{
-		"ControlName"	"CTFImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"BGBorder"
 		"xpos"			"c-65"//"c-284"
 		"ypos"			"c-92"
@@ -29,10 +29,11 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"image"			"../hud/color_panel_brown" //clear and opaque versions avail
-//        "teambg_2"      "../hud/color_panel_red"
-//        "teambg_3"      "../hud/color_panel_blu"
+		"image"			"White" //clear and opaque versions avail
+        //"teambg_2"      "../hud/color_panel_red"
+        //"teambg_3"      "../hud/color_panel_blu"
 		"scaleImage"		"1"
+		"drawcolor"			"TransparentBlack"
 		"src_corner_height"		"23"
 		"src_corner_width"		"23"
 		"draw_corner_width"		"5"
@@ -95,7 +96,7 @@
 		"xpos"				"c-61"
 		"ypos"				"c60"
 		"zpos"				"8"
-		"wide"				"150"
+		"wide"				"200"
 		"tall"				"12"
 		"visible"			"1"
 		"enabled"			"1"
@@ -416,7 +417,7 @@
 		"enabled"		"1"
         "tabPosition"	"0"
 		"tabPosition"	"0"
-		"labelText"		"Edit Loadout (&E)"
+		"labelText"		"Edit Loadout"
 		"textAlignment"	"center"
 		"Command"		"openloadout"
 		"font"			"HudFont8Shadow"
@@ -424,6 +425,27 @@
 		"keyboardinputenabled"	"0"
 		"Default"			"0"
 
+	}
+	"EditLoadoutKeybind"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"EditLoadoutButton"
+		"xpos"			"9999"
+		"ypos"			"c90"
+		"zpos"			"6"
+		"wide"			"80"
+		"tall"			"16"
+		"visible"		"0"
+		"enabled"		"1"
+        "tabPosition"	"0"
+		"tabPosition"	"0"
+		"labelText"		"(&E)"
+		"textAlignment"	"center"
+		"Command"		"openloadout"
+		"font"			"HudFont8Shadow"
+
+		"keyboardinputenabled"	"0"
+		"Default"			"0"
 	}
 
 	"CancelButton"
@@ -438,7 +460,28 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"#TF_Cancel"
+		"labelText"		"Cancel"
+		"textAlignment"	"center"
+		"command"		"vguicancel"
+		"font"			"HudFont8Shadow"
+
+		"keyboardinputenabled"	"0"
+		"Default"			"0"
+
+	}
+		"CancelKeybind"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"CancelKeybind"
+		"xpos"			"c-39"
+		"ypos"			"c110"
+		"zpos"			"6"
+		"wide"			"80"
+		"tall"			"16"
+		"visible"		"0"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"(&0)"
 		"textAlignment"	"center"
 		"command"		"vguicancel"
 		"font"			"HudFont8Shadow"
