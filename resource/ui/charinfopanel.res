@@ -158,6 +158,7 @@
 		"Command"									"back"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
+		"roundedcorners"							"0"
 	}
 	"BackButton2"
 	{
@@ -196,6 +197,8 @@
 		"Command"									"close"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
+		"roundedcorners"	 						"0"
+		"paintbackgroundtype"						"0"
 	}
 	"CloseButton2"
 	{

@@ -823,60 +823,63 @@ Scheme{
 		////////////////////////////////////////////////////////////////////////////////////////////////
 		"Default"
 		{
+			"Default"
+		{
 			"1"
 			{
-				"name"										"GrisaiaEdit"
-				"tall"										"14"
+				"name"										"Luxi Mono Regular"
+				"tall"										"10"
 				"range"										"0x0000 0x017F"
 				"yres"										"480 599"
 				"antialias"									"1"
 			}
 			"2"
 			{
-				"name"										"GrisaiaEdit"
-				"tall"										"18"
+				"name"										"Luxi Mono Regular"
+				"tall"										"12"
 				"range"										"0x0000 0x017F"
 				"yres"										"600 767"
 				"antialias"									"1"
 			}
 			"3"
 			{
-				"name"										"GrisaiaEdit"
-				"tall"										"22"
+				"name"										"Luxi Mono Regular"
+				"tall"										"16"
 				"range"										"0x0000 0x017F"
 				"yres"										"768 1023"
 				"antialias"									"1"
 			}
 			"4"
 			{
-				"name"										"GrisaiaEdit"
-				"tall"										"24"
+				"name"										"Luxi Mono Regular"
+				"tall"										"20"
 				"range"										"0x0000 0x017F"
 				"yres"										"1024 1199"
 				"antialias"									"1"
 			}
 			"5"
 			{
-				"name"										"GrisaiaEdit"
-				"tall"										"32"
+				"name"										"Luxi Mono Regular"
+				"tall"										"24"
 				"range"										"0x0000 0x017F"
 				"yres"										"1200 6000"
 				"antialias"									"1"
 			}
 			"6"
 			{
-				"name"										"GrisaiaEdit"
+				"name"										"Luxi Mono Regular"
 				"tall"										"12"
 				"range"										"0x0000 0x00FF"
 				"weight"									"900"
 			}
 			"7"
 			{
-				"name"										"GrisaiaEdit"
+				"name"										"Luxi Mono Regular"
 				"tall"										"12"
 				"range"										"0x0000 0x00FF"
 				"weight"									"800"
 			}
+		}
 		}
 		"DefaultUnderline"
 		{

@@ -308,6 +308,7 @@
 		"Command"									"characterloadout"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
+		"roundedcorners"							"0"
 
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"White"
@@ -330,6 +331,7 @@
 		"Command"									"tauntloadout"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
+		"roundedcorners"							"0"
 
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"White"
@@ -355,7 +357,8 @@
 		"sound_released"							"UI/buttonclickrelease.wav"
 
 		"paintbackground"							"1"
-		"paintbackgroundtype"						"2"
+		"paintbackgroundtype"						"0"
+		"roundedcorners"							"0"
 		"defaultBgColor_override"					"HUDBlueTeam"
 		"armedBgColor_override"						"60 80 100 255"
 		"depressedBgColor_override"					"HUDBlueTeam"
@@ -380,7 +383,8 @@
 		"sound_released"							"UI/buttonclickrelease.wav"
 
 		"paintbackground"							"1"
-		"paintbackgroundtype"						"2"
+		"paintbackgroundtype"						"0"
+		"roundedcorners"							"0"
 		"defaultBgColor_override"					"HUDRedTeam"
 		"armedBgColor_override"						"125 50 50 255"
 		"depressedBgColor_override"					"HUDRedTeam"

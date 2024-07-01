@@ -823,7 +823,7 @@ Scheme{
 			"1"
 			{
 				"name"										"GrisaiaEdit"
-				"tall"										"14"
+				"tall"										"10"
 				"range"										"0x0000 0x017F"
 				"yres"										"480 599"
 				"antialias"									"1"
@@ -831,7 +831,7 @@ Scheme{
 			"2"
 			{
 				"name"										"GrisaiaEdit"
-				"tall"										"18"
+				"tall"										"12"
 				"range"										"0x0000 0x017F"
 				"yres"										"600 767"
 				"antialias"									"1"
@@ -839,7 +839,7 @@ Scheme{
 			"3"
 			{
 				"name"										"GrisaiaEdit"
-				"tall"										"22"
+				"tall"										"16"
 				"range"										"0x0000 0x017F"
 				"yres"										"768 1023"
 				"antialias"									"1"
@@ -847,7 +847,7 @@ Scheme{
 			"4"
 			{
 				"name"										"GrisaiaEdit"
-				"tall"										"24"
+				"tall"										"20"
 				"range"										"0x0000 0x017F"
 				"yres"										"1024 1199"
 				"antialias"									"1"
@@ -855,7 +855,7 @@ Scheme{
 			"5"
 			{
 				"name"										"GrisaiaEdit"
-				"tall"										"32"
+				"tall"										"24"
 				"range"										"0x0000 0x017F"
 				"yres"										"1200 6000"
 				"antialias"									"1"

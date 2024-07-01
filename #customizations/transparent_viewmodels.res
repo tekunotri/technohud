@@ -8,4 +8,4 @@
 // NOTE: THIS DOES NOT WORK ON DX8, YOU NEED DX9 MINIMUM TO USE TRANSPARENT VIEWMODELS
 //=============================================================================================
 
-#base "../scripts/customizations/transparent_viewmodels.res"
+//#base "../scripts/customizations/transparent_viewmodels.res"
