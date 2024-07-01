@@ -6,7 +6,6 @@
 // TF2 uses the R(red) G(green) B(blu) A(alpha) color code
 // The color values can go from 0 to 255 (and so can Alpha values, 0 being transparent)
 //=====================================================================================
-
 "Scheme"
 {
 	"Colors"
@@ -16,7 +15,7 @@
 		//TODO: separate ammo types (different colors for clip and magazine)
 		//==========================================================
 		"FullWhite"					"236 236 236 255"
-		//overheal animation colors, refer to  scripts/hudanimations_th.txt Hud
+		//overheal animation colors, refer to  scripts/hudanimations_th.txt
 		"THOverheal"				"99 232 167 255"
 		"THOverheal2"				"0 230 119 255"
 		//low hp/ammo colors
