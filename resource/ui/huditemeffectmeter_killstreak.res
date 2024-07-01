@@ -44,7 +44,7 @@
 		"labelText"									"8"
 		"textAlignment"								"center"
 		"font"										"Icons16"
-		"fgcolor"									"FullBlack"
+		"fgcolor"									"Black"
 
 		"pin_to_sibling"							"ItemEffectMeterIcon"
 	}
@@ -80,7 +80,7 @@
 		"labelText"									"%progresscount%"
 		"textAlignment"								"west"
 		"font"										"HudFont18"
-		"fgcolor"									"FullBlack"
+		"fgcolor"									"Black"
 
 		"pin_to_sibling"							"ItemEffectMeterCount"
 	}

@@ -47,7 +47,7 @@
 		"alpha"										"255"
 		"labelText"									"%metal%"
 		"textAlignment"								"center"
-		"fgcolor"									"FullBlack"
+		"fgcolor"									"Black"
 		"font"										"HudFont24Bold"
 		"pin_to_sibling"							"DamageAccountValue"
 	}

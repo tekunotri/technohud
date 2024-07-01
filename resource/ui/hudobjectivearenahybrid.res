@@ -95,7 +95,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"HudFont12"
-		"fgcolor"		"FullBlack"
+		"fgcolor"		"Black"
 		"pin_to_sibling"	"PlayingTo"
 		"if_hybrid"
 		{
@@ -801,7 +801,7 @@
 				"font"			"HudFont30"
 				"font_hidef"	"HudFont30"
 				"font_lodef"	"HudFont30"
-				"fgcolor"		"FullBlack"		
+				"fgcolor"		"Black"		
 				"proportionalToParent"	"1"
 				"pin_to_sibling"	"Score"
 			}
@@ -857,7 +857,7 @@
 				"font"			"HudFont30"
 				"font_hidef"	"HudFont30"
 				"font_lodef"	"HudFont30"
-				"fgcolor"		"FullBlack"		
+				"fgcolor"		"Black"		
 				"proportionalToParent"	"1"
 				"pin_to_sibling"	"Score"
 			}

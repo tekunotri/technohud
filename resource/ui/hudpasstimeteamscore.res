@@ -89,7 +89,7 @@
 		"textAlignment"	"west"
 		"labelText"		"%bluescore%"
 		"font"			"HudFont36"
-		"fgcolor"		"FullBlack"
+		"fgcolor"		"Black"
 		"pin_to_sibling"	"BlueScore"
 	}
 
@@ -124,7 +124,7 @@
 		"textAlignment"	"east"
 		"labelText"		"%redscore%"
 		"font"			"HudFont36"
-		"fgcolor"		"FullBlack"
+		"fgcolor"		"Black"
 		"pin_to_sibling"	"RedScore"
 	}
 
@@ -174,7 +174,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"font"			"HudFont10"
-			"fgcolor"		"FullBlack"
+			"fgcolor"		"Black"
 			"pin_to_sibling"	"PlayingTo"
 		}
 		"PlayingToBG"

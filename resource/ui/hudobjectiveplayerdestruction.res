@@ -74,7 +74,7 @@
 		"labelText"									"#TF_PlayingTo"
 		"textAlignment"								"center"
 		"font"										"HudFont9"
-		"fgcolor"									"FullBlack"
+		"fgcolor"									"Black"
 		"pin_to_sibling"							"PlayingTo"
 	}
 	"CarriedContainer"
@@ -120,7 +120,7 @@
 			"textAlignment"							"center"
 			"labelText"								"%flagvalue%"
 			"font"									"HudFont18"
-			"fgcolor"								"FullBlack"
+			"fgcolor"								"Black"
 			"proportionalToParent"					"1"
 
 			"pin_to_sibling"						"FlagValue"
@@ -257,7 +257,7 @@
 				"textAlignment"						"east"
 				"labelText"							"%blue_escrow%"
 				"font"								"HudFont18"
-				"fgcolor"							"FullBlack"
+				"fgcolor"							"Black"
 				"proportionalToParent"				"1"
 
 				"pin_to_sibling"					"EscrowBlue"
@@ -312,7 +312,7 @@
 				"textAlignment"						"west"
 				"labelText"							"%red_escrow%"
 				"font"								"HudFont18"
-				"fgcolor"							"FullBlack"
+				"fgcolor"							"Black"
 				"proportionalToParent"				"1"
 
 				"pin_to_sibling"					"EscrowRed"
@@ -361,7 +361,7 @@
 					"textAlignment"					"center"
 					"labelText"						"WIN:"
 					"font"							"HudFont12"
-					"fgcolor"						"FullBlack"
+					"fgcolor"						"Black"
 					"proportionalToParent"			"1"
 
 					"pin_to_sibling"				"VictoryLabel2"
@@ -397,7 +397,7 @@
 					"textAlignment"					"center"
 					"labelText"						"%victorytime%"
 					"font"							"HudFont14"
-					"fgcolor"						"FullBlack"
+					"fgcolor"						"Black"
 					"proportionalToParent"			"1"
 
 					"pin_to_sibling"				"VictoryLabelTime"
@@ -469,7 +469,7 @@
 					"textAlignment"					"center"
 					"labelText"						"WIN:"
 					"font"							"HudFont12"
-					"fgcolor"						"FullBlack"
+					"fgcolor"						"Black"
 					"proportionalToParent"			"1"
 
 					"pin_to_sibling"				"VictoryLabel2"
@@ -505,7 +505,7 @@
 					"textAlignment"					"center"
 					"labelText"						"%victorytime%"
 					"font"							"HudFont14"
-					"fgcolor"						"FullBlack"
+					"fgcolor"						"Black"
 					"proportionalToParent"			"1"
 
 					"pin_to_sibling"				"VictoryLabelTime"
@@ -633,7 +633,7 @@
 				"textAlignment"						"east"
 				"labelText"							"%score%"
 				"font"								"HudFont30"
-				"fgcolor"							"FullBlack"
+				"fgcolor"							"Black"
 				"proportionalToParent"				"1"
 
 				"pin_to_sibling"					"Score"
@@ -683,7 +683,7 @@
 				"textAlignment"						"west"
 				"labelText"							"%score%"
 				"font"								"HudFont30"
-				"fgcolor"							"FullBlack"
+				"fgcolor"							"Black"
 				"proportionalToParent"				"1"
 
 				"pin_to_sibling"					"Score"
@@ -779,7 +779,7 @@
 				"textAlignment"						"center"
 				"labelText"							"%intelvalue%"
 				"font"								"HudFont16"
-				"fgcolor"							"FullBlack"
+				"fgcolor"							"Black"
 				"proportionalToParent"				"1"
 
 				"pin_to_sibling"					"IntelValue"
@@ -875,7 +875,7 @@
 				"textAlignment"						"center"
 				"labelText"							"%intelvalue%"
 				"font"								"HudFont16"
-				"fgcolor"							"FullBlack"
+				"fgcolor"							"Black"
 				"proportionalToParent"				"1"
 
 				"pin_to_sibling"					"IntelValue"
@@ -925,7 +925,7 @@
 			"textAlignment"							"east"
 			"labelText"								"t"
 			"font"									"Icons14"
-			"fgcolor"								"FullBlack"
+			"fgcolor"								"Black"
 			"proportionalToParent"					"1"
 			"pin_to_sibling"						"CountdownIcon"
 		}
@@ -960,7 +960,7 @@
 			"textAlignment"							"west"
 			"labelText"								"%countdowntime%"
 			"font"									"HudFont16"
-			"fgcolor"								"FullBlack"
+			"fgcolor"								"Black"
 			"proportionalToParent"					"1"
 
 			"pin_to_sibling"						"CountdownLabelTime"

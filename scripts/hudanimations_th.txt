@@ -1,6 +1,5 @@
 // technohud-specific animations
 //
-//
 // commands:
 //	Animate <panel name> <variable> <target value> <interpolator> <start time> <duration>
 //		variables:
@@ -42,20 +41,6 @@
 //	SetTexture <panel name> <textureidname> <texturefilename> <set time>
 //
 //  SetString <panel name> <string varname> <stringvalue> <set time>
-
-
-//===========================================
-//scope shit, uncomment if you dont play comp
-event ScopeRemoval
-{
-Animate HudScope Position    "9999 9999" Linear 0.0 0.0
-}
-
-event DamagedPlayer
-{
-//RunEvent ScopeRemoval 0.0
-}
-
 //===========================================
 //Health Bonus Pulse
 event HudHealthBonusPulse
@@ -115,13 +100,18 @@ event HudLowAmmoPulse
 	//Animate	HudWeaponLowAmmoImage		Alpha		"0"			Linear 0.125 0.075
 
 	Animate AmmoInClip							Alpha 		"255" 								Linear 	0.0 0.0
-	Animate AmmoInClip 							FgColor 	"THLow" 					Linear 	0.0 0.0
-
 	Animate AmmoInReserve 						Alpha 		"255" 								Linear 	0.0 0.0
-	Animate AmmoInReserve						FgColor 	"THLow" 				Linear 	0.0 0.0
-
 	Animate AmmoNoClip 							Alpha 		"255" 								Linear 	0.0 0.0
-	Animate AmmoNoClip							FgColor 	"THLow" 					Linear 	0.0 0.0
+
+	Animate AmmoInClip 							FgColor 	"THLow" 					Linear 	0.0 0.075
+	Animate AmmoInClip 							FgColor 	"THLow2" 					Linear 	0.125 0.075
+
+
+	Animate AmmoInReserve						FgColor 	"THLow" 					Linear 	0.0 0.075
+	Animate AmmoInReserve 						FgColor 	"THLow2" 					Linear 	0.125 0.075
+
+	Animate AmmoNoClip							FgColor 	"THLow" 					Linear 	0.0 0.075
+	Animate AmmoNoClip							FgColor 	"THLow2" 					Linear 	0.125 0.075
 
 	RunEvent HudLowAmmoPulseLoop	0.25
 }
@@ -209,13 +199,13 @@ event HudMedicChargedStop
 	Animate	ChargeLabel				FgColor		"FullWhite"						Linear	0.0		0.0001
 	Animate	ChargeLabelBig				FgColor		"FullWhite"						Linear	0.0		0.0001
 
-	Animate	ChargeLabelBigShadow		FgColor		"FullBlack"								Linear	0.0		0.0001
+	Animate	ChargeLabelBigShadow		FgColor		"Black"								Linear	0.0		0.0001
 	Animate ChargeLabelBigShadowExtra		Alpha		"0"									Linear	0.0		0.0001
 
 	Animate	ChargeMeter			FgColor		"FullWhite"						Linear	0.0		0.0001
 }
 //======================================
-
+//GRAVEYARD
 event CompetitiveGame_LowerChatWindow{}
 event CompetitiveGame_RestoreChatWindow{}
 event HudTournament_MoveChatWindow{}

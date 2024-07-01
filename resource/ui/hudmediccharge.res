@@ -80,7 +80,7 @@
 		"labelText"									"#TF_UberchargeMinHUD"
 		"textAlignment"								"center"
 		"font"										"HudFont52Bold"
-		"fgcolor"									"FullBlack"
+		"fgcolor"									"Black"
 
 		"pin_to_sibling"							"ChargeLabelBig"
 	}
@@ -99,7 +99,7 @@
 		"labelText"									"#TF_UberchargeMinHUD"
 		"textAlignment"								"center"
 		"font"										"HudFont52Bold"
-		"fgcolor"									"FullBlack"
+		"fgcolor"									"Black"
 		"alpha"										"0"
 
 		"pin_to_sibling"							"ChargeLabelBigShadow"

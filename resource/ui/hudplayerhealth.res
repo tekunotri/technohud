@@ -18,26 +18,13 @@
 		"HealthDeathWarning"	"0.49"
 		"HealthDeathWarningColor"	"HUDDeathWarning"
 	}
-	"PlayerStatusHealthBonusImage"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"c-165"	[$WIN32]
-		"ypos"			"c106"	[$WIN32]
-		"zpos"			"2"
-		"wide"			"55"	[$WIN32]
-		"tall"			"55"	[$WIN32]
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			"replay/thumbnails/health_over_bg_green"
-		"scaleImage"	"1"
-	}
-	"PlayerStatusHealthValue"
+
+	"PlayerStatusHealthValue" // actual hp number
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue"
 		"xpos"			"c-215"
-		"ypos"			"c115"	[$WIN32]
+		"ypos"			"c115"	
 		"zpos"			"5"
 		"wide"			"150"
 		"tall"			"36"
@@ -48,12 +35,12 @@
 		"font"			"HudFont52Bold"
 		"fgcolor"		"FullWhite"
 	}
-	"PlayerStatusHealthValue_Shadow"
+	"PlayerStatusHealthValue_Shadow" // actual hp number shadow
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue_Shadow"
 		"xpos"			"-1"
-		"ypos"			"-1"	[$WIN32]
+		"ypos"			"-1"	
 		"zpos"			"5"
 		"wide"			"150"
 		"tall"			"36"
@@ -62,10 +49,24 @@
 		"labelText"		"%Health%"
 		"textAlignment"	"center"
 		"font"			"HudFont52Bold"
-		"fgcolor"		"FullBlack"
+		"fgcolor"		"Black"
 		"pin_to_sibling" "PlayerStatusHealthValue"
 	}
-	"PlayerStatusMaxHealthValue"
+	"PlayerStatusHealthBonusImage" // buff hp cross
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatusHealthBonusImage"
+		"xpos"			"c-165"	
+		"ypos"			"c106"	
+		"zpos"			"2"
+		"wide"			"55"	
+		"tall"			"55"	
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/health_over_bg_green"
+		"scaleImage"	"1"
+	}
+	"PlayerStatusMaxHealthValue" // max hp value, shows up above to the right,
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusMaxHealthValue"
@@ -75,6 +76,7 @@
 		"wide"			"50"
 		"tall"			"18"
 		"visible"		"1"
+		"visible_minmode"	"0"
 		"enabled"		"1"
 		"labelText"		"%MaxHealth%"
 		"textAlignment"	"center"
@@ -92,11 +94,12 @@
 		"wide"			"50"
 		"tall"			"18"
 		"visible"		"1"
+		"visible_minmode"	"0"
 		"enabled"		"1"
 		"labelText"		"%MaxHealth%"
 		"textAlignment"	"center"
 		"font"			"HudFont14"
-		"fgcolor"		"FullBlack"
+		"fgcolor"		"Black"
 		"pin_to_sibling" "PlayerStatusMaxHealthValue"
 	}
 	//==================================================================================================================================================
