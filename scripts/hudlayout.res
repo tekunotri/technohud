@@ -1,4 +1,4 @@
-#base "../resource/cs/crosshairs/crosshair.res"
+#base "../#customizations/crosshairs.res"
 #base "../#customizations/transparent_viewmodels.res"
 "Resource/HudLayout.res"
 {
