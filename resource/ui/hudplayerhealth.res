@@ -2,7 +2,7 @@
 //TODO2: clean this file up to be slightly easier to mangle?
 "Resource/UI/HudPlayerHealth.res"
 {
-	// player health data
+	// player health data, don't mess with this
 	"HudPlayerHealth"
 	{
 		"ControlName"	"EditablePanel"
@@ -23,7 +23,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue"
-		"xpos"			"c-215"
+		"xpos"			"c-212"
 		"ypos"			"c115"	
 		"zpos"			"5"
 		"wide"			"150"
@@ -33,7 +33,7 @@
 		"labelText"		"%Health%"
 		"textAlignment"	"center"
 		"font"			"HudFont52Bold"
-		"fgcolor"		"FullWhite"
+		"fgcolor"		"HealthNumbers"
 	}
 	"PlayerStatusHealthValue_Shadow" // actual hp number shadow
 	{
@@ -81,7 +81,7 @@
 		"labelText"		"%MaxHealth%"
 		"textAlignment"	"center"
 		"font"			"HudFont14"
-		"fgcolor"		"FullWhite"
+		"fgcolor"		"HealthNumbers"
 		"pin_to_sibling" "PlayerStatusHealthValue"
 	}
 	"PlayerStatusMaxHealthValue_Shadow"

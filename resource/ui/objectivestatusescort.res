@@ -152,18 +152,18 @@
 			"tall"									"4"
 			"visible"								"1"
 			"enabled"								"1"
-			"fillcolor"								"THOverheal"
+			"fillcolor"								"THBlue"
 			"scaleImage"							"1"
 			"proportionaltoparent"					"1"
 
 			"if_multiple_trains_blue"
 			{
-				"fillcolor"							"THOverheal"
+				"fillcolor"							"THBlue"
 
 			}
 			"if_multiple_trains_red"
 			{
-				"fillcolor"							"Red"
+				"fillcolor"							"THRed"
 
 			}
 			// Works but looks pretty off on lower res

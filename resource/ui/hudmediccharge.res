@@ -37,7 +37,7 @@
 		"labelText"									"#TF_UberchargeMinHUD"
 		"textAlignment"								"center"
 		"font"										"HudFont18Shadow"
-		"fgcolor"									"0 255 255 255"
+		"fgcolor"									"0 255 255 255" // eye-catching color
 
 	}
 
