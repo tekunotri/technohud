@@ -1,0 +1,38 @@
+"resource/ui/huddamageaccount_last.res"
+{  
+    "DamageAccountValue"
+	{
+		"ControlName"								"CExLabel"
+		"fieldName"									"DamageAccountValue"
+		"xpos"										"c80"
+		"ypos"										"r155"
+		"zpos"										"2"
+		"wide"										"150"
+		"tall"										"25"
+		"visible"									"1"
+		"enabled"									"1"
+		"alpha"										"255"
+		"labelText"									"%metal%"
+		"textAlignment"								"center"
+		"fgcolor"									"TH_LastDamage"
+		"font"										"HudFont24Bold"
+	}
+	"DamageAccountValueShadow"
+	{
+		"ControlName"								"CExLabel"
+		"fieldName"									"DamageAccountValueShadow"
+		"xpos"										"-1"
+		"ypos"										"-1"
+		"zpos"										"1"
+		"wide"										"150"
+		"tall"										"25"
+		"visible"									"1"
+		"enabled"									"1"
+		"alpha"										"255"
+		"labelText"									"%metal%"
+		"textAlignment"								"center"
+		"fgcolor"									"Black"
+		"font"										"HudFont24Bold"
+		"pin_to_sibling"							"DamageAccountValue"
+	}
+}

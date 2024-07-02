@@ -5,6 +5,7 @@
 		if_match
 		{
 			"zpos"		"5"
+			"ypos"		"-4" //scuffed hack to put the timer in correct position
 		}
 	}
 

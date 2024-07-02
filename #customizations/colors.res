@@ -11,16 +11,29 @@
 	"Colors"
 	{  
         //==========================================================
-		//overheal/low for hp and ammo respectively
-		//TODO: separate ammo types (different colors for clip and magazine)
+		//hp/ammo colors
+		//todo: uber colors probably
 		//==========================================================
 		"FullWhite"					"236 236 236 255"
+		"HealthNumbers"				"236 236 236 255"
+		// Ammo Colors
+		"MainAmmo"					"236 236 236 255"
+		"ReserveAmmo"				"236 236 236 255"
+		"NoClipAmmo"				"236 236 236 255"
+
 		//overheal animation colors, refer to  scripts/hudanimations_th.txt
 		"THOverheal"				"99 232 167 255"
 		"THOverheal2"				"0 230 119 255"
 		//low hp/ammo colors
 		"THLow"						"232 99 99 255"
 		"THLow2"					"194 69 69 255"
+
+		//==========================================================
+		//Last Damage done on Hud
+		//==========================================================
+		"TH_LastDamage"				"128 255 0 255"
+		"TH_UberDrop"				"255 105 180 255"
+		"TH_HealthGained"			"128 255 0 255"
 		//==========================================================
 		//misc/other things, also team colors for a lot of elements
 		//==========================================================
