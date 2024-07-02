@@ -1,4 +1,4 @@
-#base "../../#customizations/damage.res"
+#base "../../customizations/damage.res"
 #base "huddamageaccount_last.res"
 "Resource/UI/HudDamageAccount.res"
 {

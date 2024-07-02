@@ -1,13 +1,13 @@
 //====================================================
 // COLORS
 //====================================================
-#base "../#customizations/colors.res"
+#base "../customizations/colors.res"
 #base "cs/th_colors.res"
 
 //====================================================
 // FONTS
 //====================================================
-#base "../#customizations/fonts.res"
+#base "../customizations/fonts.res"
 #base "cs/th_fontpaths.res"
 #base "cs/th_fonts.res"
 

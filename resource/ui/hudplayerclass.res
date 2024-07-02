@@ -1,3 +1,3 @@
-#base "../../#customizations/speedometer.res"
+#base "../../customizations/speedometer.res"
 #base "hudplayerclass_base.res"
 

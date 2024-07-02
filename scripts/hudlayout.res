@@ -1,5 +1,5 @@
-#base "../#customizations/crosshairs.res"
-#base "../#customizations/transparent_viewmodels.res"
+#base "../customizations/crosshairs.res"
+#base "../customizations/transparent_viewmodels.res"
 "Resource/HudLayout.res"
 {
 	HudPlayerStatus
