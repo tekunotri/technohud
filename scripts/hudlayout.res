@@ -287,6 +287,19 @@
 		}
 
 	}
+    "BuildingPin" //i stole this from budhud
+    {
+        "ControlName"       "Label"
+        "fieldName"         "BuildingPin"
+        "xpos"              "0"
+        "ypos"              "110"
+        "zpos"              "0"
+        "wide"              "100"
+        "tall"              "0"
+        "visible"           "1"
+        "enabled"           "1"
+        "bgcolor_override"  "0 0 0 0"
+    }
 
 	BuildingStatus_Spy
 	{
@@ -299,7 +312,13 @@
 		"tall"			"480"
 
 		"PaintBackgroundType"	"2"
+
+		
+		"pin_to_sibling"           "BuildingPin"
+        "pin_corner_to_sibling"    "PIN_TOPLEFT"
+        "pin_to_sibling_corner"    "0"
 	}
+
 
 "BuildingStatus_Engineer"
 	{
@@ -307,11 +326,17 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"0"
-		"ypos"			"110"
+		"ypos"			"0"
 		"wide"			"640"
 		"tall"			"480"
 
 		"PaintBackgroundType"	"2"
+
+		
+		"pin_to_sibling"           "BuildingPin"
+        "pin_corner_to_sibling"    "PIN_TOPLEFT"
+        "pin_to_sibling_corner"    "0"
+
 	}
 
 	HudMannVsMachineStatus
