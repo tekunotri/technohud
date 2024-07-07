@@ -11,16 +11,20 @@
 	"Colors"
 	{  
         //==========================================================
-		//hp/ammo colors
+		//hp/ammo/main color stuff i cant organize shit properly whatever
 		//todo: uber colors probably
 		//==========================================================
+
+		// white color and general hp color
 		"FullWhite"					"236 236 236 255"
 		"HealthNumbers"				"236 236 236 255"
+		// crosshair colors
+		"CrosshairColor"			"255 255 255 255"
+		"CrosshairFlash"			"255 0 0 255"
 		// Ammo Colors
 		"MainAmmo"					"236 236 236 255"
 		"ReserveAmmo"				"236 236 236 255"
 		"NoClipAmmo"				"236 236 236 255"
-
 		//overheal animation colors, refer to  scripts/hudanimations_th.txt
 		"THOverheal"				"99 232 167 255"
 		"THOverheal2"				"0 230 119 255"
@@ -34,9 +38,11 @@
 		"TH_LastDamage"				"128 255 0 255"
 		"TH_UberDrop"				"255 105 180 255"
 		"TH_HealthGained"			"128 255 0 255"
+		
 		//==========================================================
 		//misc/other things, also team colors for a lot of elements
 		//==========================================================
+
 		"ItemMeterBG"				"250 234 201 51"
 		"DarkGray"					"44 44 44 255"
 		"DarkerGray"				"33 33 33 255"
