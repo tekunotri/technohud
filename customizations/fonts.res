@@ -7,4 +7,6 @@
 
 #base "../resource/cs/th_fonts/th_grisaia.res"			    // GRISAIA CUSTOM (DEFAULT)
 //#base "../resource/cs/th_fonts/th_luximono.res"			// LUXI MONO
+//#base "../resource/cs/th_fonts/th_renko.res"			    // RENKO BOLD
+
 

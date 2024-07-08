@@ -136,5 +136,10 @@
             "font"  "resource/fonts/grisaia.ttf"
             "name"	"GrisaiaEdit"
         }
+        "11"
+        {
+            "font"  "resource/fonts/renko Bold.ttf"
+            "name"	"renko Bold"
+        }
 	}
 }
