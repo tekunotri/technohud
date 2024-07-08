@@ -141,5 +141,10 @@
             "font"  "resource/fonts/renko Bold.ttf"
             "name"	"renko Bold"
         }
+		"12"
+		{
+			"font"	"resource/fonts/xolonium.otf"
+			"name"	"Xolonium GPL"
+		}
 	}
 }
