@@ -45,7 +45,7 @@
 		"fieldName"		"AmmoInClip"
 		"font"			"HudFont52Bold"
 		"fgcolor"		"MainAmmo"
-		"xpos"			"c98"
+		"xpos"			"c97"
 		"ypos"			"r126"
 		"zpos"			"5"
 		"wide"			"58"
