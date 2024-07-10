@@ -20,8 +20,8 @@
 		"robot_y_step"			"0"
 
 
-		"color_blue"			"84 111 127 255"
-		"color_red"				"171 59 59 255"
+		"color_blue"			"THBlue"
+		"color_red"				"THRed"
 
 		"if_hybrid"
 		{
@@ -49,9 +49,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayingTo"
 		"xpos"			"c-70"	[$WIN32]
-		"xpos"			"c-60"	[$X360]
-		"ypos"			"r28"	[$WIN32]
-		"ypos"			"r48"	[$X360]
+		"ypos"			"r22"	[$WIN32]
 		"zpos"			"4"
 		"wide"			"140"	[$WIN32]
 		"wide"			"120"	[$X360]
@@ -62,9 +60,44 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"HudFont14"
+		"font"			"HudFont12"
 		"fgcolor"		"TanLight"
 
+		"if_hybrid"
+		{
+			"visible"	"0"
+		}
+
+		"if_mvm"
+		{
+			"visible"	"0"
+		}
+
+		"if_specialdelivery"
+		{
+			"visible"	"0"
+		}
+	}
+
+	"PlayingToShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"PlayingToShadow"
+		"xpos"			"-1"	[$WIN32]
+		"ypos"			"-1"	[$WIN32]
+		"zpos"			"4"
+		"wide"			"140"	[$WIN32]
+		"tall"			"30"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"#TF_PlayingTo"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"font"			"HudFont12"
+		"fgcolor"		"Black"
+		"pin_to_sibling"	"PlayingTo"
+		
 		"if_hybrid"
 		{
 			"visible"	"0"
@@ -94,7 +127,7 @@
 		"wide"			"140"	[$X360]
 		"tall"			"38"	[$WIN32]
 		"tall"			"35"	[$X360]
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/objectives_flagpanel_bg_playingto"
 		"image_hidef"	"../hud/objectives_flagpanel_bg_playingto_hidef"
@@ -163,8 +196,8 @@
 
 			"left_offset"			"30"
 			"right_offset"			"30"
-			"standard_color"		"84  111 127 255"
-			"bright_color"			"110 159 189 255"
+			"standard_color"		"84 111 127 255"
+			"bright_color"			"THBlue"
 			"left_to_right"			"1"
 		}
 
@@ -183,7 +216,7 @@
 			"enabled"		"1"
 			"textAlignment"	"center"
 			"labelText"		"%flagvalue%"
-			"font"			"HudFont24Bold"
+			"font"			"HudFont30Bold"
 			"font_hidef"	"HudFont24"
 			"font_lodef"	"HudFont24"
 			"fgcolor"		"TanLight"
@@ -205,7 +238,7 @@
 			"enabled"		"1"
 			"textAlignment"	"center"
 			"labelText"		"%flagvalue%"
-			"font"			"HudFont24Bold"
+			"font"			"HudFont30Bold"
 			"font_hidef"	"HudFont24"
 			"font_lodef"	"HudFont24"
 			"fgcolor"		"Black"
@@ -249,7 +282,7 @@
 				"wide"					"f0"
 				"tall"					"f0"
 				"scaleimage"			"1"
-				"visible"				"1"
+				"visible"				"0"
 				"enabled"				"1"
 				"Image"					"../hud/objectives_corepanel_bg"
 				"proportionalToParent"	"1"
@@ -282,7 +315,7 @@
 					"textAlignment"	"west"
 					"labelText"		"#TF_RD_BlueFinale"
 					"font"			"HudFont14Bold"
-					"fgcolor"		"TanLight"
+					"fgcolor"		"THBlue"
 					"proportionalToParent"	"1"
 				}
 
@@ -318,7 +351,7 @@
 					"textAlignment"	"west"
 					"labelText"		"%victorytime%"
 					"font"			"HudFont14Bold"
-					"fgcolor"		"TanLight"
+					"fgcolor"		"THBlue"
 					"proportionalToParent"	"1"
 
 					"pin_to_sibling"               "VictoryLabel"
@@ -359,7 +392,7 @@
 				"wide"					"150"
 				"tall"					"f0"
 				"scaleimage"			"0"
-				"visible"				"1"
+				"visible"				"0"
 				"proportionalToParent"	"1"
 				"positionImage"			"0"
 				"drawcolor"				"84 111 127 255"
@@ -384,7 +417,7 @@
 				"wide"					"150"
 				"tall"					"f0"
 				"scaleimage"			"0"
-				"visible"				"1"
+				"visible"				"0"
 				"proportionalToParent"	"1"
 				"positionImage"			"0"
 				"drawcolor"				"141 160 171 255"
@@ -426,7 +459,7 @@
 					"textAlignment"	"west"
 					"labelText"		"#TF_RD_RedFinale"
 					"font"			"HudFont14Bold"
-					"fgcolor"		"TanLight"
+					"fgcolor"		"THRed"
 					"proportionalToParent"	"1"
 				}
 
@@ -462,7 +495,7 @@
 					"textAlignment"	"west"
 					"labelText"		"%victorytime%"
 					"font"			"HudFont14Bold"
-					"fgcolor"		"TanLight"
+					"fgcolor"		"THRed"
 					"proportionalToParent"	"1"
 
 					"pin_to_sibling"               "VictoryLabel"
@@ -504,7 +537,7 @@
 				"tall"					"f0"
 				"scaleimage"			"0"
 				"positionImage"			"0"
-				"visible"				"1"
+				"visible"				"0"
 				"proportionalToParent"	"1"
 				"drawcolor"				"171 59 59 255"
 				"Image"					"../hud/objectives_corepanel_meter_solid_right"
@@ -529,7 +562,7 @@
 				"tall"					"f0"
 				"scaleimage"			"0"
 				"positionImage"			"0"
-				"visible"				"1"
+				"visible"				"0"
 				"proportionalToParent"	"1"
 				"drawcolor"				"212 151 151 255"
 				"Image"					"../hud/objectives_corepanel_meter_right"
@@ -548,7 +581,7 @@
 		{
 			"ControlName"		"EditablePanel"
 			"fieldName"			"BlueScoreValueContainer"
-			"xpos"				"80"
+			"xpos"				"cs-0.5-40"
 			"ypos"				"r48"
 			"zpos"				"10"
 			"wide"				"60"
@@ -571,10 +604,10 @@
 				"enabled"		"1"
 				"textAlignment"	"west"
 				"labelText"		"%score%"
-				"font"			"HudFont24Bold"
+				"font"			"HudFont30Bold"
 				"font_hidef"	"HudFont24"
 				"font_lodef"	"HudFont24"
-				"fgcolor"		"TanLight"
+				"fgcolor"		"THBlue"
 				"proportionalToParent"	"1"
 			}
 
@@ -591,7 +624,7 @@
 				"enabled"		"1"
 				"textAlignment"	"west"
 				"labelText"		"%score%"
-				"font"			"HudFont24Bold"
+				"font"			"HudFont30Bold"
 				"font_hidef"	"HudFont24"
 				"font_lodef"	"HudFont24"
 				"fgcolor"		"Black"
@@ -603,7 +636,7 @@
 		{
 			"ControlName"		"EditablePanel"
 			"fieldName"			"RedScoreValueContainer"
-			"xpos"				"r140"
+			"xpos"				"cs-0.5+40"
 			"ypos"				"r48"
 			"zpos"				"10"
 			"wide"				"60"
@@ -626,10 +659,8 @@
 				"enabled"		"1"
 				"textAlignment"	"east"
 				"labelText"		"%score%"
-				"font"			"HudFont24Bold"
-				"font_hidef"	"HudFont24"
-				"font_lodef"	"HudFont24"
-				"fgcolor"		"TanLight"
+				"font"			"HudFont30Bold"
+				"fgcolor"		"THRed"
 				"proportionalToParent"	"1"
 			}
 
@@ -646,9 +677,7 @@
 				"enabled"		"1"
 				"textAlignment"	"east"
 				"labelText"		"%score%"
-				"font"			"HudFont24Bold"
-				"font_hidef"	"HudFont24"
-				"font_lodef"	"HudFont24"
+				"font"			"HudFont30Bold"
 				"fgcolor"		"Black"
 				"proportionalToParent"	"1"
 			}
