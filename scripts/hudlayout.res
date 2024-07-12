@@ -82,12 +82,12 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"cs-0.5"	
-		"ypos"			"r105"	
+		"ypos"			"r115"	
 		"zpos"			"1"			// draw in front of ammo
 		"wide"			"120"
 		"tall"			"8"
 		"MeterFG"		"FullWhite"
-		"MeterBG"		"Gray"
+		"MeterBG"		"ItemMeterBG"
 	}
 
 	HudDemomanPipes
@@ -97,8 +97,10 @@
 		"enabled"		"1"
 		"xpos"			"cs-0.5"	
 		"ypos"			"r105"	
-		"wide"			"100"
+		"wide"			"120"
 		"tall"			"50"
+		"MeterFG"		"FullWhite"
+		"MeterBG"		"ItemMeterBG"
 	}
 
 	HudBowCharge
