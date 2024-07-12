@@ -1,9 +1,16 @@
-# technohud
+<div align="center">
 
-## [screenshots](https://imgur.com/a/aHdoUKi)
+# technohud // [screenshots](https://imgur.com/a/aHdoUKi)
 
-an attempt at a hud made from scratch
+![technohud-banner-github](https://i.imgur.com/RZXaqPR.png)
 
-should work fine in both 16:9 (tested in 1920x1080) and 4:3 (i play 1280x960 fulltime), other aspect ratios might be a bit wonkier as they are untested.
+a clean hud made (mostly) from scratch with darker neutral colors as a theme.
 
-[credits](https://github.com/TechnoSL/technohud/wiki/Credits)
+this hud is still a work in progress, and bugs can and will be around, It's possible I may have missed something or forgotten to modify an element.
+
+[**credits, elements used and thanks**](https://github.com/TechnoSL/technohud/wiki/Credits)
+
+## technohud is also available at the links and places below:
+<a href="https://comfig.app/huds/page/technohud"><img src="https://i.imgur.com/0o80QUt.png"></a>
+<a href="https://tf2huds.dev/hud/technohud"><img src="https://i.imgur.com/lF9XotO.png"></a>
+<a href="https://gamebanana.com/mods/524418"><img src="https://i.imgur.com/UzXoexI.png"></a>
