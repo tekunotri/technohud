@@ -4,7 +4,6 @@
 	"$translucent" 1
 	"$vertexcolor" 1
 	"$no_fullbright" 1
-	"$ignorez" 1
 	"$speed" 0
 	"$alpha" "1"
 	Proxies {
