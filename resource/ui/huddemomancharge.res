@@ -17,5 +17,6 @@
 		"textAlignment"	"Left"
 		"dulltext"		"0"
 		"brighttext"	"0"
+		"bgcolor_override"	"ItemMeterBG"
 	}
 }
