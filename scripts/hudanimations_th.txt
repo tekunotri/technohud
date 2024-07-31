@@ -1,5 +1,14 @@
 // technohud-specific animations
 //===========================================
+// Fix stuck animations
+event CompetitiveGame_RestoreChatWindow{
+    RunEvent HudHealthDyingPulseStop 0.1
+    RunEvent HudHealthBonusPulseStop 0.1
+    RunEvent HudLowAmmoPulseStop 0.1
+    RunEvent HudMedicChargedStop 0.1
+}
+
+//===========================================
 //Health Bonus Pulse
 event HudHealthBonusPulse
 {
@@ -163,7 +172,6 @@ event HudMedicChargedStop
 //======================================
 //GRAVEYARD
 event CompetitiveGame_LowerChatWindow{}
-event CompetitiveGame_RestoreChatWindow{}
 event HudTournament_MoveChatWindow{}
 event RDPositiveScorePulse{}
 event RDNegativeScorePulse{}
