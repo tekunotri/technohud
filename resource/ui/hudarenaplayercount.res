@@ -18,7 +18,7 @@
 			"xpos"			"5"
 			"ypos"			"7"
 			"zpos"			"0"
-			"wide"			"50"
+			"wide"			"00"
 			"tall"			"23"
 			"autoResize"	"0"
 			"pinCorner"		"0"
@@ -49,7 +49,7 @@
 			"font"			"HudFont24"
 			"labelText"		"%blue_alive%"
 			"textAlignment"	"center"
-			"fgcolor"		"TanLight"
+			"fgcolor"		"THBlue"
 		}
 		"countshadow"
 		{
@@ -84,6 +84,7 @@
 			"image"			"capture_icon_white"
 			"scaleImage"	"1"
 		}
+		"drawcolor"		"FullWhite"
 	}
 
 	"redteam"
@@ -104,7 +105,7 @@
 			"xpos"			"5"
 			"ypos"			"7"
 			"zpos"			"0"
-			"wide"			"50"
+			"wide"			"0"
 			"tall"			"23"
 			"autoResize"	"0"
 			"pinCorner"		"0"
@@ -135,7 +136,7 @@
 			"font"			"HudFont24"
 			"labelText"		"%red_alive%"
 			"textAlignment"	"center"
-			"fgcolor"		"TanLight"
+			"fgcolor"		"THRed"
 		}
 		"countshadow"
 		{
@@ -169,6 +170,7 @@
 			"enabled"		"1"
 			"image"			"capture_icon_white"
 			"scaleImage"	"1"
+			"drawcolor"		"FullWhite"
 		}
 	}
 }
