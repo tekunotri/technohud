@@ -9,4 +9,5 @@
 //#base "../resource/cs/th_fonts/th_luximono.res"			    // LUXI MONO
 //#base "../resource/cs/th_fonts/th_renko.res"			        // RENKO BOLD
 //#base "../resource/cs/th_fonts/th_xolonium.res"			    // XOLONIUM
+//#base "../resource/cs/th_fonts/th_surface.res"			    // SURFACE (the funny m0rehud font)
 

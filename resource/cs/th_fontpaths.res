@@ -146,5 +146,10 @@
 			"font"	"resource/fonts/xolonium.otf"
 			"name"	"Xolonium GPL"
 		}
+		"13"
+		{
+			"font"	"resource/fonts/surface.otf"
+			"name"	"Surface-Medium"
+		}
 	}
 }
