@@ -7,7 +7,6 @@ event CompetitiveGame_RestoreChatWindow{
     RunEvent HudLowAmmoPulseStop 0.1
     RunEvent HudMedicChargedStop 0.1
 }
-
 //===========================================
 //Health Bonus Pulse
 event HudHealthBonusPulse
@@ -175,3 +174,5 @@ event CompetitiveGame_LowerChatWindow{}
 event HudTournament_MoveChatWindow{}
 event RDPositiveScorePulse{}
 event RDNegativeScorePulse{}
+event TeamStatus_PlayerDead{}
+event TeamStatus_PlayerAlive{}
