@@ -98,7 +98,7 @@
 
 		"PropertySheet.TextColor"							"OffWhite"
 		"PropertySheet.SelectedTextColor"					"White"
-		"PropertySheet.TransitionEffectTime"				"0.25"
+		"PropertySheet.TransitionEffectTime"				"0.0"
 
 		"RadioButton.TextColor"								"DullWhite"
 		"RadioButton.SelectedTextColor"						"White"

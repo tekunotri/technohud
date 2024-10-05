@@ -76,6 +76,9 @@ Scheme
 		PropertySheet.TextColor			"G_ButtonText"
 		PropertySheet.SelectedTextColor	"G_ButtonText"
 		
+		// time to change from one tab to another (causes some stutters in community server selection when switching? need to test more -techno)
+		PropertySheet.TransitionEffectTime	"0.0"	
+
 		// Console background
 		RichText.BgColor				"G_ConsoleBg"
 		
