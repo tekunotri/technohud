@@ -334,6 +334,7 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
+		"fgcolor"		"BrightYellow"
 		"font"			"HudFont10Shadow"
 		"font_minmode"	"HudFont10Shadow"
 		"font_hidef"	"HudFont14Shadow"

@@ -3181,6 +3181,14 @@ Scheme{
 				"antialias"									"1"
 			}
 		}
+		"BlocksSharp64"
+		{
+			"1"
+			{
+				"name"										"Blocks"
+				"tall"										"64"
+			}
+		}
 	}
 }
 

@@ -151,5 +151,10 @@
 			"font"	"resource/fonts/surface.otf"
 			"name"	"Surface-Medium"
 		}
+		"500"
+		{
+			"font"	"resource/fonts/blocks.ttf"
+			"name"	"Blocks"
+		}
 	}
 }
