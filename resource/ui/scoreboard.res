@@ -14,13 +14,14 @@
 		"enabled"		"1"
 		"tabPosition"		"0"
 		"medal_width"		"20"
+		"medal_column_width" "20" // this is the part that actually controls medal size apparently
 		"avatar_width"		"65"
 		"spacer"			"4"
 		"name_width"		"118"
-		"nemesis_width"		"25"
-		"class_width"		"25"
+		"nemesis_width"		"15"
+		"class_width"		"20"
 		"score_width"		"30"
-		"ping_width"		"20" // will break at 4 digits, but if you have 1000+ ping how are you even connected to the server??
+		"ping_width"		"17" // will break at 4 digits, but if you have 1000+ ping how are you even connected to the server??
 		"stats_width"		"30"
 		"killstreak_width"	"18" // this will break at 4 digits just fyi, same as killstreak counter in hud.
 		"killstreak_image_width" "15"

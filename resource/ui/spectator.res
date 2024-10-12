@@ -21,7 +21,7 @@
 		"fieldName"		"ReinforcementsLabel"
 		"xpos"			"c-300"	
 		"xpos_minmode"	"0"
-		"ypos"			"70"	
+		"ypos"			"100"	
 		"wide"			"600"	
 		"tall"			"18"
 		"tall_hidef"		"23"
