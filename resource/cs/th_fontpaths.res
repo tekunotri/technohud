@@ -151,6 +151,11 @@
 			"font"	"resource/fonts/surface.otf"
 			"name"	"Surface-Medium"
 		}
+		"14"
+		{
+			"font"	"resource/fonts/nukamiso.ttf"
+			"name"	"nukamiso"
+		}
 		"500"
 		{
 			"font"	"resource/fonts/blocks.ttf"
