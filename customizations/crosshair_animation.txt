@@ -10,7 +10,6 @@
 event DamagedPlayer 
 {
 //	Animate "CustomCrosshair"		FgColor     "CrosshairFlash"			Linear 	0.0 	0.00001
-//	Animate "CustomCrosshair"		FgColor     "CrosshairColor"		Linear 	0.10 	0.10001
-
+//	Animate "CustomCrosshair"		FgColor     "CrosshairColor"		    Linear 	0.10 	0.10001
 }
 

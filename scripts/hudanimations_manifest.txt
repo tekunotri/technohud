@@ -2,7 +2,7 @@ hudanimations_manifest
 {
 
 	"file"		"scripts/hudanimations.txt"
-	"file"		"customizations/crosshairs_and_scope_animation.txt"
+	"file"		"customizations/crosshair_animation.txt"
 	"file"		"scripts/hudanimations_th.txt" // custom animations
 	"file"		"scripts/hudanimations_tf.txt"
 }
