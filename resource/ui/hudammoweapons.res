@@ -45,16 +45,15 @@
 		"fieldName"		"AmmoInClip"
 		"font"			"HudFont52Bold"
 		"fgcolor"		"MainAmmo"
-		"xpos"			"c91"
-		"ypos"			"r126"
+		"xpos"			"c91" 
+		"ypos"			"r124"
 		"zpos"			"5"
 		"wide"			"64"
-		"tall"			"45"
+		"tall"			"43"
 		"visible"		"0"
 		"enabled"		"1"
 		"textAlignment"	"south-east"
 		"labelText"		"%Ammo%"
-
 	}
 	"AmmoInClipShadow"
 	{
@@ -66,7 +65,7 @@
 		"ypos"			"-1"
 		"zpos"			"5"
 		"wide"			"64"
-		"tall"			"45"
+		"tall"			"43"
 		"visible"		"0"
 		"enabled"		"1"
 		"textAlignment"	"south-east"
