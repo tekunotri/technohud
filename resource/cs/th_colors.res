@@ -206,8 +206,8 @@ Scheme {
 		// vgui_controls color specifications
 		ReplayBrowser.BgColor								"DarkBrown"
 		ReplayBrowser.Details.TitleEdit.Carat.FgColor		"LightRed"
-		ReplayBrowser.Button.ArmedBgColor					"THOverheal"
-		ReplayBrowser.Button.DepressedBgColor				"THOverheal"
+		ReplayBrowser.Button.ArmedBgColor					"THGreen"
+		ReplayBrowser.Button.DepressedBgColor				"THGreen"
 		ReplayBrowser.CollectionTitle.FgColor				"LightRed"
 		ReplayBrowser.Warning.FgColor						"White"
 		ReplayBrowser.ScrollBar.SliderButton.FgColor		"TransparentYellow"
@@ -229,8 +229,8 @@ Scheme {
 		Econ.Button.PresetDepressedColorFg					"FullWhite"
 
 		Econ.Button.PresetDefaultColorBg					"THOverheal2"
-		Econ.Button.PresetArmedColorBg						"THOverheal"
-		Econ.Button.PresetDepressedColorBg					"THOverheal"
+		Econ.Button.PresetArmedColorBg						"THGreen"
+		Econ.Button.PresetDepressedColorBg					"THGreen"
 
 		Border.Bright					"Blank"		// the lit side of a control
 		Border.Dark						"Black"		// the dark/unlit side of a control

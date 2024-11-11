@@ -284,7 +284,7 @@
 
 			"colors"
 			{
-				"1"		"THOverheal"
+				"1"		"THGreen"
 				"2"		"FullWhite"
 			}
 		}

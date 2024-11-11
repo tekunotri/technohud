@@ -50,6 +50,7 @@
 		"TransparentDarkerGray"		"33 33 33 200"
 		"THBlue"					"124 173 255 255"
 		"THRed"						"255 118 108 255"
+		"THGreen"					"99 232 167 255"
 		//UI
 		"THUnselected"				"118 118 118 236"
 		"Black"						"0 0 0 255"
