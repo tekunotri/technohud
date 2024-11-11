@@ -19,7 +19,7 @@
 		"team1_player_delta_y"				"-19"
 		
 		"team2_player_base_offset_x"		"0"
-		"team2_player_base_y"				"320"
+		"team2_player_base_y"				"300"
 		"team2_player_delta_x"				"0"
 		"team2_player_delta_y"				"19"
 		
