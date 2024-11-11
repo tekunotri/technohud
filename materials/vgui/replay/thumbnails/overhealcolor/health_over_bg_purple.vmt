@@ -2,11 +2,8 @@
 {
 	"$translucent" 1
 	"$baseTexture" "vgui\replay\thumbnails\overhealcolor\health_over_bg_purple"
-
-	"$alpha" "0.5"
-	"$vertexcolor"	"1"
-	"$no_fullbright"	"1"	
-	"$vertexalpha"	"1"
-	"$ignorez"	"1"	
+	"$vertexcolor" 1
+	"$vertexalpha" 1
+	"%keywords" "tf"
 }
 

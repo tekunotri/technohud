@@ -391,7 +391,7 @@
 						"proportionaltoparent"	"1"
 						"progress"		"0"
 
-						"fgcolor_override"	"THOverheal2"
+						"fgcolor_override"	"THGreen2"
 					}
 
 					"Frame"

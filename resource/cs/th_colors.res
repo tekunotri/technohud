@@ -5,7 +5,7 @@ Scheme {
 		"Orange"			"178 82 22 255"
 		"OrangeDim"			"178 82 22 120"
 		"LightOrange"		"188 112 0 128"
-		"GoalOrange"		"255 133 0"
+		"GoalOrange"		"255 133 0 255"
 		"TFOrange"			"145 73 59 255"
 		"Purple"			"137 69 99 255"
 
@@ -219,16 +219,16 @@ Scheme {
 		Econ.Dialog.BgColor									"Blank"
 		Econ.Button.BgColor									"THUnselected"
 		Econ.Button.FgColor									"FullWhite"
-		Econ.Button.ArmedBgColor							"THOverheal2"
+		Econ.Button.ArmedBgColor							"THGreen2"
 		Econ.Button.ArmedFgColor							"FullWhite"
-		Econ.Button.DepressedBgColor						"THOverheal2"
+		Econ.Button.DepressedBgColor						"THGreen2"
 		Econ.Button.DepressedFgColor						"Black"
 
 		Econ.Button.PresetDefaultColorFg					"FullWhite"
 		Econ.Button.PresetArmedColorFg						"FullWhite"
 		Econ.Button.PresetDepressedColorFg					"FullWhite"
 
-		Econ.Button.PresetDefaultColorBg					"THOverheal2"
+		Econ.Button.PresetDefaultColorBg					"THGreen2"
 		Econ.Button.PresetArmedColorBg						"THGreen"
 		Econ.Button.PresetDepressedColorBg					"THGreen"
 
@@ -239,9 +239,9 @@ Scheme {
 		Button.TextColor				"TanLight"
 		Button.BgColor					"THUnselected"
 		Button.ArmedTextColor			"TanLight"
-		Button.ArmedBgColor				"THOverheal2"
+		Button.ArmedBgColor				"THGreen2"
 		Button.SelectedTextColor		"TanLight"
-		Button.SelectedBgColor			"THOverheal2"
+		Button.SelectedBgColor			"THGreen2"
 		Button.DepressedTextColor		"Black"
 		Button.DepressedBgColor			"CreditsGreen"
 

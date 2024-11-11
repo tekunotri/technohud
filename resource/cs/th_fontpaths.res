@@ -156,6 +156,11 @@
 			"font"	"resource/fonts/nukamiso.ttf"
 			"name"	"nukamiso"
 		}
+		"15"
+		{
+			"font" "resource/fonts/catamaran.ttf"
+			"name" "Catamaran SemiBold"
+		}
 		"500"
 		{
 			"font"	"resource/fonts/blocks.ttf"
