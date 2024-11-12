@@ -59,7 +59,7 @@
 		"labelText"									"#TF_UberchargeMinHUD"
 		"textAlignment"								"center"
 		"font"										"HudFont52Bold"
-		"fgcolor"									"FullWhite"
+		"fgcolor"									"THUber"
 
 		"pin_to_sibling"							"UberAnchor"
 		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
@@ -120,7 +120,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
-		"fgcolor_override"							"FullWhite"
+		"fgcolor_override"							"THUber"
 	}
 
 	//==================================================================================================================================================
@@ -140,7 +140,7 @@
 		"proportionaltoparent"						"1"
 		"labelText"									"#TF_IndividualUberchargesMinHUD"
 		"textAlignment"								"center"
-		"fgcolor"									"0 255 255 255" // mostly to focus attention on charge number instead of percentage
+		"fgcolor"									"THUber" // mostly to focus attention on charge number instead of percentage
 		"font"										"HudFont18Shadow"
 
 		"pin_to_sibling"							"ChargeLabel"

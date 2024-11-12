@@ -12,7 +12,6 @@
 	{  
         //==========================================================
 		//hp/ammo/main color stuff i cant organize shit properly whatever
-		//todo: uber colors probably
 		//==========================================================
 
 		// white color and general hp color
@@ -31,7 +30,9 @@
 		//low hp/ammo colors
 		"THLow"						"232 99 99 255"
 		"THLow2"					"194 69 69 255"
-
+		//uber colors
+		"THUber"					"236 236 236 255"
+		" "
 		//==========================================================
 		//Last Damage done on Hud
 		//==========================================================

@@ -13,7 +13,8 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../HUD/tournament_panel_brown"
+		"image"			"white"
+		"drawcolor"		"DarkerGray"
 
 
 		"src_corner_height"	"23"				// pixels inside the image
@@ -26,7 +27,7 @@
 	"TournamentSetupLabel"
 	{
 		"ControlName"		"Label"
-		"fieldName"		"TournamentLabel"
+		"fieldName"		"TournamentSetupLabel"
 		"font"			"HudFont14Bold"
 		"xpos"			"8"
 		"ypos"			"0"
@@ -76,14 +77,15 @@
 		"tabPosition"		"0"
 		"textHidden"		"0"
 		"editable"		"1"
-		"maxchars"		"5"
+		"maxchars"		"6"
 		"NumericInputOnly"	"0"
 		"unicode"		"0"
 		"wrap"			"0"
-		"fgcolor_override"		"235 226 202 255"
+		"fgcolor_override"		"FullWhite"
 		"bgcolor_override"	"0 0 0 255"
 		"labelText"		"%teamname%"
 		"textAlignment"		"west"
+		"roundedcorners"	"0"
 	}
 
 	"HudTournamentNameBG"
@@ -99,7 +101,7 @@
 		"pinCorner"	"0"
 		"visible"	"1"
 		"enabled"	"1"
-		"fillcolor"	"0 0 0 255"
+		"fillcolor"	"DarkerGray"
 		"scaleImage"	"1"
 	}
 
