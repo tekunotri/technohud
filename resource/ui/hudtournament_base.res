@@ -562,7 +562,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"white" // ../HUD/tournament_panel_blu
-		"drawcolor"		"DarkGray"
 		"proportionaltoparent"	"1"
 
 		"src_corner_height"	"15"				// pixels inside the image
@@ -603,8 +602,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"white" // ../HUD/tournament_panel_red
-		"drawcolor"		"DarkGray"
-
 		"src_corner_height"	"15"				// pixels inside the image
 		"src_corner_width"	"15"
 
@@ -1061,7 +1058,7 @@
 		"wide"			"250"
 		"tall"			"10"
 		"zpos"			"2"
-		"autoResize"		"0"
+		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -1075,8 +1072,8 @@
 		if_mvm
 		{
 			"font"			"HudFont16Bold"
-			"xpos"			"156"
-			"ypos"			"106"
+			"xpos"			"-1"
+			"ypos"			"-1"
 			"wide"			"190"
 			"tall"			"20"
 			"visible"		"1"

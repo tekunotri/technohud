@@ -1,6 +1,5 @@
 hudanimations_manifest
 {
-
 	"file"		"scripts/hudanimations.txt"
 	"file"		"customizations/crosshair_animation.txt"
 	"file"		"scripts/hudanimations_th.txt" // custom animations

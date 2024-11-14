@@ -5,7 +5,7 @@
 // IMPORTANT: MAKE SURE ONLY ONE LINE STAYS UNCOMMENTED!!
 //====================================================================================
 //note: this requires a game restart to fully apply as it modifies clientscheme 
-//if you try to change this while the game is open it will not fully reset
+//if you try to change this while the game is open it will not fully reset (eg, overheal mismatch)
 
 #base "_colors/color_green.res"									// Green (DEFAULT)
 //#base "_colors/color_white.res"                               // White

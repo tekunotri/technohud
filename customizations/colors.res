@@ -6,6 +6,10 @@
 // TF2 uses the R(red) G(green) B(blu) A(alpha) color code
 // The color values can go from 0 to 255 (and so can Alpha values, 0 being transparent)
 //=====================================================================================
+// _overheal_color is options for diffierent overheals
+// following choices are available by checking said file
+//=====================================================================================
+#base 	"_overheal_color.res"
 "Scheme"
 {
 	"Colors"
