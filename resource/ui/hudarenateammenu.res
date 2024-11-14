@@ -77,7 +77,6 @@
 		"enabled"		"1"
 		"tabPosition"	"1"
 		"labelText"		"&1"	[$WIN32]
-		"labelText"		""		[$X360]
 		"textAlignment"	"south-west"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -103,7 +102,6 @@
 		"enabled"		"1"
 		"tabPosition"	"2"
 		"labelText"		"&2"	[$WIN32]
-		"labelText"		""		[$X360]
 		"textAlignment"	"south-west"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -143,16 +141,14 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TeamMenuAuto"
-		"xpos"			"c-280" [$WIN32]
-		"xpos"			"c-276" [$X360]
+		"xpos"			"c-280" 
 		"xpos_lodef"			"c-255"
 		"xpos_hidef"			"c-260"
 		"ypos"			"55"
 		"ypos_lodef"			"72"
 		"ypos_hidef"			"65"
 		"zpos"			"1"
-		"wide"			"102" [$WIN32]
-		"wide"			"94" [$X360]
+		"wide"			"102" 
 		"tall"			"24"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -343,50 +339,6 @@
 				"name"			"exit_enabled"
 				"sequence"		"idle"
 			}
-		}
-	}
-
-	"Footer" [$X360]
-	{
-		"ControlName"		"CTFFooter"
-		"fieldName"			"Footer"
-		"zpos"				"6"
-		"tall"				"80"
-		"button_separator"	"10"
-		"button_separator_lodef"	"5"
-		"buttongap"			"50"
-		"buttongap_hidef"		"35"
-		"buttongap_lodef"			"18"
-		"textadjust"		"3"
-		"textadjust_lodef"		"0"
-		"buttonoffsety"		"20"
-		"buttonoffsety_hidef"		"0"
-		"buttonoffsety_lodef"		"18"
-		"center"			"0"
-		"button_pin_right_lodef"	"55"
-		"fonttext"			"MatchmakingDialogMenuLarge"
-		"fonttext_lodef"			"MatchmakingDialogMenuSmall"
-		"fgcolor"			"HudOffWhite"
-
-		"button"
-		{
-			"name"		"cancel"
-			"text"		"#GameUI_Cancel"
-			"icon"		"#GameUI_Icons_B_BUTTON"
-		}
-
-		"button"
-		{
-			"name"		"nextprev"
-			"text"		"#TF_NextPrev"
-			"icon"		"#GameUI_Icons_DPAD"
-		}
-
-		"button"
-		{
-			"name"		"select"
-			"text"		"#GameUI_Select"
-			"icon"		"#GameUI_Icons_A_BUTTON"
 		}
 	}
 }

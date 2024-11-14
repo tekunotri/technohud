@@ -1,6 +1,6 @@
 "Resource/UI/HudTournament.res"
 {
-	//colored backgrounds
+	//colored backgrounds, i'd use THBlue/THRed but they make the white text a bit too illegible.
 	"HudTournamentBLUEBG"
 	{
 		"drawcolor"				"HudBlueTeamSolid"
