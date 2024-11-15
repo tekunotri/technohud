@@ -1,6 +1,7 @@
 //====================================================
 // COLORS
 //====================================================
+#base "../customizations/_overheal_color.res"
 #base "../customizations/colors.res"
 #base "cs/th_colors.res"
 
