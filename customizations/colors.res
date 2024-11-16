@@ -50,6 +50,7 @@
 		"TransparentDarkerGray"		"33 33 33 200"
 		"THBlue"					"124 173 255 255"
 		"THRed"						"255 118 108 255"
+		//this is here in case i feel like ever reusing this
 		"THGreen"					"99 232 167 255"
 		"THGreen2"					"0 230 119 255"
 		//UI

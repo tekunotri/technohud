@@ -124,7 +124,7 @@
 			"paintborder"							"0"
 
 			"defaultFgColor_override"				"FullWhite"
-			"armedFgColor_override"					"THGreen"
+			"armedFgColor_override"					"THOverheal"
 			"depressedFgColor_override"				"DarkGray"
 		}
 	}
@@ -163,7 +163,7 @@
 			"paintborder"							"0"
 
 			"defaultFgColor_override"				"FullWhite"
-			"armedFgColor_override"					"THGreen"
+			"armedFgColor_override"					"THOverheal"
 			"depressedFgColor_override"				"DarkGray"
 		}
 	}
@@ -202,7 +202,7 @@
 			"paintborder"							"0"
 
 			"defaultFgColor_override"				"FullWhite"
-			"armedFgColor_override"					"THGreen"
+			"armedFgColor_override"					"THOverheal"
 			"depressedFgColor_override"				"DarkGray"
 		}
 	}
@@ -241,7 +241,7 @@
 			"paintborder"							"0"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"THGreen"
+			"armedFgColor_override"					"THOverheal"
 			"depressedFgColor_override"				"DarkGray"
 		}
 	}
@@ -281,7 +281,7 @@
 			"paintborder"							"0"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"THGreen"
+			"armedFgColor_override"					"THOverheal"
 			"depressedFgColor_override"				"DarkGray"
 		}
 	}

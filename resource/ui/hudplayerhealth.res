@@ -1,2 +1,2 @@
-#base "../../customizations/_overheal_color.res"
+#base "../../customizations/#colortheme.res"
 #base "hudplayerhealth_base.res"

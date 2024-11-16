@@ -206,8 +206,8 @@ Scheme {
 		// vgui_controls color specifications
 		ReplayBrowser.BgColor								"DarkBrown"
 		ReplayBrowser.Details.TitleEdit.Carat.FgColor		"LightRed"
-		ReplayBrowser.Button.ArmedBgColor					"THGreen"
-		ReplayBrowser.Button.DepressedBgColor				"THGreen"
+		ReplayBrowser.Button.ArmedBgColor					"THOverheal"
+		ReplayBrowser.Button.DepressedBgColor				"THOverheal"
 		ReplayBrowser.CollectionTitle.FgColor				"LightRed"
 		ReplayBrowser.Warning.FgColor						"White"
 		ReplayBrowser.ScrollBar.SliderButton.FgColor		"TransparentYellow"
@@ -219,18 +219,18 @@ Scheme {
 		Econ.Dialog.BgColor									"Blank"
 		Econ.Button.BgColor									"THUnselected"
 		Econ.Button.FgColor									"FullWhite"
-		Econ.Button.ArmedBgColor							"THGreen2"
+		Econ.Button.ArmedBgColor							"THOverheal2"
 		Econ.Button.ArmedFgColor							"FullWhite"
-		Econ.Button.DepressedBgColor						"THGreen2"
+		Econ.Button.DepressedBgColor						"THOverheal2"
 		Econ.Button.DepressedFgColor						"Black"
 
 		Econ.Button.PresetDefaultColorFg					"FullWhite"
 		Econ.Button.PresetArmedColorFg						"FullWhite"
 		Econ.Button.PresetDepressedColorFg					"FullWhite"
 
-		Econ.Button.PresetDefaultColorBg					"THGreen2"
-		Econ.Button.PresetArmedColorBg						"THGreen"
-		Econ.Button.PresetDepressedColorBg					"THGreen"
+		Econ.Button.PresetDefaultColorBg					"THOverheal2"
+		Econ.Button.PresetArmedColorBg						"THOverheal"
+		Econ.Button.PresetDepressedColorBg					"THOverheal"
 
 		Border.Bright					"Blank"		// the lit side of a control
 		Border.Dark						"Black"		// the dark/unlit side of a control
@@ -239,9 +239,9 @@ Scheme {
 		Button.TextColor				"TanLight"
 		Button.BgColor					"THUnselected"
 		Button.ArmedTextColor			"TanLight"
-		Button.ArmedBgColor				"THGreen2"
+		Button.ArmedBgColor				"THOverheal2"
 		Button.SelectedTextColor		"TanLight"
-		Button.SelectedBgColor			"THGreen2"
+		Button.SelectedBgColor			"THOverheal2"
 		Button.DepressedTextColor		"Black"
 		Button.DepressedBgColor			"CreditsGreen"
 

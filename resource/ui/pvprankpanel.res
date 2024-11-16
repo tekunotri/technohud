@@ -284,7 +284,7 @@
 
 			"colors"
 			{
-				"1"		"THGreen"
+				"1"		"THOverheal"
 				"2"		"FullWhite"
 			}
 		}
@@ -391,7 +391,7 @@
 						"proportionaltoparent"	"1"
 						"progress"		"0"
 
-						"fgcolor_override"	"THGreen2"
+						"fgcolor_override"	"THOverheal2"
 					}
 
 					"Frame"
