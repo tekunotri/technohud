@@ -160,6 +160,8 @@ event HudMedicChargedStop
 	StopEvent HudMedicCharged 0.0
 	StopEvent HudMedicChargedLoop 0.0
 
+	Animate ChargeLabel					FgColor		"THUber"	Linear	0.0		0.0001
+
 	Animate	ChargeLabelBig				FgColor		"THUber"	Linear	0.0		0.0001
 
 	Animate	ChargeLabelBigShadow		FgColor		"Black"		Linear	0.0		0.0001
