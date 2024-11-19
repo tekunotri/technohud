@@ -5,14 +5,13 @@
 // This code is very rough at the moment, but you can reasonably change the color of most things.
 // TF2 uses the R(red) G(green) B(blu) A(alpha) color code
 // The color values can go from 0 to 255 (and so can Alpha values, 0 being transparent)
-//=====================================================================================
+//====================================================================================
 "Scheme"
 {
 	"Colors"
 	{  
         //==========================================================
 		//hp/ammo/main color stuff i cant organize shit properly whatever
-		//todo: uber colors probably
 		//==========================================================
 
 		// white color and general hp color
@@ -31,7 +30,8 @@
 		//low hp/ammo colors
 		"THLow"						"232 99 99 255"
 		"THLow2"					"194 69 69 255"
-
+		//uber colors
+		"THUber"					"236 236 236 255"
 		//==========================================================
 		//Last Damage done on Hud
 		//==========================================================
@@ -50,6 +50,9 @@
 		"TransparentDarkerGray"		"33 33 33 200"
 		"THBlue"					"124 173 255 255"
 		"THRed"						"255 118 108 255"
+		//this is here in case i feel like ever reusing this
+		"THGreen"					"99 232 167 255"
+		"THGreen2"					"0 230 119 255"
 		//UI
 		"THUnselected"				"118 118 118 236"
 		"Black"						"0 0 0 255"

@@ -91,14 +91,14 @@ event HudLowAmmoPulseStop
 	StopEvent HudLowAmmoPulse 0.0
 	StopEvent HudLowAmmoPulseLoop 0.0
 
-	Animate AmmoInClip							Alpha 		"255" 								Linear 	0.0 0.0
+	Animate AmmoInClip							Alpha 		"255" 						Linear 	0.0 0.0
 	Animate AmmoInClip 							FgColor 	"MainAmmo" 					Linear 	0.0 0.0
 
-	Animate AmmoInReserve 						Alpha 		"255" 								Linear 	0.0 0.0
+	Animate AmmoInReserve						Alpha 		"255" 						Linear 	0.0 0.0
 	Animate AmmoInReserve						FgColor 	"ReserveAmmo" 				Linear 	0.0 0.0
 
-	Animate AmmoNoClip 							Alpha 		"255" 								Linear 	0.0 0.0
-	Animate AmmoNoClip							FgColor 	"NoClipAmmo" 					Linear 	0.0 0.0
+	Animate AmmoNoClip							Alpha 		"255" 						Linear 	0.0 0.0
+	Animate AmmoNoClip							FgColor 	"NoClipAmmo" 				Linear 	0.0 0.0
 }
 
 //===========================================
@@ -139,12 +139,12 @@ event HudSpyDisguiseFadeOut
 event HudMedicCharged
 {
 
-	Animate ChargeLabel								FgColor		"THOverheal2"					Linear	0.0		0.0
-	Animate ChargeLabelBig							FgColor		"THOverheal2"					Linear	0.0		0.0
+	Animate ChargeLabel						FgColor		"THOverheal2"					Linear	0.0		0.0
+	Animate ChargeLabelBig					FgColor		"THOverheal2"					Linear	0.0		0.0
 
-	Animate ChargeLabelBigShadowExtra				Alpha		"255"								Linear	0.0		0.0
+	Animate ChargeLabelBigShadowExtra		Alpha		"255"							Linear	0.0		0.0
 
-	Animate ChargeMeter								FgColor		"THOverheal2"					Linear	0.0		0.0
+	Animate ChargeMeter						FgColor		"THOverheal2"					Linear	0.0		0.0
 
 	RunEvent HudMedicChargedLoop	0.6
 }
@@ -160,14 +160,27 @@ event HudMedicChargedStop
 	StopEvent HudMedicCharged 0.0
 	StopEvent HudMedicChargedLoop 0.0
 
-	Animate	ChargeLabel				FgColor		"FullWhite"						Linear	0.0		0.0001
-	Animate	ChargeLabelBig				FgColor		"FullWhite"						Linear	0.0		0.0001
+	Animate ChargeLabel					FgColor		"THUber"	Linear	0.0		0.0001
 
-	Animate	ChargeLabelBigShadow		FgColor		"Black"								Linear	0.0		0.0001
-	Animate ChargeLabelBigShadowExtra		Alpha		"0"									Linear	0.0		0.0001
+	Animate	ChargeLabelBig				FgColor		"THUber"	Linear	0.0		0.0001
 
-	Animate	ChargeMeter			FgColor		"FullWhite"						Linear	0.0		0.0001
+	Animate	ChargeLabelBigShadow		FgColor		"Black"		Linear	0.0		0.0001
+	Animate ChargeLabelBigShadowExtra	Alpha		"0"			Linear	0.0		0.0001
+
+	Animate	ChargeMeter					FgColor		"THUber"	Linear	0.0		0.0001
 }
+event HudTournamentSetupPanelOpen
+{
+	Animate HudTournamentSetup			Position	"c-90 -70"	Linear 0.0 0.001
+	Animate HudTournamentSetup			Position	"c-90 97"	Spline 0.001 0.2
+}
+
+event HudTournamentSetupPanelClose
+{
+	Animate HudTournamentSetup			Position	"c-90 70"	Linear 0.0 0.001
+	Animate HudTournamentSetup			Position	"c-90 -70"	Spline 0.001 0.2
+}
+
 //======================================
 //GRAVEYARD
 event CompetitiveGame_LowerChatWindow{}

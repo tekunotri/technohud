@@ -1,6 +1,7 @@
 //====================================================
 // COLORS
 //====================================================
+#base "../customizations/#colortheme.res"
 #base "../customizations/colors.res"
 #base "cs/th_colors.res"
 
