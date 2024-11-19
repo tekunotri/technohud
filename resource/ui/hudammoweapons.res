@@ -111,14 +111,14 @@
 		"fieldName"		"AmmoNoClip"
 		"font"			"HudFont52Bold"
 		"fgcolor"		"NoClipAmmo"
-		"xpos"			"c93"
+		"xpos"			"c125"
 		"ypos"			"r126"
 		"zpos"			"5"
 		"wide"			"100"
 		"tall"			"45"
 		"visible"		"0"
 		"enabled"		"1"
-		"textAlignment"	"south-east"
+		"textAlignment"	"south-west"
 		"labelText"		"%Ammo%"
 
 	}
@@ -135,7 +135,7 @@
 		"tall"			"45"
 		"visible"		"0"
 		"enabled"		"1"
-		"textAlignment"	"south-east"
+		"textAlignment"	"south-west"
 		"labelText"		"%Ammo%"
 		"pin_to_sibling"	"AmmoNoClip"
 	}
