@@ -13,9 +13,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"		"0"
-		"medal_width"		"20"
-		"medal_column_width" "20" // this is the part that actually controls medal size apparently
-		"avatar_width"		"65"
+		"medal_width"		"28"
+		"medal_column_width" "18" // this is the part that actually controls medal size apparently
+		"avatar_width"		"28"
 		"spacer"			"4"
 		"name_width"		"118"
 		"nemesis_width"		"15"

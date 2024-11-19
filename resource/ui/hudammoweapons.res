@@ -111,7 +111,7 @@
 		"fieldName"		"AmmoNoClip"
 		"font"			"HudFont52Bold"
 		"fgcolor"		"NoClipAmmo"
-		"xpos"			"c125"
+		"xpos"			"c127"
 		"ypos"			"r126"
 		"zpos"			"5"
 		"wide"			"100"
