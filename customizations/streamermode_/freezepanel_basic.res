@@ -15,7 +15,12 @@
 			"alpha"									"0"
 		}
 	}
-
+	"AvatarImage"
+	{
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+	}
 	"itempanel"
 	{
 		"xpos"										"9999"
