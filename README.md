@@ -8,7 +8,7 @@ a clean hud made (mostly) from scratch with darker neutral colors as a theme.
 
 this hud is still a work in progress, and bugs can and will be around, It's possible I may have missed something or forgotten to modify an element.
 
-[**credits, elements used and thanks**](https://github.com/TechnoSL/technohud/wiki/Credits)
+[**credits, elements used and thanks**](https://github.com/tekunotri/technohud/wiki/Credits)
 
 ## technohud is also available at the links and places below:
 <a href="https://comfig.app/huds/page/technohud"><img src="https://i.imgur.com/0o80QUt.png"></a>
