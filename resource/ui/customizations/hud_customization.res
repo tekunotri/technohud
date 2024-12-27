@@ -830,7 +830,7 @@
 							"depressedFgColor_override"	"Black"
 
 							"defaultBgColor_override"	"White"
-							"armedBgColor_override"		"170 170 170 255"
+							"armedBgColor_override"		"192 192 192 255"
 							"depressedBgColor_override"	"White"
 						}
 					}
@@ -877,7 +877,7 @@
 							"depressedFgColor_override"	"Black"
 
 							"defaultBgColor_override"	"THGreen2"
-							"armedBgColor_override"		"60 60 60 255"
+							"armedBgColor_override"		"THGreen"
 							"depressedBgColor_override"	"THGreen2"
 						}
 					}
@@ -924,7 +924,7 @@
 							"depressedFgColor_override"	"Black"
 
 							"defaultBgColor_override"	"Theme_Pink"
-							"armedBgColor_override"		"115 50 50 255"
+							"armedBgColor_override"		"255 26 186 255"
 							"depressedBgColor_override"	"Theme_Pink"
 						}
 					}
@@ -971,7 +971,7 @@
 							"depressedFgColor_override"	"Black"
 
 							"defaultBgColor_override"	"Theme_Purple"
-							"armedBgColor_override"		"125 0 0 255"
+							"armedBgColor_override"		"202 12 202 255"
 							"depressedBgColor_override"	"Theme_Purple"
 						}
 					}
@@ -1017,7 +1017,7 @@
 							"depressedFgColor_override"	"Black"
 
 							"defaultBgColor_override"	"Theme_Blue"
-							"armedBgColor_override"		"0 0 128 255"
+							"armedBgColor_override"		"0 0 192 255"
 							"depressedBgColor_override"	"Theme_Blue"
 						}
 					}
