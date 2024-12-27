@@ -1,4 +1,5 @@
 #base "../dev/preload.res"
+#base "customizations/hud_customization.res"
 //dumbass forgets to preload things then wonders why the menu thumb missing error was still happening LOL !!! 
 //the dumbass is me. this file has been around since 0.223 (6 months ago.)
 "Resource/UI/MainMenuOverride.res"
@@ -245,10 +246,10 @@
 			"depressedFgColor_override"				"DarkGray"
 		}
 	}
-	"Disconnect"
+	"HUDOptions"
 	{
 		"ControlName"								"EditablePanel"
-		"fieldname"									"Disconnect"
+		"fieldname"									"HUDOptions"
 		"xpos"										"0"
 		"ypos"										"3"
 		"zpos"										"15"
@@ -285,6 +286,47 @@
 			"depressedFgColor_override"				"DarkGray"
 		}
 	}
+	"Disconnect"
+	{
+		"ControlName"								"EditablePanel"
+		"fieldname"									"Disconnect"
+		"xpos"										"0"
+		"ypos"										"3"
+		"zpos"										"15"
+		"wide"										"150"
+		"tall"										"17"
+		"visible"									"0"
+
+		"pin_to_sibling"							"HUDOptions"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
+
+		"SubButton"
+		{
+			"ControlName"							"CExImageButton"
+			"fieldName"								"SubButton"
+			"xpos"									"0"
+			"ypos"									"0"
+			"wide"									"f0"
+			"tall"									"f0"
+			"visible"								"1"
+			"enabled"								"1"
+			"proportionaltoparent"					"1"
+			"font"									"HudFont16Shadow"
+			"AllCaps"								"1"
+			"textAlignment"							"west"
+			"sound_depressed"						"UI/buttonclick.wav"
+			"sound_released"						"UI/buttonclickrelease.wav"
+
+			"paintbackground"						"0"
+			"paintborder"							"0"
+
+			"defaultFgColor_override"				"White"
+			"armedFgColor_override"					"THOverheal"
+			"depressedFgColor_override"				"DarkGray"
+		}
+	}
+	
 
 	//==================================================================================================================================================
 	// QUICKPLAY
@@ -1697,168 +1739,6 @@
 			"bgcolor_override"	"0 0 0 100"
 		}
 	}
-
-	"SafeMode"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldname"		"SafeMode"
-		"xpos"			"c-290"
-		"ypos"			"210"
-		"zpos"			"-50"
-		"wide"			"270"
-		"tall"			"190"
-		"visible"		"0"
-
-		"Background"
-		{
-			"ControlName"	"EditablePanel"
-			"fieldname"		"Background"
-			"xpos"			"0"
-			"ypos"			"20"
-			"zpos"			"0"
-			"wide"			"260"
-			"tall"			"p0.88"
-			"visible"		"1"
-			"PaintBackgroundType"	"0"
-			"proportionaltoparent"	"1"
-
-			"paintborder"	"1"
-			"border"		"LoadoutItemPopupBorder"
-
-			"TitleLabel"
-			{
-				"ControlName"	"CExLabel"
-				"fieldName"		"TitleLabel"
-				"font"			"HudFont14Bold"
-				"labelText"		"#MMenu_SafeMode_Title"
-				"textAlignment"	"west"
-				"xpos"			"0"
-				"ypos"			"0"
-				"wide"			"f0"
-				"tall"			"30"
-				"autoResize"	"0"
-				"pinCorner"		"0"
-				"visible"		"1"
-				"enabled"		"1"
-				"textinsetx"	"20"
-				"fgcolor_override"	"235 227 203 255"
-			}
-
-			"SaveSettingsButton"
-			{
-				"ControlName"	"CExButton"
-				"fieldName"		"SaveSettingsButton"
-				"xpos"			"p0.02"
-				"ypos"			"rs1-30"
-				"zpos"			"11"
-				"wide"			"250"
-				"tall"			"26"
-				"autoResize"	"0"
-				"pinCorner"		"3"
-				"visible"		"1"
-				"enabled"		"1"
-				"tabPosition"	"0"
-				"use_proportional_insets" "1"
-				"font"			"HudFont14Bold"
-				"textAlignment"	"west"
-				"dulltext"		"0"
-				"brighttext"	"0"
-				"default"		"1"
-				"sound_depressed"	"UI/buttonclick.wav"
-				"sound_released"	"UI/buttonclickrelease.wav"
-				"labeltext"		"#MMenu_SafeMode_SaveSettings"
-				"proportionaltoparent"	"1"
-				"command"		"safemode_save_settings"
-				"actionsignallevel"	"3"
-
-				"border_default"	"MainMenuButtonDefault"
-				"border_armed"		"MainMenuButtonArmed"
-				"paintbackground"	"0"
-
-				"defaultFgColor_override" "46 43 42 255"
-				"armedFgColor_override" "235 226 202 255"
-				"depressedFgColor_override" "46 43 42 255"
-			}
-
-
-			"LeaveSafeModeButton"
-			{
-				"ControlName"	"CExButton"
-				"fieldName"		"SubButton"
-				"xpos"			"p0.02"
-				"ypos"			"rs1-5"
-				"zpos"			"11"
-				"wide"			"250"
-				"tall"			"26"
-				"autoResize"	"0"
-				"pinCorner"		"3"
-				"visible"		"1"
-				"enabled"		"1"
-				"tabPosition"	"0"
-				"use_proportional_insets" "1"
-				"font"			"HudFont14Bold"
-				"textAlignment"	"west"
-				"dulltext"		"0"
-				"brighttext"	"0"
-				"default"		"1"
-				"sound_depressed"	"UI/buttonclick.wav"
-				"sound_released"	"UI/buttonclickrelease.wav"
-				"labeltext"		"#MMenu_SafeMode_LeaveSafeMode"
-				"proportionaltoparent"	"1"
-				"command"		"safemode_leave"
-				"actionsignallevel"	"3"
-
-				"border_default"	"MainMenuButtonDefault"
-				"border_armed"		"MainMenuButtonArmed"
-				"paintbackground"	"0"
-
-				"defaultFgColor_override" "46 43 42 255"
-				"armedFgColor_override" "235 226 202 255"
-				"depressedFgColor_override" "46 43 42 255"
-			}
-
-			"Explanation"
-			{
-				"ControlName"			"Label"
-				"fieldName"				"Explanation"
-				"xpos"					"cs-0.5"
-				"ypos"					"30"
-				"zpos"					"100"
-				"wide"					"p0.92"
-				"tall"					"p0.5"
-				"textAlignment"			"north-west"
-				"visible"				"1"
-				"enabled"				"1"
-				"scaleImage"			"1"
-				"proportionaltoparent"	"1"
-				"wrap"					"1"
-				"labelText"				"#MMenu_SafeMode_Explanation"
-				"proportionaltoparent"	"1"
-				"font"					"HudFont11Bold"
-			}
-
-		} // Background
-
-		"InfoImage"
-		{
-			"ControlName"			"ImagePanel"
-			"fieldName"				"InfoImage"
-			"xpos"					"rs1-5"
-			"ypos"					"5"
-			"zpos"					"100"
-			"wide"					"40"
-			"tall"					"o1"
-			"visible"				"1"
-			"enabled"				"1"
-			"image"					"info"
-			"scaleImage"			"1"
-			"proportionaltoparent"	"1"
-			"mouseinputenabled"		"0"
-		}
-
-	} // SafeMode
-
-
 	"ShowPromoCodesButton"
 	{
 		"ControlName"	"CExImageButton"

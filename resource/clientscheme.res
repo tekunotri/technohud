@@ -1,14 +1,13 @@
 //====================================================
 // COLORS
 //====================================================
-#base "../customizations/#colortheme.res"
-#base "../customizations/colors.res"
+#base "ui/customizations/colors/color_customization.res"
 #base "cs/th_colors.res"
 
 //====================================================
 // FONTS
 //====================================================
-#base "../customizations/fonts.res"
+#base "../cfg/technohud/tkh_font.txt"
 #base "cs/th_fontpaths.res"
 #base "cs/th_fonts.res"
 

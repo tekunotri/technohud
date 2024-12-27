@@ -42,7 +42,7 @@
 		"proportionaltoparent"						"1"
 		"labelText"									"/"
 		"textAlignment"								"center"
-		"font"										"Symbols14"
+		"font"										"Icons14"
 		"fgcolor"									"Black"
 	}
 	"ItemEffectMeterCount"

@@ -1,11 +1,23 @@
-"resource/ui/huddamageaccount_last.res"
-{  
-    "DamageAccountValue"
+#base "../../cfg/technohud/tkh_customizations.txt"
+
+"Resource/UI/HudDamageAccount.res"
+{
+	"CDamageAccountPanel"
+	{
+		"fieldName"									"CDamageAccountPanel"
+		"text_x"									"0"
+		"text_y"									"0"
+		"delta_item_end_y"							"0"
+		"PositiveColor"								"TH_LastDamage"
+		"EventColor"            					"TH_UberDrop" 
+		"delta_lifetime"							"1.5"
+	}
+	 "DamageAccountValue"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"DamageAccountValue"
-		"xpos"										"c80"
-		"ypos"										"r155"
+//lb		"xpos"										"c80"
+//lb		"ypos"										"r155"
 		"zpos"										"2"
 		"wide"										"150"
 		"tall"										"25"

@@ -455,7 +455,7 @@
 			"proportionaltoparent"					"1"
 			"mouseinputenabled"						"0"
 			"AllCaps"								"1"
-			"font"									"Symbols28"
+			"font"									"Icons28"
 			"labelText"								"_"
 			"textAlignment"							"center"
 			"fgcolor"								"Gray"

@@ -1,6 +1,65 @@
 // color shit
 Scheme {
     Colors {
+		        //==========================================================
+		//hp/ammo/main color stuff i cant organize shit properly whatever
+		//==========================================================
+
+		// white color and general hp color
+		"FullWhite"					"236 236 236 255"
+		"HealthNumbers"				"236 236 236 255"
+		// crosshair colors
+		"CrosshairColor"			"255 255 255 255"
+		"CrosshairFlash"			"255 0 0 255"
+		// Ammo Colors
+		"MainAmmo"					"236 236 236 255"
+		"ReserveAmmo"				"236 236 236 255"
+		"NoClipAmmo"				"236 236 236 255"
+		//overheal animation colors, refer to  scripts/hudanimations_th.txt
+		"THOverheal"				"99 232 167 255"
+		"THOverheal2"				"0 230 119 255"
+		//low hp/ammo colors
+		"THLow"						"232 99 99 255"
+		"THLow2"					"194 69 69 255"
+		//uber colors
+		"THUber"					"236 236 236 255"
+		//==========================================================
+		//Last Damage done on Hud
+		//==========================================================
+		"TH_LastDamage"				"128 255 0 255"
+		"TH_UberDrop"				"255 105 180 255"
+		"TH_HealthGained"			"128 255 0 255"
+		
+		//==========================================================
+		//misc/other things, also team colors for a lot of elements
+		//==========================================================
+
+		"ItemMeterBG"				"250 234 201 51"
+		"DarkGray"					"44 44 44 255"
+		"DarkerGray"				"33 33 33 255"
+		"TransparentDarkGray"		"44 44 44 200"
+		"TransparentDarkerGray"		"33 33 33 200"
+		"THBlue"					"124 173 255 255"
+		"THRed"						"255 118 108 255"
+		//this is here in case i feel like ever reusing this
+		"THGreen"					"99 232 167 255"
+		"THGreen2"					"0 230 119 255"
+		//UI
+		"THUnselected"				"118 118 118 236"
+		"Black"						"0 0 0 255"
+		"TransparentBlack"			"0 0 0 200"
+		"TransparentMediumBlack"	"0 0 0 150"
+		"TransparentLightBlack"		"0 0 0 100"
+		"TransparentLightestBlack"	"0 0 0 50"
+
+		"Theme_Blue"				"131 159 252 255"	
+		"Theme_Pink"				"255 168 201 255"
+		"Theme_Purple"				"163 89 252 255"	
+		////////////////////////////////////////////////////////////
+		// default hud colors
+		////////////////////////////////////////////////////////////
+
+
 		// base colors
 		"Orange"			"178 82 22 255"
 		"OrangeDim"			"178 82 22 120"
