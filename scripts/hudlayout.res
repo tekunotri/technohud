@@ -1,5 +1,15 @@
-// you're probably looking for hudlayout_base.res
-#base "../customizations/streamermode/hudlayout.res"
-#base "../customizations/crosshairs.res"
-#base "../customizations/transparent_viewmodels.res"
+
+///////////////////////////////////////////////////
+// STREAMER MODE
+///////////////////////////////////////////////////
+#base "../../../cfg/technohud/th_hudlayout_stream.txt"
+
+//=========================================================
+// TRANSPARENT VIEWMODELS
+//=========================================================
+#base "../cfg/technohud/th_transparent_viewmodels.txt"
+
+//=========================================================
+// base file (edit this one)
+//=========================================================
 #base "hudlayout_base.res"

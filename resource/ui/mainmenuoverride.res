@@ -1,2 +1,2 @@
-#base "../../customizations/streamermode/mainmenuoverride.res"
+#base "../../#streamermode/mainmenuoverride.res"
 #base "mainmenuoverride_base.res"

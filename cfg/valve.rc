@@ -19,4 +19,4 @@ startupmenu
 cl_hud_minmode 0 // forces minmode off, not supported right now --12/01/24
 
 //logbase test 
-exec tkh_customization.cfg
+exec th_customization.cfg

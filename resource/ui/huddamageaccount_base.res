@@ -1,5 +1,3 @@
-#base "../../cfg/technohud/tkh_customizations.txt"
-
 "Resource/UI/HudDamageAccount.res"
 {
 	"CDamageAccountPanel"
@@ -11,13 +9,15 @@
 		"PositiveColor"								"TH_LastDamage"
 		"EventColor"            					"TH_UberDrop" 
 		"delta_lifetime"							"1.5"
+		"delta_item_font"							"HudFont24Shadow"
+		"delta_item_font_big"						"HudFont24Shadow"
 	}
 	 "DamageAccountValue"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"DamageAccountValue"
-//lb		"xpos"										"c80"
-//lb		"ypos"										"r155"
+		"xpos"										"c80"
+		"ypos"										"r155"
 		"zpos"										"2"
 		"wide"										"150"
 		"tall"										"25"
