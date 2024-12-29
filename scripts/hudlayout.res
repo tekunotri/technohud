@@ -1,8 +1,9 @@
 
 ///////////////////////////////////////////////////
-// STREAMER MODE
+// CUSTOMIZATIONS
 ///////////////////////////////////////////////////
-#base "../../../cfg/technohud/th_hudlayout_stream.txt"
+#base "../cfg/technohud/th_scope_charge.txt"
+
 
 //=========================================================
 // TRANSPARENT VIEWMODELS
