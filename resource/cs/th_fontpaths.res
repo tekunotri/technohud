@@ -123,12 +123,12 @@
 		}
 		"8"
 		{
-			"font" "resource/fonts/Luxi.ttf"
+			"font" "resource/fonts/fonts_custom/luxi.ttf"
 			"name" "Luxi Mono Regular"
 		}
 		"9"
 		{
-			"font"	"resource/fonts/TF2 Icons.ttf"
+			"font"	"resource/fonts/tf2icons.ttf"
 			"name"	"TF2 Icons"
 		}
         "10"
@@ -138,28 +138,33 @@
         }
         "11"
         {
-            "font"  "resource/fonts/renko Bold.ttf"
+            "font"  "resource/fonts/fonts_custom/renko Bold.ttf"
             "name"	"renko Bold"
         }
 		"12"
 		{
-			"font"	"resource/fonts/xolonium.otf"
+			"font"	"resource/fonts/fonts_custom/xolonium.otf"
 			"name"	"Xolonium GPL"
 		}
 		"13"
 		{
-			"font"	"resource/fonts/surface.otf"
+			"font"	"resource/fonts/fonts_custom/surface.otf"
 			"name"	"Surface-Medium"
 		}
 		"14"
 		{
-			"font"	"resource/fonts/nukamiso.ttf"
+			"font"	"resource/fonts/fonts_custom/nukamiso.ttf"
 			"name"	"nukamiso"
 		}
 		"15"
 		{
-			"font" "resource/fonts/catamaran.ttf"
+			"font" "resource/fonts/fonts_custom/catamaran.ttf"
 			"name" "Catamaran SemiBold"
+		}
+		"16"
+		{
+			"font" "resource/fonts/fonts_custom/din-medium.ttf"
+			"name" "DIN-Medium"
 		}
 		"500"
 		{

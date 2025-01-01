@@ -65,5 +65,14 @@
                 "antialias" "1"
             }
         }
+        "showcase_dinmedium"
+        {
+            "1"
+            {
+                "name"      "DIN-Medium"
+                "tall"      "11"
+                "antialias" "1"
+            }
+        }
     }
 }

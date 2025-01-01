@@ -50,7 +50,8 @@ Scheme {
 		"TransparentMediumBlack"	"0 0 0 150"
 		"TransparentLightBlack"		"0 0 0 100"
 		"TransparentLightestBlack"	"0 0 0 50"
-		"Theme_Blue"				"131 159 252 255"	
+		
+		"TH_ThemeBlue"				"131 159 252 255"	
 		"Theme_Pink"				"255 168 201 255"
 		"Theme_Purple"				"163 89 252 255"
 		"THWhite"					"255 255 255 255"

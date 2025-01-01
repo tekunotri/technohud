@@ -8,7 +8,7 @@
 // FONTS
 //====================================================
 #base "../cfg/technohud/th_font.txt"
-#base "cs/th_fonts/th_fontshowcase.res"
+#base "ui/customizations/th_fontshowcase.res"
 #base "cs/th_fontpaths.res"
 #base "cs/th_fonts.res"
 

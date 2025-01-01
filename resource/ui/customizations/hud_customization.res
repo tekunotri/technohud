@@ -668,6 +668,25 @@
 						"Command"						"engine th_catamaran"
 						"sound_depressed"				"UI/buttonclick.wav"
 					}
+					"Din" // reminder: add 14 to the ypos of the next font
+					{
+						"ControlName"					"CExButton"
+						"fieldName"						"Din"
+						"xpos"							"cs-0.5"
+						"ypos"							"98"
+						"zpos"							"20"
+						"wide"							"f0"
+						"tall"							"12"
+						"visible"						"1"
+						"enabled"						"1"
+						"proportionaltoparent"			"1"
+						"actionsignallevel"				"5"
+						"labelText"						"FF DIN Medium"
+						"font"							"showcase_dinmedium"
+						"textAlignment"					"center"
+						"Command"						"engine th_din"
+						"sound_depressed"				"UI/buttonclick.wav"
+					}
 				}
 			}
 //==============================================================================================================================
@@ -790,53 +809,6 @@
 
 						"nobuttons"						"1"
 					}
-					// WHITE -------------------------------------------------------
-					"Theme_White"
-					{
-						"ControlName"					"EditablePanel"
-						"fieldName"						"Theme_White"
-						"xpos"							"1"
-						"ypos"							"18"
-						"zpos"							"20"
-						"wide"							"f4"
-						"tall"							"16"
-						"visible"						"1"
-						"enabled"						"1"
-						"proportionaltoparent"			"1"
-
-						"Theme_Button"
-						{
-							"ControlName"				"CExButton"
-							"fieldName"					"Theme_Button"
-							"xpos"						"0"
-							"ypos"						"0"
-							"zpos"						"0"
-							"wide"						"f0"
-							"tall"						"f0"
-							"visible"					"1"
-							"enabled"					"1"
-							"proportionaltoparent"		"1"
-							"use_proportional_insets"	"1"
-							"actionsignallevel"			"6"
-							"labelText"					"White"
-							"font"						"FontStoreOriginalPrice"
-							"textinsetx"				"2"
-							"textAlignment"				"west"
-							"Command"					"engine th_theme_white"
-							"sound_depressed"			"UI/buttonclick.wav"
-
-							"paintbackground"			"1"
-							"paintborder"				"0"
-
-							"defaultFgColor_override"	"Black"
-							"armedFgColor_override"		"Black"
-							"depressedFgColor_override"	"Black"
-
-							"defaultBgColor_override"	"White"
-							"armedBgColor_override"		"192 192 192 255"
-							"depressedBgColor_override"	"White"
-						}
-					}
 					// GREER -------------------------------------------------------
 					"Theme_Green"
 					{
@@ -884,7 +856,55 @@
 							"depressedBgColor_override"	"THGreen2"
 						}
 					}
-					// RED DARK -------------------------------------------------------
+					// WHITE -------------------------------------------------------
+					"Theme_White"
+					{
+						"ControlName"					"EditablePanel"
+						"fieldName"						"Theme_White"
+						"xpos"							"1"
+						"ypos"							"18"
+						"zpos"							"20"
+						"wide"							"f4"
+						"tall"							"16"
+						"visible"						"1"
+						"enabled"						"1"
+						"proportionaltoparent"			"1"
+
+						"Theme_Button"
+						{
+							"ControlName"				"CExButton"
+							"fieldName"					"Theme_Button"
+							"xpos"						"0"
+							"ypos"						"0"
+							"zpos"						"0"
+							"wide"						"f0"
+							"tall"						"f0"
+							"visible"					"1"
+							"enabled"					"1"
+							"proportionaltoparent"		"1"
+							"use_proportional_insets"	"1"
+							"actionsignallevel"			"6"
+							"labelText"					"White"
+							"font"						"FontStoreOriginalPrice"
+							"textinsetx"				"2"
+							"textAlignment"				"west"
+							"Command"					"engine th_theme_white"
+							"sound_depressed"			"UI/buttonclick.wav"
+
+							"paintbackground"			"1"
+							"paintborder"				"0"
+
+							"defaultFgColor_override"	"Black"
+							"armedFgColor_override"		"Black"
+							"depressedFgColor_override"	"Black"
+
+							"defaultBgColor_override"	"White"
+							"armedBgColor_override"		"192 192 192 255"
+							"depressedBgColor_override"	"White"
+						}
+					}
+					
+					// PINK -------------------------------------------------------
 					"Theme_Pink"
 					{
 						"ControlName"					"EditablePanel"
@@ -931,7 +951,7 @@
 							"depressedBgColor_override"	"Theme_Pink"
 						}
 					}
-					// RED -------------------------------------------------------
+					// PURPLE -------------------------------------------------------
 					"Theme_Purple"
 					{
 						"ControlName"					"EditablePanel"
@@ -974,10 +994,11 @@
 							"depressedFgColor_override"	"Black"
 
 							"defaultBgColor_override"	"Theme_Purple"
-							"armedBgColor_override"		"202 12 202 255"
+							"armedBgColor_override"		"200 89 252 255"
 							"depressedBgColor_override"	"Theme_Purple"
 						}
 					}
+					// BLUE -------------------------------------------------------
 					"Theme_Blue"
 					{
 						"ControlName"					"EditablePanel"
@@ -1019,9 +1040,56 @@
 							"armedFgColor_override"		"Black"
 							"depressedFgColor_override"	"Black"
 
-							"defaultBgColor_override"	"Theme_Blue"
-							"armedBgColor_override"		"0 0 192 255"
-							"depressedBgColor_override"	"Theme_Blue"
+							"defaultBgColor_override"	"TH_ThemeBlue"
+							"armedBgColor_override"		"72 111 240 255"
+							"depressedBgColor_override"	"TH_ThemeBlue"
+						}
+					}
+					// Orange -------------------------------------------------------
+					"Theme_Orange"
+					{
+						"ControlName"					"EditablePanel"
+						"fieldName"						"Theme_Orange"
+						"xpos"							"1"
+						"ypos"							"90"
+						"zpos"							"20"
+						"wide"							"f4"
+						"tall"							"16"
+						"visible"						"1"
+						"enabled"						"1"
+						"proportionaltoparent"			"1"
+
+						"Theme_Button"
+						{
+							"ControlName"				"CExButton"
+							"fieldName"					"Theme_Button"
+							"xpos"						"0"
+							"ypos"						"0"
+							"zpos"						"0"
+							"wide"						"f0"
+							"tall"						"f0"
+							"visible"					"1"
+							"enabled"					"1"
+							"proportionaltoparent"		"1"
+							"use_proportional_insets"	"1"
+							"actionsignallevel"			"6"
+							"labelText"					"Orange"
+							"font"						"FontStoreOriginalPrice"
+							"textinsetx"				"2"
+							"textAlignment"				"west"
+							"Command"					"engine th_theme_orange"
+							"sound_depressed"			"UI/buttonclick.wav"
+
+							"paintbackground"			"1"
+							"paintborder"				"0"
+
+							"defaultFgColor_override"	"Black"
+							"armedFgColor_override"		"Black"
+							"depressedFgColor_override"	"Black"
+
+							"defaultBgColor_override"	"THOrange"
+							"armedBgColor_override"		"255 128 0 255"
+							"depressedBgColor_override"	"THOrange"
 						}
 					}
 				}
