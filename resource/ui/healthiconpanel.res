@@ -13,7 +13,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"TFFont"		"HudFont14"
-		"TextColor"		"HudOffWhite"
+		"TextColor"		"FullWhite"
 		"autoResize"	"1"
 	}
 	"SpectatorGUIHealth"
@@ -29,7 +29,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"TFFont"		"HudFont14"
-		"TextColor"		"HudOffWhite"
+		"TextColor"		"FullWhite"
 		"autoResize"	"1"
 	}
 }

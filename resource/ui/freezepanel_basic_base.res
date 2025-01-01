@@ -77,7 +77,7 @@
 			"HealthDeathWarning"	"0.49"
 			"TFFont"		"HudFont14Shadow"
 			"HealthDeathWarningColor"	"HUDDeathWarning"
-			"TextColor"		"HudOffWhite"
+			"TextColor"		"FullWhite"
 		}
 
 		"FreezeLabelKiller"

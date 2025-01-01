@@ -66,7 +66,7 @@
 			"font"			"HudFont24Bold"
 			"labelText"		"%blueleader%"
 			"textAlignment"	"west"
-			"fgcolor"		"HudOffWhite"
+			"fgcolor"		"FullWhite"
 		}
 	}
 
@@ -86,7 +86,7 @@
 		"font"			"HudFont24"
 		"labelText"		"VS"
 		"textAlignment"	"center"
-		"fgcolor"		"HudOffWhite"
+		"fgcolor"		"FullWhite"
 	}
 
 	"redpanel"
@@ -154,7 +154,7 @@
 			"font"			"HudFont24Bold"
 			"labelText"		"%redleader%"
 			"textAlignment"	"west"
-			"fgcolor"		"HudOffWhite"
+			"fgcolor"		"FullWhite"
 		}
 	}
 }
