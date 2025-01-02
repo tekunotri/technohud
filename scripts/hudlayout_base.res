@@ -90,13 +90,10 @@
 
 	HudDemomanPipes
 	{
-		"fieldName"		"HudDemomanPipes"
-		"visible"		"1"
-		"enabled"		"1"
-		"xpos"			"cs-0.5"	
-		"ypos"			"r105"	
-		"wide"			"120"
-		"tall"			"50"
+		"xpos"			"0"	
+		"ypos"			"0"	
+		"wide"			"f0"
+		"tall"			"f0"
 		"MeterFG"		"FullWhite"
 		"MeterBG"		"ItemMeterBG"
 	}
@@ -1479,4 +1476,3 @@
 		"alpha"					"100"
 	}
 }
-
