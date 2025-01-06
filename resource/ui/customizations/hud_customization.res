@@ -152,11 +152,11 @@
 			"labelText"									"Reset Settings"
 			"font"										"HudFontSmallestBold"
 			"textAlignment"								"center"
-			"Command"									"engine th_reset"
+			"Command"									"engine th_full_reset"
 			"actionsignallevel"							"2"
 			"sound_depressed"							"UI/buttonclick.wav"
 
-			"defaultBgColor_override"					"190 60 60 255"
+			"defaultBgColor_override"					"THOrange"
 			"armedBgColor_override"						"100 30 30 255"
 			"depressedBgColor_override"					"100 30 30 255"
 
