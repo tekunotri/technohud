@@ -1029,7 +1029,7 @@
 		"ypos"					"65"
 		"ypos_lodef"			"75"
 		"wide"					"320"
-		"tall"					"100"
+		"tall"					"0"
 	}
 
 
@@ -1042,7 +1042,7 @@
 		"ypos"					"15"
 		"ypos_lodef"			"75"
 		"wide"					"320"
-		"tall"					"300"
+		"tall"					"0"
 	}
 
 	HudTeamSwitch
