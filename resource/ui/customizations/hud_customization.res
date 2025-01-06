@@ -2447,6 +2447,115 @@
 				}
 			}
 //==============================================================================================================================
+// Disguise Status
+//==============================================================================================================================
+			"DisguiseStatus_Selection"
+			{
+				"ControlName"							"EditablePanel"
+				"fieldName"								"DisguiseStatus_Selection"
+				"xpos"									"4"
+				"ypos"									"206"
+				"zpos"									"0"
+				"wide"									"116"
+				"tall"									"30"
+				"visible"								"1"
+				"enabled"								"1"
+				"proportionaltoparent"					"1"
+				"paintBackground"						"1"
+				"paintBackgroundType"					"2"
+				"bgcolor_override"						"25 21 22 255"
+
+				"Title"
+				{
+					"ControlName"						"CExLabel"
+					"fieldName"							"Title"
+					"xpos"								"cs-0.5"
+					"ypos"								"0"
+					"zpos"								"0"
+					"wide"								"f0"
+					"tall"								"14"
+					"visible"							"1"
+					"enabled"							"1"
+					"proportionaltoparent"				"1"
+					"labelText"							"Disguise Status:"
+					"font"								"HudFontSmallest"
+					"textAlignment"						"center"
+					"fgcolor"							"White"
+					"paintBackground"					"1"
+					"paintBackgroundType"				"2"
+					"roundedcorners"					"3"
+					"bgcolor_override"					"StoreGreen"
+				}
+				"ResetButton"
+				{
+					"ControlName"						"CExButton"
+					"fieldName"							"ResetButton"
+					"xpos"								"rs1-1"
+					"ypos"								"1"
+					"zpos"								"20"
+					"wide"								"12"
+					"tall"								"12"
+					"visible"							"1"
+					"enabled"							"1"
+					"proportionaltoparent"				"1"
+					"actionsignallevel"					"4"
+					"labelText"							"-"
+					"font"								"Icons12"
+					"textAlignment"						"center"
+					"Command"							"engine th_spy_disguise_clear"
+					"sound_depressed"					"UI/buttonclick.wav"
+
+					"paintbackground"					"1"
+					"paintborder"						"0"
+
+					"defaultFgColor_override"			"White"
+					"armedFgColor_override"				"Black"
+					"depressedFgColor_override"			"White"
+
+					"defaultBgColor_override"			"TransparentBlack"
+					"armedBgColor_override"				"White"
+					"depressedBgColor_override"			"TransparentBlack"
+				}
+				"disguise_default"
+				{
+					"ControlName"						"CExButton"
+					"fieldName"							"disguise_default"
+					"xpos"								"2"
+					"ypos"								"16"
+					"zpos"								"20"
+					"wide"								"p0.48"
+					"tall"								"12"
+					"visible"							"1"
+					"enabled"							"1"
+					"proportionaltoparent"				"1"
+					"actionsignallevel"					"4"
+					"labelText"							"Bottom Left"
+					"font"								"ItemFontAttribSmallest"
+					"textAlignment"						"center"
+					"Command"							"engine th_spy_disguise_clear"
+					"sound_depressed"					"UI/buttonclick.wav"
+				}
+				"disguise_center"
+				{
+					"ControlName"						"CExButton"
+					"fieldName"							"disguise_center"
+					"xpos"								"rs1-2"
+					"ypos"								"16"
+					"zpos"								"20"
+					"wide"								"p0.48"
+					"tall"								"12"
+					"visible"							"1"
+					"enabled"							"1"
+					"proportionaltoparent"				"1"
+					"actionsignallevel"					"4"
+					"labelText"							"Centered"
+					"font"								"ItemFontAttribSmallest"
+					"textAlignment"						"center"
+					"Command"							"engine th_spy_disguise_center"
+					"sound_depressed"					"UI/buttonclick.wav"
+				}
+			}
+//==============================================================================================================================
 // HEALTH WARNING
 //==============================================================================================================================
 			"Health_Warning"
