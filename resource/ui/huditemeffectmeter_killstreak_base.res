@@ -7,7 +7,7 @@
 		"enabled"									"1"
 		"xpos"										"0"
 		"ypos"										"rs1"
-		"wide"										"0"
+		"wide"										"50"
 		"tall"										"18"
 		"MeterFG"									"White"
 		"MeterBG"									"Gray"
