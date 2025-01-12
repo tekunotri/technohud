@@ -1,5 +1,6 @@
 //==============================================================================================================================
-// i took this menu from the old old logbase beta of thhud from around 1.5 years ago pre-7.0 because i prefer it
+// i took this menu from the old old logbase beta of m0rehud from around 1.5 years ago pre-7.0 because i prefer it
+// yeah the file is a general mess, but i can't be asked to separate it into #bases, gl ever messing with this!
 // 2 wide = wide 200
 // 1 wide = wide 100
 // small  = tall 30
