@@ -126,7 +126,7 @@
 
 			"defaultFgColor_override"				"FullWhite"
 			"armedFgColor_override"					"THOverheal"
-			"depressedFgColor_override"				"DarkGray"
+			"depressedFgColor_override"				"PressDown"
 		}
 	}
 	"Servers"
@@ -165,7 +165,7 @@
 
 			"defaultFgColor_override"				"FullWhite"
 			"armedFgColor_override"					"THOverheal"
-			"depressedFgColor_override"				"DarkGray"
+			"depressedFgColor_override"				"PressDown"
 		}
 	}
 	"Items"
@@ -204,7 +204,7 @@
 
 			"defaultFgColor_override"				"FullWhite"
 			"armedFgColor_override"					"THOverheal"
-			"depressedFgColor_override"				"DarkGray"
+			"depressedFgColor_override"				"PressDown"
 		}
 	}
 	"Store"
@@ -243,7 +243,7 @@
 
 			"defaultFgColor_override"				"White"
 			"armedFgColor_override"					"THOverheal"
-			"depressedFgColor_override"				"DarkGray"
+			"depressedFgColor_override"				"PressDown"
 		}
 	}
 	"HUDOptions"
@@ -283,7 +283,7 @@
 
 			"defaultFgColor_override"				"White"
 			"armedFgColor_override"					"THOverheal"
-			"depressedFgColor_override"				"DarkGray"
+			"depressedFgColor_override"				"PressDown"
 		}
 	}
 	"Disconnect"
@@ -323,7 +323,7 @@
 
 			"defaultFgColor_override"				"White"
 			"armedFgColor_override"					"THOverheal"
-			"depressedFgColor_override"				"DarkGray"
+			"depressedFgColor_override"				"PressDown"
 		}
 	}
 	
@@ -536,7 +536,7 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"paintbackground"	"1"
 		"paintborder"		"0"
-		"image_drawcolor"	"DarkGray"
+		"image_drawcolor"	"PressDown"
 		"image_armedcolor"	"FullWhite"
 
 		"SubImage"

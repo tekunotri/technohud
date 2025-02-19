@@ -34,6 +34,8 @@ Scheme {
 		//misc/other things, also team colors for a lot of elements
 		//==========================================================
 		"ItemMeterBG"				"250 234 201 51"
+
+		"PressDown"					"150 150 150 255"
 		"DarkGray"					"44 44 44 255"
 		"DarkerGray"				"33 33 33 255"
 		"TransparentDarkGray"		"44 44 44 200"
@@ -130,7 +132,7 @@ Scheme {
 
 		"ProgressBarBlue"	"91 122 142 255"
 
-		"CreditsGreen"		"94 150 49 255"
+		"CreditsGreen"		"94 150 49 255" // Default: 94 150 49 255
 
 		"Gray"				"178 178 178 255"
 
