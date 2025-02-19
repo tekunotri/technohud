@@ -42,6 +42,26 @@
 		"labelText"					"%wave_count%"
 	}
 
+	"WaveCountLabelShadow" // looks like ass but eh.
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"WaveCountLabelShadow"
+		"font"			"HudFontSmallestBold"
+		"fgcolor"		"Black"
+		"xpos"			"-1"
+		"ypos"			"0"
+		"zpos"			"3"
+		"wide"			"200"
+		"tall"			"15"
+		"xpos_minmode"	"110"
+		"wide_minmode"	"-300"
+		"visible"		"1"
+		"enabled"		"1"
+		"textAlignment"				"center"
+		"textAlignment_minmode"		"west"
+		"labelText"					"%wave_count%"
+		"pin_to_sibling"	"WaveCountLabel"
+	}
 	"SeparatorBar"
 	{
 		"ControlName"	"Panel"

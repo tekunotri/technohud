@@ -67,7 +67,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"EnemyCount"
-		"font"			"HudFont14"
+		"font"			"HudFont12" // this should hopefully fix 3 digit enemy counts
 		"fgcolor"		"FullWhite"
 		"xpos"			"0"
 		"ypos"			"18"
@@ -83,7 +83,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"EnemyCountShadow"
-		"font"			"HudFont14"
+		"font"			"HudFont12"
 		"fgcolor"		"Black"
 		"xpos"			"0"
 		"ypos"			"0"
