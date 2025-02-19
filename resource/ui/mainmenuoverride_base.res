@@ -125,7 +125,7 @@
 
 			"defaultFgColor_override"				"FullWhite"
 			"armedFgColor_override"					"THOverheal"
-			"depressedFgColor_override"				"DarkGray"
+			"depressedFgColor_override"				"PressDown"
 		}
 	}
 	"Servers"
@@ -164,7 +164,7 @@
 
 			"defaultFgColor_override"				"FullWhite"
 			"armedFgColor_override"					"THOverheal"
-			"depressedFgColor_override"				"DarkGray"
+			"depressedFgColor_override"				"PressDown"
 		}
 	}
 	"Items"
@@ -203,7 +203,7 @@
 
 			"defaultFgColor_override"				"FullWhite"
 			"armedFgColor_override"					"THOverheal"
-			"depressedFgColor_override"				"DarkGray"
+			"depressedFgColor_override"				"PressDown"
 		}
 	}
 	"Store"
@@ -242,7 +242,47 @@
 
 			"defaultFgColor_override"				"White"
 			"armedFgColor_override"					"THOverheal"
-			"depressedFgColor_override"				"DarkGray"
+			"depressedFgColor_override"				"PressDown"
+		}
+	}
+	"HUDOptions"
+	{
+		"ControlName"								"EditablePanel"
+		"fieldname"									"HUDOptions"
+		"xpos"										"0"
+		"ypos"										"3"
+		"zpos"										"15"
+		"wide"										"150"
+		"tall"										"17"
+		"visible"									"0"
+
+		"pin_to_sibling"							"Store"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
+
+		"SubButton"
+		{
+			"ControlName"							"CExImageButton"
+			"fieldName"								"SubButton"
+			"xpos"									"0"
+			"ypos"									"0"
+			"wide"									"f0"
+			"tall"									"f0"
+			"visible"								"1"
+			"enabled"								"1"
+			"proportionaltoparent"					"1"
+			"font"									"HudFont16Shadow"
+			"AllCaps"								"1"
+			"textAlignment"							"west"
+			"sound_depressed"						"UI/buttonclick.wav"
+			"sound_released"						"UI/buttonclickrelease.wav"
+
+			"paintbackground"						"0"
+			"paintborder"							"0"
+
+			"defaultFgColor_override"				"White"
+			"armedFgColor_override"					"THOverheal"
+			"depressedFgColor_override"				"PressDown"
 		}
 	}
 	"Disconnect"
@@ -282,7 +322,7 @@
 
 			"defaultFgColor_override"				"White"
 			"armedFgColor_override"					"THOverheal"
-			"depressedFgColor_override"				"DarkGray"
+			"depressedFgColor_override"				"PressDown"
 		}
 	}
 
@@ -494,7 +534,7 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"paintbackground"	"1"
 		"paintborder"		"0"
-		"image_drawcolor"	"DarkGray"
+		"image_drawcolor"	"PressDown"
 		"image_armedcolor"	"FullWhite"
 
 		"SubImage"
