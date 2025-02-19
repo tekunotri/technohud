@@ -1,6 +1,86 @@
 // color shit
 Scheme {
     Colors {
+		        //==========================================================
+		//hp/ammo/main color stuff i cant organize shit properly whatever
+		//==========================================================
+
+		// white color and general hp color
+		"FullWhite"					"236 236 236 255"
+		"HealthNumbers"				"236 236 236 255"
+		// crosshair colors
+		"Crosshair"					"255 255 255 255"
+		"CrosshairFlash"			"255 0 0 255"
+		// Ammo Colors
+		"MainAmmo"					"236 236 236 255"
+		"ReserveAmmo"				"236 236 236 255"
+		"NoClipAmmo"				"236 236 236 255"
+		//overheal animation colors, refer to  scripts/hudanimations_th.txt
+		"THOverheal"				"99 232 167 255"
+		"THOverheal2"				"0 230 119 255"
+		//low hp/ammo colors
+		"THLow"						"232 99 99 255"
+		"THLow2"					"194 69 69 255"
+		//uber colors
+		"THUber"					"236 236 236 255"
+		//==========================================================
+		//Last Damage done on Hud
+		//==========================================================
+		"TH_LastDamage"				"128 255 0 255"
+		"TH_UberDrop"				"255 105 180 255"
+		"TH_HealthGained"			"128 255 0 255"
+		
+		//==========================================================
+		//misc/other things, also team colors for a lot of elements
+		//==========================================================
+		"ItemMeterBG"				"250 234 201 51"
+
+		"PressDown"					"150 150 150 255"
+		"DarkGray"					"44 44 44 255"
+		"DarkerGray"				"33 33 33 255"
+		"TransparentDarkGray"		"44 44 44 200"
+		"TransparentDarkerGray"		"33 33 33 200"
+		"THBlue"					"124 173 255 255"
+		"THRed"						"255 118 108 255"
+		//this is here in case i feel like ever reusing this
+		"THGreen"					"99 232 167 255"
+		"THGreen2"					"0 230 119 255"
+		//UI
+		"THUnselected"				"118 118 118 236"
+		"Black"						"0 0 0 255"
+		"TransparentBlack"			"0 0 0 200"
+		"TransparentMediumBlack"	"0 0 0 150"
+		"TransparentLightBlack"		"0 0 0 100"
+		"TransparentLightestBlack"	"0 0 0 50"
+		
+		"TH_ThemeBlue"				"131 159 252 255"	
+		"Theme_Pink"				"255 168 201 255"
+		"Theme_Purple"				"163 89 252 255"
+		"THWhite"					"255 255 255 255"
+		"THGrey"					"100 100 100 255"
+		"THBlack"					"0 0 0 255"
+		"THRedDark"					"150 50 50 255"
+		"THRed"						"210 40 40 255"
+		"THOrange"					"255 165 75 255"
+		"THYellow"					"255 215 100 255"
+		"THGreenPale"				"180 200 100 255"
+		"THGreen"					"0 215 0 255"
+		"THGreenDark"				"0 100 0 255"
+		"THTeal"					"100 180 170 255"
+		"THCyan"					"0 210 215 255"
+		"THBlue"					"0 165 255 255"
+		"THBlu"						"70 70 180 255"
+		"THPurple"					"165 50 235 255"
+		"THViolet"					"190 150 210 255"
+		"THPink"					"250 185 240 255"
+		"THMagenta"					"255 0 127 255"
+
+	
+		////////////////////////////////////////////////////////////
+		// default hud colors
+		////////////////////////////////////////////////////////////
+
+
 		// base colors
 		"Orange"			"178 82 22 255"
 		"OrangeDim"			"178 82 22 120"
@@ -52,7 +132,7 @@ Scheme {
 
 		"ProgressBarBlue"	"91 122 142 255"
 
-		"CreditsGreen"		"94 150 49 255"
+		"CreditsGreen"		"94 150 49 255" // Default: 94 150 49 255
 
 		"Gray"				"178 178 178 255"
 
@@ -243,7 +323,7 @@ Scheme {
 		Button.SelectedTextColor		"TanLight"
 		Button.SelectedBgColor			"THOverheal2"
 		Button.DepressedTextColor		"Black"
-		Button.DepressedBgColor			"CreditsGreen"
+		Button.DepressedBgColor			"THUnselected"
 
 		CheckButton.TextColor			"Yellow"
 		CheckButton.SelectedTextColor	"Yellow"

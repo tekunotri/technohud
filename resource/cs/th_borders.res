@@ -254,13 +254,14 @@ Scheme
 
 		MainMenuSubButtonBorder
 		{
-			"inset" "0 0 1 1"
+			"inset" "0 0 1 0"
+			"proportional_scalar" "0.667"
 			Left
 			{
 				"1"
 				{
 					"color" "TanDarker"
-					"offset" "0 1"
+					"offset" "0 0"
 				}
 			}
 
@@ -269,7 +270,7 @@ Scheme
 				"1"
 				{
 					"color" "TanDarker"
-					"offset" "1 0"
+					"offset" "0 0"
 				}
 			}
 		}

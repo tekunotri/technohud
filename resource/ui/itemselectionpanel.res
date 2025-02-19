@@ -1,5 +1,4 @@
 #base "../dev/reloadscheme.res"
-
 "Resource/UI/ItemSelectionPanel.res"
 {
 	"ItemSelectionPanel"
@@ -122,8 +121,7 @@
 		"unicode"									"1"
 		"fgcolor_override"							"White"
 		"bgcolor_override"							"TransparentBlack"
-		"font"										"HudFont11Bold"
-
+		"font"										"HudFontSmallest"
 		"pin_to_sibling"							"NameFilterIcon"
 		"pin_corner_to_sibling"						"PIN_CENTER_RIGHT"
 		"pin_to_sibling_corner"						"PIN_CENTER_RIGHT"
@@ -140,7 +138,7 @@
 		"visible"									"0"
 		"enabled"									"1"
 		"fgcolor"									"200 80 60 255"
-		"font"										"HudFont14Bold"
+		"font"										"HudFontSmallBold"
 		"labelText"									"#NoItemsToEquip"
 		"textAlignment"								"center"
 	}
@@ -157,6 +155,7 @@
 		"enabled"									"1"
 		"labelText"									"#Cancel"
 		"font"										"HudFont14Bold"
+		"font"										"HudFontSmallBold"
 		"textAlignment"								"center"
 		"Command"									"vguicancel"
 		"sound_depressed"							"UI/buttonclick.wav"
@@ -175,7 +174,7 @@
 		"enabled"									"1"
 		"smallcheckimage"							"1"
 		"labelText"									"#OnlyAllowUniqueQuality"
-		"Font"										"HudFont11Bold"
+		"Font"										"HudFontSmallestBold"
 		"textAlignment"								"east"
 	}
 	"ShowBackpack"
@@ -190,7 +189,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"#Selection_ShowBackpack"
-		"font"										"HudFont11Bold"
+		"font"										"HudFontSmallestBold"
 		"textAlignment"								"center"
 		"Command"									"show_backpack"
 		"sound_depressed"							"UI/buttonclick.wav"
@@ -208,7 +207,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"#Selection_ShowSelection"
-		"font"										"HudFont11Bold"
+		"font"										"HudFontSmallestBold"
 		"textAlignment"								"center"
 		"Command"									"show_selection"
 		"sound_depressed"							"UI/buttonclick.wav"
@@ -218,7 +217,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"CurPageLabel"
-		"font"										"HudFont16Bold"
+		"font"										"HudFontSmallishBold"
 		"labelText"									"%backpackpage%"
 		"textAlignment"								"center"
 		"xpos"										"cs-0.5"
