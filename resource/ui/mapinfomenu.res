@@ -102,7 +102,30 @@
 		"pinCorner"		"2"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"CONTINUE (&E)"
+		"labelText"		"CONTINUE"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"command"		"continue"
+		"default"		"1"
+		"font"			"Default"
+		"fgcolor"		"Black"
+
+	}
+	"ok2"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"ok2"
+		"xpos"			"9999"
+		"ypos"			"c110"
+		"zpos"			"6"
+		"wide"			"0"
+		"tall"			"0"
+		"autoResize"	"0"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"&E"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -111,7 +134,6 @@
 		"font"			"Default"
 		"fgcolor"		"Black"
 	}
-
 	"MapInfoWatchIntro" [$WIN32]
 	{
 		"ControlName"	"CExButton"
@@ -154,7 +176,7 @@
 		"brighttext"	"0"
 		"command"		"back"
 		"font"			"Default"
-		"fgcolor"		"Black"
+		"fgcolor"		"FullWhite" //hackfix for the text being black unless you mouse over it
 	}
 
 	"MenuBG"
