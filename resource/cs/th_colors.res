@@ -323,7 +323,7 @@ Scheme {
 		Button.SelectedTextColor		"TanLight"
 		Button.SelectedBgColor			"THOverheal2"
 		Button.DepressedTextColor		"Black"
-		Button.DepressedBgColor			"CreditsGreen"
+		Button.DepressedBgColor			"THUnselected"
 
 		CheckButton.TextColor			"Yellow"
 		CheckButton.SelectedTextColor	"Yellow"
