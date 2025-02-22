@@ -596,6 +596,7 @@ Scheme
 				}
 			}
 		}
+
 		"LoadoutItemPopupBorder" // reused a couple of times for convenience all over the hud.
 		{
 			"image" "White" "color" "DarkerGray" "bordertype" "scalable_image"
@@ -2235,6 +2236,9 @@ Scheme
 				}
 			}
 		}
+		"newmatchborder"
+		{
+			"image" "White" "color" "DarkGray" "bordertype" "scalable_image"
+		}
 	}
-
 }
