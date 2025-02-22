@@ -163,7 +163,7 @@
 		}
 		"16"
 		{
-			"font" "resource/fonts/fonts_custom/din-medium.ttf"
+			"font" "resource/fonts/fonts_custom/din-medium.otf"
 			"name" "DIN-Medium"
 		}
 		"500"
