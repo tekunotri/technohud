@@ -90,13 +90,10 @@
 
 	HudDemomanPipes
 	{
-		"fieldName"		"HudDemomanPipes"
-		"visible"		"1"
-		"enabled"		"1"
-		"xpos"			"cs-0.5"	
-		"ypos"			"r105"	
-		"wide"			"120"
-		"tall"			"50"
+		"xpos"			"0"	
+		"ypos"			"0"	
+		"wide"			"f0"
+		"tall"			"f0"
 		"MeterFG"		"FullWhite"
 		"MeterBG"		"ItemMeterBG"
 	}
@@ -720,7 +717,7 @@
 		"fieldName" "HudScopeCharge"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	 "c235" //default: 64, moves charge out of the way.
+		"xpos"	 "c64" //default: 64, moves charge out of the way.
 		"ypos"	 "c-64"
 		"wide"	 "64"
 		"tall"	 "128"
@@ -1032,7 +1029,7 @@
 		"ypos"					"65"
 		"ypos_lodef"			"75"
 		"wide"					"320"
-		"tall"					"100"
+		"tall"					"0"
 	}
 
 
@@ -1045,7 +1042,7 @@
 		"ypos"					"15"
 		"ypos_lodef"			"75"
 		"wide"					"320"
-		"tall"					"300"
+		"tall"					"0"
 	}
 
 	HudTeamSwitch
@@ -1479,4 +1476,3 @@
 		"alpha"					"100"
 	}
 }
-

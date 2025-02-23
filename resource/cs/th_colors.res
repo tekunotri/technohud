@@ -26,7 +26,7 @@ Scheme {
 		//==========================================================
 		//Last Damage done on Hud
 		//==========================================================
-		"TH_LastDamage"				"128 255 0 255"
+		"TH_LastDamage"				"0 230 119 255"
 		"TH_UberDrop"				"255 105 180 255"
 		"TH_HealthGained"			"128 255 0 255"
 		
@@ -322,7 +322,7 @@ Scheme {
 		Button.ArmedBgColor				"THOverheal2"
 		Button.SelectedTextColor		"TanLight"
 		Button.SelectedBgColor			"THOverheal2"
-		Button.DepressedTextColor		"Black"
+		Button.DepressedTextColor		"TanLight"
 		Button.DepressedBgColor			"THUnselected"
 
 		CheckButton.TextColor			"Yellow"
