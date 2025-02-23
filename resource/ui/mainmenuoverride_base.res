@@ -2069,7 +2069,7 @@
 		"zpos"			"-5-"
 		"wide"			"f0"
 		"tall"			"10"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/loadout_solid_line"
 		"scaleImage"	"1"
