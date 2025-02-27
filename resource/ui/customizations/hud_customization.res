@@ -183,7 +183,7 @@
 			"urlText"									"https://github.com/tekunotri/technohud/wiki/customizations"
 			"FgColor_override"							"White"
 			"paintbackground"							"1"
-			"paintbackgroundtype"						"2"
+			"paintbackgroundtype"						"0"
 			"bgcolor_override"							"TanDark"
 
 			"pin_to_sibling"							"ReloadHUDButton"
