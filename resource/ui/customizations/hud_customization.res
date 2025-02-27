@@ -408,7 +408,7 @@
 					"xpos"								"2"
 					"ypos"								"rs1-2"
 					"zpos"								"20"
-					"wide"								"54"
+					"wide"								"p0.48"
 					"tall"								"12"
 					"visible"							"1"
 					"enabled"							"1"
@@ -424,10 +424,10 @@
 				{
 					"ControlName"						"CExButton"
 					"fieldName"							"SpeedoBudOn"
-					"xpos"								"4"
+					"xpos"								"1"
 					"ypos"								"0"
 					"zpos"								"20"
-					"wide"								"54"
+					"wide"								"p0.48"
 					"tall"								"12"
 					"visible"							"1"
 					"enabled"							"1"
@@ -2044,7 +2044,7 @@
 				{
 					"ControlName"						"CExButton"
 					"fieldName"							"crosson"
-					"xpos"								"2"
+					"xpos"								"1"
 					"ypos"								"16"
 					"zpos"								"20"
 					"wide"								"p0.48"
@@ -2888,7 +2888,7 @@
 				{
 					"ControlName"						"CExButton"
 					"fieldName"							"Enabled"
-					"xpos"								"2"
+					"xpos"								"1"
 					"ypos"								"16"
 					"zpos"								"20"
 					"wide"								"p0.48"
@@ -2998,7 +2998,7 @@
 				{
 					"ControlName"						"CExButton"
 					"fieldName"							"ScopeDef"
-					"xpos"								"2"
+					"xpos"								"1"
 					"ypos"								"16"
 					"zpos"								"20"
 					"wide"								"p0.48"
@@ -3347,7 +3347,7 @@
 				{
 					"ControlName"						"CExButton"
 					"fieldName"							"HW_50"
-					"xpos"								"2"
+					"xpos"								"1"
 					"ypos"								"16"
 					"zpos"								"20"
 					"wide"								"p0.48"
@@ -3365,7 +3365,7 @@
 				"HW_75"
 				{
 					"ControlName"						"CExButton"
-					"fieldName"							"HW_50"
+					"fieldName"							"HW_75"
 					"xpos"								"rs1-2"
 					"ypos"								"16"
 					"zpos"								"20"
