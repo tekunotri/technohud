@@ -144,8 +144,9 @@
 		"tall"	 		"286"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/color_panel_brown"
-
+		"image"			"White"
+		"drawcolor"		"0 0 0 255"
+		"alpha"			"224" //closest i can get to class selection bg
 		"src_corner_height"		"23"
 		"src_corner_width"		"23"
 

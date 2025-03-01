@@ -562,7 +562,8 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"white" // ../HUD/tournament_panel_blu
+		"image"			"White" // ../HUD/tournament_panel_blu
+		"drawcolor"		"DarkGray"
 		"proportionaltoparent"	"1"
 
 		"src_corner_height"	"15"				// pixels inside the image
@@ -602,7 +603,8 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"white" // ../HUD/tournament_panel_red
+		"image"			"White" // ../HUD/tournament_panel_red
+		"drawcolor"		"DarkGray"
 		"src_corner_height"	"15"				// pixels inside the image
 		"src_corner_width"	"15"
 
@@ -645,6 +647,7 @@
 		"enabled"		"1"
 		"wrap"			"0"
 		"labelText"		"%bluenamelabel%"
+		"fgcolor_override"		"THBlue"
 		"textAlignment"		"west"
 		"proportionaltoparent"	"1"
 
@@ -718,6 +721,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"0"
+		"fgcolor_override"		"THBlue"
 		"labelText"		"%bluestate%"
 		"textAlignment"		"east"
 		"proportionaltoparent"	"1"
@@ -792,6 +796,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+		"fgcolor_override"		"THRed"
 		"wrap"			"0"
 		"labelText"		"%rednamelabel%"
 		"textAlignment"		"east"
@@ -863,6 +868,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+		"fgcolor_override"		"THRed"
 		"wrap"			"0"
 		"labelText"		"%redstate%"
 		"textAlignment"		"west"
@@ -951,7 +957,7 @@
 			"ypos"			"18"
 			"tall"			"35"
 			"visible"		"1"
-			"font"			"TFFontMedium"
+			"font"			"HudFont9"
 		}
 
 		if_readymode
@@ -959,7 +965,7 @@
 			"xpos"			"285"
 			"ypos"			"26"
 			"visible"		"1"
-			"font"			"TFFontMedium"
+			"font"			"HudFont9"
 		}
 	}
 	"HudTournamentBGHelp"

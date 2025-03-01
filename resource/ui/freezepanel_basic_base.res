@@ -118,8 +118,8 @@
 		{
 			"ControlName"		"EditablePanel"
 			"fieldName"		"NemesisSubPanel"
-			"xpos"			"0"		// FIXME
-			"ypos"			"130"
+			"xpos"			"-50"		// FIXME: idk test positions until a decent one
+			"ypos"			"140"
 			"zpos"			"4"
 			"wide"			"306"
 			"tall"			"38"
@@ -132,10 +132,10 @@
 				"xpos"			"95"
 				"ypos"			"4"
 				"zpos"			"5"
-				"wide"			"161"
-				"tall"			"30"
-				"visible"		"1"
-				"enabled"		"1"
+				"wide"			"0"
+				"tall"			"0"
+				"visible"		"0"
+				"enabled"		"0"
 				"image"			"../hud/color_panel_brown"
 				"scaleImage"		"1"
 
@@ -159,6 +159,22 @@
 				"image"			"../hud/leaderboard_nemesis_freezecam"
 				"scaleImage"	"1"
 			}
+			"NemesisIconShadow"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"NemesisIconShadow"
+				"xpos"			"-1"
+				"ypos"			"-1"
+				"zpos"			"6"
+				"wide"			"36"
+				"tall"			"36"
+				"visible"		"1"
+				"enabled"		"1"
+				"image"			"../hud/leaderboard_nemesis_freezecam"
+				"drawcolor"		"0 0 0 255"
+				"scaleImage"	"1"
+				"pin_to_sibling"	"NemesisIcon"
+			}
 			"NemesisLabel"
 			{
 				"ControlName"		"Label"
@@ -176,13 +192,13 @@
 				"labelText"		"%nemesisname%"
 				"textAlignment"		"west"
 			}
-			"NemesisLabel2"
+			"NemesisLabelShadow"
 			{
 				"ControlName"		"Label"
-				"fieldName"		"NemesisLabel2"
+				"fieldName"		"NemesisLabelShadow"
 				"font"			"DefaultSmall"
-				"xpos"			"134"
-				"ypos"			"10"
+				"xpos"			"-1"
+				"ypos"			"-1"
 				"zpos"			"6"
 				"wide"			"112"
 				"tall"			"18"
@@ -192,6 +208,8 @@
 				"enabled"		"1"
 				"labelText"		"%nemesisadvice%"
 				"textAlignment"		"west"
+				"pin_to_sibling"	"NemesisLabel"
+				"fgcolor_override"	"Black"
 			}
 		}
 	}

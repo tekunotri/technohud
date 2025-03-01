@@ -50,6 +50,8 @@ Scheme {
 		"Black"						"0 0 0 255"
 		"TransparentBlack"			"0 0 0 200"
 		"TransparentMediumBlack"	"0 0 0 150"
+
+		"TransparentMedLightBlack"	"0 0 0 128"
 		"TransparentLightBlack"		"0 0 0 100"
 		"TransparentLightestBlack"	"0 0 0 50"
 		

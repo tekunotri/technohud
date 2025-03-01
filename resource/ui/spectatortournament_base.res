@@ -1,5 +1,4 @@
 // file taken from sayo, modified by me 
-// TODO: support more than 8 players for HL? seems to work fine for 6s
 "Resource/UI/SpectatorTournament.res"
 {
 	"specgui"

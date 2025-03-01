@@ -59,7 +59,7 @@
 	{
 		"ControlName"	"CTFRichText"
 		"fieldName"		"MapInfoText"
-		"font"			"DefaultShadow"
+		"font"			"Default"
 		"xpos"			"c-160"
 		"ypos"			"c-125"
 		"zpos"			"1"
@@ -218,7 +218,9 @@
 		"tall"	 		"286"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/color_panel_brown"
+		"image"			"white"
+		"drawcolor"		"0 0 0 255"
+		"alpha"			"224" //closest i can get to class selection bg
 
 		"src_corner_height"		"23"
 		"src_corner_width"		"23"
@@ -238,7 +240,7 @@
 		"tall"			"480"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"0 0 0 128"
+		"fillcolor"		"TransparentMedLightBlack"
 		"PaintBackgroundType"	"0"
 	}
 

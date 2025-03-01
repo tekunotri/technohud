@@ -43,7 +43,7 @@
 		"ControlName"								"RichText"
 		"fieldName"									"HudChatHistory"
 		"xpos"										"5"
-//lb		"ypos"										"5"
+		"ypos"										"5"
 		"wide"										"250"
 		"tall"										"75"
 		"wrap"										"1"

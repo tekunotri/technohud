@@ -1038,109 +1038,119 @@
 		}
 	}
 
+//entire motd generally from sayo/arekk/whatever, adjusted to fit the hud
 	"MOTD_Panel"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MOTD_Panel"
-		"xpos"			"c5"
-		"ypos"			"65"
+		"xpos"			"r390"
+		"ypos"			"120"
 		"zpos"			"1"
-		"wide"			"300"
-		"tall"			"350"
+		"wide"			"277"
+		"tall"			"270"
 		"visible"		"0"
-		"PaintBackgroundType"	"2"
-		"paintbackground"	"0"
-		"border"		"MainMenuHighlightBorder"
-
-		"navDown"		"SettingsButton"		// when a sub element can't nav down it will pass through this
-		"navLeft"		"MOTD_ShowButtonPanel"	// when a sub element can't nav left it will pass through this
-		"navToRelay"	"MOTD_URLButton"		// when naving to this it auto navs to this child instead
-
+		"PaintBackgroundType"	"0"
+		"paintbackground"	"1"
+		//"border"		"MainMenuHighlightBorder"
+		
+		"bgcolor_override"	"0 0 0 100"
+		
 		"MOTD_HeaderContainer"
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"MOTD_HeaderContainer"
 			"xpos"			"0"
 			"ypos"			"0"
-			"wide"			"300"
-			"tall"			"22"
+			"wide"			"f0"
+			"tall"			"16"
 			"visible"		"1"
-
+			
+			"proportionaltoparent"	"1"
+			
+			"headerbg"
+			{
+				"ControlName"	"EditablePanel"
+				"fieldName"		"headerbg"
+				"xpos"			"0"
+				"ypos"			"0"
+				"wide"			"f0"
+				"tall"			"16"
+				"visible"		"1"
+				
+				"proportionaltoparent"	"1"
+			}
+			
 			"MOTD_HeaderLabel"
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"MOTD_HeaderLabel"
-				"font"			"HudFont14Bold"
-				"textAlignment"	"center"
+				"font"			"Default"
+				"textAlignment"	"west"
 				"labelText"		"%motdheader%"
 				"xpos"			"0"
 				"ypos"			"0"
-				"wide"			"300"
-				"tall"			"24"
+				"wide"			"f0"
+				"tall"			"f0"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
-				"PaintBackgroundType" "2"
-				"fgcolor_override"	"235 226 202 255"
-				"bgcolor_override"	"141 178 61 255"
+				"PaintBackgroundType"	"0"
+				"PaintBackground"		"0"
+				"fgcolor_override"	"white"
+				"bgcolor_override"	"blank"
+				
+				"proportionaltoparent"	"1"
+				"use_proportional_insets"	"1"
+				"textinsetx"	"5"
 			}
 		}
-
+		
 		"MOTD_CloseButton"
 		{
 			"ControlName"	"CExImageButton"
 			"fieldName"		"MOTD_CloseButton"
-			"xpos"			"282"
-			"ypos"			"4"
+			"xpos"			"0"
+			"ypos"			"0"
 			"zpos"			"10"
-			"wide"			"14"
-			"tall"			"14"
+			"wide"			"40"
+			"tall"			"16"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"labeltext"		""
-			"font"			"HudFont14Bold"
+			"labeltext"		"Close"
+			"font"			"Default"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"0"
 			"actionsignallevel"	"2"
-
-			"navDown"			"MOTD_URLButton"
+			
+			"proportionaltoparent"	"1"
+			
 			"navActivate"		"<QuickplayButton"
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			"Command"		"motd_hide"
-
-			"paintbackground"	"0"
-
-			//"defaultFgColor_override" "235 226 202 255"
-			//"armedFgColor_override" "46 43 42 255"
-			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "235 226 202 255"
-			"depressedFgColor_override" "46 43 42 255"
-
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"200 80 60 255"
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"0"
-				"ypos"			"0"
-				"zpos"			"1"
-				"wide"			"14"
-				"tall"			"14"
-				"visible"		"1"
-				"enabled"		"1"
-				"image"			"close_button"
-				"scaleImage"	"1"
-			}
-		}
+			"Command"			"motd_hide"
+			
+			"paintbackground"	"1"
+			
+			"fgcolor_override"				"white"
+			"defaultFgColor_override"		"white"
+			"armedFgColor_override"			"255 255 255 255"
+						
+			"bgcolor_override"				"0 0 0 0"
+			"defaultBgColor_override"		"0 0 0 0"
+			"armedBgColor_override"			"50 50 50 50"
+			"border_default"		"noborder"
+			
+			"pin_to_sibling"		"MOTD_HeaderContainer"
+			"pin_corner_to_sibling"	"1"
+			"pin_to_sibling_corner"	"1"
+		}	
 
 		"MOTD_HeaderIcon"
 		{
@@ -1156,50 +1166,56 @@
 			"image"			"class_icons/filter_all_motd"
 			"scaleImage"	"1"
 		}
-
+			
 		"MOTD_TitleLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"MOTD_TitleLabel"
-			"font"			"HudFont14Bold"
+			"font"			"Default"
 			"labelText"		"%motdtitle%"
 			"textAlignment"	"west"
-			"xpos"			"10"
-			"ypos"			"25"
+			"xpos"			"0"
+			"ypos"			"16+1+16+1"
 			"wide"			"250"
-			"tall"			"15"
+			"tall"			"16"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"LabelDark"
-			"wrap"			"1"
+			"fgcolor"		"white"
+			"wrap"			"0"
+			
+			"use_proportional_insets"	"1"
+			"textinsetx"	"5"
 		}
-
+		
 		"MOTD_Label"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"MOTD_Label"
-			"font"			"HudFont14"
+			"font"			"Default"
 			"labelText"		"%motddate%"
-			"textAlignment"	"north-west"
-			"xpos"			"10"
-			"ypos"			"40"
+			"textAlignment"	"west"
+			"xpos"			"0"
+			"ypos"			"16+1"
 			"wide"			"300"
-			"tall"			"15"
+			"tall"			"16"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"LabelDark"
+			"fgcolor"		"white"
+			
+			"use_proportional_insets"	"1"
+			"textinsetx"	"5"
 		}
-
+		
 		"MOTD_TitleImageBg"
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"MOTD_TitleImageBg"
 			"xpos"			"cs-0.5"
-			"ypos"			"55"
+			"ypos"			"50"
 			"zpos"			"99"
 			"wide"			"250"
 			"tall"			"150"
@@ -1209,19 +1225,19 @@
 			"scaleImage"	"1"
 			"proportionaltoparent" "1"
 		}
-
+		
 		"MOTD_TitleImageContainer"
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"MOTD_TitleImageContainer"
 			"xpos"			"cs-0.5"
-			"ypos"			"55"
+			"ypos"			"50"
 			"zpos"			"100"
 			"wide"			"250"
 			"tall"			"150"
 			"visible"		"1"
 			"proportionaltoparent" "1"
-
+			
 			"MOTD_TitleImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -1237,18 +1253,20 @@
 				"scaleImage"	"0"
 			}
 		}
-
+			
 		"MOTD_TextScroller"
 		{
 			"ControlName"	"ScrollableEditablePanel"
 			"fieldName"		"MOTD_TextScroller"
-			"xpos"			"20"
-			"ypos"			"215"
-			"wide"			"280"
+			"xpos"			"cs-0.5"
+			"ypos"			"200"
+			"wide"			"250"
 			"tall"			"115"
 			"PaintBackgroundType"	"2"
-			"fgcolor"		"LabelDark"
-
+			"fgcolor"		"white"
+			
+			"proportionaltoparent"	"1"
+			
 			"MOTD_TextPanel"
 			{
 				"ControlName"	"EditablePanel"
@@ -1259,12 +1277,12 @@
 				"tall"			"300"
 				"visible"		"1"
 				"PaintBackgroundType"	"2"
-
+			
 				"MOTD_TextLabel"
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"MOTD_TextLabel"
-					"font"			"HudFont14"
+					"font"			"TFFontSmall"
 					"labelText"		"%motdtext%"
 					"textAlignment"	"north-west"
 					"xpos"			"0"
@@ -1275,29 +1293,29 @@
 					"pinCorner"		"0"
 					"visible"		"1"
 					"enabled"		"1"
-					"fgcolor"		"LabelDark"
+					"fgcolor"		"White"
 					"wrap"			"1"
 				}
 			}
 		}
-
+		
 		"MOTD_URLButton"
 		{
 			"ControlName"	"CExButton"
 			"fieldName"		"MOTD_URLButton"
-			"xpos"			"75"
-			"ypos"			"rs1.2"
+			"xpos"			"3"
+			"ypos"			"252"
 			"wide"			"150"
-			"tall"			"15"
+			"tall"			"16"
 			"autoResize"	"0"
-			"pinCorner"		"3"
+			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"labelText"		"#MMenu_MOTD_URL"
+			"labelText"		"Read More"			//"#MMenu_MOTD_URL"
 			"textinsetx"	"20"
 			"use_proportional_insets" "1"
-			"font"			"HudFont11Bold"
+			"font"			"Default"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -1306,20 +1324,19 @@
 			"proportionaltoparent" "1"
 			"actionsignallevel"	"2"
 
-
-			"navUp"			"MOTD_CloseButton"
-			"navLeft"		"MOTD_PrevButton"
-			"navRight"		"MOTD_NextButton"
-
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-
-			"defaultFgColor_override" "235 226 202 255"
-			"defaultBgColor_override" "46 43 42 255"
-			"armedFgColor_override" "235 226 202 255"
-			"depressedFgColor_override" "235 226 202 255"
-		}
-
+			
+			"fgcolor_override"				"white"
+			"defaultFgColor_override"		"white"
+			"armedFgColor_override"			"255 255 255 255"
+			
+			"bgcolor_override"				"0 0 0 160"
+			"defaultBgColor_override"		"0 0 0 160"
+		"armedBgColor_override"			"0 0 0 200"
+			"border_default"		"noborder"
+		}	
+		
 		"MOTD_PrevButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -1327,15 +1344,15 @@
 			"xpos"			"12"
 			"ypos"			"336"
 			"zpos"			"1"
-			"wide"			"20"
-			"tall"			"20"
+			"wide"			"0"
+			"tall"			"0"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"0"
-			"enabled"		"1"
+			"enabled"		"0"
 			"tabPosition"	"0"
 			"labelText"		""
-			"font"			"HudFont14Bold"
+			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -1343,15 +1360,12 @@
 			"Command"		"motd_prev"
 			"actionsignallevel"	"2"
 
-			"navUp"			"MOTD_CloseButton"
-			"navRight"		"MOTD_URLButton"
-
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"paintbackground" "0"
-
+			
 			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"255 255 255 255"
+			"image_armedcolor"	"White"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -1366,8 +1380,8 @@
 				"image"			"blog_back"
 				"scaleImage"	"1"
 			}
-		}
-
+		}		
+		
 		"MOTD_NextButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -1375,15 +1389,15 @@
 			"xpos"			"267"
 			"ypos"			"336"
 			"zpos"			"1"
-			"wide"			"20"
-			"tall"			"20"
+			"wide"			"0"
+			"tall"			"0"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"0"
-			"enabled"		"1"
+			"enabled"		"0"
 			"tabPosition"	"0"
 			"labelText"		""
-			"font"			"HudFont14Bold"
+			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -1391,15 +1405,12 @@
 			"Command"		"motd_next"
 			"actionsignallevel"	"2"
 
-			"navUp"			"MOTD_CloseButton"
-			"navLeft"		"MOTD_URLButton"
-
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"paintbackground" "0"
-
+			
 			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"255 255 255 255"
+			"image_armedcolor"	"White"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
