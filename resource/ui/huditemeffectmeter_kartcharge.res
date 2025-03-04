@@ -1,4 +1,4 @@
-"Resource/UI/HudItemEffectMeter_Scout.res" //TODO: pretty this up a little bit or fix during SF
+"Resource/UI/HudItemEffectMeter_Scout.res" 
 {
 	HudItemEffectMeter
 	{

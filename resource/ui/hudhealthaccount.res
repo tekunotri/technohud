@@ -1,4 +1,3 @@
-//todo: maybe make a logbase customization for this? i cba rn - 01/01/25
 "Resource/UI/HudHealthAccount.res"
 {
 	"CHealthAccountPanel"

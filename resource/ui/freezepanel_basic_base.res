@@ -119,32 +119,32 @@
 			"ControlName"		"EditablePanel"
 			"fieldName"		"NemesisSubPanel"
 			"xpos"			"-50"		// FIXME: idk test positions until a decent one
-			"ypos"			"140"
+			"ypos"			"130"
 			"zpos"			"4"
 			"wide"			"306"
 			"tall"			"38"
 			"visible"		"1"
 
-			"NemesisPanelBG"
-			{
-				"ControlName"		"ScalableImagePanel"
-				"fieldName"		"NemesisPanelBG"
-				"xpos"			"95"
-				"ypos"			"4"
-				"zpos"			"5"
-				"wide"			"0"
-				"tall"			"0"
-				"visible"		"0"
-				"enabled"		"0"
-				"image"			"../hud/color_panel_brown"
-				"scaleImage"		"1"
-
-				"src_corner_height"		"23"				// pixels inside the image
-				"src_corner_width"		"23"
-
-				"draw_corner_width"		"6"				// screen size of the corners ( and sides ), proportional
-				"draw_corner_height" 	"6"
-			}
+			//"NemesisPanelBG"
+			//{
+			//	"ControlName"	"ScalableImagePanel"
+			//	"fieldName"		"NemesisPanelBG"
+			//	"xpos"			"95"
+			//	"ypos"			"4"
+			//	"zpos"			"5"
+			//	"wide"			"0"
+			//	"tall"			"0"
+			//	"visible"		"0"
+			//	"enabled"		"0"
+			//	"image"			"../hud/color_panel_brown"
+			//	"scaleImage"		"1"
+			//
+			//	"src_corner_height"		"23"				// pixels inside the image
+			//	"src_corner_width"		"23"
+			//
+			//	"draw_corner_width"		"6"				// screen size of the corners ( and sides ), proportional
+			//	"draw_corner_height" 	"6"
+			//}
 			"NemesisIcon"
 			{
 				"ControlName"	"ImagePanel"
