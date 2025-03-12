@@ -33,7 +33,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"HudFont24Shadow"
+		"font"			"HudFont20Shadow"
 		"fgcolor"		"White"
 	}
 

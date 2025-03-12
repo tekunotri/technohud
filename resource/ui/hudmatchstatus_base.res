@@ -312,7 +312,7 @@
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
 			"font"			"HudFont18Shadow"
-			"font_minmode"	"HudFont14"
+			"font_minmode"	"HudFont18Shadow"
 			"font_lodef"	"HudFont24"
 			"fgcolor"		"TanLight"
 			"xpos"			"23"

@@ -80,10 +80,14 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"cs-0.5"	
-		"ypos"			"r115"	
+		"ypos"			"r115"
+		"ypos_minmode"	"r190"
 		"zpos"			"1"			// draw in front of ammo
 		"wide"			"120"
 		"tall"			"8"
+
+		"wide_minmode"	"80"
+		"tall_minmode"	"4"
 		"MeterFG"		"FullWhite"
 		"MeterBG"		"ItemMeterBG"
 	}
@@ -236,6 +240,7 @@
 		"enabled" 	"1"
 		"xpos"		"c-126"
 		"ypos"		"285"
+		"ypos_minmode"	 	"245"
 		"wide"	 	"252"
 		"tall"	 	"35"
 		"tall_minmode"	 	"28"
@@ -1015,6 +1020,7 @@
 		"enabled" 		"1"
 		"xpos"			"c-189"
 		"ypos"			"c-25"
+		"ypos_minmode"	"c-10"
 		"wide"			"470"
 		"tall"			"200"	
 		"PaintBackgroundType"	"0"

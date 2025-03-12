@@ -77,11 +77,11 @@
 		"ControlName"		"Label"
 		"fieldName"		"TargetNameLabel"
 		"font"			"HudFont14"
-		"font_minmode"	"TFFontLarge"
+		"font_minmode"	"HudFont12"
 		"xpos"			"8"
 		"xpos_minmode"	"30"
 		"ypos"			"5"
-		"ypos_minmode"	"5"
+		"ypos_minmode"	"7"
 		"zpos"			"1"
 		"wide"			"640"
 		"tall"			"24"
@@ -100,7 +100,7 @@
 		"ControlName"		"Label"
 		"fieldName"		"TargetNameLabelShadow"
 		"font"			"HudFont14"
-		"font_minmode"	"TFFontLarge"
+		"font_minmode"	"HudFont12"
 		"xpos"			"-1"
 		"ypos"			"-1"
 		"zpos"			"1"
@@ -123,13 +123,10 @@
 		"ControlName"		"Label"
 		"fieldName"		"TargetDataLabel"
 		"font"			"HudFont10Shadow"
-		"font_minmode"	"DefaultVerySmall"
 		"xpos"			"8"
 		"xpos_minmode"	"30"
-		"ypos"			"17"	[$WIN32]
-		"ypos_minmode"	"12"	[$WIN32]
-		"ypos"			"22"	[$X360]
-		"ypos_hidef"		"25"	[$X360]
+		"ypos"			"17"	
+		"ypos_minmode"	"17"	
 		"zpos"			"1"
 		"wide"			"280"
 		"tall"			"15"
