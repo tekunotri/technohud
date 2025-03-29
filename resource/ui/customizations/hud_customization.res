@@ -717,6 +717,29 @@
 						"Command"						"engine th_din"
 						"sound_depressed"				"UI/buttonclick.wav"
 					}
+					"Barlow" // reminder: add 14 to the ypos of the next font
+					{
+						"ControlName"					"CExButton"
+						"fieldName"						"Barlow"
+						"xpos"							"cs-0.5"
+						"ypos"							"112"
+						"zpos"							"20"
+						"wide"							"f0"
+						"tall"							"12"
+						"visible"						"1"
+						"enabled"						"1"
+						"proportionaltoparent"			"1"
+						"actionsignallevel"				"5"
+						"labelText"						"Barlow Condensed"
+						"font"							"showcase_barlow"
+						"textAlignment"					"center"
+						"Command"						"engine th_barlow"
+						"sound_depressed"				"UI/buttonclick.wav"
+
+						// pin to the last font
+						// "pin_to_sibling_fontnamehere"
+					}
+
 				}
 			}
 //==============================================================================================================================

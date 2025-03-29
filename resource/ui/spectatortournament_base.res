@@ -207,7 +207,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"respawntimecover"
-				"font"			"BlocksSharp64"
+				"font"			"blocksSharp64"
 				"xpos"			"4"
 				"ypos"			"0"
 				"zpos"			"5"
@@ -240,7 +240,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"chargeamountcover"
-				"font"			"BlocksSharp64" // maybe make this normal styled shadow sometime later?
+				"font"			"blocksSharp64" // maybe make this normal styled shadow sometime later?
 				"xpos"			"4"
 				"ypos"			"0"
 				"zpos"			"5"

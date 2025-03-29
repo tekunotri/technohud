@@ -124,32 +124,32 @@
 		"8"
 		{
 			"font" "resource/fonts/fonts_custom/luxi.ttf"
-			"name" "Luxi Mono Regular"
+			"name" "luxi_mono_regular"
 		}
 		"9"
 		{
 			"font"	"resource/fonts/tf2icons.ttf"
-			"name"	"TF2 Icons"
+			"name"	"tf2icons"
 		}
         "10"
         {
             "font"  "resource/fonts/grisaia.ttf"
-            "name"	"GrisaiaEdit"
+            "name"	"grisaiaedit"
         }
         "11"
         {
-            "font"  "resource/fonts/fonts_custom/renko Bold.ttf"
-            "name"	"renko Bold"
+            "font"  "resource/fonts/fonts_custom/renko_bold.ttf"
+            "name"	"renko_bold"
         }
 		"12"
 		{
-			"font"	"resource/fonts/fonts_custom/xolonium.otf"
-			"name"	"Xolonium GPL"
+			"font"	"resource/fonts/fonts_custom/xolonium.ttf"
+			"name"	"xolonium_gpl"
 		}
 		"13"
 		{
-			"font"	"resource/fonts/fonts_custom/surface.otf"
-			"name"	"Surface-Medium"
+			"font"	"resource/fonts/fonts_custom/surface.ttf"
+			"name"	"surface_medium"
 		}
 		"14"
 		{
@@ -159,17 +159,22 @@
 		"15"
 		{
 			"font" "resource/fonts/fonts_custom/catamaran.ttf"
-			"name" "Catamaran SemiBold"
+			"name" "catamaran_semibold"
 		}
 		"16"
 		{
-			"font" "resource/fonts/fonts_custom/din-medium.otf"
-			"name" "DIN-Medium"
+			"font" "resource/fonts/fonts_custom/din_medium.ttf"
+			"name" "din_medium"
+		}
+		"17"
+		{
+			"font" "resource/fonts/fonts_custom/barlow.ttf"
+			"name" "barlow_semibold"
 		}
 		"500"
 		{
 			"font"	"resource/fonts/blocks.ttf"
-			"name"	"Blocks"
+			"name"	"blocks"
 		}
 	}
 }

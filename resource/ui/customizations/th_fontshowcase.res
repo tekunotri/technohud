@@ -6,7 +6,7 @@
         {
 			"1"
 			{
-				"name"		"GrisaiaEdit"
+				"name"		"grisaiaedit"
 				"tall"		"11"
 				"antialias"	"1"
 			}
@@ -15,7 +15,7 @@
         {
             "1"
             {
-                "name"      "Luxi Mono Regular"
+                "name"      "luxi_mono_regular"
                 "tall"      "11"
                 "antialias" "1"
             }
@@ -24,7 +24,7 @@
         {
             "1"
             {
-                "name"      "renko Bold"
+                "name"      "renko_bold"
                 "tall"      "11"
                 "antialias" "1"
             }
@@ -33,7 +33,7 @@
         {
             "1"
             {
-                "name"      "Xolonium GPL"
+                "name"      "xolonium_gpl"
                 "tall"      "11"
                 "antialias" "1"
             }
@@ -42,7 +42,7 @@
         {
             "1"
             {
-                "name"      "Surface-Medium"
+                "name"      "surface_medium"
                 "tall"      "11"
                 "antialias" "1"
             }
@@ -60,7 +60,7 @@
         {
             "1"
             {
-                "name"      "Catamaran SemiBold"
+                "name"      "catamaran_semibold"
                 "tall"      "15"
                 "antialias" "1"
             }
@@ -69,7 +69,16 @@
         {
             "1"
             {
-                "name"      "DIN-Medium"
+                "name"      "din_medium"
+                "tall"      "11"
+                "antialias" "1"
+            }
+        }
+        "showcase_barlow"
+        {
+            "1"
+            {
+                "name"      "barlow_semibold"
                 "tall"      "11"
                 "antialias" "1"
             }
