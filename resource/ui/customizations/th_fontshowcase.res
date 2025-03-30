@@ -83,5 +83,14 @@
                 "antialias" "1"
             }
         }
+        "showcase_romudiane"
+        {
+            "1"
+            {
+                "name"      "romudiane"
+                "tall"      "11"
+                "antialias" "1"
+            }
+        }
     }
 }

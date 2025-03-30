@@ -171,6 +171,11 @@
 			"font" "resource/fonts/fonts_custom/barlow.ttf"
 			"name" "barlow_semibold"
 		}
+		"18"
+		{
+			"font" "resource/fonts/fonts_custom/romudiane.ttf"
+			"name" "romudiane"
+		}
 		"500"
 		{
 			"font"	"resource/fonts/blocks.ttf"

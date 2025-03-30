@@ -730,16 +730,31 @@
 						"enabled"						"1"
 						"proportionaltoparent"			"1"
 						"actionsignallevel"				"5"
-						"labelText"						"Barlow Condensed"
+						"labelText"						"Barlow Semibold"
 						"font"							"showcase_barlow"
 						"textAlignment"					"center"
 						"Command"						"engine th_barlow"
 						"sound_depressed"				"UI/buttonclick.wav"
-
-						// pin to the last font
-						// "pin_to_sibling_fontnamehere"
 					}
-
+					"romudiane"
+					{
+						"ControlName"					"CExButton"
+						"fieldName"						"romudiane"
+						"xpos"							"cs-0.5"
+						"ypos"							"126"
+						"zpos"							"20"
+						"wide"							"f0"
+						"tall"							"12"
+						"visible"						"1"
+						"enabled"						"1"
+						"proportionaltoparent"			"1"
+						"actionsignallevel"				"5"
+						"labelText"						"romudiane"
+						"font"							"showcase_romudiane"
+						"textAlignment"					"center"
+						"Command"						"engine th_romudiane"
+						"sound_depressed"				"UI/buttonclick.wav"
+					}
 				}
 			}
 //==============================================================================================================================
