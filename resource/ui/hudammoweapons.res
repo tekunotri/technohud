@@ -6,6 +6,7 @@
 	// This element can be used to move all the ammo elements at the same time
 	// By increasing the wide, the gap between clip and reserver will also increase
 	//==================================================================================================================================================
+
 	"AmmoAnchor"
 	{
 		"ControlName"							"Panel"
@@ -139,5 +140,31 @@
 		"textAlignment"	"south-east"
 		"labelText"		"%Ammo%"
 		"pin_to_sibling"	"AmmoNoClip"
+	}
+
+	//==================================================================================================================================================
+	// this is here because otherwise low ammo animations won't work
+	//==================================================================================================================================================
+	"HudWeaponAmmoBG"
+	{
+		"ControlName"		"CTFImagePanel"
+		"fieldName"			"HudWeaponAmmoBG"
+		"xpos"				"9999"
+		"ypos"				"9999"
+		"wide"				"0"
+		"tall"				"0"
+		"visible"			"0"
+		"enabled"			"0"
+	}
+	"HudWeaponLowAmmoImage"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"HudWeaponLowAmmoImage"
+		"xpos"				"9999"
+		"ypos"				"9999"
+		"wide"				"0"
+		"tall"				"0"
+		"visible"			"0"
+		"enabled"			"0"
 	}
 }
