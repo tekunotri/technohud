@@ -1,4 +1,3 @@
-//TODO: either m0rehud joke minmode or something small and centered kbnhud/m0re minmode
 "Resource/UI/HudAmmoWeapons.res"
 {
 	//==================================================================================================================================================
@@ -6,7 +5,6 @@
 	// This element can be used to move all the ammo elements at the same time
 	// By increasing the wide, the gap between clip and reserver will also increase
 	//==================================================================================================================================================
-
 	"AmmoAnchor"
 	{
 		"ControlName"							"Panel"

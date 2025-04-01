@@ -736,10 +736,10 @@
 						"Command"						"engine th_barlow"
 						"sound_depressed"				"UI/buttonclick.wav"
 					}
-					"romudiane"
+					"Romudiane"
 					{
 						"ControlName"					"CExButton"
-						"fieldName"						"romudiane"
+						"fieldName"						"Romudiane"
 						"xpos"							"cs-0.5"
 						"ypos"							"126"
 						"zpos"							"20"
@@ -749,7 +749,7 @@
 						"enabled"						"1"
 						"proportionaltoparent"			"1"
 						"actionsignallevel"				"5"
-						"labelText"						"romudiane"
+						"labelText"						"Romudiane"
 						"font"							"showcase_romudiane"
 						"textAlignment"					"center"
 						"Command"						"engine th_romudiane"
