@@ -26,7 +26,7 @@ Scheme {
 		//==========================================================
 		//Last Damage done on Hud
 		//==========================================================
-		"TH_LastDamage"				"128 255 0 255"
+		"TH_LastDamage"				"0 230 119 255"
 		"TH_UberDrop"				"255 105 180 255"
 		"TH_HealthGained"			"128 255 0 255"
 		
@@ -50,6 +50,8 @@ Scheme {
 		"Black"						"0 0 0 255"
 		"TransparentBlack"			"0 0 0 200"
 		"TransparentMediumBlack"	"0 0 0 150"
+
+		"TransparentMedLightBlack"	"0 0 0 128"
 		"TransparentLightBlack"		"0 0 0 100"
 		"TransparentLightestBlack"	"0 0 0 50"
 		
@@ -60,7 +62,6 @@ Scheme {
 		"THGrey"					"100 100 100 255"
 		"THBlack"					"0 0 0 255"
 		"THRedDark"					"150 50 50 255"
-		"THRed"						"210 40 40 255"
 		"THOrange"					"255 165 75 255"
 		"THYellow"					"255 215 100 255"
 		"THGreenPale"				"180 200 100 255"
@@ -322,7 +323,7 @@ Scheme {
 		Button.ArmedBgColor				"THOverheal2"
 		Button.SelectedTextColor		"TanLight"
 		Button.SelectedBgColor			"THOverheal2"
-		Button.DepressedTextColor		"Black"
+		Button.DepressedTextColor		"TanLight"
 		Button.DepressedBgColor			"THUnselected"
 
 		CheckButton.TextColor			"Yellow"
