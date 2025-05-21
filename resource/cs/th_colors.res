@@ -62,7 +62,6 @@ Scheme {
 		"THGrey"					"100 100 100 255"
 		"THBlack"					"0 0 0 255"
 		"THRedDark"					"150 50 50 255"
-		"THRed"						"210 40 40 255"
 		"THOrange"					"255 165 75 255"
 		"THYellow"					"255 215 100 255"
 		"THGreenPale"				"180 200 100 255"
