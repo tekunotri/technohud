@@ -4,7 +4,7 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"		"SwitchLabel"
-		"font"			"HudFont9"
+		"font"			"HudFont9Shadow"
 		"xpos"			"80"
 		"ypos"			"58"
 		"zpos"			"1"
@@ -18,31 +18,12 @@
 		"labelText"		"#TF_teambalanced"
 		"textAlignment"		"North"
 	}
-	"switchlabelshadow"
-	{
-		"ControlName"		"Label"
-		"fieldName"		"switchlabelshadow"
-		"font"			"HudFont9"
-		"xpos"			"-1"
-		"ypos"			"-1"
-		"zpos"			"0"
-		"wide"			"240"
-		"tall"			"55"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"wrap"			"1"
-		"labelText"		"#TF_teambalanced"
-		"textAlignment"		"North"
-		"pin_to_sibling"	"SwitchLabel"
-		"fgcolor_override"	"Black"
-	}
+
 	"BalanceLabel"
 	{
 		"ControlName"		"Label"
 		"fieldName"		"BalanceLabel"
-		"font"			"HudFont14Bold"
+		"font"			"HudFont14Shadow"
 		"xpos"			"80"
 		"ypos"			"28"
 		"ypos_hidef"	"23"
@@ -58,28 +39,6 @@
 		"wrap"			"1"
 		"labelText"		""
 		"textAlignment"		"North"
-	}
-	"BalanceLabelShadow"
-	{
-		"ControlName"		"Label"
-		"fieldName"		"BalanceLabelShadow"
-		"font"			"HudFont14Bold"
-		"xpos"			"80"
-		"ypos"			"28"
-		"ypos_hidef"	"23"
-		"ypos_lodef"	"20"
-		"zpos"			"1"
-		"wide"			"230"	[$WIN32]
-		"wide"			"180"	[$X360]
-		"tall"			"55"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"wrap"			"1"
-		"labelText"		""
-		"textAlignment"		"North"
-		"fgcolor_override"	"Black"
 	}
 
 	//nuked
