@@ -783,7 +783,7 @@ Scheme{
 		{
 			"1"
 			{
-			"name"	"TF2 Icons"
+			"name"	"tf2icons"
 			"tall"	"16"
 			"antialias" "1"
 			}
@@ -792,7 +792,7 @@ Scheme{
 		{
 			"1"
 			{
-			"name"	"TF2 Icons"
+			"name"	"tf2icons"
 			"tall"	"16"
 			"antialias" "1"
 			}
@@ -801,7 +801,7 @@ Scheme{
 		{
 			"1"
 			{
-			"name"	"TF2 Icons"
+			"name"	"tf2icons"
 			"tall"	"18"
 			"antialias" "1"
 			}
@@ -810,7 +810,7 @@ Scheme{
 		{
 			"1"
 			{
-			"name"	"TF2 Icons"
+			"name"	"tf2icons"
 			"tall"	"20"
 			"antialias" "1"
 			}
@@ -3185,11 +3185,11 @@ Scheme{
 				"antialias"									"1"
 			}
 		}
-		"BlocksSharp64"
+		"blocksSharp64"
 		{
 			"1"
 			{
-				"name"										"Blocks"
+				"name"										"blocks"
 				"tall"										"64"
 			}
 		}
