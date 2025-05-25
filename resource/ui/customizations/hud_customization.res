@@ -910,7 +910,7 @@
 							"font"						"FontStoreOriginalPrice"
 							"textinsetx"				"2"
 							"textAlignment"				"west"
-							"Command"					"engine th_theme_green"
+							"Command"					"engine th_green"
 							"sound_depressed"			"UI/buttonclick.wav"
 
 							"paintbackground"			"1"
@@ -1035,7 +1035,7 @@
 							"font"						"FontStoreOriginalPrice"
 							"textinsetx"				"2"
 							"textAlignment"				"west"
-							"Command"					"engine th_theme_white"
+							"Command"					"engine th_white"
 							"sound_depressed"			"UI/buttonclick.wav"
 
 							"paintbackground"			"1"
@@ -1161,7 +1161,7 @@
 							"font"						"FontStoreOriginalPrice"
 							"textinsetx"				"2"
 							"textAlignment"				"west"
-							"Command"					"engine th_theme_pink"
+							"Command"					"engine th_pink"
 							"sound_depressed"			"UI/buttonclick.wav"
 
 							"paintbackground"			"1"
@@ -1286,7 +1286,7 @@
 							"font"						"FontStoreOriginalPrice"
 							"textinsetx"				"2"
 							"textAlignment"				"west"
-							"Command"					"engine th_theme_purple"
+							"Command"					"engine th_purple"
 							"sound_depressed"			"UI/buttonclick.wav"
 
 							"paintbackground"			"1"
