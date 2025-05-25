@@ -1787,7 +1787,7 @@
 							"font"						"FontStoreOriginalPrice"
 							"textinsetx"				"2"
 							"textAlignment"				"west"
-							"Command"					"engine thcyan"
+							"Command"					"engine th_cyan"
 							"sound_depressed"			"UI/buttonclick.wav"
 
 							"paintbackground"			"1"
