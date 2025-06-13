@@ -402,7 +402,15 @@ Scheme
 			"russian"
 			{
 				"range" "0x0000 0x0451"
-			}	
+			}
+		}
+		"7"
+		{
+			"font" "resource/fonts/grisaia.ttf"
+			"name" "grisaiaedit"
+			"antialias" "1"
+			"additive" "0"
+			"outline" "1"
 		}
 	}
 }
