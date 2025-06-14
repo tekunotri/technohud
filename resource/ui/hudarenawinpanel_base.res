@@ -1,13 +1,14 @@
+//Original File by Shredder for c-sharp hud
 "Resource/UI/arenawinpanel.res"
 {
 	"ArenaWinPanelScores"
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"		"ArenaWinPanelScores"
-		"xpos"			"35"
-		"ypos"			"21"
+		"xpos"			"0"
+		"ypos"			"31"
 		"wide"			"480"
-		"tall"			"60"
+		"tall"			"389"
 		"visible"		"1"
 
 		"BlueScoreBG"
@@ -20,10 +21,9 @@
 			"tall"			"50"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"image"			"../hud/winpanel_blue_bg_team"
-			"image_lodef"	"../hud/winpanel_blue_bg_team_lodef"
 			"scaleImage"		"1"
 		}
 		"RedScoreBG"
@@ -36,44 +36,41 @@
 			"tall"			"50"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"image"			"../hud/winpanel_red_bg_team"
-			"image_lodef"	"../hud/winpanel_red_bg_team_lodef"
 			"scaleImage"		"1"
 		}
 		"BlueTeamLabel"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"BlueTeamLabel"
-			"font"			"ScoreboardTeamName"
+			"font"			"HudFont16Shadow"
 			"labelText"		"%blueteamname%"
 			"textAlignment"		"west"
 			"xpos"			"56"
-			"ypos"			"25"
+			"ypos"			"298"
+			"zpos"			"2"
 			"wide"			"100"
 			"tall"			"20"
-			"tall_lodef"	"24"
-			"tall_hidef"	"24"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}							
+			"fgcolor"		"THBlue"
+		}
 		"BlueTeamScore"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"BlueTeamScore"
-			"font"			"ScoreboardTeamScore"
+			"font"			"HudFont18Shadow"
 			"labelText"		"%blueteamscore%"
 			"textAlignment"		"east"
 			"xpos"			"95"
-			"ypos"			"-2"
+			"ypos"			"283"
 			"zpos"			"3"
 			"wide"			"80"
 			"tall"			"50"
-			"tall_lodef"	"80"
-			"tall_hidef"	"75"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -92,45 +89,41 @@
 			"zpos"			"3"
 			"wide"			"80"
 			"tall"			"50"
-			"tall_lodef"	"80"
-			"tall_hidef"	"75"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-		}							
+			"visible"		"0"
+			"enabled"		"0"
+		}
 		"RedTeamLabel"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"RedTeamLabel"
-			"font"			"ScoreboardTeamName"
+			"font"			"HudFont16Shadow"
 			"labelText"		"%redteamname%"
 			"textAlignment"		"east"
 			"xpos"			"224"
-			"ypos"			"28"
+			"ypos"			"298"
+			"zpos"			"2"
 			"wide"			"100"
 			"tall"			"20"
-			"tall_lodef"	"24"
-			"tall_hidef"	"24"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}							
+			"fgcolor"		"THRed"
+		}
 		"RedTeamScore"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"RedTeamScore"
-			"font"			"ScoreboardTeamScore"
+			"font"			"HudFont18Shadow"
 			"labelText"		"%redteamscore%"
 			"textAlignment"		"west"
 			"xpos"			"207"
-			"ypos"			"-2"
+			"ypos"			"283"
 			"zpos"			"3"
 			"wide"			"80"
 			"tall"			"50"
-			"tall_lodef"	"80"
-			"tall_hidef"	"75"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -149,21 +142,18 @@
 			"zpos"			"3"
 			"wide"			"80"
 			"tall"			"50"
-			"tall_lodef"	"80"
-			"tall_hidef"	"75"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-		}		
+			"visible"		"0"
+			"enabled"		"0"
+		}
 
-	
 		"ArenaStreaksBG"
 		{
 			"ControlName"		"ScalableImagePanel"
 			"fieldName"		"ArenaStreaksBG"
-			"xpos"			"102"
-			"ypos"			"38"
+			"xpos"			"r0"
+			"ypos"			"r0"
 			"zpos"			"2"
 			"wide"			"176"
 			"tall"			"20"
@@ -173,26 +163,26 @@
 			"enabled"		"1"
 			"image"			"../HUD/tournament_panel_black"
 			"scaleImage"		"1"
-	
+
 			"src_corner_height"	"23"				// pixels inside the image
 			"src_corner_width"	"23"
-		
-			"draw_corner_width"	"6"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"6"	
-		}	
 
-		"ArenaStreakLabel"
-		{	
+			"draw_corner_width"	"6"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"6"
+		}
+
+		"ArenaStreakLabel" // cant make this consistent lmfao fuck this
+		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"ArenaStreakLabel"
-			"font"			"HudFontSmallest"
-			"fgcolor"		"white"
-			"xpos"			"102"
-			"ypos"			"39"
+			"font"			"HudFont11Shadow"
+			"fgcolor_override"		"FullWhite"
+			"xpos"			"105"
+			"ypos"			"0"
 			"zpos"			"3"
 			"wide"			"176"
 			"tall"			"20"
-			"autoResize"		"0"
+			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -200,6 +190,54 @@
 			"textAlignment"		"Center"
 			"dulltext"		"0"
 			"brighttext"		"0"
+		}
+		"ArenaStreakLabelShadow"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"		"ArenaStreakLabelShadow"
+			"font"			"HudFont11Shadow"
+			"fgcolor_override"		"FullWhite"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"3"
+			"wide"			"176"
+			"tall"			"20"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"labelText"		"%arenastreaktext%"
+			"textAlignment"		"Center"
+			"dulltext"		"0"
+			"brighttext"		"0"
+			"pin_to_sibling"			"ArenaStreakLabel"
+			"pin_corner_to_sibling"		"PIN_TOPLEFT"
+			"pin_to_sibling_corner"		"PIN_TOPLEFT"
+		}
+		//== custom ==
+
+		"BlueScoreBG2"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"BlueScoreBG2"
+			"ypos"			"302"
+			"wide"			"191"
+			"tall"			"12"
+			"visible"		"1"
+			"fillcolor"		"0 0 0 128"
+			"border"		"ArenaWinBlueScore"
+		}
+		"RedScoreBG2"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"RedScoreBG2"
+			"xpos"			"191"
+			"ypos"			"302"
+			"wide"			"191"
+			"tall"			"12"
+			"visible"		"1"
+			"fillcolor"		"0 0 0 128"
+			"border"		"ArenaWinRedScore"
 		}
 	}
 
@@ -212,17 +250,17 @@
 		"zpos"			"0"
 		"wide"			"700"
 		"tall"			"174"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"		"1"	
+		"visible"		"0"
+		"enabled"		"0"
+		"scaleImage"		"1"
 	}
 	"WinningTeamLabel"
-	{	
+	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"WinningTeamLabel"
-		"font"			"ScoreboardTeamName"
-		"xpos"			"0"
-		"ypos"			"78"
+		"font"			"TF2Build18"
+		"xpos"			"-27"
+		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"442"
 		"tall"			"24"
@@ -236,13 +274,13 @@
 		"brighttext"		"0"
 	}
 	"WinningTeamLabelDropshadow"
-	{	
+	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"WinningTeamLabelDropshadow"
-		"font"			"ScoreboardTeamName"
-		"fgcolor"		"black"
-		"xpos"			"1"
-		"ypos"			"79"
+		"font"			"TF2Build18"
+		"fgcolor"		"transparentblack"
+		"xpos"			"-26"
+		"ypos"			"1"
 		"zpos"			"1"
 		"wide"			"442"
 		"tall"			"24"
@@ -257,12 +295,12 @@
 	}
 
 	"LosingTeamLabel"
-	{	
+	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"WinningTeamLabel"
-		"font"			"ScoreboardTeamName"
-		"xpos"			"0"
-		"ypos"			"78"
+		"font"			"TF2Build18"
+		"xpos"			"-27"
+		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"442"
 		"tall"			"24"
@@ -276,13 +314,13 @@
 		"brighttext"		"0"
 	}
 	"LosingTeamLabelDropshadow"
-	{	
+	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"WinningTeamLabelDropshadow"
-		"font"			"ScoreboardTeamName"
-		"fgcolor"		"black"
-		"xpos"			"1"
-		"ypos"			"79"
+		"font"			"TF2Build18"
+		"fgcolor"		"transparentblack"
+		"xpos"			"-26"
+		"ypos"			"1"
 		"zpos"			"1"
 		"wide"			"442"
 		"tall"			"24"
@@ -296,12 +334,12 @@
 		"brighttext"		"0"
 	}
 	"WinReasonLabel"
-	{	
+	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"WinReasonLabel"
-		"font"			"ScoreboardVerySmall"
-		"xpos"			"0"
-		"ypos"			"95"
+		"font"			"HudFont10"
+		"xpos"			"-27"
+		"ypos"			"17"
 		"zpos"			"1"
 		"wide"			"442"
 		"tall"			"20"
@@ -314,13 +352,35 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 	}
+	"WinReasonLabelShadow"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"		"WinReasonLabelShadow"
+		"font"			"HudFont10"
+		"fgcolor"		"transparentblack"
+		"xpos"			"-1"
+		"ypos"			"-1"
+		"zpos"			"1"
+		"wide"			"442"
+		"tall"			"20"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%WinReasonLabel%"
+		"textAlignment"		"Center"
+		"fgcolor_override"		"Black"
+		"pin_to_sibling"			"WinReasonLabel"
+		"pin_corner_to_sibling"		"PIN_TOPLEFT"
+		"pin_to_sibling_corner"		"PIN_TOPLEFT"
+	}
 	"DetailsLabel"
-	{	
+	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"DetailsLabel"
-		"font"			"ScoreboardVerySmall"
-		"xpos"			"12"
-		"ypos"			"107"
+		"font"			"HudFont10Shadow"
+		"xpos"			"-15"
+		"ypos"			"29"
 		"zpos"			"1"
 		"wide"			"418"
 		"tall"			"20"
@@ -333,33 +393,53 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 	}
+	"DetailsLabelShadow"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"		"DetailsLabelShadow"
+		"font"			"HudFont10"
+		"xpos"			"-15"
+		"ypos"			"29"
+		"zpos"			"1"
+		"wide"			"418"
+		"tall"			"20"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%DetailsLabel%"
+		"textAlignment"		"Center"
+		"dulltext"		"0"
+		"brighttext"		"0"
+		"fgcolor_override"		"Black"
+		"pin_to_sibling"			"DetailsLabel"
+	}
 	"ShadedBar"
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"ShadedBar"
-		"xpos"			"36"
-		"ypos"			"123"
+		"xpos"			"0"
+		"ypos"			"345"
 		"zpos"			"2"
 		"wide"			"382"
-		"tall"			"84"
+		"tall"			"72"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"	
-		"fillcolor"		"0 0 0 150"
-		"fillcolor_lodef"		"0 0 0 200"
+		"tabPosition"	"0"
+		"fillcolor"		"0 0 0 128"
 		"PaintBackgroundType"	"0"
 	}
 	"TopPlayersLabel"
-	{	
+	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"TopPlayerLabel"
-		"font"			"ScoreboardVerySmall"
-		"xpos"			"45"
-		"ypos"			"120"
+		"font"			"HudFont8"
+		"xpos"			"12"
+		"ypos"			"340"
 		"zpos"			"3"
-		"wide"			"300"
+		"wide"			"200"
 		"tall"			"20"
 		"autoResize"		"0"
 		"pinCorner"		"0"
@@ -371,12 +451,12 @@
 		"brighttext"		"0"
 	}
 	"DamageThisRoundLabel"
-	{	
+	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"DamageThisRoundLabel"
-		"font"			"ScoreboardVerySmall"
-		"xpos"			"260"
-		"ypos"			"120"
+		"font"			"HudFont8"
+		"xpos"			"222"
+		"ypos"			"340"
 		"zpos"			"3"
 		"wide"			"50"
 		"tall"			"20"
@@ -390,12 +470,12 @@
 		"brighttext"		"0"
 	}
 	"HealingThisRoundLabel"
-	{	
+	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"PointsThisRoundLabel"
-		"font"			"ScoreboardVerySmall"
-		"xpos"			"310"
-		"ypos"			"120"
+		"font"			"HudFont8"
+		"xpos"			"272"
+		"ypos"			"340"
 		"zpos"			"3"
 		"wide"			"50"
 		"tall"			"20"
@@ -409,12 +489,12 @@
 		"brighttext"		"0"
 	}
 	"LifetimeThisRoundLabel"
-	{	
+	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"PointsThisRoundLabel"
-		"font"			"ScoreboardVerySmall"
-		"xpos"			"355"
-		"ypos"			"120"
+		"font"			"HudFont8"
+		"xpos"			"319"
+		"ypos"			"340"
 		"zpos"			"3"
 		"wide"			"50"
 		"tall"			"20"
@@ -428,12 +508,12 @@
 		"brighttext"		"0"
 	}
 	"KillingBlowsThisRoundLabel"
-	{	
+	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"PointsThisRoundLabel"
-		"font"			"ScoreboardVerySmall"
-		"xpos"			"395"
-		"ypos"			"120"
+		"font"			"HudFont8"
+		"xpos"			"355"
+		"ypos"			"340"
 		"zpos"			"3"
 		"wide"			"50"
 		"tall"			"20"
@@ -450,8 +530,8 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"HorizontalLine"
-		"xpos"			"40"
-		"ypos"			"135"
+		"xpos"			"6"
+		"ypos"			"354"
 		"zpos"			"3"
 		"wide"			"374"
 		"tall"			"1"
@@ -459,7 +539,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"	
+		"tabPosition"	"0"
 		"fillcolor"		"250 234 201 255"
 		"PaintBackgroundType"	"0"
 	}
@@ -468,8 +548,8 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"		"ArenaWinPanelWinnersPanel"
-		"xpos"			"20"
-		"ypos"			"0"
+		"xpos"			"-24"
+		"ypos"			"216"
 		"wide"			"500"
 		"tall"			"218"
 		"visible"		"1"
@@ -486,11 +566,11 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			""
-			"scaleImage"		"1"	
+			"scaleImage"		"1"
 			"color_outline"		"52 48 45 255"
 		}
 		"Player1Name"
-		{	
+		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Player1Name"
 			"xpos"			"53"
@@ -507,7 +587,7 @@
 			"brighttext"		"0"
 		}
 		"Player1Class"
-		{	
+		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Player1Class"
 			"xpos"			"175"
@@ -524,7 +604,7 @@
 			"brighttext"		"0"
 		}
 		"Player1Damage"
-		{	
+		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Player1Damage"
 			"xpos"			"241"
@@ -541,7 +621,7 @@
 			"brighttext"		"0"
 		}
 		"Player1Healing"
-		{	
+		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Player1Healing"
 			"xpos"			"289"
@@ -558,7 +638,7 @@
 			"brighttext"		"0"
 		}
 		"Player1Lifetime"
-		{	
+		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Player1Lifetime"
 			"xpos"			"335"
@@ -575,7 +655,7 @@
 			"brighttext"		"0"
 		}
 		"Player1Kills"
-		{	
+		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Player1Kills"
 			"xpos"			"362"
@@ -591,7 +671,7 @@
 			"dulltext"		"0"
 			"brighttext"		"0"
 		}
-		"Player2Avatar"	
+		"Player2Avatar"
 		{
 			"ControlName"		"CAvatarImagePanel"
 			"fieldName"		"Player2Avatar"
@@ -602,11 +682,11 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			""
-			"scaleImage"		"1"	
+			"scaleImage"		"1"
 			"color_outline"		"52 48 45 255"
 		}
 		"Player2Name"
-		{	
+		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Player2Name"
 			"xpos"			"53"
@@ -623,7 +703,7 @@
 			"brighttext"		"0"
 		}
 		"Player2Class"
-		{	
+		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Player2Class"
 			"xpos"			"175"
@@ -640,7 +720,7 @@
 			"brighttext"		"0"
 		}
 		"Player2Damage"
-		{	
+		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Player2Damage"
 			"xpos"			"241"
@@ -657,7 +737,7 @@
 			"brighttext"		"0"
 		}
 		"Player2Healing"
-		{	
+		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Player2Healing"
 			"xpos"			"289"
@@ -674,7 +754,7 @@
 			"brighttext"		"0"
 		}
 		"Player2Lifetime"
-		{	
+		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Player2Lifetime"
 			"xpos"			"335"
@@ -691,7 +771,7 @@
 			"brighttext"		"0"
 		}
 		"Player2Kills"
-		{	
+		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Player2Kills"
 			"xpos"			"362"
@@ -718,11 +798,11 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			""
-			"scaleImage"		"1"	
+			"scaleImage"		"1"
 			"color_outline"		"52 48 45 255"
 		}
 		"Player3Name"
-		{	
+		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Player3Name"
 			"xpos"			"53"
@@ -739,7 +819,7 @@
 			"brighttext"		"0"
 		}
 		"Player3Class"
-		{	
+		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Player3Class"
 			"xpos"			"175"
@@ -756,7 +836,7 @@
 			"brighttext"		"0"
 		}
 		"Player3Damage"
-		{	
+		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Player3Damage"
 			"xpos"			"241"
@@ -773,7 +853,7 @@
 			"brighttext"		"0"
 		}
 		"Player3Healing"
-		{	
+		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Player3Healing"
 			"xpos"			"289"
@@ -790,7 +870,7 @@
 			"brighttext"		"0"
 		}
 		"Player3Lifetime"
-		{	
+		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Player3Lifetime"
 			"xpos"			"335"
@@ -807,7 +887,7 @@
 			"brighttext"		"0"
 		}
 		"Player3Kills"
-		{	
+		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Player3Kills"
 			"xpos"			"362"
@@ -828,8 +908,8 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"		"ArenaWinPanelLosersPanel"
-		"xpos"			"20"
-		"ypos"			"0"
+		"xpos"			"-24"
+		"ypos"			"216"
 		"wide"			"500"
 		"tall"			"218"
 		"visible"		"1"
@@ -846,11 +926,11 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			""
-			"scaleImage"		"1"	
+			"scaleImage"		"1"
 			"color_outline"		"52 48 45 255"
 		}
 		"Player1Name"
-		{	
+		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Player1Name"
 			"xpos"			"53"
@@ -867,7 +947,7 @@
 			"brighttext"		"0"
 		}
 		"Player1Class"
-		{	
+		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Player1Class"
 			"xpos"			"175"
@@ -884,7 +964,7 @@
 			"brighttext"		"0"
 		}
 		"Player1Damage"
-		{	
+		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Player1Damage"
 			"xpos"			"241"
@@ -901,7 +981,7 @@
 			"brighttext"		"0"
 		}
 		"Player1Healing"
-		{	
+		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Player1Healing"
 			"xpos"			"289"
@@ -918,7 +998,7 @@
 			"brighttext"		"0"
 		}
 		"Player1Lifetime"
-		{	
+		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Player1Lifetime"
 			"xpos"			"335"
@@ -935,7 +1015,7 @@
 			"brighttext"		"0"
 		}
 		"Player1Kills"
-		{	
+		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Player1Kills"
 			"xpos"			"362"
@@ -951,7 +1031,7 @@
 			"dulltext"		"0"
 			"brighttext"		"0"
 		}
-		"Player2Avatar"	
+		"Player2Avatar"
 		{
 			"ControlName"		"CAvatarImagePanel"
 			"fieldName"		"Player2Avatar"
@@ -962,11 +1042,11 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			""
-			"scaleImage"		"1"	
+			"scaleImage"		"1"
 			"color_outline"		"52 48 45 255"
 		}
 		"Player2Name"
-		{	
+		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Player2Name"
 			"xpos"			"53"
@@ -983,7 +1063,7 @@
 			"brighttext"		"0"
 		}
 		"Player2Class"
-		{	
+		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Player2Class"
 			"xpos"			"175"
@@ -1000,7 +1080,7 @@
 			"brighttext"		"0"
 		}
 		"Player2Damage"
-		{	
+		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Player2Damage"
 			"xpos"			"241"
@@ -1017,7 +1097,7 @@
 			"brighttext"		"0"
 		}
 		"Player2Healing"
-		{	
+		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Player2Healing"
 			"xpos"			"289"
@@ -1034,7 +1114,7 @@
 			"brighttext"		"0"
 		}
 		"Player2Lifetime"
-		{	
+		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Player2Lifetime"
 			"xpos"			"335"
@@ -1051,7 +1131,7 @@
 			"brighttext"		"0"
 		}
 		"Player2Kills"
-		{	
+		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Player2Kills"
 			"xpos"			"362"
@@ -1078,11 +1158,11 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			""
-			"scaleImage"		"1"	
+			"scaleImage"		"1"
 			"color_outline"		"52 48 45 255"
 		}
 		"Player3Name"
-		{	
+		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Player3Name"
 			"xpos"			"53"
@@ -1099,7 +1179,7 @@
 			"brighttext"		"0"
 		}
 		"Player3Class"
-		{	
+		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Player3Class"
 			"xpos"			"175"
@@ -1116,7 +1196,7 @@
 			"brighttext"		"0"
 		}
 		"Player3Damage"
-		{	
+		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Player3Damage"
 			"xpos"			"241"
@@ -1133,7 +1213,7 @@
 			"brighttext"		"0"
 		}
 		"Player3Healing"
-		{	
+		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Player3Healing"
 			"xpos"			"289"
@@ -1150,7 +1230,7 @@
 			"brighttext"		"0"
 		}
 		"Player3Lifetime"
-		{	
+		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Player3Lifetime"
 			"xpos"			"335"
@@ -1167,7 +1247,7 @@
 			"brighttext"		"0"
 		}
 		"Player3Kills"
-		{	
+		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Player3Kills"
 			"xpos"			"362"

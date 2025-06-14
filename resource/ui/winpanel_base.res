@@ -1,6 +1,6 @@
 "Resource/UI/winpanel.res"
-//Original File by Shredder for c-sharp hud
 {
+	//Original File by Shredder for c-sharp hud modified for technohud
 	"TeamScoresPanel"
 	{
 		"ControlName"		"EditablePanel"
