@@ -123,8 +123,8 @@
 		}
 		"8"
 		{
-			"font" "resource/fonts/fonts_custom/luxi.ttf"
-			"name" "luxi_mono_regular"
+			"font" 	"resource/fonts/fonts_custom/luxi.ttf"
+			"name" 	"luxi_mono_regular"
 		}
 		"9"
 		{
@@ -158,23 +158,23 @@
 		}
 		"15"
 		{
-			"font" "resource/fonts/fonts_custom/catamaran.ttf"
-			"name" "catamaran_semibold"
+			"font" 	"resource/fonts/fonts_custom/catamaran.ttf"
+			"name"	"catamaran_semibold"
 		}
 		"16"
 		{
-			"font" "resource/fonts/fonts_custom/din_medium.ttf"
-			"name" "din_medium"
+			"font" 	"resource/fonts/fonts_custom/din_medium.ttf"
+			"name" 	"din_medium"
 		}
 		"17"
 		{
-			"font" "resource/fonts/fonts_custom/barlow.ttf"
-			"name" "barlow_semibold"
+			"font" 	"resource/fonts/fonts_custom/barlow.ttf"
+			"name" 	"barlow_semibold"
 		}
 		"18"
 		{
-			"font" "resource/fonts/fonts_custom/romudiane.ttf"
-			"name" "romudiane"
+			"font" 	"resource/fonts/fonts_custom/romudiane.ttf"
+			"name" 	"romudiane"
 		}
 		"500"
 		{
