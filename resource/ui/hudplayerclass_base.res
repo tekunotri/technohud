@@ -234,7 +234,7 @@
 		}
 	}
 
-	"CarryingWeapon"
+	"CarryingWeapon" //todo move this somewhere else?
 	{
 		"ControlName"			"EditablePanel"
 		"fieldName"				"CarryingWeapon"
@@ -263,7 +263,7 @@
 			"tall_minmode"			"f0"
 			"autoResize"			"0"
 			"pinCorner"				"0"
-			"visible"				"1"
+			"visible"				"0"
 			"enabled"				"1"
 			"image"					"../hud/color_panel_brown"
 			"scaleImage"			"1"
@@ -286,7 +286,7 @@
 			"ControlName"		"CExLabel"
 			"fieldName"			"CarryingLabel"
 			"font"				"HudFont11Bold"
-			"font_minmode"		"TFFontMedium"
+			"font_minmode"		"HudFont9"
 			"xpos"				"5"
 			"xpos_minmode"		"5"
 			"ypos"				"3"
@@ -313,7 +313,7 @@
 			"ControlName"		"CExLabel"
 			"fieldName"			"CarryingLabelDropShadow"
 			"font"				"HudFont11Bold"
-			"font_minmode"		"TFFontMedium"
+			"font_minmode"		"HudFont9"
 			"xpos"				"p0.011"
 			"xpos_minmode"		"6"
 			"ypos"				"p0.12"

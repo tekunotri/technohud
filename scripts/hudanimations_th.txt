@@ -62,18 +62,12 @@ event HudHealthDyingPulseStop
 //===========================================
 event HudLowAmmoPulse
 {
-	//Animate	HudWeaponLowAmmoImage		Alpha		"255"		Linear 0.0 0.075
-	//Animate	HudWeaponLowAmmoImage		Alpha		"0"			Linear 0.125 0.075
-
-	Animate AmmoInClip						Alpha 		"255" 		Linear 	0.0 0.0
 	Animate AmmoInClip 						FgColor 	"THLow" 	Linear 	0.0 0.075
 	Animate AmmoInClip						FgColor		"THLow2"	Linear	0.125 0.075
 
-	Animate AmmoInReserve 					Alpha 		"255" 		Linear 	0.0 0.0
 	Animate AmmoInReserve					FgColor 	"THLow" 	Linear 	0.0 0.075
 	Animate AmmoInReserve					FgColor		"THLow2"	Linear	0.125 0.075
 
-	Animate AmmoNoClip 						Alpha 		"255" 		Linear 	0.0 0.0
 	Animate AmmoNoClip						FgColor 	"THLow" 	Linear 	0.0 0.075
 	Animate AmmoNoClip						FgColor		"THLow2"	Linear	0.125 0.075
 

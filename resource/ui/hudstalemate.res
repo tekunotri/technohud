@@ -7,8 +7,8 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"-1"
-		"wide"			"320"
-		"tall"			"150"
+		"wide"			"0"
+		"tall"			"0"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -20,7 +20,7 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"		"StalemateLabel"
-		"font"			"HudFont24"
+		"font"			"HudFont24Shadow"
 		"xpos"			"25"
 		"ypos"			"17"
 		"zpos"			"1"
@@ -38,7 +38,7 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"		"ReasonLabel"
-		"font"			"HudFont14"
+		"font"			"HudFont14Shadow" // i love inconsistency (refer to hudarenanotification.res)
 		"xpos"			"25"
 		"ypos"			"34"
 		"zpos"			"1"

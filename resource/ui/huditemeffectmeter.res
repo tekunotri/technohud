@@ -1,8 +1,8 @@
 //NOTE: this file modifies every meter since they #base off this one, 
 //positions depend on ypos, refer to whatever item meter you're trying to edit: https://github.com/JarateKing/TF2-Hud-Reference/blob/master/2-LISTS/Filelist.md
-//r95: top slot (FIRST)
-//r105: middle slot
-//r115: bottom slot
+//r95/200: top slot (FIRST)
+//r105/195: middle slot
+//r115/190: bottom slot
 "Resource/UI/HudItemEffectMeter.res"
 {
 	HudItemEffectMeter
@@ -12,51 +12,13 @@
 		"enabled"		"1"
 		"xpos"			"c-37"
 		"ypos"			"r115"
+		"ypos_minmode"	"r190"
 		"wide"			"74"
 		"tall"			"6"
+		"tall_minmode"			"4"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 		"bgcolor_override"	"ItemMeterBG"
-	}
-
-	"ItemEffectMeterBG"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"ItemEffectMeterBG"
-		"xpos"			"12"
-		"ypos"			"6"
-		"zpos"			"0"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../hud/misc_ammo_area_blue"
-		"scaleImage"	"1"
-		"teambg_2"		"../hud/misc_ammo_area_red"
-		"teambg_2_lodef"	"../hud/misc_ammo_area_red_lodef"
-		"teambg_3"		"../hud/misc_ammo_area_blue"
-		"teambg_3_lodef"	"../hud/misc_ammo_area_blue_lodef"
-	}
-
-	"ItemEffectMeterLabel"
-	{
-		"ControlName"			"CExLabel"
-		"fieldName"				"ItemEffectMeterLabel"
-		"xpos"					"25"
-		"ypos"					"27"
-		"zpos"					"2"
-		"wide"					"0"
-		"tall"					"0"
-		"autoResize"			"1"
-		"pinCorner"				"2"
-		"visible"				"1"
-		"enabled"				"1"
-		"tabPosition"			"0"
-		"labelText"				"#TF_Ball"
-		"textAlignment"			"center"
-		"dulltext"				"0"
-		"brighttext"			"0"
-		"font"					"TFFontSmall"
 	}
 
 	"ItemEffectMeter"
@@ -69,6 +31,7 @@
 		"zpos"					"2"
 		"wide"					"74"
 		"tall"					"6"
+		"tall_minmode"			"4"
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"1"
@@ -76,5 +39,31 @@
 		"textAlignment"			"west"
 		"dulltext"				"0"
 		"brighttext"			"0"
+	}
+
+	"ItemEffectMeterLabel"
+	{
+		"ControlName"			"CExLabel"
+		"fieldName"				"ItemEffectMeterLabel"
+		"xpos"					"25"
+		"ypos"					"27"
+		"xpos_minmode"			"13"
+		"ypos_minmode"			"-3"
+		"zpos"					"3"
+		"wide"					"0"
+		"tall"					"0"
+		"wide_minmode"			"50"
+		"tall_minmode"			"10"
+		"autoResize"			"1"
+		"pinCorner"				"2"
+		"visible"				"1"
+		"enabled"				""
+		"tabPosition"			"0"
+		"labelText"				"#TF_Ball"
+		"textAlignment"			"center"
+		"dulltext"				"0"
+		"brighttext"			"0"
+		"disabledfgfgcolor2_override"		"Black"	
+		"font"					"HudFont6"
 	}
 }

@@ -20,7 +20,7 @@
 	"TitleLabel"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"ComptTitleLabel"
+		"fieldName"		"TitleLabel"
 		"font"			"EconFontMedium"
 		"labelText"		"#TF_MM_Queue_Error_Title"
 		"textAlignment"	"north"
@@ -41,7 +41,7 @@
 	"MessageLabel"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"SectionOneTextLabel"
+		"fieldName"		"MessageLabel"
 		"font"			"HudFontSmallest"
 		"labelText"		"%text%"
 		"textAlignment"	"north"
