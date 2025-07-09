@@ -149,7 +149,7 @@
 	{
 		"100"
 		{
-			"font"	"resource/fonts/TF2Crosshairs.ttf"
+			"font"	"resource/fonts/tf2crosshairs.ttf"
 			"name"	"tf2crosshairs"
 		}
 	}
