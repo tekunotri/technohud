@@ -23,8 +23,8 @@
 		"fieldName"		"CurrencyShadow"
 		"font"			"HudFont13Bold"
 		"fgcolor"		"Black"
-		"xpos"			"12"
-		"ypos"			"58"
+		"xpos"			"-1"
+		"ypos"			"-1"
 		"zpos"			"3"
 		"wide"			"90"
 		"tall"			"45"
@@ -32,6 +32,7 @@
 		"enabled"		"1"
 		"textAlignment"	"center"
 		"labelText"		"%currency%"
+		"pin_to_sibling"	"Currency"
 	}
 
 	"WhiteBG"

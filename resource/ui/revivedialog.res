@@ -102,7 +102,7 @@
 			"HealthDeathWarning"		"0.49"
 			"TFFont"					"HudFont11Bold"
 			"HealthDeathWarningColor"	"HUDDeathWarning"
-			"TextColor"					"HudOffWhite"
+			"TextColor"					"FullWhite"
 			"autoResize"	"1"
 		}
 	}

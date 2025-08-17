@@ -182,7 +182,7 @@
 	{
 		"ControlName"								"CExButton"
 		"fieldName"									"NextPageButton"
-		"xpos"										"c288"
+		"xpos"										"c290"
 		"ypos"										"c-91"
 		"zpos"										"1"
 		"wide"										"14"

@@ -80,23 +80,24 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"cs-0.5"	
-		"ypos"			"r115"	
+		"ypos"			"r115"
+		"ypos_minmode"	"r190"
 		"zpos"			"1"			// draw in front of ammo
 		"wide"			"120"
 		"tall"			"8"
+
+		"wide_minmode"	"80"
+		"tall_minmode"	"4"
 		"MeterFG"		"FullWhite"
 		"MeterBG"		"ItemMeterBG"
 	}
 
 	HudDemomanPipes
 	{
-		"fieldName"		"HudDemomanPipes"
-		"visible"		"1"
-		"enabled"		"1"
-		"xpos"			"cs-0.5"	
-		"ypos"			"r105"	
-		"wide"			"120"
-		"tall"			"50"
+		"xpos"			"0"	
+		"ypos"			"0"	
+		"wide"			"f0"
+		"tall"			"f0"
 		"MeterFG"		"FullWhite"
 		"MeterBG"		"ItemMeterBG"
 	}
@@ -106,12 +107,12 @@
 		"fieldName"		"HudBowCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r80"	
-		"ypos"			"r21"	
+		"xpos"			"9999"	
+		"ypos"			"9999"	
 		"zpos"			"1"			// draw in front of ammo
-		"wide"			"60"
-		"wide_minmode"	"50"
-		"tall"			"8"
+		"wide"			"0"
+		"wide_minmode"	"0"
+		"tall"			"0"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}
@@ -239,6 +240,7 @@
 		"enabled" 	"1"
 		"xpos"		"c-126"
 		"ypos"		"285"
+		"ypos_minmode"	 	"245"
 		"wide"	 	"252"
 		"tall"	 	"35"
 		"tall_minmode"	 	"28"
@@ -720,7 +722,7 @@
 		"fieldName" "HudScopeCharge"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	 "c235" //default: 64, moves charge out of the way.
+		"xpos"	 "c64" //default: 64, moves charge out of the way.
 		"ypos"	 "c-64"
 		"wide"	 "64"
 		"tall"	 "128"
@@ -874,10 +876,10 @@
 		"fieldName"				"ArenaWinPanel"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c-225"
-		"ypos"					"250"
+		"xpos"					"c-191"
+		"ypos"					"63"
 		"wide"					"450"
-		"tall"					"218"
+		"tall"					"430"
 	}
 
 	PVEWinPanel
@@ -1018,6 +1020,7 @@
 		"enabled" 		"1"
 		"xpos"			"c-189"
 		"ypos"			"c-25"
+		"ypos_minmode"	"c-10"
 		"wide"			"470"
 		"tall"			"200"	
 		"PaintBackgroundType"	"0"
@@ -1032,7 +1035,7 @@
 		"ypos"					"65"
 		"ypos_lodef"			"75"
 		"wide"					"320"
-		"tall"					"100"
+		"tall"					"0"
 	}
 
 
@@ -1045,7 +1048,7 @@
 		"ypos"					"15"
 		"ypos_lodef"			"75"
 		"wide"					"320"
-		"tall"					"300"
+		"tall"					"0"
 	}
 
 	HudTeamSwitch
@@ -1479,4 +1482,3 @@
 		"alpha"					"100"
 	}
 }
-

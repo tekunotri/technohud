@@ -1,4 +1,3 @@
-//TODO: either m0rehud joke minmode or something small and centered kbnhud/m0re minmode inspired?
 "Resource/UI/HudMedicCharge.res" // FILE FROM m0rehud, credits to Hypnotize
 {
 	//==================================================================================================================================================
@@ -11,6 +10,8 @@
 		"fieldName"									"UberAnchor"
 		"xpos"										"c150"
 		"ypos"										"c95"
+		"xpos_minmode"								"c95"
+		"ypos_minmode"								"c3"
 		"zpos"										"0"
 		"wide"										"2"
 		"tall"										"80"
@@ -22,23 +23,23 @@
 	//==================================================================================================================================================
 	// UNDER CROSSHAIR SMALL UBER PERCENTAGE
 	//==================================================================================================================================================
-	"ChargeLabel"
+	"ChargeLabelSmall"
 	{
 		"ControlName"								"CExLabel"
-		"fieldName"									"ChargeLabel"
+		"fieldName"									"ChargeLabelSmall"
 		"xpos"										"cs-0.5"
 		"ypos"										"c9"
 		"zpos"										"2"
 		"wide"										"100"
 		"tall"										"20"
 		"visible"									"1"
+		"visible_minmode"							"0"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"labelText"									"#TF_UberchargeMinHUD"
 		"textAlignment"								"center"
 		"font"										"HudFont18Shadow"
 		"fgcolor"									"0 255 255 255" // eye-catching color
-
 	}
 
 	//==================================================================================================================================================
@@ -59,6 +60,7 @@
 		"labelText"									"#TF_UberchargeMinHUD"
 		"textAlignment"								"center"
 		"font"										"HudFont52Bold"
+		"font_minmode"								"HudFont36Bold"
 		"fgcolor"									"THUber"
 
 		"pin_to_sibling"							"UberAnchor"
@@ -80,6 +82,7 @@
 		"labelText"									"#TF_UberchargeMinHUD"
 		"textAlignment"								"center"
 		"font"										"HudFont52Bold"
+		"font_minmode"								"HudFont36Bold"
 		"fgcolor"									"Black"
 
 		"pin_to_sibling"							"ChargeLabelBig"
@@ -99,6 +102,7 @@
 		"labelText"									"#TF_UberchargeMinHUD"
 		"textAlignment"								"center"
 		"font"										"HudFont52Bold"
+		"font_minmode"								"HudFont36Bold"
 		"fgcolor"									"Black"
 		"alpha"										"0"
 
@@ -132,6 +136,7 @@
 		"fieldName"									"IndividualChargesLabel"
 		"xpos"										"0"
 		"ypos"										"0"
+		"ypos_minmode"								"-22"
 		"zpos"										"3"
 		"wide"										"100"
 		"tall"										"20"
@@ -215,6 +220,7 @@
 		"fieldName"									"ResistIconAnchor"
 		"xpos"										"cs-0.5"
 		"ypos"										"c32"
+		"ypos_minmode"								"c52"
 		"wide"										"0"
 		"tall"										"80"
 		"visible"									"1"

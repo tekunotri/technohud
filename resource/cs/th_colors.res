@@ -1,7 +1,7 @@
 // color shit
 Scheme {
     Colors {
-		        //==========================================================
+		 //==========================================================
 		//hp/ammo/main color stuff i cant organize shit properly whatever
 		//==========================================================
 
@@ -26,7 +26,7 @@ Scheme {
 		//==========================================================
 		//Last Damage done on Hud
 		//==========================================================
-		"TH_LastDamage"				"128 255 0 255"
+		"TH_LastDamage"				"0 230 119 255"
 		"TH_UberDrop"				"255 105 180 255"
 		"TH_HealthGained"			"128 255 0 255"
 		
@@ -50,6 +50,8 @@ Scheme {
 		"Black"						"0 0 0 255"
 		"TransparentBlack"			"0 0 0 200"
 		"TransparentMediumBlack"	"0 0 0 150"
+
+		"TransparentMedLightBlack"	"0 0 0 128"
 		"TransparentLightBlack"		"0 0 0 100"
 		"TransparentLightestBlack"	"0 0 0 50"
 		
@@ -58,7 +60,7 @@ Scheme {
 		"Theme_Purple"				"163 89 252 255"
 		"THWhite"					"255 255 255 255"
 		"THGrey"					"100 100 100 255"
-		"THBlack"					"0 0 0 255"
+		"THBlack"					"0 0 0 255" // this doesn't do anything, i just use black instead
 		"THRedDark"					"150 50 50 255"
 		"THRed"						"210 40 40 255"
 		"THOrange"					"255 165 75 255"
@@ -68,7 +70,7 @@ Scheme {
 		"THGreenDark"				"0 100 0 255"
 		"THTeal"					"100 180 170 255"
 		"THCyan"					"0 210 215 255"
-		"THBlue"					"0 165 255 255"
+		"THBlueAlt"					"0 165 255 255" // i already took thblue and didnt know, unused thankfully
 		"THBlu"						"70 70 180 255"
 		"THPurple"					"165 50 235 255"
 		"THViolet"					"190 150 210 255"
@@ -322,7 +324,7 @@ Scheme {
 		Button.ArmedBgColor				"THOverheal2"
 		Button.SelectedTextColor		"TanLight"
 		Button.SelectedBgColor			"THOverheal2"
-		Button.DepressedTextColor		"Black"
+		Button.DepressedTextColor		"TanLight"
 		Button.DepressedBgColor			"THUnselected"
 
 		CheckButton.TextColor			"Yellow"
