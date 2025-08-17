@@ -123,7 +123,7 @@
 		}
 		"8"
 		{
-			"font" "resource/fonts/Luxi.ttf"
+			"font" "resource/fonts/luxi.ttf"
 			"name" "luxi_mono_regular"
 		}
 		"9"
