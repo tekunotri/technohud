@@ -784,7 +784,7 @@ Scheme{
 			"1"
 			{
 			"name"	"tf2icons"
-			"tall"	"16"
+			"tall"	"14"
 			"antialias" "1"
 			}
 		}
