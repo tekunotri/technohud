@@ -44,10 +44,8 @@
 		"tall"	"160"
 
 		"blue_active_xpos"			"16"
-		"blue_active_xpos_minmode"	"55"
 
 		"red_active_xpos"			"106"
-		"red_active_xpos_minmode"	"105"
 	}
 
 	HudItemEffectMeter
