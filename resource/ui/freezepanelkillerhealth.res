@@ -82,7 +82,6 @@
 		"zpos"			"5"
 		"wide"			"30"
 		"tall"			"10"
-		"tall_minmode"	"14"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
