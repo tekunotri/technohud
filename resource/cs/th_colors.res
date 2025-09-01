@@ -41,7 +41,9 @@ Scheme {
 		"TransparentDarkGray"		"44 44 44 200"
 		"TransparentDarkerGray"		"33 33 33 200"
 		"THBlue"					"124 173 255 255"
+		"THBlue_Transparent"		"124 173 255 200"
 		"THRed"						"255 118 108 255"
+		"THRed_Transparent"			"255 118 108 200"
 		//this is here in case i feel like ever reusing this
 		"THGreen"					"99 232 167 255"
 		"THGreen2"					"0 230 119 255"
@@ -84,107 +86,104 @@ Scheme {
 
 
 		// base colors
-		"Orange"			"178 82 22 255"
-		"OrangeDim"			"178 82 22 120"
-		"LightOrange"		"188 112 0 128"
-		"GoalOrange"		"255 133 0 255"
-		"TFOrange"			"145 73 59 255"
-		"Purple"			"137 69 99 255"
+		"Orange"								"178 82 22 255"
+		"OrangeDim"								"178 82 22 120"
+		"LightOrange"							"188 112 0 128"
+		"GoalOrange"							"255 133 0 255"
+		"TFOrange"								"145 73 59 255"
+		"Purple"								"137 69 99 255"
 
-		"QuestGold"			"208 147 75 255"
-		"HalloweenThemeColor2015_Light"	"238 126 17 255"
-		"HalloweenThemeColor2015"		"135 54 16 255"
-		"HalloweenThemeColor2015_Dark"	"108 49 21 255"
-		"QuestUncommitted"	"183 147 100 255"
+		"QuestGold"								"208 147 75 255"
+		"HalloweenThemeColor2015_Light"			"238 126 17 255"
+		"HalloweenThemeColor2015"				"135 54 16 255"
+		"HalloweenThemeColor2015_Dark"			"108 49 21 255"
+		"QuestUncommitted"						"183 147 100 255"
 
-		"QuestMap_Bonus"	"222 217 166 255"
-		"QuestMap_ActiveOrange"	"212 127 25 255"
-		"QuestMap_InactiveGrey"	"100 100 100 255"
-		"QuestMap_BGImages"	"56 58 60 255"
+		"QuestMap_Bonus"						"222 217 166 255"
+		"QuestMap_ActiveOrange"					"212 127 25 255"
+		"QuestMap_InactiveGrey"					"100 100 100 255"
+		"QuestMap_BGImages"						"56 58 60 255"
 
-		"PartyMember1"	"124 173 255 255"
-		"PartyMember2"	"99  232 167 255"
-		"PartyMember3"	"229 255 121 255"
-		"PartyMember4"	"232 184 99  255"
-		"PartyMember5"	"255 118 108 255"
-		"PartyMember6"	"255 133 255 255"
-		"White"				"235 235 235 255"
+		"PartyMember1"							"124 173 255 255"
+		"PartyMember2"							"99 232 167 255"
+		"PartyMember3"							"229 255 121 255"
+		"PartyMember4"							"232 184 99  255"
+		"PartyMember5"							"255 118 108 255"
+		"PartyMember6"							"255 133 255 255"
+		"White"									"235 235 235 255"
 
-		"Red"				"192 28 0 140"
-		"RedSolid"			"192 28 0 255"
-		"Blue"				"0 28 162 140"
-		"Yellow"			"251 235 202 255"
-		"TransparentYellow"	"251 235 202 140"
-		"BrightYellow"		"251 235 0 255"
-		//"Black"				"0 0 0 255"
-		//Changed black to a NTSC safe color
-		"GreenSolid"		 "76 107 34 255"
-		"FooterBGBlack"		"52 48 55 255"
-		"HUDBlueTeam"		"90 122 143 255"
+		"Red"									"192 28 0 140"
+		"RedSolid"								"192 28 0 255"
+		"Blue"									"0 28 162 140"
+		"Yellow"								"251 235 202 255"
+		"TransparentYellow"						"251 235 202 140"
+		"BrightYellow"							"251 235 0 255"
+		"GreenSolid"		 					"76 107 34 255"
+		"FooterBGBlack"							"52 48 55 255"
+		"HUDBlueTeam"							"90 122 143 255"
+		"HUDRedTeam"							"189 59 61 255"
 
-		"HUDRedTeam"		"189 59 61 255"
-
-		"HUDSpectator"		"124 124 124 127"
-		"HUDBlueTeamSolid"	"104 124 155 255"
-		"HUDRedTeamSolid"	"180 92 77 255"
-		"HUDDeathWarning"	"255 0 0 255"
-		"HudOffWhite"		"200 187 161 255"
-		"HudBlack"			"65 65 65 255"
+		"HUDSpectator"							"124 124 124 127"
+		"HUDBlueTeamSolid"						"104 124 155 255"
+		"HUDRedTeamSolid"						"180 92 77 255"
+		"HUDDeathWarning"						"255 0 0 255"
+		"HudOffWhite"							"200 187 161 255"
+		"HudBlack"								"65 65 65 255"
 
 
-		"ProgressBarBlue"	"91 122 142 255"
+		"ProgressBarBlue"						"91 122 142 255"
 
-		"CreditsGreen"		"94 150 49 255" // Default: 94 150 49 255
+		"CreditsGreen"							"94 150 49 255" // Default: 94 150 49 255
 
-		"Gray"				"178 178 178 255"
+		"Gray"									"178 178 178 255"
 
-		"Blank"				"0 0 0 0"
-		"ForTesting"		"255 0 0 32"
-		"ForTesting_Magenta"	"255 0 255 255"
-		"ForTesting_MagentaDim"	"255 0 255 120"
+		"Blank"									"0 0 0 0"
+		"ForTesting"							"255 0 0 32"
+		"ForTesting_Magenta"					"255 0 255 255"
+		"ForTesting_MagentaDim"					"255 0 255 120"
 
-		"HudPanelForeground"		"123 110 59 184"
-		"HudPanelBackground"		"123 110 59 184"
-		"HudPanelBorder"			"255 255 255 102"
+		"HudPanelForeground"					"123 110 59 184"
+		"HudPanelBackground"					"123 110 59 184"
+		"HudPanelBorder"						"255 255 255 102"
 
-		"HudProgressBarActive"		"240 207 78 255"
-		"HudProgressBarInActive"	"140 120 73 255"
-		"HudProgressBarActiveLow"	"240 30 30 255"
-		"HudProgressBarInActiveLow"	"240 30 30 99"
+		"HudProgressBarActive"					"240 207 78 255"
+		"HudProgressBarInActive"				"140 120 73 255"
+		"HudProgressBarActiveLow"				"240 30 30 255"
+		"HudProgressBarInActiveLow"				"240 30 30 99"
 
-		"HudTimerProgressActive"	"236 236 236 236"
-		"HudTimerProgressInActive"	"52 48 45 255"
-		"HudTimerProgressWarning"	"240 30 30 255"
+		"HudTimerProgressActive"				"236 236 236 236"
+		"HudTimerProgressInActive"				"52 48 45 255"
+		"HudTimerProgressWarning"				"240 30 30 255"
 
 		// training
-		"HudTrainingHint"			"212 160 23 255"
+		"HudTrainingHint"						"212 160 23 255"
 
-		"TanDark"				"117 107 94 255"
+		"TanDark"								"117 107 94 255"
 		// overwrite later i cba for now, default: 235 226 202 255
-		"TanLight"				"236 236 236 236"
-		"TanDarker"				"46 43 42 255"
+		"TanLight"								"236 236 236 236"
+		"TanDarker"								"46 43 42 255"
 
-		"StoreDarkTan"			"131 121 104 255"
-		"StoreGreen"			"76 107 34 255"
+		"StoreDarkTan"							"131 121 104 255"
+		"StoreGreen"							"76 107 34 255"
 
 		// Building HUD Specific
-		"LowHealthRed"		"255 0 0 255"
-		"ProgressOffWhite"	"236 236 236 236"
+		"LowHealthRed"							"255 0 0 255"
+		"ProgressOffWhite"						"236 236 236 236"
 		//this controls item meter backgrounds so i have to nuke it... thanks valve :thumbsup: 
 		//only downside is this makes the level bar look a lil weird
-		"ProgressBackground"	"0 0 0 0"
+		"ProgressBackground"					"0 0 0 0"
 
-		"HealthBgGrey"		"080 080 080 255"
+		"HealthBgGrey"							"080 080 080 255"
 
-		"ProgressOffWhiteTransparent"	"251 235 202 128"
+		"ProgressOffWhiteTransparent"			"251 235 202 128"
 
-		"LabelDark"			"48 43 42 255"
-		"LabelTransparent"	"109 96 80 180"
+		"LabelDark"								"48 43 42 255"
+		"LabelTransparent"						"109 96 80 180"
+			
+		"BuildMenuActive"						"248 231 198 255"
 
-		"BuildMenuActive"	"248 231 198 255"
-
-		"DisguiseMenuIconRed"	"192 56 63 255"
-		"DisguiseMenuIconBlue"	"92 128 166 255"
+		"DisguiseMenuIconRed"					"192 56 63 255"
+		"DisguiseMenuIconBlue"					"92 128 166 255"
 
         "MatchmakingDialogTitleColor"			"200 184 151 255"
         "MatchmakingMenuItemBackground"			"46 43 42 255"
@@ -268,16 +267,16 @@ Scheme {
 		"LighterDarkBrown"						"59 54 48 255"
 		"DarkBrown"								"41 37 38 255"
 
-		"UpgradeDefaultFg"		"87 82 74 255"
-		"UpgradeDefaultBg"		"111 104 94 255"
-		"UpgradeArmedFg"		"194 96 47 255"
-		"UpgradeArmedBg"		"239 128 73 255"
-		"UpgradeDepressedFg"	"204 106 57 255"
-		"UpgradeDepressedBg"	"249 138 83 255"
-		"UpgradeSelectedFg"		"204 106 57 255"
-		"UpgradeSelectedBg"		"249 138 83 255"
-		"UpgradeDisabledFg"		"64 59 52 255"
-		"UpgradeDisabledBg"		"79 77 68 255"
+		"UpgradeDefaultFg"						"87 82 74 255"
+		"UpgradeDefaultBg"						"111 104 94 255"
+		"UpgradeArmedFg"						"194 96 47 255"
+		"UpgradeArmedBg"						"239 128 73 255"
+		"UpgradeDepressedFg"					"204 106 57 255"
+		"UpgradeDepressedBg"					"249 138 83 255"
+		"UpgradeSelectedFg"						"204 106 57 255"
+		"UpgradeSelectedBg"						"249 138 83 255"
+		"UpgradeDisabledFg"						"64 59 52 255"
+		"UpgradeDisabledBg"						"79 77 68 255"
 	}
 
 	///////////////////// BASE SETTINGS ////////////////////////
@@ -490,12 +489,12 @@ Scheme {
 
 		// CHudMenu
 		"ItemColor"		"255 167 42 200"	// default 255 167 42 255
-		"MenuColor"		"233 208 173 255"
+		"MenuColor"		"236 236 236 255"
 		"MenuBoxBg"		"0 0 0 100"
 
 		// weapon selection colors
-		"SelectionNumberFg"		"251 235 202 255"
-		"SelectionTextFg"		"251 235 202 255"
+		"SelectionNumberFg"		"236 236 236 255"
+		"SelectionTextFg"		"236 236 236 255"
 		"SelectionEmptyBoxBg" 	"0 0 0 80"
 		"SelectionBoxBg" 		"0 0 0 80"
 		"SelectionSelectedBoxBg" "0 0 0 190"
