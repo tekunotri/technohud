@@ -362,11 +362,11 @@
 		"fgcolor_override"		"0 0 0 248"
 		"pin_to_sibling"		"WinReasonLabel"
 	}
-	"DetailsLabel"
+	"DetailsLabel" //wont work with normal shadow method fml...
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"DetailsLabel"
-		"font"			"HudFont10"
+		"font"			"HudFont10Shadow"
 		"xpos"			"-20"
 		"ypos"			"37"
 		"zpos"			"1"

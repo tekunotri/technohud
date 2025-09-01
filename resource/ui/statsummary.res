@@ -621,7 +621,7 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"NowLoading"
 
-			"font"			"HudFontSmallBold"
+			"font"			"HudFont14Shadow"
 			"labelText"		"Now Loading..."
 			"textAlignment"	"north"
 
@@ -639,30 +639,6 @@
 			"enabled"		"1"
 
 			"fgcolor"		"255 181 50 255"
-		}
-		"NowLoadingShadow"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"NowLoadingShadow"
-
-			"font"			"HudFontSmallBold"
-			"labelText"		"Now Loading..."
-			"textAlignment"	"north"
-
-			"xpos"			"cs-0.498"
-			"ypos"			"135+1"
-			"zpos"			"2"
-
-			"wide"			"275"
-			"tall"			"30"
-
-			"autoResize"	"0"
-			"pinCorner"		"0"
-
-			"visible"		"1"
-			"enabled"		"1"
-
-			"fgcolor"		"Black"
 		}
 
 		"InteractiveHeaders"
