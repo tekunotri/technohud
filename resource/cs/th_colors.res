@@ -68,7 +68,7 @@ Scheme {
 		"THOrange"					"255 165 75 255"
 		"THYellow"					"255 215 100 255"
 		"THGreenPale"				"180 200 100 255"
-		"THGreen"					"0 215 0 255"
+		"THGreen_alt"				"0 215 0 255"
 		"THGreenDark"				"0 100 0 255"
 		"THTeal"					"100 180 170 255"
 		"THCyan"					"0 210 215 255"

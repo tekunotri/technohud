@@ -1,55 +1,10 @@
 "Resource/UI/MvMInWorldCurrency.res"
 {
-	"BorderBG"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"BorderBG"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"1"
-		"wide"			"46"
-		"tall"			"14"
-		"visible"		"1"
-		"enabled"		"1"
-		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"TanLight"
-	}
-
-	"BackgroundGood"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"BackgroundGood"
-		"xpos"			"1"
-		"ypos"			"1"
-		"zpos"			"2"
-		"wide"			"44"
-		"tall"			"12"
-		"visible"		"1"
-		"enabled"		"1"
-		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"221 182 72 250"
-	}
-
-	"MoneyImagePanel"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"MoneyImagePanel"
-		"xpos"		"0"
-		"ypos"		"0"
-		"zpos"		"4"
-		"wide"		"14"
-		"tall"		"14"
-		"image"			"../HUD/mvm_cash"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"	"1"
-	}
-
 	"CurrencyGood"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CurrencyGood"
-		"font"			"HudFont11Bold"
+		"font"			"HudFont13Bold"
 		"fgcolor"		"CreditsGreen"
 		"xpos"			"9"
 		"ypos"			"1"
@@ -66,8 +21,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CurrencyBad"
-		"font"			"HudFont11Bold"
-		"fgcolor"		"TanDarker"
+		"font"			"HudFont13Bold"
+		"fgcolor"		"THRed"
 		"xpos"			"9"
 		"ypos"			"1"
 		"zpos"			"4"
@@ -77,5 +32,24 @@
 		"enabled"		"1"
 		"textAlignment"	"center"
 		"labelText"		"%currency%"
+	}
+	"CurrencyShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"CurrencyShadow"
+		"font"			"HudFont13Bold"
+		"fgcolor"		"Black"
+		"xpos"			"-1"
+		"ypos"			"-1"
+		"zpos"			"4"
+		"wide"			"40"
+		"tall"			"12"
+		"visible"		"1"
+		"enabled"		"1"
+		"textAlignment"	"center"
+		"labelText"		"%currency%"
+		"pin_to_sibling"			"CurrencyGood"
+		"pin_corner_to_sibling"		"PIN_TOPLEFT"
+		"pin_to_sibling_corner"		"PIN_TOPLEFT"
 	}
 }

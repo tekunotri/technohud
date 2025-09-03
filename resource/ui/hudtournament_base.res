@@ -36,7 +36,7 @@
 			"team1_player_base_y"			"66"
 			"team1_player_delta_x"			"-47"
 			"team2_player_base_y"			"66"
-			"team2_player_delta_x"			"54" // spacing between player panels in mvm ready mode
+			"team2_player_delta_x"			"56" // spacing between player panels in mvm ready mode
 		}
 
 		if_competitive
