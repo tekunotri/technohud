@@ -4,7 +4,7 @@
 	{
 		"xpos"										"c-215"
 		"xpos_minmode"								"c-150"
-		"ypos"										"r175"
+		"ypos"										"r172"
 		"ypos_minmode"								"r230"
 		"visible"									"1"
 
