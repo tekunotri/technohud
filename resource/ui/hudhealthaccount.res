@@ -6,7 +6,7 @@
 		"xpos"					"c-235" 
 		"xpos_minmode"			"c-165"
 		"ypos"					"c120"
-		"ypos_minmode"			"c35"
+		"ypos_minmode"			"c50"
 		"delta_item_x"			"0" 
 		"delta_item_start_y"	"0"
 		"delta_item_end_y"		"0"

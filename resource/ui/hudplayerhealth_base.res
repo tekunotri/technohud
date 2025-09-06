@@ -24,7 +24,7 @@
 		"ypos"			"c113"
 		//minmode
 		"xpos_minmode"	"c-172"
-		"ypos_minmode"	"c23"
+		"ypos_minmode"	"c38"
 		"zpos"			"5"
 		"wide"			"150"
 		"tall"			"40"
@@ -58,19 +58,20 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"c-165"	
-		"ypos"			"c107"	
+		"xpos"			"c-165"
+		"ypos"			"c107"
 		"xpos_minmode"	"c-112"
-		"ypos_minmode"	"c29"
+		"ypos_minmode"	"c44"
 		"zpos"			"2"
-		"wide"			"55"	
+		"wide"			"55"
 		"tall"			"55"
-		"wide_minmode"	"31"	
-		"tall_minmode"	"31"			
+		"wide_minmode"	"31"
+		"tall_minmode"	"31"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/overhealcolor/health_over_bg_green"
 		"scaleImage"	"1"
+		"pin_to_sibling"			"PlayerStatusHealthValue"
 	}
 	"PlayerStatusMaxHealthValue" // max hp value, shows up above to the right,
 	{

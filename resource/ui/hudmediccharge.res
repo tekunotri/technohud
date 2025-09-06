@@ -11,7 +11,7 @@
 		"xpos"										"c150"
 		"ypos"										"c95"
 		"xpos_minmode"								"c95"
-		"ypos_minmode"								"c3"
+		"ypos_minmode"								"c18"
 		"zpos"										"0"
 		"wide"										"2"
 		"tall"										"80"

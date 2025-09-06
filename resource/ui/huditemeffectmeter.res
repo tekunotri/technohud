@@ -1,8 +1,8 @@
 //NOTE: this file modifies every meter since they #base off this one, 
 //positions depend on ypos, refer to whatever item meter you're trying to edit: https://github.com/JarateKing/TF2-Hud-Reference/blob/master/2-LISTS/Filelist.md
 //r95/200: top slot (FIRST)
-//r105/195: middle slot
-//r115/190: bottom slot
+//r105/180: middle slot
+//r115/175: bottom slot
 "Resource/UI/HudItemEffectMeter.res"
 {
 	HudItemEffectMeter
@@ -12,7 +12,7 @@
 		"enabled"		"1"
 		"xpos"			"c-37"
 		"ypos"			"r115"
-		"ypos_minmode"	"r190"
+		"ypos_minmode"	"r175"
 		"wide"			"74"
 		"tall"			"6"
 		"tall_minmode"			"4"

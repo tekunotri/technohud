@@ -30,7 +30,7 @@
 		"font"			"Default"
 		"xpos"			"cs-0.5"
 		"ypos"			"r105"
-		"ypos_minmode"	"r195"
+		"ypos_minmode"	"r180"
 		"zpos"			"2"
 		"wide"			"120"
 		"tall"			"6"
