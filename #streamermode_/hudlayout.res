@@ -1,8 +1,9 @@
 "Scripts/HudLayout.res"
 {
 	"HudDeathNotice"
-	{
-		"TextFont"									""
+	{		
+		"fieldName" 								"HudDeathNotice"
+		"TextFont"									"ballsballsballabsllasbas"
 	}
 
 	"HudVoiceStatus"
