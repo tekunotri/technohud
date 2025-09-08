@@ -50,6 +50,7 @@ Scheme{
 			"tall"			"8"
 			"additive"		"0"
 			"antialias" 	"1"
+			"dropshadow"	"1"
 			}
 		}
 		"HudFont8Shadow"
@@ -322,8 +323,6 @@ Scheme{
 			"antialias"  	"1"
 			}
 		}
-
-
 		"HudFont16"
 		{
 			"1"
