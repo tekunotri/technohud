@@ -92,5 +92,14 @@
                 "antialias" "1"
             }
         }
+        "showcase_gilroy"
+        {
+            "1"
+            {
+                "name"      "gilroy_medium"
+                "tall"      "11"
+                "antialias" "1"
+            }
+        }
     }
 }

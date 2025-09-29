@@ -736,7 +736,7 @@
 						"Command"						"engine th_barlow"
 						"sound_depressed"				"UI/buttonclick.wav"
 					}
-					"Romudiane"
+					"Romudiane" //reminder: add 14 to the ypos of the next font
 					{
 						"ControlName"					"CExButton"
 						"fieldName"						"Romudiane"
@@ -753,6 +753,25 @@
 						"font"							"showcase_romudiane"
 						"textAlignment"					"center"
 						"Command"						"engine th_romudiane"
+						"sound_depressed"				"UI/buttonclick.wav"
+					}
+					"Gilroy" //reminder: add 14 to the ypos of the next font
+					{
+						"ControlName"					"CExButton"
+						"fieldName"						"Gilroy"
+						"xpos"							"cs-0.5"
+						"ypos"							"140"
+						"zpos"							"20"
+						"wide"							"f0"
+						"tall"							"12"
+						"visible"						"1"
+						"enabled"						"1"
+						"proportionaltoparent"			"1"
+						"actionsignallevel"				"5"
+						"labelText"						"Gilroy Medium"
+						"font"							"showcase_gilroy"
+						"textAlignment"					"center"
+						"Command"						"engine th_gilroy"
 						"sound_depressed"				"UI/buttonclick.wav"
 					}
 				}
