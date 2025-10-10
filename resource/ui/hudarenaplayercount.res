@@ -18,7 +18,7 @@
 			"xpos"			"5"
 			"ypos"			"7"
 			"zpos"			"0"
-			"wide"			"00"
+			"wide"			"0"
 			"tall"			"23"
 			"autoResize"	"0"
 			"pinCorner"		"0"
@@ -38,7 +38,7 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"count"
 			"xpos"			"23"
-			"ypos"			"7"
+			"ypos"			"5"
 			"zpos"			"2"
 			"wide"			"30"
 			"tall"			"25"
@@ -55,8 +55,8 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"countshadow"
-			"xpos"			"24"
-			"ypos"			"8"
+			"xpos"			"-1"
+			"ypos"			"-1"
 			"zpos"			"1"
 			"wide"			"30"
 			"tall"			"25"
@@ -68,6 +68,9 @@
 			"labelText"		"%blue_alive%"
 			"textAlignment"	"center"
 			"fgcolor"		"Black"
+			"pin_to_sibling"			"count"
+			"pin_corner_to_sibling"		"PIN_TOPLEFT"
+			"pin_to_sibling_corner"		"PIN_TOPLEFT"
 		}
 
 		"playerimage"
@@ -125,7 +128,7 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"count"
 			"xpos"			"23"
-			"ypos"			"7"
+			"ypos"			"5"
 			"zpos"			"2"
 			"wide"			"30"
 			"tall"			"25"
@@ -142,8 +145,8 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"countshadow"
-			"xpos"			"24"
-			"ypos"			"8"
+			"xpos"			"-1"
+			"ypos"			"-1"
 			"zpos"			"1"
 			"wide"			"30"
 			"tall"			"25"
@@ -155,6 +158,9 @@
 			"labelText"		"%red_alive%"
 			"textAlignment"	"center"
 			"fgcolor"		"Black"
+			"pin_to_sibling"			"count"
+			"pin_corner_to_sibling"		"PIN_TOPLEFT"
+			"pin_to_sibling_corner"		"PIN_TOPLEFT"
 		}
 
 		"playerimage"

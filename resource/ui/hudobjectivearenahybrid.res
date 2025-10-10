@@ -756,7 +756,7 @@
 			"ControlName"		"EditablePanel"
 			"fieldName"			"BlueScoreValueContainer"
 			"xpos"				"cs-0.5-50"
-			"ypos"				"r38"
+			"ypos"				"r40"
 			"zpos"				"10"
 			"wide"				"60"
 			"tall"				"60"
@@ -812,7 +812,7 @@
 			"ControlName"		"EditablePanel"
 			"fieldName"			"RedScoreValueContainer"
 			"xpos"				"cs-0.5+50"
-			"ypos"				"r38"
+			"ypos"				"r40"
 			"zpos"				"10"
 			"wide"				"60"
 			"tall"				"60"
@@ -1163,29 +1163,7 @@
 		"wide"			"60"
 		"tall"			"30"
 		"visible"		"1"
-	
-		"background"
-		{
-			"ControlName"	"CTFImagePanel"
-			"fieldName"		"background"
-			"xpos"			"5"
-			"ypos"			"7"
-			"zpos"			"0"
-			"wide"			"50"
-			"tall"			"23"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"../hud/color_panel_blu"
-				
-			"src_corner_height"		"23"			// pixels inside the image
-			"src_corner_width"		"23"
-					
-			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"5"	
-		}
-		
+
 		"count"
 		{
 			"ControlName"	"CExLabel"
@@ -1204,7 +1182,7 @@
 			//"labelText"		"%blue_escrow%"
 			"labelText"		" "
 			"textAlignment"	"center"
-			"fgcolor"		"TanLight"
+			"fgcolor"		"THBlue"
 		}	
 		"countshadow"
 		{
@@ -1253,34 +1231,12 @@
 		"wide"			"60"
 		"tall"			"30"
 		"visible"		"1"
-	
-		"background"
-		{
-			"ControlName"	"CTFImagePanel"
-			"fieldName"		"background"
-			"xpos"			"5"
-			"ypos"			"7"
-			"zpos"			"0"
-			"wide"			"50"
-			"tall"			"23"
-			"autoResize"	"1"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"../hud/color_panel_red"
-				
-			"src_corner_height"		"23"			// pixels inside the image
-			"src_corner_width"		"23"
-					
-			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"5"	
-		}
-		
+			
 		"count"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"count"
-			"xpos"			"23"
+			"xpos"			"10"
 			"ypos"			"7"
 			"zpos"			"2"
 			"wide"			"30"
@@ -1294,7 +1250,7 @@
 			//"labelText"		"%red_escrow%"
 			"labelText"		" "
 			"textAlignment"	"center"
-			"fgcolor"		"TanLight"
+			"fgcolor"		"THRed"
 		}	
 		
 		"countshadow"
