@@ -1,4 +1,4 @@
-"Resource/UI/Carrier_Boss_Bar.res"
+"resource/ui/carrier_boss_bar.res"
 {
 	"ObjectiveStatusRobotDestruction"
 	{

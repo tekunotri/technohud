@@ -1,4 +1,4 @@
-"Resource/UI/Customizations/Scope_Charge/Layout_Scope_Charge.res"
+"resource/ui/customizations/scope_charge/layout_scope_charge.res"
 {
 	"HudScopeCharge"
 	{

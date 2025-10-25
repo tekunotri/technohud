@@ -1,5 +1,5 @@
 //this is the custom cross, generally do not touch this, maybe.
-"Resource/UI/HudPlayerHealth.res"
+"resource/ui/hudplayerhealth.res"
 {
 	"PlayerStatusHealthBonusImage" // buff hp cross
 	{

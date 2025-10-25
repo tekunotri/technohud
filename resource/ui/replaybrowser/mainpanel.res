@@ -1,6 +1,6 @@
 // I guess I'll leave this here in case game type selection gets re-implemented again.
 
-"Resource/UI/ReplayBrowser/MainPanel.res"
+"resource/ui/replaybrowser/mainpanel.res"
 {
 	"ReplayBrowser"
 	{

@@ -1,4 +1,4 @@
-"Resource/UI/Customizations/Crosshair/Hitmarker_Base.res"
+"resource/ui/customizations/crosshair/hitmarker_base.res"
 {
 	"HitMarker"
 	{

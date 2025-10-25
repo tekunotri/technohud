@@ -1,4 +1,4 @@
-"Resource/UI/Customizations/Head_Counter/HudItemEffectMeter_Demoman_Bottom_Right.res"
+"resource/ui/customizations/head_counter/huditemeffectmeter_demoman_bottom_right.res"
 {
 	"HudItemEffectMeter"
 	{

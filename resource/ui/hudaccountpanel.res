@@ -1,4 +1,4 @@
-"Resource/UI/HudAccountPanel.res" // stolen from m0rehud so i dont have the metal get/spend
+"resource/ui/hudaccountpanel.res" // stolen from m0rehud so i dont have the metal get/spend
 {
 	"CHudAccountPanel"
 	{

@@ -1,4 +1,4 @@
-"Resource/DEV/Texture_Preload.res"
+"resource/dev/texture_preload.res"
 {
 	//===================================================================================================
 	// CONTROL POINT ICONS

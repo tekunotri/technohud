@@ -1,5 +1,5 @@
 //this file does nothing, but i got pissed off
-"Resource/UI/HudWeaponSelection.res"
+"resource/ui/hudweaponselection.res"
 {
 	"modelpanel0"
 	{

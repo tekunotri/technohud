@@ -3,7 +3,7 @@
 //r95/200: top slot (FIRST)
 //r105/180: middle slot
 //r115/175: bottom slot
-"Resource/UI/HudItemEffectMeter.res"
+"resource/ui/huditemeffectmeter.res"
 {
 	HudItemEffectMeter
 	{

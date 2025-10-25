@@ -1,5 +1,5 @@
 //file also from m0rehud
-"Resource/UI/Krampus_Boss_Bar.res"
+"resource/ui/krampus_boss_bar.res"
 {
 	"ObjectiveStatusRobotDestruction"
 	{
