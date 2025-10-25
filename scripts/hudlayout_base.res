@@ -1376,6 +1376,7 @@
 		"enabled" 		"1"
 		"xpos"			"0"
 		"ypos"			"-15"
+		"ypos_minmode"	"0"
 		"zpos"			"20"
 		"wide"			"f0"
 		"tall"			"f0"

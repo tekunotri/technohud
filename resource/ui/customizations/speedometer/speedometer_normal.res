@@ -6,6 +6,8 @@
         "fieldName"                                                 "Speedometer"
         "xpos"                                                      "c-215"
         "ypos"                                                      "c150"
+        "xpos_minmode"                                              "c-152"
+        "ypos_minmode"                                              "c72"
         "zpos"                                                      "2"
         "wide"                                                      "60"
         "tall"                                                      "15"

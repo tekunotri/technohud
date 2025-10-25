@@ -71,7 +71,7 @@
 		"enabled"		"1"
 		"image"			"replay/thumbnails/overhealcolor/health_over_bg_green"
 		"scaleImage"	"1"
-		"pin_to_sibling"			"PlayerStatusHealthValue"
+		//* breaking?
 	}
 	"PlayerStatusMaxHealthValue" // max hp value, shows up above to the right,
 	{

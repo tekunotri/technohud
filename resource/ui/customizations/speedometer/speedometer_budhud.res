@@ -6,6 +6,8 @@
         "fieldName"                                                 "bh_Speedometer"
         "xpos"                                                      "c-217"
         "ypos"                                                      "c150"
+        "xpos_minmode"                                              "c-152"
+        "ypos_minmode"                                              "c72"
         "zpos"                                                      "2"
         "wide"                                                      "60"
         "tall"                                                      "15"
