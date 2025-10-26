@@ -3,7 +3,7 @@
 
 	"Version"
 	{
-		"label"										"technohud 1.0-beta7-final"
+		"label"										"technohud 1.0-beta7-FL"
 		"command"									"engine showconsole; clear; echo technohud 1.0-beta7-final; echo by techno, using some bits of other huds by various people. (check github for credits); echo updates @ github.com/tekunotri/technohud"
 		"OnlyAtMenu"								"0"
 	}
