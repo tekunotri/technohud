@@ -1,6 +1,6 @@
 // Flat gray background to take cleaner screenshots
 
-"Resource/DEV/FlatScreen.res"
+"resource/dev/flatscreen.res"
 {
 	"FlatScreen"
 	{

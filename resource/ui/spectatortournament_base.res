@@ -1,5 +1,5 @@
 // file taken from sayo, modified by me 
-"Resource/UI/SpectatorTournament.res"
+"resource/ui/spectatortournament.res"
 {
 	"specgui"
 	{

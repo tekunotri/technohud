@@ -1,6 +1,6 @@
 // file from m0rehud, i accidentally deleted this originally because i am a MORON.
 #base "../dev/reloadscheme.res"
-"Resource/UI/ItemSelectionPanel.res"
+"resource/ui/itemselectionpanel.res"
 {
 	"ItemSelectionPanel"
 	{

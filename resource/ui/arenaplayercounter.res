@@ -1,5 +1,5 @@
-//#base "HudObjectivePlayerDestruction.res"
-"Resource/UI/HudObjectiveArenaHybrid.res"
+//#base "hudobjectiveplayerdestruction.res"
+"resource/ui/hudobjectivearenahybrid.res"
 {	
 	"ObjectiveStatusRobotDestruction"
 	{

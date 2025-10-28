@@ -1,4 +1,4 @@
-"Resource/UI/ReplayBrowser/BasePage.res"
+"resource/ui/replaybrowser/basepage.res"
 {
 	"BasePage"
 	{

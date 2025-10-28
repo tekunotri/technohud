@@ -1,6 +1,6 @@
 #base "../dev/reloadscheme.res"
 
-"Resource/UI/CharInfoPanel.res"
+"resource/ui/charinfopanel.res"
 {
 	"Character_Info"
 	{

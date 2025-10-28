@@ -1,4 +1,4 @@
-"Resource/UI/Customizations/Health/HudPlayerHealth_Warning_75.res"
+"resource/ui/customizations/health/hudplayerhealth_warning_75.res"
 {
 	"HudPlayerHealth"
 	{

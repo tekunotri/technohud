@@ -1,4 +1,4 @@
-"Resource/UI/Customizations/spydisguise/disguise_center.res"
+"resource/ui/customizations/spydisguise/disguise_center.res"
 {
 	"DisguiseStatus"
 	{

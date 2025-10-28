@@ -1,4 +1,4 @@
-"Resource/UI/HudItemEffectMeter_PowerupBottles.res"
+"resource/ui/huditemeffectmeter_powerupbottles.res"
 // File fron m0rehud, credits to Hypnotize
 {
 	"HudItemEffectMeter"

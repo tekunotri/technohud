@@ -1,6 +1,6 @@
 #base "../../dev/reloadscheme.res"
 
-"Resource/UI/Econ/BackPackPanel.res"
+"resource/ui/econ/backpackpanel.res"
 {
 	"Backpack_Panel"
 	{

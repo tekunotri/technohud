@@ -1,4 +1,4 @@
-"Resource/UI/HudMedicCharge.res" // FILE FROM m0rehud, credits to Hypnotize
+"resource/ui/hudmediccharge.res" // FILE FROM m0rehud, credits to Hypnotize
 {
 	//==================================================================================================================================================
 	// UBER ANCHOR

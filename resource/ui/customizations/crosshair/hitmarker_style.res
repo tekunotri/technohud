@@ -1,1 +1,1 @@
-#base "../../../../cfg/technohud/th_hitmarker_style.txt"
+#base "../../../../../../cfg/technohud/th_hitmarker_style.txt"

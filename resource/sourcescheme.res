@@ -1,4 +1,4 @@
-#base "SourceSchemeBase.res"
+#base "sourceschemebase.res"
 //created using the ToonHUD source scheme editor because i dont like messing with this file
 Scheme
 {
@@ -345,7 +345,7 @@ Scheme
 	{
 		"6" 
 		{
-			"font" "resource/TF2Build.ttf"
+			"font" "resource/tf2build.ttf"
 			"name" "TF2 Build"
 			"turkish"
 			{

@@ -1,5 +1,5 @@
 //Original File by Shredder for c-sharp hud
-"Resource/UI/arenawinpanel.res"
+"resource/ui/arenawinpanel.res"
 {
 	"ArenaWinPanelScores"
 	{

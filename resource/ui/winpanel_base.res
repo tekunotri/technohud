@@ -1,4 +1,4 @@
-"Resource/UI/winpanel.res"
+"resource/ui/winpanel.res"
 {
 	//Original File by Shredder for c-sharp hud modified for technohud
 	"TeamScoresPanel"

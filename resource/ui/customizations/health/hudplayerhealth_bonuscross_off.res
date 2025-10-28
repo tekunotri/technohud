@@ -1,4 +1,4 @@
-"Resource/UI/Customizations/Health/HudPlayerHealth_BonusCross_OFF.res"
+"resource/ui/customizations/health/hudplayerhealth_bonuscross_off.res"
 {
 	"PlayerStatusHealthBonusImage"
 	{

@@ -1,5 +1,5 @@
 //file also from m0rehud, thanks valve for embedding hud files inside bsps!
-"Resource/UI/VSH_Hud.res"
+"resource/ui/vsh_hud.res"
 {
 	"ObjectiveStatusRobotDestruction"
 	{

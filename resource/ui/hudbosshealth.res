@@ -1,6 +1,6 @@
 //file from m0rehud, also applies to krampus aswell? 
 //slightly edited positoning for better centering
-"Resource/UI/HudBossHealth.res"
+"resource/ui/hudbosshealth.res"
 {
 	"Background_Main"
 	{

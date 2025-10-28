@@ -7,7 +7,7 @@
 //====================================================
 // FONTS
 //====================================================
-#base "../cfg/technohud/th_font.txt"
+#base "../../../cfg/technohud/th_font.txt"
 #base "ui/customizations/th_fontshowcase.res"
 #base "cs/th_fontpaths.res"
 #base "cs/th_fonts.res"
@@ -20,5 +20,5 @@
 //=========================================================
 // CROSSHAIRS SCHEME
 //=========================================================
-#base "../cfg/technohud/th_crosshair_edge.txt"
+#base "../../../cfg/technohud/th_crosshair_edge.txt"
 #base "cs/th_crosshairs.res"
