@@ -25,7 +25,7 @@
 		"proportionaltoparent"	"1"
 
 		"border"	"QuestStatusBorder"
-		"paintborder"	"2"
+		"paintborder"	"0"
 		
 		"Header"
 		{
@@ -39,7 +39,7 @@
 			"zpos"			"4"
 			"textinsetx"	"5"
 			"use_proportional_insets" "1"
-			"fgcolor_override"		"235 226 202 255"
+			"fgcolor_override"		"White"
 			"font"			"AchievementTracker_Name"
 			//"wrap"			"1"
 			"TextAlignment"		"north-east"
@@ -58,7 +58,7 @@
 			"zpos"			"4"
 			"textinsetx"	"5"
 			"use_proportional_insets" "1"
-			"fgcolor_override"		"235 226 202 255"
+			"fgcolor_override"		"White"
 			"font"			"QuestObjectiveTracker_Desc"
 			//"wrap"			"1"
 			"TextAlignment"		"north-east"
@@ -77,6 +77,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			"tf2_folder_icon"
+			"drawcolor"		"White"
 			"scaleImage"	"1"	
 			"proportionaltoparent"	"1"	
 		}

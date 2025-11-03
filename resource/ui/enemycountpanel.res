@@ -39,7 +39,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
-		"PaintBackgroundType" "2"
+		"PaintBackgroundType" "0"
 		"bgcolor_override"	"FullWhite"
 	}
 

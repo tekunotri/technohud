@@ -10,7 +10,7 @@
 		"paintborder"	"1"
 		"name_only"		"1"
 		"model_ypos"	"5"
-		"standard_text_color"	"1"
+		"standard_text_color"	"0"
 
 		"itemmodelpanel"
 		{
@@ -27,7 +27,7 @@
 		"paintborder"	"1"
 		"name_only"		"1"
 		"model_ypos"	"5"
-		"standard_text_color"	"1"
+		"standard_text_color"	"0"
 
 		"itemmodelpanel"
 		{
@@ -44,7 +44,7 @@
 		"paintborder"	"1"
 		"name_only"		"1"
 		"model_ypos"	"5"
-		"standard_text_color"	"1"
+		"standard_text_color"	"0"
 
 		"itemmodelpanel"
 		{
@@ -61,7 +61,7 @@
 		"paintborder"	"1"
 		"name_only"		"1"
 		"model_ypos"	"5"
-		"standard_text_color"	"1"
+		"standard_text_color"	"0"
 
 		"itemmodelpanel"
 		{
@@ -78,7 +78,7 @@
 		"paintborder"	"1"
 		"name_only"		"1"
 		"model_ypos"	"5"
-		"standard_text_color"	"1"
+		"standard_text_color"	"0"
 
 		"itemmodelpanel"
 		{
@@ -95,7 +95,7 @@
 		"paintborder"	"1"
 		"name_only"		"1"
 		"model_ypos"	"5"
-		"standard_text_color"	"1"
+		"standard_text_color"	"0"
 
 		"itemmodelpanel"
 		{

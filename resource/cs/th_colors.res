@@ -15,7 +15,8 @@ Scheme {
 		"MainAmmo"					"236 236 236 255"
 		"ReserveAmmo"				"236 236 236 255"
 		"NoClipAmmo"				"236 236 236 255"
-		//overheal animation colors, refer to  scripts/hudanimations_th.txt
+		//overheal animation colors, refer to scripts/hudanimations_th.txt
+		//note: this also changes based on what color you're using
 		"THOverheal"				"99 232 167 255"
 		"THOverheal2"				"0 230 119 255"
 		//low hp/ammo colors
@@ -25,6 +26,7 @@ Scheme {
 		"THUber"					"236 236 236 255"
 		//==========================================================
 		//Last Damage done on Hud
+		//note: LastDamage also changes based on the color you're using
 		//==========================================================
 		"TH_LastDamage"				"0 230 119 255"
 		"TH_UberDrop"				"255 105 180 255"
@@ -32,18 +34,18 @@ Scheme {
 		
 		//==========================================================
 		//misc/other things, also team colors for a lot of elements
+		//reword: this is mostly used across the hud
 		//==========================================================
 		"ItemMeterBG"				"250 234 201 51"
-
 		"PressDown"					"150 150 150 255"
 		"DarkGray"					"44 44 44 255"
 		"DarkerGray"				"33 33 33 255"
 		"TransparentDarkGray"		"44 44 44 200"
 		"TransparentDarkerGray"		"33 33 33 200"
 		"THBlue"					"124 173 255 255"
-		"THBlue_Transparent"		"124 173 255 200"
+		"THBlue_Transparent"		"124 173 255 228"
 		"THRed"						"255 118 108 255"
-		"THRed_Transparent"			"255 118 108 200"
+		"THRed_Transparent"			"255 118 108 228"
 		//this is here in case i feel like ever reusing this
 		"THGreen"					"99 232 167 255"
 		"THGreen2"					"0 230 119 255"
