@@ -230,11 +230,11 @@
 			{
 				"ControlName"						"Button"
 				"fieldName"							"QueueLogoButton"
-				"xpos"								"1"
+				"xpos"								"0"
 				"ypos"								"0"
 				"zpos"								"10"
-				"wide"								"o1"
-				"tall"								"f0"
+				"wide"								"0"
+				"tall"								"0"
 				"visible"							"1"
 				"enabled"							"1"
 				"labeltext"							""
@@ -257,13 +257,30 @@
 				"zpos"								"5"
 				"wide"								"o1"
 				"tall"								"f0"
+				"visible"							"0"
+				"enabled"							"0"
+				"proportionaltoparent"				"1"
+
+				"radius"							"10"
+				"velocity"							"100"
+
+				"disabledfgcolor2_override"			"THBlue"
+			}
+			"CTFLogoPanel2"
+			{
+				"ControlName"						"CTFLogoPanel"
+				"xpos"								"1"
+				"ypos"								"0"
+				"zpos"								"5"
+				"wide"								"o1"
+				"tall"								"f0"
 				"visible"							"1"
 				"proportionaltoparent"				"1"
 
 				"radius"							"10"
 				"velocity"							"100"
 
-				"fgcolor_override"					"TFOrange"
+				"fgcolor_override"					"THBlue"
 			}
 			"QueueText"
 			{
