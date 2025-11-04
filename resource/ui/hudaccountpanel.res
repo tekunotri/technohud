@@ -24,6 +24,7 @@
 		"labelText"									"%metal%"
 		"textAlignment"								"center"
 		"font"										"HudFont18"
+		"font_minmode"								"HudFont16"
 		"fgcolor"									"FullWhite"
 	}
 	"AccountValueShadow"
@@ -40,6 +41,7 @@
 		"labelText"									"%metal%"
 		"textAlignment"								"center"
 		"font"										"HudFont18"
+		"font_minmode"								"HudFont16"
 		"fgcolor"									"Black"
 
 		"pin_to_sibling"							"AccountValue"
