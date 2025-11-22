@@ -1750,39 +1750,6 @@
 			"bgcolor_override"	"0 0 0 100"
 		}
 	}
-	"ShowPromoCodesButton"
-	{
-		"ControlName"	"CExImageButton"
-		"fieldName"		"ShowPromoCodesButton"
-		"xpos"			"c30"
-		"ypos"			"385"
-		"zpos"			"5"
-		"wide"			"250"
-		"tall"			"26"
-		"autoResize"	"0"
-		"pinCorner"		"3"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"font"			"HudFont11Bold"
-		"labelText"		"#MMenu_ShowPromoCodes"
-		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"default"		"1"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-		"command"		"showpromocodes"
-
-		"border_default"	"MainMenuButtonDefault"
-		"border_armed"		"MainMenuButtonArmed"
-		"paintbackground"	"0"
-
-		"defaultFgColor_override" "46 43 42 255"
-		"armedFgColor_override" "235 226 202 255"
-		"depressedFgColor_override" "46 43 42 255"
-	}
-
 	// command comes from GameMenu.res
 
 	"ReportPlayerButton"
