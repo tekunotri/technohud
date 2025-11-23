@@ -17,13 +17,11 @@
 	{
 		"ControlName"	"CTFClassImage"
 		"fieldName"		"PlayerStatusClassImage"
-		"xpos"			"30"	
-		"ypos"			"r66"	
+		"xpos"			"30"
+		"ypos"			"r66"
 		"zpos"			"2"
 		"wide"			"75"
-		"wide_minmode"	"37"
 		"tall"			"75"
-		"tall_minmode"	"37"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/class_scoutred"
@@ -43,9 +41,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/class_spyred"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"teambg_2"		"../hud/class_spyred"
-		"teambg_3"		"../hud/class_spyblue"	
+		"teambg_3"		"../hud/class_spyblue"
 	}
 	"PlayerStatusSpyOutlineImage"
 	{
