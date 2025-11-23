@@ -233,8 +233,8 @@
 		"font"										"Icons16"
 		"fgcolor"									"White"
 		"paintbackground"							"1"
-		"paintbackgroundtype"						"2"
-		"bgcolor_override"							"TanDark"
+		"paintbackgroundtype"						"0"
+		"bgcolor_override"							"DarkerGray"
 	}
 	"NameFilterTextEntry"
 	{
@@ -271,7 +271,7 @@
 		"enabled"									"1"
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"2"
-		"bgcolor_override"							"TanDark"
+		"bgcolor_override"							"DarkerGray"
 	}
 	"ShowBaseItemsCheckbox"
 	{
@@ -288,6 +288,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"smallcheckimage"							"1"
+		"fgcolor_override"							"White"
 
 		"pin_to_sibling"							"ShowBaseItemsCheckboxBG"
 		"pin_corner_to_sibling"						"PIN_CENTER_LEFT"
@@ -306,7 +307,7 @@
 		"enabled"									"1"
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"2"
-		"bgcolor_override"							"TanDark"
+		"bgcolor_override"							"DarkerGray"
 	}
 	"ShowRarityComboBox"
 	{
@@ -353,7 +354,7 @@
 		"enabled"									"1"
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"2"
-		"bgcolor_override"							"TanDark"
+		"bgcolor_override"							"DarkerGray"
 	}
 	"SortByComboBox"
 	{

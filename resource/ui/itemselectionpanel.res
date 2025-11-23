@@ -103,8 +103,8 @@
 		"font"										"Icons16"
 		"fgcolor"									"White"
 		"paintbackground"							"1"
-		"paintbackgroundtype"						"2"
-		"bgcolor_override"							"TanDark"
+		"paintbackgroundtype"						"0"
+		"bgcolor_override"							"DarkerGray"
 	}
 	"NameFilterTextEntry"
 	{

@@ -1,4 +1,4 @@
-"resource/ui/destroy_menu/base_active.res"
+"Resource/UI/destroy_menu/base_active.res"
 {
 	"ItemNameLabel"
 	{	
@@ -18,6 +18,7 @@
 		"textAlignment"	"Left"
 		"dulltext"		"0"
 		"brighttext"	"0"
+		"fgcolor"		"255 255 255 255"
 	}
 	
 	"ItemBackground"	
