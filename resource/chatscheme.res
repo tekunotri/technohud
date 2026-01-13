@@ -172,8 +172,8 @@
 		"NewGame.DisabledColor"								"128 128 128 196"
 
 		"TFColors.ChatTextYellow"							"White"
-		"TFColors.ChatTextTeamBlue"							"153 204 255 255"
-		"TFColors.ChatTextTeamRed"							"255 63 53 255"
+		"TFColors.ChatTextBlue"								"124 173 255 255"
+		"TFColors.ChatTextRed"								"255 118 108 255"
 	}
 
 	"BitmapFontFiles"
