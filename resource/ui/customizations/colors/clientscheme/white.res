@@ -2,8 +2,8 @@
 {
 	"Colors"
 	{  
-		"THOverheal"				"255 255 255 255"
-		"THOverheal2"				"255 255 255 255"
-		"TH_LastDamage"				"255 255 255 255"
+		"THOverheal"				"236 236 236 255"
+		"THOverheal2"				"236 236 236 255"
+		"TH_LastDamage"				"236 236 236 255"
 	}
 }
