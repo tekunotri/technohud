@@ -1,7 +1,3 @@
-#base "../dev/preload.res"
-#base "customizations/hud_customization.res"
-//dumbass forgets to preload things then wonders why the menu thumb missing error was still happening LOL !!! 
-//the dumbass is me. this file has been around since 0.223 (6 months ago.)
 "resource/ui/mainmenuoverride.res"
 {
 	MainMenuOverride
