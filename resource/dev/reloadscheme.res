@@ -3,7 +3,7 @@
 //STORE						//#base "../../../dev/reloadscheme.res"
 //ONLY WORKS WITH			//vgui_cache_res_files 0
 
-"Resource/DEV/Reloadscheme.res"
+"resource/dev/reloadscheme.res"
 {
 	"ReloadSchemeButton"
 	{

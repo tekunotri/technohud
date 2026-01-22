@@ -18,6 +18,7 @@
 		"textAlignment"	"Left"
 		"dulltext"		"0"
 		"brighttext"	"0"
+		"fgcolor"		"255 255 255 255"
 	}
 	
 	"ItemBackground"	

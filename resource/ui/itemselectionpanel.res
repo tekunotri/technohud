@@ -1,5 +1,6 @@
+// file from m0rehud, i accidentally deleted this originally because i am a MORON.
 #base "../dev/reloadscheme.res"
-"Resource/UI/ItemSelectionPanel.res"
+"resource/ui/itemselectionpanel.res"
 {
 	"ItemSelectionPanel"
 	{
@@ -102,8 +103,8 @@
 		"font"										"Icons16"
 		"fgcolor"									"White"
 		"paintbackground"							"1"
-		"paintbackgroundtype"						"2"
-		"bgcolor_override"							"TanDark"
+		"paintbackgroundtype"						"0"
+		"bgcolor_override"							"DarkerGray"
 	}
 	"NameFilterTextEntry"
 	{
@@ -122,6 +123,7 @@
 		"fgcolor_override"							"White"
 		"bgcolor_override"							"TransparentBlack"
 		"font"										"HudFontSmallest"
+
 		"pin_to_sibling"							"NameFilterIcon"
 		"pin_corner_to_sibling"						"PIN_CENTER_RIGHT"
 		"pin_to_sibling_corner"						"PIN_CENTER_RIGHT"
@@ -154,7 +156,6 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"#Cancel"
-		"font"										"HudFont14Bold"
 		"font"										"HudFontSmallBold"
 		"textAlignment"								"center"
 		"Command"									"vguicancel"

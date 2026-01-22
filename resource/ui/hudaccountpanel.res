@@ -1,4 +1,4 @@
-"Resource/UI/HudAccountPanel.res" // stolen from m0rehud so i dont have the metal get/spend
+"resource/ui/hudaccountpanel.res" // stolen from m0rehud so i dont have the metal get/spend
 {
 	"CHudAccountPanel"
 	{
@@ -24,6 +24,7 @@
 		"labelText"									"%metal%"
 		"textAlignment"								"center"
 		"font"										"HudFont18"
+		"font_minmode"								"HudFont16"
 		"fgcolor"									"FullWhite"
 	}
 	"AccountValueShadow"
@@ -40,6 +41,7 @@
 		"labelText"									"%metal%"
 		"textAlignment"								"center"
 		"font"										"HudFont18"
+		"font_minmode"								"HudFont16"
 		"fgcolor"									"Black"
 
 		"pin_to_sibling"							"AccountValue"

@@ -1,4 +1,4 @@
-"Resource/UI/DynamicRecipe.res"
+"resource/ui/dynamicrecipe.res"
 {
 	"dynamic_recipe_panel"
 	{
@@ -16,23 +16,23 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"46 43 42 255"
-		"infocus_bgcolor_override" "46 43 42 255"
-		"outoffocus_bgcolor_override" "46 43 42 255"
+		"bgcolor_override"	"DarkGray"
+		"infocus_bgcolor_override" "DarkGray"
+		"outoffocus_bgcolor_override" "DarkGray"
 
 		"item_ypos"						"50"
-		"output_item_ypos"				"255"
+		"output_item_ypos"				"255"		
 		"item_crafting_offcenter_x"		"0"
 		"item_backpack_xdelta"			"2"
 		"item_backpack_ydelta"			"4"
 		"inventory_xpos"				"0"
 		"inventory_ypos"				"50"
 
-		"button_xpos_offcenter"			"175"
+		"button_xpos_offcenter"			"175"		
 		"button_ypos"					"85"
 		"button_ydelta"					"80"
 		"button_override_delete_xpos"	"0"
-
+		
 		"modelpanels_kv"
 		{
 			"ControlName"	"CItemModelPanel"
@@ -44,33 +44,33 @@
 			"noitem_textcolor"		"117 107 94 255"
 			"PaintBackgroundType"	"2"
 			"paintborder"	"1"
-
+			
 			"model_ypos"	"5"
 			"model_tall"	"35"
 			"text_center"	"1"
 			"name_only"		"1"
 			"text_forcesize" "3"
 			"noitem_use_fullpanel" "1"
-
+			
 			"inset_eq_x"	"2"
 			"inset_eq_y"	"2"
-
+			
 			"itemmodelpanel"
 			{
 				"use_item_rendertarget" "0"
 				"allow_rot"				"0"
 			}
-
+			
 
 		}
-
-
-
+		
+	
+		
 		"filter_xoffset"	"-290"
 		"filter_ypos"		"30"
 		"filter_xdelta"		"10"
 		"filter_ydelta"		"10"
-
+		
 		"recipefilterbuttons_kv"
 		{
 			"zpos"				"2"
@@ -89,7 +89,7 @@
 			"scaleImage"		"1"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-		}
+		}	
 	}
 
 	"recipecontainer"
@@ -123,12 +123,12 @@
 			"fgcolor"		"200 187 161 255"
 			"wrap"			"1"
 		}
-
+	
 		"InputLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"InputLabel"
-			"font"			"HudFont14Bold"
+			"font"			"HudFontSmallBold"
 			"labelText"		"#Craft_Recipe_Inputs"
 			"textAlignment"	"north-west"
 			"xpos"			"0"
@@ -146,7 +146,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"OutputLabel"
-			"font"			"HudFont14Bold"
+			"font"			"HudFontSmallBold"
 			"labelText"		"#Dynamic_Recipe_Outputs_Not_Complete"
 			"textAlignment"	"north-west"
 			"xpos"			"0"
@@ -164,7 +164,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"UntradableLabel"
-			"font"			"HudFont14Bold"
+			"font"			"HudFontSmallBold"
 			"labelText"		"#Dynamic_Recipe_Outputs_Not_Tradable"
 			"textAlignment"	"west"
 			"xpos"			"0"
@@ -178,7 +178,7 @@
 			"enabled"		"1"
 			"fgcolor"		"117 107 94 255"
 		}
-
+		
 		"CraftButton"
 		{
 			"ControlName"	"CExButton"
@@ -194,7 +194,7 @@
 			"enabled"		"0"
 			"tabPosition"	"0"
 			"labelText"		"#CraftConfirm"
-			"font"			"HudFont24Bold"
+			"font"			"HudFontMediumBold"
 			"textAlignment"	"center"
 			"textinsetx"	"50"
 			"dulltext"		"0"
@@ -202,8 +202,8 @@
 			"Command"		"craft"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-		}
-
+		}		
+		
 		"PrevInputPageButton"
 		{
 			"ControlName"	"CExButton"
@@ -219,7 +219,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"<"
-			"font"			"HudFont14Bold"
+			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -231,7 +231,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CurInputPageLabel"
-			"font"			"HudFont14Bold"
+			"font"			"HudFontSmallBold"
 			"labelText"		"%inputpage%"
 			"textAlignment"	"center"
 			"xpos"			"210"
@@ -260,14 +260,14 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		">"
-			"font"			"HudFont14Bold"
+			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"Command"		"nextinputpage"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-		}
+		}			
 	}
 
 	"inventorycontainer"
@@ -286,7 +286,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"NoMatches"
-			"font"			"HudFont14Bold"
+			"font"			"HudFontSmallBold"
 			"labelText"		"#Dynamic_Recipe_No_Matching_Items"
 			"textAlignment"	"west"
 			"xpos"			"0"
@@ -307,7 +307,7 @@
 			"ControlName"	"CheckButton"
 			"fieldName"		"UntradableCheckBox"
 			"labelText"		"#Dynamic_Recipe_Untradable_Checkbox"
-			"Font"			"HudFont11Bold"
+			"Font"			"HudFontSmallestBold"
 			"textAlignment"	"west"
 			"xpos"			"-4"
 			"ypos"			"2"
@@ -327,7 +327,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"BackpackItems"
-			"font"			"HudFont14Bold"
+			"font"			"HudFontSmallBold"
 			"labelText"		"#Dynamic_Recipe_Matching_Items"
 			"textAlignment"	"west"
 			"xpos"			"0"
@@ -342,7 +342,7 @@
 			"fgcolor"		"200 187 161 255"
 			"wrap"			"1"
 		}
-
+			
 		"CancelButton"
 		{
 			"ControlName"	"CExButton"
@@ -358,7 +358,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"#Cancel"
-			"font"			"HudFont24Bold"
+			"font"			"HudFontMediumBold"
 			"textAlignment"	"center"
 			"textinsetx"	"50"
 			"dulltext"		"0"
@@ -366,8 +366,8 @@
 			"Command"		"cancel"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-		}
-
+		}	
+		
 		"PrevPageButton"
 		{
 			"ControlName"	"CExButton"
@@ -383,7 +383,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"<"
-			"font"			"HudFont14Bold"
+			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -395,7 +395,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CurPageLabel"
-			"font"			"HudFont14Bold"
+			"font"			"HudFontSmallBold"
 			"labelText"		"%backpackpage%"
 			"textAlignment"	"center"
 			"xpos"			"26"
@@ -424,14 +424,14 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		">"
-			"font"			"HudFont14Bold"
+			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"Command"		"nextpage"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-		}
+		}				
 	}
 
 	"mouseoveritempanel"
@@ -448,13 +448,13 @@
 		"noitem_textcolor"		"117 107 94 255"
 		"PaintBackgroundType"	"2"
 		"paintborder"	"1"
-
+		
 		"text_ypos"			"20"
 		"text_center"		"1"
 		"model_hide"		"1"
 		"resize_to_text"	"1"
 		"padding_height"	"15"
-
+		
 		"attriblabel"
 		{
 			"font"			"ItemFontAttribLarge"
@@ -478,7 +478,7 @@
 	{
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"mousedragitempanel"
-
+		
 		"xpos"			"c-70"
 		"ypos"			"270"
 		"zpos"			"100"
@@ -489,18 +489,18 @@
 		"noitem_textcolor"		"117 107 94 255"
 		"PaintBackgroundType"	"2"
 		"paintborder"	"1"
-
+		
 		"model_ypos"	"5"
 		"model_tall"	"35"
 		"text_ypos"		"60"
 		"text_center"	"1"
 		"name_only"		"1"
-
+		
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget" "0"
 			"allow_rot"				"0"
 		}
 	}
-
+	
 }

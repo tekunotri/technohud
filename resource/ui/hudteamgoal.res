@@ -1,28 +1,10 @@
-"Resource/UI/HudTeamGoal.res"
+"resource/ui/hudteamgoal.res"
 {
-	"HudTeamGoalBG"
-	{
-		"ControlName"		"CTFImagePanel"
-		"fieldName"		"HudTeamGoalBG"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"-1"
-		"wide"			"320"
-		"tall"			"150"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../hud/death_panel_blue_bg"
-		"scaleImage"		"1"
-		"teambg_2"		"../hud/death_panel_red_bg"
-		"teambg_3"		"../hud/death_panel_blue_bg"
-	}
 	"SwitchLabel"
 	{
 		"ControlName"		"Label"
 		"fieldName"		"SwitchLabel"
-		"font"			"HudFont14Bold"
+		"font"			"HudFont14Shadow"
 		"xpos"			"80"
 		"ypos"			"20"
 		"zpos"			"1"
@@ -40,7 +22,7 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"		"GoalLabel"
-		"font"			"HudFont14"
+		"font"			"HudFont14Shadow"
 		"xpos"			"80"
 		"ypos"			"35"
 		"zpos"			"1"
@@ -57,6 +39,27 @@
 		"labelText"		""
 		"textAlignment"		"North"
 	}
+
+	//nuked elements (commenting these out causes a ctd on class join)
+	"HudTeamGoalBG"
+	{
+		"ControlName"		"CTFImagePanel"
+		"fieldName"		"HudTeamGoalBG"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-1"
+		"wide"			"0"
+		"tall"			"0"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/death_panel_blue_bg"
+		"scaleImage"		"1"
+		"teambg_2"		"../hud/death_panel_red_bg"
+		"teambg_3"		"../hud/death_panel_blue_bg"
+	}
+
 	"GoalImage"
 	{
 		"ControlName"		"CTFImagePanel"
@@ -64,8 +67,8 @@
 		"xpos"			"27"
 		"ypos"			"25"
 		"zpos"			"1"
-		"wide"			"45"
-		"tall"			"45"
+		"wide"			"0"
+		"tall"			"0"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"

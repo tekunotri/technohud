@@ -3,7 +3,7 @@
 //STORE						//#base "../../../dev/reloadmenu.res"
 //ONLY WORKS WITH			//vgui_cache_res_files 0
 
-"Resource/DEV/ReloadMenu.res"
+"resource/dev/reloadmenu.res"
 {
 	"ReloadMenuButton"
 	{

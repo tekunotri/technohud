@@ -1,3 +1,3 @@
-#base "../../customizations/streamermode/hudtournament.res"
-#base "../../customizations/tournament_style.res"
+#base "../../#streamermode/hudtournament.res"
+#base "../../../../cfg/technohud/th_tournament.txt"
 #base "hudtournament_base.res"

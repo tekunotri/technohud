@@ -1,4 +1,4 @@
-"Resource/UI/HudTournament.res"
+"resource/ui/hudtournament.res"
 {
 	//colored backgrounds, i'd use THBlue/THRed but they make the white text a bit too illegible.
 	"HudTournamentBLUEBG"

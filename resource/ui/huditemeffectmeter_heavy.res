@@ -1,8 +1,9 @@
 #base "huditemeffectmeter.res"
-"Resource/UI/HudItemEffectMeter_Heavy.res"
+"resource/ui/huditemeffectmeter_heavy.res"
 {
 	HudItemEffectMeter
 	{
 		"ypos"			"r105"
+		"ypos_minmode"	"r180"
 	}
 }

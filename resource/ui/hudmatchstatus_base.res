@@ -1,4 +1,4 @@
-"Resource/UI/HudMatchStatus.res"
+"resource/ui/hudmatchstatus.res"
 {
 	"HudMatchStatus"
 	{
@@ -277,8 +277,8 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"ObjectiveStatusTimePanel"
-		"xpos"				"cs-0.5"
-		"ypos"				"-14"
+		"xpos"				"cs-0.5-7"
+		"ypos"				"-13"
 		"zpos"				"5"
 		"wide"				"110"
 		"tall"				"150"
@@ -312,7 +312,7 @@
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
 			"font"			"HudFont18Shadow"
-			"font_minmode"	"HudFont14"
+			"font_minmode"	"HudFont18Shadow"
 			"font_lodef"	"HudFont24"
 			"fgcolor"		"TanLight"
 			"xpos"			"23"

@@ -1,4 +1,4 @@
-"Resource/UI/IntroMenu.res"
+"resource/ui/intromenu.res"
 {
 	"intro"
 	{
@@ -261,7 +261,7 @@
 		"buttonoffsety_lodef"		"18"
 		"fonttext"			"MatchmakingDialogMenuLarge"
 		"fonttext_lodef"			"MatchmakingDialogMenuSmall"
-		"fgcolor"			"HudOffWhite"
+		"fgcolor"			"FullWhite"
 
 		"button"
 		{

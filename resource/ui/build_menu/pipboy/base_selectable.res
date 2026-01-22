@@ -1,4 +1,4 @@
-"Resource/UI/build_menu/base_selectable.res"
+"resource/ui/build_menu/base_selectable.res"
 {
 	"MainBackground"
 	{
@@ -34,7 +34,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"fgcolor"		"Black"
+		"fgcolor"		"255 255 255 255"
 	}
 
 	"ItemBackground"
@@ -50,7 +50,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"
 		"icon"			"hud_menu_item_bg"
-		"iconColor"		"0 0 0 255"
+		"iconColor"		"ProgressOffWhite"
 	}
 
 	"BuildingIcon"
@@ -82,15 +82,14 @@
 		"enabled"		"0"
 		"scaleImage"	"1"
 		"icon"			"ico_metal"
-		"iconColor"		"TanDarker"
+		"iconColor"		"White" //"TanDarker"
 	}
 
 	"CostLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CostLabel"
-		"font"			"HudFont15"
-		"fgcolor"		"0 255 0 255"
+		"font"			"HudFont13"
 		"xpos"			"3"
 		"ypos"			"50"
 		"zpos"			"1"
@@ -102,5 +101,6 @@
 		"enabled"		"1"
 		"labelText"		"%metal%"
 		"textAlignment"	"center"
+		"fgcolor"		"255 255 255 255"
 	}
 }

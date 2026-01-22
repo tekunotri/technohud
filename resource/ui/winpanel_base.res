@@ -1,6 +1,6 @@
-"Resource/UI/winpanel.res"
-//Original File by Shredder for c-sharp hud
+"resource/ui/winpanel.res"
 {
+	//Original File by Shredder for c-sharp hud modified for technohud
 	"TeamScoresPanel"
 	{
 		"ControlName"		"EditablePanel"
@@ -216,7 +216,6 @@
 			"tall"			"13"
 			"visible"		"1"
 			"fillcolor"		"TransparentBlack"
-			"border"		"WinPanelBlueScore"
 		}
 		"RedScoreBG2"
 		{
@@ -227,7 +226,6 @@
 			"tall"			"13"
 			"visible"		"1"
 			"fillcolor"		"TransparentBlack"
-			"border"		"WinPanelRedScore"
 		}
 	}
 
@@ -250,7 +248,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"WinningTeamLabel"
-		"font"			"TF2Build18"
+		"font"			"HudFont18"
 		"xpos"			"-20"
 		"ypos"			"0"
 		"zpos"			"1"
@@ -269,7 +267,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"WinningTeamLabelDropshadow"
-		"font"			"TF2Build18"
+		"font"			"HudFont18"
 		"fgcolor"		"0 0 0 248"
 		"xpos"			"-19"
 		"ypos"			"1"
@@ -289,7 +287,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"AdvancingTeamLabel"
-		"font"			"TF2Build18"
+		"font"			"HudFont18"
 		"xpos"			"-20"
 		"ypos"			"0"
 		"zpos"			"1"
@@ -308,7 +306,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"AdvancingTeamLabelDropshadow"
-		"font"			"TF2Build18"
+		"font"			"HudFont18"
 		"fgcolor"		"0 0 0 248"
 		"xpos"			"-19"
 		"ypos"			"1"
@@ -343,11 +341,32 @@
 		"brighttext"		"0"
 		"centerwrap"	"1"
 	}
-	"DetailsLabel"
+	"WinReasonLabelShadow"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"		"WinReasonLabelShadow"
+		"font"			"HudFont10"
+		"xpos"			"-1"
+		"ypos"			"-1"
+		"zpos"			"1"
+		"wide"			"268"
+		"tall"			"30"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%WinReasonLabel%"
+		"dulltext"		"0"
+		"brighttext"		"0"
+		"centerwrap"	"1"
+		"fgcolor_override"		"0 0 0 248"
+		"pin_to_sibling"		"WinReasonLabel"
+	}
+	"DetailsLabel" //wont work with normal shadow method fml...
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"DetailsLabel"
-		"font"			"HudFont10"
+		"font"			"HudFont10Shadow"
 		"xpos"			"-20"
 		"ypos"			"37"
 		"zpos"			"1"
@@ -383,7 +402,7 @@
 	"TopPlayersLabel"
 	{
 		"ControlName"		"CExLabel"
-		"fieldName"		"TopPlayerLabel"
+		"fieldName"		"TopPlayersLabel"
 		"font"			"HudFont8"
 		"xpos"			"6"
 		"ypos"			"328"

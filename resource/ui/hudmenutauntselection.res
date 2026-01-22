@@ -1,5 +1,5 @@
 // something something... file from m0rehud, looks clean
-"Resource/UI/HudMenuTauntSelection.res"
+"resource/ui/hudmenutauntselection.res"
 {
 	//==================================================================================================================================================
 	// TITLE

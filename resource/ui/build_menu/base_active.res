@@ -1,4 +1,4 @@
-"Resource/UI/build_menu/base.res"
+"resource/ui/build_menu/base.res"
 {
 	"ItemNameLabel"
 	{
@@ -73,7 +73,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CostLabel"
-		"font"			"HudFont13"
+		"font"			"HudFont12Shadow"
 		"xpos"			"3"
 		"ypos"			"50"
 		"zpos"			"1"
@@ -127,7 +127,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
-		"font"			"HudMenuNumberFont"
+		"font"			"HudFont11" //idk what this does
 		"fgcolor"		"Black"
 		"xpos"			"0"
 		"ypos"			"98"

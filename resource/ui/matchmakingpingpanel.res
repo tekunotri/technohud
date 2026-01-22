@@ -1,6 +1,6 @@
-#base "MatchMakingDashboardSidePanel.res"
+#base "matchmakingdashboardsidepanel.res"
 
-"Resource/UI/MatchMakingPingPanel.res"
+"resource/ui/matchmakingpingpanel.res"
 {
 	"PingPanel"
 	{
@@ -239,9 +239,9 @@
 		"ControlName"		"CCvarSlider"
 		"fieldName"		"PingSlider"
 		"xpos"		"rs1-10"
-		"ypos"		"175"
+		"ypos"		"170"
 		"wide"		"f40"
-		"tall"		"24"
+		"tall"		"27"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"RoundedCorners"		"15"

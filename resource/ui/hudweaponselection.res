@@ -1,4 +1,5 @@
-"Resource/UI/HudWeaponSelection.res"
+//this file does nothing, but i got pissed off
+"resource/ui/hudweaponselection.res"
 {
 	"modelpanel0"
 	{
@@ -9,11 +10,11 @@
 		"paintborder"	"1"
 		"name_only"		"1"
 		"model_ypos"	"5"
-		"standard_text_color"	"1"
+		"standard_text_color"	"0"
 
 		"itemmodelpanel"
 		{
-			"use_item_rendertarget" "0"
+			"use_item_rendertarget" "1"
 			"allow_rot"				"0"
 		}
 	}
@@ -26,11 +27,11 @@
 		"paintborder"	"1"
 		"name_only"		"1"
 		"model_ypos"	"5"
-		"standard_text_color"	"1"
+		"standard_text_color"	"0"
 
 		"itemmodelpanel"
 		{
-			"use_item_rendertarget" "0"
+			"use_item_rendertarget" "1"
 			"allow_rot"				"0"
 		}
 	}
@@ -43,11 +44,11 @@
 		"paintborder"	"1"
 		"name_only"		"1"
 		"model_ypos"	"5"
-		"standard_text_color"	"1"
+		"standard_text_color"	"0"
 
 		"itemmodelpanel"
 		{
-			"use_item_rendertarget" "0"
+			"use_item_rendertarget" "1"
 			"allow_rot"				"0"
 		}
 	}
@@ -60,11 +61,11 @@
 		"paintborder"	"1"
 		"name_only"		"1"
 		"model_ypos"	"5"
-		"standard_text_color"	"1"
+		"standard_text_color"	"0"
 
 		"itemmodelpanel"
 		{
-			"use_item_rendertarget" "0"
+			"use_item_rendertarget" "1"
 			"allow_rot"				"0"
 		}
 	}
@@ -77,11 +78,11 @@
 		"paintborder"	"1"
 		"name_only"		"1"
 		"model_ypos"	"5"
-		"standard_text_color"	"1"
+		"standard_text_color"	"0"
 
 		"itemmodelpanel"
 		{
-			"use_item_rendertarget" "0"
+			"use_item_rendertarget" "1"
 			"allow_rot"				"0"
 		}
 	}
@@ -94,11 +95,11 @@
 		"paintborder"	"1"
 		"name_only"		"1"
 		"model_ypos"	"5"
-		"standard_text_color"	"1"
+		"standard_text_color"	"0"
 
 		"itemmodelpanel"
 		{
-			"use_item_rendertarget" "0"
+			"use_item_rendertarget" "1"
 			"allow_rot"				"0"
 		}
 	}

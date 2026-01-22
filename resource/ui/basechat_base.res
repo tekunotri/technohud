@@ -1,4 +1,4 @@
-"Resource/UI/BaseChat.res"
+"resource/ui/basechat.res"
 {
 	"HudChat"
 	{
@@ -7,6 +7,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"xpos"										"2"
+		"ypos"										"17"
 		"wide"										"260"
 		"tall"										"120"
 		"PaintBackgroundType"						"2"

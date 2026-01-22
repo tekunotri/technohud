@@ -1,4 +1,4 @@
-"Resource/UI/build_menu/dispenser_inactive.res"
+"resource/ui/build_menu/dispenser_inactive.res"
 {
 	"ItemNameLabel"
 	{
@@ -18,7 +18,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"fgcolor"		"0 255 0 255"
+		"fgcolor"		"255 255 255 255"
 	}
 
 	"ItemBackground"
@@ -34,7 +34,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"
 		"icon"			"hud_menu_item_bg_outline"
-		"iconColor"		"0 0 0 255"
+		"iconColor"		"ProgressOffWhiteTransparent"
 	}
 
 	"NotBuiltLabel"
@@ -55,7 +55,7 @@
 		"textAlignment"	"Center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"fgcolor"		"0 255 0 255"
+		"fgcolor"		"255 0 0 200"
 
 	}
 
@@ -93,7 +93,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"
 		"icon"			"ico_key_blank"
-		"iconColor"		"0 255 0 128"
+		"iconColor"		"255 255 255 128"
 	}
 
 	"NumberLabel"
@@ -101,7 +101,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
 		"font"			"HudMenuNumberFont"
-		"fgcolor"		"0 255 0 255"
+		"fgcolor"		"Black"
 		"xpos"			"0"
 		"ypos"			"98"
 		"zpos"			"1"

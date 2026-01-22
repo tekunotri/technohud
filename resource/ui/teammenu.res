@@ -1,4 +1,4 @@
-"Resource/UI/TeamMenu.res"
+"resource/ui/teammenu.res"
 {
 	"team"
 	{
@@ -410,7 +410,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"HudFont12"
-		"fgcolor"		"HudOffWhite"
+		"fgcolor"		"FullWhite"
 		"centerwrap"	"1"
 	}
 
@@ -455,7 +455,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"HudFont12"
-		"fgcolor"		"HudOffWhite"
+		"fgcolor"		"FullWhite"
 		"centerwrap"	"1"
 	}
 

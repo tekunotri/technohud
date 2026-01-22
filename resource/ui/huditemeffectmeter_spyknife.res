@@ -1,9 +1,10 @@
 #base "huditemeffectmeter.res"
 
-"Resource/UI/HudItemEffectMeter_SpyKnife.res"
+"resource/ui/huditemeffectmeter_spyknife.res"
 {
 	HudItemEffectMeter
 	{
-		"ypos"			"r105"	[$WIN32]
+		"ypos"			"r105"
+		"ypos_minmode"	"r180"
 	}
 }

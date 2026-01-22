@@ -1,6 +1,6 @@
-//#base "HudObjectivePlayerDestruction.res"
+//#base "hudobjectiveplayerdestruction.res"
 //wonky file. only used in arena_perks from SF mappool
-"Resource/UI/HudObjectiveArenaHybrid.res"
+"resource/ui/hudobjectivearenahybrid.res"
 {	
 	"ObjectiveStatusRobotDestruction"
 	{

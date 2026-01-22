@@ -1,4 +1,4 @@
-"Resource/UI/WaveStatusPanel.res" // controls mvm-specific tidbits, mostly created to disable backgrounds though. -techno
+"resource/ui/wavestatuspanel.res" // controls mvm-specific tidbits, mostly created to disable backgrounds though. -techno
 {
 	"Background"
 	{
@@ -29,19 +29,33 @@
 		"font"			"HudFontSmallestBold"
 		"fgcolor"		"FullWhite"
 		"xpos"			"200"
-		"ypos"			"6"
+		"ypos"			"5"
 		"zpos"			"3"
 		"wide"			"200"
 		"tall"			"15"
-		"xpos_minmode"	"110"
-		"wide_minmode"	"-300"
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"				"center"
-		"textAlignment_minmode"		"west"
 		"labelText"					"%wave_count%"
 	}
 
+	"WaveCountLabelShadow" // looks like ass but eh.
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"WaveCountLabelShadow"
+		"font"			"HudFontSmallestBold"
+		"fgcolor"		"Black"
+		"xpos"			"-1"
+		"ypos"			"-1"
+		"zpos"			"3"
+		"wide"			"200"
+		"tall"			"15"
+		"visible"		"1"
+		"enabled"		"1"
+		"textAlignment"				"center"
+		"labelText"					"%wave_count%"
+		"pin_to_sibling"	"WaveCountLabel"
+	}
 	"SeparatorBar"
 	{
 		"ControlName"	"Panel"
@@ -67,7 +81,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SupportLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"HudFont11Shadow"
 		"fgcolor"		"FullWhite"
 		"xpos"			"55"
 		"ypos"			"6"
@@ -99,13 +113,14 @@
 		"wide_minmode"	"138"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../HUD/tournament_panel_blu"
+		"drawcolor"		"THRed"
+		"image"			"white"
 
 		"src_corner_height"	"22"				// pixels inside the image
 		"src_corner_width"	"22"
 
-		"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"
+		"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"0"
 	}
 
 	"ProgressBarBG"
@@ -122,12 +137,13 @@
 		"wide_minmode"	"140"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../HUD/tournament_panel_tan"
+		"drawcolor"		"DarkGray"
+		"image"			"White"
 
 		"src_corner_height"	"22"				// pixels inside the image
 		"src_corner_width"	"22"
 
-		"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"
+		"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"0"
 	}
 }

@@ -1,4 +1,4 @@
-"Resource/UI/Hud_Obj_Tele_Entrance.res"
+"resource/ui/hud_obj_tele_entrance.res"
 {
 	"BuildingStatusItem"
 	{

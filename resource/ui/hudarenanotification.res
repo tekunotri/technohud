@@ -1,4 +1,4 @@
-"Resource/UI/HudArenaNotification.res"
+"resource/ui/hudarenanotification.res"
 {
 	"HudArenaNotificationBG"
 	{
@@ -7,11 +7,11 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"-1"
-		"wide"			"320"
-		"tall"			"200"
+		"wide"			"0"
+		"tall"			"0"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/death_panel_blue_bg"
 		"scaleImage"		"1"
@@ -20,18 +20,16 @@
 	}
 
 	"WarningLabel"
-	{
+	{	
 		"ControlName"		"Label"
 		"fieldName"		"WarningLabel"
-		"font"			"HudFont52Bold"
+		"font"			"ScoreboardTeamScore"
 		"xpos"			"40"
 		"ypos"			"40"
 		"zpos"			"1"
 		"wide"			"50"
 		"tall"			"50"
 		"wide"			"230"	[$WIN32]
-		"wide"			"180"	[$X360]
-		"tall"			"55"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -40,18 +38,40 @@
 		"labelText"		"!"
 		"textAlignment"		"north"
 	}
+	"WarningLabelShadow" //note: crashes the game if fieldname is the same as WarningLabel
+	{	
+		"ControlName"		"Label"
+		"fieldName"		"WarningLabelShadow"
+		"font"			"ScoreboardTeamScore"
+		"xpos"			"-1"
+		"ypos"			"-1"
+		"zpos"			"1"
+		"wide"			"50"
+		"tall"			"50"
+		"wide"			"230"	[$WIN32]
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"wrap"			"1"
+		"labelText"		"!"
+		fgcolor_override		"Black"
+		"textAlignment"		"north"
+		"pin_to_sibling"			"WarningLabel"
+		"pin_corner_to_sibling"		"PIN_TOPLEFT"
+		"pin_to_sibling_corner"		"PIN_TOPLEFT"
+	}
 	"BalanceLabel"
-	{
+	{	
 		"ControlName"		"Label"
 		"fieldName"		"BalanceLabel"
-		"font"			"HudFont14Bold"
+		"font"			"HudFont13Shadow" //i love inconsistencies (duplicate shadow method doesn't work on these)
 		"xpos"			"75"
 		"ypos"			"30"
 		"ypos_hidef"	"23"
 		"ypos_lodef"	"20"
 		"zpos"			"1"
 		"wide"			"230"	[$WIN32]
-		"wide"			"180"	[$X360]
 		"tall"			"55"
 		"autoResize"		"0"
 		"pinCorner"		"0"
@@ -61,16 +81,33 @@
 		"labelText"		""
 		"textAlignment"		"west"
 	}
-
 	"BalanceLabelTip"
-	{
+	{	
 		"ControlName"		"Label"
 		"fieldName"		"BalanceLabelTip"
-		"font"			"HudFont11Bold"
+		"font"			"HudFont12Bold"
 		"xpos"			"75"
 		"ypos"			"75"
 		"ypos_hidef"	"23"
 		"ypos_lodef"	"20"
+		"zpos"			"1"
+		"wide"			"230"	[$WIN32]
+		"tall"			"30"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"wrap"			"1"
+		"labelText"		"%notificationtip%"
+		"textAlignment"		"west"
+	}
+	"BalanceLabelTipShadow"
+	{	
+		"ControlName"		"Label"
+		"fieldName"		"BalanceLabelTipShadow"
+		"font"			"HudFont12Bold"
+		"xpos"			"-1"
+		"ypos"			"-1"
 		"zpos"			"1"
 		"wide"			"230"	[$WIN32]
 		"wide"			"180"	[$X360]
@@ -81,7 +118,11 @@
 		"enabled"		"1"
 		"wrap"			"1"
 		"labelText"		"%notificationtip%"
+		"fgcolor_override"		"Black"
 		"textAlignment"		"west"
+		"pin_to_sibling"			"BalanceLabelTip"
+		"pin_corner_to_sibling"		"PIN_TOPLEFT"
+		"pin_to_sibling_corner"		"PIN_TOPLEFT"
 	}
 	"SwitchImage"
 	{

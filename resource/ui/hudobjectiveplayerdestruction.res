@@ -1,6 +1,6 @@
 // Using "proportionaltoparent" on parent elements will break their positioning.
 // file from m0rehud, since this gamemode is too painful to test. soz
-"Resource/UI/HudObjectivePlayerDestruction.res"
+"resource/ui/hudobjectiveplayerdestruction.res"
 {
 	"ObjectiveStatusRobotDestruction"
 	{

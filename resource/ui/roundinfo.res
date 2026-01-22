@@ -1,4 +1,4 @@
-"Resource/UI/RoundInfo.res"
+"resource/ui/roundinfo.res"
 {
 	"roundinfo"
 	{
@@ -181,7 +181,7 @@
 		"buttonoffsety_lodef"		"18"
 		"fonttext"			"MatchmakingDialogMenuLarge"
 		"fonttext_lodef"			"MatchmakingDialogMenuSmall"
-		"fgcolor"			"HudOffWhite"
+		"fgcolor"			"FullWhite"
 
 		"button"
 		{

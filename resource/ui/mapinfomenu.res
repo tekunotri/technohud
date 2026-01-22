@@ -1,4 +1,4 @@
-"Resource/UI/MapInfoMenu.res"
+"resource/ui/mapinfomenu.res"
 {
 	"mapinfo"
 	{
@@ -59,7 +59,7 @@
 	{
 		"ControlName"	"CTFRichText"
 		"fieldName"		"MapInfoText"
-		"font"			"DefaultShadow"
+		"font"			"Default"
 		"xpos"			"c-160"
 		"ypos"			"c-125"
 		"zpos"			"1"
@@ -102,7 +102,30 @@
 		"pinCorner"		"2"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"CONTINUE (&E)"
+		"labelText"		"CONTINUE"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"command"		"continue"
+		"default"		"1"
+		"font"			"Default"
+		"fgcolor"		"Black"
+
+	}
+	"ok2"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"ok2"
+		"xpos"			"9999"
+		"ypos"			"c110"
+		"zpos"			"6"
+		"wide"			"0"
+		"tall"			"0"
+		"autoResize"	"0"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"&E"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -111,7 +134,6 @@
 		"font"			"Default"
 		"fgcolor"		"Black"
 	}
-
 	"MapInfoWatchIntro" [$WIN32]
 	{
 		"ControlName"	"CExButton"
@@ -154,7 +176,7 @@
 		"brighttext"	"0"
 		"command"		"back"
 		"font"			"Default"
-		"fgcolor"		"Black"
+		"fgcolor"		"FullWhite" //hackfix for the text being black unless you mouse over it
 	}
 
 	"MenuBG"
@@ -196,7 +218,9 @@
 		"tall"	 		"286"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/color_panel_brown"
+		"image"			"white"
+		"drawcolor"		"0 0 0 255"
+		"alpha"			"224" //closest i can get to class selection bg
 
 		"src_corner_height"		"23"
 		"src_corner_width"		"23"
@@ -216,7 +240,7 @@
 		"tall"			"480"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"0 0 0 128"
+		"fillcolor"		"TransparentMedLightBlack"
 		"PaintBackgroundType"	"0"
 	}
 

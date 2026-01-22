@@ -1,6 +1,6 @@
 // I guess I'll leave this here in case game type selection gets re-implemented again.
 
-"Resource/UI/ReplayBrowser/MainPanel.res"
+"resource/ui/replaybrowser/mainpanel.res"
 {
 	"ReplayBrowser"
 	{
@@ -455,7 +455,7 @@
 			"proportionaltoparent"					"1"
 			"mouseinputenabled"						"0"
 			"AllCaps"								"1"
-			"font"									"Symbols28"
+			"font"									"Icons28"
 			"labelText"								"_"
 			"textAlignment"							"center"
 			"fgcolor"								"Gray"

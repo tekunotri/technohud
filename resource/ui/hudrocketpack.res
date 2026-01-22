@@ -1,10 +1,11 @@
 #base "huditemeffectmeter_scout.res"
-"Resource/UI/HudRocketPack.res"
+"resource/ui/hudrocketpack.res"
 {
 
 "HudItemEffectMeter"
 {
     "ypos"                  "r95"
+	"ypos_minmode"			"r185"
 }
 
 "ItemEffectMeter"

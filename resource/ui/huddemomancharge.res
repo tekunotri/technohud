@@ -1,4 +1,4 @@
-"Resource/UI/HudDemomanCharge.res"
+"resource/ui/huddemomancharge.res"
 {
 	"ChargeMeter"
 	{
@@ -9,12 +9,12 @@
 		"ypos"			"0"
 		"zpos"			"2"
 		"wide"			"120"
+		"wide_minmode"	"80"
 		"tall"			"6"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"Left"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"bgcolor_override"	"ItemMeterBG"

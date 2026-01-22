@@ -1,4 +1,4 @@
-"Resource/UI/destroy_menu/sentry_active.res"
+"resource/ui/destroy_menu/sentry_active.res"
 {
 	"ItemNameLabel"
 	{
@@ -18,7 +18,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"fgcolor"		"0 255 0 255"
+		"fgcolor"		"255 255 255 255"
 	}
 	"ItemBackground"
 	{
@@ -33,7 +33,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"
 		"icon"			"hud_menu_item_bg_outline"
-		"iconColor"		"0 0 0 255"
+		"iconColor"		"ProgressOffWhite"
 	}
 
 	"DestroyIcon"
@@ -49,7 +49,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"
 		"icon"			"ico_demolish"
-		"iconColor"		"0 255 0 255"
+		"iconColor"		"255 255 255 255"
 	}
 
 	"BuildingIcon"
@@ -65,7 +65,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"
 		"icon"			"obj_status_sentrygun_1"
-		"iconColor"		"0 255 0 255"
+		"iconColor"		"255 255 255 128"
 	}
 
 	"NumberBg"
@@ -81,7 +81,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"
 		"icon"			"ico_key_blank"
-		"iconColor"		"0 255 0 255"
+		"iconColor"		"255 255 255 255"
 	}
 
 	"NumberLabel"
@@ -89,7 +89,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
 		"font"			"HudMenuNumberFont"
-		"fgcolor"		"0 255 0 255"
+		"fgcolor"		"Black"
 		"xpos"			"0"
 		"ypos"			"98"
 		"zpos"			"1"

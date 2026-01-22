@@ -1,6 +1,6 @@
 #base "../../dev/reloadscheme.res"
 
-"Resource/UI/Econ/InspectionPanel.res"
+"resource/ui/econ/inspectionpanel.res"
 {
 	"WeaponBG"
 	{

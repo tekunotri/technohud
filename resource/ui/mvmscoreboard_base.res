@@ -1,11 +1,11 @@
-"Resource/UI/MvMScoreboard.res"
+"resource/ui/mvmscoreboard.res"
 {
 	"WaveStatusPanel"
 	{
 		"ControlName"		"CWaveStatusPanel"
 		"fieldName"			"WaveStatusPanel"
-		"xpos"				"0"
-		"ypos"				"8"
+		"xpos"				"cs-0.5"
+		"ypos"				"0"
 		"zpos"				"0"
 		"wide"				"600"
 		"tall"				"67"
@@ -50,7 +50,7 @@
 			"ypos"			"0"
 			"wide"			"150"
 			"tall"			"10"
-			"fgcolor"		"tanlight"
+			"fgcolor"		"White"
 		}
 
 		"DifficultyValue"
@@ -64,49 +64,45 @@
 			"ypos"			"9"
 			"wide"			"150"
 			"tall"			"10"
-			"fgcolor"		"tanlight"
+			"fgcolor"		"White"
 		}
-	}
-
-	"PlayerListBackground"
-	{
-		"ControlName"		"ScalableImagePanel"
-		"fieldName"		"PlayerListBackground"
-		"xpos"			"25"
-		"ypos"			"75"
-		"zpos"			"-1"
-		"wide"			"550"
-		"tall"			"150"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../hud/tournament_panel_brown"
-
-		"scaleImage"		"1"
-
-		"src_corner_height"	"22"				// pixels inside the image
-		"src_corner_width"	"22"
-
-		"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"
 	}
 
 	"MvMPlayerList"
 	{
-		"ControlName"	"SectionedListPanel"
-		"fieldName"		"MvMPlayerList"
-		"xpos"			"35"
-		"ypos"			"79"
-		"wide"			"530"
-		"tall"			"150"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"autoresize"	"3"
-		"linespacing"	"22"
-		"textcolor"		"White"
+		"ControlName"								"SectionedListPanel"
+		"FieldName"									"MvMPlayerList"
+		"XPos"										"cs-0.5"
+		"YPos"										"65"
+		"Wide"										"530"
+		"Tall"										"150"
+		"Visible"									"1"
+		"Enabled"									"1"
+		"autoresize"								"3"
+		"linespacing"								"22"
+		"textcolor"									"White"
+		"ProportionalToParent"						"1"
+		"alpha"										"255"
 	}
+	"PlaylistBG"
+	{
+		"ControlName"								"EditablePanel"
+		"FieldName"									"PlaylistBG"
+		"XPos"										"-3"
+		"YPos"										"-11"
+		"ZPos"										"-1"
+		"Wide"										"524"
+		"Tall"										"150"
+		"Visible"									"1"
+		"Enabled"									"1"
+		"PaintBackground"							"1"
+		"PaintBackgroundType"						"0"
+		"BGColor_Override"							"0 0 0 75"
+		"ProportionalToParent"						"1"
 
+		"Pin_To_Sibling"							"MvMPlayerList"
+	}
+	//todo: rework bg on this too
 	"CreditStatsContainer"
 	{
 		"ControlName"	"EditablePanel"
@@ -214,5 +210,20 @@
 			"tall"			"20"
 			"fgcolor"		"tanlight"
 		}
+	}
+	//==================================================================================================================================================
+	// REMOVED ELEMENTS
+	//==================================================================================================================================================
+
+	"PlayerListBackground"
+	{
+		"ControlName"								"ScalableImagePanel"
+		"FieldName"									"PlayerListBackground"
+		"XPos"										"9999"
+		"YPos"										"9999"
+		"Wide"										"0"
+		"Tall"										"0"
+		"Visible"									"0"
+		"Enabled"									"0"
 	}
 }

@@ -1,4 +1,4 @@
-"Resource/UI/winpanel.res"
+"resource/ui/winpanel.res"
 {
 	"TFStatsSummary"
 	{
@@ -2562,7 +2562,7 @@
 		"textadjust"		"3"
 		"textadjust_lodef"		"0"
 		"zpos"				"6"
-		"fgcolor"			"HudOffWhite"
+		"fgcolor"			"FullWhite"
 
 		"button"
 		{

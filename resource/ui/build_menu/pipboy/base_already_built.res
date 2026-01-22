@@ -1,10 +1,10 @@
-	"Resource/UI/build_menu/base.res"
+	"resource/ui/build_menu/base.res"
 {
 	"ItemNameLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ItemNameLabel"
-		"font"			"HudFont10"
+		"font"			"HudFont12"
 		"xpos"			"3"
 		"ypos"			"2"
 		"zpos"			"1"
@@ -14,11 +14,11 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"Sentry"
+		"labelText"		"#TF_Object_Sentry"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"fgcolor"		"0 255 0 255"
+		"fgcolor"		"255 255 255 255"
 	}
 
 	"ItemBackground"
@@ -34,7 +34,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"
 		"icon"			"hud_menu_item_bg"
-		"iconColor"		"0 0 0 255"
+		"iconColor"		"ProgressOffWhite"
 	}
 
 	"CantBuildReason"
@@ -55,7 +55,7 @@
 		"textAlignment"	"Center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"fgcolor"		"0 255 0 255"
+		"fgcolor"		"255 0 0 200"
 	}
 	"MetalIcon"
 	{
@@ -70,15 +70,14 @@
 		"enabled"		"0"
 		"scaleImage"	"1"
 		"icon"			"ico_metal"
-		"iconColor"		"0 255 0 255"
+		"iconColor"		"White" //"TanDarker"
 	}
 
 	"CostLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CostLabel"
-		"font"			"HudFont15"
-		"fgcolor"		"0 255 0 255"
+		"font"			"HudFont13"
 		"xpos"			"3"
 		"ypos"			"50"
 		"zpos"			"1"
@@ -90,14 +89,15 @@
 		"enabled"		"1"
 		"labelText"		"%metal%"
 		"textAlignment"	"center"
+		"fgcolor"		"255 255 255 255"
 	}
 
-	"ModeLabel"
+	"ModeLabel" // new in 29th april 2010 patch
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ModeLabel"
 		"font"			"DefaultSmall"
-		"fgcolor"		"0 255 0 255"
+		"fgcolor"		"TanDarker"
 		"xpos"			"33"
 		"ypos"			"17"
 		"zpos"			"1"
@@ -124,7 +124,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"
 		"icon"			"ico_key_blank"
-		"iconColor"		"0 255 0 255"
+		"iconColor"		"255 255 255 255"
 	}
 
 	"NumberLabel"
@@ -132,7 +132,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
 		"font"			"HudMenuNumberFont"
-		"fgcolor"		"0 255 0 255"
+		"fgcolor"		"Black"
 		"xpos"			"6"
 		"ypos"			"62"
 		"zpos"			"1"

@@ -1,4 +1,4 @@
-"Resource/UI/FreezePanel_Basic.res"
+"resource/ui/freezepanel_basic.res"
 {
 	"itempanel"
 	{
@@ -77,7 +77,7 @@
 			"HealthDeathWarning"	"0.49"
 			"TFFont"		"HudFont14Shadow"
 			"HealthDeathWarningColor"	"HUDDeathWarning"
-			"TextColor"		"HudOffWhite"
+			"TextColor"		"FullWhite"
 		}
 
 		"FreezeLabelKiller"
@@ -118,33 +118,33 @@
 		{
 			"ControlName"		"EditablePanel"
 			"fieldName"		"NemesisSubPanel"
-			"xpos"			"0"		// FIXME
+			"xpos"			"-50"		// FIXME: idk test positions until a decent one
 			"ypos"			"130"
 			"zpos"			"4"
 			"wide"			"306"
 			"tall"			"38"
 			"visible"		"1"
 
-			"NemesisPanelBG"
-			{
-				"ControlName"		"ScalableImagePanel"
-				"fieldName"		"NemesisPanelBG"
-				"xpos"			"95"
-				"ypos"			"4"
-				"zpos"			"5"
-				"wide"			"161"
-				"tall"			"30"
-				"visible"		"1"
-				"enabled"		"1"
-				"image"			"../hud/color_panel_brown"
-				"scaleImage"		"1"
-
-				"src_corner_height"		"23"				// pixels inside the image
-				"src_corner_width"		"23"
-
-				"draw_corner_width"		"6"				// screen size of the corners ( and sides ), proportional
-				"draw_corner_height" 	"6"
-			}
+			//"NemesisPanelBG"
+			//{
+			//	"ControlName"	"ScalableImagePanel"
+			//	"fieldName"		"NemesisPanelBG"
+			//	"xpos"			"95"
+			//	"ypos"			"4"
+			//	"zpos"			"5"
+			//	"wide"			"0"
+			//	"tall"			"0"
+			//	"visible"		"0"
+			//	"enabled"		"0"
+			//	"image"			"../hud/color_panel_brown"
+			//	"scaleImage"		"1"
+			//
+			//	"src_corner_height"		"23"				// pixels inside the image
+			//	"src_corner_width"		"23"
+			//
+			//	"draw_corner_width"		"6"				// screen size of the corners ( and sides ), proportional
+			//	"draw_corner_height" 	"6"
+			//}
 			"NemesisIcon"
 			{
 				"ControlName"	"ImagePanel"
@@ -158,6 +158,22 @@
 				"enabled"		"1"
 				"image"			"../hud/leaderboard_nemesis_freezecam"
 				"scaleImage"	"1"
+			}
+			"NemesisIconShadow"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"NemesisIconShadow"
+				"xpos"			"-1"
+				"ypos"			"-1"
+				"zpos"			"6"
+				"wide"			"36"
+				"tall"			"36"
+				"visible"		"1"
+				"enabled"		"1"
+				"image"			"../hud/leaderboard_nemesis_freezecam"
+				"drawcolor"		"0 0 0 255"
+				"scaleImage"	"1"
+				"pin_to_sibling"	"NemesisIcon"
 			}
 			"NemesisLabel"
 			{
@@ -176,13 +192,13 @@
 				"labelText"		"%nemesisname%"
 				"textAlignment"		"west"
 			}
-			"NemesisLabel2"
+			"NemesisLabelShadow"
 			{
 				"ControlName"		"Label"
-				"fieldName"		"NemesisLabel2"
+				"fieldName"		"NemesisLabelShadow"
 				"font"			"DefaultSmall"
-				"xpos"			"134"
-				"ypos"			"10"
+				"xpos"			"-1"
+				"ypos"			"-1"
 				"zpos"			"6"
 				"wide"			"112"
 				"tall"			"18"
@@ -192,6 +208,8 @@
 				"enabled"		"1"
 				"labelText"		"%nemesisadvice%"
 				"textAlignment"		"west"
+				"pin_to_sibling"	"NemesisLabel"
+				"fgcolor_override"	"Black"
 			}
 		}
 	}

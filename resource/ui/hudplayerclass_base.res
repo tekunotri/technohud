@@ -1,4 +1,4 @@
-"Resource/UI/HudPlayerClass.res"
+"resource/ui/hudplayerclass.res"
 {
 	// player class data
 	"HudPlayerClass"
@@ -17,13 +17,11 @@
 	{
 		"ControlName"	"CTFClassImage"
 		"fieldName"		"PlayerStatusClassImage"
-		"xpos"			"30"	
-		"ypos"			"r66"	
+		"xpos"			"30"
+		"ypos"			"r66"
 		"zpos"			"2"
 		"wide"			"75"
-		"wide_minmode"	"37"
 		"tall"			"75"
-		"tall_minmode"	"37"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/class_scoutred"
@@ -43,9 +41,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/class_spyred"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"teambg_2"		"../hud/class_spyred"
-		"teambg_3"		"../hud/class_spyblue"	
+		"teambg_3"		"../hud/class_spyblue"
 	}
 	"PlayerStatusSpyOutlineImage"
 	{
@@ -234,7 +232,7 @@
 		}
 	}
 
-	"CarryingWeapon"
+	"CarryingWeapon" //todo move this somewhere else?
 	{
 		"ControlName"			"EditablePanel"
 		"fieldName"				"CarryingWeapon"
@@ -263,7 +261,7 @@
 			"tall_minmode"			"f0"
 			"autoResize"			"0"
 			"pinCorner"				"0"
-			"visible"				"1"
+			"visible"				"0"
 			"enabled"				"1"
 			"image"					"../hud/color_panel_brown"
 			"scaleImage"			"1"
@@ -286,7 +284,7 @@
 			"ControlName"		"CExLabel"
 			"fieldName"			"CarryingLabel"
 			"font"				"HudFont11Bold"
-			"font_minmode"		"TFFontMedium"
+			"font_minmode"		"HudFont9"
 			"xpos"				"5"
 			"xpos_minmode"		"5"
 			"ypos"				"3"
@@ -313,7 +311,7 @@
 			"ControlName"		"CExLabel"
 			"fieldName"			"CarryingLabelDropShadow"
 			"font"				"HudFont11Bold"
-			"font_minmode"		"TFFontMedium"
+			"font_minmode"		"HudFont9"
 			"xpos"				"p0.011"
 			"xpos_minmode"		"6"
 			"ypos"				"p0.12"

@@ -1,4 +1,4 @@
-"Resource/UI/ObjectiveStatusEscort.res"
+"resource/ui/objectivestatusescort.res"
 {
 	"ObjectiveStatusEscort"
 	{
@@ -283,7 +283,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
-			"font"									"HudFont11"
+			"font"									"HudFont10"
 			"labelText"								"%recede%"
 			"textAlignment"							"center"
 

@@ -1,4 +1,4 @@
-"Resource/UI/MatchMakingTooltip.res"
+"resource/ui/matchmakingtooltip.res"
 {
 	"TooltipPanel"
 	{
@@ -13,7 +13,7 @@
 		"PaintBackgroundType"	"2"
 		"border"		"MainMenuBGBorder"
 		"mouseinputenabled"	"0"
-
+		
 		"TipLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -22,17 +22,17 @@
 
 			if_small
 			{
-				"font"	"HudFont9"
+				"font"	"FontStoreOriginalPrice"
 			}
 
 			if_medium
 			{
-				"font"	"HudFont14"
+				"font"	"HudFontSmall"
 			}
 
 			if_large
 			{
-				"font"	"HudFont14Bold"
+				"font"	"HudFontSmallBold"
 			}
 
 			"labelText"		"%tiptext%"
@@ -51,5 +51,5 @@
 			"auto_tall_tocontents"	"1"
 			"wrap"	"1"
 		}
-	}
+	}	
 }

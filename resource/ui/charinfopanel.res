@@ -1,6 +1,6 @@
 #base "../dev/reloadscheme.res"
 
-"Resource/UI/CharInfoPanel.res"
+"resource/ui/charinfopanel.res"
 {
 	"Character_Info"
 	{
@@ -43,21 +43,6 @@
 		"image"										"replay/thumbnails/loadout_header"
 		"tileImage"									"1"
 	}
-	"BackgroundHeader2"
-	{
-		"ControlName"								"ImagePanel"
-		"fieldName"									"BackgroundHeader2"
-		"xpos"										"0"
-		"ypos"										"0"
-		"zpos"										"-1"
-		"wide"										"f0"
-		"tall"										"120"
-		"visible"									"1"
-		"enabled"									"1"
-		"fillcolor"									"DarkerGray"
-		"tileImage"									"1"
-	}
-
 	"BackgroundFooter"
 	{
 		"ControlName"								"ImagePanel"
@@ -72,20 +57,6 @@
 		"image"										"replay/thumbnails/loadout_bottom_gradient"
 		"tileImage"									"1"
 	}
-	"BackgroundFooter2"
-	{
-		"ControlName"								"ImagePanel"
-		"fieldName"									"BackgroundFooter2"
-		"xpos"										"0"
-		"ypos"										"420"
-		"zpos"										"1"
-		"wide"										"f0"
-		"tall"										"60"
-		"visible"									"1"
-		"enabled"									"1"
-		"fillcolor"									"DarkerGray"
-		"tileImage"									"1"
-	}
 	"FooterLine"
 	{
 		"ControlName"								"ImagePanel"
@@ -95,7 +66,7 @@
 		"zpos"										"2"
 		"wide"										"f0"
 		"tall"										"10"
-		"visible"									"1"
+		"visible"									"0"
 		"enabled"									"1"
 		"image"										"replay/thumbnails/loadout_solid_line"
 		"scaleImage"								"1"

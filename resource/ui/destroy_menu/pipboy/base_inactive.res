@@ -1,4 +1,4 @@
-"Resource/UI/build_menu/base_inactive.res"
+"resource/ui/build_menu/base_inactive.res"
 {
 	"ItemNameLabel"
 	{
@@ -18,6 +18,7 @@
 		"textAlignment"	"Left"
 		"dulltext"		"0"
 		"brighttext"	"0"
+		"fgcolor"		"255 255 255 255"
 	}
 
 	"ItemBackground"

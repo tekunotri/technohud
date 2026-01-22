@@ -1,4 +1,4 @@
-"Resource/UI/TextWindowCustomServer.res"
+"resource/ui/textwindowcustomserver.res"
 {
 	"info"
 	{
@@ -33,7 +33,7 @@
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"ChalkboardTitle"
+		"font"			"HudFont20Shadow"
 		"fgcolor"		"White"
 	}
 

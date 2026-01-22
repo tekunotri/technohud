@@ -1,4 +1,4 @@
-"Resource/UI/HudPlayerHealth.res"
+"resource/ui/hudplayerhealth.res"
 {
 	// player health data, don't mess with this
 	"HudPlayerHealth"
@@ -21,7 +21,10 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue"
 		"xpos"			"c-212"
-		"ypos"			"c113"	
+		"ypos"			"c113"
+		//minmode
+		"xpos_minmode"	"c-172"
+		"ypos_minmode"	"c38"
 		"zpos"			"5"
 		"wide"			"150"
 		"tall"			"40"
@@ -30,6 +33,7 @@
 		"labelText"		"%Health%"
 		"textAlignment"	"center"
 		"font"			"HudFont52Bold"
+		"font_minmode"	"HudFont36Bold"
 		"fgcolor"		"HealthNumbers"
 	}
 	"PlayerStatusHealthValue_Shadow" // actual hp number shadow
@@ -46,6 +50,7 @@
 		"labelText"		"%Health%"
 		"textAlignment"	"center"
 		"font"			"HudFont52Bold"
+		"font_minmode"	"HudFont36Bold"
 		"fgcolor"		"Black"
 		"pin_to_sibling" "PlayerStatusHealthValue"
 	}
@@ -53,15 +58,20 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"c-165"	
-		"ypos"			"c107"	
+		"xpos"			"c-165"
+		"ypos"			"c107"
+		"xpos_minmode"	"c-112"
+		"ypos_minmode"	"c44"
 		"zpos"			"2"
-		"wide"			"55"	
-		"tall"			"55"	
+		"wide"			"55"
+		"tall"			"55"
+		"wide_minmode"	"31"
+		"tall_minmode"	"31"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/overhealcolor/health_over_bg_green"
 		"scaleImage"	"1"
+		//* breaking?
 	}
 	"PlayerStatusMaxHealthValue" // max hp value, shows up above to the right,
 	{

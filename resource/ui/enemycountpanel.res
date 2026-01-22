@@ -1,4 +1,4 @@
-"Resource/UI/EnemyCountPanel.res"
+"resource/ui/enemycountpanel.res"
 {
 	"EnemyCountPanel"
 	{
@@ -18,7 +18,7 @@
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"EnemyCountImage"
 		"xpos"			"3"
-		"ypos"			"2"
+		"ypos"			"4"
 		"zpos"			"3"
 		"wide"			"14"
 		"tall"			"14"
@@ -32,14 +32,14 @@
 		"ControlName"	"Panel"
 		"fieldName"		"EnemyCountImageBG"
 		"xpos"			"2"
-		"ypos"			"1"
+		"ypos"			"3"
 		"zpos"			"2"
 		"wide"			"16"
 		"tall"			"16"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
-		"PaintBackgroundType" "2"
+		"PaintBackgroundType" "0"
 		"bgcolor_override"	"FullWhite"
 	}
 
@@ -48,7 +48,7 @@
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"EnemyCountCritImageBG"
 		"xpos"			"1"
-		"ypos"			"0"
+		"ypos"			"2"
 		"zpos"			"1"
 		"wide"			"18"
 		"tall"			"18"
@@ -67,7 +67,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"EnemyCount"
-		"font"			"HudFont14"
+		"font"			"HudFont12" // this should hopefully fix 3 digit enemy counts
 		"fgcolor"		"FullWhite"
 		"xpos"			"0"
 		"ypos"			"18"
@@ -83,7 +83,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"EnemyCountShadow"
-		"font"			"HudFont14"
+		"font"			"HudFont12"
 		"fgcolor"		"Black"
 		"xpos"			"0"
 		"ypos"			"0"

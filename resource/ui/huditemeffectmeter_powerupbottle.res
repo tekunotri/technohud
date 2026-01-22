@@ -1,4 +1,4 @@
-"Resource/UI/HudItemEffectMeter_PowerupBottles.res"
+"resource/ui/huditemeffectmeter_powerupbottles.res"
 // File fron m0rehud, credits to Hypnotize
 {
 	"HudItemEffectMeter"
@@ -42,7 +42,7 @@
 		"proportionaltoparent"						"1"
 		"labelText"									"/"
 		"textAlignment"								"center"
-		"font"										"Symbols14"
+		"font"										"Icons14"
 		"fgcolor"									"Black"
 	}
 	"ItemEffectMeterCount"

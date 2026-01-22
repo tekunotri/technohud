@@ -1,4 +1,4 @@
-"Resource/UI/disguise_menu/HudMenuSpyDisguise.res"
+"resource/ui/disguise_menu/hudmenuspydisguise.res"
 {
 	"MainBackground"
 	{
@@ -132,22 +132,19 @@
 
 	"BG"
 	{
-		"ControlName"		"ScalableImagePanel"
-		"fieldName"		"BG"
-		"xpos"			"55"
-		"ypos"			"74"
-		"zpos"			"0"
-		"wide"			"266"
-		"tall"			"64"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../hud/color_panel_brown"
-		"src_corner_height"	"23"				// pixels inside the image
-		"src_corner_width"	"23"
-		"draw_corner_width"	"3"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"3"
+		"ControlName"		"ImagePanel"
+		"fieldName"			"BG"
+		"xpos"				"55"
+		"ypos"				"75wa"
+		"zpos"				"0"
+		"wide"				"266"
+		"tall"				"56"
+		"autoResize"		"0"
+		"pinCorner"			"0"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"white"
+		"drawcolor"			"TransparentDarkerGray"
 		"scaleImage"		"1"
 	}
 

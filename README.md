@@ -6,7 +6,7 @@
 
 a clean hud made (mostly) from scratch with darker neutral colors as a theme.
 
-this hud is still a work in progress, and bugs can and will be around, It's possible I may have missed something or forgotten to modify an element.
+this hud is mostly finished, but there's a chance a bug or 2 could have snuck in, if you find any, please report them and i'll get back as soon as i can
 
 [**credits, elements used and thanks**](https://github.com/tekunotri/technohud/wiki/Credits)
 

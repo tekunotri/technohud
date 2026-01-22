@@ -1,4 +1,4 @@
-"Resource/UI/MatchMakingDashboardPopup_NewMatch.res"
+"resource/ui/matchmakingdashboardpopup_newmatch.res"
 {
 	"NewMatchFound"
 	{
@@ -49,7 +49,7 @@
 			"tall"			"f5"
 			"visible"		"1"
 			"PaintBackgroundType"	"2"
-			"border"		"LoadoutItemPopupBorder"
+			"border"		"newmatchborder"
 			"proportionaltoparent"	"1"
 			"pinCorner"		"3"
 
@@ -64,7 +64,7 @@
 				"tall"			"20"
 				"visible"		"1"
 				"enabled"		"1"
-				"font"			"HudFont14Bold"
+				"font"			"HudFontSmallBold"
 				"fgcolor_override"	"TanLight"
 				"textAlignment"	"center"
 				"labelText"		"%match_type%"
@@ -73,9 +73,9 @@
 
 				"fonts"
 				{
-					"0"		"HudFont11Bold"
-					"1"		"HudFont10Bold"
-					"2"		"HudFont9"
+					"0"		"HudFontSmallestBold"
+					"1"		"StorePromotionsTitle"
+					"2"		"FontStorePrice"
 				}
 			}
 
@@ -90,7 +90,7 @@
 				"tall"			"20"
 				"visible"		"1"
 				"enabled"		"1"
-				"font"			"HudFont11Bold"
+				"font"			"HudFontSmallest"
 				"fgcolor_override"	"TanLight"
 				"textAlignment"	"center"
 				"labelText"		"%auto_join%"
@@ -113,7 +113,7 @@
 
 				"enabled"		"1"
 				"tabPosition"	"0"
-				"font"			"HudFont11Bold"
+				"font"			"HudFontSmallestBold"
 				"textAlignment"	"center"
 				"dulltext"		"0"
 				"brighttext"	"0"
@@ -144,13 +144,13 @@
 					"xpos"			"cs-0.5"
 					"wide"			"150"
 				}
-
+				
 				"autoResize"	"0"
 				"pinCorner"		"3"
 				"visible"		"1"
 				"enabled"		"1"
 				"tabPosition"	"0"
-				"font"			"HudFont11Bold"
+				"font"			"HudFontSmallestBold"
 				"textAlignment"	"center"
 				"dulltext"		"0"
 				"brighttext"	"0"
@@ -177,13 +177,13 @@
 				"wide"			"150"
 				"zpos"			"100"
 				"tall"			"15"
-
+				
 				"autoResize"	"0"
 				"pinCorner"		"3"
 				"visible"		"1"
 				"enabled"		"1"
 				"tabPosition"	"0"
-				"font"			"HudFont11Bold"
+				"font"			"HudFontSmallestBold"
 				"textAlignment"	"center"
 				"dulltext"		"0"
 				"brighttext"	"0"
@@ -212,7 +212,7 @@
 				"tall"			"20"
 				"visible"		"1"
 				"enabled"		"1"
-				"font"			"HudFont11Bold"
+				"font"			"HudFontSmallest"
 				"fgcolor_override"	"TanLight"
 				"textAlignment"	"east"
 				"labelText"		"#TF_Matchmaking_RollingQueue_MatchReadyJoining"

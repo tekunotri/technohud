@@ -1,4 +1,4 @@
-"Resource/UI/build_menu/base.res"
+"resource/ui/build_menu/base.res"
 {
 	"ItemNameLabel"
 	{
@@ -18,7 +18,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"fgcolor"		"0 255 0 255"
+		"fgcolor"		"255 255 255 255"
 	}
 
 	"ItemBackground"
@@ -34,7 +34,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"
 		"icon"			"hud_menu_item_bg"
-		"iconColor"		"0 0 0 255"
+		"iconColor"		"ProgressOffWhite"
 	}
 
 	"BuildingIcon"
@@ -50,7 +50,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"
 		"icon"			"hud_menu_sentry_build"
-		"iconColor"		"0 255 0 255"
+		"iconColor"		"255 255 255 255"
 	}
 
 	"MetalIcon"
@@ -66,15 +66,14 @@
 		"enabled"		"0"
 		"scaleImage"	"1"
 		"icon"			"ico_metal"
-		"iconColor"		"0 255 0 255"
+		"iconColor"		"White" //"TanDarker"
 	}
 
 	"CostLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CostLabel"
-		"font"			"HudFont15"
-		"fgcolor"		"0 255 0 255"
+		"font"			"HudFont12Shadow"
 		"xpos"			"3"
 		"ypos"			"50"
 		"zpos"			"1"
@@ -86,9 +85,10 @@
 		"enabled"		"1"
 		"labelText"		"%metal%"
 		"textAlignment"	"center"
+		"fgcolor"		"255 255 255 255"
 	}
 
-	"ModeLabel"
+	"ModeLabel" // new in 29th april 2010 patch
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ModeLabel"
@@ -120,15 +120,15 @@
 		"enabled"		"1"
 		"scaleImage"	"1"
 		"icon"			"ico_key_blank"
-		"iconColor"		"0 255 0 255"
+		"iconColor"		"255 255 255 255"
 	}
 
 	"NumberLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
-		"font"			"HudMenuNumberFont"
-		"fgcolor"		"0 255 0 255"
+		"font"			"HudFont11" //idk what this does
+		"fgcolor"		"Black"
 		"xpos"			"0"
 		"ypos"			"98"
 		"zpos"			"1"

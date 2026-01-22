@@ -1,4 +1,4 @@
-#base "SourceSchemeBase.res"
+#base "sourceschemebase.res"
 //created using the ToonHUD source scheme editor because i dont like messing with this file
 Scheme
 {
@@ -191,7 +191,7 @@ Scheme
 		{
             "1" 
             {
-                "name"         	"GrisaiaEdit"		// Standard is 'Lucida Console' Options are 'Microsoft Sans Serif' 'Georgia' 'Impact' 'Arial MT' and the best for small = 'Haettenschweiler' but is a MS office and Win7 font, can be downloaded, google 'Haettenschweiler' and install in C:/Windows/Fonts
+                "name"         	"grisaiaedit"		// Standard is 'Lucida Console' Options are 'Microsoft Sans Serif' 'Georgia' 'Impact' 'Arial MT' and the best for small = 'Haettenschweiler' but is a MS office and Win7 font, can be downloaded, google 'Haettenschweiler' and install in C:/Windows/Fonts
                 "tall"         	"10"  				// good positioning is ... 'net_graphpos 183' and 'net_graphheight 30' and ensure you select 'antialias'  '1' with all others off with 'Georgia' font.
                 "weight"     	"0"  				// This is the thickness, like a bold setting max is about 700. Small fonts will look better as '0'.
                 "range"         "0x0000 0x017F" 	//    Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -345,7 +345,7 @@ Scheme
 	{
 		"6" 
 		{
-			"font" "resource/TF2Build.ttf"
+			"font" "resource/tf2build.ttf"
 			"name" "TF2 Build"
 			"turkish"
 			{
@@ -402,7 +402,15 @@ Scheme
 			"russian"
 			{
 				"range" "0x0000 0x0451"
-			}	
+			}
+		}
+		"7"
+		{
+			"font" "resource/fonts/grisaia.ttf"
+			"name" "grisaiaedit"
+			"antialias" "1"
+			"additive" "0"
+			"outline" "1"
 		}
 	}
 }

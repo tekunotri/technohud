@@ -15,6 +15,5 @@ stuffcmds
 // display the startup level. Remove this if you're using background images instead of maps
 startupmenu
 
-
-// some commands
-cl_hud_minmode 0 // forces minmode off, not supported right now --12/01/24
+//exec the entire customization (if this doesen't work, check for other valve.rc files!!!)
+exec th_customization.cfg
