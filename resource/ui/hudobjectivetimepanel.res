@@ -60,12 +60,12 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"WaitingForPlayersLabel"
-		"xpos"			"22"
+		"xpos"			"10"
 		"xpos_minmode"			"25"
 		"ypos"			"34"
 		"ypos_minmode"	"27"
 		"zpos"			"5"
-		"wide"			"78"
+		"wide"			"100"
 		"tall"			"19"
 		"visible"		"0"
 		"enabled"		"1"
@@ -78,7 +78,7 @@
 		if_match
 		{
 			"proportionaltoparent"	"1"
-			"xpos"					"0"
+			"xpos"					"3"
 			"ypos"					"21"
 			"ypos_minmode"			"21"
 			"wide"					"p1"
