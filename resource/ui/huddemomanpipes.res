@@ -46,7 +46,7 @@
 		"bgcolor_override"	"ItemMeterBG"
 	}
 
-	// both of these are always gonna be slightly off center, but it's w/e, do cs-0.5+8 or 9 for preference
+	// both of these are always gonna be slightly off center, but it's w/e, do cs-0.5+8 or 9 for preference (or whatever other number)
 	"PipesPresentPanel"
 	{
 		"ControlName"	"EditablePanel"
@@ -61,8 +61,9 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"NumPipesLabel"
-			"xpos"			"cs-0.5+9"
-			"ypos"			"r105"
+			"xpos"			"cs-0.5+7"
+			"ypos"			"r120"
+			"ypos_minmode"	"r165"
 			"zpos"			"2"
 			"wide"			"30"
 			"tall"			"20"
@@ -76,6 +77,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"font"			"HudFont24"
+			"font_minmode"	"HudFont18"
 			"fgcolor"		"FullWhite"
 		}
 		"NumPipesLabelDropshadow"
@@ -97,6 +99,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"font"			"HudFont24"
+			"font_minmode"	"HudFont18"
 			"fgcolor"		"Black"
 			"pin_to_sibling" "NumPipesLabel"
 		}
@@ -116,8 +119,9 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"NumPipesLabel"
-			"xpos"			"cs-0.5+9"
-			"ypos"			"r105"
+			"xpos"			"cs-0.5+7"
+			"ypos"			"r120"
+			"ypos_minmode"	"r165"
 			"zpos"			"2"
 			"wide"			"30"
 			"tall"			"20"
@@ -131,8 +135,8 @@
 			"dulltext"		"1"
 			"brighttext"	"0"
 			"font"			"HudFont24"
+			"font_minmode"	"HudFont18"
 			"fgcolor"		"FullWhite"
-
 		}
 		"NumPipesLabelDropshadow"
 		{
@@ -153,6 +157,7 @@
 			"dulltext"		"1"
 			"brighttext"	"0"
 			"font"			"HudFont24"
+			"font_minmode"	"HudFont18"
 			"fgcolor"		"Black"
 			"pin_to_sibling" "NumPipesLabel"
 		}

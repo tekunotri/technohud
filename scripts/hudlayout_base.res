@@ -78,8 +78,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"cs-0.5"	
-		"ypos"			"r115"
-		"ypos_minmode"	"r190"
+		"ypos"			"r95"
+		"ypos_minmode"	"r170"
 		"zpos"			"1"			// draw in front of ammo
 		"wide"			"120"
 		"tall"			"8"

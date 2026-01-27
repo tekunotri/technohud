@@ -130,7 +130,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueScore"
-		"xpos"			"cs-0.5-15"
+		"xpos"			"cs-0.5-16"
 		"ypos"			"rs1-4"
 		"zpos"			"8"
 		"wide"			"75"
