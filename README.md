@@ -6,7 +6,9 @@
 
 a clean hud made (mostly) from scratch with darker neutral colors as a theme.
 
-this hud is still a work in progress, and bugs can and will be around, It's possible I may have missed something or forgotten to modify an element.
+this is a "legacy" version of the hud for people who dont feel like using log-base or want an easier base for editing
+
+this version will only recieve updates if they are hud-breaking (not many, i guess)
 
 [**credits, elements used and thanks**](https://github.com/tekunotri/technohud/wiki/Credits)
 
