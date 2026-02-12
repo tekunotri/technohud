@@ -181,6 +181,11 @@
 			"font"	"resource/fonts/fonts_custom/gilroy_medium.ttf"
 			"name"	"gilroy_medium"
 		}
+		"20"
+		{
+			"font"	"resource/fonts/fonts_custom/publicsans_extrabold.ttf"
+			"name"	"publicsans_extrabold"
+		}
 		"500"
 		{
 			"font"	"resource/fonts/blocks.ttf"

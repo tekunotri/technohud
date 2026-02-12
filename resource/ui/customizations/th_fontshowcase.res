@@ -101,5 +101,14 @@
                 "antialias" "1"
             }
         }
+        "showcase_publicsans"
+        {
+            "1"
+            {
+                "name"      "publicsans_extrabold"
+                "tall"      "11"
+                "antialias" "1"
+            }
+        }
     }
 }

@@ -774,6 +774,25 @@
 						"Command"						"engine th_gilroy"
 						"sound_depressed"				"UI/buttonclick.wav"
 					}
+					"PublicSans" //reminder: add 14 to the ypos of the next font
+					{
+						"ControlName"					"CExButton"
+						"fieldName"						"Gilroy"
+						"xpos"							"cs-0.5"
+						"ypos"							"154"
+						"zpos"							"20"
+						"wide"							"f0"
+						"tall"							"12"
+						"visible"						"1"
+						"enabled"						"1"
+						"proportionaltoparent"			"1"
+						"actionsignallevel"				"5"
+						"labelText"						"Public Sans ExBold"
+						"font"							"showcase_publicsans"
+						"textAlignment"					"center"
+						"Command"						"engine th_publicsans"
+						"sound_depressed"				"UI/buttonclick.wav"
+					}
 				}
 			}
 //==============================================================================================================================
