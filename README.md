@@ -2,7 +2,7 @@
 
 # technohud // [screenshots](https://imgur.com/a/aHdoUKi)
 
-![technohud-banner-github](https://i.imgur.com/ZpJJDlp.png)
+![technohud-banner-github](https://i.imgur.com/QwmqgtN.png)
 
 a clean hud made (mostly) from scratch with darker neutral colors as a theme.
 
